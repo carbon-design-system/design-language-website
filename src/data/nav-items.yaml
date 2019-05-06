@@ -1,6 +1,6 @@
 - title: Philosophy
   pages:
-    - path: /philosophy
+    - path: /philosophy/pov
 - title: Gallery
   pages:
     - path: /gallery
@@ -21,7 +21,7 @@
     - title: 2x Grid UI
       path: /elements/2x-grid-ui
     - title: Logos
-      path: /elements/logos
+      path: /elements/logos/8-bar
     - title: Icons
       path: /elements/icons
     - title: Icon library
