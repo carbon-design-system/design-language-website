@@ -13,8 +13,8 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "gatsby": "^2.3.5",
-    "gatsby-theme-carbon": "^0.0.5",
+    "gatsby": "^2.4.2",
+    "gatsby-theme-carbon": "^0.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
