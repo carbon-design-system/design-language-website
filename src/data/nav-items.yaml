@@ -23,15 +23,15 @@
     - title: Logos
       path: /elements/logos/8-bar
     - title: Icons
-      path: /elements/icons
+      path: /elements/icons/overview
     - title: Icon library
       path: /elements/icon-library
     - title: App icons
       path: /elements/app-icons
     - title: Pictograms
-      path: /elements/pictograms
+      path: /elements/pictograms/overview
     - title: Photography
-      path: /elements/photography
+      path: /elements/photography/overview
     - title: Motion
       path: /elements/motion
 - title: Disciplines
