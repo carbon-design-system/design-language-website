@@ -1,13 +1,13 @@
 {
   "name": "design-language-website",
-  "version": "0.0.5",
+  "version": "0.0.0",
   "main": "src",
   "repository": {
     "url": "git@github.com:carbon-design-system/gatsby-theme-carbon.git",
     "type": "git"
   },
-  "author": "vpicone <vp@vincepic.one> (@vpicone)",
-  "license": "MIT",
+  "author": "Alison Joseph <alison.joseph@us.ibm.com>",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "yarn clean:cache && gatsby develop",
     "develop": "gatsby develop",
