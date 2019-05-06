@@ -33,10 +33,14 @@
     - title: Photography
       path: /elements/photography/overview
     - title: Motion
-      path: /elements/motion
+      path: /elements/motion/basics
 - title: Disciplines
   pages:
+    - title: Brand (disabled)
     - title: Product
       path: /disciplines/product
     - title: Digital
       path: /disciplines/digital
+    - title: Industrial (disabled)
+    - title: Content (disabled)
+    - title: Events (disabled)
