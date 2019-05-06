@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-carbon-starter",
+  "name": "design-language-website",
   "version": "0.0.5",
   "main": "src",
   "repository": {
@@ -9,8 +9,11 @@
   "author": "vpicone <vp@vincepic.one> (@vpicone)",
   "license": "MIT",
   "scripts": {
+    "dev": "yarn clean:cache && gatsby develop",
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean:cache": "rm -rf .cache"
   },
   "dependencies": {
     "gatsby": "^2.4.2",

@@ -1,0 +1,42 @@
+- title: Philosophy
+  pages:
+    - path: /philosophy
+- title: Gallery
+  pages:
+    - path: /gallery
+- title: Elements
+  pages:
+    - title: Typeface
+      path: /elements/typeface
+    - title: Type basics
+      path: /elements/type-basics
+    - title: Type specs UI
+      path: /elements/type-specs-ui
+    - title: Color
+      path: /elements/color
+    - title: Color UI
+      path: /elements/color-ui
+    - title: 2x Grid
+      path: /elements/2x-grid
+    - title: 2x Grid UI
+      path: /elements/2x-grid-ui
+    - title: Logos
+      path: /elements/logos
+    - title: Icons
+      path: /elements/icons
+    - title: Icon library
+      path: /elements/icon-library
+    - title: App icons
+      path: /elements/app-icons
+    - title: Pictograms
+      path: /elements/pictograms
+    - title: Photography
+      path: /elements/photography
+    - title: Motion
+      path: /elements/motion
+- title: Disciplines
+  pages:
+    - title: Product
+      path: /disciplines/product
+    - title: Digital
+      path: /disciplines/digital
