@@ -12,7 +12,13 @@ import {
   Ol
 } from "gatsby-theme-carbon/src/components/markdown";
 import PageTable from "gatsby-theme-carbon/src/components/PageTable";
-import { AnchorLinks, PageDescription } from "gatsby-theme-carbon";
+import {
+  AnchorLinks,
+  PageDescription,
+  Video,
+  Row,
+  Column
+} from "gatsby-theme-carbon";
 
 const components = {
   wrapper: function Wrapper({ children, ...props }) {
@@ -29,7 +35,10 @@ const components = {
   pre: WebsiteCodeSnippet,
   table: PageTable,
   PageDescription,
-  AnchorLinks
+  AnchorLinks,
+  Video,
+  Row,
+  Column
 };
 
 const MDXProvider = ({ children }) => (

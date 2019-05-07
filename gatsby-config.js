@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Theme Carbon"
+    title: "IBM Design Language"
   },
   __experimentalThemes: [
     {
