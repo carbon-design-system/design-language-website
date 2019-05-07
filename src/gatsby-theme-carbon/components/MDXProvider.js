@@ -14,8 +14,10 @@ import {
 import PageTable from "gatsby-theme-carbon/src/components/PageTable";
 import {
   AnchorLinks,
+  AnchorLink,
   PageDescription,
   Video,
+  ResourceCard,
   Row,
   Column
 } from "gatsby-theme-carbon";
@@ -36,9 +38,11 @@ const components = {
   table: PageTable,
   PageDescription,
   AnchorLinks,
+  AnchorLink,
   Video,
   Row,
-  Column
+  Column,
+  ResourceCard
 };
 
 const MDXProvider = ({ children }) => (
