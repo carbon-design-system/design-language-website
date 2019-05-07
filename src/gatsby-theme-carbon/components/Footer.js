@@ -1,36 +1,43 @@
-import React from 'react';
-import Footer from 'gatsby-theme-carbon/src/components/Footer';
+import React from "react";
+import Footer from "gatsby-theme-carbon/src/components/Footer";
 
 const Content = () => (
   <>
     <p>
-      By importing the <code>Footer</code> component from gatsby-carbon-theme,
-      we can supply our own props.
+      Have questions? Email us or open
+      <br /> an issue in{" "}
+      <a href="https://github.com/carbon-design-system/carbon-website/issues/new/choose">
+        GitHub.
+      </a>
     </p>
-    <br />
     <p>
-      The default export from a shadowed component will replace that component
-      in the theme.
+      Last updated Jan 1, 1800
+      <br />
+      sCopyright © 2019 IBM
     </p>
-    <br />
-    <a href="https://www.gatsbyjs.org/docs/themes/api-reference/#component-shadowing">
-      More about component shadowing
-    </a>
   </>
 );
 
 const links = {
   firstCol: [
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
+    {
+      href: "https://www.carbondesignsystem.com/contributing/designers/",
+      linkText: "Contribute"
+    },
+    {
+      href: "https://www.ibm.com/privacy/us/en/?lnk=flg-priv-usen",
+      linkText: "Privacy"
+    },
+    {
+      href: "https://www.ibm.com/legal/us/en/?lnk=flg-tous-usen",
+      linkText: "Terms of Use"
+    },
+    { href: "https://ibm.com/design", linkText: "IBM.com" }
   ],
   secondCol: [
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-  ],
+    { href: "https://twitter.com/ibmdesign", linkText: "Twitter" },
+    { href: "https://facebook.com/ibmdesign", linkText: "Facebook" }
+  ]
 };
 
 const CustomFooter = props => (
