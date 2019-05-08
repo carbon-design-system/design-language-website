@@ -16,6 +16,9 @@
     "clean:cache": "rm -rf .cache"
   },
   "dependencies": {
+    "@carbon/elements": "^10.1.1",
+    "carbon-components": "^10.2.0",
+    "carbon-components-react": "^6.114.1",
     "gatsby": "^2.4.2",
     "gatsby-theme-carbon": "^0.4.0",
     "react": "^16.8.6",

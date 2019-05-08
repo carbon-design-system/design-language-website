@@ -1,0 +1,15 @@
+//---------------------------------------
+// Carbon core
+//---------------------------------------
+
+// colors, spacing, theme-tokens, functions, motion
+@import "~carbon-components/scss/globals/scss/vars";
+
+// mixins
+@import "~@carbon/elements/scss/layout/breakpoint";
+@import "~@carbon/elements/scss/type/styles";
+
+//---------------------------------------
+// Custom components
+//---------------------------------------
+@import "../components/TypeFaceSubFamilies/typeface-sub-families.scss";
