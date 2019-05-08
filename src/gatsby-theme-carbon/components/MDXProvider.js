@@ -19,7 +19,8 @@ import {
   Video,
   ResourceCard,
   Row,
-  Column
+  Column,
+  Aside
 } from "gatsby-theme-carbon";
 
 const components = {
@@ -42,7 +43,8 @@ const components = {
   Video,
   Row,
   Column,
-  ResourceCard
+  ResourceCard,
+  Aside
 };
 
 const MDXProvider = ({ children }) => (
