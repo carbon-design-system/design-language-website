@@ -3,6 +3,8 @@ title: Typeface
 ---
 
 import TypefaceSubFamilies from "../../components/TypeFaceSubFamilies";
+import TypeTester from "../../components/TypeTester";
+import NonLatinScripts from "../../components/NonLatinScripts";
 
 <PageDescription>
   IBM Plex™ is our new corporate typeface. It has been carefully designed to
@@ -68,13 +70,44 @@ With four subfamilies, eight weights, and two styles (roman & italic), IBM Plex�
 
 We’ve included the typetester so you can play with Plex and explore all its styles, weights and languages. The typeface really comes to life once it’s set in words or paragraphs so feel free to type away!
 
--- ADD TYPETESTER COMPONENT --
+<TypeTester />
 
 ## Typeface features
 
 IBM Plex comes with some additional basic features like ligatures across Sans and Serif as well as fractions, arrows, alternate glyphs and global currency symbols. These can be accessed through OpenType features and glyph palettes in the standard design tools available. Get the [latest Plex](https://github.com/IBM/plex/releases/latest).
 
--- ADD IMAGES IN GRID --
+<Row>
+<Column colMd={2} colLg={4}>
+
+![Alt text](images/sans-ligatures.svg)
+
+</Column>
+<Column colMd={2} colLg={4}>
+
+![Alt text](images/serif-ligatures.svg)
+
+</Column>
+<Column colMd={2} colLg={4}>
+
+![Alt text](images/fractions.svg)
+
+</Column>
+<Column colMd={2} colLg={4}>
+
+![Alt text](images/alternate-glyphs.svg)
+
+</Column>
+<Column colMd={2} colLg={4}>
+
+![Alt text](images/currency-symbols.svg)
+
+</Column>
+<Column colMd={2} colLg={4}>
+
+![Alt text](images/arrows.svg)
+
+</Column>
+</Row>
 
 ## Mono vs. sans
 
@@ -93,13 +126,58 @@ Afrikaans Albanian Asu Azerbaijani Basque Belarusian Bemba Bena Bosnian Breton B
 
 Global languages are part of the long-term plan for the IBM Plex typeface family. Non-Latin language designs are currently in development. The available non-Latin are shown below with what’s also in the pipeline.
 
--- ADD NON LATIN SCRIPT COMPONENT --
+<NonLatinScripts />
 
 ### Asian scripts
 
 The Chinese, Japanese and Korean (CJK) are currently in our development schedule and will kick-off later in 2018 and carry on until the end of 2020 or maybe sooner. The Hangul (Korean) will be the first in development and will be complete end of 2019. In the meantime we have chosen CJK typefaces that can work well with the IBM Plex Family.
 
--- ADD TILES --
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Simplified Chinese Noto Sans CJK SC"
+      aspectRatio="2:1"
+      href="https://www.google.com/get/noto/#sans-hant"
+      >
+
+![](/images/google.svg)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Traditional Chinese Noto Sans CJK TC"
+      aspectRatio="2:1"
+      href="https://www.google.com/get/noto/#sans-hant"
+      >
+
+![](/images/google.svg)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Japanese Noto Sans JP"
+      aspectRatio="2:1"
+      href="https://fonts.google.com/specimen/Noto+Sans+JP"
+      >
+
+![](/images/f.svg)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Traditional Chinese Noto Sans CJK TC"
+      aspectRatio="2:1"
+      href="https://fonts.google.com/specimen/Noto+Sans+KR"
+      >
+
+![](/images/f.svg)
+
+  </ResourceCard>
+</Column>
+</Row>
 
 ## Open source licenses
 
@@ -109,7 +187,31 @@ IBM Plex design has been awarded a patent and is the intellectual property of IB
 
 Because Plex is open source we felt it was important to include it in the Google Fonts and Adobe Typekit Libraries to help make it available for all people to use. However, the fonts in these libraries may not have the latest versions so we always recommend going to the [IBM Plex GitHub](https://github.com/IBM/plex/releases/latest) repo.
 
--- ADD TILES --
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Check out IBM Plex™ Google Fonts"
+      aspectRatio="2:1"
+      href="https://fonts.google.com/?query=ibm+plex"
+      >
+
+![](/images/f.svg)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Check out IBM Plex™ Adobe Typekit"
+      aspectRatio="2:1"
+      href="https://typekit.com/foundries/ibm"
+      >
+
+![](/images/typekit.svg)
+
+  </ResourceCard>
+</Column>
+
+</Row>
 
 ## Design team
 

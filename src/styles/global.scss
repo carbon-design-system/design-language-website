@@ -10,6 +10,9 @@
 @import "~@carbon/elements/scss/type/styles";
 
 //---------------------------------------
-// Custom components
+// IDL specific components
 //---------------------------------------
 @import "../components/TypeFaceSubFamilies/typeface-sub-families.scss";
+@import "../components/InputRange/input-range.scss";
+@import "../components/TypeTester/type-tester.scss";
+@import "../components/NonLatinScripts/non-latin-script.scss";
