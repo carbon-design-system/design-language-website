@@ -68,7 +68,7 @@ class NonLatinScript extends React.Component {
               }
             )}
           >
-            <img className={`${prefix}--non-latin-image-type-sample`} />
+            <img alt="" className={`${prefix}--non-latin-image-type-sample`} />
             &nbsp;
           </div>
         )}

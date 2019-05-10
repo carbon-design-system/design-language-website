@@ -805,7 +805,7 @@
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.1.1.tgz#08affd6f68936ba48beca7a732b0e70bd5ab8ca0"
   integrity sha512-FwuAuALKOY2XqPoW5aiIsCYLqzERNeFhuSILMlTtlZptHdZnZC/HdUWiNS7jZIvQO+jC1FVUc/UX9FK8Nh36ow==
 
-"@carbon/icons-react@^0.0.1-beta.2", "@carbon/icons-react@^0.0.1-beta.4":
+"@carbon/icons-react@^0.0.1-beta.4":
   version "0.0.1-beta.5"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-0.0.1-beta.5.tgz#77f7ffb4f3a1376cc990db72f524e7ecf3291b33"
   integrity sha512-Cigh18dQHgS5pnqfLpp/wjrUBRRd05KC9A3Iloa3WWMlRCy6/Mgoe6Zg0teMOEIYrfoGFx29bgWeeyvzrufLLw==
@@ -2470,24 +2470,6 @@ capture-stack-trace@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/capture-stack-trace/-/capture-stack-trace-1.0.1.tgz#a6c0bbe1f38f3aa0b92238ecb6ff42c344d4135d"
   integrity sha512-mYQLZnx5Qt1JgB1WEiMCf2647plpGeQ2NMR/5L0HNZzGQo4fuSPnK+wjfPnKZV0aiJDgzmWqqkV/g7JD+DW0qw==
-
-carbon-components-react@^6.114.1:
-  version "6.114.1"
-  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-6.114.1.tgz#47402371c8262f0ac1a90fb126def997dffab7fc"
-  integrity sha512-mB0focC7a7T2Y7tNXm539CbONs98DcGFRF0c1q0oCzhj9NvlFbdZTuQ0xoR+RTYzTbzKEU0OzMEjHZHMTro5uw==
-  dependencies:
-    "@carbon/icons-react" "^0.0.1-beta.2"
-    classnames "2.2.6"
-    downshift "^1.31.14"
-    flatpickr "4.5.5"
-    focus-trap-react "^6.0.0"
-    invariant "^2.2.3"
-    lodash.debounce "^4.0.8"
-    lodash.isequal "^4.5.0"
-    lodash.omit "^4.5.0"
-    react-is "^16.8.2"
-    warning "^3.0.0"
-    window-or-global "^1.0.1"
 
 carbon-components-react@^7.2.0:
   version "7.2.0"
@@ -5323,6 +5305,20 @@ gatsby-react-router-scroll@^2.0.7:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
+gatsby-remark-copy-linked-files@^2.0.12:
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-2.0.12.tgz#0c6596194575489d875151932b60587fef645fd5"
+  integrity sha512-6Al7lTKm2VHmivHWAxY3Xi5bkfyqDVcjZhPM2WYe/BCzFcyrxYkaO1uSzGqamIS6Mf1gZagfZLedMoZuY9UMhA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    cheerio "^1.0.0-rc.2"
+    fs-extra "^4.0.1"
+    is-relative-url "^2.0.0"
+    lodash "^4.17.10"
+    path-is-inside "^1.0.2"
+    probe-image-size "^4.0.0"
+    unist-util-visit "^1.3.0"
+
 gatsby-remark-images@^3.0.11:
   version "3.0.11"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.0.11.tgz#248d3575720802df67f4320feb4dceb42188ac57"
@@ -5410,10 +5406,10 @@ gatsby-telemetry@^1.0.9:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-theme-carbon@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-0.4.0.tgz#9e06e91b91392525654c479b0a3fa6ed48d38895"
-  integrity sha512-NTooFdSIh7GX6y08eYTQJPl+i9Djx2VOP7lk3HQDkiT0pyU2wC/Uq932cT8kqK0itFxxpFSEenQB2dw0/4jrIQ==
+gatsby-theme-carbon@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-0.5.0.tgz#73532a4615817fbdeedf37b72e2595f6fea6061c"
+  integrity sha512-2LnYSjp7FUtBkjtf1/cMPxzBbmxEqBGNpy16/Emu5x6RqHAr1+G2LvaB4yj9quupdGrDZlHpuXOlCDSBX18LdA==
   dependencies:
     "@carbon/addons-website" "0.0.1-alpha.21"
     "@carbon/colors" "^10.1.1"
@@ -5439,12 +5435,14 @@ gatsby-theme-carbon@^0.4.0:
     gatsby-plugin-react-helmet "^3.0.12"
     gatsby-plugin-sass "^2.0.11"
     gatsby-plugin-sharp "^2.0.36"
+    gatsby-remark-copy-linked-files "^2.0.12"
     gatsby-remark-images "^3.0.11"
     gatsby-remark-responsive-iframe "^2.1.1"
     gatsby-remark-smartypants "^2.0.9"
     gatsby-remark-unwrap-images "^1.0.1"
     gatsby-source-filesystem "^2.0.31"
     gatsby-transformer-yaml "^2.1.12"
+    github-slugger "^1.2.1"
     lodash "^4.17.11"
     mkdirp "^0.5.1"
     node-sass "^4.11.0"
@@ -9982,7 +9980,7 @@ react-hot-loader@^4.6.2:
     shallowequal "^1.0.2"
     source-map "^0.7.3"
 
-react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.2, react-is@^16.8.6:
+react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==

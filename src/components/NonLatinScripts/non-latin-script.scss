@@ -6,7 +6,7 @@ $font-prefix: "/fonts";
 
 .#{$prefix}--non-latin-coming-soon-sticker {
   margin-bottom: 0;
-  padding: 2.5rem;
+  padding: $spacing-07;
   border-radius: 100%;
   color: $carbon--white-0;
   background-color: $carbon--purple-60;
@@ -52,15 +52,19 @@ $font-prefix: "/fonts";
   box-sizing: content-box;
   height: calc(3.625rem + (7.38636vw - 1.47727rem));
   width: auto;
+
   @include carbon--breakpoint("md") {
     height: calc(5.85rem + (6.25vw - 2.625rem));
   }
+
   @include carbon--breakpoint("lg") {
     height: calc(7.85rem + (11.71875vw - 7.73438rem));
   }
+
   @include carbon--breakpoint("xlg") {
     height: calc(10.7rem + (12.5vw - 10.25rem));
   }
+
   @include carbon--breakpoint("max") {
     height: 12.85rem;
   }
@@ -97,14 +101,17 @@ $font-prefix: "/fonts";
     margin-top: -0.5rem;
     margin-bottom: $spacing-03 !important;
   }
+
   @include carbon--breakpoint("lg") {
     margin-top: -1.5rem;
     margin-bottom: $spacing-03 !important;
   }
+
   width: 100%;
   color: $carbon--gray-90;
   -webkit-text-fill-color: $carbon--gray-90; // Needs manual autoprefixing
   line-height: 2em; // Fix weird font-cropping issue on Chrome
+
   &::selection {
     background: $carbon--purple-20;
   }
@@ -121,6 +128,7 @@ $font-prefix: "/fonts";
     margin-bottom: $spacing-05 !important;
     padding-bottom: $spacing-05;
   }
+
   @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
     line-height: 100%;
   }
@@ -135,12 +143,14 @@ $font-prefix: "/fonts";
   @include carbon--breakpoint("md") {
     padding-top: $spacing-05 !important;
   }
+
   @include carbon--breakpoint-down("md") {
     margin-top: 0rem !important;
     margin-bottom: $spacing-05;
     line-height: 1.5em;
     padding-bottom: 0;
   }
+
   @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
     margin-top: 0rem !important;
     margin-bottom: $spacing-05;
@@ -184,6 +194,7 @@ $font-prefix: "/fonts";
     padding-top: 0;
     padding-bottom: 0;
   }
+
   @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
     padding-top: 0;
     padding-bottom: 0;
@@ -192,7 +203,7 @@ $font-prefix: "/fonts";
 
 .#{$prefix}--non-latin-outer-spacing {
   margin-top: $spacing-07;
-  margin-bottom: 3rem;
+  margin-bottom: $spacing-09;
 }
 
 .#{$prefix}--type-mono,

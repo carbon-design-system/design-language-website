@@ -7,6 +7,7 @@
 .#{$prefix}--hide {
   display: none;
 }
+
 .#{$prefix}--show {
   display: block;
 }
@@ -21,20 +22,8 @@
   }
 }
 
-.#{$prefix}--subfamilies-tabs-container {
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
-}
-
 .#{$prefix}--subfamilies-dropdown-container {
   width: 100%;
-  margin-left: -1rem;
-  margin-right: -1rem;
-
-  @include carbon--breakpoint("sm") {
-    margin-left: -0.5rem;
-    margin-right: 0rem;
-  }
 }
 
 .#{$prefix}--subfamilies-button {
@@ -44,8 +33,8 @@
   background-color: $carbon--white-0;
   box-sizing: border-box !important;
   border: none;
-  border-bottom: rem(1px) solid $carbon--gray-20;
-  border-right: rem(1px) solid $carbon--gray-20;
+  border-bottom: 1px solid $carbon--gray-20;
+  border-right: 1px solid $carbon--gray-20;
   cursor: pointer;
   height: 3rem;
   position: relative;
@@ -74,36 +63,19 @@
   }
 }
 
-.#{$prefix}--padding-left-none {
-  padding-left: 0 !important;
-}
-
-.#{$prefix}--subfamilies {
-  width: calc(100% + 1.5rem) !important;
-  margin-right: 0rem;
-  margin-left: -0.25rem;
-
-  @include carbon--breakpoint("md") {
-    width: calc(100% + 1rem) !important;
-    margin-right: -1rem;
-    margin-left: -0.25rem;
-  }
-}
-
 .#{$prefix}--subfamilies-TypeTesterExample {
   @include carbon--type-style("expressive-heading-05");
   background-color: $carbon--white-0;
   padding-top: $spacing-05;
   padding-bottom: 2.5rem;
   margin-bottom: 0;
-  margin-left: -0.5rem !important;
-  margin-right: -0.5rem !important;
-
-  @include carbon--breakpoint("md") {
-    margin-left: -0.5rem !important;
-  }
+  display: flex;
 
   .ibm-type-italic {
     font-style: italic;
   }
+}
+
+.#{$prefix}--subfamilies-TypeTesterExample__column {
+  width: 50%;
 }
