@@ -6,7 +6,7 @@ const Content = () => (
     <p>
       Have questions? Email us or open
       <br /> an issue in{" "}
-      <a href="https://github.com/carbon-design-system/carbon-website/issues/new/choose">
+      <a href="https://github.com/carbon-design-system/design-language-website/issues/new/choose">
         GitHub.
       </a>
     </p>
