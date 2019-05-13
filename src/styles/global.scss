@@ -10,7 +10,12 @@
 @import "~@carbon/elements/scss/type/styles";
 
 //---------------------------------------
-// IDL specific components
+// IDL page
+//---------------------------------------
+@import "images";
+
+//---------------------------------------
+// IDL components
 //---------------------------------------
 @import "../components/TypeFaceSubFamilies/typeface-sub-families.scss";
 @import "../components/InputRange/input-range.scss";
