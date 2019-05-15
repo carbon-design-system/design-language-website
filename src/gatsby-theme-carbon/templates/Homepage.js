@@ -1,5 +1,6 @@
 import React from "react";
 import { HomepageCallout } from "gatsby-theme-carbon";
+import HomepageVideo from "../../components/HomepageVideo";
 
 // Component to be shadowed
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
@@ -21,11 +22,16 @@ const FirstRightText = () => (
 );
 
 const customProps = {
-  Banner: <div>Add homepage video</div>,
+  Banner: (
+    <HomepageVideo
+      src="https://design-language-api.mybluemix.net/videos/typeface_02.mp4"
+      poster="https://design-language-api.mybluemix.net/images/TypefaceSecondVideoPoster.gif"
+    />
+  ),
   FirstCallout: (
     <HomepageCallout leftText={FirstLeftText} rightText={FirstRightText} />
   ),
-  SecondCallout: <></>
+  SecondCallout: null
 };
 
 // spreading the original props gives us props.children (mdx content)

@@ -233,7 +233,7 @@ class TypeTester extends Component {
 
   getDefaultTextForVariant = (variant, lastVariant) => {
     if (
-      this.getLanguageForVariant(variant) !=
+      this.getLanguageForVariant(variant) !==
       this.getLanguageForVariant(lastVariant)
     ) {
       return languageSample.find(
