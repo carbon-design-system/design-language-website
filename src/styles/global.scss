@@ -17,7 +17,10 @@
 //---------------------------------------
 // IDL components
 //---------------------------------------
-@import "../components/TypeFaceSubFamilies/typeface-sub-families.scss";
-@import "../components/InputRange/input-range.scss";
-@import "../components/TypeTester/type-tester.scss";
-@import "../components/NonLatinScripts/non-latin-script.scss";
+@import "../components/TypeFaceSubFamilies/typeface-sub-families";
+@import "../components/InputRange/input-range";
+@import "../components/TypeTester/type-tester";
+@import "../components/NonLatinScripts/non-latin-script";
+@import "../components/PlayPauseButton/play-pause-button";
+@import "../components/VideoInternal/video-internal";
+@import "../components/HomepageVideo/homepage-video";
