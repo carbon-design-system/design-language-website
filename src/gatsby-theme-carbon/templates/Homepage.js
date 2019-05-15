@@ -1,5 +1,5 @@
 import React from "react";
-import { HomepageCallout, HomepageBanner } from "gatsby-theme-carbon";
+import { HomepageCallout } from "gatsby-theme-carbon";
 
 // Component to be shadowed
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
