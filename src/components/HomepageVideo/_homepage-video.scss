@@ -1,6 +1,7 @@
 .#{$prefix}--homepage-video-container {
   position: relative;
   height: 150vw;
+  margin-top: 3rem;
 
   @include carbon--breakpoint("md") {
     height: 50vw;
