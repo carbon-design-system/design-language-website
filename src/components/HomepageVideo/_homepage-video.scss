@@ -34,6 +34,10 @@
   @include carbon--breakpoint("md") {
     padding-right: 0 !important;
   }
+
+  @include carbon--breakpoint("lg") {
+    margin-left: 2rem;
+  }
 }
 
 .#{$prefix}--homepage-video-container-cta {

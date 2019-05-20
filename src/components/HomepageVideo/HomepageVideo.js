@@ -65,7 +65,7 @@ class HomepageVideo extends Component {
                 className={`${prefix}--homepage-video-container-cta ${prefix}--row`}
               >
                 <Link
-                  className={`${prefix}--homepage-video-cta ${prefix}--offset-md-4 ${prefix}--col-md-2 ${prefix}--offset-lg-8 ${prefix}--col-lg-4`}
+                  className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
                   to="/philosophy/"
                 >
                   <p className={`${prefix}--type-expressive-heading-03`}>
