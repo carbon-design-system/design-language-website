@@ -119,4 +119,107 @@ For example, when the user resizes their browser, is their goal to: **See more t
 
 ## Grid influencers
 
+Within a design system, layouts often follow a common structure, especially with regard to navigational patterns. This section covers which of these UI patterns you’ll need, where users will expect to see them on a page and how they’ll affect the content that lives within the responsive grid. Hence the name “Grid influencers.”
+
+<AnchorLinks small>
+  <AnchorLink>Screen regions</AnchorLink>
+  <AnchorLink>Panel behavior</AnchorLink>
+</AnchorLinks>
+
+### Scren regions
+
+In a UI layout, users expect to find certain types of content in certain areas. We call these areas Screen Regions. It is especially important for these zones to be consistent across devices, and adapt across breakpoints.
+
+-- IMAGE --
+
+-- IMAGE --
+
+-- IMAGE --
+
+### Panel behavior
+
+All vertical panels expand to fill the full height of the browser window.
+
+#### Flexible panels
+
+The Flexible Panels allow for both collapsed and expanded states. The expanded state of a Flexible Panel is a fixed width that cannot be adjusted by the user. The collapsed Flexible Panel expands when the user hovers over any portion of it. When flexible panels expand, they either condense both the content and the grid or they push content beyond the edge of the browser.
+
+-- IMAGE --
+
+#### Fixed panels
+
+Fixed panels maintain a static width, cannot be collapsed and also exist outside of the responsive grid.
+
+-- IMAGE --
+
+#### Floating panels
+
+This panel style floats above the primary content area and does not affect the responsive grid. Floating panels conceal any UI elements below them and must be dismissable by the user. Inline menus, dropdowns and tooltips also float.
+
+-- IMAGE --
+
 ## Sizing scale
+
+We provide a sizing scale for both fixed and fluid sizes. Use it to size content as well as negative space. Like a type scale, the sizing scale constrains the range of sizes to improve consistency and rhythm, while still allowing a wide range of sizes. To use it, first choose a fixed or fluid base unit, then multiply it in each dimension, applying aspect ratios as needed.
+
+<AnchorLinks small>
+  <AnchorLink>Fixed base unit</AnchorLink>
+  <AnchorLink>Fluid base unit</AnchorLink>
+  <AnchorLink>Scaling multiple</AnchorLink>
+  <AnchorLink>Aspect ratio</AnchorLink>
+  <AnchorLink>Vertical rhythm</AnchorLink>
+  <AnchorLink>Components</AnchorLink>  
+</AnchorLinks>
+
+    
+### Fixed base unit
+
+Use this fixed sizing scale, comprised of select mini unit multiples, when sizing icons, tiling boxes, and applying vertical margin space.
+
+-- IMAGE --
+
+Choose a size to use as your fixed base unit. Also see the [breakpoints table](https://www.ibm.com/design/language/elements/2x-grid-ui#breakpoints).
+
+-- TABLE --
+
+### Fluid base unit
+
+For fluid grids, the column width is the base unit. Just as a box can span multiple columns, its height is a multiple of column width. Use cases are leading section in a webpage, divded section for editorial content, modals, etc. Check out the [breakpoints table](https://www.ibm.com/design/language/elements/2x-grid-ui#breakpoints) for pixel sizings.
+
+-- IMAGE --
+
+### Scaling multiple
+
+After determining your base size, multiply it as needed for each use. For box sizing, apply an aspect ratio too.
+
+-- IMAGE --
+
+### Aspect ratio
+
+When sizing boxes, constrain dimensions to one of the aspect ratios shown below whenever possible. Doing so will heighten the perception of unity between products.
+
+Choose an aspect ratio from the table, then multiply the base unit in each dimension as needed to set width and height, maintaining the ratio in either portrait or landscape.
+
+-- TABLE --
+
+For example, to size a fluid box with a 2:1 landscape aspect ratio, you could span 4 columns in width and 2 column-widths of height. To size a fixed box with the same aspect ratio, you could start with an 80 pixel base unit, then multiply it by 4 in width and 2 in height, for a fixed box size of 320 by 160.
+
+-- IMAGE --
+
+### Vertical rhythm
+
+Use the fixed sizing scale to set vertical spacing between sections, by adding it to the top or bottom margin of a box:
+
+-- IMAGE --
+
+-- DO/DONT --
+
+### Components
+
+Components can be sized like other boxes: either fixed or fluid, and often hybrid, with fixed height and fluid width. When interior space within a component is cramped, use the minor sizing scale:
+
+-- TABLE --
+
+When multiple components adhere to the same scale, grid relationships naturally emerge. For example, vertically aligning form fields such as checkboxes and radio buttons produces a grid effect when interior spacing is consistent.
+
+-- VIDEO --
