@@ -1,5 +1,6 @@
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
 import HomepageTile from "../components/HomepageTile";
+import Carousel from "../components/Carousel";
 
 export default HomepageTemplate;
 
@@ -27,7 +28,7 @@ export default HomepageTemplate;
     />
   </Column>
   <Column colLg={4} noGutterSm>
-    <AspectRatioTile
+    <HomepageTile
       ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
       theme="dark"
       subtitle="Elements"
@@ -37,7 +38,7 @@ export default HomepageTemplate;
       link="https://www.ibm.com/standards/web/design-kit/"
       target="_blank"
     />
-    <AspectRatioTile
+    <HomepageTile
       ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
       theme="dark"
       subtitle="GitHub repo"
@@ -49,7 +50,7 @@ export default HomepageTemplate;
     />
   </Column>
   <Column colLg={4} noGutterSm>
-    <AspectRatioTile
+    <HomepageTile
       ratio="1:2" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
       theme="dark"
       hoverDark
@@ -60,6 +61,186 @@ export default HomepageTemplate;
       actionIcon="article"
       link="https://www.ibm.com/standards/web/design-kit/"
       target="_blank"
+    />
+  </Column>
+  <Column colLg={4} noGutterSm>
+    <HomepageTile
+      ratio="2:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+      theme="dark"
+      subtitle="Elements"
+      title="Color in UI"
+      actionIcon=""
+      link="https://www.ibm.com/standards/web/design-kit/"
+      target="_blank"
+    />
+    <HomepageTile
+      ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+      marginTop="50%"
+      theme="dark"
+      hoverDark
+      contentOnHover
+      image="images/blue1.jpg"
+      subtitle="Elements"
+      title="Color Palette"
+      actionIcon="article"
+      link="https://www.ibm.com/standards/web/design-kit/"
+      target="_blank"
+    />
+  </Column>
+  <Column colLg={8} noGutterSm>
+    <HomepageTile
+      ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+      theme="dark"
+      hoverDark
+      image="/images/landing-color-grid.svg"
+      subtitle="Elements"
+      title="Color Palette"
+      actionIcon="article"
+      link="https://www.ibm.com/standards/web/design-kit/"
+      target="_blank"
+    />
+  </Column>
+  <Column colLg={4} noGutterSm>
+ <HomepageTile
+            ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+            theme="dark"
+            backgroundColor="rgb(6, 31, 128)" // if omitted, defaults to #282828
+            transparentImage="images/type-scales.svg"
+            actionIcon="no-icon"
+            link="https://www.ibm.com/standards/web/design-kit/"
+            target="_blank"
+          />
+  </Column>
+  <Column colLg={4} noGutterSm>
+<HomepageTile
+            ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+            theme="dark"
+            subtitle="Elements"
+            title="Type Specs"
+            actionIcon="article"
+            link="https://www.ibm.com/standards/web/design-kit/"
+            target="_blank"
+          />
+  </Column>
+</Row>
+<Row>
+     <Column colLg={4} noGutterSm>
+
+ <HomepageTile
+            ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+            theme="dark"
+            image="images/landing-plex-animation.gif"
+            actionIcon="no-icon"
+            link="https://www.ibm.com/standards/web/design-kit/"
+            target="_blank"
+          />
+          <HomepageTile
+            ratio="2:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+            theme="dark"
+            subtitle="Elements"
+            title="Typeface"
+            actionIcon="article"
+            link="https://www.ibm.com/standards/web/design-kit/"
+            target="_blank"
+          />
+  </Column>
+  <Column colLg={8} noGutterLg>
+  <HomepageTile
+            ratio="1:1"
+            image="images/product-gallery.jpg"
+            actionIcon="no-icon">
+            <HomepageTile
+              ratio="4:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+              theme="dark"
+              subtitle="Photography"
+              title="IBM Services"
+              actionIcon="article"
+              link="https://www.ibm.com/standards/web/design-kit/"
+              target="_blank"
+            />
+          </HomepageTile>
+  </Column>
+
+</Row>
+
+<Row>
+  <Column colLg={12} noGutterLg>
+  <HomepageTile
+    ratio="16:9"
+    image="images/landing-photography-gallery-2.jpg"
+    actionIcon="no-icon">
+    <Carousel id="c1" count="1 2" nav={false} fade={true} autoplay>
+        <img
+        src="images/landing-photography-gallery-1-mobile.jpg"
+        alt="alt text"
+        />
+        <img
+        src="images/landing-photography-gallery-2.jpg"
+        alt="alt text"
+        />
+    </Carousel>
+    <HomepageTile
+        ratio="6:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+        theme="dark"
+        subtitle="Elements"
+        title="Photography"
+        actionIcon="article"
+        link="https://www.ibm.com/standards/web/design-kit/"
+        target="_blank"
+    />
+    </HomepageTile>
+  </Column>
+</Row>
+<Row>
+  <Column colLg={8} noGutterLg>
+   <HomepageTile
+    ratio="1:1"
+    image="images/landing-gallery-watson-duo-phone.jpg"
+    actionIcon="no-icon">
+    <HomepageTile
+        ratio="4:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+        theme="dark"
+        subtitle="Case Study"
+        title="Coming soon"
+        actionIcon=""
+        link="https://www.ibm.com/standards/web/design-kit/"
+        target="_blank"
+    />
+    </HomepageTile>
+  </Column>
+  <Column colLg={4} noGutterSm>
+   <HomepageTile
+    ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+    theme="dark"
+    subtitle="Philosophy"
+    title="Principles"
+    actionIcon="article"
+    link="https://www.ibm.com/standards/web/design-kit/"
+    target="_blank"
+    />
+  </Column>
+  <Column colLg={4} noGutterSm>
+   <HomepageTile
+    ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+    theme="dark"
+    hoverDark
+    backgroundColor="#8a3ffc"
+    image="images/landing-illustration-ibm-rand-logo.svg"
+    actionIcon="no-icon"
+    link="https://www.ibm.com/standards/web/design-kit/"
+    target="_blank"
+    />
+  </Column>
+  <Column colLg={4} noGutterSm>
+   <HomepageTile
+    ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+    theme="dark"
+    subtitle="Philosophy"
+    title="Start smart"
+    transparentImage="images/big-arrow.svg"
+    actionIcon="no-icon"
+    link="https://www.ibm.com/standards/web/design-kit/"
+    target="_blank"
     />
   </Column>
 </Row>
