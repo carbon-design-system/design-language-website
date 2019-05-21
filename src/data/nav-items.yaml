@@ -36,11 +36,7 @@
       path: /elements/motion/basics
 - title: Disciplines
   pages:
-    - title: Brand (disabled)
     - title: Product
       path: /disciplines/product
     - title: Digital
       path: /disciplines/digital
-    - title: Industrial (disabled)
-    - title: Content (disabled)
-    - title: Events (disabled)
