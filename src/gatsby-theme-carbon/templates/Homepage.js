@@ -1,12 +1,13 @@
 import React from "react";
 import { HomepageCallout } from "gatsby-theme-carbon";
+import HomepageVideo from "../../components/HomepageVideo";
 
 // Component to be shadowed
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
 
 const FirstLeftText = () => (
   <p>
-    Think → <strong>Guidance</strong>
+    Think → <em>Guide</em>
   </p>
 );
 
@@ -15,37 +16,22 @@ const FirstRightText = () => (
     <strong>Build Bonds</strong>
     <br />
     This is the guiding ethos behind IBM’s design philosophy and principles.
-    This helps us distinguish every element and every experience Designed by
-    IBM.
-  </p>
-);
-
-const SecondLeftText = () => <p>Wondering how to contribute?</p>;
-
-const SecondRightText = () => (
-  <p>
-    We welcome all feedback, designs, or ideas in order to produce the best
-    possible experience for our users. If you’re interested in contributing,
-    check out our contributing guidelines to get started.
-    <br />
-    <a href="https://www.carbondesignsystem.com/contributing/governance">
-      Start Contributing →
-    </a>
+    This helps us distinguish every element and every experience{" "}
+    <em>Designed by IBM.</em>
   </p>
 );
 
 const customProps = {
+  Banner: (
+    <HomepageVideo
+      src="https://design-language-api.mybluemix.net/videos/landing-hero-video.mp4"
+      poster="https://design-language-api.mybluemix.net/images/hero-video-poster.jpg"
+    />
+  ),
   FirstCallout: (
     <HomepageCallout leftText={FirstLeftText} rightText={FirstRightText} />
   ),
-  SecondCallout: (
-    <HomepageCallout
-      leftText={SecondLeftText}
-      rightText={SecondRightText}
-      color="white"
-      backgroundColor="#061f80"
-    />
-  )
+  SecondCallout: null
 };
 
 // spreading the original props gives us props.children (mdx content)
