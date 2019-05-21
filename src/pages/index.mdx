@@ -5,7 +5,7 @@ import Carousel from "../components/Carousel";
 export default HomepageTemplate;
 
 <Row>
-  <Column colLg={4} noGutterSm>
+  <Column colLg={4} colMd={4} noGutterSm>
     <HomepageTile
       ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
       hoverDark
@@ -27,7 +27,7 @@ export default HomepageTemplate;
       target="_blank"
     />
   </Column>
-  <Column colLg={4} noGutterSm>
+  <Column colLg={4} colMd={4} noGutterSm>
     <HomepageTile
       ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
       theme="dark"
@@ -49,7 +49,7 @@ export default HomepageTemplate;
       target="_blank"
     />
   </Column>
-  <Column colLg={4} noGutterSm>
+  <Column colLg={4} colMd={4} noGutterSm>
     <HomepageTile
       ratio="1:2" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
       theme="dark"
@@ -63,7 +63,7 @@ export default HomepageTemplate;
       target="_blank"
     />
   </Column>
-  <Column colLg={4} noGutterSm>
+  <Column colLg={4} colMd={4} noGutterSm>
     <HomepageTile
       ratio="2:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
       theme="dark"
@@ -100,7 +100,7 @@ export default HomepageTemplate;
       target="_blank"
     />
   </Column>
-  <Column colLg={4} noGutterSm>
+  <Column colLg={4} colMd={4} noGutterSm>
  <HomepageTile
             ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
             theme="dark"
@@ -111,7 +111,7 @@ export default HomepageTemplate;
             target="_blank"
           />
   </Column>
-  <Column colLg={4} noGutterSm>
+  <Column colLg={4} colMd={4} noGutterSm>
 <HomepageTile
             ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
             theme="dark"
@@ -124,45 +124,42 @@ export default HomepageTemplate;
   </Column>
 </Row>
 <Row>
-     <Column colLg={4} noGutterSm>
-
- <HomepageTile
-            ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
-            theme="dark"
-            image="images/landing-plex-animation.gif"
-            actionIcon="no-icon"
-            link="https://www.ibm.com/standards/web/design-kit/"
-            target="_blank"
-          />
-          <HomepageTile
-            ratio="2:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
-            theme="dark"
-            subtitle="Elements"
-            title="Typeface"
-            actionIcon="article"
-            link="https://www.ibm.com/standards/web/design-kit/"
-            target="_blank"
-          />
+  <Column colLg={4} colMd={4} noGutterSm>
+    <HomepageTile
+        ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+        theme="dark"
+        image="images/landing-plex-animation.gif"
+        actionIcon="no-icon"
+        link="https://www.ibm.com/standards/web/design-kit/"
+        target="_blank"
+    />
+    <HomepageTile
+        ratio="2:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+        theme="dark"
+        subtitle="Elements"
+        title="Typeface"
+        actionIcon="article"
+        link="https://www.ibm.com/standards/web/design-kit/"
+        target="_blank"
+    />
   </Column>
   <Column colLg={8} noGutterLg>
   <HomepageTile
-            ratio="1:1"
-            image="images/product-gallery.jpg"
-            actionIcon="no-icon">
-            <HomepageTile
-              ratio="4:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
-              theme="dark"
-              subtitle="Photography"
-              title="IBM Services"
-              actionIcon="article"
-              link="https://www.ibm.com/standards/web/design-kit/"
-              target="_blank"
-            />
-          </HomepageTile>
+    ratio="1:1"
+    image="images/product-gallery.jpg"
+    actionIcon="no-icon">
+    <HomepageTile
+        ratio="4:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
+        theme="dark"
+        subtitle="Photography"
+        title="IBM Services"
+        actionIcon="article"
+        link="https://www.ibm.com/standards/web/design-kit/"
+        target="_blank"
+    />
+    </HomepageTile>
   </Column>
-
 </Row>
-
 <Row>
   <Column colLg={12} noGutterLg>
   <HomepageTile
@@ -208,7 +205,7 @@ export default HomepageTemplate;
     />
     </HomepageTile>
   </Column>
-  <Column colLg={4} noGutterSm>
+  <Column colLg={4} colMd={4} noGutterSm>
    <HomepageTile
     ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
     theme="dark"
@@ -219,7 +216,7 @@ export default HomepageTemplate;
     target="_blank"
     />
   </Column>
-  <Column colLg={4} noGutterSm>
+  <Column colLg={4} colMd={4} noGutterSm>
    <HomepageTile
     ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
     theme="dark"
@@ -231,7 +228,7 @@ export default HomepageTemplate;
     target="_blank"
     />
   </Column>
-  <Column colLg={4} noGutterSm>
+  <Column colLg={4} colMd={4} noGutterSm>
    <HomepageTile
     ratio="1:1" // choices are 1:1, 2:1, 1:2, 3:1, 4:1, 6:1, 3:2, 4:3 and 16:9. If omitted, defaults to 2:1
     theme="dark"
