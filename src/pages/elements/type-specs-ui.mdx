@@ -2,7 +2,7 @@
 title: Type specs UI
 ---
 
-import { AnchorLinks, PageDescription, Video } from "gatsby-theme-carbon";
+import { AnchorLinks, PageDescription, Video } from 'gatsby-theme-carbon';
 
 <PageDescription>
 
@@ -10,25 +10,41 @@ With our new bespoke corporate typeface, IBM Plex™, comes a new set of guidanc
 
 </PageDescription>
 
-[Typeface](#)
-[Scales](#)
-[Style](#)
-[Fluid type](#)
-[Type set](#)
-[Type color](#)
-[Resources](#)
-
 <AnchorLinks>
-  <a href="#">The foundation</a>
-  <a href="#">The foundation</a>
-  <a href="#">The foundation</a>
+  <AnchorLink>Typeface</AnchorLink>
+  <AnchorLink>Scales</AnchorLink>
+  <AnchorLink>Style</AnchorLink>
+  <AnchorLink>Fluid type</AnchorLink>
+  <AnchorLink>Type set</AnchorLink>
+  <AnchorLink>Type color</AnchorLink>
 </AnchorLinks>
 
 ## Resources
 
-Get the latest IBM Plex™ download from GitHub
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Get the Latest IBM Plex™ download on GitHub"
+      aspectRatio="2:1"
+      href="https://github.com/IBM/plex/releases/latest"
+      >
 
--- ADD TILES --
+![](/images/github-icon.png)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Visit the IBM Plex™ website to learn more"
+      aspectRatio="2:1"
+      href="https://www.ibm.com/plex/"
+      >
+
+![](/images/eye.svg)
+
+  </ResourceCard>
+</Column>
+</Row>
 
 ## Typeface
 
@@ -62,7 +78,7 @@ Each weight has an Italic style, which should only be used when you need to emph
 
 To create a better experience along with our fluid grid, fluid type is an option for large display type. We set up our fixed type scales for the breakpoints and have them being fluid in between. This helps us to maintain the quality of typography.
 
--- ADD IMAGE --
+## -- ADD VIDEO -- type-specs-fluid-type.mp4
 
 ## Type set
 
@@ -74,4 +90,67 @@ Even though IBM Plex contains a wide range of scales, it’s important to use a 
 
 Careful consideration of color maintains quality and recognition for users. Legibility and accessibility are two keys. Keep colored type neutral when in paragraphs. Use primary blue for primary actions.
 
--- ADD DO DONT COMPONENTS --
+<Row>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="do">
+
+![](images/type-color-do-1.svg)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="dont">
+
+![](images/type-color-dont-1.svg)
+
+</DoDontExample>
+</Column>
+</Row>
+<Row>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="do" color="dark">
+
+![](images/type-color-do-2.svg)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="dont" color="dark">
+
+![](images/type-color-dont-2.svg)
+
+</DoDontExample>
+</Column>
+</Row>
+<Row>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="do" caption="Core blue colors are used for text links and primary actions.">
+
+![](images/interactive-texts-do.svg)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="do" caption="Secondary actions use gray 100 and icons.">
+
+![](images/interactive-texts-dont.png)
+
+</DoDontExample>
+</Column>
+</Row>
+<Row>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="do" caption="Other use cases for colored type are code snippets, warnings, alerts, etc.">
+
+![](images/color-type-for-specific-usage-do.svg)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="do">
+
+![](images/color-type-for-specific-usage-dont.svg)
+
+</DoDontExample>
+</Column>
+</Row>
