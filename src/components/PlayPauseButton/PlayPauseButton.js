@@ -1,31 +1,31 @@
-import React from "react";
-import PropTypes from "prop-types";
-import classnames from "classnames";
-import { settings } from "carbon-components";
+import React from 'react';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
+import { settings } from 'carbon-components';
 
-import PlayOutline20 from "@carbon/icons-react/es/play--outline/20";
-import PlayOutlineFilled20 from "@carbon/icons-react/es/play--outline--filled/20";
-import PauseOutline20 from "@carbon/icons-react/es/pause--outline/20";
-import PauseOutlineFilled20 from "@carbon/icons-react/es/pause--outline--filled/20";
-import Play32 from "@carbon/icons-react/es/play/20";
-import Pause32 from "@carbon/icons-react/es/pause/20";
+import PlayOutline20 from '@carbon/icons-react/es/play--outline/20';
+import PlayOutlineFilled20 from '@carbon/icons-react/es/play--outline--filled/20';
+import PauseOutline20 from '@carbon/icons-react/es/pause--outline/20';
+import PauseOutlineFilled20 from '@carbon/icons-react/es/pause--outline--filled/20';
+import Play32 from '@carbon/icons-react/es/play/20';
+import Pause32 from '@carbon/icons-react/es/pause/20';
 
 const { prefix } = settings;
 
 class PlayPauseButton extends React.Component {
   state = {
-    hover: false
+    hover: false,
   };
 
   onOver = () => {
     this.setState({
-      hover: true
+      hover: true,
     });
   };
 
   onOut = () => {
     this.setState({
-      hover: false
+      hover: false,
     });
   };
 
@@ -38,41 +38,36 @@ class PlayPauseButton extends React.Component {
         className={classnames(`${prefix}--play-pause-button`, {
           [`${prefix}--play-pause-hide-on-mobile`]: loop,
           [`${prefix}--play-pause-corner`]: cornerPlayButton,
-          [`${prefix}--play-pause-hovering`]: hovering
+          [`${prefix}--play-pause-hovering`]: hovering,
         })}
         onMouseOver={this.onOver}
         onMouseOut={this.onOut}
-        onClick={onClick}
-      >
+        onClick={onClick}>
         {// corner play button - ex homepage player
         cornerPlayButton && (
           <>
             <span
               className={classnames(`${prefix}--play-pause-icon`, {
-                active: playing && hover
-              })}
-            >
+                active: playing && hover,
+              })}>
               <PauseOutlineFilled20 />
             </span>
             <span
               className={classnames(`${prefix}--play-pause-icon`, {
-                active: playing && !hover
-              })}
-            >
+                active: playing && !hover,
+              })}>
               <PauseOutline20 />
             </span>
             <span
               className={classnames(`${prefix}--play-pause-icon`, {
-                active: !playing && hover
-              })}
-            >
+                active: !playing && hover,
+              })}>
               <PlayOutlineFilled20 />
             </span>
             <span
               className={classnames(`${prefix}--play-pause-icon`, {
-                active: !playing && !hover
-              })}
-            >
+                active: !playing && !hover,
+              })}>
               <PlayOutline20 />
             </span>
           </>
@@ -83,16 +78,14 @@ class PlayPauseButton extends React.Component {
             <span className={`${prefix}--play-pause-background`} />
             <span
               className={classnames(`${prefix}--play-pause-icon`, {
-                active: playing
-              })}
-            >
+                active: playing,
+              })}>
               <Pause32 />
             </span>
             <span
               className={classnames(`${prefix}--play-pause-icon`, {
-                active: !playing
-              })}
-            >
+                active: !playing,
+              })}>
               <Play32 />
             </span>
           </>
@@ -116,7 +109,7 @@ PlayPauseButton.propTypes = {
   loop: PropTypes.bool,
 
   // parent determines play/pause visibility
-  hovering: PropTypes.bool
+  hovering: PropTypes.bool,
 };
 
 export default PlayPauseButton;

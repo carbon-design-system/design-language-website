@@ -1,6 +1,6 @@
-import React from "react";
-import { MDXProvider as Provider } from "@mdx-js/react";
-import { WebsiteCodeSnippet } from "@carbon/addons-website";
+import React from 'react';
+import { MDXProvider as Provider } from '@mdx-js/react';
+import { WebsiteCodeSnippet } from '@carbon/addons-website';
 import {
   P,
   H1,
@@ -9,9 +9,9 @@ import {
   H4,
   H5,
   Ul,
-  Ol
-} from "gatsby-theme-carbon/src/components/markdown";
-import PageTable from "gatsby-theme-carbon/src/components/PageTable";
+  Ol,
+} from 'gatsby-theme-carbon/src/components/markdown';
+import PageTable from 'gatsby-theme-carbon/src/components/PageTable';
 import {
   AnchorLinks,
   AnchorLink,
@@ -20,8 +20,8 @@ import {
   ResourceCard,
   Row,
   Column,
-  Aside
-} from "gatsby-theme-carbon";
+  Aside,
+} from 'gatsby-theme-carbon';
 
 const components = {
   wrapper: function Wrapper({ children, ...props }) {
@@ -44,7 +44,7 @@ const components = {
   Row,
   Column,
   ResourceCard,
-  Aside
+  Aside,
 };
 
 const MDXProvider = ({ children }) => (

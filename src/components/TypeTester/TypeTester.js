@@ -1,206 +1,206 @@
-import React, { Component } from "react";
-import classnames from "classnames";
-import Dropdown from "carbon-components-react/lib/components/Dropdown";
-import Textarea from "react-textarea-autosize";
-import InputRange from "../InputRange/InputRange";
+import React, { Component } from 'react';
+import classnames from 'classnames';
+import Dropdown from 'carbon-components-react/lib/components/Dropdown';
+import Textarea from 'react-textarea-autosize';
+import InputRange from '../InputRange/InputRange';
 
-import { settings } from "carbon-components";
+import { settings } from 'carbon-components';
 const prefix = settings.prefix;
 
-const HEBREW = "hebrew";
-const ARABIC = "arabic";
+const HEBREW = 'hebrew';
+const ARABIC = 'arabic';
 
 const languageSample = [
   {
-    language: "latin",
-    content: "Heavy boxes perform quick waltzes and jigs."
+    language: 'latin',
+    content: 'Heavy boxes perform quick waltzes and jigs.',
   },
   {
-    language: "cyrillic",
-    content: "Эх, чужак, общий съём цен шляп (юфть)—вдрызг!"
+    language: 'cyrillic',
+    content: 'Эх, чужак, общий съём цен шляп (юфть)—вдрызг!',
   },
   {
-    language: "greek",
-    content: "διαφυλάξτε γενικά τη ζωή σας από βαθειά ψυχικά τραύματα."
+    language: 'greek',
+    content: 'διαφυλάξτε γενικά τη ζωή σας από βαθειά ψυχικά τραύματα.',
   },
   {
-    language: "hebrew",
-    content: "דג סקרן שט בים מאוכזב ולפתע מצא חברה."
+    language: 'hebrew',
+    content: 'דג סקרן שט בים מאוכזב ולפתע מצא חברה.',
   },
   {
-    language: "thai",
+    language: 'thai',
     content:
-      "นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ"
+      'นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ',
   },
   {
-    language: "devanagari",
+    language: 'devanagari',
     content:
-      "ऋषियों को सताने वाले दुष्ट राक्षसों के राजा रावण का सर्वनाश करने वाले विष्णुवतार भगवान श्रीराम, अयोध्या के महाराज दशरथ के बड़े सपुत्र थे।"
+      'ऋषियों को सताने वाले दुष्ट राक्षसों के राजा रावण का सर्वनाश करने वाले विष्णुवतार भगवान श्रीराम, अयोध्या के महाराज दशरथ के बड़े सपुत्र थे।',
   },
   {
-    language: "arabic",
-    content: "أبجد هوز حطي كلمن سعفص قرشت ثخذ وضظغ"
-  }
+    language: 'arabic',
+    content: 'أبجد هوز حطي كلمن سعفص قرشت ثخذ وضظغ',
+  },
 ];
 
 const commonFontWeights = [
-  { value: 100, label: "Thin" },
-  { value: 200, label: "ExtraLight" },
-  { value: 300, label: "Light" },
-  { value: 400, label: "Regular" },
-  { value: 450, label: "Text" },
-  { value: 500, label: "Medium" },
-  { value: 600, label: "SemiBold" },
-  { value: 700, label: "Bold" }
+  { value: 100, label: 'Thin' },
+  { value: 200, label: 'ExtraLight' },
+  { value: 300, label: 'Light' },
+  { value: 400, label: 'Regular' },
+  { value: 450, label: 'Text' },
+  { value: 500, label: 'Medium' },
+  { value: 600, label: 'SemiBold' },
+  { value: 700, label: 'Bold' },
 ];
 
 const languageDropdownContent = [
   {
-    label: "IBM Plex Sans Hebrew",
-    language: "hebrew",
+    label: 'IBM Plex Sans Hebrew',
+    language: 'hebrew',
     className: [`${prefix}--type-hebrew`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Sans",
+    label: 'IBM Plex Sans',
     className: [`${prefix}--type-default`],
-    language: "latin",
-    weights: commonFontWeights
+    language: 'latin',
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Sans Italic",
-    language: "latin",
+    label: 'IBM Plex Sans Italic',
+    language: 'latin',
     className: [`${prefix}--type-default ${prefix}--type-italic`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Condensed",
-    language: "latin",
+    label: 'IBM Plex Condensed',
+    language: 'latin',
     className: [`${prefix}--type-condensed`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Condensed Italic",
-    language: "latin",
+    label: 'IBM Plex Condensed Italic',
+    language: 'latin',
     className: [`${prefix}--type-condensed ${prefix}--type-italic`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Mono",
-    language: "latin",
+    label: 'IBM Plex Mono',
+    language: 'latin',
     className: [`${prefix}--type-mono`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Mono Italic",
-    language: "latin",
+    label: 'IBM Plex Mono Italic',
+    language: 'latin',
     className: [`${prefix}--type-mono ${prefix}--type-italic`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Serif",
-    language: "latin",
+    label: 'IBM Plex Serif',
+    language: 'latin',
     className: [`${prefix}--type-serif`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Serif Italic",
-    language: "latin",
+    label: 'IBM Plex Serif Italic',
+    language: 'latin',
     className: [`${prefix}--type-serif ${prefix}--type-italic`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Sans Cyrillic",
-    language: "cyrillic",
+    label: 'IBM Plex Sans Cyrillic',
+    language: 'cyrillic',
     className: [`${prefix}--type-default`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Sans Cyrillic Italic",
-    language: "cyrillic",
+    label: 'IBM Plex Sans Cyrillic Italic',
+    language: 'cyrillic',
     className: [`${prefix}--type-default ${prefix}--type-italic`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Mono Cyrillic",
-    language: "cyrillic",
+    label: 'IBM Plex Mono Cyrillic',
+    language: 'cyrillic',
     className: [`${prefix}--type-mono`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Mono Cyrillic Italic",
-    language: "cyrillic",
+    label: 'IBM Plex Mono Cyrillic Italic',
+    language: 'cyrillic',
     className: [`${prefix}--type-mono ${prefix}--type-italic`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Serif Cyrillic",
-    language: "cyrillic",
+    label: 'IBM Plex Serif Cyrillic',
+    language: 'cyrillic',
     className: [`${prefix}--type-serif`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Serif Cyrillic Italic",
-    language: "cyrillic",
+    label: 'IBM Plex Serif Cyrillic Italic',
+    language: 'cyrillic',
     className: [`${prefix}--type-serif ${prefix}--type-italic`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Sans Greek",
-    language: "greek",
+    label: 'IBM Plex Sans Greek',
+    language: 'greek',
     className: [`${prefix}--type-default`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Sans Greek Italic",
-    language: "greek",
+    label: 'IBM Plex Sans Greek Italic',
+    language: 'greek',
     className: [`${prefix}--type-default ${prefix}--type-italic`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Sans Thai",
-    language: "thai",
+    label: 'IBM Plex Sans Thai',
+    language: 'thai',
     className: [`${prefix}--type-thai`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Sans Devanagari",
-    language: "devanagari",
+    label: 'IBM Plex Sans Devanagari',
+    language: 'devanagari',
     className: [`${prefix}--type-devanagari`],
-    weights: commonFontWeights
+    weights: commonFontWeights,
   },
   {
-    label: "IBM Plex Sans Arabic",
-    language: "arabic",
+    label: 'IBM Plex Sans Arabic',
+    language: 'arabic',
     className: [`${prefix}--type-arabic`],
-    weights: commonFontWeights
-  }
+    weights: commonFontWeights,
+  },
 ].map(variant => {
-  variant.value = variant.label.toLowerCase().replace(/ /g, "-");
+  variant.value = variant.label.toLowerCase().replace(/ /g, '-');
   return variant;
 });
 
 class TypeTester extends Component {
   state = {
     typeSizeMultiplier: 470,
-    variant: "ibm-plex-sans-hebrew",
-    lastVariant: "ibm-plex-sans-hebrew",
+    variant: 'ibm-plex-sans-hebrew',
+    lastVariant: 'ibm-plex-sans-hebrew',
     fontWeight: 400,
     textRows: 3,
-    text: languageSample.find(el => el.language === "hebrew").content,
-    openDropdown: null
+    text: languageSample.find(el => el.language === 'hebrew').content,
+    openDropdown: null,
   };
 
   onFontWeightDropdownChange = ({ selectedItem }) => {
     this.setState({
-      fontWeight: selectedItem.value
+      fontWeight: selectedItem.value,
     });
   };
 
   onLanguageDropdownChange = ({ selectedItem }) => {
     const { value } = selectedItem;
     this.setState({
-      lastVariant: this.state.variant
+      lastVariant: this.state.variant,
     });
     setTimeout(() => {
       this.setState({
@@ -209,14 +209,14 @@ class TypeTester extends Component {
         fontWeight: this.getCurrentOrDefaultFontWeightForLanguage(
           this.getLanguageForVariant(value),
           this.state.fontWeight
-        )
+        ),
       });
     }, 100);
   };
 
   onChangeOpenDropdown = dropdown => {
     this.setState({
-      openDropdown: dropdown === this.state.openDropdown ? null : dropdown
+      openDropdown: dropdown === this.state.openDropdown ? null : dropdown,
     });
   };
 
@@ -293,9 +293,9 @@ class TypeTester extends Component {
               selected={this.state.variant}
               onChangeOpen={this.onChangeOpenDropdown.bind(
                 null,
-                "language-dropdown"
+                'language-dropdown'
               )}
-              open={this.state.openDropdown === "language-dropdown"}
+              open={this.state.openDropdown === 'language-dropdown'}
             />
             <Dropdown
               items={this.getWeightsForLanguage()}
@@ -304,9 +304,9 @@ class TypeTester extends Component {
               selected={this.state.fontWeight}
               onChangeOpen={this.onChangeOpenDropdown.bind(
                 null,
-                "weight-dropdown"
+                'weight-dropdown'
               )}
-              open={this.state.openDropdown === "weight-dropdown"}
+              open={this.state.openDropdown === 'weight-dropdown'}
             />
           </div>
           <div className={`${prefix}--input-range-wrapper`}>
@@ -325,10 +325,10 @@ class TypeTester extends Component {
           <Textarea
             className={textClasses}
             style={{
-              fontSize: this.state.typeSizeMultiplier / 100 + "em",
+              fontSize: this.state.typeSizeMultiplier / 100 + 'em',
               lineHeight: lineHeight,
               fontWeight: this.state.fontWeight,
-              direction: this.isRtl() ? "rtl" : "ltr"
+              direction: this.isRtl() ? 'rtl' : 'ltr',
             }}
             value={this.state.text}
             onChange={e => this.setState({ text: e.target.value })}

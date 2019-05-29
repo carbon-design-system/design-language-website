@@ -1,9 +1,9 @@
-import React from "react";
-import { HomepageCallout } from "gatsby-theme-carbon";
-import HomepageVideo from "../../components/HomepageVideo";
+import React from 'react';
+import { HomepageCallout } from 'gatsby-theme-carbon';
+import HomepageVideo from '../../components/HomepageVideo';
 
 // Component to be shadowed
-import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
+import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
 const FirstLeftText = () => (
   <p>
@@ -16,7 +16,7 @@ const FirstRightText = () => (
     <strong>Build Bonds</strong>
     <br />
     This is the guiding ethos behind IBM’s design philosophy and principles.
-    This helps us distinguish every element and every experience{" "}
+    This helps us distinguish every element and every experience{' '}
     <em>Designed by IBM.</em>
   </p>
 );
@@ -31,7 +31,7 @@ const customProps = {
   FirstCallout: (
     <HomepageCallout leftText={FirstLeftText} rightText={FirstRightText} />
   ),
-  SecondCallout: null
+  SecondCallout: null,
 };
 
 // spreading the original props gives us props.children (mdx content)

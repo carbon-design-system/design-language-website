@@ -1,2 +1,2 @@
-import HomepageTile from "./HomepageTile";
+import HomepageTile from './HomepageTile';
 export default HomepageTile;

@@ -123,7 +123,7 @@ a.#{$prefix}--aspect-ratio-tile {
   .#{$prefix}--aspect-ratio-tile {
     .#{$prefix}--aspect-ratio-tile-nested-content {
       .#{$prefix}--aspect-ratio-tile {
-        @include carbon--breakpoint("lg") {
+        @include carbon--breakpoint('lg') {
           width: calc((100% / 3) + 1px);
         }
       }

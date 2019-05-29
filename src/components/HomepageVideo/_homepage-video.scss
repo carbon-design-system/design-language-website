@@ -3,11 +3,11 @@
   height: 150vw;
   margin-top: 3rem;
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     height: 50vw;
   }
 
-  @include carbon--breakpoint("lg") {
+  @include carbon--breakpoint('lg') {
     height: 35rem;
   }
 }
@@ -27,15 +27,15 @@
   z-index: 12;
   height: 100%;
 
-  @include carbon--breakpoint-down("md") {
+  @include carbon--breakpoint-down('md') {
     margin-right: -2rem !important;
   }
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     padding-right: 0 !important;
   }
 
-  @include carbon--breakpoint("lg") {
+  @include carbon--breakpoint('lg') {
     margin-left: 2rem;
   }
 }
@@ -46,7 +46,7 @@
   flex-direction: column;
   position: relative;
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     flex-direction: row;
     justify-content: flex-end;
     margin-left: 0 !important;
@@ -101,14 +101,14 @@
     text-decoration: none;
   }
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     height: 100%;
     width: 25%;
     border-top-width: 0;
     border-left-width: 1px;
   }
 
-  @include carbon--breakpoint("max") {
+  @include carbon--breakpoint('max') {
     &:last-of-type {
       border-right-width: 1px;
     }

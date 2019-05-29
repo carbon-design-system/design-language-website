@@ -18,7 +18,7 @@
   visibility: hidden;
 
   * {
-    font-family: "IBM Plex Sans Condensed";
+    font-family: 'IBM Plex Sans Condensed';
   }
 }
 
@@ -27,7 +27,7 @@
 }
 
 .#{$prefix}--subfamilies-button {
-  @include carbon--type-style("body-long-01");
+  @include carbon--type-style('body-long-01');
   text-align: left;
   color: $carbon--black-100;
   background-color: $carbon--white-0;
@@ -64,7 +64,7 @@
 }
 
 .#{$prefix}--subfamilies-TypeTesterExample {
-  @include carbon--type-style("expressive-heading-05");
+  @include carbon--type-style('expressive-heading-05');
   background-color: $carbon--white-0;
   padding-top: $spacing-05;
   padding-bottom: 2.5rem;

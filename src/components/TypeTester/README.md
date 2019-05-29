@@ -2,22 +2,22 @@
 
 ## To add a new language
 
-* Add a new object to the `languageDropdownContent` array:
+- Add a new object to the `languageDropdownContent` array:
 
 ```javascript
-const languageDropdownContent = [ 
-  ..., 
+const languageDropdownContent = [
+  ...,
   ,
   {
     label: 'IBM Plex Sans Arabic',
-    language: 'arabic', 
+    language: 'arabic',
     className: 'bx--type-arabic',
     weights: commonFontWeights,
   }
 ].map(...)
 ```
 
-* Add a new display text object to `languageSample` array:
+- Add a new display text object to `languageSample` array:
 
 ```javascript
 const languageSample = [
