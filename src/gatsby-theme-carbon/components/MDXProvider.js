@@ -21,7 +21,6 @@ import {
   Row,
   Column,
   Aside,
-  DoDontExample
 } from 'gatsby-theme-carbon';
 
 const components = {
@@ -46,7 +45,6 @@ const components = {
   Column,
   ResourceCard,
   Aside,
-  DoDontExample,
 };
 
 const MDXProvider = ({ children }) => (
