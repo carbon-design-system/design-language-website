@@ -1,6 +1,5 @@
 import React from 'react';
 import { MDXProvider as Provider } from '@mdx-js/react';
-import { WebsiteCodeSnippet } from '@carbon/addons-website';
 import {
   P,
   H1,
@@ -12,6 +11,7 @@ import {
   Ol,
 } from 'gatsby-theme-carbon/src/components/markdown';
 import PageTable from 'gatsby-theme-carbon/src/components/PageTable';
+import Code from 'gatsby-theme-carbon/src/components/Code';
 import {
   AnchorLinks,
   AnchorLink,
@@ -36,7 +36,7 @@ const components = {
   p: P,
   ol: Ol,
   ul: Ul,
-  pre: WebsiteCodeSnippet,
+  pre: Code,
   table: PageTable,
   PageDescription,
   AnchorLinks,
