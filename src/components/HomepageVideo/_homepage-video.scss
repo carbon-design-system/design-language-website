@@ -71,6 +71,10 @@
   position: relative;
   padding: $spacing-05;
 
+  p {
+    color: $carbon--white-0;
+  }
+
   &:first-of-type {
     border-top-width: 0;
   }

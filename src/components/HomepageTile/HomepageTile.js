@@ -24,7 +24,7 @@ const HomepageTile = ({
   target,
   children
 }) => {
-  //const windowWidth = document.body.clientWidth;
+  const windowWidth = window.outerWidth;
 
   const calcRatio = ratio => {
     switch (ratio) {
@@ -35,12 +35,7 @@ const HomepageTile = ({
       case "4:1":
         return "25%";
       case "6:1":
-        return "25%";
-      /* return windowWidth > 1056
-          ? "16.67%"
-          : windowWidth > 672
-          ? "25%"
-          : "50%"; */
+        return windowWidth > 1056 ? "16.67%" : "25%";
       case "1:2":
         return "200%";
       case "3:1":
