@@ -21,7 +21,7 @@ import {
   Row,
   Column,
   Aside,
-  DoDontExample
+  DoDontExample,
 } from 'gatsby-theme-carbon';
 
 const components = {
