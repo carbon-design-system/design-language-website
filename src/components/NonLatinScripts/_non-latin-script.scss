@@ -1,8 +1,8 @@
-$font-prefix: "/fonts";
-@import "@ibm/plex/scss/devanagari/_index.scss";
-@import "@ibm/plex/scss/thai/_index.scss";
-@import "@ibm/plex/scss/sans-hebrew/_index.scss";
-@import "@ibm/plex/scss/arabic/_index.scss";
+$font-prefix: '/fonts';
+@import '@ibm/plex/scss/devanagari/_index.scss';
+@import '@ibm/plex/scss/thai/_index.scss';
+@import '@ibm/plex/scss/sans-hebrew/_index.scss';
+@import '@ibm/plex/scss/arabic/_index.scss';
 
 .#{$prefix}--non-latin-coming-soon-sticker {
   margin-bottom: 0;
@@ -53,19 +53,19 @@ $font-prefix: "/fonts";
   height: calc(3.625rem + (7.38636vw - 1.47727rem));
   width: auto;
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     height: calc(5.85rem + (6.25vw - 2.625rem));
   }
 
-  @include carbon--breakpoint("lg") {
+  @include carbon--breakpoint('lg') {
     height: calc(7.85rem + (11.71875vw - 7.73438rem));
   }
 
-  @include carbon--breakpoint("xlg") {
+  @include carbon--breakpoint('xlg') {
     height: calc(10.7rem + (12.5vw - 10.25rem));
   }
 
-  @include carbon--breakpoint("max") {
+  @include carbon--breakpoint('max') {
     height: 12.85rem;
   }
 }
@@ -97,12 +97,12 @@ $font-prefix: "/fonts";
     direction: rtl;
   }
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     margin-top: -0.5rem;
     margin-bottom: $spacing-03 !important;
   }
 
-  @include carbon--breakpoint("lg") {
+  @include carbon--breakpoint('lg') {
     margin-top: -1.5rem;
     margin-bottom: $spacing-03 !important;
   }
@@ -117,7 +117,7 @@ $font-prefix: "/fonts";
   }
 
   // safari wrong height fix
-  @include carbon--breakpoint-down("md") {
+  @include carbon--breakpoint-down('md') {
     line-height: 1.5em;
     margin-bottom: $spacing-05 !important;
     padding-bottom: $spacing-05;
@@ -140,11 +140,11 @@ $font-prefix: "/fonts";
   padding-top: 0rem !important;
   padding-bottom: 0;
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     padding-top: $spacing-05 !important;
   }
 
-  @include carbon--breakpoint-down("md") {
+  @include carbon--breakpoint-down('md') {
     margin-top: 0rem !important;
     margin-bottom: $spacing-05;
     line-height: 1.5em;
@@ -176,7 +176,7 @@ $font-prefix: "/fonts";
   line-height: 3em;
   height: 2em;
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     margin-top: $spacing-05;
     padding-bottom: $spacing-09;
     height: 1.5em;
@@ -208,41 +208,41 @@ $font-prefix: "/fonts";
 
 .#{$prefix}--type-mono,
 .#{$prefix}--type-mono * {
-  font-family: "IBM Plex Mono", "Menlo", "DejaVu Sans Mono",
-    "Bitstream Vera Sans Mono", Courier, monospace !important;
+  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono',
+    'Bitstream Vera Sans Mono', Courier, monospace !important;
 }
 
 .#{$prefix}--type-serif,
 .#{$prefix}--type-serif * {
-  font-family: "IBM Plex Serif", "Georgia", Times, serif !important;
+  font-family: 'IBM Plex Serif', 'Georgia', Times, serif !important;
 }
 
 .#{$prefix}--type-hebrew {
-  font-family: "IBM Plex Sans Hebrew" !important;
+  font-family: 'IBM Plex Sans Hebrew' !important;
 }
 
 .#{$prefix}--type-thai {
-  font-family: "IBM Plex Thai" !important;
+  font-family: 'IBM Plex Thai' !important;
 }
 
 .#{$prefix}--type-devanagari {
-  font-family: "IBM Plex Devanagari" !important;
+  font-family: 'IBM Plex Devanagari' !important;
 }
 
 .#{$prefix}--type-arabic {
-  font-family: "IBM Plex Arabic" !important;
+  font-family: 'IBM Plex Arabic' !important;
 }
 
 .#{$prefix}--type-greek {
-  font-family: "IBM Plex Sans Greek" !important;
+  font-family: 'IBM Plex Sans Greek' !important;
 }
 
 // work around to support greek fonts
 @font-face {
-  font-family: "IBM Plex Sans Greek";
+  font-family: 'IBM Plex Sans Greek';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/ibmplexsans/v5/zYXgKVElMYYaJe8bpLHnCwDKhdLeFaxOedfTDw.woff2)
-    format("woff2");
+    format('woff2');
   unicode-range: U+0370-03FF;
 }

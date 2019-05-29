@@ -22,7 +22,7 @@
     outline: 2px solid $focus;
   }
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     display: block;
   }
 
@@ -34,7 +34,7 @@
     display: none;
     opacity: 0;
 
-    @include carbon--breakpoint("md") {
+    @include carbon--breakpoint('md') {
       display: block;
     }
   }
@@ -49,10 +49,10 @@
     opacity: 1;
     display: none;
 
-    @include carbon--breakpoint("md") {
+    @include carbon--breakpoint('md') {
       display: block;
     }
-    @include carbon--breakpoint("lg") {
+    @include carbon--breakpoint('lg') {
       left: 17rem;
     }
   }

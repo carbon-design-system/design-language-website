@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { settings } from "carbon-components";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { settings } from 'carbon-components';
 
-import Launch20 from "@carbon/icons-react/es/launch/20";
-import ArrowRight24 from "@carbon/icons-react/es/arrow--right/24";
+import Launch20 from '@carbon/icons-react/es/launch/20';
+import ArrowRight24 from '@carbon/icons-react/es/arrow--right/24';
 
 const { prefix } = settings;
 
@@ -22,42 +22,42 @@ const HomepageTile = ({
   actionIcon,
   link,
   target,
-  children
+  children,
 }) => {
   const windowWidth = window.outerWidth;
 
   const calcRatio = ratio => {
     switch (ratio) {
-      case "1:1":
-        return "100%";
-      case "2:1":
-        return "50%";
-      case "4:1":
-        return "25%";
-      case "6:1":
-        return windowWidth > 1056 ? "16.67%" : "25%";
-      case "1:2":
-        return "200%";
-      case "3:1":
-        return "33.33%";
-      case "3:2":
-        return "66.66%";
-      case "4:3":
-        return "75%";
-      case "16:9":
-        return "56.25%";
+      case '1:1':
+        return '100%';
+      case '2:1':
+        return '50%';
+      case '4:1':
+        return '25%';
+      case '6:1':
+        return windowWidth > 1056 ? '16.67%' : '25%';
+      case '1:2':
+        return '200%';
+      case '3:1':
+        return '33.33%';
+      case '3:2':
+        return '66.66%';
+      case '4:3':
+        return '75%';
+      case '16:9':
+        return '56.25%';
       default:
-        return "50%";
+        return '50%';
     }
   };
 
   const getActionIcon = type => {
     switch (type) {
-      case "resources":
+      case 'resources':
         return <Launch20 aria-label="Open resource" />;
-      case "article":
+      case 'article':
         return <ArrowRight24 aria-label="Go to content" />;
-      case "no-icon":
+      case 'no-icon':
         return null;
       default:
         return <ArrowRight24 aria-label="Go to content" />;
@@ -66,16 +66,16 @@ const HomepageTile = ({
 
   const ratioStyle = {
     paddingBottom: calcRatio(ratio),
-    marginTop: marginTop ? marginTop : 0
+    marginTop: marginTop ? marginTop : 0,
   };
 
   const backgroundStyle = {
     backgroundColor: backgroundColor ? backgroundColor : null,
-    backgroundImage: image ? `url(${image})` : null
+    backgroundImage: image ? `url(${image})` : null,
   };
 
   const transparentImageStyle = {
-    backgroundImage: transparentImage ? `url(${transparentImage})` : null
+    backgroundImage: transparentImage ? `url(${transparentImage})` : null,
   };
 
   return (
@@ -83,14 +83,13 @@ const HomepageTile = ({
       {children ? (
         <div
           className={
-            theme === "dark"
+            theme === 'dark'
               ? `${prefix}--aspect-ratio-tile ${prefix}--aspect-ratio-tile__dark`
               : `${prefix}--aspect-ratio-tile`
           }
           style={ratioStyle}
           href={link}
-          target={target}
-        >
+          target={target}>
           <div
             className={`${prefix}--aspect-ratio-tile-background`}
             style={backgroundStyle}
@@ -102,14 +101,13 @@ const HomepageTile = ({
       ) : (
         <a
           className={
-            theme === "dark"
+            theme === 'dark'
               ? `${prefix}--aspect-ratio-tile ${prefix}--aspect-ratio-tile__dark`
               : `${prefix}--aspect-ratio-tile`
           }
           style={ratioStyle}
           href={link}
-          target={target}
-        >
+          target={target}>
           <div
             className={
               hoverDark
@@ -127,8 +125,7 @@ const HomepageTile = ({
                 ? `${prefix}--aspect-ratio-tile-content ${prefix}--aspect-ratio-tile-content-on-hover-only`
                 : `${prefix}--aspect-ratio-tile-content`
             }
-            style={transparentImageStyle}
-          >
+            style={transparentImageStyle}>
             <div className={`${prefix}--aspect-ratio-tile-title`}>
               <div className={`${prefix}--type-body-long-01`}>{subtitle}</div>
               <div className={`${prefix}--type-expressive-heading-03`}>
@@ -142,8 +139,7 @@ const HomepageTile = ({
             ) : null}
             <div
               className={`${prefix}--aspect-ratio-tile-action-icon`}
-              style={{ fill: theme === "dark" ? "#ffffff" : "#282828" }}
-            >
+              style={{ fill: theme === 'dark' ? '#ffffff' : '#282828' }}>
               {getActionIcon(actionIcon)}
             </div>
           </div>
@@ -168,7 +164,7 @@ HomepageTile.propTypes = {
   link: PropTypes.string,
   target: PropTypes.string,
   marginTop: PropTypes.string,
-  children: PropTypes.node
+  children: PropTypes.node,
 };
 
 export default HomepageTile;

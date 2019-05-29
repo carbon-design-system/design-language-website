@@ -1,20 +1,20 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { settings } from "carbon-components";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { settings } from 'carbon-components';
 
-import PlayPauseButton from "../PlayPauseButton/";
+import PlayPauseButton from '../PlayPauseButton/';
 
 const { prefix } = settings;
 
 class VideoInternal extends React.Component {
   state = {
     playing: true,
-    hovering: false
+    hovering: false,
   };
 
   onPlayPauseClick = () => {
     this.setState({
-      playing: !this.state.playing
+      playing: !this.state.playing,
     });
   };
 
@@ -26,7 +26,7 @@ class VideoInternal extends React.Component {
   }
 
   componentDidMount() {
-    this.videoRef.addEventListener("ended", this.onVideoEnded);
+    this.videoRef.addEventListener('ended', this.onVideoEnded);
   }
 
   onVideoEnded = () => {
@@ -34,25 +34,25 @@ class VideoInternal extends React.Component {
 
     if (!loop) {
       this.setState({
-        playing: false
+        playing: false,
       });
     }
   };
 
   onMouseOver = () => {
     this.setState({
-      hovering: true
+      hovering: true,
     });
   };
 
   onMouseOut = () => {
     this.setState({
-      hovering: false
+      hovering: false,
     });
   };
 
   componentWillUnmount() {
-    this.videoRef.removeEventListener("ended", this.onVideoEnded);
+    this.videoRef.removeEventListener('ended', this.onVideoEnded);
   }
 
   render() {
@@ -62,7 +62,7 @@ class VideoInternal extends React.Component {
       loop,
       overlay,
       cornerPlayButton,
-      children
+      children,
     } = this.props;
     const { playing, hovering } = this.state;
 
@@ -70,8 +70,7 @@ class VideoInternal extends React.Component {
       <div
         className={`${prefix}--video-internal-container`}
         onMouseOver={this.onMouseOver}
-        onMouseOut={this.onMouseOut}
-      >
+        onMouseOut={this.onMouseOut}>
         <video
           className={`${prefix}--video-internal`}
           controls={false}
@@ -82,8 +81,7 @@ class VideoInternal extends React.Component {
           playsInline
           poster={poster}
           type="video/mp4"
-          ref={video => (this.videoRef = video)}
-        >
+          ref={video => (this.videoRef = video)}>
           <source src={src} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -117,7 +115,7 @@ VideoInternal.propTypes = {
   overlay: PropTypes.bool,
 
   // button in lower left corner
-  cornerPlayButton: PropTypes.bool
+  cornerPlayButton: PropTypes.bool,
 };
 
 export default VideoInternal;

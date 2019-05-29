@@ -2,7 +2,7 @@
 name: Website Feedback
 about: User feedback collected from the IBM Design Language Website.
 labels: feedback
-assignees: ""
+assignees: ''
 ---
 
 <!--

@@ -13,7 +13,11 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean:cache": "rm -rf .cache"
+    "clean:cache": "rm -rf .cache",
+    "ci-check": "yarn format:diff && yarn lint",
+    "format": "prettier --write \"**/*.{scss,css,js,md}\"",
+    "format:staged": "prettier --write",
+    "format:diff": "prettier --list-different \"**/*.{scss,css,js,md}\""
   },
   "dependencies": {
     "@carbon/elements": "^10.2.0",
@@ -21,7 +25,14 @@
     "carbon-components-react": "^7.2.0",
     "gatsby": "^2.7.3",
     "gatsby-theme-carbon": "^0.7.0",
+    "prettier": "^1.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "prettier": {
+    "jsxBracketSameLine": true,
+    "printWidth": 80,
+    "singleQuote": true,
+    "trailingComma": "es5"
   }
 }

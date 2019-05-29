@@ -1,9 +1,9 @@
 ---
 name: Question ❓
 about: Usage question or discussion about the IBM Design Language Website.
-title: ""
-labels: ""
-assignees: ""
+title: ''
+labels: ''
+assignees: ''
 ---
 
 <!--

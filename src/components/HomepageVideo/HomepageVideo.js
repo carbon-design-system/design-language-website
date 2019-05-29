@@ -1,29 +1,29 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
-import { settings } from "carbon-components";
-import { breakpoints } from "@carbon/layout/es";
-import ArrowRight20 from "@carbon/icons-react/es/arrow--right/20";
-import VideoInternal from "../VideoInternal/";
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import { settings } from 'carbon-components';
+import { breakpoints } from '@carbon/layout/es';
+import ArrowRight20 from '@carbon/icons-react/es/arrow--right/20';
+import VideoInternal from '../VideoInternal/';
 
 const { prefix } = settings;
 
 class HomepageVideo extends Component {
   state = {
-    loop: true
+    loop: true,
   };
 
   static defaultProps = {
-    poster: "images/hero-video-poster.jpg",
-    src: "videos/hero-video.mp4"
+    poster: 'images/hero-video-poster.jpg',
+    src: 'videos/hero-video.mp4',
   };
 
   componentDidMount() {
-    window.addEventListener("resize", this.onResize);
+    window.addEventListener('resize', this.onResize);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.onResize);
+    window.removeEventListener('resize', this.onResize);
   }
 
   onResize = () => {
@@ -32,13 +32,13 @@ class HomepageVideo extends Component {
     if (window.matchMedia(`(max-width: ${breakpoints.md.width})`).matches) {
       if (loop) {
         this.setState({
-          loop: false
+          loop: false,
         });
       }
     } else {
       if (!loop) {
         this.setState({
-          loop: true
+          loop: true,
         });
       }
     }
@@ -56,18 +56,14 @@ class HomepageVideo extends Component {
             poster={poster}
             src={src}
             overlay={true}
-            cornerPlayButton={true}
-          >
+            cornerPlayButton={true}>
             <div
-              className={`${prefix}--homepage-video-overlay-content ${prefix}--grid`}
-            >
+              className={`${prefix}--homepage-video-overlay-content ${prefix}--grid`}>
               <div
-                className={`${prefix}--homepage-video-container-cta ${prefix}--row`}
-              >
+                className={`${prefix}--homepage-video-container-cta ${prefix}--row`}>
                 <Link
                   className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
-                  to="/philosophy/"
-                >
+                  to="/philosophy/">
                   <p className={`${prefix}--type-expressive-heading-03`}>
                     Philosophy
                   </p>
@@ -79,8 +75,7 @@ class HomepageVideo extends Component {
                 </Link>
                 <Link
                   className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
-                  to="/gallery/"
-                >
+                  to="/gallery/">
                   <p className={`${prefix}--type-expressive-heading-03`}>
                     Gallery
                   </p>
@@ -104,7 +99,7 @@ HomepageVideo.propTypes = {
   src: PropTypes.string,
 
   // url to poster
-  poster: PropTypes.string
+  poster: PropTypes.string,
 };
 
 export default HomepageVideo;
