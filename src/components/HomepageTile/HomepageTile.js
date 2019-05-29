@@ -25,6 +25,7 @@ const HomepageTile = ({
   children,
 }) => {
   //const windowWidth = window.outerWidth;
+  //remove/fix this - just testing
   const windowWidth = 1200;
 
   const calcRatio = ratio => {
