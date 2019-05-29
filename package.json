@@ -1,9 +1,11 @@
 {
   "name": "design-language-website",
+  "description": "IBM Design Language website",
+  "private": true,
   "version": "0.0.0",
   "main": "src",
   "repository": {
-    "url": "git@github.com:carbon-design-system/gatsby-theme-carbon.git",
+    "url": "git@github.com:carbon-design-system/design-language-website.git",
     "type": "git"
   },
   "author": "Alison Joseph <alison.joseph@us.ibm.com>",
@@ -25,9 +27,11 @@
     "carbon-components-react": "^7.2.0",
     "gatsby": "^2.7.3",
     "gatsby-theme-carbon": "^0.7.0",
-    "prettier": "^1.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
   },
   "prettier": {
     "jsxBracketSameLine": true,
