@@ -1,0 +1,30 @@
+//---------------------------------------
+// POV page
+//---------------------------------------
+.bx--row .bx--paragraph {
+  padding-right: 0;
+}
+
+.bx--type-expressive-heading-03 p {
+  @include carbon--type-style('expressive-heading-03');
+}
+
+//---------------------------------------
+// Principles page
+//---------------------------------------
+.principles-section {
+  padding-top: $spacing-09;
+}
+
+.principles-section:before {
+  content: '';
+  display: block;
+  background: $ui-04;
+  height: 1px;
+  width: calc(100% - 2rem);
+  margin: -$spacing-07 0 0 $spacing-05;
+}
+
+.principles-section h2 {
+  margin-top: 0;
+}
