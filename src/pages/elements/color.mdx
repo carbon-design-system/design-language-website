@@ -2,14 +2,16 @@
 title: Color
 ---
 
-import {PageDescription, AnchorLinks, AnchorLink} from "gatsby-theme-carbon"
+import Carousel from '../../components/Carousel';
+import SwatchPaletteWidget from '../../components/SwatchPaletteWidget';
 
 <PageDescription>
 
-  Our color palette expands on our unique aesthetic and represents a
-  contemporary and ever-changing IBM. Balancing mankind and machine, the colors
-  are harmonious with nature, yet chosen for their luminous quality in the
-  digital world.
+Our color palette expands on our unique aesthetic and represents a
+contemporary and ever-changing IBM. Balancing mankind and machine, the colors
+are harmonious with nature, yet chosen for their luminous quality in the
+digital world.
+
 </PageDescription>
 
 <AnchorLinks>
@@ -53,25 +55,64 @@ import {PageDescription, AnchorLinks, AnchorLink} from "gatsby-theme-carbon"
 
 A vibrant set of blues is the centerpoint of the color palette. When combined with the simplicity of black and white, a refreshing and unique look emerges for IBM.
 
--- BLUE GIF IMAGE --
+<Row className="color-logo-row">
+<Column colMd={4} colLg={6}  className="color-logo">
+
+![IBM](/images/IBMLogo.svg)
+
+</Column>
+<Column colMd={4} colLg={6}  className="color-logo-carousel">
+
+<Carousel id="c1" count="1 2 3 4 5 6 7 8 9" nav={false} fade={true} autoplay>
+
+![Spaceman](/images/Spaceman.svg)
+
+![IBlockchainBM](/images/Blockchain.svg)
+
+![IBMCloud](/images/IBMCloud.svg)
+
+![Watson](/images/Watson.svg)
+
+![Rebus](/images/Rebus.svg)
+
+![Think](/images/Think.svg)
+
+![Cloud](/images/Cloud.svg)
+
+![IBMLogoSolid](/images/IBMLogoSolid.svg)
+
+![IBMIX](/images/IBMIX.svg)
+
+</Carousel>
+
+</Column>
+</Row>
+
+![blue color grid](/images/color-grid-blues.png)
 
 ### The palette
 
 The full palette extends from the blue family to the edges of the blue spectrum—even the reds contain a hint of blue. The resulting palette is a set of colors that portrays a singular IBM. Of the world and digital. Useful and judicious.
 
--- COLORED GRID IMAGE --
+![color grid](/images/color-grid-full.png)
 
 ### Grays
 
 Having multiple gray families gives each design the opportunity for nuance and meaningful moments of color. Each experience should be dominated by the grays and the core colors (black, white, and the blue family), allowing the other color families to have vibrancy and provide purpose.
 
--- GRAY SPECTRUM --
+![grays color grid](/images/color-grid-grays.png)
 
 ## Specifications
 
 Each of the 10 color families have been divided into 10 swatches ranging from light to dark. RGB and HEX values are provided for digital appliations along with Pantone and CMYK values for print.
 
--- COLOR TABS --
+<SwatchPaletteWidget
+  top="0"
+  palettes={[
+    ['red', 'magenta', 'purple', 'blue', 'cyan', 'teal', 'green'],
+    ['cool gray-bw', 'gray-bw', 'warm gray-bw'],
+  ]}
+/>
 
 ## Color families
 
@@ -79,52 +120,155 @@ The color palette has been organized into four distinct 4-Color families, each c
 
 ### 4-Color
 
--- IMAGE --
+![](/images/4-color.png)
 
 ### 3-Color
 
--- IMAGE --
+![](/images/3-color.png)
 
 ### 2-Color
 
--- IMAGE --
+![](/images/2-color.png)
 
 ### 1-Color
 
--- IMAGE --
+![](/images/1-color.png)
 
 ### Combinations to avoid
 
 The following color combinations have been eliminated from the Color families and should be avoided unless required for specific appliations such as Data Visualization.
 
--- DO/DONT --
+<Row>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="dont" caption="Do not mix greens with reds, magentas or purples.">
+
+![](images/combination-1-wrong.svg)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="dont" caption="Do not mix teals with reds or magentas.">
+
+![](images/combination-2-wrong.svg)
+
+</DoDontExample>
+</Column>
+</Row>
 
 ## Gradients
 
 Use combinations within any of the acceptable 2-Color families when blending gradients. Values between 30 and 60 are used to create vibrant gradients that work well against both dark and light backgrounds. For more contrast or subtlety, blend between darker or lighter colors. Do not blend between colors that are more than two steps away from each other.
 
--- IMAGE --
+![Gradients](images/gradients-main.gif)
 
--- DO/DONT --
+<Row>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="dont" caption="Do not mix colors that are outside of the accepted 2-Color Families.">
+
+![](images/gradient-1-wrong.svg)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="dont" caption="Do not blend between colors that are more than 2 steps away, i.e. Blue 60 to Teal 20.">
+
+![](images/gradient-2-wrong.svg)
+
+</DoDontExample>
+</Column>
+</Row>
+<Row>
+<Column colMd={4} colLg={4}>
+<DoDontExample type="dont" caption="Do not create gradients with more than two colors.">
+
+![](images/gradient-3-wrong.svg)
+
+</DoDontExample>
+</Column>
+</Row>
 
 ## Color in UI
 
 Application of the IBM color palette brings an unified and recognizable consistency to IBM’s vast array of digital products and interfaces. This consistency is grounded by a set of well-defined rules on how to work with our component library in the context of dark and light themes.
 
--- IMAGE --
+![introduction](images/introduction.gif)
 
 ### Specifications
 
 The Neutral Gray family is dominant in our UI, making use of subtle shifts in value to help organize content into distinct zones. The Core Blue family has been designated as the primary action color across all products and experiences, ensuring our color aesthetic is a part of every interaction. Additional colors are used sparingly and purposefully.
 
--- TABS --
-
--- CARD --
+<SwatchPaletteWidget palettes={[['blue-bw', 'gray-bw', 'alert']]} />
+  
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Visit Color in UI for more color guidance"
+      aspectRatio="2:1"
+      href="/elements/color-ui"
+      actionIcon="arrowRight"
+     />
+</Column>
+</Row>
 
 ## Color in action
 
 See the IBM Design color palette in action across multiple business units and applications. Deliberate hits of color are composed with rich neutrals for a well-balanced and cohesive experience.
 
--- IMAGE COLLAGE --
+<Row>
+<Column colMd={5} colLg={8}>
 
--- CARD --
+![color-in-action-books](images/color-in-action-books.jpg)
+
+</Column>
+<Column colMd={3} colLg={4}>
+
+![color-in-action-mobile](images/color-in-action-mobile.png)
+
+</Column>
+<Column colMd={3} colLg={4}>
+
+![color-in-action-exhibit](images/color-in-action-exhibit.jpg)
+
+</Column>
+<Column colMd={5} colLg={8}>
+
+![color-in-action-tablet](images/color-in-action-tablet.png)
+
+</Column>
+<Column colMd={4} colLg={4}>
+
+![color-in-action-charts](images/color-in-action-charts.png)
+
+</Column>
+<Column colMd={4} colLg={4}>
+
+![color-in-action-landing](images/color-in-action-landing.png)
+
+</Column>
+<Column colMd={3} colLg={4}>
+
+![color-in-action-icons](images/color-in-action-icons.png)
+
+</Column>
+<Column colMd={5} colLg={8}>
+
+![color-in-action-leadspace](images/color-in-action-leadspace.jpg)
+
+</Column>
+<Column colMd={4} colLg={4}>
+
+![color-in-action-tablet-2](images/color-in-action-tablet-2.png)
+
+</Column>
+</Row>
+
+<Row className="resource-card-group">
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="View gallery"
+      aspectRatio="2:1"
+      href="/gallery"
+      actionIcon="arrowRight"
+    />
+  </Column>
+</Row>
