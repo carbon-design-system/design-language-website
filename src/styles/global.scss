@@ -4,10 +4,13 @@
 
 // colors, spacing, theme-tokens, functions, motion
 @import '~carbon-components/scss/globals/scss/vars';
+@import '~carbon-components/scss/globals/scss/typography';
 
 // mixins
 @import '~@carbon/elements/scss/layout/breakpoint';
 @import '~@carbon/elements/scss/type/styles';
+
+
 
 // grid classnames (should be added to either grid package or theme?)
 .#{$prefix}--no-gutter-lg {
@@ -50,6 +53,7 @@
 //---------------------------------------
 @import 'images';
 @import 'homepage';
+@import 'typography';
 
 //---------------------------------------
 // IDL components

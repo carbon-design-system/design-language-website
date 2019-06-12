@@ -35,12 +35,12 @@ With our new bespoke corporate typeface, IBM Plex™, comes a new set of guidanc
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Visit the IBM Plex™ website to learn more"
+      subTitle="Setup the IBM Design kit"
       aspectRatio="2:1"
-      href="https://www.ibm.com/plex/"
+      href="https://ibm.com/standards/web/design-kit"
       >
 
-![](/images/eye.svg)
+![](/images/SketchIcon.svg)
 
   </ResourceCard>
 </Column>
@@ -50,13 +50,65 @@ With our new bespoke corporate typeface, IBM Plex™, comes a new set of guidanc
 
 The IBM Plex™ family comes in sans, serif, condensed and monospaced versions to serve a variety of needs across all experiences. It has been specifically designed to work well in digital environments and small or large scales. It comes in extended Latin and non-Latin scripts. See [Typeface](https://www.ibm.com/elements/typeface/) to learn more.
 
--- ADD TYPEFACE COMPONENT --
+<Row>
+<Column colLg={8} noGutterSm>
+<div class="typeface">
+
+<span class="bx--type">IBM Plex Sans</span>
+<span class="bx--type-serif">IBM Plex Serif</span>
+<span class="bx--type-mono">IBM Plex Mono</span>
+<span class="bx--type-condensed">IBM Plex Condensed</span>
+
+</div>
+
+```
+<span class="bx--type">IBM Plex Sans</span>
+<span class="bx--type-serif">IBM Plex Serif</span>
+<span class="bx--type-mono">IBM Plex Mono</span>
+<span class="bx--type-condensed">IBM Plex Condensed</span>
+```
+
+</Column>
+</Row>
 
 ## Scales
 
 The IBM type scale is built on a single equation. The formula for our scale was created to provide hierarchy for all types of experiences. The formula assumes that y₀=12px:
 
--- ADD TYPESCALE COMPONENT --
+<Row>
+<Column colLg={8} noGutterSm>
+
+<div class="type-scale-table">
+
+| rem      | px      |
+| -------- | ------- |
+| 0.75  | Plex 12 |
+| 0.875 | Plex 14 |
+| 1     | Plex 16 |
+| 1.125 | Plex 18 |
+| 1.25  | Plex 20 |
+| 1.5   | Plex 24 |
+| 1.75  | Plex 28 |
+| 2     | Plex 32 |
+| 2.25  | Plex 36 |
+| 2.625 | Plex 42 |
+| 3     | Plex 48 |
+| 3.375 | Plex 54 |
+| 3.75  | Plex 60 |
+| 4.25  | Plex 68 |
+| 4.75  | Plex 76 |
+| 5.25  | Plex 84 |
+| 5.75  | Plex 92 |
+
+</div>
+
+```
+Xn = Xn-1 + {INT[(n-2)/4] + 1} * 2
+Xn: step n type size Xn-1: step n-1 type size
+```
+
+</Column>
+</Row>
 
 ## Style
 
@@ -66,13 +118,49 @@ Typography creates purposeful texture. It guides users to read and understand th
 
 We suggest to use IBM Plex Light, Regular, and SemiBold for digital experiences. The semibold weight is ideal for section headers, but should not be used for long text.
 
--- ADD TYPEWEIGHT COMPONENT --
+<Row>
+<Column colLg={8} noGutterSm>
+
+<div class="type-weight">
+
+<span class="bx--type-semibold">Semibold</span>
+<span class="bx--type-regular">Regular</span>
+<span class="bx--type-light">Light</span>
+
+</div>
+
+```
+<span class="bx--type-semibold">Semibold</span>
+<span class="bx--type-regular">Regular</span>
+<span class="bx--type-light">Light</span>
+```
+
+</Column>
+</Row>
 
 ### Italic
 
 Each weight has an Italic style, which should only be used when you need to emphasize certain words in a sentence (titles of works, technical terms, names of devices, captions).
 
--- ADD TYPEWEIGHT COMPONENT --
+<Row>
+<Column colLg={8} noGutterSm>
+
+<div class="type-weight">
+
+<span class="bx--type-semibold bx--type-italic">Semibold</span>
+<span class="bx--type-regular bx--type-italic">Regular</span>
+<span class="bx--type-light bx--type-italic">Light</span>
+
+</div>
+
+```
+<span class="bx--type-semibold bx--type-italic">Semibold</span>
+<span class="bx--type-regular bx--type-italic">Regular</span>
+<span class="bx--type-light bx--type-italic">Light</span>
+```
+
+</Column>
+</Row>
 
 ## Fluid type
 
