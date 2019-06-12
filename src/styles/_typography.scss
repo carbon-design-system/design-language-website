@@ -2,13 +2,13 @@
 // Typeface
 //---------------------------------------
 .typeface {
-    @include carbon--type-style('display-03');
-    background: white;
-    padding: $spacing-05;
+  @include carbon--type-style('display-03');
+  background: white;
+  padding: $spacing-05;
 }
 
 .typeface span {
-    display: block;
+  display: block;
 }
 
 //---------------------------------------
