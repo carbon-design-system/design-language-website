@@ -5549,10 +5549,10 @@ gatsby-telemetry@^1.0.10:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-theme-carbon@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.1.2.tgz#cd10844bdba6e8a6ce2fbc49e795224f82146504"
-  integrity sha512-5MSueQO11tiznfRP1nXh1dOWXYY3kXxHRio0LT6/4spQr5lPtQms4ORL5nL/tvfiS1du1fiClKUHMuWx/RgXZQ==
+gatsby-theme-carbon@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.2.0.tgz#38bdb3ef39ef582e526d5e5149d199e7ed26852b"
+  integrity sha512-HyExJqJG8hNM4Ytttv0R4/kuQ1hbbKFRXbSKhdO8qKDvodH9j4+rNSwT98oRoAmR7bcUkArhEiC0/kOePwKH+g==
   dependencies:
     "@carbon/addons-website" "0.0.1-alpha.21"
     "@carbon/colors" "^10.2.0"

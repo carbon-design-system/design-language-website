@@ -2,7 +2,7 @@
 title: Color UI
 ---
 
-import { PageDescription, AnchorLinks, AnchorLink } from "gatsby-theme-carbon";
+import ColorBlock from '../../components/ColorBlock';
 
 <PageDescription>
 
@@ -22,17 +22,41 @@ harmony through our User Interface design.
   <AnchorLink>Accessibility resources</AnchorLink>
 </AnchorLinks>
 
--- VIDEO --
+<Video videmoID="281513790" />
 
 ## Resources
 
--- CARDS --
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Setup the IBM Design kit"
+      aspectRatio="2:1"
+      href="https://ibm.com/standards/web/design-kitt"
+      >
+
+![](/images/SketchIcon.svg)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Color Palettes for Adobe™(.ase)"
+      aspectRatio="2:1"
+      href="/files/IBM-color-palettes.zip"
+      actionIcon="download"
+      >
+
+![](/images/ase.svg)
+
+  </ResourceCard>
+</Column>
+</Row>
 
 ## Introduction
 
 Application of our color palette brings an unified and recognizable consistency to IBM’s vast array of digital products and interfaces. This consistency is grounded by a set of well-defined rules on how to work with our component library in the context of dark and light themes.
 
--- IMAGE --
+![](/images/introduction.gif)
 
 ## Color anatomy
 
@@ -40,31 +64,107 @@ The Neutral Gray family is dominant in our UI, making use of subtle shifts in va
 
 The core Blue family has been designated as the primary action color across all products and experiences, ensuring our color aesthetic is a part of every interaction. Additional colors are used sparingly and purposefully.
 
--- IMAGE --
+![blue color grid](/images/color-grid-blues.png)
 
--- IMAGE --
+![alert color grid](/images/color-grid-alert.png)
+
+<Caption>Alerts Colors</Caption>
 
 ### Themes
 
 Each theme works with a specific set of primary background colors. These colors are global variables which determine the color of the component being applied within each theme. The light theme uses White and Gray 10 backgrounds and the dark theme uses Gray 100, 90 and 80 backgrounds. Default color tokens are provided for each component based on the primary background color.
 
--- IMAGE --
+<Row>
+<Column colMd={3} colLg={2} noGutterSm>
+
+-- Create and add color block components --
+
+<Caption>Light</Caption>
+
+</Column>
+<Column colMd={5} colLg={6} noGutterSm>
+
+-- Create and add color block components --
+
+<Caption>Dark</Caption>
+
+</Column>
+</Row>
 
 ### Global background colors
 
--- TABLE --
+| Role                    | Hex Value | Color    |                                            |
+| ----------------------- | --------- | -------- | ------------------------------------------ |
+| Global Background Light | `#ffffff` | White    | <ColorBlock size="xs">#ffffff</ColorBlock> |
+| Global Background Light | `#f3f3f3` | Gray 10  | <ColorBlock size="xs">#f3f3f3</ColorBlock> |
+| Global Background Dark  | `#3d3d3d` | Gray 80  | <ColorBlock size="xs">#3d3d3d</ColorBlock> |
+| Global Background Dark  | `#282828` | Gray 90  | <ColorBlock size="xs">#282828</ColorBlock> |
+| Global Background Dark  | `#171717` | Gray 100 | <ColorBlock size="xs">#171717</ColorBlock> |
 
 ### Light theme
 
 Gray 10 components are generally paired with White backgrounds and White components with Gray 10 backgrounds. Some components, such as buttons and toggles, are common across both backgrounds.
 
--- DO/DONT --
+<Row>
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do" caption="Gray 10 Dropdown on White background.">
 
--- DO/DONT --
+![](images/light-theme-do-1.svg)
 
--- GIF --
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do" caption="White Dropdown on Gray 10 background.">
 
--- MODALS --
+![](images/light-theme-do-2.svg)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do" caption="White Overflow Menu on Gray 10 Card.">
+
+![](images/light-theme-do-3.jpg)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={6}>
+<DoDontExample type="dont" caption="Avoid use of midtones.">
+
+![](images/light-theme-dont-1.svg)
+
+</DoDontExample>
+</Column>
+</Row>
+
+![UI against light](images/ui-against-light-bg.gif)
+
+<Caption>
+  Components with common colors across both light UI backgrounds
+</Caption>
+
+<Row>
+<Column colMd={4} colLg={4} className="background-white">
+
+![](images/color-in-ui-evidence-light.png)
+
+<Caption>IBM Evidence Builder Prototype</Caption>
+
+</Column>
+<Column colMd={4} colLg={4} className="background-white">
+
+![](images/color-in-ui-radar-light.jpg)
+
+<Caption>IBM Radar Prototype</Caption>
+
+</Column>
+<Column colMd={4} colLg={4} className="background-white">
+
+![](images/color-in-ui-platform-light.jpg)
+
+<Caption>IBM Cloud Platform Prototype</Caption>
+
+</Column>
+</Row>
 
 ### Dark theme
 
