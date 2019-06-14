@@ -18,3 +18,10 @@
 //---------------------------------------
 // Color UI
 //---------------------------------------
+.bx--aspect-ratio--image {
+  background: white;
+}
+
+.bx--aspect-ratio--image .gatsby-resp-image-wrapper {
+  margin: 1rem !important;
+}
