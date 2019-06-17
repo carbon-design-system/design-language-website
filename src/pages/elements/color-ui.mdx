@@ -14,22 +14,23 @@ harmony through our User Interface design.
 </PageDescription>
 
 <AnchorLinks>
+  <AnchorLink>Get started</AnchorLink>
   <AnchorLink>Introduction</AnchorLink>
   <AnchorLink>Color anatomy</AnchorLink>
   <AnchorLink>Interaction states</AnchorLink>
-  <AnchorLink>Commonly used colors</AnchorLink>
+  <AnchorLink>Implementing color</AnchorLink>
   <AnchorLink>Digital accessibility</AnchorLink>
   <AnchorLink>Accessibility resources</AnchorLink>
 </AnchorLinks>
 
 <Video videmoID="281513790" />
 
-## Resources
+## Get started
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Setup the IBM Design kit"
+      subTitle="Start withy the IBM Design kit"
       aspectRatio="2:1"
       href="https://ibm.com/standards/web/design-kitt"
       >
@@ -54,15 +55,13 @@ harmony through our User Interface design.
 
 ## Introduction
 
-Application of our color palette brings an unified and recognizable consistency to IBM’s vast array of digital products and interfaces. This consistency is grounded by a set of well-defined rules on how to work with our component library in the context of dark and light themes.
+Application of our color palette brings a unified and recognizable consistency to IBM’s vast array of digital products and interfaces. This consistency is grounded by a set of well-defined rules on how to work with our component library in the context of dark and light themes.
 
 ![](/images/introduction.gif)
 
 ## Color anatomy
 
-The Neutral Gray family is dominant in our UI, making use of subtle shifts in value to help organize content into distinct zones.
-
-The core Blue family has been designated as the primary action color across all products and experiences, ensuring our color aesthetic is a part of every interaction. Additional colors are used sparingly and purposefully.
+The Neutral Gray family is dominant in our UI, making use of subtle shifts in value to help organize content into distinct zones. The core Blue family has been designated as the primary action color across all products and experiences. Additional colors are used sparingly and purposefully.
 
 ![blue color grid](/images/color-grid-blues.png)
 
@@ -70,36 +69,89 @@ The core Blue family has been designated as the primary action color across all 
 
 <Caption>Alerts Colors</Caption>
 
+## Implementing color
+
+Color is implemented through the [Carbon Design System](http://www.carbondesignsystem.com) which uses tokens and themes to manage color. Tokens are role-based, and themes specify the color values that serve those roles in the UI.
+
+| Term    | Definition                                                                                                  |
+| ------- | ----------------------------------------------------------------------------------------------------------- |
+| _Theme_ | The set of unique values assigned to the tokens of a Carbon interface.                                      |
+| _Token_ | The code identifier for a unique role or set of roles. Tokens are universal and never change across themes. |
+| _Role_  | The systematic usage(s) of a token. Roles cannot be changed between themes.                                 |
+| _Value_ | The actual style (i.e. hex code) assigned to a token.                                                       |
+
+### Tokens
+
+Tokens are a method of abstracting color by role or usage, independent of the actual color values. For example, instead of needing to code all instances of input labels in a UI to be `#565656`, the form component in Carbon specifies the token for these lables, and that token is specified in a separate theme file to `$text-02` be `#565656`. For a different theme, that same `$text-02` token could be mapped to a different hex value, like `#ffffff`. Thus, tokens not only allow for more efficient color updates within a theme, but also enable any UI (or portion of a UI) built with Carbon to easily switch between different themes.
+A single token can be associated with multiple roles, but only if the color value is used consistently across those roles. This allows for uniform color application across themes while maintaining full styling flexibility.
+
+With this system, all Carbon users can create their own themes by assigning new values to the established color tokens. IBM products should use the IBM default themes.
+
 ### Themes
 
-Each theme works with a specific set of primary background colors. These colors are global variables which determine the color of the component being applied within each theme. The light theme uses White and Gray 10 backgrounds and the dark theme uses Gray 100, 90 and 80 backgrounds. Default color tokens are provided for each component based on the primary background color.
+Themes serve as an organizational framework for color in Carbon, with each theme based on a specific primary background color. Default light themes use White and Gray 10 backgrounds and default dark themes use Gray 100, 90 and 80 backgrounds. Default color tokens are provided for each component based on the primary background color. _Gray 80 coming soon._
 
-<Row>
-<Column colMd={3} colLg={2} noGutterSm>
+<Row class="color-blocks">
+<Column colMd={3} colLg={2}>
 
--- Create and add color block components --
+<div class="bx--aspect-ratio bx--aspect-ratio--1x1">
+  <div class="bx--aspect-ratio--object color-square color-square--white">
+    White
+  </div>
+</div>
 
 <Caption>Light</Caption>
 
 </Column>
-<Column colMd={5} colLg={6} noGutterSm>
+<Column colMd={3} colLg={2}>
 
--- Create and add color block components --
+<div class="bx--aspect-ratio bx--aspect-ratio--1x1">
+  <div class="bx--aspect-ratio--object color-square color-square--gray-10">
+    Gray 10
+  </div>
+</div>
+
+</Column>
+<Column colMd={3} colLg={2}>
+
+<div class="bx--aspect-ratio bx--aspect-ratio--1x1">
+  <div class="bx--aspect-ratio--object color-square color-square--gray-100">
+    Gray 100
+  </div>
+</div>
 
 <Caption>Dark</Caption>
+
+</Column>
+<Column colMd={3} colLg={2}>
+
+<div class="bx--aspect-ratio bx--aspect-ratio--1x1">
+  <div class="bx--aspect-ratio--object color-square color-square--gray-90">
+    Gray 90
+  </div>
+</div>
+
+</Column>
+<Column colMd={3} colLg={2}>
+
+<div class="bx--aspect-ratio bx--aspect-ratio--1x1">
+  <div class="bx--aspect-ratio--object color-square color-square--gray-80">
+    Gray 80
+  </div>
+</div>
 
 </Column>
 </Row>
 
 ### Global background colors
 
-| Role                    | Hex Value | Color    |                                            |
-| ----------------------- | --------- | -------- | ------------------------------------------ |
-| Global Background Light | `#ffffff` | White    | <ColorBlock size="xs">#ffffff</ColorBlock> |
-| Global Background Light | `#f3f3f3` | Gray 10  | <ColorBlock size="xs">#f3f3f3</ColorBlock> |
-| Global Background Dark  | `#3d3d3d` | Gray 80  | <ColorBlock size="xs">#3d3d3d</ColorBlock> |
-| Global Background Dark  | `#282828` | Gray 90  | <ColorBlock size="xs">#282828</ColorBlock> |
-| Global Background Dark  | `#171717` | Gray 100 | <ColorBlock size="xs">#171717</ColorBlock> |
+| Color    | Role                    | Token            | Hex Value |                                            |
+| -------- | ----------------------- | ---------------- | --------- | ------------------------------------------ |
+| White    | Global Background Light | `$ui-background` | `#ffffff` | <ColorBlock size="xs">#ffffff</ColorBlock> |
+| Gray 10  | Global Background Light | `$ui-background` | `#f3f3f3` | <ColorBlock size="xs">#f3f3f3</ColorBlock> |
+| Gray 80  | Global Background Dark  | `$ui-background` | `#3d3d3d` | <ColorBlock size="xs">#3d3d3d</ColorBlock> |
+| Gray 90  | Global Background Dark  | `$ui-background` | `#282828` | <ColorBlock size="xs">#282828</ColorBlock> |
+| Gray 100 | Global Background Dark  | `$ui-background` | `#171717` | <ColorBlock size="xs">#171717</ColorBlock> |
 
 ### Light theme
 
@@ -292,51 +344,30 @@ A unique set of color tokens are available for hover states. These colors are ou
 
 #### Active
 
-The active state is two full steps lighter for values between 100 and 70 and two full steps darker for values between 60 and 10. Exception: White shares the same active state as Gray 10 and Black shares the same active state as Gray 100. Example: the Gray 10 active state is Gray 30.
+The active state is two full steps lighter for values between 100 and 70 and two full steps darker for values between 60 and 10. _Exception: White shares the same active state as Gray 10 and Black shares the same active state as Gray 100. Example: the Gray 10 active state is Gray 30._
 
 #### Selected
 
-The selected state is one full step lighter for values between 100 and 70 and one full step darker for values between 60 and 10. Exception: White shares the same selected state as Gray 10 and Black shares the same selected state as Gray 100. Example: the Gray 10 selected state is Gray 20.
+The selected state is one full step lighter for values between 100 and 70 and one full step darker for values between 60 and 10. _Exception: White shares the same selected state as Gray 10 and Black shares the same selected state as Gray 100. Example: the Gray 10 selected state is Gray 20._
 
 #### Focus
 
 The focus state usually appears as a Blue 60 border in the light theme and as a White border in the dark theme.
 
-<Row>
-<Column>
+#### Disabled
 
-![](images/interaction-states-light-theme.svg)
-
-<Caption>Light theme</Caption>
-
-![](images/interaction-states-dark-theme.svg)
-
-<Caption>Dark theme</Caption>
-
-</Column>
-</Row>
-
-## Commonly used colors
-
-The table below lists common colors that are not component specific such as primary text, icons and alerts. For a more comprehensive list of values, please refer to the Style section for each individual component.
-
-Role SCSS Hex Value Color
-
-| Role                   | Hex Value | Color     |                                            |
-| ---------------------- | --------- | --------- | ------------------------------------------ |
-| Text – Primary Light   | `#171717` | Gray 100  | <ColorBlock size="xs">#171717</ColorBlock> |
-| Text – Primary Dark    | `#f3f3f3` | Gray 10   | <ColorBlock size="xs">#f3f3f3</ColorBlock> |
-| Text – Secondary Light | `#565656` | Gray 70   | <ColorBlock size="xs">#565656</ColorBlock> |
-| Text – Secondary Dark  | `#bebebe` | Gray 30   | <ColorBlock size="xs">#bebebe</ColorBlock> |
-| Text – Hint            | `#a4a4a4` | Gray 40   | <ColorBlock size="xs">#a4a4a4</ColorBlock> |
-| Alert – Error          | `#da1e28` | Red 60    | <ColorBlock size="xs">#da1e28</ColorBlock> |
-| Alert – Warning        | `#fdd13a` | Yellow 30 | <ColorBlock size="xs">#fdd13a</ColorBlock> |
-| Alert – Success        | `#24a249` | Green 50  | <ColorBlock size="xs">#24a249</ColorBlock> |
+Disabled components are unavailable for interaction, so they don’t receive hover or focus and are not subject to WC3 contrast compliance standards. In dark themes, disabled values are two full steps lighter than their respective background. In light themes, they are two full steps darker. For example, disabled text on a Gray 100 background is Gray 80. _Exception: the disabled value for both White and Gray 10 backgrounds is Gray 30._
 
 <Row>
 <Column>
 
-![Common colors](images/commonly-used-colors.png)
+![Example light theme interaction states](images/interaction-states-light-theme.svg)
+
+<Caption>Example light theme interaction states</Caption>
+
+![Example dark theme interaction states](images/interaction-states-dark-theme.svg)
+
+<Caption>Example dark theme interaction states</Caption>
 
 </Column>
 </Row>
@@ -391,3 +422,8 @@ Those affected by Protanopia color blindness are less sensitive to red light, wh
     />
   </Column>
 </Row>
+
+<br />
+<br />
+
+For a complete look at color-related accessibility topics, visit the [Carbon Design System Accessibility](https://www.carbondesignsystem.com/guidelines/accessibility/overview) section.

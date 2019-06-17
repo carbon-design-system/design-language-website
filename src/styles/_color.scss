@@ -19,9 +19,54 @@
 // Color UI
 //---------------------------------------
 .bx--aspect-ratio--image {
-  background: white;
+  background: $carbon--white-0;
 }
 
 .bx--aspect-ratio--image .gatsby-resp-image-wrapper {
   margin: 1rem !important;
+}
+
+.color-blocks {
+  margin-left: 0;
+}
+
+.color-blocks .bx--col-lg-2 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.color-blocks .bx--col-lg-2:nth-child(3) {
+  margin-left: $spacing-07;
+}
+
+.color-square {
+  padding: $spacing-05;
+}
+
+.color-square--white {
+  background: $carbon--white-0;
+}
+
+.color-square--gray-10 {
+  background: $carbon--gray-10;
+  outline: 3px solid $carbon--white-0;
+  outline-offset: -3px;
+}
+
+.color-square--gray-100 {
+  background: $carbon--gray-100;
+}
+
+.color-square--gray-90 {
+  background: $carbon--gray-90;
+}
+
+.color-square--gray-80 {
+  background: $carbon--gray-80;
+}
+
+.color-square--gray-100,
+.color-square--gray-90,
+.color-square--gray-80 {
+  color: $carbon--white-0;
 }
