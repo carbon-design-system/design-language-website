@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
 import { breakpoints } from '@carbon/layout/es';
-import ArrowRight20 from '@carbon/icons-react/es/arrow--right/20';
+import { ArrowRight20 } from '@carbon/icons-react';
 import VideoInternal from '../VideoInternal/';
 
 const { prefix } = settings;
