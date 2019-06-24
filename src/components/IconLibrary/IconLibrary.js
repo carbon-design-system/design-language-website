@@ -1,6 +1,5 @@
 import React from 'react';
 import { Search, Loading } from 'carbon-components-react';
-import IconEmptyState from '../IconEmptyState';
 
 const sizes = ['16', '20', '24', '32', 'Glyph'];
 
@@ -115,7 +114,7 @@ export default class IconLibrary extends React.Component {
 
     if (isLoading) {
       return (
-        <div className="page">
+        <div className="icon-library">
           {search}
           {isLoading && <Loading />}
         </div>
@@ -125,40 +124,48 @@ export default class IconLibrary extends React.Component {
     if (errorLoadingIcons) {
       console.error(errorLoadingIcons); // eslint-disable-line no-console
       return (
-        <div className="page bx--row">
-          <div className="bx--col-lg-12 bx--offset-lg-4">
-            <h3>Yikes! Looks like something went wrong.</h3>
-            <p>
-              We're still working out some problems in our experimental website.
-              If you can, we'd appreciate it if you could make an issue on{' '}
-              <a
-                href="https://github.com/carbon-design-system/carbon-website-gatsby"
-                rel="noopener noreferrer"
-                target="_blank">
-                our repo
-              </a>{' '}
-              to make sure that this gets fixed!
-            </p>
-          </div>
+        <div className="icon-library">
+          <h3>Yikes! Looks like something went wrong.</h3>
+          <p>
+            We're still working out some problems in our experimental website.
+            If you can, we'd appreciate it if you could make an issue on{' '}
+            <a
+              href="https://github.com/carbon-design-system/carbon-website-gatsby"
+              rel="noopener noreferrer"
+              target="_blank">
+              our repo
+            </a>{' '}
+            to make sure that this gets fixed!
+          </p>
         </div>
       );
     }
 
     if (filteredIcons.length === 0) {
       return (
-        <div className="page bx--row">
-          <div className="bx--col-lg-8 bx--offset-lg-4">{search}</div>
-          <div className="bx--col-lg-12 bx--offset-lg-4">
-            <IconEmptyState />
+        <div className="icon-library bx--row">
+          <div className="bx--col-lg-8">{search}</div>
+          <div className="bx--col-lg-12 bx--col-no-gutter`">
+            <h3>No results found.</h3>
+            <p>
+              It appears we don't have an icon that matches your search. Try
+              different search terms or give us a hand -{' '}
+              <a href="https://github.com/carbon-design-system/carbon/tree/master/packages/icons">
+                submit your own icon
+              </a>{' '}
+              to the library.
+            </p>
           </div>
         </div>
       );
     }
 
     return (
-      <div className="page bx--row">
-        <div className="bx--col-lg-8 bx--offset-lg-4">{search}</div>
-        <div className="bx--col-lg-12 bx--offset-lg-4">{sections}</div>
+      <div className="icon-library">
+        <div className="bx--row">
+          <div className="bx--col-lg-8">{search}</div>
+        </div>
+        {sections}
       </div>
     );
   }
@@ -216,7 +223,7 @@ function createIconSections(icons, filteredIcons) {
         <header>
           <h2 className="icon-h2">{isNaN(size) ? size : `${size}x${size}`}</h2>
         </header>
-        <div className="icon-container">
+        <div className="bx--row">
           {groups[size]
             .filter(icon => filteredIcons.indexOf(icon.name) !== -1)
             .map(renderIcon)}
@@ -230,14 +237,20 @@ function createIconSections(icons, filteredIcons) {
  */
 function renderIcon(icon) {
   return (
-    <div key={icon.name} className="icon">
-      <div className="icon__card">
-        <icon.Component />
+    <div
+      key={icon.name}
+      className="icon bx--col-no-gutter bx--col-lg-2 bx--col-md-2 bx--col-sm-1">
+      <div className="bx--aspect-ratio bx--aspect-ratio--1x1">
+        <div className="bx--aspect-ratio--object">
+          <div className="icon__card">
+            <icon.Component />
+          </div>
+          <h5 className="icon__card-title" title={icon.friendlyName}>
+            {icon.friendlyName}
+          </h5>
+          <span className="icon__card-details" title={icon.name} />
+        </div>
       </div>
-      <h5 className="icon__card-title" title={icon.friendlyName}>
-        {icon.friendlyName}
-      </h5>
-      <span className="icon__card-details" title={icon.name} />
     </div>
   );
 }

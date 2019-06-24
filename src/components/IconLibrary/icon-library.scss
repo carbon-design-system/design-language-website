@@ -1,0 +1,110 @@
+.icon-library {
+  margin-top: 5rem;
+}
+
+.icon-library h2 {
+  @include carbon--type-style('expressive-heading-04', true);
+  margin-top: 4.5rem;
+  margin-bottom: $spacing-05;
+
+  @include carbon--breakpoint('md') {
+    width: 75%;
+  }
+
+  @include carbon--breakpoint('lg') {
+    width: 58.33%;
+  }
+}
+
+.icon-library h3 {
+  @include carbon--type-style('expressive-heading-03', true);
+  margin-top: 4.5rem;
+  margin-bottom: $spacing-05;
+  width: 100%;
+
+  @include carbon--breakpoint('md') {
+    width: 75%;
+  }
+
+  @include carbon--breakpoint('lg') {
+    width: 58.33%;
+  }
+}
+
+.icon-library p {
+  @include carbon--type-style('body-long-02');
+  margin-left: -$spacing-05;
+  padding-left: $spacing-05;
+
+  // 6 col
+  @include carbon--breakpoint('md') {
+    width: 75%;
+  }
+
+  // 8 col
+  @include carbon--breakpoint('lg') {
+    width: 66.667%;
+  }
+}
+
+.icon-search {
+  margin-bottom: rem(32px);
+}
+
+.icon {
+  &:nth-child(n) {
+    border-left: 1px solid $carbon--gray-20;
+    border-top: 1px solid $carbon--gray-20;
+  }
+
+  &:nth-child(-n + 4) {
+    border-top: none;
+  }
+
+  &:nth-child(4n + 1) {
+    border-left: none;
+  }
+
+  @include carbon--breakpoint('lg') {
+    &:nth-child(n) {
+      border-left: 1px solid $carbon--gray-20;
+      border-top: 1px solid $carbon--gray-20;
+    }
+
+    &:nth-child(-n + 6) {
+      border-top: none;
+    }
+
+    &:nth-child(6n + 1) {
+      border-left: none;
+    }
+  }
+}
+
+.icon__card {
+  background: $ui-02;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon__card-title,
+.icon__card-details {
+  position: absolute;
+  top: rem(12px);
+  left: rem(12px);
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 130px;
+  @include carbon--type-style('caption-01');
+}
+
+.icon__card-details {
+  top: rem(28px);
+  @include carbon--type-style('helper-text-01');
+}
