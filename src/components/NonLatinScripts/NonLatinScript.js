@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import { Renew20 } from '@carbon/icons-react';
+import { Renew20 as RenewIcon } from '@carbon/icons-react';
 import { settings } from 'carbon-components';
 
 const { prefix } = settings;
@@ -34,7 +34,7 @@ class NonLatinScript extends React.Component {
             <button
               className={`${prefix}--type-body-long-01 ${prefix}--non-latin-button`}
               onClick={() => this.setState({ customValue: null })}>
-              Reset <Renew20 width={16} height={16} />
+              Reset <RenewIcon width={16} height={16} />
             </button>
           )}
         </div>

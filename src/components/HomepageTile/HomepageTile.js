@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
 
-import { ArrowRight24, Launch20 } from '@carbon/icons-react';
+import { Launch20, ArrowRight24 } from '@carbon/icons-react';
 
 const { prefix } = settings;
 

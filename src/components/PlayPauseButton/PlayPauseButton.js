@@ -4,12 +4,12 @@ import classnames from 'classnames';
 import { settings } from 'carbon-components';
 
 import {
-  Pause32,
-  Play32,
-  PauseOutlineFilled20,
-  PauseOutline20,
   PlayOutline20,
   PlayOutlineFilled20,
+  PauseOutline20,
+  PauseOutlineFilled20,
+  Play20 as Play32,
+  Pause20 as Pause32,
 } from '@carbon/icons-react';
 
 const { prefix } = settings;
