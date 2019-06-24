@@ -47,14 +47,14 @@ If you want to help improve the docs, it's a good idea to let others know what y
    $ git remote add upstream git@github.com:carbon-design-system/design-language-website.git
    $ git remote -v
    ```
-Your terminal should output something like this: 
+    Your terminal should output something like this: 
 
-   ```
-   origin	[your forked repo] (fetch)
-   origin	[your forked repo] (push)
-   upstream	   https://github.com/carbon-design-system/design-language-website.git (fetch)
-   upstream	   https://github.com/carbon-design-system/design-language-website.git (push)
-   ```
+    ```
+    origin	[your forked repo] (fetch)
+    origin	[your forked repo] (push)
+    upstream	   https://github.com/carbon-design-system/design-language-website.git (fetch)
+    upstream	   https://github.com/carbon-design-system/design-language-website.git (push)
+    ```
 
 ### Submitting an Issue
 
@@ -93,7 +93,7 @@ If your issue appears to be a bug, and hasn't been reported, open a new issue. H
 7. Once ready for feedback from other contributors and maintainers, **push your commits to your fork** (be sure to run `yarn ci-check` before pushing, to make sure your code passes linting and unit tests):
 
    ```
-   $ git push -u origin { YOUR_BRANCH_NAME }
+   $ git push origin { YOUR_BRANCH_NAME }
    ```
 
 8. In GitHub, navigate to [carbon-design-system/design-language-website](https://github.com/carbon-design-system/design-language-website) and click the button that reads "Compare & pull request".
