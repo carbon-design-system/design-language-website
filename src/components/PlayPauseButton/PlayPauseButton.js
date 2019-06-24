@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { settings } from 'carbon-components';
 
-import PlayOutline20 from '@carbon/icons-react/es/play--outline/20';
-import PlayOutlineFilled20 from '@carbon/icons-react/es/play--outline--filled/20';
-import PauseOutline20 from '@carbon/icons-react/es/pause--outline/20';
-import PauseOutlineFilled20 from '@carbon/icons-react/es/pause--outline--filled/20';
-import Play32 from '@carbon/icons-react/es/play/20';
-import Pause32 from '@carbon/icons-react/es/pause/20';
+import {
+  PlayOutline20,
+  PlayOutlineFilled20,
+  PauseOutline20,
+  PauseOutlineFilled20,
+  Play20 as Play32,
+  Pause20 as Pause32,
+} from '@carbon/icons-react';
 
 const { prefix } = settings;
 
