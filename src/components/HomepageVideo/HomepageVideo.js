@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
 import { breakpoints } from '@carbon/layout/es';
-import ArrowRight20 from '@carbon/icons-react/es/arrow--right/20';
+import { ArrowRight20 } from '@carbon/icons-react';
 import VideoInternal from '../VideoInternal/';
 
 const { prefix } = settings;
@@ -63,7 +63,7 @@ class HomepageVideo extends Component {
                 className={`${prefix}--homepage-video-container-cta ${prefix}--row`}>
                 <Link
                   className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
-                  to="/philosophy/">
+                  to="/philosophy/pov/">
                   <p className={`${prefix}--type-expressive-heading-03`}>
                     Philosophy
                   </p>
