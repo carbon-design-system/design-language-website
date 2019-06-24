@@ -52,8 +52,8 @@ If you want to help improve the docs, it's a good idea to let others know what y
     ```
     origin	[your forked repo] (fetch)
     origin	[your forked repo] (push)
-    upstream	   https://github.com/carbon-design-system/design-language-website.git (fetch)
-    upstream	   https://github.com/carbon-design-system/design-language-website.git (push)
+    upstream	   git@github.com/carbon-design-system/design-language-website.git (fetch)
+    upstream	   git@github.com/carbon-design-system/design-language-website.git (push)
     ```
 
 ### Submitting an Issue
