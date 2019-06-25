@@ -1053,6 +1053,11 @@
   resolved "https://registry.yarnpkg.com/@ibm/plex/-/plex-1.4.1.tgz#daed951f4c5bbdef698c184abb78dcc3de13223a"
   integrity sha512-Sq6TBdApZV+y4kOstaVoGy2wIxboJnyzwESMcaRbC9+kMO/5Z0sxapQmQb0foKyLVRRsmn5LEA5LeVsncFsLwA==
 
+"@ibm/plex@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ibm/plex/-/plex-2.0.0.tgz#309ac4d571ad23225fd28c4605ec86882d81997e"
+  integrity sha512-mmAyvkiDa8c17KwJN3u2HRfYkF0LwtvVNPkCkoXMjcoI7tKbhBegj+4Dr3UK4+EGzqv7/h6JBw5pTttXTBrRnw==
+
 "@jimp/bmp@^0.6.4":
   version "0.6.4"
   resolved "https://registry.yarnpkg.com/@jimp/bmp/-/bmp-0.6.4.tgz#0f4b94486e979d82c83e1e87cd00b756afb26e49"

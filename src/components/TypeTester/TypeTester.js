@@ -33,6 +33,11 @@ const languageSample = [
       'นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ',
   },
   {
+    language: 'thaiLooped',
+    content:
+      'นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ',
+  },
+  {
     language: 'devanagari',
     content:
       'ऋषियों को सताने वाले दुष्ट राक्षसों के राजा रावण का सर्वनाश करने वाले विष्णुवतार भगवान श्रीराम, अयोध्या के महाराज दशरथ के बड़े सपुत्र थे।',
@@ -56,15 +61,15 @@ const commonFontWeights = [
 
 const languageDropdownContent = [
   {
-    label: 'IBM Plex Sans Hebrew',
-    language: 'hebrew',
-    className: [`${prefix}--type-hebrew`],
-    weights: commonFontWeights,
-  },
-  {
     label: 'IBM Plex Sans',
     className: [`${prefix}--type-default`],
     language: 'latin',
+    weights: commonFontWeights,
+  },
+  {
+    label: 'IBM Plex Sans Hebrew',
+    language: 'hebrew',
+    className: [`${prefix}--type-hebrew`],
     weights: commonFontWeights,
   },
   {
@@ -164,6 +169,12 @@ const languageDropdownContent = [
     weights: commonFontWeights,
   },
   {
+    label: 'IBM Plex Sans Thai Looped',
+    language: 'thai',
+    className: [`${prefix}--type-thai`],
+    weights: commonFontWeights,
+  },
+  {
     label: 'IBM Plex Sans Devanagari',
     language: 'devanagari',
     className: [`${prefix}--type-devanagari`],
@@ -183,11 +194,12 @@ const languageDropdownContent = [
 class TypeTester extends Component {
   state = {
     typeSizeMultiplier: 470,
-    variant: 'ibm-plex-sans-hebrew',
-    lastVariant: 'ibm-plex-sans-hebrew',
+    label: 'IBM Plex Sans',
+    variant: 'ibm-plex-sans',
+    lastVariant: 'ibm-plex-sans',
     fontWeight: 400,
     textRows: 3,
-    text: languageSample.find(el => el.language === 'hebrew').content,
+    text: languageSample.find(el => el.language === 'latin').content,
     openDropdown: null,
   };
 
@@ -283,12 +295,12 @@ class TypeTester extends Component {
     );
 
     return (
-      <div className={`${prefix}--type-tester-container`}>
+      <div className={`${prefix}--row`}>
         <div className={`${prefix}--type-tester-menu`}>
           <div className="dropdown_wrapper">
             <Dropdown
               items={languageDropdownContent}
-              label={this.state.variant}
+              label={this.state.label}
               onChange={this.onLanguageDropdownChange}
               selected={this.state.variant}
               onChangeOpen={this.onChangeOpenDropdown.bind(
