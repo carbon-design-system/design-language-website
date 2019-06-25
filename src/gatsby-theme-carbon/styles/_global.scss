@@ -11,17 +11,17 @@
 @import '~@carbon/elements/scss/type/styles';
 
 // grid temp - should be added to grid package or theme
-@import 'grid-temp';
+@import '../../styles/grid-temp';
 
 //---------------------------------------
 // IDL page
 //---------------------------------------
-@import 'images';
-@import 'homepage';
-@import 'typography';
-@import 'color';
-@import 'philosophy';
-@import 'icons';
+@import '../../styles/images';
+@import '../../styles/homepage';
+@import '../../styles/typography';
+@import '../../styles/color';
+@import '../../styles/philosophy';
+@import '../../styles/icons';
 
 //---------------------------------------
 // Carbon components
@@ -33,20 +33,20 @@
 //---------------------------------------
 // IDL components
 //---------------------------------------
-@import '../components/TypeFaceSubFamilies/typeface-sub-families';
-@import '../components/InputRange/input-range';
-@import '../components/TypeTester/type-tester';
-@import '../components/NonLatinScripts/non-latin-script';
-@import '../components/PlayPauseButton/play-pause-button';
-@import '../components/VideoInternal/video-internal';
-@import '../components/HomepageVideo/homepage-video';
-@import '../components/HomepageTile/homepage-tile';
-@import '../components/Carousel/carousel';
-@import '../components/SwatchPaletteWidget/swatch-palette-widget';
-@import '../components/MotionChecklist/motion-checklist';
+@import '../../components/TypeFaceSubFamilies/typeface-sub-families';
+@import '../../components/InputRange/input-range';
+@import '../../components/TypeTester/type-tester';
+@import '../../components/NonLatinScripts/non-latin-script';
+@import '../../components/PlayPauseButton/play-pause-button';
+@import '../../components/VideoInternal/video-internal';
+@import '../../components/HomepageVideo/homepage-video';
+@import '../../components/HomepageTile/homepage-tile';
+@import '../../components/Carousel/carousel';
+@import '../../components/SwatchPaletteWidget/swatch-palette-widget';
+@import '../../components/MotionChecklist/motion-checklist';
 
 //---------------------------------------
 // IDL/Carbon shared components
 //  WHERE WILL THESE LIVE?
 //---------------------------------------
-@import '../components/ColorBlock/color-block';
+@import '../../components/ColorBlock/color-block';
