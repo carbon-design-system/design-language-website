@@ -14,6 +14,7 @@
     "dev": "gatsby develop",
     "dev:clean": "gatsby clean && gatsby develop",
     "build": "gatsby build",
+    "build:prefix": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
     "ci-check": "yarn format:diff",
     "format": "prettier --write \"**/*.{scss,css,js,md}\"",
