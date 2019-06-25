@@ -32,6 +32,12 @@ const languageSample = [
     content:
       'นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ',
   },
+  ,
+  {
+    language: 'thaiLooped',
+    content:
+      'นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ',
+  },
   {
     language: 'devanagari',
     content:
@@ -161,6 +167,13 @@ const languageDropdownContent = [
     label: 'IBM Plex Sans Thai',
     language: 'thai',
     className: [`${prefix}--type-thai`],
+    weights: commonFontWeights,
+  },
+  ,
+  {
+    label: 'IBM Plex Sans Thai Looped',
+    language: 'thai',
+    className: [`${prefix}--type-thai-looped`],
     weights: commonFontWeights,
   },
   {
