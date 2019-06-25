@@ -50,8 +50,14 @@ const NonLatinScripts = () => {
       />
       <NonLatinScript
         customStyle="--non-latin-type-example-thai"
-        typefaceName="IBM Plex Thai"
+        typefaceName="IBM Plex Sans Thai"
         className={`${prefix}--type-thai`}
+        value="องค์ความรู้"
+      />
+      <NonLatinScript
+        customStyle="--non-latin-type-example-thai-looped"
+        typefaceName="IBM Plex Sans Thai Looped"
+        className={`${prefix}--type-thai-looped`}
         value="องค์ความรู้"
       />
     </div>
