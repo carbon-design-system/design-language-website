@@ -56,10 +56,6 @@ $font-prefix: '/fonts';
   font-style: italic;
 }
 
-.#{$prefix}--type-tester-container {
-  width: 100%;
-}
-
 .#{$prefix}--type-tester-menu {
   display: flex;
   flex-direction: column;
@@ -70,7 +66,7 @@ $font-prefix: '/fonts';
     height: 3rem;
 
     .#{$prefix}--list-box {
-      display: inline-block;
+      float: left;
       width: 50%;
       height: 3rem;
       border-bottom: transparent;

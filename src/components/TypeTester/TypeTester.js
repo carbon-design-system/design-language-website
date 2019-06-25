@@ -32,7 +32,6 @@ const languageSample = [
     content:
       'นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ',
   },
-  ,
   {
     language: 'thaiLooped',
     content:
@@ -62,15 +61,15 @@ const commonFontWeights = [
 
 const languageDropdownContent = [
   {
-    label: 'IBM Plex Sans Hebrew',
-    language: 'hebrew',
-    className: [`${prefix}--type-hebrew`],
-    weights: commonFontWeights,
-  },
-  {
     label: 'IBM Plex Sans',
     className: [`${prefix}--type-default`],
     language: 'latin',
+    weights: commonFontWeights,
+  },
+  {
+    label: 'IBM Plex Sans Hebrew',
+    language: 'hebrew',
+    className: [`${prefix}--type-hebrew`],
     weights: commonFontWeights,
   },
   {
@@ -169,11 +168,10 @@ const languageDropdownContent = [
     className: [`${prefix}--type-thai`],
     weights: commonFontWeights,
   },
-  ,
   {
     label: 'IBM Plex Sans Thai Looped',
     language: 'thai',
-    className: [`${prefix}--type-thai-looped`],
+    className: [`${prefix}--type-thai`],
     weights: commonFontWeights,
   },
   {
@@ -196,11 +194,12 @@ const languageDropdownContent = [
 class TypeTester extends Component {
   state = {
     typeSizeMultiplier: 470,
-    variant: 'ibm-plex-sans-hebrew',
-    lastVariant: 'ibm-plex-sans-hebrew',
+    label: 'IBM Plex Sans',
+    variant: 'ibm-plex-sans',
+    lastVariant: 'ibm-plex-sans',
     fontWeight: 400,
     textRows: 3,
-    text: languageSample.find(el => el.language === 'hebrew').content,
+    text: languageSample.find(el => el.language === 'latin').content,
     openDropdown: null,
   };
 
@@ -296,12 +295,12 @@ class TypeTester extends Component {
     );
 
     return (
-      <div className={`${prefix}--type-tester-container bx--row`}>
+      <div className={`${prefix}--row`}>
         <div className={`${prefix}--type-tester-menu`}>
           <div className="dropdown_wrapper">
             <Dropdown
               items={languageDropdownContent}
-              label={this.state.variant}
+              label={this.state.label}
               onChange={this.onLanguageDropdownChange}
               selected={this.state.variant}
               onChangeOpen={this.onChangeOpenDropdown.bind(
