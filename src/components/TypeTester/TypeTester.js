@@ -296,7 +296,7 @@ class TypeTester extends Component {
     );
 
     return (
-      <div className={`${prefix}--type-tester-container`}>
+      <div className={`${prefix}--type-tester-container bx--row`}>
         <div className={`${prefix}--type-tester-menu`}>
           <div className="dropdown_wrapper">
             <Dropdown
