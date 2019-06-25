@@ -3,6 +3,7 @@ $font-prefix: '/fonts';
 @import '@ibm/plex/scss/thai/_index.scss';
 @import '@ibm/plex/scss/sans-hebrew/_index.scss';
 @import '@ibm/plex/scss/arabic/_index.scss';
+@import '@ibm/plex/scss/sans-thai-looped/_index.scss';
 
 //text variants
 @import '@ibm/plex/scss/sans/_index.scss';
@@ -16,6 +17,10 @@ $font-prefix: '/fonts';
 
 .#{$prefix}--type-thai {
   font-family: 'IBM Plex Thai';
+}
+
+.#{$prefix}--type-thai-looped {
+  font-family: 'IBM Plex Sans Thai Looped' !important;
 }
 
 .#{$prefix}--type-devanagari {
@@ -51,12 +56,6 @@ $font-prefix: '/fonts';
   font-style: italic;
 }
 
-.#{$prefix}--type-tester-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
 .#{$prefix}--type-tester-menu {
   display: flex;
   flex-direction: column;
@@ -67,7 +66,7 @@ $font-prefix: '/fonts';
     height: 3rem;
 
     .#{$prefix}--list-box {
-      display: inline-block;
+      float: left;
       width: 50%;
       height: 3rem;
       border-bottom: transparent;
