@@ -56,7 +56,7 @@ class Checkbox extends React.Component {
 
   render() {
     return (
-      <div onClick={this.handleOnClick}>
+      <div onClick={this.handleOnClick} className="motion-checklist__checkbox">
         {this.state.checked ? <CheckboxCheckedFilled20 /> : <Checkbox20 />}
       </div>
     );
@@ -94,37 +94,42 @@ class MotionChecklist extends React.Component {
 
   render() {
     return (
-      <div className="bx--row">
-        <div className="bx--col-lg-8">
+      <div className="bx--row motion-checklist">
+        <div className="bx--col-lg-8 bx--col-md-5">
           {checklist.map((item, i) => (
             <div key={i}>
-              <label>
+              <label className="motion-checklist__item">
                 <input
+                  className="motion-checklist__input"
                   type="checkbox"
                   onChange={this.handleCheckboxChange}
-                  style={{ visibility: 'hidden', position: 'absolute' }}
                 />
                 <Checkbox />
-                <p className="bx--type-heading-02">{item.question}</p>
-              </label>
-              {item.options.map((option, i) => (
-                <div key={i}>
-                  <p className="bx--type-body-long-02">{option}</p>
+                <div>
+                  <p className="bx--type-heading-02">{item.question}</p>
+
+                  {item.options.map((option, i) => (
+                    <p key={i} className="bx--type-body-long-02">
+                      {option}
+                    </p>
+                  ))}
                 </div>
-              ))}
+              </label>
             </div>
           ))}
         </div>
-        <div className="bx--col-lg-4">
-          <p className="bx--type-body-short-01">Total Score:</p>
-          <p className="bx--type-expressive-heading-04">
-            {this.getTotalScore()}%
-          </p>
-          <p>
-            This is a great start! Making sure UI motion is unobtrusive is
-            necessary to keep users engaged for long periods of time. Check
-            Choreography for helpful tips.
-          </p>
+        <div className="bx--col-lg-3 bx--col-md-3">
+          <aside>
+            <p className="bx--type-body-short-01">Total Score:</p>
+            <p className="motion-checklist__score bx--type-expressive-heading-04">
+              {this.getTotalScore()}%
+            </p>
+            <p className="bx--type-body-long-02">
+              This is a great start! Making sure UI motion is unobtrusive is
+              necessary to keep users engaged for long periods of time. Check
+              Choreography for helpful tips.
+            </p>
+          </aside>
         </div>
       </div>
     );
