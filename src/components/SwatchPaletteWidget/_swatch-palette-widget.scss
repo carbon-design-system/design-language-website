@@ -50,8 +50,8 @@
     background: $ui-01;
     top: 0;
 
-    @include carbon--breakpoint('lg') {
-      padding-top: $spacing-05;
+    @include carbon--breakpoint('md') {
+      padding-top: $spacing-09;
     }
   }
 }
