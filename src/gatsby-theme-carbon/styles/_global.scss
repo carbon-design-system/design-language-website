@@ -29,6 +29,7 @@
 @import '~carbon-components/scss/components/content-switcher/content-switcher';
 @import '~carbon-components/scss/components/dropdown/dropdown';
 @import '~carbon-components/scss/components/slider/slider';
+@import '~carbon-components/scss/components/search/search';
 
 //---------------------------------------
 // IDL components
@@ -49,4 +50,6 @@
 // IDL/Carbon shared components
 //  WHERE WILL THESE LIVE?
 //---------------------------------------
+@import '../../components/ColorBlock/color-block';
+@import '../../components/IconLibrary/icon-library';
 @import '../../components/ColorBlock/color-block';
