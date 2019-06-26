@@ -85,17 +85,17 @@ const HomepageTile = ({
         <div
           className={
             theme === 'dark'
-              ? `${prefix}--aspect-ratio-tile ${prefix}--aspect-ratio-tile__dark`
-              : `${prefix}--aspect-ratio-tile`
+              ? `${prefix}--homepage-idl-tile ${prefix}--homepage-idl-tile__dark`
+              : `${prefix}--homepage-idl-tile`
           }
           style={ratioStyle}
           href={link}
           target={target}>
           <div
-            className={`${prefix}--aspect-ratio-tile-background`}
+            className={`${prefix}--homepage-idl-tile-background`}
             style={backgroundStyle}
           />
-          <div className={`${prefix}--aspect-ratio-tile-nested-content`}>
+          <div className={`${prefix}--homepage-idl-tile-nested-content`}>
             {children}
           </div>
         </div>
@@ -103,8 +103,8 @@ const HomepageTile = ({
         <a
           className={
             theme === 'dark'
-              ? `${prefix}--aspect-ratio-tile ${prefix}--aspect-ratio-tile__dark`
-              : `${prefix}--aspect-ratio-tile`
+              ? `${prefix}--homepage-idl-tile ${prefix}--homepage-idl-tile__dark`
+              : `${prefix}--homepage-idl-tile`
           }
           style={ratioStyle}
           href={link}
@@ -112,34 +112,34 @@ const HomepageTile = ({
           <div
             className={
               hoverDark
-                ? `${prefix}--aspect-ratio-tile-hover ${prefix}--aspect-ratio-tile-hover__dark`
-                : `${prefix}--aspect-ratio-tile-hover`
+                ? `${prefix}--homepage-idl-tile-hover ${prefix}--homepage-idl-tile-hover__dark`
+                : `${prefix}--homepage-idl-tile-hover`
             }
           />
           <div
-            className={`${prefix}--aspect-ratio-tile-background`}
+            className={`${prefix}--homepage-idl-tile-background`}
             style={backgroundStyle}
           />
           <div
             className={
               contentOnHover
-                ? `${prefix}--aspect-ratio-tile-content ${prefix}--aspect-ratio-tile-content-on-hover-only`
-                : `${prefix}--aspect-ratio-tile-content`
+                ? `${prefix}--homepage-idl-tile-content ${prefix}--homepage-idl-tile-content-on-hover-only`
+                : `${prefix}--homepage-idl-tile-content`
             }
             style={transparentImageStyle}>
-            <div className={`${prefix}--aspect-ratio-tile-title`}>
+            <div className={`${prefix}--homepage-idl-tile-title`}>
               <div className={`${prefix}--type-body-long-01`}>{subtitle}</div>
               <div className={`${prefix}--type-expressive-heading-03`}>
                 {title}
               </div>
             </div>
             {identityIcon ? (
-              <div className={`${prefix}--aspect-ratio-tile-identity-icon`}>
+              <div className={`${prefix}--homepage-idl-tile-identity-icon`}>
                 <img src={identityIcon} alt="identity-icon" />
               </div>
             ) : null}
             <div
-              className={`${prefix}--aspect-ratio-tile-action-icon`}
+              className={`${prefix}--homepage-idl-tile-action-icon`}
               style={{ fill: theme === 'dark' ? '#ffffff' : '#282828' }}>
               {getActionIcon(actionIcon)}
             </div>
