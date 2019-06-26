@@ -23,12 +23,12 @@ const HomepageTile = ({
   target,
   children,
 }) => {
-  //const windowWidth = window.outerWidth;
-  //remove/fix this - just testing
+  // const windowWidth = window.outerWidth;
+  // remove/fix this - just testing
   const windowWidth = 1200;
 
-  const calcRatio = ratio => {
-    switch (ratio) {
+  const calcRatio = ratioString => {
+    switch (ratioString) {
       case '1:1':
         return '100%';
       case '2:1':
@@ -67,11 +67,11 @@ const HomepageTile = ({
 
   const ratioStyle = {
     paddingBottom: calcRatio(ratio),
-    marginTop: marginTop ? marginTop : 0,
+    marginTop: marginTop || 0,
   };
 
   const backgroundStyle = {
-    backgroundColor: backgroundColor ? backgroundColor : null,
+    backgroundColor: backgroundColor || null,
     backgroundImage: image ? `url(${image})` : null,
   };
 

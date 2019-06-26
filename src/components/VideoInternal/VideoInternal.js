@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
 
-import PlayPauseButton from '../PlayPauseButton/';
+import PlayPauseButton from '../PlayPauseButton';
 
 const { prefix } = settings;
 
@@ -12,22 +12,30 @@ class VideoInternal extends React.Component {
     hovering: false,
   };
 
-  onPlayPauseClick = () => {
-    this.setState({
-      playing: !this.state.playing,
-    });
-  };
+  componentDidMount() {
+    this.videoRef.addEventListener('ended', this.onVideoEnded);
+  }
 
   shouldComponentUpdate(nextProps, nextState) {
     if (nextState.playing !== this.state.playing) {
-      nextState.playing ? this.videoRef.play() : this.videoRef.pause();
+      if (nextState.playing) {
+        this.videoRef.play();
+      } else {
+        this.videoRef.pause();
+      }
     }
     return true;
   }
 
-  componentDidMount() {
-    this.videoRef.addEventListener('ended', this.onVideoEnded);
+  componentWillUnmount() {
+    this.videoRef.removeEventListener('ended', this.onVideoEnded);
   }
+
+  onPlayPauseClick = () => {
+    this.setState(prevState => ({
+      playing: !prevState.playing,
+    }));
+  };
 
   onVideoEnded = () => {
     const { loop } = this.props;
@@ -51,10 +59,6 @@ class VideoInternal extends React.Component {
     });
   };
 
-  componentWillUnmount() {
-    this.videoRef.removeEventListener('ended', this.onVideoEnded);
-  }
-
   render() {
     const {
       poster,
@@ -70,7 +74,9 @@ class VideoInternal extends React.Component {
       <div
         className={`${prefix}--video-internal-container`}
         onMouseOver={this.onMouseOver}
-        onMouseOut={this.onMouseOut}>
+        onMouseOut={this.onMouseOut}
+        onFocus={this.onMouseOver}
+        onBlur={this.onMouseOut}>
         <video
           className={`${prefix}--video-internal`}
           controls={false}

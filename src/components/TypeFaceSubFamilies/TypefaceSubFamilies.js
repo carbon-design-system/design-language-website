@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import { Dropdown } from 'carbon-components-react';
 import { settings } from 'carbon-components';
 
-//import "typeface-sub-families.scss";
+// import "typeface-sub-families.scss";
 
 export default class TypefaceSubFamilies extends React.Component {
   constructor() {
@@ -14,6 +14,12 @@ export default class TypefaceSubFamilies extends React.Component {
       displayMobile: false,
     };
   }
+
+  componentDidMount() {
+    this.updateDimensions();
+    window.addEventListener('resize', this.updateDimensions.bind(this));
+  }
+
   onChange = (label, value) => {
     this.setState({
       fontVariant: value,
@@ -28,11 +34,6 @@ export default class TypefaceSubFamilies extends React.Component {
       this.setState({ displayMobile: false });
     }
   };
-
-  componentDidMount() {
-    this.updateDimensions();
-    window.addEventListener('resize', this.updateDimensions.bind(this));
-  }
 
   render() {
     const { prefix } = settings;
@@ -70,7 +71,7 @@ export default class TypefaceSubFamilies extends React.Component {
       [`${prefix}--subfamilies-TypeTesterExample`]: true,
       [`${prefix}--col-md-8`]: true,
       [`${prefix}--col-sm-4`]: true,
-      [`${prefix + '--' + this.state.fontVariant}`]: true,
+      [`${`${prefix}--${this.state.fontVariant}`}`]: true,
     });
 
     return (
@@ -96,24 +97,23 @@ export default class TypefaceSubFamilies extends React.Component {
           </div>
         </div>
         <div className={classNamesMenuTabs}>
-          {fontVariants.map(fontVariant => {
-            return (
-              <button
-                className={
-                  fontVariant.label === this.state.fontVariantLabel
-                    ? `${prefix}--subfamilies-button active`
-                    : `${prefix}--subfamilies-button`
-                }
-                onClick={() => {
-                  this.setState({
-                    fontVariant: fontVariant.value,
-                    fontVariantLabel: fontVariant.label,
-                  });
-                }}>
-                {fontVariant.label}
-              </button>
-            );
-          })}
+          {fontVariants.map(fontVariant => (
+            <button
+              type="button"
+              className={
+                fontVariant.label === this.state.fontVariantLabel
+                  ? `${prefix}--subfamilies-button active`
+                  : `${prefix}--subfamilies-button`
+              }
+              onClick={() => {
+                this.setState({
+                  fontVariant: fontVariant.value,
+                  fontVariantLabel: fontVariant.label,
+                });
+              }}>
+              {fontVariant.label}
+            </button>
+          ))}
         </div>
         <div className={classNamesContainer}>
           {/* Inline styles for all weights don't exist as helper classes. */}

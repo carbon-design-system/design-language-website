@@ -1,11 +1,13 @@
+/* eslint-disable react/jsx-no-bind */
+/* eslint-disable react/no-access-state-in-setstate */
 import React, { Component } from 'react';
 import classnames from 'classnames';
 import Dropdown from 'carbon-components-react/lib/components/Dropdown';
 import Textarea from 'react-textarea-autosize';
+import { settings } from 'carbon-components';
 import InputRange from '../InputRange/InputRange';
 
-import { settings } from 'carbon-components';
-const prefix = settings.prefix;
+const { prefix } = settings;
 
 const HEBREW = 'hebrew';
 const ARABIC = 'arabic';
@@ -198,7 +200,6 @@ class TypeTester extends Component {
     variant: 'ibm-plex-sans',
     lastVariant: 'ibm-plex-sans',
     fontWeight: 400,
-    textRows: 3,
     text: languageSample.find(el => el.language === 'latin').content,
     openDropdown: null,
   };
@@ -232,16 +233,12 @@ class TypeTester extends Component {
     });
   };
 
-  getCurrentOrDefaultFontWeightForLanguage = (language, currentWeight) => {
-    return currentWeight;
-  };
+  getCurrentOrDefaultFontWeightForLanguage = (language, currentWeight) =>
+    currentWeight;
 
-  getClassNameForVariant = variant => {
-    return (
-      languageDropdownContent.find(item => item.value === variant).className ||
-      null
-    );
-  };
+  getClassNameForVariant = variant =>
+    languageDropdownContent.find(item => item.value === variant).className ||
+    null;
 
   getDefaultTextForVariant = (variant, lastVariant) => {
     if (
@@ -254,10 +251,8 @@ class TypeTester extends Component {
     }
   };
 
-  getLanguageForVariant = variant => {
-    return languageDropdownContent.find(item => item.value === variant)
-      .language;
-  };
+  getLanguageForVariant = variant =>
+    languageDropdownContent.find(item => item.value === variant).language;
 
   getWeightsForLanguage = () => {
     const language = this.getLanguageForVariant(this.state.variant);
@@ -272,12 +267,9 @@ class TypeTester extends Component {
     return weightObj.label;
   };
 
-  isRtl = () => {
-    return (
-      this.getLanguageForVariant(this.state.variant) === HEBREW ||
-      this.getLanguageForVariant(this.state.variant) === ARABIC
-    );
-  };
+  isRtl = () =>
+    this.getLanguageForVariant(this.state.variant) === HEBREW ||
+    this.getLanguageForVariant(this.state.variant) === ARABIC;
 
   render() {
     const lineHeight = Math.max(
@@ -337,8 +329,8 @@ class TypeTester extends Component {
           <Textarea
             className={textClasses}
             style={{
-              fontSize: this.state.typeSizeMultiplier / 100 + 'em',
-              lineHeight: lineHeight,
+              fontSize: `${this.state.typeSizeMultiplier / 100}em`,
+              lineHeight,
               fontWeight: this.state.fontWeight,
               direction: this.isRtl() ? 'rtl' : 'ltr',
             }}

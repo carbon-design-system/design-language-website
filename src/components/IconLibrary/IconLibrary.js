@@ -1,7 +1,92 @@
+/* eslint-disable no-restricted-globals */
 import React from 'react';
 import { Search, Loading } from 'carbon-components-react';
 
 const sizes = ['16', '20', '24', '32', 'Glyph'];
+
+/**
+ * Takes a flat object where the keys are icon names and transforms them into an
+ * object where each key is a size and the value is an array of icons at that
+ * size.
+ */
+function groupIconsBySize(icons) {
+  return Object.keys(icons).reduce((acc, iconName) => {
+    const [group] = sizes.filter(size => iconName.indexOf(size) !== -1);
+    const friendlyName = iconName.replace(group, '');
+    const details = {
+      name: iconName,
+      friendlyName,
+      group,
+      Component: icons[iconName],
+    };
+
+    if (acc[group]) {
+      return {
+        ...acc,
+        [group]: acc[group].concat(details),
+      };
+    }
+
+    return {
+      ...acc,
+      [group]: [details],
+    };
+  }, {});
+}
+
+/**
+ * Renders an individual icon
+ */
+function renderIcon(icon) {
+  return (
+    <div
+      key={icon.name}
+      className="icon bx--col-no-gutter bx--col-lg-2 bx--col-md-2 bx--col-sm-1">
+      <div className="bx--aspect-ratio bx--aspect-ratio--1x1">
+        <div className="bx--aspect-ratio--object">
+          <div className="icon__card">
+            <icon.Component />
+          </div>
+          <h5 className="icon__card-title" title={icon.friendlyName}>
+            {icon.friendlyName}
+          </h5>
+          <span className="icon__card-details" title={icon.name} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Creates all the sections for the icons but filters by what icons are
+ * available in filteredIcons. We use this method as part of our state
+ * transformations above, instead of in the render method, because including
+ * this in render causes noticeable jank in the UI. If we instead perform work
+ * after the state transition for the search bar, then we get less noticeable
+ * lag on the input.
+ */
+function createIconSections(icons, filteredIcons) {
+  const groups = groupIconsBySize(icons);
+  return Object.keys(groups)
+    .filter(size => {
+      if (!Array.isArray(groups[size])) {
+        return false;
+      }
+      return groups[size].length !== 0;
+    })
+    .map(size => (
+      <section key={size} className="icon-size">
+        <header>
+          <h2 className="icon-h2">{isNaN(size) ? size : `${size}x${size}`}</h2>
+        </header>
+        <div className="bx--row">
+          {groups[size]
+            .filter(icon => filteredIcons.indexOf(icon.name) !== -1)
+            .map(renderIcon)}
+        </div>
+      </section>
+    ));
+}
 
 /**
  * Provides support for our experimental icon library, `@carbon/icons-react`,
@@ -31,6 +116,31 @@ export default class IconLibrary extends React.Component {
   };
 
   /**
+   * When our component mounts, we need to fetch the icon data from
+   * `@carbon/react`
+   */
+  componentDidMount() {
+    import('@carbon/icons-react')
+      .then(icons => {
+        const filteredIcons = Object.keys(icons);
+        this.setState({
+          icons,
+          filteredIcons,
+          sections: createIconSections(icons, filteredIcons),
+          isLoading: false,
+          errorLoadingIcons: null,
+        });
+      })
+      .catch(error => {
+        this.setState({
+          errorLoadingIcons: error,
+          isLoading: false,
+          icons: null,
+        });
+      });
+  }
+
+  /**
    * Filter the current icon set by the given search value. Will shortcircuit if
    * searchValue is an empty string as all icons will be visible with that
    * query.
@@ -38,11 +148,10 @@ export default class IconLibrary extends React.Component {
   filterIcons = () => {
     this.setState(state => {
       const { icons, searchValue } = state;
-      const filteredIcons = Object.keys(icons).filter(icon => {
-        return (
+      const filteredIcons = Object.keys(icons).filter(
+        icon =>
           searchValue === '' || icon.toLowerCase().indexOf(searchValue) !== -1
-        );
-      });
+      );
       return {
         filteredIcons,
         sections: createIconSections(icons, filteredIcons),
@@ -66,31 +175,6 @@ export default class IconLibrary extends React.Component {
       }
     );
   };
-
-  /**
-   * When our component mounts, we need to fetch the icon data from
-   * `@carbon/react`
-   */
-  componentDidMount() {
-    import('@carbon/icons-react')
-      .then(icons => {
-        const filteredIcons = Object.keys(icons);
-        this.setState({
-          icons,
-          filteredIcons,
-          sections: createIconSections(icons, filteredIcons),
-          isLoading: false,
-          error: null,
-        });
-      })
-      .catch(error => {
-        this.setState({
-          errorLoadingIcons: error,
-          isLoading: false,
-          icons: null,
-        });
-      });
-  }
 
   render() {
     const {
@@ -169,88 +253,4 @@ export default class IconLibrary extends React.Component {
       </div>
     );
   }
-}
-
-/**
- * Takes a flat object where the keys are icon names and transforms them into an
- * object where each key is a size and the value is an array of icons at that
- * size.
- */
-function groupIconsBySize(icons) {
-  return Object.keys(icons).reduce((acc, iconName) => {
-    const [group] = sizes.filter(size => iconName.indexOf(size) !== -1);
-    const friendlyName = iconName.replace(group, '');
-    const details = {
-      name: iconName,
-      friendlyName,
-      group,
-      Component: icons[iconName],
-    };
-
-    if (acc[group]) {
-      return {
-        ...acc,
-        [group]: acc[group].concat(details),
-      };
-    }
-
-    return {
-      ...acc,
-      [group]: [details],
-    };
-  }, {});
-}
-
-/**
- * Creates all the sections for the icons but filters by what icons are
- * available in filteredIcons. We use this method as part of our state
- * transformations above, instead of in the render method, because including
- * this in render causes noticeable jank in the UI. If we instead perform work
- * after the state transition for the search bar, then we get less noticeable
- * lag on the input.
- */
-function createIconSections(icons, filteredIcons) {
-  const groups = groupIconsBySize(icons);
-  return Object.keys(groups)
-    .filter(size => {
-      if (!Array.isArray(groups[size])) {
-        return false;
-      }
-      return groups[size].length !== 0;
-    })
-    .map(size => (
-      <section key={size} className="icon-size">
-        <header>
-          <h2 className="icon-h2">{isNaN(size) ? size : `${size}x${size}`}</h2>
-        </header>
-        <div className="bx--row">
-          {groups[size]
-            .filter(icon => filteredIcons.indexOf(icon.name) !== -1)
-            .map(renderIcon)}
-        </div>
-      </section>
-    ));
-}
-
-/**
- * Renders an individual icon
- */
-function renderIcon(icon) {
-  return (
-    <div
-      key={icon.name}
-      className="icon bx--col-no-gutter bx--col-lg-2 bx--col-md-2 bx--col-sm-1">
-      <div className="bx--aspect-ratio bx--aspect-ratio--1x1">
-        <div className="bx--aspect-ratio--object">
-          <div className="icon__card">
-            <icon.Component />
-          </div>
-          <h5 className="icon__card-title" title={icon.friendlyName}>
-            {icon.friendlyName}
-          </h5>
-          <span className="icon__card-details" title={icon.name} />
-        </div>
-      </div>
-    </div>
-  );
 }

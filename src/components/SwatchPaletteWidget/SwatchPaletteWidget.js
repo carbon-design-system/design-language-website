@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { ContentSwitcher, Switch } from 'carbon-components-react';
 import { settings } from 'carbon-components';
 import SwatchPalette from './SwatchPalette';
+
 const { prefix } = settings;
 
 const colorFormats = [
@@ -43,47 +44,43 @@ class SwatchPaletteWidget extends Component {
 
     return (
       <div className={`${prefix}--swatch-palettes-container`}>
-        <div className="sticky-container" style={{ top: top ? top : '0px' }}>
+        <div className="sticky-container" style={{ top: top || '0px' }}>
           <div className={`${prefix}--row`}>
             <div
               className={`${prefix}--col-lg-4 ${prefix}--col-md-4 ${prefix}--col-no-gutter`}>
               <ContentSwitcher
                 className={`${prefix}--swatch-palettes__format-switcher`}
                 onChange={this.switchFormat}>
-                {colorFormats.map(format => {
-                  return (
-                    <Switch
-                      key={format.value}
-                      name={format.value}
-                      text={format.label}
-                    />
-                  );
-                })}
+                {colorFormats.map(format => (
+                  <Switch
+                    key={format.value}
+                    name={format.value}
+                    text={format.label}
+                  />
+                ))}
               </ContentSwitcher>
             </div>
           </div>
         </div>
-        {palettes.map((palette, i) => {
-          return (
-            <div key={i} className={`${prefix}--row`}>
-              <div
-                className={`${prefix}--col-lg-12 ${prefix}--col-md-8 ${prefix}--col-no-gutter ${prefix}--swatch-palettes`}>
-                {palette.map(color => {
-                  const col = color.split('-');
-                  const showBW = col[1] === 'bw';
-                  return (
-                    <SwatchPalette
-                      key={col[0]}
-                      palette={col[0]}
-                      format={this.state.format}
-                      showBW={showBW}
-                    />
-                  );
-                })}
-              </div>
+        {palettes.map((palette, i) => (
+          <div key={i} className={`${prefix}--row`}>
+            <div
+              className={`${prefix}--col-lg-12 ${prefix}--col-md-8 ${prefix}--col-no-gutter ${prefix}--swatch-palettes`}>
+              {palette.map(color => {
+                const col = color.split('-');
+                const showBW = col[1] === 'bw';
+                return (
+                  <SwatchPalette
+                    key={col[0]}
+                    palette={col[0]}
+                    format={this.state.format}
+                    showBW={showBW}
+                  />
+                );
+              })}
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
     );
   }
