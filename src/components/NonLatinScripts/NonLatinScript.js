@@ -32,6 +32,7 @@ class NonLatinScript extends React.Component {
           </h3>
           {this.state.customValue !== null && (
             <button
+              type="button"
               className={`${prefix}--type-body-long-01 ${prefix}--non-latin-button`}
               onClick={() => this.setState({ customValue: null })}>
               Reset <RenewIcon width={16} height={16} />
@@ -46,7 +47,7 @@ class NonLatinScript extends React.Component {
 
               className,
               {
-                rtl: rtl,
+                rtl,
                 [`${prefix}${customStyle}`]: customStyle !== undefined || '',
               }
             )}
@@ -61,7 +62,7 @@ class NonLatinScript extends React.Component {
             className={classnames(
               `${prefix}--non-latin-type-example ${prefix}--type-display-03`,
               {
-                rtl: rtl,
+                rtl,
                 [`${prefix}${customStyle}`]: customStyle !== undefined || '',
               }
             )}>

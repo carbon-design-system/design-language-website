@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
+
 const { prefix } = settings;
 
 const PALETTES = {
@@ -565,20 +566,18 @@ const ALERTS = {
   },
 };
 
-const Swatch = ({ name, hex, txtcolor, value }) => {
-  return (
-    <div
-      key={name}
-      className={`${prefix}--swatch ${prefix}--type-body-long-01`}
-      style={{ backgroundColor: hex, color: txtcolor }}>
-      <span className={`${prefix}--swatch-name`}>{name}</span>
-      <span className={`${prefix}--swatch-value`}>{value}</span>
-    </div>
-  );
-};
+const Swatch = ({ name, hex, txtcolor, value }) => (
+  <div
+    key={name}
+    className={`${prefix}--swatch ${prefix}--type-body-long-01`}
+    style={{ backgroundColor: hex, color: txtcolor }}>
+    <span className={`${prefix}--swatch-name`}>{name}</span>
+    <span className={`${prefix}--swatch-value`}>{value}</span>
+  </div>
+);
 
 const hexToRgb = hex => {
-  let result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
   return result
     ? {
         r: parseInt(result[1], 16),
@@ -630,7 +629,7 @@ const SwatchPalette = ({ palette, format, showBW }) => {
       {Object.keys(paletteObj)
         .reverse()
         .map(grade => {
-          const hex = paletteObj[grade].hex;
+          const { hex } = paletteObj[grade];
           const txtcolor =
             parseInt(grade) > CUTOFF_POINT_FOR_DARK_TEXT
               ? '#ffffff'

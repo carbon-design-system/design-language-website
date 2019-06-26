@@ -1,9 +1,9 @@
 import React from 'react';
 import { HomepageCallout } from 'gatsby-theme-carbon';
+import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import HomepageVideo from '../../components/HomepageVideo';
 
 // Component to be shadowed
-import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
 const FirstLeftText = () => (
   <p>

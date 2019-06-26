@@ -37,6 +37,7 @@ class PlayPauseButton extends React.Component {
 
     return (
       <button
+        type="button"
         className={classnames(`${prefix}--play-pause-button`, {
           [`${prefix}--play-pause-hide-on-mobile`]: loop,
           [`${prefix}--play-pause-corner`]: cornerPlayButton,
@@ -44,6 +45,8 @@ class PlayPauseButton extends React.Component {
         })}
         onMouseOver={this.onOver}
         onMouseOut={this.onOut}
+        onFocus={this.onOver}
+        onBlur={this.onOut}
         onClick={onClick}>
         {// corner play button - ex homepage player
         cornerPlayButton && (

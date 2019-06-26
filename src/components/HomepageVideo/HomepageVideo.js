@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
 import { breakpoints } from '@carbon/layout/es';
 import { ArrowRight20 } from '@carbon/icons-react';
-import VideoInternal from '../VideoInternal/';
+import VideoInternal from '../VideoInternal';
 
 const { prefix } = settings;
 
@@ -35,12 +35,10 @@ class HomepageVideo extends Component {
           loop: false,
         });
       }
-    } else {
-      if (!loop) {
-        this.setState({
-          loop: true,
-        });
-      }
+    } else if (!loop) {
+      this.setState({
+        loop: true,
+      });
     }
   };
 
@@ -55,8 +53,8 @@ class HomepageVideo extends Component {
             loop={loop}
             poster={poster}
             src={src}
-            overlay={true}
-            cornerPlayButton={true}>
+            overlay
+            cornerPlayButton>
             <div
               className={`${prefix}--homepage-video-overlay-content ${prefix}--grid`}>
               <div
