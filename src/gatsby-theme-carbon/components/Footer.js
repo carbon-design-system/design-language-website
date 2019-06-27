@@ -1,5 +1,13 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
+import timestamp from 'raw-loader!../../../build-timestamp';
+
+const currentYear = new Date().getFullYear();
+const lastUpdated = new Intl.DateTimeFormat(undefined, {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}).format(new Date(Number(timestamp)));
 
 const Content = () => (
   <>
@@ -11,9 +19,9 @@ const Content = () => (
       </a>
     </p>
     <p>
-      Last updated Jan 1, 1800
+      Last updated {lastUpdated}
       <br />
-      sCopyright © 2019 IBM
+      Copyright © {currentYear} IBM
     </p>
   </>
 );
