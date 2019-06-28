@@ -12,7 +12,7 @@
 }
 
 .#{$prefix}--typeset-example-group-title {
-  background-color: $carbon--gray-20;
+  background-color: $ui-01;
   height: 4rem;
 }
 
@@ -34,7 +34,7 @@
   width: 33.3%;
 
   @include carbon--breakpoint('md') {
-    border-left: 1px solid $carbon--gray-20;
+    border-left: 1px solid $ui-01;
   }
 }
 
