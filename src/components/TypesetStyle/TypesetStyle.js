@@ -839,67 +839,56 @@ class TypesetStyle extends React.Component {
 
     const typesetStyleStickyClassnames = classnames(
       [`${prefix}--typeset-style-controls-sticky`],
-      [`${prefix}--row`],
-      {
-        [`${prefix}--typeset-style-controls-sticky-stuck`]: this.state.sticky,
-      }
+      [`${prefix}--row`]
     );
 
     return (
       <div className={`${prefix}--typeset-style-container`}>
-        <div
-          navBar={navBar || true}
-          banner={banner || true}
-          secondary={secondary || false}
-          top={top || null}>
-          {breakpointControls && (
-            <>
-              <div
-                className={`${prefix}--typeset-style-title-shiv ${prefix}--row`}
-              />
-              <div ref="stickyBar" className={typesetStyleStickyClassnames}>
-                <div className={`${prefix}--typeset-style-breakpoint-controls`}>
-                  <span
-                    className={`${prefix}--type-body-long-01 ibm-padding--horizontal`}
-                    style={{ marginBottom: 0 }}>
-                    Breakpoints
-                  </span>
-                  <div
-                    className={`${prefix}--typeset-style-button-controls-container`}>
-                    {this.getButtons()}
-                  </div>
-                </div>
-                <div className={`${prefix}--typeset-style-screen-controls`}>
-                  <span
-                    className={`${prefix}--type-body-long-01 ${prefix}--typeset-style-screen-width-label`}
-                    style={{ marginBottom: 0, whiteSpace: 'nowrap' }}>
-                    Screen width
-                  </span>
-                  <InputRange
-                    min={breakpoints.sm}
-                    max={breakpoints.max}
-                    value={this.state.simulatedScreenWidth}
-                    onChange={this.toggleBreakpoint}
-                  />
-                  <label
-                    className={`${prefix}--typeset-style-screen-label ${prefix}--type-body-long-01`}
-                    htmlFor="screenWidthInput">
-                    {this.state.simulatedScreenWidth}
-                  </label>
-                </div>
-              </div>
-            </>
-          )}
+        <div className="typestyle-title__container bx--row">
+          <div className="typestyle-title">{this.props.title}</div>
         </div>
+        {breakpointControls && (
+          <div className={typesetStyleStickyClassnames}>
+            <div className={`${prefix}--typeset-style-breakpoint-controls`}>
+              <span
+                className={`${prefix}--type-body-long-01 ibm-padding--horizontal`}
+                style={{ marginBottom: 0 }}>
+                Breakpoints
+              </span>
+              <div
+                className={`${prefix}--typeset-style-button-controls-container`}>
+                {this.getButtons()}
+              </div>
+            </div>
+            <div className={`${prefix}--typeset-style-screen-controls`}>
+              <span
+                className={`${prefix}--type-body-long-01 ${prefix}--typeset-style-screen-width-label`}
+                style={{ marginBottom: 0, whiteSpace: 'nowrap' }}>
+                Screen width
+              </span>
+              <InputRange
+                min={breakpoints.sm}
+                max={breakpoints.max}
+                value={this.state.simulatedScreenWidth}
+                onChange={this.toggleBreakpoint}
+              />
+              <label
+                className={`${prefix}--typeset-style-screen-label ${prefix}--type-body-long-01`}
+                htmlFor="screenWidthInput">
+                {this.state.simulatedScreenWidth}
+              </label>
+            </div>
+          </div>
+        )}
         <div>
           {typesets
             .replace(', ', ',')
             .split(',')
             .map((typeset, i) => (
               <>
-                <h3 className="typeset-title">
+                {/* <h3 className="typeset-title">
                   {typeset.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase()}
-                </h3>
+                </h3> */}
                 <TypesetExample
                   key={i}
                   simulatedScreenWidth={this.state.simulatedScreenWidth}

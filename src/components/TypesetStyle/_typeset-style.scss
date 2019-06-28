@@ -62,9 +62,12 @@
 .#{$prefix}--typeset-style-controls-sticky {
   align-items: center;
   background-color: $carbon--white-0;
+  margin-bottom: $spacing-05;
   width: auto;
   z-index: 2;
   box-sizing: content-box;
+  position: sticky;
+  top: 112px;
 }
 
 .#{$prefix}--typeset-style-controls-sticky-stuck {
@@ -237,4 +240,18 @@
   &:first-letter {
     text-transform: capitalize;
   }
+}
+
+.typestyle-title {
+  width: 100%;
+  padding: 1rem;
+  background-color: #dcdcdc;
+}
+
+.typestyle-title__container {
+  margin-left: -1rem;
+  position: sticky;
+  top: 48px;
+  padding-top: 1rem;
+  background-color: #f3f3f3;
 }
