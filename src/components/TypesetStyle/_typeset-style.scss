@@ -64,6 +64,8 @@
   background-color: $carbon--white-0;
   margin-bottom: $spacing-05;
   width: auto;
+  border-bottom: 1px solid #f3f3f3;
+  margin-bottom: 0;
   z-index: 2;
   box-sizing: content-box;
   position: sticky;
@@ -246,10 +248,12 @@
   width: 100%;
   padding: 1rem;
   background-color: $ui-03;
+  font-weight: 600;
 }
 
 .typestyle-title__container {
   margin-left: -1rem;
+  z-index: z('overlay');
   position: sticky;
   top: 48px;
   padding-top: 1rem;
