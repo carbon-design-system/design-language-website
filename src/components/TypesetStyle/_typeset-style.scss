@@ -245,7 +245,7 @@
 .typestyle-title {
   width: 100%;
   padding: 1rem;
-  background-color: #dcdcdc;
+  background-color: $ui-03;
 }
 
 .typestyle-title__container {
@@ -253,5 +253,5 @@
   position: sticky;
   top: 48px;
   padding-top: 1rem;
-  background-color: #f3f3f3;
+  background-color: $ui-01;
 }

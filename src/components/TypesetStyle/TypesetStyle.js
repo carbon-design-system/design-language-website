@@ -767,36 +767,6 @@ class TypesetStyle extends React.Component {
     this.addScrollListener();
   }
 
-  addScrollListener() {
-    document.addEventListener('scroll', () => {
-      if (this.refs.stickyBar) {
-        if (this.refs.stickyBar.getBoundingClientRect().top <= 104) {
-          this.setState({
-            sticky: true,
-          });
-        } else if (this.refs.stickyBar.getBoundingClientRect().top > 104) {
-          this.setState({
-            sticky: false,
-          });
-        }
-      }
-    });
-  }
-
-  addResizeListener() {
-    window.addEventListener('resize', () => {
-      if (window.innerWidth < 500) {
-        this.setState({
-          mobile: true,
-        });
-      } else if (window.innerWidth > 500) {
-        this.setState({
-          mobile: false,
-        });
-      }
-    });
-  }
-
   toggleBreakpoint = e => {
     this.setState({ simulatedScreenWidth: Number(e.target.value) });
   };
@@ -808,6 +778,7 @@ class TypesetStyle extends React.Component {
   getButtons = () =>
     Object.keys(breakpoints).map(breakpointName => (
       <button
+        type="button"
         className={`${prefix}--typeset-style-button ${prefix}--type-body-long-01 ${
           isWithinBreakpoint(
             this.state.simulatedScreenWidth,
@@ -827,15 +798,28 @@ class TypesetStyle extends React.Component {
       </button>
     ));
 
+  addScrollListener() {
+    document.addEventListener('scroll', () => {
+      console.log(this.breakpointRef);
+    });
+  }
+
+  addResizeListener() {
+    window.addEventListener('resize', () => {
+      if (window.innerWidth < 500) {
+        this.setState({
+          mobile: true,
+        });
+      } else if (window.innerWidth > 500) {
+        this.setState({
+          mobile: false,
+        });
+      }
+    });
+  }
+
   render() {
-    const {
-      navBar,
-      banner,
-      secondary,
-      top,
-      breakpointControls,
-      typesets,
-    } = this.props;
+    const { breakpointControls, typesets } = this.props;
 
     const typesetStyleStickyClassnames = classnames(
       [`${prefix}--typeset-style-controls-sticky`],
