@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-for */
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
@@ -735,11 +736,11 @@ const breakpoints = {
   max: Number(carbonBreakpoints.max.width.replace('rem', '')) * baseFontSize,
 };
 
-const nextLargerBreakpointPx = viewportWidth =>
-  values(breakpoints)[indexOfCurrentBreakpoint(viewportWidth) + 1];
-
 const indexOfCurrentBreakpoint = viewportWidth =>
   findLastIndex(values(breakpoints), width => viewportWidth >= width);
+
+const nextLargerBreakpointPx = viewportWidth =>
+  values(breakpoints)[indexOfCurrentBreakpoint(viewportWidth) + 1];
 
 const isWithinBreakpoint = (viewportWidth, currentBreakpoint) => {
   if (viewportWidth === currentBreakpoint) return true;
@@ -752,27 +753,14 @@ const isWithinBreakpoint = (viewportWidth, currentBreakpoint) => {
 class TypesetStyle extends React.Component {
   state = {
     simulatedScreenWidth: 1056,
-    tab: 0,
-    sticky: false,
-    mobile: false,
   };
 
   componentDidMount() {
-    if (window.innerWidth < 500) {
-      this.setState({
-        mobile: true,
-      });
-    }
-    this.addResizeListener();
     this.addScrollListener();
   }
 
   toggleBreakpoint = e => {
     this.setState({ simulatedScreenWidth: Number(e.target.value) });
-  };
-
-  toggleSet = value => {
-    this.setState({ tab: value });
   };
 
   getButtons = () =>
@@ -801,20 +789,6 @@ class TypesetStyle extends React.Component {
   addScrollListener() {
     document.addEventListener('scroll', () => {
       console.log(this.breakpointRef);
-    });
-  }
-
-  addResizeListener() {
-    window.addEventListener('resize', () => {
-      if (window.innerWidth < 500) {
-        this.setState({
-          mobile: true,
-        });
-      } else if (window.innerWidth > 500) {
-        this.setState({
-          mobile: false,
-        });
-      }
     });
   }
 
@@ -892,18 +866,6 @@ export default TypesetStyle;
 
 // these props are passed onto the sticky container
 TypesetStyle.propTypes = {
-  // if site has banner at top ( ex. go to v1)
-  banner: PropTypes.bool,
-
-  // if page navBar is showing / hiding, toggle this on/off
-  navBar: PropTypes.bool,
-
-  // for items that are on pages that already have a sticky item
-  secondary: PropTypes.bool,
-
-  // if custom top is necessary, must include units - (rem, px, etc)
-  top: PropTypes.string,
-
   // show / hide breakpoint controls
   breakpointControls: PropTypes.bool,
 

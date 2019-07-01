@@ -31,9 +31,9 @@
 
 .#{$prefix}--typeset-example-specs {
   padding: $spacing-05;
-  width: 33.3%;
 
   @include carbon--breakpoint('md') {
+    width: 33.3%;
     border-left: 1px solid $ui-01;
   }
 }

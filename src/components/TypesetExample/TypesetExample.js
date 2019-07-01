@@ -19,164 +19,154 @@ const defaultTypeValues = {
   'letter-spacing': 0,
 };
 
-const TypesetExample = props => {
-  return (
-    <div className={`${prefix}--typeset-example-container`}>
-      {(props.typeSet || []).map(type => {
-        const indexOfClosestLargerBreakpoint = Math.max(
-          0,
-          values(breakpoints).findIndex(
-            width => props.simulatedScreenWidth <= width
-          )
-        );
+const TypesetExample = props => (
+  <div className={`${prefix}--typeset-example-container`}>
+    {(props.typeSet || []).map(type => {
+      const indexOfClosestLargerBreakpoint = Math.max(
+        0,
+        values(breakpoints).findIndex(
+          width => props.simulatedScreenWidth <= width
+        )
+      );
 
-        const currentBreakpointPx = values(breakpoints)[
-          indexOfClosestLargerBreakpoint
-        ];
+      const currentBreakpointPx = values(breakpoints)[
+        indexOfClosestLargerBreakpoint
+      ];
 
-        const currentBreakpointName = findKey(
-          breakpoints,
-          val => val === currentBreakpointPx
-        );
-        const getCurrentCompoundStylesForBreakpoint = breakpointName => {
-          const typeKeys = Object.keys(breakpoints);
-          const typeStylesUntilCurrentBreakpoint = [];
-          for (let item of typeKeys) {
-            typeStylesUntilCurrentBreakpoint.push(
-              props.typeScale[type.key][item]
-            );
-            if (item === breakpointName) break;
-          }
-          return Object.assign(
-            {},
-            defaultTypeValues,
-            ...typeStylesUntilCurrentBreakpoint
+      const currentBreakpointName = findKey(
+        breakpoints,
+        val => val === currentBreakpointPx
+      );
+      const getCurrentCompoundStylesForBreakpoint = breakpointName => {
+        const typeKeys = Object.keys(breakpoints);
+        const typeStylesUntilCurrentBreakpoint = [];
+        for (const item of typeKeys) {
+          typeStylesUntilCurrentBreakpoint.push(
+            props.typeScale[type.key][item]
           );
-        };
-
-        const currentBreakpointSpecs = getCurrentCompoundStylesForBreakpoint(
-          currentBreakpointName
+          if (item === breakpointName) break;
+        }
+        return Object.assign(
+          {},
+          defaultTypeValues,
+          ...typeStylesUntilCurrentBreakpoint
         );
+      };
 
-        const calculateFluidTypeSize = attribute => {
-          return currentBreakpointSpecs[attribute] * baseFontSize;
-        };
+      const currentBreakpointSpecs = getCurrentCompoundStylesForBreakpoint(
+        currentBreakpointName
+      );
 
-        const calculateFluidLineHeight = attribute => {
-          return currentBreakpointSpecs[attribute] * baseFontSize;
-        };
+      const calculateFluidTypeSize = attribute =>
+        currentBreakpointSpecs[attribute] * baseFontSize;
 
-        const displayWeight = (weight, style) => {
-          if (style === 'italic') {
-            return weight + ' / Italic';
-          } else {
-            switch (weight) {
-              case '300':
-                return '300 / Light';
-              case '400':
-                return '400 / Regular';
-              case '600':
-                return '600 / Semi-Bold';
-              default:
-                return weight;
-            }
-          }
-        };
+      const calculateFluidLineHeight = attribute =>
+        currentBreakpointSpecs[attribute] * baseFontSize;
 
-        const specs = {
-          fontWeight: currentBreakpointSpecs['font-weight'],
-          fontSize: `${calculateFluidTypeSize('font-size')}px`,
-          fontStyle: currentBreakpointSpecs['font-style'],
-          lineHeight: `${calculateFluidLineHeight('line-height')}px`,
-          letterSpacing: currentBreakpointSpecs['letter-spacing'],
-        };
-        const displaySpecs = {
-          step: currentBreakpointSpecs['step'],
-          font: currentBreakpointSpecs['font'],
-          style: currentBreakpointSpecs['font-style'],
-          fontWeight: displayWeight(
-            currentBreakpointSpecs['font-weight'],
-            currentBreakpointSpecs['font-style']
-          ),
-          fontSize:
-            `${calculateFluidTypeSize('font-size')}px` +
-            ' / ' +
-            currentBreakpointSpecs['font-size'].toString().replace('0.', '.') +
-            `rem`,
-          lineHeight:
-            `${calculateFluidLineHeight('line-height')}px` +
-            ` / ` +
-            currentBreakpointSpecs['line-height'] +
-            `rem`,
-          letterSpacing: currentBreakpointSpecs['letter-spacing']
-            .toString()
-            .replace('0.', '.'),
-          warning: currentBreakpointSpecs['warning'],
-        };
+      const displayWeight = (weight, style) => {
+        if (style === 'italic') {
+          return `${weight} / Italic`;
+        }
+        switch (weight) {
+          case '300':
+            return '300 / Light';
+          case '400':
+            return '400 / Regular';
+          case '600':
+            return '600 / Semi-Bold';
+          default:
+            return weight;
+        }
+      };
 
-        const versionClassName = type.version
-          ? `${prefix}--type-${type.version}`
-          : '';
+      const specs = {
+        fontWeight: currentBreakpointSpecs['font-weight'],
+        fontSize: `${calculateFluidTypeSize('font-size')}px`,
+        fontStyle: currentBreakpointSpecs['font-style'],
+        lineHeight: `${calculateFluidLineHeight('line-height')}px`,
+        letterSpacing: currentBreakpointSpecs['letter-spacing'],
+      };
+      const displaySpecs = {
+        step: currentBreakpointSpecs.step,
+        font: currentBreakpointSpecs.font,
+        style: currentBreakpointSpecs['font-style'],
+        fontWeight: displayWeight(
+          currentBreakpointSpecs['font-weight'],
+          currentBreakpointSpecs['font-style']
+        ),
+        fontSize: `${`${calculateFluidTypeSize(
+          'font-size'
+        )}px / `}${currentBreakpointSpecs['font-size']
+          .toString()
+          .replace('0.', '.')}rem`,
+        lineHeight: `${`${calculateFluidLineHeight('line-height')}px / `}${
+          currentBreakpointSpecs['line-height']
+        }rem`,
+        letterSpacing: currentBreakpointSpecs['letter-spacing']
+          .toString()
+          .replace('0.', '.'),
+        warning: currentBreakpointSpecs.warning,
+      };
 
-        const versionClassNames = classnames(
-          `${prefix}--type-${type.key}`,
-          versionClassName
-        );
+      const versionClassName = type.version
+        ? `${prefix}--type-${type.version}`
+        : '';
 
-        return (
-          <div
-            key={`${props.name}${type.key}${type.version}`}
-            style={{ padding: 0 }}
-            className={`${prefix}--typeset-example`}>
-            <div className={`${prefix}--typeset-example-row ${prefix}--row`}>
-              <div
-                className={`${prefix}--typeset-example-description ${prefix}--col-md-5`}>
-                <p className={versionClassNames} style={specs}>
-                  {type.description}
-                </p>
-              </div>
-              <div
-                className={`${prefix}--typeset-example-specs ${prefix}--col-md-3 ${prefix}--padding`}>
-                <span className={`${prefix}--type-body-short-01`}>
-                  <span className={`${prefix}--type-semibold`}>
-                    {type.name}{' '}
-                  </span>
-                  <br />
-                  Type: {displaySpecs['font']}
-                  <br />
-                  Size: {displaySpecs['fontSize']}
-                  <br />
-                  Line-height: {displaySpecs['lineHeight']}
-                  <br />
-                  Weight:{' '}
-                  <span style={{ textTransform: 'capitalize' }}>
-                    {displaySpecs['fontWeight']}
-                  </span>
-                  <br />
-                  Letter-spacing: {displaySpecs['letterSpacing']}px
-                  {displaySpecs['warning'] != null ? (
-                    <span>
-                      <br />
-                      <span className={`${prefix}--type-semibold`}>
-                        warning:{' '}
-                      </span>
-                      {displaySpecs['warning']}
-                      <br />
-                    </span>
-                  ) : (
-                    <br />
-                  )}
-                  <div className={`${prefix}--typeset-example-code-style`}>
-                    <CodeSnippet type="inline">${type.name}</CodeSnippet>
-                  </div>
+      const versionClassNames = classnames(
+        `${prefix}--type-${type.key}`,
+        versionClassName
+      );
+
+      return (
+        <div
+          key={`${props.name}${type.key}${type.version}`}
+          style={{ padding: 0 }}
+          className={`${prefix}--typeset-example`}>
+          <div className={`${prefix}--typeset-example-row ${prefix}--row`}>
+            <div
+              className={`${prefix}--typeset-example-description ${prefix}--col-md-5`}>
+              <p className={versionClassNames} style={specs}>
+                {type.description}
+              </p>
+            </div>
+            <div className={`${prefix}--typeset-example-specs`}>
+              <span className={`${prefix}--type-body-short-01`}>
+                <span className={`${prefix}--type-semibold`}>{type.name} </span>
+                <br />
+                Type: {displaySpecs.font}
+                <br />
+                Size: {displaySpecs.fontSize}
+                <br />
+                Line-height: {displaySpecs.lineHeight}
+                <br />
+                Weight:{' '}
+                <span style={{ textTransform: 'capitalize' }}>
+                  {displaySpecs.fontWeight}
                 </span>
-              </div>
+                <br />
+                Letter-spacing: {displaySpecs.letterSpacing}px
+                {displaySpecs.warning != null ? (
+                  <span>
+                    <br />
+                    <span className={`${prefix}--type-semibold`}>
+                      warning:{' '}
+                    </span>
+                    {displaySpecs.warning}
+                    <br />
+                  </span>
+                ) : (
+                  <br />
+                )}
+                <div className={`${prefix}--typeset-example-code-style`}>
+                  <CodeSnippet type="inline">${type.name}</CodeSnippet>
+                </div>
+              </span>
             </div>
           </div>
-        );
-      })}
-    </div>
-  );
-};
+        </div>
+      );
+    })}
+  </div>
+);
 
 export default TypesetExample;
