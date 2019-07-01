@@ -1,0 +1,48 @@
+// Application bundle
+
+// colors, spacing, theme-tokens, functions, motion
+@import '~carbon-components/scss/globals/scss/vars';
+@import '~carbon-components/scss/globals/scss/typography';
+@import '~carbon-components/scss/globals/scss/layout';
+
+// mixins
+@import '~@carbon/elements/scss/layout/breakpoint';
+@import '~@carbon/elements/scss/type/styles';
+
+//---------------------------------------
+// IDL page
+//---------------------------------------
+@import 'images';
+@import 'homepage';
+@import 'typography';
+@import 'color';
+@import 'philosophy';
+@import 'icons';
+@import 'footer';
+
+// grid temp - should be added to grid package or theme
+@import 'grid-temp';
+
+//---------------------------------------
+// IDL components
+//---------------------------------------
+@import '../components/TypeFaceSubFamilies/typeface-sub-families';
+@import '../components/InputRange/input-range';
+@import '../components/TypeTester/type-tester';
+@import '../components/NonLatinScripts/non-latin-script';
+@import '../components/PlayPauseButton/play-pause-button';
+@import '../components/VideoInternal/video-internal';
+@import '../components/HomepageVideo/homepage-video';
+@import '../components/HomepageTile/homepage-tile';
+@import '../components/Carousel/carousel';
+@import '../components/SwatchPaletteWidget/swatch-palette-widget';
+@import '../components/MotionChecklist/motion-checklist';
+@import '../components/TypesetExample/typeset-example';
+@import '../components/TypesetStyle/typeset-style';
+
+//---------------------------------------
+// IDL/Carbon shared components
+//  WHERE WILL THESE LIVE?
+//---------------------------------------
+@import '../components/ColorBlock/color-block';
+@import '../components/IconLibrary/icon-library';
