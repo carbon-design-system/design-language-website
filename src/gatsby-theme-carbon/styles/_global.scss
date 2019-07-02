@@ -1,34 +1,4 @@
 //---------------------------------------
-// Carbon core
-//---------------------------------------
-
-// colors, spacing, theme-tokens, functions, motion
-@import '~carbon-components/scss/globals/scss/vars';
-@import '~carbon-components/scss/globals/scss/typography';
-
-// mixins
-@import '~@carbon/elements/scss/layout/breakpoint';
-@import '~@carbon/elements/scss/type/styles';
-
-// grid temp - should be added to grid package or theme
-@import '../../styles/grid-temp';
-
-//---------------------------------------
-// IDL specific styles
-//---------------------------------------
-@import '../../styles/images';
-@import '../../styles/footer';
-
-//---------------------------------------
-// IDL pages
-//---------------------------------------
-@import '../../styles/homepage';
-@import '../../styles/typography';
-@import '../../styles/color';
-@import '../../styles/philosophy';
-@import '../../styles/icons';
-
-//---------------------------------------
 // Carbon components
 //---------------------------------------
 @import '~carbon-components/scss/components/content-switcher/content-switcher';
@@ -36,25 +6,3 @@
 @import '~carbon-components/scss/components/list-box/list-box';
 @import '~carbon-components/scss/components/slider/slider';
 @import '~carbon-components/scss/components/search/search';
-
-//---------------------------------------
-// IDL components
-//---------------------------------------
-@import '../../components/TypeFaceSubFamilies/typeface-sub-families';
-@import '../../components/InputRange/input-range';
-@import '../../components/TypeTester/type-tester';
-@import '../../components/NonLatinScripts/non-latin-script';
-@import '../../components/PlayPauseButton/play-pause-button';
-@import '../../components/VideoInternal/video-internal';
-@import '../../components/HomepageVideo/homepage-video';
-@import '../../components/HomepageTile/homepage-tile';
-@import '../../components/Carousel/carousel';
-@import '../../components/SwatchPaletteWidget/swatch-palette-widget';
-@import '../../components/MotionChecklist/motion-checklist';
-
-//---------------------------------------
-// IDL/Carbon shared components
-//  WHERE WILL THESE LIVE?
-//---------------------------------------
-@import '../../components/ColorBlock/color-block';
-@import '../../components/IconLibrary/icon-library';

@@ -4,6 +4,8 @@ title: Type specs UI
 
 import { AnchorLinks, PageDescription, Video } from 'gatsby-theme-carbon';
 
+import TypesetStyle from '../../components/TypesetStyle';
+
 <PageDescription>
 
 With our new bespoke corporate typeface, IBM Plex™, comes a new set of guidance and best practices. Type Specs helps to set up a start point to apply typography—type scales, styles and alignment on screens.
@@ -175,7 +177,17 @@ To create a better experience along with our fluid grid, fluid type is an option
 
 Even though IBM Plex contains a wide range of scales, it’s important to use a curated type set. For a clear and focused reading experience, consider content needs and how type works across various screen sizes. The IBM type set includes a Productive set designed primarily for product use and an Expressive set which adds a series scales and fluid behavior.
 
--- ADD TYPE STICKY BREAKPOINT COMPONENT --
+<TypesetStyle
+  title="Productive"
+  breakpointControls={false}
+  typesets="supportingStyle,body,fixedHeading"
+/>
+
+<TypesetStyle
+  title="Expressive"
+  breakpointControls={true}
+  typesets="fluidHeadings,FluidParagraphsAndQuotes,fluidDisplay"
+/>
 
 ## Type color
 

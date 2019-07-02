@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
+// eslint-disable-next-line import/no-webpack-loader-syntax
 import timestamp from 'raw-loader!../../../build-timestamp';
 
 const currentYear = new Date().getFullYear();
