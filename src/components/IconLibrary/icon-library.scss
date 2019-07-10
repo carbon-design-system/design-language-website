@@ -93,6 +93,7 @@
 
 .icon__card-title,
 .icon__card-details {
+  @include carbon--type-style('caption-01');
   position: absolute;
   top: rem(12px);
   left: rem(12px);
@@ -101,10 +102,9 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 130px;
-  @include carbon--type-style('caption-01');
 }
 
 .icon__card-details {
-  top: rem(28px);
   @include carbon--type-style('helper-text-01');
+  top: rem(28px);
 }
