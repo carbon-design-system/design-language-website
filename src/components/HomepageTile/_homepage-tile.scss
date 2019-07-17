@@ -1,4 +1,8 @@
 .container--homepage {
+  a:hover {
+    text-decoration: none;
+  }
+  
   a.#{$prefix}--homepage-idl-tile {
     color: $carbon--gray-90;
   }
@@ -52,9 +56,9 @@
       .#{$prefix}--homepage-idl-tile-identity-icon {
         position: absolute;
         left: 1rem;
-        bottom: 0;
-        width: 50px;
-        height: 50px;
+        bottom: 1rem;
+        width: 32px;
+        height: 32px;
       }
     }
 
