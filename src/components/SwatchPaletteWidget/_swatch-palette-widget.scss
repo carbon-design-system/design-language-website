@@ -90,4 +90,8 @@
 
 .#{$prefix}--swatch-palettes-container .#{$prefix}--content-switcher-btn {
   border-radius: 0;
+
+  &::before {
+    display: none;
+  }
 }
