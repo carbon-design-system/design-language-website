@@ -124,6 +124,19 @@ $font-prefix: '/fonts';
     height: 3rem;
     border-bottom: 1px solid $carbon--gray-20;
 
+    .#{$prefix}--form-item {
+      flex-direction: row;
+      align-items: center;
+
+      .#{$prefix}--slider-container {
+        width: 100%;
+      }
+
+      .#{$prefix}--slider__range-label {
+        display: none;
+      }
+    }
+
     .#{$prefix}--input-range {
       outline: none;
     }

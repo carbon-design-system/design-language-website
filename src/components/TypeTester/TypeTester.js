@@ -3,9 +3,9 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 import Dropdown from 'carbon-components-react/lib/components/Dropdown';
+import Slider from 'carbon-components-react/lib/components/Slider';
 import Textarea from 'react-textarea-autosize';
 import { settings } from 'carbon-components';
-import InputRange from '../InputRange/InputRange';
 
 const { prefix } = settings;
 
@@ -314,14 +314,14 @@ class TypeTester extends Component {
             />
           </div>
           <div className={`${prefix}--input-range-wrapper`}>
-            <InputRange
-              className={`${prefix}--input-range`}
+            <Slider
               min={100}
               max={1600}
               value={this.state.typeSizeMultiplier}
               onChange={e => {
-                this.setState({ typeSizeMultiplier: Number(e.target.value) });
+                this.setState({ typeSizeMultiplier: Number(e.value) });
               }}
+              hideTextInput
             />
           </div>
         </div>
