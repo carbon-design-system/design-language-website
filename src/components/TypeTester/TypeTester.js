@@ -195,11 +195,11 @@ const languageDropdownContent = [
 
 class TypeTester extends Component {
   state = {
-    typeSizeMultiplier: 470,
+    typeSizeMultiplier: 840,
     label: 'IBM Plex Sans',
     variant: 'ibm-plex-sans',
     lastVariant: 'ibm-plex-sans',
-    fontWeight: 400,
+    fontWeight: 300,
     text: languageSample.find(el => el.language === 'latin').content,
     openDropdown: null,
   };
