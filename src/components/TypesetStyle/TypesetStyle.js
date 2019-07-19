@@ -5,8 +5,8 @@ import classnames from 'classnames';
 import { settings } from 'carbon-components';
 import { baseFontSize, breakpoints as carbonBreakpoints } from '@carbon/layout';
 import { findLastIndex, values } from 'lodash';
+import Slider from 'carbon-components-react/lib/components/Slider';
 
-import InputRange from '../InputRange';
 import TypesetExample from '../TypesetExample';
 
 const { prefix } = settings;
@@ -759,8 +759,8 @@ class TypesetStyle extends React.Component {
     this.addScrollListener();
   }
 
-  toggleBreakpoint = e => {
-    this.setState({ simulatedScreenWidth: Number(e.target.value) });
+  toggleBreakpoint = simulatedScreenWidth => {
+    this.setState({ simulatedScreenWidth });
   };
 
   getButtons = () =>
@@ -780,7 +780,7 @@ class TypesetStyle extends React.Component {
           this.state.simulatedScreenWidth,
           breakpoints[breakpointName]
         )}
-        onClick={this.toggleBreakpoint}
+        onClick={e => this.toggleBreakpoint(Number(e.target.value))}
         key={`breakpoint-tab${breakpointName}`}>
         {breakpointName}
       </button>
@@ -824,11 +824,12 @@ class TypesetStyle extends React.Component {
                 style={{ marginBottom: 0, whiteSpace: 'nowrap' }}>
                 Screen width
               </span>
-              <InputRange
+              <Slider
                 min={breakpoints.sm}
                 max={breakpoints.max}
                 value={this.state.simulatedScreenWidth}
-                onChange={this.toggleBreakpoint}
+                onChange={e => this.toggleBreakpoint(e.value)}
+                hideTextInput
               />
               <label
                 className={`${prefix}--typeset-style-screen-label ${prefix}--type-body-long-01`}
