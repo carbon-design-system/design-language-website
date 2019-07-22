@@ -44,7 +44,7 @@ class SwatchPaletteWidget extends Component {
 
     return (
       <div className={`${prefix}--swatch-palettes-container`}>
-        <div className="sticky-container" style={{ top: top || '0px' }}>
+        <div className="sticky-container" style={{ top }}>
           <div className={`${prefix}--row`}>
             <div
               className={`${prefix}--col-lg-4 ${prefix}--col-md-4 ${prefix}--col-no-gutter`}>
