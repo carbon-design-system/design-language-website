@@ -48,11 +48,7 @@
     margin: 0 -1rem;
     padding: 0 $spacing-05;
     background: $ui-01;
-    top: 0;
-
-    @include carbon--breakpoint('md') {
-      padding-top: $spacing-09;
-    }
+    top: 3rem;
   }
 }
 
@@ -65,7 +61,6 @@
   .#{$prefix}--content-switcher-btn {
     flex: 1;
     width: calc(25% - 1px);
-    margin-right: 1px;
     height: rem(48px);
     padding: $spacing-03 $spacing-05;
     outline: none;
@@ -90,4 +85,8 @@
 
 .#{$prefix}--swatch-palettes-container .#{$prefix}--content-switcher-btn {
   border-radius: 0;
+
+  &::before {
+    height: 100%;
+  }
 }
