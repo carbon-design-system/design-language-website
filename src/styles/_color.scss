@@ -26,8 +26,8 @@
   margin: 1rem !important;
 }
 
-.color-blocks {
-  margin-left: 0;
+.color-blocks .bx--caption {
+  margin-left: $spacing-05;
 }
 
 .color-blocks .bx--col-lg-2 {
@@ -35,8 +35,19 @@
   padding-left: 0;
 }
 
+.color-blocks .bx--col-lg-2:nth-child(2) {
+  margin-right: 40%;
+
+  @include carbon--breakpoint('md') {
+    margin-right: 0;
+  }
+}
+
+
 .color-blocks .bx--col-lg-2:nth-child(3) {
-  margin-left: $spacing-07;
+  @include carbon--breakpoint('md') {
+    margin-left: $spacing-07;
+  }
 }
 
 .color-square {
@@ -49,8 +60,8 @@
 
 .color-square--gray-10 {
   background: $carbon--gray-10;
-  outline: 3px solid $carbon--white-0;
-  outline-offset: -3px;
+  outline: 1px solid $carbon--gray-30;
+  outline-offset: -1px;
 }
 
 .color-square--gray-100 {
