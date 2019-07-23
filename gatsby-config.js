@@ -9,6 +9,7 @@ module.exports = {
       options: {
         name: 'IBM Design Language',
         shortName: 'IDL',
+        iconPath: './src/images/favicon-512.png',
       },
     },
   ],
