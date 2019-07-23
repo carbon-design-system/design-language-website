@@ -49,7 +49,6 @@
   @include carbon--breakpoint('md') {
     flex-direction: row;
     justify-content: flex-end;
-    margin-left: 0 !important;
   }
 }
 
