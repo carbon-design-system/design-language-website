@@ -264,6 +264,7 @@ function createIconSections(icons, filteredIcons) {
   const groups = groupIconsBySize(icons);
 
   return Object.keys(groups)
+    .reverse()
     .filter(size => {
       if (!Array.isArray(groups[size])) {
         return false;
