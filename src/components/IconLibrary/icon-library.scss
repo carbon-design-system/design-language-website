@@ -26,6 +26,12 @@ section.icon-size > header {
   max-width: 20rem;
 }
 
+.icon-library {
+  @include carbon--breakpoint('lg') {
+    margin-right: 0;
+  }
+}
+
 .icon-library h2 {
   @include carbon--type-style('expressive-heading-04', true);
   margin-top: 4.5rem;
