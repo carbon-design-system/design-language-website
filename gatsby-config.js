@@ -3,7 +3,7 @@ module.exports = {
     title: 'IBM Design Language',
   },
   pathPrefix: '/design/language',
-  __experimentalThemes: [
+  plugins: [
     {
       resolve: 'gatsby-theme-carbon',
       options: {
