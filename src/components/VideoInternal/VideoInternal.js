@@ -86,7 +86,6 @@ class VideoInternal extends React.Component {
           preload="auto"
           playsInline
           poster={poster}
-          type="video/mp4"
           ref={video => (this.videoRef = video)}>
           <source src={src} type="video/mp4" />
           Your browser does not support the video tag.
