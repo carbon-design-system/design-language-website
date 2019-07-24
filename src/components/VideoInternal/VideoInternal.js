@@ -87,7 +87,8 @@ class VideoInternal extends React.Component {
           playsInline
           poster={poster}
           ref={video => (this.videoRef = video)}>
-          <source src={src} type="video/mp4" />
+          <source src="videos/hero-video.webm" type="video/webm" />
+          <source src="videos/hero-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         {overlay && <div className={`${prefix}--video-internal-overlay`} />}
