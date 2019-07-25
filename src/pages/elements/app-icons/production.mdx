@@ -1,0 +1,291 @@
+---
+title: Production
+tabs: [Design, Usage, Production]
+---
+
+import { Zip32 } from '@carbon/icons-react';
+
+<PageDescription>
+
+IBM’s app icons are visual symbols used to represent products or services.
+They allow users to identify apps at a glance while serving as a unique
+expression of our brand.
+
+</PageDescription>
+
+<AnchorLinks>
+  <AnchorLink>Design and production guidelines</AnchorLink>
+  <AnchorLink>Making an app icon</AnchorLink>
+  <AnchorLink>Exporting for product and web</AnchorLink>
+  <AnchorLink>Exporting for native OS</AnchorLink>
+  <AnchorLink>Approval process</AnchorLink>
+</AnchorLinks>
+
+## Resources
+
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="App Icon Builder (.ai)"
+      aspectRatio="2:1"
+      href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Builder.ai"
+      actionIcon="download"
+      >
+
+![Adobe Illustrator logo](../images/b4f77b9fd2d3be32b0ec10692e1cd72e.svg)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="App Icon Template (.zip)"
+      aspectRatio="2:1"
+      href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Template.zip"
+      actionIcon="download"
+      >
+
+<Zip32 />
+
+  </ResourceCard>
+</Column>
+</Row>
+
+## Design and production guidelines
+
+Don’t see a useful, available app icon in the master? Make your own! Follow these guidelines to ensure visual consistency and proper formatting.
+
+- All app icons should be unique and not redundant with any existing app icon in the system. Look through the icons in the `App_Icon_Master.ai` file from the [app icons repo](https://github.ibm.com/carbon/app-icons) to ensure that your proposed new icon won’t be confused with other app icons.
+- All app icons should adhere to the [IBM Design Language visual style](/).
+- All app icons should comply with IBM [accessibility standards](https://www.carbondesignsystem.com/guidelines/accessibility/overview).
+- All app icons should be usable across all supported platforms and devices.
+- All app icons should be understandable by a global audience of users, regardless of nationality or language.
+
+## Making an app icon
+
+- Create a 32 x 32px artboard for each app icon. The `App_Icon_Builder.ai` file on the [app icons repo](https://github.ibm.com/carbon/app-icons) provides proper specs and grid lines.
+- 32px app icons should have 2px padding.
+- Set your workspace up from the start to snap to pixels.
+- Be aware of automatic alignments which can place vectors on uneven or half pixels.
+
+### Stroke app icon masking
+
+Stroke app icons feature both color and alpha channel gradients. This technique can be achieved in Adobe Illustrator using masking. Follow these guidelines to create proper gradient masks.
+
+1. Draw a 32 x 32 px square and apply a color gradient. Set the angle to 45° and place the gradient slider locations at 10% and 90%.
+
+![Stroke app icon masking: step 1](/images/3_2-1_MakingAnIcon_Stroke_Step1.png)
+
+2. Place the artwork to be in color above the color square. Make sure the color is set to `#FFFFFF` white.
+3. Place black gradients on the parts of the icon to be masked. Set both gradient sliders to `#000000` black, and set one slider to 0% opacity. Any part of the artwork in black will be transparent after masking.
+
+![Stroke app icon masking: step 3](/images/3_2-2_MakingAnIcon_Stroke_Step3.png)
+
+4. Open the Transparency panel `(Window > Transparency)`.
+5. Group all gradients with the white icon `(Object > Group)`. 
+6. Select both the new group and the color square, then click `Make Mask` in the transparency panel.
+
+<Video
+  poster="/images/3_2-3_MakingAnIcon_Stroke_Step6_PosterImage.png"
+  src="/videos/3_2-3_MakingAnIcon_Stroke_Step6.mp4"
+/>
+
+## Exporting for product and web
+
+App icons for product and web should be created for all background types. This ensures your icon will be accessible in any UI context.
+
+1. Download the `App_Icon_Builder.ai` file from the [app icons repo](https://github.ibm.com/carbon/app-icons).
+2. Following app icon guidance, create the following 4 versions of your icon: dark theme, light theme, monochromatic dark theme, monochromatic light theme.
+
+![Exporting for product and web: step 2](/images/3_3-1_ExportingProduct_Step2.png)
+
+### Export stroke app icons
+
+All stroke app icons must be exported as PNG at 2x the apparent icon size. Note that stroke app icons **cannot** be exported as SVG, as SVG does not support this particular styling.
+
+1. Make sure your background layer is turned off.
+2. Select `File > Export > Export for Screens` from the top navigation.
+3. In the `Formats` section, add scales, suffixes, and format to output your icon with proper sizing, naming, and file type. Refer to the table below.
+
+<Row>
+<Column colMd={6} colLg={8}>
+
+![Exporting stroke app icons: step 3](/images/3_3-2_ExportingProduct_Stroke_Step3.png)
+
+</Column>
+</Row>
+
+| Icon size | Scale | Suffix        | Output |
+| --------- | ----- | ------------- | ------ |
+| 16px      | 1x    | AppName-16@2x | 32px   |
+| 20px      | 1.25x | AppName-20@2x | 40px   |
+| 24px      | 1.5x  | AppName-24@2x | 48px   |
+| 32px      | 2x    | AppName-32@2x | 64px   |
+
+4. Click `Export Artboard`. Your files will export to PNG and should reflect the output below.
+
+```
+app-icon-dark-AppName-16@2x.png
+app-icon-dark-AppName-20@2x.png
+app-icon-dark-AppName-24@2x.png
+app-icon-dark-AppName-32@2x.png
+app-icon-light-AppName-16@2x.png
+app-icon-light-AppName-20@2x.png
+app-icon-light-AppName-24@2x.png
+app-icon-light-AppName-32@2x.png
+app-icon-monodark-AppName-16@2x.png
+app-icon-monodark-AppName-20@2x.png
+app-icon-monodark-AppName-24@2x.png
+app-icon-monodark-AppName-32@2x.png
+app-icon-monolight-AppName-16@2x.png
+app-icon-monolight-AppName-20@2x.png
+app-icon-monolight-AppName-24@2x.png
+app-icon-monolight-AppName-32@2x.png
+```
+
+5. Make sure all icons have been exported with proper naming convention.
+
+<Row>
+<Column colMd={6} colLg={8}>
+
+![App icon naming convention (PNG)](/images/3_3-4_ExportingProduct_Stroke_Step5.svg)
+
+</Column>
+</Row>
+
+### Exporting fill and IBM Plex app Icons
+
+Fill app icons and IBM Plex app icons may be exported as SVG. Note that stroke app icons **cannot** be exported as SVG.
+
+1. Make sure your background layer is turned off.
+2. Select `File > Export > Export for Screens` from the top navigation.
+3. In the `Formats` section, add your app’s name in the suffix field.
+
+<Row>
+<Column colMd={6} colLg={8}>
+
+![Exporting fill and IBM Plex app icons: step 3](/images/3_3-5_ExportingProduct_Fill_Step3.png)
+
+</Column>
+</Row>
+
+4. Click `Export Artboard`. Your files will export to SVG and should reflect the output below.
+
+```
+app-icon-dark-AppName.svg
+app-icon-light-AppName.svg
+app-icon-monodark-AppName.svg
+app-icon-monolight-AppName.svg
+```
+
+5. Make sure all icons have been exported with proper naming convention.
+
+<Row>
+<Column colMd={6} colLg={8}>
+
+![App icon naming convention (SVG)](/images/3_3-7_ExportingProduct_Fill_Step5.svg)
+
+</Column>
+</Row>
+
+## Exporting for native OS
+
+
+
+App icons for both mobile and desktop native apps can be produced with the app icon template Adobe Illustrator files. The template makes it easy to export native app icons for any environment at every size you need.
+
+1. Download `App_Icon_Template.zip` from the [app icons repo](https://github.ibm.com/carbon/app-icons).
+2. Place the 32 x 32 px app icon in the `Place_Icon_Here.ai` file. Separate foreground icon elements from background elements and place on the respective artboards.
+
+![Foreground and background layers for native OS](/images/3_4-1_ExportingNative_Step2.png)
+
+3. Create your icon background in the `App_Icon_Background_Color.ai` file and save. 
+4. Open the `App_Icon_Export.ai` file. The artboards should have updated to include your icon. 
+5. Select `File > Export > Export for Screens` from the top navigation.
+6. Select the artboards you need to export:
+
+| Platform                                         | Container shape   | Artboard |
+| ------------------------------------------------ | ----------------- | -------- |
+| iOS, Google Play, Slack                          | Square            | 01       |
+| MacOS                                            | Circle            | 02       |
+| Circular social avatars                          | Circle (unmasked) | 03       |
+| <span class="footnote__highlight">Windows</span> | None              | 04       |
+| Android adaptive                                 | Custom            | 05, 06   |
+
+<Caption>
+  <span class="footnote__highlight" />
+  <span class="footnote">
+    Use monochromatic dark theme (gray 10) app icons for unplated Windows assets
+  </span>
+</Caption>
+
+7. In the `Formats` section, click the `Scale` dropdown and choose `Width`.
+
+<Row>
+<Column colMd={6} colLg={8}>
+
+![Export dialog for native OS](/images/3_4-2_ExportingNative_Step7.png)
+
+</Column>
+</Row>
+
+8. Enter the final output size for the icon, and add as many scales as needed. Refer to your target platform’s documentation for sizing and naming specs. Here are some common ones:
+
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Apple MacOS app icons"
+      aspectRatio="2:1"
+      href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/"
+      actionIcon="arrowRight"
+      >
+
+![Apple logo](/images/apple.svg)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Apple iOS app icons"
+      aspectRatio="2:1"
+      href="https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/app-icon/"
+      actionIcon="arrowRight"
+      >
+
+![Apple logo](/images/apple.svg)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Windows UWP app icons"
+      aspectRatio="2:1"
+      href="https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos"
+      actionIcon="arrowRight"
+      >
+
+![Windows logo](/images/Windows.svg)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Android adaptive app icons"
+      aspectRatio="2:1"
+      href="https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive"
+      actionIcon="arrowRight"
+      >
+
+![Android logo](/images/android.svg)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+## Approval process
+
+App icons should go through the IBM Brand design review process to ensure consistency and proper representation of the IBM brand across all environments. This process is required for your app to be published to public app stores. Please [submit an issue in the repo](https://github.ibm.com/carbon/app-icons/issues/new?template=app-icon-approval-request.md) and your icon will be reviewed.
+
+If your app will not be on a public app store, you may still submit your icon for approval to get feedback on your design.
