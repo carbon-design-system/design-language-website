@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="608px" height="240px" viewBox="0 0 608 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Production-Copy-2" transform="translate(-352.000000, -6597.000000)">
+            <g id="Group-2" transform="translate(352.000000, 6597.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="608" height="240"></rect>
+                <text id="app-icon-dark-IBMVer" font-family="IBMPlexMono, IBM Plex Mono" font-size="16" font-weight="normal" line-spacing="24">
+                    <tspan x="136" y="124" fill="#393939">app-icon-</tspan>
+                    <tspan x="222.4" y="124" fill="#8A3FFC">dark</tspan>
+                    <tspan x="260.8" y="124" fill="#393939">-</tspan>
+                    <tspan x="270.4" y="124" fill="#0072C3">IBMVerify</tspan>
+                    <tspan x="356.8" y="124" fill="#393939">-</tspan>
+                    <tspan x="366.4" y="124" fill="#D12765">24</tspan>
+                    <tspan x="385.6" y="124" fill="#393939">@2x.png</tspan>
+                </text>
+                <text id="Theme-name" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal" line-spacing="18" fill="#8A3FFC">
+                    <tspan x="208" y="176">Theme name</tspan>
+                </text>
+                <text id="App-name" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal" line-spacing="18" fill="#0072C3">
+                    <tspan x="285" y="70">App name</tspan>
+                </text>
+                <text id="Icon-size" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal" line-spacing="18" fill="#D12765">
+                    <tspan x="343" y="176">Icon size</tspan>
+                </text>
+                <rect id="Rectangle" fill="#8A3FFC" x="243" y="132" width="1" height="32"></rect>
+                <rect id="Rectangle-Copy-2" fill="#0072C3" x="314" y="76" width="1" height="32"></rect>
+                <rect id="Rectangle-Copy" fill="#D12765" x="375" y="132" width="1" height="32"></rect>
+            </g>
+            <g id="Page"></g>
+        </g>
+    </g>
+</svg>
