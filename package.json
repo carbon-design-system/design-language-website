@@ -25,13 +25,13 @@
     "format:diff": "prettier --list-different \"**/*.{scss,css,js,md}\""
   },
   "dependencies": {
-    "@carbon/elements": "^10.2.0",
-    "@carbon/icons-react": "^10.4.0-alpha.5390",
+    "@carbon/elements": "^10.4.0",
+    "@carbon/icons-react": "^10.4.1",
     "@ibm/plex": "^2.0.0",
-    "carbon-components": "^10.2.0",
-    "carbon-components-react": "^7.2.0",
+    "carbon-components": "^10.4.1",
+    "carbon-components-react": "^7.4.1",
     "gatsby": "^2.9.4",
-    "gatsby-theme-carbon": "^1.4.0",
+    "gatsby-theme-carbon": "^1.6.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },

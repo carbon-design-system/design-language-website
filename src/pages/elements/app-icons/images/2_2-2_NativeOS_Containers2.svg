@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Artboard 254AppName-32@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="18.9703272%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#BB8EFF" offset="0%"></stop>
+            <stop stop-color="#418CFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="App-Icons-Desktop-Copy-4" transform="translate(-353.000000, -3463.000000)">
+            <g id="Artboard-254AppName-32@2x" transform="translate(353.000000, 3463.000000)">
+                <polygon id="Fill-1-Copy-6" fill="#FFFFFF" points="0 522 928 522 928 0 0 0"></polygon>
+                <path d="M636.57,202.57 L642.76,202.57 C669.558352,172.646158 669.558352,127.353842 642.76,97.43 L636.57,97.43 L636.57,91.24 C606.646158,64.4416479 561.353842,64.4416479 531.43,91.24 L531.43,97.43 L525.24,97.43 C498.441648,127.353842 498.441648,172.646158 525.24,202.57 L531.43,202.57 L531.43,208.76 C561.353842,235.558352 606.646158,235.558352 636.57,208.76 L636.57,202.57 Z" id="Path" fill="#DDDDDD" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#DDDDDD" fill-rule="nonzero" points="410.71 97.43 397.57 97.43 397.57 84.29 292.43 84.29 292.43 97.43 279.29 97.43 279.29 202.57 292.43 202.57 292.43 215.71 397.57 215.71 397.57 202.57 410.71 202.57"></polygon>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="279.29" y="307.29" width="131.43" height="131.43"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="505.14" y="294.14" width="157.71" height="157.71" rx="78.855"></rect>
+                <rect id="Rectangle" stroke="#0062FF" x="279.29" y="84.29" width="131.43" height="131.43"></rect>
+                <path d="M279.29,97.43 L410.71,97.43" id="Path" stroke="#0062FF"></path>
+                <path d="M279.29,202.57 L410.71,202.57" id="Path" stroke="#0062FF"></path>
+                <path d="M292.43,84.29 L292.43,215.71" id="Path" stroke="#0062FF"></path>
+                <path d="M397.57,84.29 L397.57,215.71" id="Path" stroke="#0062FF"></path>
+                <rect id="Rectangle" stroke="#0062FF" x="518.29" y="84.29" width="131.43" height="131.43"></rect>
+                <path d="M518.29,97.43 L649.71,97.43" id="Path" stroke="#0062FF"></path>
+                <path d="M518.29,202.57 L649.71,202.57" id="Path" stroke="#0062FF"></path>
+                <path d="M531.43,84.29 L531.43,215.71" id="Path" stroke="#0062FF"></path>
+                <path d="M636.57,84.29 L636.57,215.71" id="Path" stroke="#0062FF"></path>
+                <rect id="Rectangle" transform="translate(345.000000, 150.000000) rotate(180.000000) translate(-345.000000, -150.000000) " x="292.43" y="97.43" width="105.14" height="105.14"></rect>
+                <polygon id="Path" fill="#061F80" fill-rule="nonzero" points="305.57 130.3 305.57 189.43 335.14 159.86"></polygon>
+                <rect id="Rectangle" transform="translate(584.000000, 150.000000) rotate(180.000000) translate(-584.000000, -150.000000) " x="531.43" y="97.43" width="105.14" height="105.14"></rect>
+                <polygon id="Path" fill="#061F80" fill-rule="nonzero" points="544.57 130.3 544.57 189.43 574.14 159.86"></polygon>
+                <rect id="Rectangle" transform="translate(345.000000, 373.000000) rotate(180.000000) translate(-345.000000, -373.000000) " x="292.43" y="320.43" width="105.14" height="105.14"></rect>
+                <polygon id="Path" fill="#F3F3F3" fill-rule="nonzero" points="305.57 353.3 305.57 412.43 335.14 382.86"></polygon>
+                <rect id="Rectangle" transform="translate(584.000000, 373.000000) rotate(180.000000) translate(-584.000000, -373.000000) " x="531.43" y="320.43" width="105.14" height="105.14"></rect>
+                <polygon id="Path" fill="#F3F3F3" fill-rule="nonzero" points="544.57 353.3 544.57 412.43 574.14 382.86"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero" points="305.57 189.43 384.43 189.43 384.43 110.57"></polygon>
+                <polygon id="Path-Copy-2" fill="url(#linearGradient-1)" fill-rule="nonzero" points="305.57 412.43 384.43 412.43 384.43 333.57"></polygon>
+                <polygon id="Path-Copy" fill="url(#linearGradient-1)" fill-rule="nonzero" points="544.57 189.43 623.43 189.43 623.43 110.57"></polygon>
+                <polygon id="Path-Copy-3" fill="url(#linearGradient-1)" fill-rule="nonzero" points="544.57 412.43 623.43 412.43 623.43 333.57"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
