@@ -84,6 +84,10 @@
     font-size: calc(3rem + 0.75 * (100vw - 82rem) / 17);
   }
 
+  @include carbon--breakpoint('max') {
+    @include carbon--type-style('expressive-heading-05', true);
+  }
+
   .ibm-type-italic {
     font-style: italic;
   }
