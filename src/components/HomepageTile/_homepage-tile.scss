@@ -53,6 +53,9 @@
       .#{$prefix}--homepage-idl-tile-title {
         z-index: 2;
       }
+      .#{$prefix}--homepage-idl-tile-title--disabled {
+        color: #565656;
+      }
       .#{$prefix}--homepage-idl-tile-identity-icon {
         position: absolute;
         left: 1rem;
@@ -83,6 +86,10 @@
       right: 1rem;
       z-index: 4;
       fill: $carbon--gray-90;
+    }
+
+    .#{$prefix}--homepage-idl-tile-action-icon--disabled svg {
+      fill: #565656!important;
     }
 
     &:hover {
