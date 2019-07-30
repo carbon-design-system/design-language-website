@@ -46,7 +46,7 @@
   text-overflow: ellipsis;
 
   &:hover {
-    background-color: $carbon--gray-10;
+    background-color: $hover-ui;
   }
 
   &:last-child {
@@ -82,10 +82,6 @@
 
   @include carbon--breakpoint('xlg') {
     font-size: calc(3rem + 0.75 * (100vw - 82rem) / 17);
-  }
-
-  @include carbon--breakpoint('max') {
-    @include carbon--type-style('expressive-heading-05', true);
   }
 
   .ibm-type-italic {
