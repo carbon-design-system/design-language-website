@@ -768,29 +768,10 @@
     react-scroll-up "^1.3.3"
     react-textarea-autosize "^7.1.0"
 
-"@carbon/colors@10.2.0", "@carbon/colors@^10.2.0":
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.2.0.tgz#a9b0f2372fdf231a34b070ec8cff3f9d7a044fbd"
-  integrity sha512-WH6IQNt/HfqExMhTcgIBJN6Cqunrr+udtEKZAE3k8eMlBceKpiidfzgVNbAVKAujGjgwDR60XF+gQGRbteCWUg==
-
 "@carbon/colors@10.3.0":
   version "10.3.0"
   resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.3.0.tgz#99df98f141c6d3a237d72ac9b21ad58a07112348"
   integrity sha512-LI+ZINCwf7iKXtaE3BkTdRtHpSwOe5FJtLwWxkqdsy69X4nMDKPc41ZJOW/lYAemeN4EHvm+LL9GD66eQpcVQQ==
-
-"@carbon/elements@^10.3.0":
-  version "10.3.1"
-  resolved "https://registry.yarnpkg.com/@carbon/elements/-/elements-10.3.1.tgz#933e270dcef80cdad1740346fd6dee2980d06985"
-  integrity sha512-IZJBl6iDkOWl0fuDbohuO/RQyJgDNsgMbV9LtBOpQJNJrtDqzdj8352o2XGnSyhAF1SqaBWJ+O6gZgJpAghx8Q==
-  dependencies:
-    "@carbon/colors" "10.2.0"
-    "@carbon/grid" "10.3.0"
-    "@carbon/icons" "10.3.0"
-    "@carbon/import-once" "10.2.0"
-    "@carbon/layout" "10.2.0"
-    "@carbon/motion" "10.2.0"
-    "@carbon/themes" "^10.3.1"
-    "@carbon/type" "10.2.0"
 
 "@carbon/elements@^10.4.0":
   version "10.4.0"
@@ -814,14 +795,6 @@
     "@carbon/import-once" "10.1.0"
     "@carbon/layout" "10.1.1"
 
-"@carbon/grid@10.3.0", "@carbon/grid@^10.3.0":
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/@carbon/grid/-/grid-10.3.0.tgz#327e21b2a3d9277efd4196af284ea6249bb43121"
-  integrity sha512-O7r4Lu/lyqy75DdHqH1mfhkI2NayyVqySinrJ/NXjShvL0slH+e0Uy0lvSrxCylCCQeMb6xk7fupMYCycNO/cg==
-  dependencies:
-    "@carbon/import-once" "10.2.0"
-    "@carbon/layout" "10.2.0"
-
 "@carbon/grid@10.4.0":
   version "10.4.0"
   resolved "https://registry.yarnpkg.com/@carbon/grid/-/grid-10.4.0.tgz#e6b7ece22c16f25b222f5039fb53c8a408194334"
@@ -835,17 +808,12 @@
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.3.0.tgz#b0a772a7be9c10d5633cf78034c5c988ce998982"
   integrity sha512-vQegj82Y3hC17cA0g0bQUwYfcmhJD/3HyJVE/biyUXImTu82TcLrcRDTZoO9bOleEMEztMXTTDlMKTU9rrhRTw==
 
-"@carbon/icons-react@10.4.1", "@carbon/icons-react@^10.4.0", "@carbon/icons-react@^10.4.1":
+"@carbon/icons-react@10.4.1", "@carbon/icons-react@^10.4.1":
   version "10.4.1"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.4.1.tgz#7107b9f41dd9014fed984c564be80c9e880cdb6c"
   integrity sha512-QohbOWFj8zwA8y6tw7DgxZAM+W6jGZKtVnRzNxmYaHfI5R73vKL7fwVKX7zwwq51Gbxjg9JMUWixr4fSlCuy5w==
   dependencies:
     "@carbon/icon-helpers" "10.3.0"
-
-"@carbon/icons@10.3.0":
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.3.0.tgz#ae159d42fada08f4b2a35e4632788145aefdd3d7"
-  integrity sha512-VBaV9+O77T7cuxyUvVd9Gpf3K7sdSoaylnlXQPqr+NCZLg9L60C5qr7Lzg9hgES9H2DF/ruyfAl5rqrCz6MPeQ==
 
 "@carbon/icons@10.4.0":
   version "10.4.0"
@@ -857,11 +825,6 @@
   resolved "https://registry.yarnpkg.com/@carbon/import-once/-/import-once-10.1.0.tgz#dc6d06d45f77c24461a1a4d48d90f6ba63622f3f"
   integrity sha512-cZTifeQvvYKDSJ/arFPXF/tLOz8jn2tmp+ukCAL6n/J1flz3fYIwq9L1R0RyzRJTiKA5f+bT7wYW62xDqrOOnw==
 
-"@carbon/import-once@10.2.0":
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/@carbon/import-once/-/import-once-10.2.0.tgz#374ffb5b39583de3c173e2df2b5302a317dd1126"
-  integrity sha512-lN450opefCOTtTZJZ3vdAliD9FNeBX3K4sWswtxhZFxOW7TZpwriIq0nGqx8PgRMgHGVmktU5sJuzkims/kyFg==
-
 "@carbon/import-once@10.3.0":
   version "10.3.0"
   resolved "https://registry.yarnpkg.com/@carbon/import-once/-/import-once-10.3.0.tgz#58617da4efb6d7a11352d8e6b7209da1d39f364d"
@@ -872,20 +835,10 @@
   resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.1.1.tgz#06608c451b222ee89abe3753cca6990690127af2"
   integrity sha512-FC5iOJLR2CwG5gJX5Wz6jpFCdiLOsKaCw949+t3waWRhdb1CJ9B3PDXM8KUOKRuwo4tsXQb2kd8wXkGNfdkWTw==
 
-"@carbon/layout@10.2.0", "@carbon/layout@^10.2.0":
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.2.0.tgz#3698b5c3e76bbe3b4b979708adbff68edfbb0e66"
-  integrity sha512-KT+VO7p7O0UOfvbfCw95GzJzuqCBREH1G7U3SUfCRl6kGe1KukIA4iwPDmCM1TB4JnIWPJSTZhY+LjpPSEHxgw==
-
 "@carbon/layout@10.3.0":
   version "10.3.0"
   resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.3.0.tgz#bbcac550bd3dcf573e504a48a61e290fa30b664c"
   integrity sha512-qToFKyBVRATPz6TP8xBGmbQUj7qb9NUaxMYUJKcnVD+ssnV9KA2zLdwnm9wRP6bpLVXqoTNKIvHc+J3MP54Weg==
-
-"@carbon/motion@10.2.0":
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-10.2.0.tgz#9e682daff4cb7f7930fa48a9dd19f7a9ed3910c4"
-  integrity sha512-vw9JokXvSoFLCv1f157NXrhNqKn3nhQSMlF/DYpeKZZ3WJYs59DxzQVGRaNMVTT9IA5Ma/jeHR4Il80KlR/xbw==
 
 "@carbon/motion@10.3.0":
   version "10.3.0"
@@ -898,21 +851,6 @@
   integrity sha512-KVaSkp9XgK8yAmhJyua2DE+klRt7+R85ymQ0O79A3aOko1GWm1J2L/v+Gk8xQpU/wkNT8TFOaJtHBgGOz28Qkg==
   dependencies:
     "@carbon/colors" "10.3.0"
-
-"@carbon/themes@^10.3.0", "@carbon/themes@^10.3.1":
-  version "10.3.1"
-  resolved "https://registry.yarnpkg.com/@carbon/themes/-/themes-10.3.1.tgz#f951af77d49bc8146f691a290f1d76afa27da0a3"
-  integrity sha512-5UviZgzQriksQIBgrJ6I/qkmI8pR3GWw4WQ+tdHyw5LpDstzwxRIUf3emz/lBEPPxsEYOaf31nJ4DOFETMCr0Q==
-  dependencies:
-    "@carbon/colors" "10.2.0"
-
-"@carbon/type@10.2.0", "@carbon/type@^10.2.0":
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/@carbon/type/-/type-10.2.0.tgz#4ad7084b4706bf6d6ffe3c509f8c7d04f8ca951c"
-  integrity sha512-7FfuQjIVn//SDRlxsTwVW7QoNKYK0riFLWyqvxfRI/NKD8R8nCVpBYxwwLa1eRRcUejR01dzDpEcpv23paFg5A==
-  dependencies:
-    "@carbon/import-once" "10.2.0"
-    "@carbon/layout" "10.2.0"
 
 "@carbon/type@10.3.0":
   version "10.3.0"
@@ -3002,7 +2940,7 @@ capture-stack-trace@^1.0.0:
   resolved "https://registry.yarnpkg.com/capture-stack-trace/-/capture-stack-trace-1.0.1.tgz#a6c0bbe1f38f3aa0b92238ecb6ff42c344d4135d"
   integrity sha512-mYQLZnx5Qt1JgB1WEiMCf2647plpGeQ2NMR/5L0HNZzGQo4fuSPnK+wjfPnKZV0aiJDgzmWqqkV/g7JD+DW0qw==
 
-carbon-components-react@^7.4.0, carbon-components-react@^7.4.1:
+carbon-components-react@^7.4.1:
   version "7.4.1"
   resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.4.1.tgz#f45ac03783c38f6c51fdf761fe51d0b00a6ad68a"
   integrity sha512-Ty8uRLI4DjkJxsFLDC0jv7gF92Eg/fxgZsdizV0VLSFhlsux4ESOFxmkJ0VURb2Yt8HuVD8uEwXeOY5xroswFw==
@@ -3020,7 +2958,7 @@ carbon-components-react@^7.4.0, carbon-components-react@^7.4.1:
     warning "^3.0.0"
     window-or-global "^1.0.1"
 
-carbon-components@^10.4.0, carbon-components@^10.4.1:
+carbon-components@^10.4.1:
   version "10.4.1"
   resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.4.1.tgz#e18bbf44be0bc30c9f74eb44a12531c06e227d17"
   integrity sha512-TjRd69YceXbEBC/JgXmwd5PpV8G5BpeBixJpcLqsDKQROlJb5jzE/LjdzV4ktnqfKfJgcGrgV+qqTCNT/BM2xw==
@@ -6063,27 +6001,22 @@ gatsby-telemetry@^1.1.0:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-theme-carbon@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.6.0.tgz#672698bf2f8ab801dda3397b74d6118c090219f4"
-  integrity sha512-M1HOehTRwl4VWjlerM+QVkHC/7H+DVpnMqvUzLvG2oowMAkViU0ke3qQKQa/dZps6pD+c7jK07EOf7X9v2hagg==
+gatsby-theme-carbon@^1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.6.3.tgz#dace484a82ac226a2f9f329d4607457a72ca5752"
+  integrity sha512-0uCO777jNPnZ2WCTETGT7jLYb78z4OUUQNqN+oZEFKsbM4u/eahmVFXF1jETq5ru8FMYV5FJxLk1A1WBQVxCGw==
   dependencies:
     "@carbon/addons-website" "0.0.1-alpha.21"
-    "@carbon/colors" "^10.2.0"
-    "@carbon/elements" "^10.3.0"
-    "@carbon/grid" "^10.3.0"
-    "@carbon/icons-react" "^10.4.0"
-    "@carbon/layout" "^10.2.0"
-    "@carbon/themes" "^10.3.0"
-    "@carbon/type" "^10.2.0"
+    "@carbon/elements" "^10.4.0"
+    "@carbon/icons-react" "^10.4.1"
     "@emotion/core" "^10.0.10"
     "@emotion/styled" "^10.0.11"
     "@mdx-js/mdx" "^1.0.20"
     "@mdx-js/react" "^1.0.20"
     "@reach/router" "^1.2.1"
     "@vimeo/player" "^2.9.1"
-    carbon-components "^10.4.0"
-    carbon-components-react "^7.4.0"
+    carbon-components "^10.4.1"
+    carbon-components-react "^7.4.1"
     classnames "^2.2.6"
     copy-to-clipboard "^3.2.0"
     emotion-theming "^10.0.10"
