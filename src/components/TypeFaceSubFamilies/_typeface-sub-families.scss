@@ -64,26 +64,16 @@
 }
 
 .#{$prefix}--subfamilies-TypeTesterExample {
-  @include carbon--type-style('expressive-heading-05');
+  @include carbon--type-style('expressive-heading-05', true);
   background-color: $carbon--white-0;
   padding-top: $spacing-05;
   padding-bottom: 2.5rem;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
-  font-size: calc(2rem + 0.25 * (100vw - 20rem) / 22);
 
   @include carbon--breakpoint('md') {
     flex-direction: row;
-    font-size: calc(2.25rem + 0.375 * (100vw - 42rem) / 24);
-  }
-
-  @include carbon--breakpoint('lg') {
-    font-size: calc(2.625rem + 0.375 * (100vw - 66rem) / 16);
-  }
-
-  @include carbon--breakpoint('xlg') {
-    font-size: calc(3rem + 0.75 * (100vw - 82rem) / 17);
   }
 
   .ibm-type-italic {
