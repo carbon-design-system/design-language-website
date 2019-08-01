@@ -145,6 +145,25 @@
   @include carbon--breakpoint('lg') {
     width: 50%;
   }
+
+  .#{$prefix}--form-item {
+    flex-direction: row;
+    align-items: center;
+
+    .#{$prefix}--slider-container {
+      width: 100%;
+    }
+
+    .#{$prefix}--slider {
+      min-width: 0;
+      margin: 0;
+      max-width: unset;
+    }
+
+    .#{$prefix}--slider__range-label {
+      display: none;
+    }
+  }
 }
 
 .#{$prefix}--typeset-style-screen-label {
