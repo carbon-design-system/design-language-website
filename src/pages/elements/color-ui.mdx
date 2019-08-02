@@ -3,6 +3,7 @@ title: Color UI
 ---
 
 import ColorBlock from '../../components/ColorBlock';
+import ColorGrid from '../../components/ColorGrid';
 
 <PageDescription>
 
@@ -63,10 +64,9 @@ Application of our color palette brings a unified and recognizable consistency t
 
 The Neutral Gray family is dominant in our UI, making use of subtle shifts in value to help organize content into distinct zones. The core Blue family has been designated as the primary action color across all products and experiences. Additional colors are used sparingly and purposefully.
 
-![blue color grid](/images/color-grid-blues.png)
-
-![alert color grid](/images/color-grid-alert.png)
-
+<ColorGrid colorFamily="blue" />
+<ColorGrid colorFamily="gray" />
+<ColorGrid colorFamily="alerts" style="margin-top: 2rem" />
 <Caption>Alerts Colors</Caption>
 
 ## Implementing color
