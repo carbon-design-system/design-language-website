@@ -31,7 +31,7 @@
     "carbon-components": "^10.4.1",
     "carbon-components-react": "^7.4.1",
     "gatsby": "^2.9.4",
-    "gatsby-theme-carbon": "^1.6.3",
+    "gatsby-theme-carbon": "^1.7.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
