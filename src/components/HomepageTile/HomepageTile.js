@@ -2,11 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
 
-import { Launch20, ArrowRight24 } from '@carbon/icons-react';
+import { Launch20, ArrowRight24, Error20 } from '@carbon/icons-react';
 
 const { prefix } = settings;
 
 const HomepageTile = ({
+  disabled,
   ratio,
   marginTop,
   theme,
@@ -56,6 +57,8 @@ const HomepageTile = ({
     switch (type) {
       case 'resources':
         return <Launch20 aria-label="Open resource" />;
+      case 'disabled':
+        return <Error20 aria-label="disabled" />;
       case 'article':
         return <ArrowRight24 aria-label="Go to content" />;
       case 'no-icon':
@@ -127,7 +130,12 @@ const HomepageTile = ({
                 : `${prefix}--homepage-idl-tile-content`
             }
             style={transparentImageStyle}>
-            <div className={`${prefix}--homepage-idl-tile-title`}>
+            <div
+              className={
+                disabled
+                  ? `${prefix}--homepage-idl-tile-title ${prefix}--homepage-idl-tile-title--disabled`
+                  : `${prefix}--homepage-idl-tile-title`
+              }>
               <div className={`${prefix}--type-body-long-01`}>{subtitle}</div>
               <div className={`${prefix}--type-expressive-heading-03`}>
                 {title}
@@ -139,7 +147,11 @@ const HomepageTile = ({
               </div>
             ) : null}
             <div
-              className={`${prefix}--homepage-idl-tile-action-icon`}
+              className={
+                disabled
+                  ? `${prefix}--homepage-idl-tile-action-icon ${prefix}--homepage-idl-tile-action-icon--disabled`
+                  : `${prefix}--homepage-idl-tile-action-icon`
+              }
               style={{ fill: theme === 'dark' ? '#ffffff' : '#282828' }}>
               {getActionIcon(actionIcon)}
             </div>
@@ -166,6 +178,7 @@ HomepageTile.propTypes = {
   target: PropTypes.string,
   marginTop: PropTypes.string,
   children: PropTypes.node,
+  disabled: PropTypes.bool,
 };
 
 export default HomepageTile;
