@@ -193,7 +193,7 @@ const languageDropdownContent = [
   return variant;
 });
 
-class TypeTester extends Component {
+export default class TypeTester extends Component {
   state = {
     typeSizeMultiplier: 840,
     label: 'IBM Plex Sans',
@@ -291,6 +291,7 @@ class TypeTester extends Component {
         <div className={`${prefix}--type-tester-menu`}>
           <div className="dropdown_wrapper">
             <Dropdown
+              id={`${prefix}--type-tester-language-dropdown`}
               items={languageDropdownContent}
               label={this.state.label}
               onChange={this.onLanguageDropdownChange}
@@ -302,6 +303,7 @@ class TypeTester extends Component {
               open={this.state.openDropdown === 'language-dropdown'}
             />
             <Dropdown
+              id={`${prefix}--type-tester-weight-dropdown`}
               items={this.getWeightsForLanguage()}
               label={this.getLanguageForWeight(this.state.fontWeight)}
               onChange={this.onFontWeightDropdownChange}
@@ -344,5 +346,3 @@ class TypeTester extends Component {
 }
 
 TypeTester.propTypes = {};
-
-export default TypeTester;
