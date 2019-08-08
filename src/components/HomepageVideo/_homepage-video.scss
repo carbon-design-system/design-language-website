@@ -44,9 +44,9 @@
   width: 100%;
   height: 100%;
   flex-direction: column;
-  margin: 0;
 
   @include carbon--breakpoint('md') {
+    margin: 0;
     flex-direction: row;
     justify-content: flex-end;
   }
