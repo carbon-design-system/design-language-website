@@ -79,6 +79,7 @@ export default class TypefaceSubFamilies extends React.Component {
         <div className={`${prefix}--subfamilies-dropdown-container`}>
           <div className={classNamesMenuDropdown}>
             <Dropdown
+              id={`${prefix}--subfamilies-dropdown`}
               items={fontVariants}
               label={this.state.fontVariantLabel}
               selected={this.state.fontVariant}
@@ -97,8 +98,9 @@ export default class TypefaceSubFamilies extends React.Component {
           </div>
         </div>
         <div className={classNamesMenuTabs}>
-          {fontVariants.map(fontVariant => (
+          {fontVariants.map((fontVariant, i) => (
             <button
+              key={`${fontVariant}-${i}`}
               type="button"
               className={
                 fontVariant.label === this.state.fontVariantLabel
