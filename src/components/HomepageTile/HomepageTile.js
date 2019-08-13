@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
-
 import { Launch20, ArrowRight24, Error20 } from '@carbon/icons-react';
+import { baseFontSize, breakpoints as carbonBreakpoints } from '@carbon/layout';
 
 const { prefix } = settings;
-
+const breakpoints = {
+  default: 0,
+  sm: Number(carbonBreakpoints.sm.width.replace('rem', '')) * baseFontSize,
+  md: Number(carbonBreakpoints.md.width.replace('rem', '')) * baseFontSize,
+  lg: Number(carbonBreakpoints.lg.width.replace('rem', '')) * baseFontSize,
+  xlg: Number(carbonBreakpoints.xlg.width.replace('rem', '')) * baseFontSize,
+  max: Number(carbonBreakpoints.max.width.replace('rem', '')) * baseFontSize,
+};
 const HomepageTile = ({
   disabled,
   ratio,
@@ -24,11 +31,31 @@ const HomepageTile = ({
   target,
   children,
 }) => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const handleResize = () => setWidth(window.innerWidth);
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  });
+  const getBreakpoints = ({ viewportWidth, points }) =>
+    Object.entries(points).reduce(
+      (breakpointNames, [breakpointName, breakpointValue]) => {
+        if (viewportWidth > breakpointValue) {
+          return [...breakpointNames, breakpointName];
+        }
+        return breakpointNames;
+      },
+      ['default']
+    );
+  const validBreakpoints = getBreakpoints({
+    viewportWidth: width,
+    points: breakpoints,
+  });
+
   // const windowWidth = window.outerWidth;
   // remove/fix this - just testing
   const windowWidth = 1200;
-
-  const calcRatio = ratioString => {
+  const ratioReducer = ratioString => {
     switch (ratioString) {
       case '1:1':
         return '100%';
@@ -51,6 +78,17 @@ const HomepageTile = ({
       default:
         return '50%';
     }
+  };
+  const calcRatio = ratioInput => {
+    if (typeof ratioInput === 'object') {
+      // return largest valid breakpoint ratio provided in ratio object
+      const currentRatio = validBreakpoints.reduce(
+        (currentValidRatio, currentBreakpoint) =>
+          ratio[currentBreakpoint] || currentValidRatio
+      );
+      return ratioReducer(currentRatio);
+    }
+    return ratioReducer(ratioInput);
   };
 
   const getActionIcon = type => {
@@ -163,7 +201,7 @@ const HomepageTile = ({
 };
 
 HomepageTile.propTypes = {
-  ratio: PropTypes.string.isRequired,
+  ratio: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   theme: PropTypes.string,
   title: PropTypes.string,
   subtitle: PropTypes.string,

@@ -149,7 +149,7 @@ export default HomepageTemplate;
     image="images/product-gallery.jpg"
     actionIcon="no-icon">
     <HomepageTile
-      ratio="4:1" 
+      ratio={{ default: '2:1', md: '4:1', }}
       theme="dark"
       subtitle="Gallery"
       title="IBM Services"
@@ -163,7 +163,7 @@ export default HomepageTemplate;
 <Row>
   <Column colLg={12} noGutterSm>
     <HomepageTile
-      ratio="16:9"
+      ratio={{ default: '1:2', md: '16:9' }}
       image="images/landing-photography-gallery-2.jpg"
       actionIcon="no-icon">
       <Carousel id="c1" count="1 2" nav={false} fade={true} autoplay>
@@ -177,7 +177,7 @@ export default HomepageTemplate;
         />
       </Carousel>
       <HomepageTile
-        ratio="6:1" 
+        ratio={{ default: '2:1', md: '6:1' }}
         theme="dark"
         subtitle="Elements"
         title="Photography"
@@ -191,12 +191,12 @@ export default HomepageTemplate;
 <Row className="homepage-tiles--end">
   <Column colLg={8} noGutterSm>
     <HomepageTile
-      ratio="1:1"
+      ratio={{ default: '1:2', md: '1:1' }}
       image="images/landing-gallery-watson-duo-phone.jpg"
       actionIcon="no-icon"
     >
       <HomepageTile
-        ratio="4:1" 
+        ratio={{ default: '2:1', md: '4:1' }}
         theme="dark"
         subtitle="Case Study"
         title="Coming soon"
