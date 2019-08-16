@@ -3,14 +3,17 @@ module.exports = {
     title: 'IBM Design Language',
   },
   pathPrefix: '/design/language',
-  __experimentalThemes: [
+  plugins: [
     {
       resolve: 'gatsby-theme-carbon',
       options: {
-        name: 'IBM Design Language',
-        shortName: 'IDL',
+        mdxExtensions: ['.mdx'],
         iconPath: './src/images/favicon-512.png',
         titleType: 'append',
+        repository: {
+          baseUrl: 'https://github.com/carbon-design-system/design-language-website',
+          subDirectory: '',
+        },
       },
     },
   ],
