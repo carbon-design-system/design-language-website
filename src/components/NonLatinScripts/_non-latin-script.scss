@@ -87,6 +87,7 @@ $font-prefix: '/fonts';
   outline: none;
   border-width: 0;
   margin-bottom: $spacing-03;
+  line-height: 1.5;
   font-weight: 400 !important;
   width: 100%;
   color: $carbon--gray-90;
@@ -104,10 +105,6 @@ $font-prefix: '/fonts';
 .#{$prefix}--non-latin-type-example-devanagari,
 .#{$prefix}--non-latin-type-example-arabic {
   height: 100%;
-}
-
-.#{$prefix}--non-latin-type-example-thai {
-  line-height: 1.5;
 }
 
 .#{$prefix}--non-latin-type-example-thai-looped {
