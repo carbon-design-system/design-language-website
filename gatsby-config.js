@@ -11,7 +11,8 @@ module.exports = {
         iconPath: './src/images/favicon-512.png',
         titleType: 'append',
         repository: {
-          baseUrl: 'https://github.com/carbon-design-system/design-language-website',
+          baseUrl:
+            'https://github.com/carbon-design-system/design-language-website',
           subDirectory: '',
         },
       },
