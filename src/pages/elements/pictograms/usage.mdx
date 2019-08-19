@@ -4,7 +4,6 @@ tabs: [Design, Usage, Contribute]
 ---
 
 import { Bee32 } from '@carbon/icons-react';
-import { AnchorLinks, AnchorLink } from 'gatsby-theme-carbon';
 
 <PageDescription>
 
@@ -66,6 +65,8 @@ sizes or scale at accepted increments. You may need to adjust the stroke weight
 accordingly to accommodate larger scales. For more information on scaling and
 accessibility, see the section on mini units on the 2X Grid page.
 
+<!-- TO DO: join mobile images and add here with art direciton -->
+
 ![Different sized pictograms](images/14_Sizing_1.svg)
 
 | Icon size | Stroke width | Padding | Live area | Corner Radius |
@@ -99,6 +100,8 @@ Pictograms are optically aligned to the center of the icon grid within the
 boundary box. Centering ensures all pictograms will be aligned correctly when
 exported and used side by side.
 
+<!-- TO DO: join mobile images and add here with art direciton -->
+
 ![](images/15_Alignment_1.svg)
 
 ### Containers
@@ -106,9 +109,19 @@ exported and used side by side.
 Pictograms can be represented in a circular or rectangular container calculated
 based on the padding size.
 
+<ArtDirection>
+
+![Padding Example](images/16_Containers_1-mobile.svg)
 ![Padding Example](images/16_Containers_1.svg)
 
+</ArtDirection>
+
+<ArtDirection>
+
+![Padding Example](images/16_Containers_2-mobile.svg)
 ![Padding Example](images/16_Containers_2.svg)
+
+</ArtDirection>
 
 <Row>
 <Column colMd={4} colLg={4}>
@@ -165,15 +178,30 @@ When designing with pictograms, all artwork should include minimum padding
 based on 1/4 of the scaled grid size. The padding can be increased by increments of
 1/4 grid units.
 
+<ArtDirection>
+
+![](images/17_Clearance_1-mobile.svg)
 ![](images/17_Clearance_1.svg)
+
+</ArtDirection>
 
 <Caption>Padding starts at the edge of the container shape.</Caption>
 
+<ArtDirection>
+
+![](images/17_Clearance_2-mobile.svg)
 ![](images/17_Clearance_2.svg)
+
+</ArtDirection>
 
 <Caption>Padding is the same for both circle and square containers.</Caption>
 
+<ArtDirection>
+
+![](images/17_Clearance_3-mobile.svg)
 ![](images/17_Clearance_3.svg)
+
+</ArtDirection>
 
 <Caption>
   Same spacing rules apply when using pictograms without containers.
