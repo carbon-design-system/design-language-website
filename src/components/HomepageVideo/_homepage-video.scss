@@ -61,7 +61,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  flex-basis: calc(100% / 3 + 1rem);
+  flex-basis: 50%;
   height: 50%;
   width: 100%;
   max-width: initial;
@@ -78,7 +78,10 @@
 
   &:first-of-type {
     border-top-width: 0;
-    flex-basis: calc(100% / 3);
+
+    @include carbon--breakpoint('md') {
+      flex-basis: calc(100% / 3);
+    }
   }
 
   &:visited {
@@ -104,6 +107,7 @@
   }
 
   @include carbon--breakpoint('md') {
+    flex-basis: calc(100% / 3 + 1rem);
     height: 100%;
     width: 25%;
     border-top-width: 0;
