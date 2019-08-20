@@ -85,121 +85,30 @@ $font-prefix: '/fonts';
   border: none;
   background-color: transparent;
   outline: none;
-  height: 1.5em;
-  padding: 0;
-  padding-bottom: $spacing-03;
-  padding-top: $spacing-05;
   border-width: 0;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-bottom: $spacing-03;
+  line-height: 1.5;
   font-weight: 400 !important;
-
-  &.rtl {
-    direction: rtl;
-  }
-
-  @include carbon--breakpoint('md') {
-    margin-top: -0.5rem;
-    margin-bottom: $spacing-03 !important;
-  }
-
-  @include carbon--breakpoint('lg') {
-    margin-top: -1.5rem;
-    margin-bottom: $spacing-03 !important;
-  }
-
   width: 100%;
   color: $carbon--gray-90;
   -webkit-text-fill-color: $carbon--gray-90; // Needs manual autoprefixing
-  line-height: 2em; // Fix weird font-cropping issue on Chrome
 
   &::selection {
     background: $carbon--purple-20;
   }
 
-  // safari wrong height fix
-  @include carbon--breakpoint-down('md') {
-    line-height: 1.5em;
-    margin-bottom: $spacing-05 !important;
-    padding-bottom: $spacing-05;
-  }
-
-  @media not all and (min-resolution: 0.001dpcm) {
-    line-height: 1.5em;
-    margin-bottom: $spacing-05 !important;
-    padding-bottom: $spacing-05;
-  }
-
-  @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
-    line-height: 100%;
+  &.rtl {
+    direction: rtl;
   }
 }
 
-.#{$prefix}--non-latin-type-example-devanagari {
-  margin-top: 0rem !important;
-  margin-bottom: $spacing-05;
-  padding-top: 0rem !important;
-  padding-bottom: 0;
-
-  @include carbon--breakpoint('md') {
-    padding-top: $spacing-05 !important;
-  }
-
-  @include carbon--breakpoint-down('md') {
-    margin-top: 0rem !important;
-    margin-bottom: $spacing-05;
-    line-height: 1.5em;
-    padding-bottom: 0;
-  }
-
-  @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
-    margin-top: 0rem !important;
-    margin-bottom: $spacing-05;
-    line-height: 1.5em;
-  }
-}
-
-.#{$prefix}--non-latin-type-example-thai {
-  padding-bottom: $spacing-05 !important;
-  margin-bottom: $spacing-05 !important;
-  line-height: 1.5em !important;
-  line-height: 2em !important;
-
-  // safari cuts thai fonts off, this is a workaround
-  @media not all and (min-resolution: 0.001dpcm) {
-    line-height: 1.5em !important;
-  }
-}
-
+.#{$prefix}--non-latin-type-example-devanagari,
 .#{$prefix}--non-latin-type-example-arabic {
-  margin-bottom: 0 !important;
-  padding-bottom: $spacing-07;
-  line-height: 3em;
-  height: 2em;
-
-  @include carbon--breakpoint('md') {
-    margin-top: $spacing-05;
-    padding-bottom: $spacing-09;
-    height: 1.5em;
-  }
-
-  // safari cuts thai fonts off, this is a workaround
-  @media not all and (min-resolution: 0.001dpcm) {
-    line-height: 1.5em;
-    height: 1.75em;
-  }
+  height: 100%;
 }
 
-.#{$prefix}--non-latin-type-example-cyrillic {
-  @media not all and (min-resolution: 0.001dpcm) {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+.#{$prefix}--non-latin-type-example-thai-looped {
+  height: 100%;
 }
 
 .#{$prefix}--non-latin-outer-spacing {
