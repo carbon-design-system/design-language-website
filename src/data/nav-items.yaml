@@ -10,16 +10,10 @@
       path: /elements/typeface
     - title: Type basics
       path: /elements/type-basics
-    - title: Type specs UI
-      path: /elements/type-specs-ui
     - title: Color
       path: /elements/color
-    - title: Color UI
-      path: /elements/color-ui
     - title: 2x Grid
       path: /elements/2x-grid
-    - title: 2x Grid UI
-      path: /elements/2x-grid-ui
     - title: Logos
       path: /elements/logos/8-bar
     - title: Icons
