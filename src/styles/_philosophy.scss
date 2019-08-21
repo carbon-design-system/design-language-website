@@ -9,6 +9,14 @@
   @include carbon--type-style('expressive-heading-03', true);
 }
 
+.hide-mobile {
+  display: none;
+
+  @include carbon--breakpoint('md') {
+    display: block;
+  }
+}
+
 //---------------------------------------
 // Principles page
 //---------------------------------------
