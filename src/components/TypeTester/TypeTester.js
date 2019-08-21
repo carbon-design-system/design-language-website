@@ -204,7 +204,7 @@ const languageDropdownContent = [
 
 export default class TypeTester extends Component {
   state = {
-    typeSizeMultiplier: window.innerWidth < breakpoints.md ? 470 : 840,
+    typeSizeMultiplier: null,
     label: 'IBM Plex Sans',
     variant: 'ibm-plex-sans',
     lastVariant: 'ibm-plex-sans',
@@ -212,6 +212,14 @@ export default class TypeTester extends Component {
     text: languageSample.find(el => el.language === 'latin').content,
     openDropdown: null,
   };
+
+  componentDidMount() {
+    if (typeof window !== 'undefined' && !this.state.typeSizeMultiplier) {
+      this.setState({
+        typeSizeMultiplier: window.innerWidth < breakpoints.md ? 470 : 840,
+      });
+    }
+  }
 
   onFontWeightDropdownChange = ({ selectedItem }) => {
     this.setState({
