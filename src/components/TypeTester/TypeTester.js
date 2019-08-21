@@ -6,6 +6,15 @@ import Dropdown from 'carbon-components-react/lib/components/Dropdown';
 import Slider from 'carbon-components-react/lib/components/Slider';
 import Textarea from 'react-textarea-autosize';
 import { settings } from 'carbon-components';
+import { baseFontSize, breakpoints as carbonBreakpoints } from '@carbon/layout';
+
+const breakpoints = {
+  sm: Number(carbonBreakpoints.sm.width.replace('rem', '')) * baseFontSize,
+  md: Number(carbonBreakpoints.md.width.replace('rem', '')) * baseFontSize,
+  lg: Number(carbonBreakpoints.lg.width.replace('rem', '')) * baseFontSize,
+  xlg: Number(carbonBreakpoints.xlg.width.replace('rem', '')) * baseFontSize,
+  max: Number(carbonBreakpoints.max.width.replace('rem', '')) * baseFontSize,
+};
 
 const { prefix } = settings;
 
@@ -195,7 +204,7 @@ const languageDropdownContent = [
 
 export default class TypeTester extends Component {
   state = {
-    typeSizeMultiplier: 840,
+    typeSizeMultiplier: null,
     label: 'IBM Plex Sans',
     variant: 'ibm-plex-sans',
     lastVariant: 'ibm-plex-sans',
@@ -203,6 +212,14 @@ export default class TypeTester extends Component {
     text: languageSample.find(el => el.language === 'latin').content,
     openDropdown: null,
   };
+
+  componentDidMount() {
+    if (typeof window !== 'undefined' && !this.state.typeSizeMultiplier) {
+      this.setState({
+        typeSizeMultiplier: window.innerWidth < breakpoints.md ? 470 : 840,
+      });
+    }
+  }
 
   onFontWeightDropdownChange = ({ selectedItem }) => {
     this.setState({
