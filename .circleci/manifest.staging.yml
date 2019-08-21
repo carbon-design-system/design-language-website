@@ -1,5 +1,5 @@
 ---
 applications:
-- name: design-language-staging-new
+- name: design-language-staging-alison
   memory: 64M
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
