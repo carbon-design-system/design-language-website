@@ -753,9 +753,15 @@ const isWithinBreakpoint = (viewportWidth, currentBreakpoint) => {
 class TypesetStyle extends React.Component {
   state = {
     simulatedScreenWidth: 1056,
+    typesetStyleYPos: 0,
   };
 
   componentDidMount() {
+    this.setState({
+      typesetStyleYPos: document
+        .querySelector(`.${prefix}--typeset-style-controls-sticky`)
+        .getBoundingClientRect().y,
+    });
     this.addScrollListener();
   }
 
@@ -788,7 +794,14 @@ class TypesetStyle extends React.Component {
 
   addScrollListener() {
     document.addEventListener('scroll', () => {
-      console.log(this.breakpointRef);
+      const currentYPos = document
+        .querySelector(`.${prefix}--typeset-style-controls-sticky`)
+        .getBoundingClientRect().y;
+      if (this.state.typesetStyleYPos !== currentYPos) {
+        this.setState({ typesetStyleYPos: currentYPos, stuck: false });
+      } else {
+        this.setState({ stuck: true });
+      }
     });
   }
 
@@ -796,8 +809,11 @@ class TypesetStyle extends React.Component {
     const { breakpointControls, typesets } = this.props;
 
     const typesetStyleStickyClassnames = classnames(
-      [`${prefix}--typeset-style-controls-sticky`],
-      [`${prefix}--row`]
+      `${prefix}--typeset-style-controls-sticky`,
+      `${prefix}--row`,
+      {
+        [`${prefix}--typeset-style-controls-sticky-stuck`]: this.state.stuck,
+      }
     );
 
     return (
