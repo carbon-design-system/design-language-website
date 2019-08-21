@@ -1,0 +1,8 @@
+---
+applications:
+- name: design-language-staging-new 
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+    command: null
+    disk_quota: 2048MB
+    instances: 1
+    memory: 500MB
