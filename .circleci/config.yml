@@ -37,7 +37,7 @@ jobs:
               ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
               ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
 
-              ibmcloud cf blue-green-deploy design-language-staging-new  \
+              ibmcloud cf blue-green-deploy design-language-staging-alison  \
                 -f .circleci/manifest.staging.yml \
                 --delete-old-apps
 
@@ -51,7 +51,7 @@ jobs:
               ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
               ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
 
-              ibmcloud cf blue-green-deploy design-language-staging-new  \
+              ibmcloud cf blue-green-deploy design-language-staging-alison  \
                 -f .circleci/manifest.staging.yml \
                 --delete-old-apps
             fi
