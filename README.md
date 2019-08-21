@@ -1,4 +1,4 @@
-# IBM Design Language website 🌍
+# IBM Design Language website
 
 This is the [IBM Design Langauge website](http://www.ibm.com/design/language) which is built using the [gatsby-theme-carbon](https://gatsby-theme-carbon.now.sh/) with GatsbyJS.
 
