@@ -41,7 +41,7 @@ export default HomepageTemplate;
     <HomepageTile
       ratio="1:1" 
       theme="dark"
-      subtitle="GitHub repo"
+      subtitle="GitHub Repo"
       title="Design & development"
       actionIcon="resources"
       identityIcon="images/GitHubIcon.svg"
@@ -143,15 +143,15 @@ export default HomepageTemplate;
       target="_blank"
     />
   </Column>
-  <Column colLg={8} noGutterLg>
+  <Column colLg={8} noGutterSm>
   <HomepageTile
     ratio="1:1"
     image="images/product-gallery.jpg"
     actionIcon="no-icon">
     <HomepageTile
-      ratio="4:1"
+      ratio={{ default: '2:1', md: '4:1', }}
       theme="dark"
-      subtitle="Photography"
+      subtitle="Gallery"
       title="IBM Services"
       actionIcon="article"
       link="https://www.ibm.com/design/language/gallery/"
@@ -161,10 +161,9 @@ export default HomepageTemplate;
   </Column>
 </Row>
 <Row>
-  <Column colLg={12} noGutterLg>
+  <Column colLg={12} noGutterSm>
     <HomepageTile
-      ratio="16:9"
-      image="images/landing-photography-gallery-2.jpg"
+      ratio={{ default: '1:2', md: '16:9' }}
       actionIcon="no-icon">
       <Carousel id="c1" count="1 2" nav={false} fade={true} autoplay>
         <img
@@ -177,7 +176,7 @@ export default HomepageTemplate;
         />
       </Carousel>
       <HomepageTile
-        ratio="6:1" 
+        ratio={{ default: '2:1', md: '4:1', lg: '6:1' }}
         theme="dark"
         subtitle="Elements"
         title="Photography"
@@ -189,19 +188,20 @@ export default HomepageTemplate;
   </Column>
 </Row>
 <Row className="homepage-tiles--end">
-  <Column colLg={8} noGutterLg>
-  <HomepageTile
-    ratio="1:1"
-    image="images/landing-gallery-watson-duo-phone.jpg"
-    actionIcon="no-icon">
+  <Column colLg={8} noGutterSm>
+    <HomepageTile
+      ratio={{ default: '1:2', md: '1:1' }}
+      image="images/landing-gallery-watson-duo-phone.jpg"
+      actionIcon="no-icon"
+    >
       <HomepageTile
-        ratio="4:1" 
+        ratio={{ default: '2:1', md: '4:1' }}
         theme="dark"
         subtitle="Case Study"
         title="Coming soon"
         actionIcon="disabled"
         disabled
-    />
+      />
     </HomepageTile>
   </Column>
   <Column colLg={4} colMd={4} noGutterSm>
