@@ -19,4 +19,39 @@ jobs:
       - run:
           name: Confirm project can build
           command: |
-            PATH=$HOME/.yarn/bin:$PATH yarn build
+            PATH=$HOME/.yarn/bin:$PATH yarn build:prefix
+      - deploy:
+          name: deploy website to IBM Cloud
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              # Install `ibmcloud` CLI
+              curl -fsSL https://clis.ng.bluemix.net/install/linux | sh
+
+              # Login and push to us
+              ibmcloud login \
+                --apikey $CLOUD_API_KEY \
+                -a https://api.ng.bluemix.net \
+                -o IBMDesignOrg \
+                -s idl
+
+              ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
+              ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
+
+              ibmcloud cf blue-green-deploy design-language-staging-alison  \
+                -f .circleci/manifest.staging.yml \
+                --delete-old-apps
+
+              # Login and push to germany
+              ibmcloud login \
+                --apikey $CLOUD_API_KEY \
+                -a https://api.eu-de.bluemix.net \
+                -o IBMDesignOrg \
+                -s idl
+
+              ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
+              ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
+
+              ibmcloud cf blue-green-deploy design-language-staging-alison  \
+                -f .circleci/manifest.staging.yml \
+                --delete-old-apps
+            fi
