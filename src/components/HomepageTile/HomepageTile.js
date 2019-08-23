@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useLayoutEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
-
 import { Launch20, ArrowRight24, Error20 } from '@carbon/icons-react';
+import { baseFontSize, breakpoints as carbonBreakpoints } from '@carbon/layout';
 
 const { prefix } = settings;
-
+const breakpoints = {
+  default: 0,
+  sm: Number(carbonBreakpoints.sm.width.replace('rem', '')) * baseFontSize,
+  md: Number(carbonBreakpoints.md.width.replace('rem', '')) * baseFontSize,
+  lg: Number(carbonBreakpoints.lg.width.replace('rem', '')) * baseFontSize,
+  xlg: Number(carbonBreakpoints.xlg.width.replace('rem', '')) * baseFontSize,
+  max: Number(carbonBreakpoints.max.width.replace('rem', '')) * baseFontSize,
+};
 const HomepageTile = ({
   disabled,
   ratio,
@@ -24,11 +31,39 @@ const HomepageTile = ({
   target,
   children,
 }) => {
+  const [width, setWidth] = useState(
+    typeof window !== 'undefined' && window.innerWidth
+  );
+  const [showTile, setShowTile] = useState(false);
+  const handleResize = () => setWidth(window.innerWidth);
+  useLayoutEffect(() => {
+    setWidth(typeof window !== 'undefined' && window.innerWidth);
+    if (!width) {
+      return;
+    }
+    setShowTile(true);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [width]);
+  const getBreakpoints = ({ viewportWidth, points }) =>
+    Object.entries(points).reduce(
+      (breakpointNames, [breakpointName, breakpointValue]) => {
+        if (viewportWidth > breakpointValue) {
+          return [...breakpointNames, breakpointName];
+        }
+        return breakpointNames;
+      },
+      ['default']
+    );
+  const validBreakpoints = getBreakpoints({
+    viewportWidth: width,
+    points: breakpoints,
+  });
+
   // const windowWidth = window.outerWidth;
   // remove/fix this - just testing
   const windowWidth = 1200;
-
-  const calcRatio = ratioString => {
+  const ratioReducer = ratioString => {
     switch (ratioString) {
       case '1:1':
         return '100%';
@@ -51,6 +86,17 @@ const HomepageTile = ({
       default:
         return '50%';
     }
+  };
+  const calcRatio = ratioInput => {
+    if (typeof ratioInput === 'object') {
+      // return largest valid breakpoint ratio provided in ratio object
+      const currentRatio = validBreakpoints.reduce(
+        (currentValidRatio, currentBreakpoint) =>
+          ratio[currentBreakpoint] || currentValidRatio
+      );
+      return ratioReducer(currentRatio);
+    }
+    return ratioReducer(ratioInput);
   };
 
   const getActionIcon = type => {
@@ -83,87 +129,89 @@ const HomepageTile = ({
   };
 
   return (
-    <>
-      {children ? (
-        <div
-          className={
-            theme === 'dark'
-              ? `${prefix}--homepage-idl-tile ${prefix}--homepage-idl-tile__dark`
-              : `${prefix}--homepage-idl-tile`
-          }
-          style={ratioStyle}
-          href={link}
-          target={target}>
-          <div
-            className={`${prefix}--homepage-idl-tile-background`}
-            style={backgroundStyle}
-          />
-          <div className={`${prefix}--homepage-idl-tile-nested-content`}>
-            {children}
-          </div>
-        </div>
-      ) : (
-        <a
-          className={
-            theme === 'dark'
-              ? `${prefix}--homepage-idl-tile ${prefix}--homepage-idl-tile__dark`
-              : `${prefix}--homepage-idl-tile`
-          }
-          style={ratioStyle}
-          href={link}
-          target={target}>
+    showTile && (
+      <>
+        {children ? (
           <div
             className={
-              hoverDark
-                ? `${prefix}--homepage-idl-tile-hover ${prefix}--homepage-idl-tile-hover__dark`
-                : `${prefix}--homepage-idl-tile-hover`
+              theme === 'dark'
+                ? `${prefix}--homepage-idl-tile ${prefix}--homepage-idl-tile__dark`
+                : `${prefix}--homepage-idl-tile`
             }
-          />
-          <div
-            className={`${prefix}--homepage-idl-tile-background`}
-            style={backgroundStyle}
-          />
-          <div
-            className={
-              contentOnHover
-                ? `${prefix}--homepage-idl-tile-content ${prefix}--homepage-idl-tile-content-on-hover-only`
-                : `${prefix}--homepage-idl-tile-content`
-            }
-            style={transparentImageStyle}>
+            style={ratioStyle}
+            href={link}
+            target={target}>
             <div
-              className={
-                disabled
-                  ? `${prefix}--homepage-idl-tile-title ${prefix}--homepage-idl-tile-title--disabled`
-                  : `${prefix}--homepage-idl-tile-title`
-              }>
-              <div className={`${prefix}--type-body-long-01`}>{subtitle}</div>
-              <div className={`${prefix}--type-expressive-heading-03`}>
-                {title}
-              </div>
+              className={`${prefix}--homepage-idl-tile-background`}
+              style={backgroundStyle}
+            />
+            <div className={`${prefix}--homepage-idl-tile-nested-content`}>
+              {children}
             </div>
-            {identityIcon ? (
-              <div className={`${prefix}--homepage-idl-tile-identity-icon`}>
-                <img src={identityIcon} alt="identity-icon" />
-              </div>
-            ) : null}
+          </div>
+        ) : (
+          <a
+            className={
+              theme === 'dark'
+                ? `${prefix}--homepage-idl-tile ${prefix}--homepage-idl-tile__dark`
+                : `${prefix}--homepage-idl-tile`
+            }
+            style={ratioStyle}
+            href={link}
+            target={target}>
             <div
               className={
-                disabled
-                  ? `${prefix}--homepage-idl-tile-action-icon ${prefix}--homepage-idl-tile-action-icon--disabled`
-                  : `${prefix}--homepage-idl-tile-action-icon`
+                hoverDark
+                  ? `${prefix}--homepage-idl-tile-hover ${prefix}--homepage-idl-tile-hover__dark`
+                  : `${prefix}--homepage-idl-tile-hover`
               }
-              style={{ fill: theme === 'dark' ? '#ffffff' : '#282828' }}>
-              {getActionIcon(actionIcon)}
+            />
+            <div
+              className={`${prefix}--homepage-idl-tile-background`}
+              style={backgroundStyle}
+            />
+            <div
+              className={
+                contentOnHover
+                  ? `${prefix}--homepage-idl-tile-content ${prefix}--homepage-idl-tile-content-on-hover-only`
+                  : `${prefix}--homepage-idl-tile-content`
+              }
+              style={transparentImageStyle}>
+              <div
+                className={
+                  disabled
+                    ? `${prefix}--homepage-idl-tile-title ${prefix}--homepage-idl-tile-title--disabled`
+                    : `${prefix}--homepage-idl-tile-title`
+                }>
+                <div className={`${prefix}--type-body-long-01`}>{subtitle}</div>
+                <div className={`${prefix}--type-expressive-heading-03`}>
+                  {title}
+                </div>
+              </div>
+              {identityIcon ? (
+                <div className={`${prefix}--homepage-idl-tile-identity-icon`}>
+                  <img src={identityIcon} alt="identity-icon" />
+                </div>
+              ) : null}
+              <div
+                className={
+                  disabled
+                    ? `${prefix}--homepage-idl-tile-action-icon ${prefix}--homepage-idl-tile-action-icon--disabled`
+                    : `${prefix}--homepage-idl-tile-action-icon`
+                }
+                style={{ fill: theme === 'dark' ? '#ffffff' : '#282828' }}>
+                {getActionIcon(actionIcon)}
+              </div>
             </div>
-          </div>
-        </a>
-      )}
-    </>
+          </a>
+        )}
+      </>
+    )
   );
 };
 
 HomepageTile.propTypes = {
-  ratio: PropTypes.string.isRequired,
+  ratio: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   theme: PropTypes.string,
   title: PropTypes.string,
   subtitle: PropTypes.string,
