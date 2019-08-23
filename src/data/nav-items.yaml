@@ -34,9 +34,3 @@
       path: /elements/photography/overview
     - title: Motion
       path: /elements/motion/basics
-- title: Disciplines
-  pages:
-    - title: Product
-      path: /disciplines/product
-    - title: Digital
-      path: /disciplines/digital
