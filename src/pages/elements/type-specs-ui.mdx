@@ -5,6 +5,7 @@ title: Type specs UI
 import { AnchorLinks, PageDescription, Video } from 'gatsby-theme-carbon';
 
 import TypesetStyle from '../../components/TypesetStyle';
+import TypeScaleTable from '../../components/TypeScaleTable';
 
 <PageDescription>
 
@@ -78,35 +79,7 @@ The IBM Plex™ family comes in sans, serif, condensed and monospaced versions t
 
 The IBM type scale is built on a single equation. The formula for our scale was created to provide hierarchy for all types of experiences. The formula assumes that y₀=12px:
 
-<Row>
-<Column colLg={8} noGutterSm>
-
-<div class="type-scale-table">
-
-| rem   | px      |
-| ----- | ------- |
-| 0.75  | Plex 12 |
-| 0.875 | Plex 14 |
-| 1     | Plex 16 |
-| 1.125 | Plex 18 |
-| 1.25  | Plex 20 |
-| 1.5   | Plex 24 |
-| 1.75  | Plex 28 |
-| 2     | Plex 32 |
-| 2.25  | Plex 36 |
-| 2.625 | Plex 42 |
-| 3     | Plex 48 |
-| 3.375 | Plex 54 |
-| 3.75  | Plex 60 |
-| 4.25  | Plex 68 |
-| 4.75  | Plex 76 |
-| 5.25  | Plex 84 |
-| 5.75  | Plex 92 |
-
-</div>
-
-</Column>
-</Row>
+<TypeScaleTable />
 
 ```
 Xn = Xn-1 + {INT[(n-2)/4] + 1} * 2
