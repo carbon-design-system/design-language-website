@@ -141,6 +141,7 @@ $font-prefix: '/fonts';
 
 .#{$prefix}--type-devanagari {
   font-family: 'IBM Plex Devanagari' !important;
+  margin-top: $spacing-05; // https://github.com/carbon-design-system/design-language-website/issues/222
 }
 
 .#{$prefix}--type-arabic {

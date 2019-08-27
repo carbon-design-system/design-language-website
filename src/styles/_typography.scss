@@ -25,7 +25,7 @@
 }
 
 //---------------------------------------
-// Type Scale Table
+// Type scale table
 //---------------------------------------
 $type-scale: 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem, 1.5rem, 1.75rem, 2rem,
   2.25rem, 2.625rem, 3rem, 3.375rem, 3.75rem, 4.25rem, 4.75rem, 5.25rem, 5.75rem;
@@ -33,7 +33,6 @@ $type-scale: 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem, 1.5rem, 1.75rem, 2rem,
 .type-scale-table {
   background: $ui-02;
   border-bottom: rem(1px) solid $ui-03;
-  padding-left: $spacing-05;
 
   table tbody tr {
     border: none;
@@ -50,7 +49,6 @@ $type-scale: 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem, 1.5rem, 1.75rem, 2rem,
   table tbody td {
     white-space: nowrap;
     border: none;
-    padding: 0;
     padding-bottom: auto;
     color: $text-01;
     vertical-align: top;
