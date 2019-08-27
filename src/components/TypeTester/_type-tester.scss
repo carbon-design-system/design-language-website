@@ -77,8 +77,9 @@ $font-prefix: '/fonts';
         padding-top: $spacing-05;
         padding-bottom: rem(15px);
         border-bottom: 1px solid $carbon--gray-20;
-        &:focus {
-          outline-color: transparent;
+
+        &:hover {
+          background: $hover-ui;
         }
 
         .#{$prefix}--list-box__label {
