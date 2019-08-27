@@ -2,8 +2,7 @@
 /* eslint-disable react/no-access-state-in-setstate */
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import Dropdown from 'carbon-components-react/lib/components/Dropdown';
-import Slider from 'carbon-components-react/lib/components/Slider';
+import { Dropdown, Slider } from 'carbon-components-react';
 import Textarea from 'react-textarea-autosize';
 import { settings } from 'carbon-components';
 import { baseFontSize, breakpoints as carbonBreakpoints } from '@carbon/layout';
@@ -308,6 +307,7 @@ export default class TypeTester extends Component {
         <div className={`${prefix}--type-tester-menu`}>
           <div className="dropdown_wrapper">
             <Dropdown
+              light
               id={`${prefix}--type-tester-language-dropdown`}
               items={languageDropdownContent}
               label={this.state.label}
@@ -320,6 +320,7 @@ export default class TypeTester extends Component {
               open={this.state.openDropdown === 'language-dropdown'}
             />
             <Dropdown
+              light
               id={`${prefix}--type-tester-weight-dropdown`}
               items={this.getWeightsForLanguage()}
               label={this.getLanguageForWeight(this.state.fontWeight)}
