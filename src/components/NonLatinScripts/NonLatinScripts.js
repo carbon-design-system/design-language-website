@@ -36,11 +36,7 @@ const NonLatinScripts = () => (
       className={`${prefix}--type-devanagari`}
       value="संज्ञानात्मक"
     />
-    <NonLatinScript
-      className={`${prefix}--type-greek`}
-      typefaceName="IBM Plex Sans Greek"
-      value="νομίζω"
-    />
+    <NonLatinScript typefaceName="IBM Plex Sans Greek" value="νομίζω" />
     <NonLatinScript
       typefaceName="IBM Plex Sans Hebrew"
       className={`${prefix}--type-hebrew`}

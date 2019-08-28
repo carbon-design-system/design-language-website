@@ -4,6 +4,8 @@ $font-prefix: '/fonts';
 @import '@ibm/plex/scss/sans-hebrew/_index.scss';
 @import '@ibm/plex/scss/arabic/_index.scss';
 @import '@ibm/plex/scss/sans-thai-looped/_index.scss';
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap&subset=cyrillic,cyrillic-ext,greek,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
 
 .#{$prefix}--non-latin-coming-soon-sticker {
   margin-bottom: 0;
@@ -92,6 +94,7 @@ $font-prefix: '/fonts';
   width: 100%;
   color: $carbon--gray-90;
   -webkit-text-fill-color: $carbon--gray-90; // Needs manual autoprefixing
+  font-family: 'IBM Plex Sans', sans-serif;
 
   &::selection {
     background: $carbon--purple-20;
@@ -146,18 +149,4 @@ $font-prefix: '/fonts';
 
 .#{$prefix}--type-arabic {
   font-family: 'IBM Plex Arabic' !important;
-}
-
-.#{$prefix}--type-greek {
-  font-family: 'IBM Plex Sans Greek' !important;
-}
-
-// work around to support greek fonts
-@font-face {
-  font-family: 'IBM Plex Sans Greek';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/ibmplexsans/v5/zYXgKVElMYYaJe8bpLHnCwDKhdLeFaxOedfTDw.woff2)
-    format('woff2');
-  unicode-range: U+0370-03FF;
 }
