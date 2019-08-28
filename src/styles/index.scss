@@ -23,6 +23,13 @@
 // grid temp - should be added to grid package or theme
 @import 'grid-temp';
 
+// Temporary fix for ordered lists with up to 99 numbers
+// https://github.com/carbon-design-system/carbon/issues/3133
+ol .bx--list__item {
+  padding-left: $spacing-05; //adds .5rem extra padding
+  margin-left: -$spacing-03; //moves list to the left .5rem so text alignment stays the same
+}
+
 //---------------------------------------
 // IDL components
 //---------------------------------------
