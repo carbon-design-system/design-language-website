@@ -1,12 +1,3 @@
-$font-prefix: '/fonts';
-@import '@ibm/plex/scss/devanagari/_index.scss';
-@import '@ibm/plex/scss/thai/_index.scss';
-@import '@ibm/plex/scss/sans-hebrew/_index.scss';
-@import '@ibm/plex/scss/arabic/_index.scss';
-@import '@ibm/plex/scss/sans-thai-looped/_index.scss';
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap&subset=cyrillic,cyrillic-ext,greek,latin-ext');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
-
 .#{$prefix}--non-latin-coming-soon-sticker {
   margin-bottom: 0;
   padding: $spacing-07;

@@ -1,16 +1,3 @@
-$font-prefix: '/fonts';
-@import '@ibm/plex/scss/devanagari/_index.scss';
-@import '@ibm/plex/scss/thai/_index.scss';
-@import '@ibm/plex/scss/sans-hebrew/_index.scss';
-@import '@ibm/plex/scss/arabic/_index.scss';
-@import '@ibm/plex/scss/sans-thai-looped/_index.scss';
-
-//text variants
-@import '@ibm/plex/scss/sans/_index.scss';
-@import '@ibm/plex/scss/sans-condensed/_index.scss';
-@import '@ibm/plex/scss/serif/_index.scss';
-@import '@ibm/plex/scss/mono/_index.scss';
-
 .#{$prefix}--type-hebrew {
   font-family: 'IBM Plex Sans Hebrew';
 }
