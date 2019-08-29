@@ -181,7 +181,7 @@ const languageDropdownContent = [
   {
     label: 'IBM Plex Sans Thai Looped',
     language: 'thai',
-    className: [`${prefix}--type-thai`],
+    className: [`${prefix}--type-thai-looped`],
     weights: commonFontWeights,
   },
   {
