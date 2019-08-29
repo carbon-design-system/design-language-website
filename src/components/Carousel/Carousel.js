@@ -40,7 +40,7 @@ export default class Carousel extends React.Component {
 
     this.state = {
       checkedRadio: 1,
-      autoplay: !!this.props.autoplay,
+      autoplay: !!this.props.autoPlay,
       items: numArr,
     };
   }
@@ -54,7 +54,6 @@ export default class Carousel extends React.Component {
       slide.addEventListener('touchmove', this.touchMove, false);
       slide.addEventListener('mousedown', this.mouseStart);
       slide.addEventListener('mousemove', this.mouseMove);
-
       if (this.state.autoplay) AP_ID = setInterval(this.nextSlide, 6000);
     }
   }
