@@ -1,7 +1,7 @@
 name: Deploy website to IBM Cloud
 
 on: 
-  push:
+  pull_request:
     branches:
     - master
 
