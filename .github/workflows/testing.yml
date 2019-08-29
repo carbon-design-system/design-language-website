@@ -1,4 +1,4 @@
-name: Deploy website to IBM Cloud
+name: Testing login
 
 on: 
   pull_request:
