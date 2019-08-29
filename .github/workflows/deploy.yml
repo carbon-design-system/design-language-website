@@ -1,7 +1,7 @@
 name: Deploy IDL website to US IBM Cloud
 
 on: 
-  pull_request:
+  push:
     branches:
     - master
 
