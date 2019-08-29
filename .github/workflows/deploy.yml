@@ -1,4 +1,4 @@
-name: Deploy website to IBM Cloud
+name: Deploy IDL website to US IBM Cloud
 
 on: 
   push:
@@ -34,15 +34,3 @@ jobs:
     - name: Deploy website
       run: |
         ibmcloud cf blue-green-deploy design-language-new -f manifest.production.yml --delete-old-apps
-   - name: Login to ibmcloud
-      env:
-        API_KEY: ${{ secrets.API_KEY }}
-      run: ibmcloud login -a "https://api.eu-de.bluemix.net" -u apikey -p "$API_KEY" -o "IBMDesignOrg" -s "idl"
-    - name: Install ibmcloud plugins
-      run: |
-        ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
-        ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
-    - name: Deploy website
-      run: |
-        ibmcloud cf blue-green-deploy design-language-new -f manifest.production.yml --delete-old-apps
-
