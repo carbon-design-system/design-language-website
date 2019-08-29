@@ -19,7 +19,7 @@ jobs:
     - name: Install and build
       run: |
         yarn install
-        yarn build
+        yarn build:prefix
     - name: Install ibmcloud cli
       run: |
         curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
