@@ -22,7 +22,8 @@
     "ci-check": "yarn format:diff",
     "format": "prettier --write \"**/*.{scss,css,js,md}\"",
     "format:staged": "prettier --write",
-    "format:diff": "prettier --list-different \"**/*.{scss,css,js,md}\""
+    "format:diff": "prettier --list-different \"**/*.{scss,css,js,md}\"",
+    "test:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths"
   },
   "dependencies": {
     "@carbon/elements": "^10.5.1",
@@ -32,7 +33,7 @@
     "carbon-components-react": "^7.5.1",
     "gatsby": "^2.13.64",
     "gatsby-plugin-manifest": "^2.2.5",
-    "gatsby-theme-carbon": "^1.11.5",
+    "gatsby-theme-carbon": "^1.11.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-textarea-autosize": "^7.1.0"

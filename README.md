@@ -31,7 +31,7 @@ If you need more detailed information on how to setup your machine to develop lo
 
 ## 🚀 Build
 
-Runing the build commands generates all the files and places them in the `public` folder.
+Running the build commands generates all the files and places them in the `public` folder.
 
 ```
 yarn build
