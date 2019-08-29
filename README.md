@@ -36,4 +36,3 @@ Runing the build commands generates all the files and places them in the `public
 ```
 yarn build
 ```
-```
