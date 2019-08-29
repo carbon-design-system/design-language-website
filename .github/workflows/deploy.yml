@@ -1,7 +1,7 @@
-name: Deploy website to IBM Cloud
+name: Deploy IDL website to Cloud
 
 on: 
-  push:
+  pull_request:
     branches:
     - master
 
