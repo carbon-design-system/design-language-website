@@ -29,7 +29,7 @@ jobs:
 
               # Login and push to us
               ibmcloud login \
-                --apikey $CLOUD_API_KEY \
+                --apikey $API_KEY_IDL \
                 -a https://api.ng.bluemix.net \
                 -o IBMDesignOrg \
                 -s idl
@@ -37,13 +37,13 @@ jobs:
               ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
               ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
 
-              ibmcloud cf blue-green-deploy design-language-new  \
+              ibmcloud cf blue-green-deploy design-language-website-carbon  \
                 -f .circleci/manifest.production.yml \
                 --delete-old-apps
 
               # Login and push to germany
               ibmcloud login \
-                --apikey $CLOUD_API_KEY \
+                --apikey $API_KEY_IDL \
                 -a https://api.eu-de.bluemix.net \
                 -o IBMDesignOrg \
                 -s idl
@@ -51,7 +51,7 @@ jobs:
               ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
               ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
 
-              ibmcloud cf blue-green-deploy design-language-new  \
+              ibmcloud cf blue-green-deploy design-language-website-carbon  \
                 -f .circleci/manifest.production.yml \
                 --delete-old-apps
             fi

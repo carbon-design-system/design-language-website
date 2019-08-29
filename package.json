@@ -33,7 +33,13 @@
     "carbon-components-react": "^7.5.1",
     "gatsby": "^2.13.64",
     "gatsby-plugin-manifest": "^2.2.5",
+<<<<<<< HEAD
     "gatsby-theme-carbon": "^1.11.6",
+||||||| merged common ancestors
+    "gatsby-theme-carbon": "^1.11.4",
+=======
+    "gatsby-theme-carbon": "^1.11.5",
+>>>>>>> 02dc81ec2540e0bdc69e83f7289352552a90948a
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-textarea-autosize": "^7.1.0"
