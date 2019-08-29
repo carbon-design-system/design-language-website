@@ -1,4 +1,4 @@
-name: Deploy IDL website to US IBM Cloud
+name: Deploy IDL website to Germany IBM Cloud
 
 on: 
   push:
