@@ -34,6 +34,7 @@
     "gatsby": "^2.13.64",
     "gatsby-plugin-manifest": "^2.2.5",
     "gatsby-theme-carbon": "^1.11.6",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-textarea-autosize": "^7.1.0"
