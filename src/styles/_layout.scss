@@ -1,0 +1,28 @@
+//---------------------------------------
+// Layout & composition page
+//---------------------------------------
+
+.example-section {
+  padding-top: $spacing-09;
+}
+
+.example-section:before {
+  content: '';
+  display: block;
+  background: $ui-04;
+  height: 1px;
+  width: calc(100% - 2rem);
+  margin: -$spacing-07 0 0 $spacing-05;
+}
+
+.example-section h2 {
+  margin-top: 0;
+}
+
+.bx--aspect-ratio--image {
+  background: $carbon--white-0;
+}
+
+.bx--aspect-ratio--image .gatsby-resp-image-wrapper {
+  margin: 1rem !important;
+}

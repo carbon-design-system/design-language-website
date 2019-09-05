@@ -20,6 +20,8 @@
       path: /elements/2x-grid
     - title: 2x Grid UI
       path: /elements/2x-grid-ui
+    - title: Layout & composition
+      path: /elements/layout-composition/layout-composition
     - title: Logos
       path: /elements/logos/8-bar
     - title: Icons
