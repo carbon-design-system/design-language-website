@@ -4,6 +4,9 @@
   "private": true,
   "version": "0.0.0",
   "main": "src",
+  "engines": {
+    "node": "^8.16.0"
+  },
   "repository": {
     "url": "git@github.com:carbon-design-system/design-language-website.git",
     "type": "git"
