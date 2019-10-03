@@ -3,7 +3,7 @@
 //---------------------------------------
 
 .example-section {
-  padding-top: $spacing-09;
+  padding-top: $layout-06;
 }
 
 .example-section:before {
@@ -15,8 +15,18 @@
   margin: -$spacing-07 0 0 $spacing-05;
 }
 
-.example-section h2 {
+.example-section h3 {
   margin-top: 0;
+}
+
+.example-aside {
+  margin-top: $spacing-04;
+}
+
+.example-aside:before {
+  height: 1px;
+  width: $spacing-07;
+  margin: 0 0 $spacing-05 $spacing-05;
 }
 
 .bx--aspect-ratio--image {
