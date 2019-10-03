@@ -16,16 +16,18 @@
       path: /elements/color
     - title: 2x Grid
       path: /elements/2x-grid
+    - title: Layout & composition
+      path: /elements/layout-composition/overview
     - title: Logos
       path: /elements/logos/8-bar
     - title: Icons
-      path: /elements/icons/design
+      path: /elements/icons/overview
     - title: Icon library
       path: /elements/icon-library
     - title: App icons
       path: /elements/app-icons/design
     - title: Pictograms
-      path: /elements/pictograms/design
+      path: /elements/pictograms/overview
     - title: Photography
       path: /elements/photography/overview
     - title: Motion
