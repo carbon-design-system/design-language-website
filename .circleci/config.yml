@@ -2,24 +2,19 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:dubnium
+      - image: circleci/node:10
     working_directory: ~/repo
     steps:
       - checkout
       - run:
-          name: Install yarn
-          command: |
-            curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.15.2
-      - run:
           name: Install dependencies
-          command: PATH=$HOME/.yarn/bin:$PATH yarn install
+          command: yarn install
       - run:
           name: Run Continuous Integration checks
-          command: PATH=$HOME/.yarn/bin:$PATH yarn ci-check
+          command: yarn ci-check
       - run:
           name: Confirm project can build
-          command: |
-            PATH=$HOME/.yarn/bin:$PATH yarn build:prefix
+          command: yarn build:prefix
       - deploy:
           name: deploy website to IBM Cloud
           command: |
