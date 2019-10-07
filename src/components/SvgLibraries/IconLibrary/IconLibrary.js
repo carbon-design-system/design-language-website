@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 /* eslint-disable no-debugger */
 import React, { useEffect, useState } from 'react';
 import { Search, Dropdown } from 'carbon-components-react';
@@ -5,10 +6,14 @@ import { pickBy, groupBy, debounce } from 'lodash';
 import * as iconsReact from '@carbon/icons-react';
 
 import iconMetaData from './iconMetaData';
-import { iconPage, filterRow, iconLibrary } from './IconLibrary.module.scss';
+import {
+  svgPage,
+  filterRow,
+  svgLibrary,
+} from '../shared/SvgLibrary.module.scss';
 
 import IconCategory from './IconCategory';
-import NoResult from './NoResult';
+import NoResult from '../shared/NoResult';
 
 const IconLibrary = () => {
   const [iconComponents, setIconComponents] = useState([]);
@@ -71,26 +76,26 @@ const IconLibrary = () => {
 
   const filteredIcons = getFilteredIcons();
 
-  const categories = Object.entries(
+  const categoriesList = Object.entries(
     groupBy(filteredIcons, 'categories[0].name')
   );
 
   const filteredCategories =
     selectedCategory === 'All icons'
-      ? categories
-      : categories.filter(([category]) => category === selectedCategory);
+      ? categoriesList
+      : categoriesList.filter(([category]) => category === selectedCategory);
 
   const shouldShowNoResult = categoriesLoaded && filteredCategories.length < 1;
 
   return (
-    <div className={iconPage}>
+    <div className={svgPage}>
       <div className={filterRow}>
         <Search
           small
           light
           labelText="filter icons by searching for their name or subcategory"
           onChange={e => debouncedSetSearchInputValue(e.currentTarget.value)}
-          placeHolderText={`Search by descriptors like “add”, or “check”`}
+          placeHolderText="Search by descriptors like “add”, or “check”"
         />
         <Dropdown
           id="category-filter"
@@ -109,7 +114,7 @@ const IconLibrary = () => {
           allIconResults={filteredIcons.length}
         />
       ) : (
-        <div className={iconLibrary}>
+        <div className={svgLibrary}>
           {filteredCategories.map(([category, icons]) => (
             <IconCategory key={category} category={category} icons={icons} />
           ))}
