@@ -16,6 +16,8 @@
       path: /elements/color
     - title: 2x Grid
       path: /elements/2x-grid
+    - title: Layout & composition
+      path: /elements/layout-composition/overview
     - title: Logos
       path: /elements/logos/8-bar
     - title: Icons
