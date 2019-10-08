@@ -15,6 +15,14 @@
   margin: -$spacing-07 0 0 $spacing-05;
 }
 
+.hide-mobile {
+  display: none;
+
+  @include carbon--breakpoint('md') {
+    display: block;
+  }
+}
+
 .example-section h3 {
   margin-top: 0;
 }
