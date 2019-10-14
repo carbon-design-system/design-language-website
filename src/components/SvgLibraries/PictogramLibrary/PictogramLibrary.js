@@ -4,6 +4,8 @@ import { Search, Dropdown } from 'carbon-components-react';
 import { groupBy, debounce } from 'lodash';
 import * as pictogramsReact from '@carbon/pictograms-react';
 
+import useSticky from '../../../lib/useSticky';
+
 import pictogramMetaData from './pictogramMetaData';
 import {
   svgPage,
@@ -15,6 +17,7 @@ import PictogramCategory from './PictogramCategory';
 import NoResult from '../shared/NoResult';
 
 const IconLibrary = () => {
+  const [filterRowRef, isSticky] = useSticky();
   const [pictogramComponents, setPictogramComponents] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('All pictograms');
   const [searchInputValue, setSearchInputValue] = useState('');
@@ -76,13 +79,16 @@ const IconLibrary = () => {
 
   return (
     <div className={svgPage}>
-      <div className={filterRow}>
+      <div
+        data-stuck={isSticky || undefined}
+        ref={filterRowRef}
+        className={filterRow}>
         <Search
           small
           light
           labelText="filter pictograms by searching for their name or subcategory"
           onChange={e => debouncedSetSearchInputValue(e.currentTarget.value)}
-          placeHolderText={`Search by descriptors like “electronics”, or “weather”`}
+          placeHolderText="Search by descriptors like “electronics”, or “weather”"
         />
         <Dropdown
           id="category-filter"

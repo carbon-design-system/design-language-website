@@ -5,6 +5,8 @@ import { Search, Dropdown } from 'carbon-components-react';
 import { pickBy, groupBy, debounce } from 'lodash';
 import * as iconsReact from '@carbon/icons-react';
 
+import useSticky from '../../../lib/useSticky';
+
 import iconMetaData from './iconMetaData';
 import {
   svgPage,
@@ -16,6 +18,7 @@ import IconCategory from './IconCategory';
 import NoResult from '../shared/NoResult';
 
 const IconLibrary = () => {
+  const [filterRowRef, isSticky] = useSticky();
   const [iconComponents, setIconComponents] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('All icons');
   const [searchInputValue, setSearchInputValue] = useState('');
@@ -89,7 +92,10 @@ const IconLibrary = () => {
 
   return (
     <div className={svgPage}>
-      <div className={filterRow}>
+      <div
+        data-stuck={isSticky || undefined}
+        ref={filterRowRef}
+        className={filterRow}>
         <Search
           small
           light

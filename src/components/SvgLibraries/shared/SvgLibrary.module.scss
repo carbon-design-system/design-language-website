@@ -14,10 +14,15 @@
   z-index: z('dropdown');
   top: 3rem;
   border-bottom: 1px solid $ui-03;
+  transition: box-shadow $duration--fast-02 ease;
   @include carbon--breakpoint('md') {
     align-items: flex-end;
     flex-direction: row;
   }
+}
+
+.filter-row[data-stuck] {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .filter-row :global(.bx--search) {
