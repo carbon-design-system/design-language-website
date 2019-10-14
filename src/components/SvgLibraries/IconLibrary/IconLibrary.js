@@ -1,24 +1,17 @@
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-debugger */
 import React, { useEffect, useState } from 'react';
-import { Search, Dropdown } from 'carbon-components-react';
 import { pickBy, groupBy, debounce } from 'lodash';
 import * as iconsReact from '@carbon/icons-react';
 
-import useSticky from '../../../lib/useSticky';
-
 import iconMetaData from './iconMetaData';
-import {
-  svgPage,
-  filterRow,
-  svgLibrary,
-} from '../shared/SvgLibrary.module.scss';
+import { svgPage, svgLibrary } from '../shared/SvgLibrary.module.scss';
 
+import FilterRow from '../shared/FilterRow';
 import IconCategory from './IconCategory';
 import NoResult from '../shared/NoResult';
 
 const IconLibrary = () => {
-  const [filterRowRef, isSticky] = useSticky();
   const [iconComponents, setIconComponents] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('All icons');
   const [searchInputValue, setSearchInputValue] = useState('');
@@ -79,40 +72,29 @@ const IconLibrary = () => {
 
   const filteredIcons = getFilteredIcons();
 
-  const categoriesList = Object.entries(
+  const allCategories = Object.entries(
     groupBy(filteredIcons, 'categories[0].name')
   );
 
   const filteredCategories =
     selectedCategory === 'All icons'
-      ? categoriesList
-      : categoriesList.filter(([category]) => category === selectedCategory);
+      ? allCategories
+      : allCategories.filter(([category]) => category === selectedCategory);
 
   const shouldShowNoResult = categoriesLoaded && filteredCategories.length < 1;
 
   return (
     <div className={svgPage}>
-      <div
-        data-stuck={isSticky || undefined}
-        ref={filterRowRef}
-        className={filterRow}>
-        <Search
-          small
-          light
-          labelText="filter icons by searching for their name or subcategory"
-          onChange={e => debouncedSetSearchInputValue(e.currentTarget.value)}
-          placeHolderText="Search by descriptors like “add”, or “check”"
-        />
-        <Dropdown
-          id="category-filter"
-          direction="bottom"
-          light
-          selectedItem={selectedCategory}
-          onChange={({ selectedItem }) => setSelectedCategory(selectedItem)}
-          label="Filter icons by category"
-          items={['All icons', ...categoryList]}
-        />
-      </div>
+      <FilterRow
+        categoryList={categoryList}
+        selectedCategory={selectedCategory}
+        onSearchChange={e =>
+          debouncedSetSearchInputValue(e.currentTarget.value)
+        }
+        onDropdownChange={({ selectedItem }) =>
+          setSelectedCategory(selectedItem)
+        }
+      />
       {shouldShowNoResult ? (
         <NoResult
           selectedCategory={selectedCategory}
