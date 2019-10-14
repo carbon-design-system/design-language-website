@@ -1,7 +1,7 @@
 import { Search, Dropdown } from 'carbon-components-react';
-
+import cx from 'classnames';
 import useSticky from '../../../lib/useSticky';
-import { filterRow } from './SvgLibrary.module.scss';
+import { filterRow, pictograms } from './SvgLibrary.module.scss';
 
 const FilterRow = ({
   onSearchChange,
@@ -19,9 +19,10 @@ const FilterRow = ({
     <div
       data-stuck={isSticky || undefined}
       ref={filterRowRef}
-      className={filterRow}>
+      className={cx(filterRow, {
+        [pictograms]: type !== 'icon',
+      })}>
       <Search
-        small
         light
         labelText={`filter ${type}s by searching for their name or category`}
         onChange={onSearchChange}
@@ -34,7 +35,7 @@ const FilterRow = ({
         selectedItem={selectedCategory}
         onChange={onDropdownChange}
         label={`Filter ${type}s by category`}
-        items={[`All ${type}`, ...categoryList]}
+        items={[`All ${type}s`, ...categoryList]}
       />
     </div>
   );

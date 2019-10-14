@@ -12,7 +12,7 @@
   align-items: center;
   position: sticky;
   z-index: z('dropdown');
-  top: 3rem;
+  top: 4rem;
   border-bottom: 1px solid $ui-03;
   transition: box-shadow $duration--fast-02 ease;
   @include carbon--breakpoint('md') {
@@ -27,9 +27,32 @@
 
 .filter-row :global(.bx--search) {
   @include carbon--breakpoint('md') {
-    width: calc(50% + 1px);
+    width: calc(75% + 1px);
     border-right: 1px solid $ui-03;
   }
+  @include carbon--breakpoint('lg') {
+    width: calc(66.666% + 1px);
+    border-right: 1px solid $ui-03;
+  }
+}
+
+.filter-row.pictograms :global(.bx--search) {
+  @include carbon--breakpoint('md') {
+    width: calc(50% + 1px);
+  }
+  @include carbon--breakpoint('lg') {
+    width: calc(75% + 1px);
+  }
+}
+
+.filter-row::before {
+  content: '';
+  position: absolute;
+  z-index: z('dropdown');
+  height: 1rem;
+  width: 100%;
+  top: -1rem;
+  background: #f3f3f3;
 }
 
 .filter-row :global(.bx--search-input) {
@@ -45,18 +68,10 @@
   z-index: 5000;
 }
 
-.filter-row :global(.bx--search .bx--search-input) {
-  height: 40px;
-}
-
-.filter-row :global(.bx--search .bx--search-close) {
-  height: 40px;
-  width: 40px;
-}
-
 .filter-row :global(.bx--dropdown__wrapper) {
   flex-grow: 1;
   width: 100%;
+  height: 48px;
   @include carbon--breakpoint('md') {
     width: auto;
   }
@@ -64,7 +79,19 @@
 
 .filter-row :global(.bx--dropdown) {
   // handled by filter-row
+  height: 48px;
+  max-height: 48px;
   border-bottom: none;
+}
+
+.filter-row :global(.bx--list-box__field) {
+  height: 100%;
+}
+
+.filter-row :global(.bx--list-box__label) {
+  @include carbon--type-style('body-short-02');
+  position: relative;
+  top: 1px;
 }
 
 .svg-library {
