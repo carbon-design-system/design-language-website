@@ -10,18 +10,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 $spacing-05;
+  position: sticky;
+  z-index: z('dropdown');
+  top: 3rem;
+  border-bottom: 1px solid $ui-03;
   @include carbon--breakpoint('md') {
     align-items: flex-end;
-    padding: 0;
     flex-direction: row;
   }
 }
 
 .filter-row :global(.bx--search) {
   @include carbon--breakpoint('md') {
-    width: 60%;
-    margin-right: $spacing-11;
+    width: calc(50% + 1px);
+    border-right: 1px solid $ui-03;
+  }
+}
+
+.filter-row :global(.bx--search-input) {
+  border-bottom: 1px solid $ui-03;
+  @include carbon--breakpoint('md') {
+    border-bottom: none;
   }
 }
 
@@ -43,11 +52,14 @@
 .filter-row :global(.bx--dropdown__wrapper) {
   flex-grow: 1;
   width: 100%;
-  margin-top: $spacing-05;
   @include carbon--breakpoint('md') {
-    margin-top: 0;
     width: auto;
   }
+}
+
+.filter-row :global(.bx--dropdown) {
+  // handled by filter-row
+  border-bottom: none;
 }
 
 .svg-library {
@@ -166,23 +178,21 @@ $svg-card-border: 1px solid $ui-03;
   border-left: $svg-card-border;
   border-top: $svg-card-border;
 
-  .pictograms .svg-card {
-    // reset 2 column borders
-    &:nth-child(-n + 2) {
-      border-top: $svg-card-border;
-    }
-    &:nth-child(odd) {
-      border-left: $svg-card-border;
-    }
+  // reset 2 column borders
+  &:nth-child(-n + 2) {
+    border-top: $svg-card-border;
+  }
+  &:nth-child(odd) {
+    border-left: $svg-card-border;
+  }
 
-    // first row of 4
-    &:nth-child(-n + 2) {
-      border-top: none;
-    }
-    // every 2nd card (starting with 4th)
-    &:nth-child(2n + 1) {
-      border-left: none;
-    }
+  // first row of 4
+  &:nth-child(-n + 2) {
+    border-top: none;
+  }
+  // every 2nd card (starting with 4th)
+  &:nth-child(2n + 1) {
+    border-left: none;
   }
 }
 
