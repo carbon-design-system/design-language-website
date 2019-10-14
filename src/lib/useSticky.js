@@ -7,11 +7,11 @@ import { useEffect, useRef, useState } from 'react';
 const useSticky = () => {
   const stickyRef = useRef(null);
   const [sticky, setSticky] = useState(false);
-  const eventsToBind = [
+  const eventsToBind = typeof window !== 'undefined' ? [
     [document, 'scroll'],
     [window, 'resize'],
     [window, 'orientationchange']
-  ];
+  ] : [];
 
   useEffect(() => {
     // Observe when ref enters or leaves sticky state
