@@ -23,6 +23,7 @@
     "build:prefix": "yarn timestamp && gatsby build --prefix-paths && yarn move-public",
     "move-public": "mv public language && mkdir public && mkdir public/design && cp -R language public/design && rm -rf language",
     "serve": "gatsby serve",
+    "serve:prefix": "gatsby serve --prefix-paths",
     "ci-check": "yarn format:diff",
     "format": "prettier --write \"**/*.{scss,css,js,md}\"",
     "format:staged": "prettier --write",
