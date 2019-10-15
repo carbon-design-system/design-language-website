@@ -27,7 +27,7 @@
 
 .filter-row :global(.bx--search) {
   @include carbon--breakpoint('md') {
-    width: calc(75% + 1px);
+    width: calc(50% + 1px);
     border-right: 1px solid $ui-03;
   }
   @include carbon--breakpoint('lg') {
@@ -37,9 +37,6 @@
 }
 
 .filter-row.pictograms :global(.bx--search) {
-  @include carbon--breakpoint('md') {
-    width: calc(50% + 1px);
-  }
   @include carbon--breakpoint('lg') {
     width: calc(75% + 1px);
   }
@@ -65,7 +62,20 @@
 .filter-row :global(.bx--list-box__menu) {
   background-color: $ui-background;
   max-height: 220px; // 4.5 x result height to demonstrate scrollability
-  z-index: 5000;
+  z-index: z('dropdown');
+}
+
+// menu item height
+.filter-row :global(.bx--list-box__menu-item) {
+  height: auto;
+}
+
+.filter-row :global(.bx--list-box__menu-item__option) {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  @include carbon--type-style('body-short-02');
+  padding: 0;
 }
 
 .filter-row :global(.bx--dropdown__wrapper) {
