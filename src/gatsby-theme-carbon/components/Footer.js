@@ -41,11 +41,10 @@ const links = {
       href: 'https://www.ibm.com/legal/us/en/?lnk=flg-tous-usen',
       linkText: 'Terms of Use',
     },
-    { href: 'https://ibm.com/design', linkText: 'IBM.com' },
   ],
   secondCol: [
+    { href: 'https://ibm.com/design', linkText: 'IBM.com' },
     { href: 'https://twitter.com/ibmdesign', linkText: 'Twitter' },
-    { href: 'https://facebook.com/ibmdesign', linkText: 'Facebook' },
   ],
 };
 
