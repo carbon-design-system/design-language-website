@@ -32,3 +32,9 @@
       path: /elements/photography/overview
     - title: Motion
       path: /elements/motion/basics
+- title: Updates
+  pages:
+    - title: Whats new
+      path: /updates/whats-new
+    - title: Roadmap
+      path: /updates/road-map
