@@ -90,103 +90,29 @@ Stroke app icons feature both color and alpha channel gradients. This technique 
   src="/videos/3_2-3_MakingAnIcon_Stroke_Step6.mp4"
 />
 
-## Exporting for product and web
+## Exporting SVGs for product and web
 
-App icons for product and web should be created for all background types. This ensures your icon will be accessible in any UI context.
+To be considered production-ready for product and web, confirm the following:
+
+- All artwork and artboards must be aligned to the pixel grid.
+- All strokes must be expanded (`Object > Expand`).
+- All possible shapes and paths should be combined.
+- Use only linear gradients. Do not use conical gradients, radial gradients, or gradients along stroke.
+- For stroke app icons, use the masking method described in the previous section. Do not use clipping masks.
+- If your icon **is not** a stroke app icon, you will need to place a 32 x 32px square in each of your artboards. This square should have no fill or stroke.
+
+App icons for product and web are created for all background types. This ensures your icon will be accessible in any UI context. Note that these SVGs will work in product and web, but may fail to work in Sketch. For designing in sketch, export as PNG.
 
 1. Download the `App_Icon_Builder.ai` file from the [app icons repo](https://github.ibm.com/carbon/app-icons).
 2. Following app icon guidance, create the following 4 versions of your icon: dark theme, light theme, monochromatic dark theme, monochromatic light theme.
 
 ![Exporting for product and web: step 2](/images/3_3-1_ExportingProduct_Step2.png)
 
-### Export stroke app icons
-
-All stroke app icons must be exported as PNG at 2x the apparent icon size. Note that stroke app icons **cannot** be exported as SVG, as SVG does not support this particular styling.
-
-1. Make sure your background layer is turned off.
-2. Select `File > Export > Export for Screens` from the top navigation.
-3. In the `Formats` section, add scales, suffixes, and format to output your icon with proper sizing, naming, and file type. Refer to the table below.
-
-<Row>
-<Column colMd={6} colLg={8}>
-
-![Exporting stroke app icons: step 3](/images/3_3-2_ExportingProduct_Stroke_Step3.png)
-
-</Column>
-</Row>
-
-| Icon size | Scale | Suffix        | Output |
-| --------- | ----- | ------------- | ------ |
-| 16px      | 1x    | AppName-16@2x | 32px   |
-| 20px      | 1.25x | AppName-20@2x | 40px   |
-| 24px      | 1.5x  | AppName-24@2x | 48px   |
-| 32px      | 2x    | AppName-32@2x | 64px   |
-
-4. Click `Export Artboard`. Your files will export to PNG and should reflect the output below.
-
-```
-app-icon-dark-AppName-16@2x.png
-app-icon-dark-AppName-20@2x.png
-app-icon-dark-AppName-24@2x.png
-app-icon-dark-AppName-32@2x.png
-app-icon-light-AppName-16@2x.png
-app-icon-light-AppName-20@2x.png
-app-icon-light-AppName-24@2x.png
-app-icon-light-AppName-32@2x.png
-app-icon-monodark-AppName-16@2x.png
-app-icon-monodark-AppName-20@2x.png
-app-icon-monodark-AppName-24@2x.png
-app-icon-monodark-AppName-32@2x.png
-app-icon-monolight-AppName-16@2x.png
-app-icon-monolight-AppName-20@2x.png
-app-icon-monolight-AppName-24@2x.png
-app-icon-monolight-AppName-32@2x.png
-```
-
-5. Make sure all icons have been exported with proper naming convention.
-
-<Row>
-<Column colMd={6} colLg={8}>
-
-![App icon naming convention (PNG)](/images/3_3-4_ExportingProduct_Stroke_Step5.svg)
-
-</Column>
-</Row>
-
-### Exporting fill and IBM Plex app Icons
-
-Fill app icons and IBM Plex app icons may be exported as SVG. Note that stroke app icons **cannot** be exported as SVG.
-
-1. Make sure your background layer is turned off.
-2. Select `File > Export > Export for Screens` from the top navigation.
-3. In the `Formats` section, add your app’s name in the suffix field.
-
-<Row>
-<Column colMd={6} colLg={8}>
-
-![Exporting fill and IBM Plex app icons: step 3](/images/3_3-5_ExportingProduct_Fill_Step3.png)
-
-</Column>
-</Row>
-
-4. Click `Export Artboard`. Your files will export to SVG and should reflect the output below.
-
-```
-app-icon-dark-AppName.svg
-app-icon-light-AppName.svg
-app-icon-monodark-AppName.svg
-app-icon-monolight-AppName.svg
-```
-
-5. Make sure all icons have been exported with proper naming convention.
-
-<Row>
-<Column colMd={6} colLg={8}>
-
-![App icon naming convention (SVG)](/images/3_3-7_ExportingProduct_Fill_Step5.svg)
-
-</Column>
-</Row>
+3. Make sure your background layer is turned off.
+4. Select everything within one of the artboards. Then select `File > Export selection...` from the top navigation.
+5. In the `Formats` section, select the SVG format.
+6. Click `Export Asset`. Your file will export to SVG.
+7. Repeat steps 4–6 for each artboard.
 
 ## Exporting for native OS
 
