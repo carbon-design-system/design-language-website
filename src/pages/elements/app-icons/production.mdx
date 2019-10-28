@@ -99,9 +99,9 @@ To be considered production-ready for product and web, confirm the following:
 - All possible shapes and paths should be combined.
 - Use only linear gradients. Do not use conical gradients, radial gradients, or gradients along stroke.
 - For stroke app icons, use the masking method described in the previous section. Do not use clipping masks.
-- If your icon **is not** a stroke app icon, you will need to place a 32 x 32px square in each of your artboards. This square should have no fill or stroke.
+- If your icon **is not** a stroke app icon, then you will need to place a 32 x 32px transparent square background on each artboard. This square should have no fill or stroke to ensure that the icons maintains a squared size.
 
-App icons for product and web are created for all background types. This ensures your icon will be accessible in any UI context. Note that these SVGs will work in product and web, but may fail to work in Sketch. For designing in sketch, export as PNG.
+App icons for product and web are created for all background types. This ensures your icon will be accessible in any UI context. Note that these SVGs will work in product and web, but may not render correctly in Sketch. For designing in sketch, export as PNG.
 
 1. Download the `App_Icon_Builder.ai` file from the [app icons repo](https://github.ibm.com/carbon/app-icons).
 2. Following app icon guidance, create the following 4 versions of your icon: dark theme, light theme, monochromatic dark theme, monochromatic light theme.
@@ -128,13 +128,13 @@ App icons for both mobile and desktop native apps can be produced with the app i
 5. Select `File > Export > Export for Screens` from the top navigation.
 6. Select the artboards you need to export:
 
-| Platform                                         | Container shape   | Artboard |
-| ------------------------------------------------ | ----------------- | -------- |
-| iOS, Google Play, Slack                          | Square            | 01       |
-| MacOS                                            | Circle            | 02       |
-| Circular social avatars                          | Circle (unmasked) | 03       |
-| <span class="footnote__highlight">Windows</span> | None              | 04       |
-| Android adaptive                                 | Custom            | 05, 06   |
+| Platform                                         | Container shape   | Artboard   |
+| ------------------------------------------------ | ----------------- | ---------- |
+| iOS, Google Play, Slack                          | Square            | 01         |
+| MacOS                                            | Circle            | 02         |
+| Circular social avatars                          | Circle (unmasked) | 03         |
+| <span class="footnote__highlight">Windows</span> | None              | 04         |
+| Android                                          | Custom            | 05, 06, 07 |
 
 <Caption>
   <span class="footnote__highlight" />
@@ -189,18 +189,58 @@ App icons for both mobile and desktop native apps can be produced with the app i
 
   </ResourceCard>
 </Column>
-<Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Android adaptive app icons"
-      aspectRatio="2:1"
-      href="https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive"
-      >
+</Row>
 
-![Android logo](/images/android.svg)
+### Android app icons
 
-  </ResourceCard>
+Android icons are primarily created in the Image Asset Studio within Android Studio, but the source images should be exported from the app icon template. Get started by referring to the [Android app icon documentation](https://developer.android.com/studio/write/image-asset-studio).
+
+1. With your `App_Icon_Export.ai` file ready from the previous steps, select `File > Export > Export for Screens` from the top navigation.
+2. Select artboards 5, 6, and 7.
+
+3. In the `Formats` section, configure your settings to match the table below:
+
+| Scale | Suffix  | Format |
+| ----- | ------- | ------ |
+| 4x    | xxxhdpi | PNG    |
+
+4. Click `Export Artboard`.
+5. In Android Studio, select `File > New > Image Asset`.
+6. In the `Icon Type` dropdown, choose `Launcher Icons (Adaptive and Legacy)`.
+7. Import your foreground and background image assets. **Do not** trim or resize the artwork. Icon name is optional.
+8. Within the `Legacy` tab under `Google Play Store Icon`, select `no`.
+
+<Row>
+<Column colMd={6} colLg={8}>
+
+![Image Asset Studio settings for Laucher icons](/images/3_4-3_ExportingNative_Android_Step8.png)
+
 </Column>
 </Row>
+
+9. Choose `Next` to confirm the icon path and select `Finish`.
+10. Next, we will add the notification icon. In Android Studio, select `File > New > Image Asset`.
+11. In the `Icon Type` dropdown, choose `Notification Icons`.
+12. Import your notification image asset (artboard 7 of the app icon template). **Do not** trim or add padding to the artwork. Icon name is optional.
+13. Choose `Next` to confirm the icon path and select `Finish`.
+
+<Row>
+<Column colMd={6} colLg={8}>
+
+![Image Asset Studio settings for notification icons](/images/3_4-4_ExportingNative_Android_Step12.png)
+
+</Column>
+</Row>
+
+14. Finally, we need to place the Google Play image. Go back to your `App_Icon_Export.ai` file and select `File > Export > Export for Screens` from the top navigation.
+15. Select artboard 1.
+16. In the `Formats` section, configure your settings to match the table below:
+
+| Scale | Suffix  | Format |
+| ----- | ------- | ------ |
+| 1x    | -web    | PNG    |
+
+17. Place the new image within your project folder at `/app/src/main`.
 
 ## Approval process
 
