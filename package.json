@@ -14,7 +14,7 @@
   "author": "Alison Joseph <alison.joseph@us.ibm.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "dev": "yarn timestamp && gatsby develop",
+    "dev": "gatsby develop",
     "dev:clean": "gatsby clean && gatsby develop",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
