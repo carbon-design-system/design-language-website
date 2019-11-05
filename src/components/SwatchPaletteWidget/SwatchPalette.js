@@ -42,7 +42,7 @@ const PALETTES = {
     '30': {
       hex: blue[30],
       pms: '2128',
-      cmyk: 'c36 16 y0 k0',
+      cmyk: 'c36 m16 y0 k0',
     },
     '40': {
       hex: blue[40],
