@@ -17,570 +17,556 @@ import {
   gray,
   cyan,
 } from '@carbon/colors';
-const convert = require('color-convert');
 
 const { prefix } = settings;
-
-const convertToCmyk = hex => {
-  //converts hex to cmyk => returns num array
-  const convertedHex = convert.hex.cmyk(hex);
-
-  // converts cmyk array to one string
-  return [
-    `c${convertedHex[0]}`,
-    `m${convertedHex[1]}`,
-    `y${convertedHex[2]}`,
-    `k${convertedHex[3]}`,
-  ].join(' ');
-};
 
 const PALETTES = {
   black: {
     '100': {
       hex: black,
       pms: 'Black 6',
-      cmyk: convertToCmyk(black),
+      cmyk: 'c60 m40 y40 k100',
     },
   },
   blue: {
     '10': {
       hex: blue[10],
       pms: '657',
-      cmyk: convertToCmyk(blue[10]),
+      cmyk: 'c5 m2 y0 k0',
     },
     '20': {
       hex: blue[20],
       pms: '2707',
-      cmyk: convertToCmyk(blue[20]),
+      cmyk: 'c18 m7 y0 k0',
     },
     '30': {
       hex: blue[30],
       pms: '2128',
-      cmyk: convertToCmyk(blue[30]),
+      cmyk: 'c36 16 y0 k0',
     },
     '40': {
       hex: blue[40],
       pms: '2381',
-      cmyk: convertToCmyk(blue[40]),
+      cmyk: 'c52 m29 y0 k0',
     },
     '50': {
       hex: blue[50],
       pms: '2727',
-      cmyk: convertToCmyk(blue[50]),
+      cmyk: 'c64 m39 y0 k0',
     },
     '60': {
       hex: blue[60],
       pms: '2132',
-      cmyk: convertToCmyk(blue[60]),
+      cmyk: 'c80 m60 y0 k0',
     },
     '70': {
       hex: blue[70],
       pms: 'Dark Blue',
-      cmyk: convertToCmyk(blue[70]),
+      cmyk: 'c91 m76 y1 k0',
     },
     '80': {
       hex: blue[80],
       pms: 'Reflex Blue',
-      cmyk: convertToCmyk(blue[80]),
+      cmyk: 'c100 m91 y9 k1',
     },
     '90': {
       hex: blue[90],
       pms: '280',
-      cmyk: convertToCmyk(blue[90]),
+      cmyk: 'c100 m93 y31 k29',
     },
     '100': {
       hex: blue[100],
       pms: '282',
-      cmyk: convertToCmyk(blue[100]),
+      cmyk: 'c100 m95 y37 k49',
     },
   },
   'cool gray': {
     '10': {
       hex: coolGray[10],
       pms: '656',
-      cmyk: convertToCmyk(coolGray[10]),
+      cmyk: 'c3 m2 y2 k0',
     },
     '20': {
       hex: coolGray[20],
       pms: '650',
-      cmyk: convertToCmyk(coolGray[20]),
+      cmyk: 'c13 m9 y10 k0',
     },
     '30': {
       hex: coolGray[30],
       pms: '537',
-      cmyk: convertToCmyk(coolGray[30]),
+      cmyk: 'c25 m20 y21 k0',
     },
     '40': {
       hex: coolGray[40],
       pms: '2162',
-      cmyk: convertToCmyk(coolGray[40]),
+      cmyk: 'c38 m30 y31 k0',
     },
     '50': {
       hex: coolGray[50],
       pms: '2163',
-      cmyk: convertToCmyk(coolGray[50]),
+      cmyk: 'c47 m39 y39 k4',
     },
     '60': {
       hex: coolGray[60],
       pms: '2164',
-      cmyk: convertToCmyk(coolGray[60]),
+      cmyk: 'c57 m48 y48 k15',
     },
     '70': {
       hex: coolGray[70],
       pms: '2165',
-      cmyk: convertToCmyk(coolGray[70]),
+      cmyk: 'c63 m55 y55 k30',
     },
     '80': {
       hex: coolGray[80],
       pms: '2166',
-      cmyk: convertToCmyk(coolGray[80]),
+      cmyk: 'c68 m61 y60 k49',
     },
     '90': {
       hex: coolGray[90],
       pms: '7545',
-      cmyk: convertToCmyk(coolGray[90]),
+      cmyk: 'c71 m64 y64 k68',
     },
     '100': {
       hex: coolGray[100],
       pms: '7546',
-      cmyk: convertToCmyk(coolGray[100]),
+      cmyk: 'c73 m67 y65 k79',
     },
   },
   cyan: {
     '10': {
       hex: cyan[10],
       pms: '9421',
-      cmyk: convertToCmyk(cyan[10]),
+      cmyk: 'c9 m0 y0 k0',
     },
     '20': {
       hex: cyan[20],
       pms: '2905',
-      cmyk: convertToCmyk(cyan[20]),
+      cmyk: 'c26 m0 y0 k0',
     },
     '30': {
       hex: cyan[30],
       pms: '2190',
-      cmyk: convertToCmyk(cyan[30]),
+      cmyk: 'c48 m5 y0 k0',
     },
     '40': {
       hex: cyan[40],
       pms: '299',
-      cmyk: convertToCmyk(cyan[40]),
+      cmyk: 'c62 m18 y0 k0',
     },
     '50': {
       hex: cyan[50],
       pms: '2192',
-      cmyk: convertToCmyk(cyan[50]),
+      cmyk: 'c72 m32 y0 k0',
     },
     '60': {
       hex: cyan[60],
       pms: '2194',
-      cmyk: convertToCmyk(cyan[60]),
+      cmyk: 'c86 m52 y0 k0',
     },
     '70': {
       hex: cyan[70],
       pms: '2195',
-      cmyk: convertToCmyk(cyan[70]),
+      cmyk: 'c96 m71 y5 k0',
     },
     '80': {
       hex: cyan[80],
       pms: '300',
-      cmyk: convertToCmyk(cyan[80]),
+      cmyk: 'c100 m83 y29 k14',
     },
     '90': {
       hex: cyan[90],
       pms: '301',
-      cmyk: convertToCmyk(cyan[90]),
+      cmyk: 'c100 m84 y40 k39',
     },
     '100': {
       hex: cyan[100],
       pms: '302',
-      cmyk: convertToCmyk(cyan[100]),
+      cmyk: 'c91 m78 y54 k68',
     },
   },
   gray: {
     '10': {
       hex: gray[10],
       pms: 'Cool Gray 1',
-      cmyk: convertToCmyk(gray[10]),
+      cmyk: 'c4 m2 y1 k0',
     },
     '20': {
       hex: gray[20],
       pms: 'Cool Gray 2',
-      cmyk: convertToCmyk(gray[20]),
+      cmyk: 'c15 m10 y7 k0',
     },
     '30': {
       hex: gray[30],
       pms: 'Cool Gray 3',
-      cmyk: convertToCmyk(gray[30]),
+      cmyk: 'c27 m18 y15 k0',
     },
     '40': {
       hex: gray[40],
       pms: 'Cool Gray 4',
-      cmyk: convertToCmyk(gray[40]),
+      cmyk: 'c40 m30 y26 k0',
     },
     '50': {
       hex: gray[50],
       pms: 'Cool Gray 6',
-      cmyk: convertToCmyk(gray[50]),
+      cmyk: 'c50 m38 y34 k2',
     },
     '60': {
       hex: gray[60],
       pms: 'Cool Gray 7',
-      cmyk: convertToCmyk(gray[60]),
+      cmyk: 'c61 m48 y43 k13',
     },
     '70': {
       hex: gray[70],
       pms: 'Cool Gray 8',
-      cmyk: convertToCmyk(gray[70]),
+      cmyk: 'c68 m56 y51 k29',
     },
     '80': {
       hex: gray[80],
       pms: 'Cool Gray 9',
-      cmyk: convertToCmyk(gray[80]),
+      cmyk: 'c73 m63 y56 k47',
     },
     '90': {
       hex: gray[90],
       pms: 'Cool Gray 10',
-      cmyk: convertToCmyk(gray[90]),
+      cmyk: 'c76 m66 y60 k64',
     },
     '100': {
       hex: gray[100],
       pms: 'Cool Gray 11',
-      cmyk: convertToCmyk(gray[100]),
+      cmyk: 'c76 m68 y63 k78',
     },
   },
   green: {
     '10': {
       hex: green[10],
       pms: '9540',
-      cmyk: convertToCmyk(green[10]),
+      cmyk: 'c10 m0 y11 k0',
     },
     '20': {
       hex: green[20],
       pms: '2253',
-      cmyk: convertToCmyk(green[20]),
+      cmyk: 'c27 m0 y33 k0',
     },
     '30': {
       hex: green[30],
       pms: '352',
-      cmyk: convertToCmyk(green[30]),
+      cmyk: 'c49 m0 y62 k0',
     },
     '40': {
       hex: green[40],
       pms: '7479',
-      cmyk: convertToCmyk(green[40]),
+      cmyk: 'c72 m0 y84 k0',
     },
     '50': {
       hex: green[50],
       pms: '7481',
-      cmyk: convertToCmyk(green[50]),
+      cmyk: 'c81 m10 y100 k0',
     },
     '60': {
       hex: green[60],
       pms: '7482',
-      cmyk: convertToCmyk(green[60]),
+      cmyk: 'c86 m25 y100 k12',
     },
     '70': {
       hex: green[70],
       pms: '7733',
-      cmyk: convertToCmyk(green[70]),
+      cmyk: 'c88 m35 y100 k29',
     },
     '80': {
       hex: green[80],
       pms: '7734',
-      cmyk: convertToCmyk(green[80]),
+      cmyk: 'c86 m43 y100 k50',
     },
     '90': {
       hex: green[90],
       pms: '7484',
-      cmyk: convertToCmyk(green[90]),
+      cmyk: 'c82 m50 y89 k66',
     },
     '100': {
       hex: green[100],
       pms: '627',
-      cmyk: convertToCmyk(green[100]),
+      cmyk: 'c75 m56 y75 k80',
     },
   },
   magenta: {
     '10': {
       hex: magenta[10],
       pms: '2050',
-      cmyk: convertToCmyk(magenta[10]),
+      cmyk: 'c0 m6 y0 k0',
     },
     '20': {
       hex: magenta[20],
       pms: '2036',
-      cmyk: convertToCmyk(magenta[20]),
+      cmyk: 'c0 m23 y0 k0',
     },
     '30': {
       hex: magenta[30],
       pms: '1905',
-      cmyk: convertToCmyk(magenta[30]),
+      cmyk: 'c0 m47 y2 k0',
     },
     '40': {
       hex: magenta[40],
       pms: '190',
-      cmyk: convertToCmyk(magenta[40]),
+      cmyk: 'c0 m69 y15 k0',
     },
     '50': {
       hex: magenta[50],
       pms: '1915',
-      cmyk: convertToCmyk(magenta[50]),
+      cmyk: 'c0 m82 y15 k0',
     },
     '60': {
       hex: magenta[60],
       pms: '214',
-      cmyk: convertToCmyk(magenta[60]),
+      cmyk: 'c14 m97 y41 k0',
     },
     '70': {
       hex: magenta[70],
       pms: '227',
-      cmyk: convertToCmyk(magenta[70]),
+      cmyk: 'c29 m100 y51 k14',
     },
     '80': {
       hex: magenta[80],
       pms: '228',
-      cmyk: convertToCmyk(magenta[80]),
+      cmyk: 'c37 m100 y56 k37',
     },
     '90': {
       hex: magenta[90],
       pms: '7651',
-      cmyk: convertToCmyk(magenta[90]),
+      cmyk: 'c44 m97 y56 k55',
     },
     '100': {
       hex: magenta[100],
       pms: '518',
-      cmyk: convertToCmyk(magenta[100]),
+      cmyk: 'c60 m78 y61 k77',
     },
   },
   orange: {
     '40': {
       hex: orange,
       pms: '2655',
-      cmyk: convertToCmyk(orange),
+      cmyk: 'c42 m54 y0 k0',
     },
   },
   purple: {
     '10': {
       hex: purple[10],
       pms: '9023',
-      cmyk: convertToCmyk(purple[10]),
+      cmyk: 'c2 m5 y0 k0',
     },
     '20': {
       hex: purple[20],
       pms: '9361',
-      cmyk: convertToCmyk(purple[20]),
+      cmyk: 'c9 m16 y0 k0',
     },
     '30': {
       hex: purple[30],
       pms: '2635',
-      cmyk: convertToCmyk(purple[30]),
+      cmyk: 'c21 m31 y0 k0',
     },
     '40': {
       hex: purple[40],
       pms: '2645',
-      cmyk: convertToCmyk(purple[40]),
+      cmyk: 'c34 m44 y0 k0',
     },
     '50': {
       hex: purple[50],
       pms: '2655',
-      cmyk: convertToCmyk(purple[50]),
+      cmyk: 'c42 m54 y0 k0',
     },
     '60': {
       hex: purple[60],
       pms: '2665',
-      cmyk: convertToCmyk(purple[60]),
+      cmyk: 'c58 m72 y0 k0',
     },
     '70': {
       hex: purple[70],
       pms: '2090',
-      cmyk: convertToCmyk(purple[70]),
+      cmyk: 'c74 m90 y0 k0',
     },
     '80': {
       hex: purple[80],
       pms: '2091',
-      cmyk: convertToCmyk(purple[80]),
+      cmyk: 'c85 m100 y0 k0',
     },
     '90': {
       hex: purple[90],
       pms: '2685',
-      cmyk: convertToCmyk(purple[90]),
+      cmyk: 'c94 m100 y30 k20',
     },
     '100': {
       hex: purple[100],
       pms: '275',
-      cmyk: convertToCmyk(purple[100]),
+      cmyk: 'c88 m92 y46 k60',
     },
   },
   red: {
     '10': {
       hex: red[10],
       pms: '706',
-      cmyk: convertToCmyk(red[10]),
+      cmyk: 'c0 m6 y2 k0',
     },
     '20': {
       hex: red[20],
       pms: '1767',
-      cmyk: convertToCmyk(red[20]),
+      cmyk: 'c0 m22 y8 k0',
     },
     '30': {
       hex: red[30],
       pms: '1775',
-      cmyk: convertToCmyk(red[30]),
+      cmyk: 'c0 m45 y20 k0',
     },
     '40': {
       hex: red[40],
       pms: '1777',
-      cmyk: convertToCmyk(red[40]),
+      cmyk: 'c0 m68 y39 k0',
     },
     '50': {
       hex: red[50],
       pms: '1787',
-      cmyk: convertToCmyk(red[50]),
+      cmyk: 'c0 m85 y62 k0',
     },
     '60': {
       hex: red[60],
       pms: '185',
-      cmyk: convertToCmyk(red[60]),
+      cmyk: 'c8 m100 y100 k0',
     },
     '70': {
       hex: red[70],
       pms: '200',
-      cmyk: convertToCmyk(red[70]),
+      cmyk: 'c23 m100 y100 k18',
     },
     '80': {
       hex: red[80],
       pms: '201',
-      cmyk: convertToCmyk(red[80]),
+      cmyk: 'c31 m100 y98 k43',
     },
     '90': {
       hex: red[90],
       pms: '188',
-      cmyk: convertToCmyk(red[90]),
+      cmyk: 'c38 m93 y84 k61',
     },
     '100': {
       hex: red[100],
       pms: '504',
-      cmyk: convertToCmyk(red[100]),
+      cmyk: 'c54 m77 y68 k69',
     },
   },
   teal: {
     '10': {
       hex: teal[10],
       pms: '9040',
-      cmyk: convertToCmyk(teal[10]),
+      cmyk: 'c11 m0 y3 k0',
     },
     '20': {
       hex: teal[20],
       pms: '317',
-      cmyk: convertToCmyk(teal[20]),
+      cmyk: 'c11 m0 y3 k0',
     },
     '30': {
       hex: teal[30],
       pms: '7471',
-      cmyk: convertToCmyk(teal[30]),
+      cmyk: 'c56 m0 y20 k0',
     },
     '40': {
       hex: teal[40],
       pms: '3252',
-      cmyk: convertToCmyk(teal[40]),
+      cmyk: 'c74 m1 y36 k0',
     },
     '50': {
       hex: teal[50],
       pms: '326',
-      cmyk: convertToCmyk(teal[50]),
+      cmyk: 'c80 m16 y43 k0',
     },
     '60': {
       hex: teal[60],
       pms: '7716',
-      cmyk: convertToCmyk(teal[60]),
+      cmyk: 'c87 m32 y53 k10',
     },
     '70': {
       hex: teal[70],
       pms: '7717',
-      cmyk: convertToCmyk(teal[70]),
+      cmyk: 'c90 m43 y56 k25',
     },
     '80': {
       hex: teal[80],
       pms: '2238',
-      cmyk: convertToCmyk(teal[80]),
+      cmyk: 'c92 m54 y59 k43',
     },
     '90': {
       hex: teal[90],
       pms: '3165',
-      cmyk: convertToCmyk(teal[90]),
+      cmyk: 'c92 m62 y59 k57',
     },
     '100': {
       hex: teal[100],
       pms: '2217',
-      cmyk: convertToCmyk(teal[100]),
+      cmyk: 'c82 m65 y64 k77',
     },
   },
   'warm gray': {
     '10': {
       hex: warmGray[10],
       pms: 'Warm Gray 1',
-      cmyk: convertToCmyk(warmGray[10]),
+      cmyk: 'c2 m3 y3 k0',
     },
     '20': {
       hex: warmGray[20],
       pms: 'Warm Gray 2',
-      cmyk: convertToCmyk(warmGray[20]),
+      cmyk: 'c11 m10 y10 k0',
     },
     '30': {
       hex: warmGray[30],
       pms: 'Warm Gray 3',
-      cmyk: convertToCmyk(warmGray[30]),
+      cmyk: 'c25 m22 y21 k0',
     },
     '40': {
       hex: warmGray[40],
       pms: 'Warm Gray 4',
-      cmyk: convertToCmyk(warmGray[40]),
+      cmyk: 'c37 m31 y31 k0',
     },
     '50': {
       hex: warmGray[50],
       pms: 'Warm Gray 6',
-      cmyk: convertToCmyk(warmGray[50]),
+      cmyk: 'c46 m40 y39 k4',
     },
     '60': {
       hex: warmGray[60],
       pms: 'Warm Gray 7',
-      cmyk: convertToCmyk(warmGray[60]),
+      cmyk: 'c55 m50 y48 k15',
     },
     '70': {
       hex: warmGray[70],
       pms: 'Warm Gray 8',
-      cmyk: convertToCmyk(warmGray[70]),
+      cmyk: 'c61 m57 y55 k30',
     },
     '80': {
       hex: warmGray[80],
       pms: 'Warm Gray 9',
-      cmyk: convertToCmyk(warmGray[80]),
+      cmyk: 'c66 m62 y60 k50',
     },
     '90': {
       hex: warmGray[90],
       pms: 'Warm Gray 11',
-      cmyk: convertToCmyk(warmGray[90]),
+      cmyk: 'c69 m65 y64 k67',
     },
     '100': {
       hex: warmGray[100],
       pms: '438',
-      cmyk: convertToCmyk(warmGray[100]),
+      cmyk: 'c71 m67 y65 k79',
     },
   },
   white: {
     '0': {
       hex: white,
       pms: '–',
-      cmyk: convertToCmyk(white),
+      cmyk: 'c0 m0 y0 k0',
     },
   },
   yellow: {
     '20': {
       hex: yellow,
       pms: '2645',
-      cmyk: convertToCmyk(yellow),
+      cmyk: 'c34 m44 y0 k0',
     },
   },
 };
