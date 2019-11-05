@@ -26,28 +26,28 @@ expression of our brand.
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="App Icon Builder (.ai)"
-      aspectRatio="2:1"
-      href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Builder.ai"
-      actionIcon="download"
-      >
+  <ResourceCard
+    subTitle="App Icon Builder (.ai)"
+    aspectRatio="2:1"
+    href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Builder.ai"
+    actionIcon="download"
+    >
 
 ![Adobe Illustrator logo](../images/b4f77b9fd2d3be32b0ec10692e1cd72e.svg)
 
-</ResourceCard>
+  </ResourceCard>
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="App Icon Template (.zip)"
-      aspectRatio="2:1"
-      href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Template.zip"
-      actionIcon="download"
-      >
+  <ResourceCard
+    subTitle="App Icon Template (.zip)"
+    aspectRatio="2:1"
+    href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Template.zip"
+    actionIcon="download"
+    >
 
 <Zip32 />
 
-</ResourceCard>
+  </ResourceCard>
 </Column>
 </Row>
 
@@ -74,21 +74,21 @@ Stroke app icons feature both color and alpha channel gradients. This technique 
 
 1. Draw a 32 x 32 px square and apply a color gradient. Set the angle to 45° and place the gradient slider locations at 10% and 90%.
 
-![Stroke app icon masking: step 1](/images/3_2-1_MakingAnIcon_Stroke_Step1.png)
+   ![Stroke app icon masking: step 1](/images/3_2-1_MakingAnIcon_Stroke_Step1.png)
 
 2. Place the artwork to be in color above the color square. Make sure the color is set to `#FFFFFF` white.
 3. Place black gradients on the parts of the icon to be masked. Set both gradient sliders to `#000000` black, and set one slider to 0% opacity. Any part of the artwork in black will be transparent after masking.
 
-![Stroke app icon masking: step 3](/images/3_2-2_MakingAnIcon_Stroke_Step3.png)
+   ![Stroke app icon masking: step 3](/images/3_2-2_MakingAnIcon_Stroke_Step3.png)
 
 4. Open the Transparency panel `(Window > Transparency)`.
 5. Group all gradients with the white icon `(Object > Group)`.
 6. Select both the new group and the color square, then click `Make Mask` in the transparency panel.
 
-<Video
-  poster="/images/3_2-3_MakingAnIcon_Stroke_Step6_PosterImage.png"
-  src="/videos/3_2-3_MakingAnIcon_Stroke_Step6.mp4"
-/>
+   <Video
+   poster="/images/3_2-3_MakingAnIcon_Stroke_Step6_PosterImage.png"
+   src="/videos/3_2-3_MakingAnIcon_Stroke_Step6.mp4"
+   />
 
 ## Exporting SVGs for product and web
 
@@ -106,7 +106,7 @@ App icons for product and web are created for all background types. This ensures
 1. Download the `App_Icon_Builder.ai` file from the [app icons repo](https://github.ibm.com/carbon/app-icons).
 2. Following app icon guidance, create the following 4 versions of your icon: dark theme, light theme, monochromatic dark theme, monochromatic light theme.
 
-![Exporting for product and web: step 2](/images/3_3-1_ExportingProduct_Step2.png)
+   ![Exporting for product and web: step 2](/images/3_3-1_ExportingProduct_Step2.png)
 
 3. Make sure your background layer is turned off.
 4. Select everything within one of the artboards. Then select `File > Export selection...` from the top navigation.
@@ -121,69 +121,63 @@ The app icon template makes it easy to export native app icons for any environme
 1. Download `App_Icon_Template.zip` from the [app icons repo](https://github.ibm.com/carbon/app-icons).
 2. Place the 32 x 32 px app icon in the `Place_Icon_Here.ai` file. Separate foreground icon elements from background elements and place on the respective artboards.
 
-![Foreground and background layers for native OS](/images/3_4-1_ExportingNative_Step2.png)
+   ![Foreground and background layers for native OS](/images/3_4-1_ExportingNative_Step2.png)
 
 3. Create your icon background in the `App_Icon_Background_Color.ai` file and save.
 4. Open the `App_Icon_Export.ai` file. The artboards should have updated to include your icon.
 5. Select `File > Export > Export for Screens` from the top navigation.
 6. Select the artboards you need to export:
 
-| Platform                                         | Container shape   | Artboard   |
-| ------------------------------------------------ | ----------------- | ---------- |
-| iOS, Google Play, Slack                          | Square            | 01         |
-| MacOS                                            | Circle            | 02         |
-| Circular social avatars                          | Circle (unmasked) | 03         |
-| <span class="footnote__highlight">Windows</span> | None              | 04         |
-| Android                                          | Custom            | 05, 06, 07 |
+   | Platform                                         | Container shape   | Artboard   |
+   | ------------------------------------------------ | ----------------- | ---------- |
+   | iOS, Google Play, Slack                          | Square            | 01         |
+   | MacOS                                            | Circle            | 02         |
+   | Circular social avatars                          | Circle (unmasked) | 03         |
+   | <span class="footnote__highlight">Windows</span> | None              | 04         |
+   | Android                                          | Custom            | 05, 06, 07 |
 
-<Caption>
-  <span class="footnote__highlight" />
-  <span class="footnote">
-    Use monochromatic dark theme (gray 10) app icons for unplated Windows assets
-  </span>
-</Caption>
+   <Caption>
+   <span class="footnote__highlight" />
+   <span class="footnote">
+   Use monochromatic dark theme (gray 10) app icons for unplated Windows assets
+   </span>
+   </Caption>
 
 7. In the `Formats` section, click the `Scale` dropdown and choose `Width`.
 
-<Row>
-<Column colMd={6} colLg={8}>
-
-![Export dialog for native OS](/images/3_4-2_ExportingNative_Step7.png)
-
-</Column>
-</Row>
+   ![Export dialog for native OS](/images/3_4-2_ExportingNative_Step7.png)
 
 8. Enter the final output size for the icon, and add as many scales as needed. Refer to your target platform’s documentation for sizing and naming specs. Here are some common ones:
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Apple MacOS app icons"
-      aspectRatio="2:1"
-      href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/"
-      >
+  <ResourceCard
+    subTitle="Apple MacOS app icons"
+    aspectRatio="2:1"
+    href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/"
+    >
 
 ![Apple logo](/images/apple.svg)
 
   </ResourceCard>
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Apple iOS app icons"
-      aspectRatio="2:1"
-      href="https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/app-icon/"
-      >
+  <ResourceCard
+    subTitle="Apple iOS app icons"
+    aspectRatio="2:1"
+    href="https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/app-icon/"
+    >
 
 ![Apple logo](/images/apple.svg)
 
-  </ResourceCard>
+</ResourceCard>
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Windows UWP app icons"
-      aspectRatio="2:1"
-      href="https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos"
-      >
+  <ResourceCard
+    subTitle="Windows UWP app icons"
+    aspectRatio="2:1"
+    href="https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos"
+    >
 
 ![Windows logo](/images/Windows.svg)
 
@@ -199,9 +193,9 @@ Android icons are primarily created in the Image Asset Studio within Android Stu
 2. Select artboards 5, 6, and 7.
 3. In the `Formats` section, configure your settings to match the table below:
 
-| Scale | Suffix  | Format |
-| ----- | ------- | ------ |
-| 4x    | xxxhdpi | PNG    |
+   | Scale | Suffix  | Format |
+   | ----- | ------- | ------ |
+   | 4x    | xxxhdpi | PNG    |
 
 4. Click `Export Artboard`.
 5. In Android Studio, select `File > New > Image Asset`.
@@ -209,13 +203,7 @@ Android icons are primarily created in the Image Asset Studio within Android Stu
 7. Import your foreground and background image assets. **Do not** trim or resize the artwork. Icon name is optional.
 8. Within the `Legacy` tab under `Google Play Store Icon`, select `no`.
 
-<Row>
-<Column colMd={6} colLg={8}>
-
-![Image Asset Studio settings for Laucher icons](/images/3_4-3_ExportingNative_Android_Step8.png)
-
-</Column>
-</Row>
+   ![Image Asset Studio settings for Laucher icons](/images/3_4-3_ExportingNative_Android_Step8.png)
 
 9. Choose `Next` to confirm the icon path and select `Finish`.
 10. Next, we will add the notification icon. In Android Studio, select `File > New > Image Asset`.
@@ -223,21 +211,15 @@ Android icons are primarily created in the Image Asset Studio within Android Stu
 12. Import your notification image asset (artboard 7 of the app icon template). **Do not** trim or add padding to the artwork. Icon name is optional.
 13. Choose `Next` to confirm the icon path and select `Finish`.
 
-<Row>
-<Column colMd={6} colLg={8}>
-
-![Image Asset Studio settings for notification icons](/images/3_4-4_ExportingNative_Android_Step12.png)
-
-</Column>
-</Row>
+   ![Image Asset Studio settings for notification icons](/images/3_4-4_ExportingNative_Android_Step12.png)
 
 14. Finally, we need to place the Google Play image. Go back to your `App_Icon_Export.ai` file and select `File > Export > Export for Screens` from the top navigation.
 15. Select artboard 1.
 16. In the `Formats` section, configure your settings to match the table below:
 
-| Scale | Suffix  | Format |
-| ----- | ------- | ------ |
-| 1x    | -web    | PNG    |
+   | Scale | Suffix  | Format |
+   | ----- | ------- | ------ |
+   | 1x    | -web    | PNG    |
 
 17. Place the new image within your project folder at `/app/src/main`.
 
