@@ -187,7 +187,9 @@ The app icon template makes it easy to export native app icons for any environme
 
 ### Android app icons
 
-Android icons are primarily created in the Image Asset Studio within Android Studio, but the source images should be exported from the app icon template. Refer to the read-me file in the template to automate your export process, or follow the guidance here to export manually. For more information on the Image Asset Studio, visit the [Android app icon documentation](https://developer.android.com/studio/write/image-asset-studio).
+Android icons are primarily created in the Image Asset Studio within Android Studio, but the source images should be exported from the app icon template. Refer to the read-me file in the template to automate your export process, or follow the guidance here to export manually. For more information on the Visual Asset Studio, visit the [Android app icon documentation](https://developer.android.com/studio/write/image-asset-studio).
+
+#### Exporting images
 
 1. With your `App_Icon_Export.ai` file ready from the previous steps, select `File > Export > Export for Screens` from the top navigation.
 2. Select artboards 5, 6, and 7.
@@ -198,30 +200,32 @@ Android icons are primarily created in the Image Asset Studio within Android Stu
    | 4x    | xxxhdpi | PNG    |
 
 4. Click `Export Artboard`.
-5. In Android Studio, select `File > New > Image Asset`.
-6. In the `Icon Type` dropdown, choose `Launcher Icons (Adaptive and Legacy)`.
-7. Import your foreground and background image assets. **Do not** trim or resize the artwork. Icon name is optional.
-8. Within the `Legacy` tab under `Google Play Store Icon`, select `no`.
-
-   ![Image Asset Studio settings for Laucher icons](/images/3_4-3_ExportingNative_Android_Step8.png)
-
-9. Choose `Next` to confirm the icon path and select `Finish`.
-10. Next, we will add the notification icon. In Android Studio, select `File > New > Image Asset`.
-11. In the `Icon Type` dropdown, choose `Notification Icons`.
-12. Import your notification image asset (artboard 7 of the app icon template). **Do not** trim or add padding to the artwork. Icon name is optional.
-13. Choose `Next` to confirm the icon path and select `Finish`.
-
-   ![Image Asset Studio settings for notification icons](/images/3_4-4_ExportingNative_Android_Step12.png)
-
-14. Finally, we need to place the Google Play image. Go back to your `App_Icon_Export.ai` file and select `File > Export > Export for Screens` from the top navigation.
-15. Select artboard 1.
-16. In the `Formats` section, configure your settings to match the table below:
+5. Select `File > Export > Export for Screens` from the top navigation.
+6. Select artboard 1.
+7. In the `Formats` section, configure your settings to match the table below:
 
    | Scale | Suffix  | Format |
    | ----- | ------- | ------ |
    | 1x    | -web    | PNG    |
 
-17. Place the new image within your project folder at `/app/src/main`.
+#### Importing images to the Image Asset Studio
+
+1. In Android Studio, select `File > New > Image Asset`.
+2. In the `Icon Type` dropdown, choose `Launcher Icons (Adaptive and Legacy)`.
+3. Import your foreground asset `ic_launcher_foreground_xxxhdpi.png` and background asset `ic_launcher_background_xxxhdpi.png`. **Do not** trim or resize the artwork. The icon name is optional.
+4. Within the `Legacy` tab under `Google Play Store Icon`, select `no`.
+
+   ![Image Asset Studio settings for Laucher icons](/images/3_4-3_ExportingNative_Android_Step8.png)
+
+5. Choose `Next` to confirm the icon path and select `Finish`.
+6. Next, we will add the notification icon. In Android Studio, select `File > New > Image Asset`.
+7. In the `Icon Type` dropdown, choose `Notification Icons`.
+8. Import your notification asset `ic_stat_xxxhdpi.png`. **Do not** trim or add padding to the artwork. The icon name is optional.
+9. Choose `Next` to confirm the icon path and select `Finish`.
+
+   ![Image Asset Studio settings for notification icons](/images/3_4-4_ExportingNative_Android_Step12.png)
+
+10. Finally, place the 512 px Google Play Store image within your project folder at `/app/src/main`.
 
 ## Approval process
 
