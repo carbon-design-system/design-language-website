@@ -863,6 +863,13 @@
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.4.0.tgz#771ba51efcaa9d2be03800f8e0f50c7aa779febf"
   integrity sha512-52H97nT0Hv3mneNaDXBELt/shrO9AUZIpX5TuxRUcdva0xqLNnjhsLw0PTytjQRw3yNCLmDw8hOutzlReXCleQ==
 
+"@carbon/icons-react@10.6.0":
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.6.0.tgz#e137ddb552111c571ccb1a2ac861be07fe1fb339"
+  integrity sha512-WG8OdiCx7iWOE8x71xAWP5m/WvFV1+y7+h2WWWrweFjUWf+hNLB3oWem/cQxLB0YL/yHQiAAzyKb1Yb2ns7w8g==
+  dependencies:
+    "@carbon/icon-helpers" "10.4.0"
+
 "@carbon/icons-react@10.6.1", "@carbon/icons-react@^10.5.0":
   version "10.6.1"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.6.1.tgz#2fdc14947c874875b96a0c58fd438a1ed38d599e"
@@ -3041,10 +3048,38 @@ carbon-components-react@^7.5.1:
     warning "^3.0.0"
     window-or-global "^1.0.1"
 
+carbon-components-react@^7.7.3:
+  version "7.7.3"
+  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.7.3.tgz#51cfcb7223e7a3f7069f8bcd9ef415917bb527eb"
+  integrity sha512-AR/fc1+lZzRRQXTFvXhP04jIIL9/mwAxfGmgfYeiotB98+SECGRGistvPlD/6rv+DtJYNvst0MUd94WbwdG4OQ==
+  dependencies:
+    "@carbon/icons-react" "10.6.0"
+    classnames "2.2.6"
+    downshift "^1.31.14"
+    flatpickr "4.6.1"
+    focus-trap-react "^6.0.0"
+    invariant "^2.2.3"
+    lodash.debounce "^4.0.8"
+    lodash.isequal "^4.5.0"
+    lodash.omit "^4.5.0"
+    react-is "^16.8.6"
+    warning "^3.0.0"
+    window-or-global "^1.0.1"
+
 carbon-components@^10.5.1:
   version "10.6.4"
   resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.6.4.tgz#46b03ab9dc91b0b9e95dcd5c13c824326c8316ba"
   integrity sha512-bCaGoDMYFuMPUHCzR91qHPW0ufXt1Gso0GJSpat7WN8ayZngktuRWLfpV49hu2qz+zbyXHuaJvkCJPUHNk52Mw==
+  dependencies:
+    carbon-icons "^7.0.7"
+    flatpickr "4.6.1"
+    lodash.debounce "^4.0.8"
+    warning "^3.0.0"
+
+carbon-components@^10.7.3:
+  version "10.7.3"
+  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.7.3.tgz#1a5ff661f1e25aaf30698e30fa0ea903beccfbe4"
+  integrity sha512-5/w4xGqGJ30C43Df/grOr4o87H61LUhKP0AqhH/JIA6174eL1OKZmSmKgSvmDa+8y9YPWplqEaOKSXT/11VFLg==
   dependencies:
     carbon-icons "^7.0.7"
     flatpickr "4.6.1"
@@ -6229,10 +6264,10 @@ gatsby-telemetry@^1.1.33:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-carbon@^1.11.6:
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.14.3.tgz#fd735ebd26ba82ce6e5d4f2955f5474c99d13904"
-  integrity sha512-AII6FN/pZ5R+x3UASmYjc7GhYLS3b/v6yBpO6XBhX7NhvwdCsP9te24nztJ+Yav3CNI6S9f/fRZbkcR+mqsr1Q==
+gatsby-theme-carbon@^1.16.3:
+  version "1.16.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.16.3.tgz#3a721bb7aa33f7e897a0dd0d40c954ac611a7a70"
+  integrity sha512-hxpjHpjtZu3uRdzJYBuHf+7aXakwUs2kz6N6W0kChTGkBVNP9dhAoPh96Et+0OAeaxS42ZLg2vtJlUgDPHaOkw==
   dependencies:
     "@carbon/elements" "^10.5.1"
     "@carbon/icons-react" "^10.5.0"
@@ -6242,8 +6277,8 @@ gatsby-theme-carbon@^1.11.6:
     "@mdx-js/react" "^1.0.20"
     "@reach/router" "^1.2.1"
     "@vimeo/player" "^2.9.1"
-    carbon-components "^10.5.1"
-    carbon-components-react "^7.5.1"
+    carbon-components "^10.7.3"
+    carbon-components-react "^7.7.3"
     classnames "^2.2.6"
     copy-to-clipboard "^3.2.0"
     emotion-theming "^10.0.10"
