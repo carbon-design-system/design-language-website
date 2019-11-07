@@ -30,5 +30,9 @@
       path: /elements/pictogram-library
     - title: Photography
       path: /elements/photography/overview
-    - title: Motion
-      path: /elements/motion/basics
+- title: Help
+  pages:
+    - title: FAQ
+      path: /help/faq
+    - title: Support
+      path: /help/support
