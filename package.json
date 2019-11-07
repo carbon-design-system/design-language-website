@@ -29,7 +29,8 @@
     "test:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths"
   },
   "dependencies": {
-    "@carbon/elements": "^10.5.1",
+    "@carbon/colors": "^10.5.0",
+    "@carbon/elements": "^10.7.0",
     "@carbon/icons-react": "^10.5.0",
     "@carbon/pictograms": "^10.6.0-alpha.2",
     "@carbon/pictograms-react": "^10.6.0-alpha.2",
