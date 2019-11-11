@@ -16,7 +16,7 @@ import {
   green,
   gray,
   cyan,
-} from '@carbon/colors';
+} from '@carbon/elements';
 
 const { prefix } = settings;
 

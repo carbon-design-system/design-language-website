@@ -836,7 +836,7 @@
   resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.4.1.tgz#c22d2ac67bce2163ce23706501d2cb861b18ddab"
   integrity sha512-BBAUTYtarrBbeRnbtcx8HsWfMBHdzAef5jd3U4JkiBH54fL5rizK/HjVVEjRol2YYcPH3uGpYBjGx/7s5vR9ww==
 
-"@carbon/colors@10.5.0", "@carbon/colors@^10.5.0":
+"@carbon/colors@10.5.0":
   version "10.5.0"
   resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.5.0.tgz#097b5194db3102090c552b5ab96a5968e7b825c3"
   integrity sha512-KTKBps+2GuvRtpxKqfQQsYCpGGc+JEZ5VGq4o18WKgVqNGZSTXtcFMiytMP92F8Wy1NTes9zpKG1211b2+ETsQ==
