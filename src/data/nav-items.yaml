@@ -26,6 +26,8 @@
       path: /elements/app-icons/design
     - title: Pictograms
       path: /elements/pictograms/design
+    - title: Pictogram library
+      path: /elements/pictogram-library
     - title: Photography
       path: /elements/photography/overview
     - title: Motion
