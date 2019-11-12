@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="288px" viewBox="0 0 288 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Group 48</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="84.5439237%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="App-Icons-Desktop-Copy-2" transform="translate(-678.000000, -19454.000000)">
+            <g id="Group-48" transform="translate(678.000000, 19454.000000)">
+                <rect id="Mask-Copy-3" fill="#FFFFFF" x="0" y="0" width="288" height="288"></rect>
+                <g id="Group-47" transform="translate(48.000000, 48.000000)" fill="#BEBEBE">
+                    <rect id="Rectangle-Copy-416" x="0" y="15" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-439" x="0" y="0" width="64" height="5"></rect>
+                    <rect id="Rectangle-Copy-417" x="0" y="55" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-418" x="0" y="115" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-432" x="0" y="175" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-437" x="0" y="225" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-419" x="0" y="25" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-421" x="0" y="65" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-427" x="0" y="125" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-433" x="0" y="185" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-424" x="0" y="85" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-428" x="0" y="145" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-434" x="0" y="205" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-420" x="0" y="35" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-423" x="0" y="75" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-429" x="0" y="135" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-435" x="0" y="195" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-425" x="0" y="95" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-430" x="0" y="155" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-436" x="0" y="215" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-422" x="0" y="45" width="144" height="5"></rect>
+                    <rect id="Rectangle-Copy-426" x="0" y="105" width="144" height="5"></rect>
+                    <rect id="Rectangle-Copy-431" x="0" y="165" width="144" height="5"></rect>
+                </g>
+                <rect id="Rectangle-Copy-262" fill="url(#linearGradient-1)" x="0" y="239" width="288" height="48"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
