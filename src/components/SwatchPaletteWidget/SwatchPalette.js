@@ -16,7 +16,7 @@ import {
   green,
   gray,
   cyan,
-} from '@carbon/colors';
+} from '@carbon/elements';
 
 const { prefix } = settings;
 
@@ -460,7 +460,7 @@ const PALETTES = {
     '20': {
       hex: teal[20],
       pms: '317',
-      cmyk: 'c11 m0 y3 k0',
+      cmyk: 'c11 m0 y5 k0',
     },
     '30': {
       hex: teal[30],
