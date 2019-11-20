@@ -90,3 +90,7 @@
     height: 100%;
   }
 }
+
+[class*='--col'].#{$prefix}--swatch-palettes > * + * {
+  --space: 0;
+}
