@@ -91,6 +91,6 @@
   }
 }
 
-[class*='--col'].#{$prefix}--swatch-palettes > * + * {
+.#{$prefix}--swatch-palette {
   --space: 0;
 }
