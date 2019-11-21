@@ -32,3 +32,6 @@
       path: /elements/photography/overview
     - title: Motion
       path: /elements/motion/basics
+- title: Resources
+  pages:
+    - path: /resources
