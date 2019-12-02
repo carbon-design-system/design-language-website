@@ -17,6 +17,11 @@
   }
 }
 
+.post-video-row {
+  margin-top: rem(80px); //IE fallback
+  --space: 80px;
+}
+
 //---------------------------------------
 // Principles page
 //---------------------------------------
