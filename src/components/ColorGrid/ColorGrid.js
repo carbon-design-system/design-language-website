@@ -7,7 +7,7 @@ import {
   red60,
   white,
   yellow20,
-} from '@carbon/colors';
+} from '@carbon/elements';
 import PropTypes from 'prop-types';
 
 function ColorSwatch({ hex, ...rest }) {
