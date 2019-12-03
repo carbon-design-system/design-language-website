@@ -6148,7 +6148,7 @@ gatsby-telemetry@^1.1.40:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-carbon@^1.16.3:
+gatsby-theme-carbon@^1.17.2:
   version "1.17.2"
   resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.17.2.tgz#c2d27126e56a05b66cb6f88b0a0585d7f25cdb68"
   integrity sha512-+R15q3PaCDQ4g5tGcz+Q58tlKAPqFC7qTQ+xGDxRrysL/Ak8+ynoGD9UFLb5foyP1gbraGnOHT1/qWU1621JiQ==
