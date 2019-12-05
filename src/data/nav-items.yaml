@@ -43,5 +43,11 @@
       path: /photography/tips-and-techniques
 - title: Motion UI
   pages:
-    - title: Motion
+    - title: Motion UI
       path: /motion-ui/basics
+- title: Updates
+  pages:
+    - title: What’s new
+      path: /updates/whats-new
+    - title: Roadmap
+      path: /updates/road-map
