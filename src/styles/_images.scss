@@ -13,3 +13,17 @@ img {
   width: 100%;
   display: block;
 }
+
+.gallery-row-padding {
+  margin-top: 0;
+  @include carbon--breakpoint('md') {
+    margin-top: rem(32px);
+  }
+}
+
+.gallery-row-padding div {
+  margin-top: rem(24px);
+  @include carbon--breakpoint('md') {
+    margin-top: 0;
+  }
+}
