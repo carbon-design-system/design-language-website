@@ -6148,10 +6148,10 @@ gatsby-telemetry@^1.1.40:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-carbon@^1.16.3:
-  version "1.17.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.17.2.tgz#c2d27126e56a05b66cb6f88b0a0585d7f25cdb68"
-  integrity sha512-+R15q3PaCDQ4g5tGcz+Q58tlKAPqFC7qTQ+xGDxRrysL/Ak8+ynoGD9UFLb5foyP1gbraGnOHT1/qWU1621JiQ==
+gatsby-theme-carbon@^1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.18.0.tgz#4659bfffa9cc713426b7dded0d354ede91260a34"
+  integrity sha512-XngMutzxFX1thpuT/UHfymq0288rulPSdK0A4z1Mg9eFUImFGPMv+YW/eC3QSFtOnNcuW8JisV2wzcxrqqF9gw==
   dependencies:
     "@carbon/elements" "^10.5.1"
     "@carbon/icons-react" "^10.5.0"
