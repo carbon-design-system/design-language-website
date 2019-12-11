@@ -4,7 +4,7 @@ import Carousel from '../components/Carousel';
 
 export default HomepageTemplate;
 
-<Row>
+<Row classname='homepage-row'>
   <Column colLg={4} colMd={4} noGutterSm>
     <HomepageTile
       ratio="1:1"
@@ -123,7 +123,7 @@ export default HomepageTemplate;
     />
   </Column>
 </Row>
-<Row>
+<Row classname='homepage-row'>
   <Column colLg={4} colMd={4} noGutterSm>
     <HomepageTile
       ratio="1:1"
@@ -160,7 +160,7 @@ export default HomepageTemplate;
     </HomepageTile>
   </Column>
 </Row>
-<Row>
+<Row classname='homepage-row'>
   <Column colLg={12} noGutterSm>
     <HomepageTile
       ratio={{ default: '1:2', md: '16:9' }}
@@ -187,7 +187,7 @@ export default HomepageTemplate;
     </HomepageTile>
   </Column>
 </Row>
-<Row className="homepage-tiles--end">
+<Row className="homepage-row homepage-tiles--end">
   <Column colLg={8} noGutterSm>
     <HomepageTile
       ratio={{ default: '1:2', md: '1:1' }}
