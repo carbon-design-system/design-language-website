@@ -12,7 +12,7 @@
   align-items: center;
   position: sticky;
   z-index: z('dropdown');
-  top: 4rem;
+  top: 7rem;
   border-bottom: 1px solid $ui-03;
   transition: box-shadow $duration--fast-02 ease;
   @include carbon--breakpoint('md') {
