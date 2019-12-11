@@ -2,6 +2,10 @@
   margin-bottom: 10rem;
 }
 
+.homepage-row {
+  margin-top: rem(80px);
+}
+
 .#{$prefix}--homepage-idl-tile-nested-content
   .#{$prefix}--carousel.fade
   .#{$prefix}--carousel-slide-wrapper {
