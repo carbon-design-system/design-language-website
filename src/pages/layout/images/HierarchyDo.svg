@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="288px" viewBox="0 0 288 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Group 49</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="84.5439237%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="App-Icons-Desktop-Copy-2" transform="translate(-352.000000, -19454.000000)">
+            <g id="Group-49" transform="translate(352.000000, 19454.000000)">
+                <rect id="Mask" fill="#FFFFFF" x="0" y="0" width="288" height="288"></rect>
+                <g id="Group-46" transform="translate(48.000000, 102.000000)">
+                    <rect id="Rectangle-Copy-399" fill="#BEBEBE" x="0" y="10" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-413" fill="#565656" x="0" y="0" width="64" height="5"></rect>
+                    <rect id="Rectangle-Copy-411" fill="#BEBEBE" x="0" y="30" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-410" fill="#BEBEBE" x="0" y="20" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-412" fill="#BEBEBE" x="0" y="40" width="144" height="5"></rect>
+                </g>
+                <rect id="Rectangle-Copy-399" fill="#BEBEBE" x="48" y="173" width="192" height="5"></rect>
+                <rect id="Rectangle-Copy-413" fill="#565656" x="48" y="163" width="64" height="5"></rect>
+                <rect id="Rectangle-Copy-411" fill="#BEBEBE" x="48" y="213" width="192" height="5"></rect>
+                <rect id="Rectangle-Copy-410" fill="#BEBEBE" x="48" y="183" width="192" height="5"></rect>
+                <rect id="Rectangle-Copy-414" fill="#BEBEBE" x="48" y="193" width="192" height="5"></rect>
+                <rect id="Rectangle-Copy-415" fill="#BEBEBE" x="48" y="203" width="192" height="5"></rect>
+                <rect id="Rectangle-Copy-412" fill="#BEBEBE" x="48" y="223" width="144" height="5"></rect>
+                <g id="Group-46-Copy-2" transform="translate(48.000000, 244.000000)">
+                    <rect id="Rectangle-Copy-399" fill="#BEBEBE" x="0" y="10" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-413" fill="#565656" x="0" y="0" width="64" height="5"></rect>
+                    <rect id="Rectangle-Copy-411" fill="#BEBEBE" x="0" y="30" width="192" height="5"></rect>
+                    <rect id="Rectangle-Copy-410" fill="#BEBEBE" x="0" y="20" width="192" height="5"></rect>
+                </g>
+                <rect id="Rectangle-Copy-187" fill="#565656" x="48" y="48" width="144" height="12"></rect>
+                <rect id="Rectangle-Copy-257" fill="#565656" x="48" y="66" width="112" height="12"></rect>
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="239" width="288" height="48"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
