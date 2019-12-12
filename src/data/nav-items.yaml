@@ -41,6 +41,12 @@
       path: /photography/overview
     - title: Tips and techniques
       path: /photography/tips-and-techniques
+- title: Layout
+  pages:
+    - title: Overview
+      path: /layout/overview
+    - title: Tips and techniques
+      path: /layout/tips-and-techniques
 - title: Motion UI
   pages:
     - title: Motion UI
