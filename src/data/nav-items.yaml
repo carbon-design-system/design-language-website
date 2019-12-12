@@ -1,36 +1,59 @@
 - title: Philosophy
   pages:
-    - path: /philosophy/pov
+    - title: POV
+      path: /philosophy/pov
+    - title: Principles
+      path: /philosophy/principles
 - title: Gallery
   pages:
     - path: /gallery
-- title: Elements
+- title: Typography
   pages:
     - title: Typeface
-      path: /elements/typeface
+      path: /typography/typeface
     - title: Type basics
-      path: /elements/type-basics
+      path: /typography/type-basics
     - title: Type specs UI
-      path: /elements/type-specs-ui
-    - title: Color
-      path: /elements/color
-    - title: 2x Grid
-      path: /elements/2x-grid
-    - title: Layout
-      path: /elements/layout/overview
-    - title: IBM Logos
-      path: /elements/ibm-logos/8-bar
-    - title: Icons
-      path: /elements/icons/design
-    - title: Icon library
-      path: /elements/icon-library
+      path: /typography/type-specs-ui
+- title: Color
+  pages:
+    - path: /color
+- title: 2x Grid
+  pages:
+    - path: /2x-grid
+- title: IBM logos
+  pages:
+    - title: 8-Bar
+      path: /ibm-logos/8-bar
+    - title: Rebus
+      path: /ibm-logos/rebus
+- title: Iconography
+  pages:
+    - title: UI Icons
+      path: /iconography/ui-icons/library
     - title: App icons
-      path: /elements/app-icons/design
+      path: /iconography/app-icons/design
     - title: Pictograms
-      path: /elements/pictograms/design
-    - title: Pictogram library
-      path: /elements/pictogram-library
-    - title: Photography
-      path: /elements/photography/overview
-    - title: Motion
-      path: /elements/motion/basics
+      path: /iconography/pictograms/library
+- title: Photography
+  pages:
+    - title: Overview
+      path: /photography/overview
+    - title: Tips and techniques
+      path: /photography/tips-and-techniques
+- title: Layout
+  pages:
+    - title: Overview
+      path: /layout/overview
+    - title: Tips and techniques
+      path: /layout/tips-and-techniques
+- title: Motion UI
+  pages:
+    - title: Motion UI
+      path: /motion-ui/basics
+- title: Updates
+  pages:
+    - title: What’s new
+      path: /updates/whats-new
+    - title: Roadmap
+      path: /updates/road-map
