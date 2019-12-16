@@ -33,7 +33,7 @@ const Content = () => {
 const links = {
   firstCol: [
     {
-      href: 'https://www.carbondesignsystem.com/contributing/designers/',
+      href: 'https://www.carbondesignsystem.com/how-to-contribute/overview/',
       linkText: 'Contribute',
     },
     {
