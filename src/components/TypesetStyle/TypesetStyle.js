@@ -756,15 +756,6 @@ class TypesetStyle extends React.Component {
     typesetStyleYPos: 0,
   };
 
-  componentDidMount() {
-    this.setState({
-      typesetStyleYPos: document
-        .querySelector(`.${prefix}--typeset-style-controls-sticky`)
-        .getBoundingClientRect().y,
-    });
-    this.addScrollListener();
-  }
-
   toggleBreakpoint = simulatedScreenWidth => {
     this.setState({ simulatedScreenWidth });
   };
@@ -791,19 +782,6 @@ class TypesetStyle extends React.Component {
         {breakpointName}
       </button>
     ));
-
-  addScrollListener() {
-    document.addEventListener('scroll', () => {
-      const currentYPos = document
-        .querySelector(`.${prefix}--typeset-style-controls-sticky`)
-        .getBoundingClientRect().y;
-      if (this.state.typesetStyleYPos !== currentYPos) {
-        this.setState({ typesetStyleYPos: currentYPos, stuck: false });
-      } else {
-        this.setState({ stuck: true });
-      }
-    });
-  }
 
   render() {
     const { breakpointControls, typesets } = this.props;
