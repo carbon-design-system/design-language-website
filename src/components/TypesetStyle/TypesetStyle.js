@@ -796,12 +796,10 @@ class TypesetStyle extends React.Component {
     document.addEventListener('scroll', () => {
       const currentYPos = document
         .querySelector(`.${prefix}--typeset-style-controls-sticky`)
-        .getBoundingClientRect().y;
-      if (this.state.typesetStyleYPos !== currentYPos) {
-        this.setState({ typesetStyleYPos: currentYPos, stuck: false });
-      } else {
-        this.setState({ stuck: true });
-      }
+        .getBoundingClientRect().top;
+      this.setState({
+        stuck: currentYPos === 112,
+      });
     });
   }
 
