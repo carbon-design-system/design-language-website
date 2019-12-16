@@ -72,31 +72,6 @@
   top: 112px;
 }
 
-.#{$prefix}--typeset-style-controls-sticky-stuck {
-  box-shadow: 0px 2px 6px 0px rgba($carbon--black-100, 0.2);
-
-  &:before,
-  &:after {
-    content: '';
-    position: absolute;
-    background: $carbon--gray-10;
-    height: 6rem;
-    width: 1rem;
-
-    @include carbon--breakpoint('md') {
-      height: 4rem;
-    }
-  }
-
-  &:before {
-    left: -2rem;
-  }
-
-  &:after {
-    right: -2rem;
-  }
-}
-
 .#{$prefix}--typeset-style-nav-shiv {
   width: 100%;
   height: 1rem;
@@ -111,6 +86,7 @@
   padding-left: $spacing-05;
   padding-right: 0;
   width: 100%;
+  margin-top: 8px;
 
   @include carbon--breakpoint('md') {
     width: 62.5%;

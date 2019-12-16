@@ -27,7 +27,7 @@ const colorFormats = [
 
 export default function SwatchPaletteWidget(props) {
   const [format, setFormat] = useState('hex');
-  const switchFormat = index => setFormat(colorFormats[index].value);
+  const switchFormat = ({ index }) => setFormat(colorFormats[index].value);
 
   // palettes is an array of colors to be controlled by ContentSwitcher (see PALETTES object in SwatchPalette component)
   // add '-bw' to color name to get black and white bars appearing at top and bottom of color palette
