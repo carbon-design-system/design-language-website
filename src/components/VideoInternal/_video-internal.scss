@@ -10,6 +10,9 @@
   width: 100%;
   object-fit: cover;
   object-position: center;
+  @include carbon--breakpoint('lg') {
+    padding-left: 255px; // left nav width
+  }
 }
 
 .#{$prefix}--video-internal-overlay {

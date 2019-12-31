@@ -4,7 +4,7 @@ import Carousel from '../components/Carousel';
 
 export default HomepageTemplate;
 
-<Row>
+<Row classname='homepage-row'>
   <Column colLg={4} colMd={4} noGutterSm>
     <HomepageTile
       ratio="1:1"
@@ -35,7 +35,7 @@ export default HomepageTemplate;
       title="2x Grid"
       actionIcon="article"
       transparentImage="images/grid-temp.png"
-      link="https://www.ibm.com/design/language/elements/2x-grid/"
+      link="https://www.ibm.com/design/language/2x-grid/"
       target="_blank"
     />
     <HomepageTile
@@ -59,7 +59,7 @@ export default HomepageTemplate;
       subtitle="Iconography"
       title="UI icons"
       actionIcon="resources"
-      link="https://www.ibm.com/design/language/elements/icons/design"
+      link="https://www.ibm.com/design/language/iconography/ui-icons/design"
       target="_blank"
     />
   </Column>
@@ -83,7 +83,7 @@ export default HomepageTemplate;
       subtitle="Elements"
       title="Color Palette"
       actionIcon="article"
-      link="https://www.ibm.com/design/language/elements/color/"
+      link="https://www.ibm.com/design/language/color/"
       target="_blank"
     />
   </Column>
@@ -96,7 +96,7 @@ export default HomepageTemplate;
       subtitle="Elements"
       title="Color Palette"
       actionIcon="article"
-      link="https://www.ibm.com/design/language/elements/color/"
+      link="https://www.ibm.com/design/language/color/"
       target="_blank"
     />
   </Column>
@@ -107,7 +107,7 @@ export default HomepageTemplate;
       backgroundColor="rgb(6, 31, 128)" // if omitted, defaults to #282828
       transparentImage="images/type-scales.svg"
       actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/elements/type-specs-ui/"
+      link="https://www.ibm.com/design/language/typography/type-specs-ui/"
       target="_blank"
     />
   </Column>
@@ -118,19 +118,19 @@ export default HomepageTemplate;
       subtitle="Elements"
       title="Type Specs"
       actionIcon="article"
-      link="https://www.ibm.com/design/language/elements/type-specs-ui/"
+      link="https://www.ibm.com/design/language/typography/type-specs-ui/"
       target="_blank"
     />
   </Column>
 </Row>
-<Row>
+<Row classname='homepage-row'>
   <Column colLg={4} colMd={4} noGutterSm>
     <HomepageTile
       ratio="1:1"
       theme="dark"
       image="images/landing-plex-animation.gif"
       actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/elements/type-basics/"
+      link="https://www.ibm.com/design/language/typography/type-basics/"
       target="_blank"
     />
     <HomepageTile
@@ -139,7 +139,7 @@ export default HomepageTemplate;
       subtitle="Elements"
       title="Typeface"
       actionIcon="article"
-      link="https://www.ibm.com/design/language/elements/typeface/"
+      link="https://www.ibm.com/design/language/typography/typeface/"
       target="_blank"
     />
   </Column>
@@ -160,7 +160,7 @@ export default HomepageTemplate;
     </HomepageTile>
   </Column>
 </Row>
-<Row>
+<Row classname='homepage-row'>
   <Column colLg={12} noGutterSm>
     <HomepageTile
       ratio={{ default: '1:2', md: '16:9' }}
@@ -181,13 +181,13 @@ export default HomepageTemplate;
         subtitle="Elements"
         title="Photography"
         actionIcon="article"
-        link="https://www.ibm.com/design/language/elements/photography/"
+        link="https://www.ibm.com/design/language/photography/overview"
         target="_blank"
       />
     </HomepageTile>
   </Column>
 </Row>
-<Row className="homepage-tiles--end">
+<Row className="homepage-row homepage-tiles--end">
   <Column colLg={8} noGutterSm>
     <HomepageTile
       ratio={{ default: '1:2', md: '1:1' }}
