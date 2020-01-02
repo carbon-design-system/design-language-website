@@ -4,6 +4,7 @@ Description: Access files IBM Plex™, icons and grids in our linked repositorie
 ---
 
 import AddIcon from '@carbon/icons/es/add/16';
+import '../styles/_resources.scss';
 
 <PageDescription>
 
@@ -271,7 +272,7 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="IBM Plex® latest typeface version"
+      subTitle="IBM Plex® latest typeface release"
       aspectRatio="2:1"
       href="https://github.com/IBM/plex/releases/latest"
       >
@@ -284,7 +285,7 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
 
 #### External
 
-<Row className="resource-card-group">
+<Row className="resource-card-group typography-external">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
       subTitle="IBM Plex® on Adobe Fonts"
@@ -292,7 +293,7 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
       href="https://typekit.com/foundries/ibm"
       >
 
-![](/images/adobe.png)
+![](/images/adobe-font-logo.png)
 
   </ResourceCard>
 </Column>
@@ -351,6 +352,14 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
 
   </ResourceCard>
 </Column>
+<Column colMd={2} colLg={3} className="hide-mobile type-alt-sidebar" >
+<Aside className="example-aside">
+
+**Type alternatives**<br/>
+For the typefaces still missing from the Plex family (Chinese, Japanese, Korean), please use the mentioned alternatives.
+
+</Aside>
+</Column>
 </Row>
 
 ## Motion
@@ -358,7 +367,7 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="IBM Motions package"
+      subTitle="IBM Motion package"
       aspectRatio="2:1"
       href="http://npmjs.com/package/@carbon/motion"
       >
@@ -405,34 +414,6 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
 
   </ResourceCard>
 </Column>
-</Row>
-
-## External resources
-
-<Row className="resource-card-group">
-<Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Thinking with type: baseline grid"
-      aspectRatio="2:1"
-      href="http://thinkingwithtype.com/grid/#baseline-grid"
-      >
-
-![]()
-
-  </ResourceCard>
-</Column>
-<Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Grid systems in graphic design"
-      aspectRatio="2:1"
-      href="https://www.amazon.com/Grid-Systems-Graphic-Design-Communication/dp/3721201450"
-      >
-
-![]()
-
-  </ResourceCard>
-</Column>
-
 </Row>
 
 ## Logo Requests
