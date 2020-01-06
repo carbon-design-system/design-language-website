@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="14px" viewBox="0 0 32 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>NPM</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-/-card-/-npm-/-01-enabled" transform="translate(0.000000, -10.000000)" fill="#000000">
+            <g id="NPM" transform="translate(0.000000, 10.000000)">
+                <path d="M0,0.0004 L0,11.0004 L9,11.0004 L9,13.0004 L16,13.0004 L16,11.0004 L32,11.0004 L32,0.0004 L0,0.0004 Z M2,2.0004 L30,2.0004 L30,9.0004 L16,9.0004 L14,9.0004 L14,11.0004 L11,11.0004 L11,9.0004 L9,9.0004 L2,9.0004 L2,2.0004 Z" id="Fill-1"></path>
+                <polygon id="Fill-2" points="5 9 7 9 7 4 5 4"></polygon>
+                <polygon id="Fill-3" points="9 9 11 9 11 2 9 2"></polygon>
+                <polygon id="Fill-4" points="14 7 16 7 16 4 14 4"></polygon>
+                <polygon id="Fill-5" points="17 9 19 9 19 2 17 2"></polygon>
+                <polygon id="Fill-6" points="23 9 25 9 25 4 23 4"></polygon>
+                <polygon id="Fill-7" points="27 9 29 9 29 4 27 4"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
