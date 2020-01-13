@@ -1,35 +1,25 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
-import { useStaticQuery, graphql } from 'gatsby';
 
 const currentYear = new Date().getFullYear();
 
-const Content = () => {
-  const { site } = useStaticQuery(graphql`
-    query BUILD_TIME_QUERY {
-      site {
-        buildTime(formatString: "DD MMMM YYYY")
-      }
-    }
-  `);
-  return (
-    <>
-      <p>
-        Have questions? <a href="mailto:branding@us.ibm.com">Email</a> us or
-        Slack <br />
-        <a href="https://ibm-studios.slack.com/archives/CK6LZR3PZ">
-          #ibm-brand
-        </a>{' '}
-        (internal IBM users only)
-      </p>
-      <p>
-        Last updated {site.buildTime}
-        <br />
-        Copyright © {currentYear} IBM
-      </p>
-    </>
-  );
-};
+const Content = ({ buildTime }) => (
+  <>
+    <p>
+      Have questions? <a href="mailto:branding@us.ibm.com">Email</a> us or Slack{' '}
+      <br />
+      <a href="https://ibm-studios.slack.com/archives/CK6LZR3PZ">
+        #ibm-brand
+      </a>{' '}
+      (internal IBM users only)
+    </p>
+    <p>
+      Last updated {buildTime}
+      <br />
+      Copyright © {currentYear} IBM
+    </p>
+  </>
+);
 
 const links = {
   firstCol: [
