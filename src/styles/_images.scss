@@ -8,6 +8,11 @@ img {
   max-width: 100%; //needed for svg/gif images
 }
 
+// src ends with "svg"
+img[src$='svg'] {
+  width: 100%; // svgs can scale, so we're cool with stretching them
+}
+
 // images
 .bx--row img {
   width: 100%;
