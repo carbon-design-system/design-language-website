@@ -129,7 +129,7 @@ At the core of the 2x Grid concept is the idea of divisions of two. This can be 
 
 Each application of the grid can require a different grid structure. When constructing the grid, keep in mind these different types of grids and choose which one best serves your need.
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={2} colLg={4}>
 
 ![](images/grid-ex-2x-grid-1.svg)
@@ -159,7 +159,7 @@ Add margins to your canvas when you need separation of content from the canvas b
 
 <Video src="/videos/margins.mp4" poster="/images/margins.jpg" />
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
 ![](images/grid-ex-2x-grid-with-margins.png)
@@ -189,7 +189,7 @@ Within the grid, columns and rows are especially important—they give layouts t
 
 <Caption>Columns only</Caption>
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
 ![](images/RowsGridExample_v2.png)
@@ -206,22 +206,18 @@ Within the grid, columns and rows are especially important—they give layouts t
 </Column>
 </Row>
 
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Always divide the live area to ensure equal column and row widths.">
+<DoDontRow>
+<DoDont caption="Always divide the live area to ensure equal column and row widths.">
 
 ![](images/divide-right.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Never divide from the canvas boundary when using a margin.">
+</DoDont>
+<DoDont type="dont" caption="Never divide from the canvas boundary when using a margin.">
 
 ![](images/divide-wrong.svg)
 
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ### Gutters
 
@@ -229,7 +225,7 @@ Add gutters to columns and rows when additional space is needed to separate cont
 
 <Video src="/videos/gutters.mp4" poster="/images/gutters.jpg" />
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
 ![](images/grid-ex-with-gutters.png)
@@ -246,22 +242,18 @@ Add gutters to columns and rows when additional space is needed to separate cont
 </Column>
 </Row>
 
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Distribute gutters evenly to achieve equal columns and rows.">
+<DoDontRow>
+<DoDont caption="Distribute gutters evenly to achieve equal columns and rows.">
 
 ![](images/gutters-right.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Don’t add gutter to the canvas divisions without redistributing.">
+</DoDont>
+<DoDont type="dont" caption="Don’t add gutter to the canvas divisions without redistributing.">
 
 ![](images/gutters-wrong.svg)
 
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Base unit
 
@@ -286,7 +278,7 @@ Mini unit sizes based on viewing distance:
 | 4–8m          | 32mm      | Print viewed from across a room   | 96pt                        |
 | 8–16m         | 64mm      | Print viewed from across a street | 192pt                       |
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={2} colLg={4}>
 
 ![](images/mini-unit-2mm.svg)
@@ -354,7 +346,7 @@ For advanced typographic layouts, consider creating a base unit from the leading
 
 The baseline unit can be used to construct all of the grid proportions, or you can take a hybrid approach by using the mini unit to create your grid and a baseline grid to guide your content.
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
 ![](images/BaselineGrid-01.svg)
@@ -413,7 +405,7 @@ All spacing between elements can be defined by the base unit. Use the following 
 
 </ArtDirection>
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
 ![](images/StandingBannerExample_v2.png)
