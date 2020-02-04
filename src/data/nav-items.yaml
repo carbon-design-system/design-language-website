@@ -1,6 +1,6 @@
 - title: Philosophy
   pages:
-    - title: POV
+    - title: Point of view
       path: /philosophy/pov
     - title: Principles
       path: /philosophy/principles
@@ -51,6 +51,9 @@
   pages:
     - title: Motion UI
       path: /motion-ui/basics
+- title: Resources
+  pages:
+    - path: /resources
 - title: Updates
   pages:
     - title: What’s new
