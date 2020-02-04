@@ -100,6 +100,7 @@ const IconLibrary = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           allIconResults={filteredIcons.length}
+          pageName={'Icon'}
         />
       ) : (
         <div className={svgLibrary}>
