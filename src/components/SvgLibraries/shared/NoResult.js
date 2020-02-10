@@ -16,6 +16,7 @@ const NoResult = ({
   selectedCategory,
   type = 'icons',
   pageName,
+  pageUrl
 }) => (
   <div className={noResult}>
     {allIconResults ? (
@@ -53,7 +54,7 @@ const NoResult = ({
           <Column colMd={4} colLg={4} noGutterSm>
             <ResourceCard
               actionIcon="download"
-              href="https://github.com/carbon-design-system/carbon/blob/master/packages/pictograms/master/pictogram-master.ai"
+              href={pageUrl}
               subTitle={`Download the ${pageName} grid`}>
               <MdxIcon name="illustrator" />
             </ResourceCard>

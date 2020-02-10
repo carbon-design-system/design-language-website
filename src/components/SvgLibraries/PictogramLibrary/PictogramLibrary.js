@@ -91,6 +91,7 @@ const IconLibrary = () => {
           setSelectedCategory={setSelectedCategory}
           allIconResults={filteredPictograms.length}
           pageName={'pictogram'}
+          pageUrl={'https://github.com/carbon-design-system/carbon/blob/master/packages/pictograms/master/pictogram-master.ai'}
         />
       ) : (
         <div className={svgLibrary}>
