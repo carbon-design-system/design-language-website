@@ -26,13 +26,13 @@ const checklist = [
   {
     question: 'Is your motion unobtrusive?',
     options: [
-      'The best interface motion may go unnoticed, because it often keeps users engaged with their tasks. Is your motion frequently noticed by the average users? If so consider removing it, or minimizing it.',
+      'The best interface motion may go unnoticed, because it often keeps users engaged with their tasks. Is your motion frequently noticed by the average users? If so, consider removing it, or minimizing it.',
     ],
   },
   {
     question: 'Is your motion responsive?',
     options: [
-      "Check your motion on different screens. In general, the smaller the screen is, the longer the animation should take - this ensures the motion will be perceivable to the user's eye.",
+      "Check your motion on different screens. In general, the smaller the screen is, the longer the animation should take. This ensures the motion will be perceivable to the user's eye.",
     ],
   },
 ];
