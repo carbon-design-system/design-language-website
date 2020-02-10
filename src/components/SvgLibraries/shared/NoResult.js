@@ -45,7 +45,7 @@ const NoResult = ({
         </p>
         <Row className="resource-card-group">
           <Column colMd={4} colLg={4} noGutterSm>
-            <ResourceCard subTitle={`Submit a ${pageName} design`}
+            <ResourceCard subTitle={`Submit ${pageName === 'icon' ? 'an icon' : 'a pictogram'} design`}
               href="https://github.ibm.com/brand/pictograms/issues/new">
               <MdxIcon name="github" />
             </ResourceCard>
