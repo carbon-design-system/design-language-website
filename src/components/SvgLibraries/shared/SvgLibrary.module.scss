@@ -106,6 +106,9 @@
 
 .svg-library {
   overflow: hidden;
+  @include carbon--breakpoint('md') {
+    overflow: visible;
+  }
 }
 
 .svg-category .category-title {
