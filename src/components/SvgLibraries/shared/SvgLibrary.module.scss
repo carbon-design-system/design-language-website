@@ -281,8 +281,13 @@ $svg-card-border: 1px solid $ui-03;
   height: 100%;
 }
 
+.flex-container svg {
+  fill: $icon-01;
+}
+
 .svg-card .trigger-text {
   @include carbon--type-style('label-01');
+  color: $text-01;
   top: $spacing-04;
   left: $spacing-05;
   position: absolute;

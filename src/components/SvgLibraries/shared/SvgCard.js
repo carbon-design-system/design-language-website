@@ -1,7 +1,8 @@
 /* eslint-disable camelcase */
 import React, { useState } from 'react';
 import { pascal } from 'change-case';
-import { Menu, MenuItem } from './Menu';
+import ActionBar from './ActionBar';
+
 import {
   svgCard,
   svgCardInside,
@@ -10,32 +11,35 @@ import {
 } from './SvgLibrary.module.scss';
 
 const SvgCard = ({ icon, ...rest }) => {
-  const [menuExpanded, setMenuExpanded] = useState(false);
-  const copyHandler = () => {
-    alert('You copied an icon');
-  };
-
-  const downloadHandler = () => {
-    alert('You downloaded an icon');
-  };
+  const [isActionBarVisible, setIsActionBarVisible] = useState(false);
+  const { name, Component, friendly_name: friendlyName } = icon;
 
   return (
-    <li className={svgCard}>
+    <li
+      onMouseEnter={() => {
+        setIsActionBarVisible(true);
+      }}
+      onMouseLeave={() => {
+        setIsActionBarVisible(false);
+      }}
+      className={svgCard}>
       <div className={svgCardInside}>
-        <span className={triggerText}>{icon.friendly_name}</span>
-        <Menu expanded={menuExpanded} setExpanded={setMenuExpanded}>
-          <MenuItem onClick={copyHandler}>Copy component</MenuItem>
-          <MenuItem onClick={downloadHandler}>Download SVG</MenuItem>
-        </Menu>
+        <span className={triggerText}>{friendlyName}</span>
         <div className={flexContainer}>
-          {icon.Component ? (
-            <icon.Component {...rest}>
-              <title>{icon.friendly_name}</title>
-            </icon.Component>
+          {Component ? (
+            <Component {...rest}>
+              <title>{friendlyName}</title>
+            </Component>
           ) : (
-            <p>Error: no component found for {pascal(icon.friendly_name)}</p>
+            <p>Error: no component found for {pascal(friendlyName)}</p>
           )}
         </div>
+        <ActionBar
+          name={name}
+          friendlyName={friendlyName}
+          isActionBarVisible={isActionBarVisible}
+          setIsActionBarVisible={setIsActionBarVisible}
+        />
       </div>
     </li>
   );
