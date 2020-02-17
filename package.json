@@ -36,7 +36,7 @@
     "@ibm/plex": "^4.0.2",
     "carbon-components": "^10.7.4",
     "carbon-components-react": "^7.7.4",
-    "gatsby": "^2.19.12",
+    "gatsby": "^2.19.17",
     "gatsby-plugin-manifest": "^2.2.5",
     "gatsby-theme-carbon": "^1.20.0",
     "prop-types": "^15.7.2",
