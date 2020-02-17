@@ -35,14 +35,14 @@ const IconLibrary = () => {
         iconComponentList[`Q${icon}32`],
     }));
 
-    const filteredIcons = iconArray.filter(({ deprecated }) => !deprecated);
+    const filteredIconArray = iconArray.filter(({ deprecated }) => !deprecated);
 
     setCategoryList(
-      Object.keys(groupBy(filteredIcons, 'categories[0].name')).sort()
+      Object.keys(groupBy(filteredIconArray, 'categories[0].name')).sort()
     );
     setCategoriesLoaded(true);
 
-    setIconComponents(filteredIcons);
+    setIconComponents(filteredIconArray);
   }, []);
 
   const getFilteredIcons = () => {
