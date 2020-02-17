@@ -1,4 +1,4 @@
-import { keyBy } from 'lodash';
+import { keyBy } from 'lodash-es';
 import { icons as iconMetaData } from '@carbon/icons/metadata.json';
 import { pascalCase } from 'change-case';
 

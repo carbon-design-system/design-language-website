@@ -4,7 +4,7 @@ module.exports = {
   },
   pathPrefix: '/design/language',
   plugins: [
-    'gatsby-plugin-carbon-icon-library',
+    'gatsby-theme-carbon-svgs',
     {
       resolve: 'gatsby-theme-carbon',
       options: {
