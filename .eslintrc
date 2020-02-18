@@ -3,6 +3,7 @@
   "rules": {
     "react/prop-types": 0,
     "import/no-extraneous-dependencies": 0,
-    "react/destructuring-assignment": 0
+    "react/destructuring-assignment": 0,
+    "arrow-body-style": 0
   }
 }
