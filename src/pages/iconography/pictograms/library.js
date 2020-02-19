@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from 'gatsby-theme-carbon/src/templates/Default';
-import PictogramLibrary from '../../../components/SvgLibraries/PictogramLibrary';
+import { PictogramLibrary } from '../../../../plugins/gatsby-theme-carbon-svgs';
 
 const frontmatter = {
   label:
@@ -8,13 +8,13 @@ const frontmatter = {
   title: 'Pictograms',
   description:
     'Pictograms are visual symbols used to represent ideas, objects, or actions. They communicate messages at a glance, afford interactivity, and draw attention to important information.',
-  tabs: ['Library', 'Design', 'Usage', 'Contribute'],
+  tabs: ['Library', 'Usage', 'Contribute'],
 };
 
-const PictogramLibraryPage = ({ pageContext, ...rest }) => (
+const LibraryPage = ({ pageContext, ...rest }) => (
   <Layout pageContext={{ ...pageContext, frontmatter }} {...rest}>
-    <PictogramLibrary />
+    <PictogramLibrary site="idl" />
   </Layout>
 );
 
-export default PictogramLibraryPage;
+export default LibraryPage;

@@ -106,6 +106,9 @@
 
 .svg-library {
   overflow: hidden;
+  @include carbon--breakpoint('md') {
+    overflow: visible;
+  }
 }
 
 .svg-category .category-title {
@@ -278,8 +281,13 @@ $svg-card-border: 1px solid $ui-03;
   height: 100%;
 }
 
+.flex-container svg {
+  fill: $icon-01;
+}
+
 .svg-card .trigger-text {
   @include carbon--type-style('label-01');
+  color: $text-01;
   top: $spacing-04;
   left: $spacing-05;
   position: absolute;
@@ -320,4 +328,17 @@ $svg-card-border: 1px solid $ui-03;
 
 .no-result :global(.resource-card-group) img {
   width: 32px;
+}
+
+.icon {
+  width: 32px;
+  object-fit: contain;
+  position: relative;
+  display: inline-block;
+  user-select: none;
+  vertical-align: text-bottom;
+}
+
+.icon-inverse {
+  fill: $inverse-01;
 }
