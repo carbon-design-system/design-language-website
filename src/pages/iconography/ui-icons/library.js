@@ -5,7 +5,7 @@ import { IconLibrary } from '../../../../plugins/gatsby-theme-carbon-svgs';
 const frontmatter = {
   label:
     'Icons are visual symbols used to represent ideas, objects, or actions. They communicate messages at a glance, afford interactivity, and draw attention to important information.',
-  title: 'Icons',
+  title: 'UI icons',
   description:
     'Icons are visual symbols used to represent ideas, objects, or actions. They communicate messages at a glance, afford interactivity, and draw attention to important information.',
   tabs: ['Library', 'Design', 'Usage', 'Contribute'],
