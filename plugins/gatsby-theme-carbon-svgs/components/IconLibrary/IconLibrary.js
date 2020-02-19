@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-debugger */
 import React, { useEffect, useState } from 'react';
-import { pickBy, groupBy, debounce } from 'lodash';
+import { pickBy, groupBy, debounce } from 'lodash-es';
 import * as iconsReact from '@carbon/icons-react';
 
 import iconMetaData from './iconMetaData';
@@ -35,11 +35,14 @@ const IconLibrary = () => {
         iconComponentList[`Q${icon}32`],
     }));
 
+    const filteredIconArray = iconArray.filter(({ deprecated }) => !deprecated);
+
     setCategoryList(
-      Object.keys(groupBy(iconArray, 'categories[0].name')).sort()
+      Object.keys(groupBy(filteredIconArray, 'categories[0].name')).sort()
     );
     setCategoriesLoaded(true);
-    setIconComponents(iconArray);
+
+    setIconComponents(filteredIconArray);
   }, []);
 
   const getFilteredIcons = () => {
@@ -100,8 +103,8 @@ const IconLibrary = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           allIconResults={filteredIcons.length}
-          pageName={'icon'}
-          pageUrl={'https://github.com/carbon-design-system/carbon/blob/master/packages/icons/master/ui-icon-master.ai'}
+          pageName="icon"
+          pageUrl="https://github.com/carbon-design-system/carbon/blob/master/packages/icons/master/ui-icon-master.ai"
         />
       ) : (
         <div className={svgLibrary}>

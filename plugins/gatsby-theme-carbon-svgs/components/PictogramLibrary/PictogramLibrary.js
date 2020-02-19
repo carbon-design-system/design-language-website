@@ -1,7 +1,7 @@
 /* eslint-disable no-debugger */
 import React, { useEffect, useState } from 'react';
 
-import { groupBy, debounce } from 'lodash';
+import { groupBy, debounce } from 'lodash-es';
 import * as pictogramsReact from '@carbon/pictograms-react';
 
 import FilterRow from '../shared/FilterRow';
@@ -90,8 +90,8 @@ const IconLibrary = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           allIconResults={filteredPictograms.length}
-          pageName={'pictogram'}
-          pageUrl={'https://github.com/carbon-design-system/carbon/blob/master/packages/pictograms/master/pictogram-master.ai'}
+          pageName="pictogram"
+          pageUrl="https://github.com/carbon-design-system/carbon/blob/master/packages/pictograms/master/pictogram-master.ai"
         />
       ) : (
         <div className={svgLibrary}>
