@@ -1,4 +1,5 @@
 import React, { useRef, useContext, useState, useEffect } from 'react';
+import ReactDOMServer from 'react-dom/server';
 import { pascalCase } from 'change-case';
 import { Code16, Download16 } from '@carbon/icons-react';
 import { TooltipDefinition } from 'carbon-components-react';
@@ -9,6 +10,7 @@ import styles from './ActionBar.module.scss';
 
 const ActionBar = ({
   name,
+  component: Element,
   friendlyName,
   setIsActionBarVisible,
   isActionBarVisible,
@@ -29,9 +31,12 @@ const ActionBar = ({
 
   const handleDownload = () => {
     const a = document.body.appendChild(document.createElement('a'));
+
+    const string = ReactDOMServer.renderToStaticMarkup(<Element />);
+    const blob = new Blob([string], { type: 'image/svg+xml' });
+    const url = window.URL.createObjectURL(blob);
     a.download = `${name}.svg`;
-    a.type = `image/svg+xml`;
-    a.href = withPrefix(`/${type}s/${name}.svg`);
+    a.href = url;
     a.click();
     // document.body.removeChild(a);
   };
