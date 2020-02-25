@@ -35,6 +35,7 @@ const SvgCard = ({ icon, ...rest }) => {
           )}
         </div>
         <ActionBar
+          component={Component}
           name={name}
           friendlyName={friendlyName}
           isActionBarVisible={isActionBarVisible}
