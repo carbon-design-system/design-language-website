@@ -5,7 +5,7 @@ const isDirectory = source => lstatSync(source).isDirectory();
 
 exports.onPreBootstrap = async ({ pathPrefix }) => {
   // Transfer icons to public directory
-  const destination = `./public${pathPrefix}/icons`;
+  const destination = `./public${pathPrefix}`;
   await copy('./node_modules/@carbon/icons/svg/32', destination, {
     overwrite: true,
   });
@@ -22,7 +22,7 @@ exports.onPreBootstrap = async ({ pathPrefix }) => {
   });
 
   // Transfer pictograms to public directory
-  const pictoDestination = `./public${pathPrefix}/pictograms`;
+  const pictoDestination = `./public${pathPrefix}`;
   await copy('./node_modules/@carbon/pictograms/svg', pictoDestination, {
     overwrite: true,
   });
