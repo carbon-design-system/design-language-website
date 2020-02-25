@@ -30,9 +30,10 @@ const ActionBar = ({
   const handleDownload = () => {
     const a = document.body.appendChild(document.createElement('a'));
     a.download = `${name}.svg`;
+    a.type = `image/svg+xml`;
     a.href = withPrefix(`/${type}s/${name}.svg`);
     a.click();
-    document.body.removeChild(a);
+    // document.body.removeChild(a);
   };
 
   const handleCopy = () => {
