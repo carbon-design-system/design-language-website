@@ -4,7 +4,6 @@ import { pascalCase } from 'change-case';
 import { Code16, Download16 } from '@carbon/icons-react';
 import { TooltipDefinition } from 'carbon-components-react';
 import copy from 'copy-to-clipboard';
-import { withPrefix } from 'gatsby';
 import { LibraryContext } from './LibraryProvider';
 import styles from './ActionBar.module.scss';
 
@@ -31,11 +30,9 @@ const ActionBar = ({
 
   const handleDownload = () => {
     const a = document.body.appendChild(document.createElement('a'));
-
     const string = ReactDOMServer.renderToStaticMarkup(<Element />);
     const blob = new Blob([string], { type: 'image/svg+xml' });
     const url = window.URL.createObjectURL(blob);
-    console.log({ url });
     a.download = `${name}.svg`;
     a.href = url;
     a.click();
