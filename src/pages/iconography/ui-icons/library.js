@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from 'gatsby-theme-carbon/src/templates/Default';
-import IconLibrary from '../../../components/SvgLibraries/IconLibrary';
+import { IconLibrary } from '../../../../plugins/gatsby-theme-carbon-svgs';
 
 const frontmatter = {
   label:
@@ -13,7 +13,7 @@ const frontmatter = {
 
 const LibraryPage = ({ pageContext, ...rest }) => (
   <Layout pageContext={{ ...pageContext, frontmatter }} {...rest}>
-    <IconLibrary />
+    <IconLibrary site="idl" />
   </Layout>
 );
 

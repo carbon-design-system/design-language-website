@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "main": "src",
   "engines": {
-    "node": "^8 || ^10"
+    "node": "^10 || ^12"
   },
   "repository": {
     "url": "git@github.com:carbon-design-system/design-language-website.git",
@@ -30,19 +30,24 @@
   },
   "dependencies": {
     "@carbon/elements": "^10.7.0",
-    "@carbon/icons-react": "^10.5.0",
-    "@carbon/pictograms": "^10.6.0-alpha.2",
-    "@carbon/pictograms-react": "^10.6.0-alpha.2",
-    "@ibm/plex": "^2.0.0",
+    "@carbon/icons": "^10.8.2",
+    "@carbon/icons-react": "^10.8.2",
+    "@carbon/pictograms": "^10.8.2",
+    "@carbon/pictograms-react": "^10.8.2",
+    "@ibm/plex": "^4.0.2",
     "carbon-components": "^10.7.4",
     "carbon-components-react": "^7.7.4",
-    "gatsby": "^2.13.64",
+    "copy-to-clipboard": "^3.2.1",
+    "fs-extra": "^8.1.0",
+    "gatsby": "^2.19.17",
     "gatsby-plugin-manifest": "^2.2.5",
-    "gatsby-theme-carbon": "^1.18.2",
+    "gatsby-theme-carbon": "^1.20.0",
+    "lodash-es": "^4.17.15",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-textarea-autosize": "^7.1.0"
+    "react-textarea-autosize": "^7.1.0",
+    "use-media": "^1.4.0"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",

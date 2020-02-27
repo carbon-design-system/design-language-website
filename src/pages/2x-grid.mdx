@@ -1,13 +1,13 @@
 ---
 title: 2x Grid
-description: The IBM 2x Grid is a framework providing the structure that informs spatial relationships for everything we design from typography to visual elements.
+description: The IBM grid is the framework for all the visual elements and typography. The grid gives you structure and guidance so you can focus on your creative idea.
 ---
 
 import { PageDescription, AnchorLinks, AnchorLink } from 'gatsby-theme-carbon';
 
 <PageDescription>
 
-The IBM 2x grid is the framework for all the visual elements and typography. It’s
+The IBM grid is the framework for all the visual elements and typography. It’s
 fundamental to everything we design. No matter what device or medium you’re
 working with, the grid gives you just enough structure and guidance so you can
 focus on your creative idea.
@@ -31,10 +31,10 @@ focus on your creative idea.
       subTitle="2x Grid"
       aspectRatio="2:1"
       href="https://www.carbondesignsystem.com/guidelines/2x-grid/basics"
-      actionIcon="launch"
+      actionIcon="arrowRight"
       >
 
-![bee image](/images/bee.svg)
+![](/images/bee.svg)
 
   </ResourceCard>
 </Column>
@@ -46,7 +46,7 @@ focus on your creative idea.
       disabled
       >
 
-![bee image](/images/bee.svg)
+![](/images/bee.svg)
 
   </ResourceCard>
 </Column>
@@ -83,7 +83,12 @@ At the core of the 2x Grid concept is the idea of divisions of two. This can be 
 
 <ImageGalleryImage alt="icon grid" title="Icon grid" col={4}>
 
+<GifPlayer>
+
 ![icon grid](images/IconGrid.gif)
+![icon grid](images/IconGrid.jpg)
+
+</GifPlayer>
 
 </ImageGalleryImage>
 
@@ -113,7 +118,12 @@ At the core of the 2x Grid concept is the idea of divisions of two. This can be 
 
 <ImageGalleryImage alt="watson cloud" title="Watson cloud" col={4}>
 
+<GifPlayer color="dark">
+
 ![watson cloud](images/WatsonCloud.gif)
+![watson cloud](images/WatsonCloud.jpg)
+
+</GifPlayer>
 
 </ImageGalleryImage>
 
@@ -129,24 +139,24 @@ At the core of the 2x Grid concept is the idea of divisions of two. This can be 
 
 Each application of the grid can require a different grid structure. When constructing the grid, keep in mind these different types of grids and choose which one best serves your need.
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={2} colLg={4}>
 
-![2x grid image](images/grid-ex-2x-grid-1.svg)
+![](images/grid-ex-2x-grid-1.svg)
 
 <Caption>No margin or gutter</Caption>
 
 </Column>
 <Column colMd={2} colLg={4}>
 
-![2x grid image](images/grid-ex-2x-grid-2.svg)
+![](images/grid-ex-2x-grid-2.svg)
 
 <Caption>Margin with no gutter</Caption>
 
 </Column>
 <Column colMd={2} colLg={4}>
 
-![2x grid](images/grid-ex-2x-grid-3.svg)
+![](images/grid-ex-2x-grid-3.svg)
 
 <Caption>Margin and gutter</Caption>
 
@@ -159,69 +169,65 @@ Add margins to your canvas when you need separation of content from the canvas b
 
 <Video src="/videos/margins.mp4" poster="/images/margins.jpg" />
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
-![2x grid](images/grid-ex-2x-grid-with-margins.png)
+![](images/grid-ex-2x-grid-with-margins.png)
 
-<Caption>2x Grid</Caption>
+<Caption>2x Grid constructed with margins</Caption>
 
 </Column>
 <Column colMd={4} colLg={6}>
 
-![event grid](images/EventGridExample_v2.png)
+![](images/EventGridExample_v2.png)
 
-<Caption>2x Grid</Caption>
+<Caption>2x Grid without margins</Caption>
 
 </Column>
 </Row>
 
 ### Columns and rows
 
-Within the grid, columns and rows are especially important—they give layouts their structure. You can choose between 1, 2, 4, 8, and 16 divisions. Stick to your choice throughout your design to maintain structural rhythm.
+Within the grid, columns and rows are especially important—they give layouts their structure. You can choose between 1, 2, 4, 8, and 16 divisions. Stick to your choice throughout your design to maintain structure.
 
 <Video
   src="/videos/columns-and-rows.mp4"
   poster="/images/columns-and-rows.jpg"
 />
 
-![grid security](images/grid-ex-security-lg.png)
+![](images/grid-ex-security-lg.png)
 
 <Caption>Columns only</Caption>
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
-![rows grid](images/RowsGridExample_v2.png)
+![](images/RowsGridExample_v2.png)
 
 <Caption>Rows only</Caption>
 
 </Column>
 <Column colMd={4} colLg={6}>
 
-![grid image](images/grid-ex-columns-and-rows.png)
+![](images/grid-ex-columns-and-rows.png)
 
 <Caption>Columns and rows</Caption>
 
 </Column>
 </Row>
 
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Always divide the live area to ensure equal column and row widths.">
+<DoDontRow>
+<DoDont caption="Always divide the live area to ensure equal column and row widths.">
 
-![divide right](images/divide-right.svg)
+![](images/divide-right.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Never divide from the canvas boundary when using a margin.">
+</DoDont>
+<DoDont type="dont" caption="Never divide from the canvas boundary when using a margin.">
 
-![divide wrong](images/divide-wrong.svg)
+![](images/divide-wrong.svg)
 
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ### Gutters
 
@@ -229,39 +235,35 @@ Add gutters to columns and rows when additional space is needed to separate cont
 
 <Video src="/videos/gutters.mp4" poster="/images/gutters.jpg" />
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
-![grid image](images/grid-ex-with-gutters.png)
+![](images/grid-ex-with-gutters.png)
 
 <Caption>With gutters</Caption>
 
 </Column>
 <Column colMd={4} colLg={6}>
 
-![grid image](images/grid-ex-without-gutters.png)
+![](images/grid-ex-without-gutters.png)
 
 <Caption>Without gutters</Caption>
 
 </Column>
 </Row>
 
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Distribute gutters evenly to achieve equal columns and rows.">
+<DoDontRow>
+<DoDont caption="Distribute gutters evenly to achieve equal columns and rows.">
 
-![gutters image](images/gutters-right.svg)
+![](images/gutters-right.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Don’t add gutter to the canvas divisions without redistributing.">
+</DoDont>
+<DoDont type="dont" caption="Don’t add gutter to the canvas divisions without redistributing.">
 
-![gutters image](images/gutters-wrong.svg)
+![](images/gutters-wrong.svg)
 
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Base unit
 
@@ -286,24 +288,24 @@ Mini unit sizes based on viewing distance:
 | 4–8m          | 32mm      | Print viewed from across a room   | 96pt                        |
 | 8–16m         | 64mm      | Print viewed from across a street | 192pt                       |
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={2} colLg={4}>
 
-![mini unit](images/mini-unit-2mm.svg)
+![](images/mini-unit-2mm.svg)
 
 <Caption>Handheld card—2mm mini unit</Caption>
 
 </Column>
 <Column colMd={2} colLg={4}>
 
-![standing banner](images/StandingBanner-01.svg)
+![](images/StandingBanner-01.svg)
 
 <Caption>Standing banner—16mm mini unit</Caption>
 
 </Column>
 <Column colMd={2} colLg={4}>
 
-![mini unit image](images/mini-unit-256mm.svg)
+![](images/mini-unit-256mm.svg)
 
 <Caption>Billboard—256mm mini unit</Caption>
 
@@ -332,19 +334,22 @@ The 8px mini unit guides everything in both software product and web environment
       subTitle="2x Grid in UI: The mini unit"
       aspectRatio="2:1"
       href="https://www.carbondesignsystem.com/guidelines/2x-grid/basics#mini-unit"
-      actionIcon="arrowRight"
       >
 
-![bee image](/images/bee.svg)
+![](/images/carbon.png)
 
   </ResourceCard>
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="IBM digital media templates"
+      <ResourceCard
+      subTitle="2x Grid in UI: Implementation"
       aspectRatio="2:1"
-      disabled
-      ></ResourceCard>
+      href="https://www.carbondesignsystem.com/guidelines/2x-grid/implementation"
+      >
+
+![](/images/carbon.png)
+
+  </ResourceCard>
 </Column>
 </Row>
 
@@ -354,17 +359,17 @@ For advanced typographic layouts, consider creating a base unit from the leading
 
 The baseline unit can be used to construct all of the grid proportions, or you can take a hybrid approach by using the mini unit to create your grid and a baseline grid to guide your content.
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
-![baseline grid](images/BaselineGrid-01.svg)
+![](images/BaselineGrid-01.svg)
 
 <Caption>Baseline unit grid</Caption>
 
 </Column>
 <Column colMd={4} colLg={6}>
 
-![hybrid grid](images/HybridGrid-01.svg)
+![](images/HybridGrid-01.svg)
 
 <Caption>Hybrid mini unit grid with baseline</Caption>
 
@@ -380,7 +385,7 @@ The baseline unit can be used to construct all of the grid proportions, or you c
       actionIcon="arrowRight"
       >
 
-![bee image](/images/bee.svg)
+![](/images/bee.svg)
 
   </ResourceCard>
 </Column>
@@ -391,8 +396,6 @@ The baseline unit can be used to construct all of the grid proportions, or you c
       href="http://thinkingwithtype.com/grid/#baseline-grid"
       ></ResourceCard>
 </Column>
-</Row>
-<Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
       subTitle="Grid systems in graphic design"
@@ -413,17 +416,17 @@ All spacing between elements can be defined by the base unit. Use the following 
 
 </ArtDirection>
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
-![standing banner](images/StandingBannerExample_v2.png)
+![](images/StandingBannerExample_v2.png)
 
 <Caption>Standing Banner (mini unit)</Caption>
 
 </Column>
 <Column colMd={4} colLg={6}>
 
-![stationery example](images/StationeryExample_v2.png)
+![](images/StationeryExample_v2.png)
 
 <Caption>IBM Letterhead (baseline unit)</Caption>
 
