@@ -573,7 +573,7 @@ const typeSets = {
     },
     {
       description:
-        'This is for captions or legal content in a layout — not for body copy.',
+        'This is for captions or legal content in a layout—not for body copy.',
       key: 'caption-01',
       name: 'caption-01',
     },
