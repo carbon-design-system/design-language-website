@@ -3056,7 +3056,25 @@ caniuse-lite@^1.0.30001027:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001028.tgz#f2241242ac70e0fa9cda55c2776d32a0867971c2"
   integrity sha512-Vnrq+XMSHpT7E+LWoIYhs3Sne8h9lx9YJV3acH3THNCwU/9zV93/ta4xVfzTtnqd3rvnuVpVjE3DFqf56tr3aQ==
 
-carbon-components-react@^7.7.4, carbon-components-react@^7.9.2:
+carbon-components-react@^7.10.1:
+  version "7.10.1"
+  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.10.1.tgz#8f29cca3fea91f022ab66484800458680d5336e4"
+  integrity sha512-mTwnOqKFrAS/on7nae8GRbYUQGhM+KAgMbZrLNtGUjRlan0BgEW057tjJrkzfEUH4f+ZDNbMJ2mxUfyQX72EGQ==
+  dependencies:
+    "@carbon/icons-react" "^10.9.1"
+    classnames "2.2.6"
+    downshift "^1.31.14"
+    flatpickr "4.6.1"
+    invariant "^2.2.3"
+    lodash.debounce "^4.0.8"
+    lodash.findlast "^4.5.0"
+    lodash.isequal "^4.5.0"
+    lodash.omit "^4.5.0"
+    react-is "^16.8.6"
+    warning "^3.0.0"
+    window-or-global "^1.0.1"
+
+carbon-components-react@^7.9.2:
   version "7.9.3"
   resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.9.3.tgz#664dda1c47077944e30a9de5bcdbd4c219954248"
   integrity sha512-D6514Cgl3Iz5n9XH0Vp+3cYsSRaE4n9eXy6S9JpZPR1StDDrnGb/KIwH9vmz4gevpNFjLRo7To0E1R5hB3U3Fw==
@@ -3074,7 +3092,18 @@ carbon-components-react@^7.7.4, carbon-components-react@^7.9.2:
     warning "^3.0.0"
     window-or-global "^1.0.1"
 
-carbon-components@^10.7.4, carbon-components@^10.9.2:
+carbon-components@^10.10.1:
+  version "10.10.1"
+  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.10.1.tgz#db8bb3703123db402238283ab315aa23d5ab69a4"
+  integrity sha512-qbZsbdz6cUD/cgiS3ww71pUWC3WzWOJMrEsfwLh/XItdJAs5P+Ax9HouMLrlM1ia1e9fW8xdUsqeMveuYIxk9w==
+  dependencies:
+    carbon-icons "^7.0.7"
+    flatpickr "4.6.1"
+    lodash.debounce "^4.0.8"
+    scss-to-json "^2.0.0"
+    warning "^3.0.0"
+
+carbon-components@^10.9.2:
   version "10.9.3"
   resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.9.3.tgz#d0d8f42c35fb7ce1cacc131d1c4b11fc2c905a6a"
   integrity sha512-8TPIBjFIez2ymh3RmbHilel+/ReqpbfPf9IUBTOLtSdxI2VuyBWFxtBB/82xtHpUr3RfPdQ1U/rxDKYxoDOxrg==
@@ -4006,6 +4035,11 @@ cssesc@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-2.0.0.tgz#3b13bd1bb1cb36e1bcb5a4dcd27f54c5dcb35703"
   integrity sha512-MsCAG1z9lPdoO/IUMLSBWBSVxVtJ1395VGIQ+Fc2gNdkQ1hNDnQdw3YhA71WJCBW1vdwA0cAnk/DnW6bqoEUYg==
+
+cssmin@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/cssmin/-/cssmin-0.4.3.tgz#c9194077e0ebdacd691d5f59015b9d819f38d015"
+  integrity sha1-yRlAd+Dr2s1pHV9ZAVudgZ840BU=
 
 cssnano-preset-default@^4.0.7:
   version "4.0.7"
@@ -8554,6 +8588,11 @@ lodash.filter@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.filter/-/lodash.filter-4.6.0.tgz#668b1d4981603ae1cc5a6fa760143e480b4c4ace"
   integrity sha1-ZosdSYFgOuHMWm+nYBQ+SAtMSs4=
 
+lodash.findlast@^4.5.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.findlast/-/lodash.findlast-4.6.0.tgz#ea8bb78cf2e7e7804fc8aeb7d1953e07fe31fbc8"
+  integrity sha1-6ou3jPLn54BPyK630ZU+B/4x+8g=
+
 lodash.flatten@^4.2.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.flatten/-/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
@@ -9414,7 +9453,7 @@ node-releases@^1.1.49:
   dependencies:
     semver "^6.3.0"
 
-node-sass@^4.11.0:
+"node-sass@^3.1.2, ^4.0.0", node-sass@^4.11.0:
   version "4.13.1"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.13.1.tgz#9db5689696bb2eec2c32b98bfea4c7a2e992d0a3"
   integrity sha512-TTWFx+ZhyDx1Biiez2nB0L3YrCZ/8oHagaDalbuBSlqXgUPsdkUSzJsVxeDO9LtPB49+Fh3WQl3slABo6AotNw==
@@ -11920,6 +11959,15 @@ scroll-behavior@^0.9.10:
   dependencies:
     dom-helpers "^3.4.0"
     invariant "^2.2.4"
+
+scss-to-json@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/scss-to-json/-/scss-to-json-2.0.0.tgz#dd8f74869da3d99fb44c8f5235f534ebb130ea47"
+  integrity sha512-XIh0Va7RiozUtUBznXiaxlqam6FQiEvJQs7HnnNZ5o7qn3KwswF1sLd8Rn9ezVufSK7VnCEKkbwkVNZ+JXNnfA==
+  dependencies:
+    cssmin "^0.4.3"
+    minimist "^1.2.0"
+    node-sass "^3.1.2, ^4.0.0"
 
 scss-tokenizer@^0.2.3:
   version "0.2.3"
