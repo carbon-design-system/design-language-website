@@ -2,6 +2,7 @@
 /* eslint-disable no-debugger */
 import React, { useEffect, useState } from 'react';
 import { groupBy, debounce } from 'lodash-es';
+import loadable from '@loadable/component';
 
 import {
   icons as iconMetaData,
@@ -34,14 +35,19 @@ const IconLibrary = () => {
         ...accumulator,
         {
           ...icon,
-          Component: React.lazy(() =>
-            import(`@carbon/icons-react/es/${path}/32`)
+          Component: loadable(() =>
+            import(`@carbon/icons-react/lib/${path}/32`)
           ),
         },
       ];
     }, []);
 
-    setCategoryList(iconCategoryMetadata.map(({ name }) => name));
+    setCategoryList(
+      iconCategoryMetadata.flatMap(({ subcategories }) =>
+        subcategories.flatMap(({ name }) => name)
+      )
+    );
+
     setCategoriesLoaded(true);
 
     setIconComponents(iconArray);
@@ -63,8 +69,8 @@ const IconLibrary = () => {
               .toLowerCase()
               .includes(searchValue)
           ) ||
-          category.toLowerCase().includes(searchValue) ||
           subcategory.toLowerCase().includes(searchValue) ||
+          category.toLowerCase().includes(searchValue) ||
           name.toLowerCase().includes(searchValue)
         );
       }
@@ -73,7 +79,9 @@ const IconLibrary = () => {
 
   const filteredIcons = getFilteredIcons();
 
-  const allCategories = Object.entries(groupBy(filteredIcons, 'category'));
+  const allCategories = Object.entries(
+    groupBy(filteredIcons, 'subcategory')
+  ).sort(([catagoryA], [catagoryB]) => catagoryA > catagoryB);
 
   const filteredCategories =
     selectedCategory === 'All icons'

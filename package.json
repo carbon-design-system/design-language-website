@@ -7,6 +7,12 @@
   "engines": {
     "node": "^10 || ^12"
   },
+  "browserslist": [
+    "last 1 edge version",
+    "last 1 firefox version",
+    "last 1 safari version",
+    "last 1 chrome version"
+  ],
   "repository": {
     "url": "git@github.com:carbon-design-system/design-language-website.git",
     "type": "git"
@@ -36,6 +42,10 @@
     "@carbon/pictograms": "^10.9.0",
     "@carbon/pictograms-react": "^10.9.0",
     "@ibm/plex": "^4.0.2",
+    "@loadable/babel-plugin": "^5.12.0",
+    "@loadable/component": "^5.12.0",
+    "@loadable/webpack-plugin": "^5.12.0",
+    "babel-preset-gatsby": "^0.2.29",
     "carbon-components": "^10.10.1",
     "carbon-components-react": "^7.10.1",
     "copy-to-clipboard": "^3.2.1",
@@ -61,7 +71,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.3.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
     "prettier": "^1.16.4"
   },
   "prettier": {

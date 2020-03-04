@@ -1,5 +1,6 @@
 /* eslint-disable no-debugger */
 import React, { useEffect, useState } from 'react';
+import loadable from '@loadable/component';
 
 import { groupBy, debounce } from 'lodash-es';
 
@@ -36,8 +37,8 @@ const IconLibrary = () => {
           ...accumulator,
           {
             ...pictogram,
-            Component: React.lazy(() =>
-              import(`@carbon/pictograms-react/es/${path}`)
+            Component: loadable(() =>
+              import(`@carbon/pictograms-react/lib/${path}`)
             ),
           },
         ];
@@ -76,7 +77,9 @@ const IconLibrary = () => {
 
   const filteredPictograms = getFilteredPictorams();
 
-  const allCategories = Object.entries(groupBy(filteredPictograms, 'category'));
+  const allCategories = Object.entries(
+    groupBy(filteredPictograms, 'category')
+  ).sort(([catagoryA], [catagoryB]) => catagoryA > catagoryB);
 
   const filteredCategories =
     selectedCategory === 'All pictograms'
@@ -121,4 +124,5 @@ const IconLibrary = () => {
     </div>
   );
 };
+
 export default IconLibrary;
