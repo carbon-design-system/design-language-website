@@ -50,10 +50,6 @@
 @import '../components/ColorGrid/color-grid';
 
 //temporary type fix
-body {
-    font-family: "IBM Plex Sans VF", "Helvetica Neue", Arial, sans-serif;
-  }
-  
   .show-on-small {
     display: block;
     @include carbon--breakpoint('md') {
