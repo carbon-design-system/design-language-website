@@ -10,7 +10,11 @@
     "@carbon/pictograms": "^10.8.2",
     "@carbon/pictograms-react": "^10.8.2",
     "carbon-components": "^10.9.3",
-    "carbon-components-react": "^7.9.3"
+    "carbon-components-react": "^7.9.3",
+    "@loadable/babel-plugin": "^5.12.0",
+    "@loadable/component": "^5.12.0",
+    "@loadable/webpack-plugin": "^5.12.0",
+    "babel-preset-gatsby": "^0.2.29"
   },
   "peerDependencies": {
     "gatsby-theme-carbon": "^1.20.1",
