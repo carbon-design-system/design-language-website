@@ -49,6 +49,11 @@
 @import '../components/ColorBlock/color-block';
 @import '../components/ColorGrid/color-grid';
 
+//---------------------------------------
+// Table component
+//---------------------------------------
+@import "narrative";
+
 //temporary type fix
   .show-on-small {
     display: block;
