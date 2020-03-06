@@ -41,6 +41,10 @@
       path: /illustration/overview
     - title: Tips and techniques
       path: /illustration/tips-and-techniques
+    - title: Line style
+      path: /illustration/line-style
+    - title: Flat style
+      path: /illustration/flat-style
 - title: Photography
   pages:
     - title: Overview
