@@ -1,16 +1,17 @@
-import React, { useRef, useContext, useState, useEffect } from 'react';
-import ReactDOMServer from 'react-dom/server';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import React, { useRef, useContext, useState } from 'react';
 import { pascalCase } from 'change-case';
 import { Code16, Download16 } from '@carbon/icons-react';
 import { TooltipDefinition } from 'carbon-components-react';
 import copy from 'copy-to-clipboard';
+import cx from 'classnames';
 import { LibraryContext } from './LibraryProvider';
 import styles from './ActionBar.module.scss';
 
 const ActionBar = ({
   name,
-  component: Element,
   friendlyName,
+  component: Element,
   setIsActionBarVisible,
   isActionBarVisible,
 }) => {
@@ -30,7 +31,7 @@ const ActionBar = ({
 
   const handleDownload = () => {
     const a = document.body.appendChild(document.createElement('a'));
-    const string = ReactDOMServer.renderToStaticMarkup(<Element />);
+    const string = Element.outerHTML;
     const blob = new Blob([string], { type: 'image/svg+xml' });
     const url = window.URL.createObjectURL(blob);
     a.download = `${name}.svg`;
@@ -41,23 +42,20 @@ const ActionBar = ({
 
   const handleCopy = () => {
     setCopyText('Copied!');
+    setTimeout(() => {
+      setCopyText(`Copy ${component}`);
+    }, 2000);
     copy(component);
   };
-
-  useEffect(() => {
-    if (copyText === 'Copied!') {
-      setTimeout(() => {
-        setCopyText(`Copy ${component}`);
-      }, 2000);
-    }
-  }, [component, copyText]);
 
   return (
     <div
       ref={actionBarRef}
       onBlur={handleBlurEvent}
-      hidden={!isActionBarVisible}
-      className={styles.container}>
+      aria-hidden={!isActionBarVisible}
+      className={cx(styles.container, {
+        [styles.hidden]: !isActionBarVisible,
+      })}>
       <TooltipDefinition
         onFocus={() => setIsActionBarVisible(true)}
         onClick={handleDownload}
