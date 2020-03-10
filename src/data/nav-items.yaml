@@ -45,10 +45,10 @@
   pages:
     - title: Overview
       path: /data-vis/overview
-    - title: Design
-      path: /data-vis/design/basics
     - title: Charts
       path: /data-vis/charts/charts
+    - title: Design
+      path: /data-vis/design/basics
 - title: Layout
   pages:
     - title: Overview
