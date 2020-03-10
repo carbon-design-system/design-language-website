@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>barchart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="17.9403457 21.1863925 13.5219224 23.061902 10.9929768 17.1040795 7.2 20.8970563 7.2 1.90294373 20.8970563 15.6 15.5690628 15.6"></polygon>
+        <filter x="-25.6%" y="-15.2%" width="156.3%" height="137.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.75" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="17.9403457 21.1863925 13.5219224 23.061902 10.9929768 17.1040795 7.2 20.8970563 7.2 1.90294373 20.8970563 15.6 15.5690628 15.6"></polygon>
+        <filter x="-13.7%" y="-5.3%" width="127.4%" height="117.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.75" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="47" height="16"></rect>
+        <filter x="-21.3%" y="-50.0%" width="142.6%" height="225.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="barchart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F3F3" x="0" y="0" width="928" height="522"></rect>
+        <g id="Group-7" transform="translate(250.000000, 80.000000)">
+            <g id="Group-6" transform="translate(0.000000, 34.000000)">
+                <rect id="Rectangle" stroke="#DCDCDC" x="77.5" y="0.5" width="351" height="226"></rect>
+                <text id="10,000" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal" line-spacing="16" fill="#6F6F6F">
+                    <tspan x="25.7940048" y="175">10,000</tspan>
+                </text>
+                <text id="0" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal" fill="#6F6F6F">
+                    <tspan x="61.8" y="227">0</tspan>
+                </text>
+                <rect id="Rectangle-Copy-2" fill="#E0E0E0" x="77" y="113" width="351" height="1"></rect>
+                <text id="20,000" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal" line-spacing="16" fill="#6F6F6F">
+                    <tspan x="25.7940048" y="118">20,000</tspan>
+                </text>
+                <rect id="Rectangle-Copy-3" fill="#E0E0E0" x="77" y="170" width="351" height="1"></rect>
+                <rect id="Rectangle-Copy" fill="#E0E0E0" x="77" y="56" width="351" height="1"></rect>
+                <text id="30,000" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal" line-spacing="16" fill="#6F6F6F">
+                    <tspan x="25.583794" y="61">30,000</tspan>
+                </text>
+                <g id="Group-4" font-size="12" font-weight="normal" line-spacing="16">
+                    <text id="40,000" font-family="IBMPlexMono, IBM Plex Mono" fill="#6F6F6F">
+                        <tspan x="25.8" y="12">40,000</tspan>
+                    </text>
+                    <text id="ylabel" transform="translate(8.000000, 116.000000) rotate(-90.000000) translate(-8.000000, -116.000000) " font-family="IBMPlexSans, IBM Plex Sans" fill="#171717">
+                        <tspan x="-31.894" y="120">Clicks (unique)</tspan>
+                    </text>
+                </g>
+                <g id="data" transform="translate(91.000000, 31.000000)">
+                    <rect id="Rectangle-9" fill="#0062FF" x="220" y="80" width="16" height="116"></rect>
+                    <rect id="Rectangle-9-Copy" fill="#0062FF" x="308" y="150" width="16" height="46"></rect>
+                    <polygon id="Rectangle-9" fill="#0062FF" points="176 17 192 17 192 196 176 196"></polygon>
+                    <polygon id="Rectangle-9-Copy-3" fill="#000000" opacity="0.3" points="176 17 192 17 192 196 176 196"></polygon>
+                    <polygon id="Rectangle-9-Copy-2" fill="#0062FF" points="264 106 280 106 280 196 264 196"></polygon>
+                    <polygon id="Rectangle-9" fill="#0062FF" points="132 90 148 90 148 196 132 196"></polygon>
+                    <polygon id="Rectangle-9" fill="#0062FF" points="44 122.5 60 122.5 60 195.5 44 195.5"></polygon>
+                    <polygon id="Rectangle-9" fill="#0062FF" points="88 62 104 62 104 196 88 196"></polygon>
+                    <rect id="Rectangle-9" fill="#0F62FE" x="0" y="0.5" width="16" height="195"></rect>
+                </g>
+                <g id="Group-5" transform="translate(77.000000, 0.000000)" fill="#8C8C8C">
+                    <g id="ticks" transform="translate(0.000000, 226.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="352" height="1"></rect>
+                    </g>
+                    <rect id="Rectangle-Copy-12" transform="translate(0.500000, 113.000000) scale(1, -1) translate(-0.500000, -113.000000) " x="0" y="0" width="1" height="226"></rect>
+                </g>
+                <text id="Y-label" transform="translate(253.000000, 290.000000) rotate(-360.000000) translate(-253.000000, -290.000000) " font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#171717">
+                    <tspan x="232.336" y="294">Quarter</tspan>
+                </text>
+                <g id="icon/hover-states/arrow-cursor" transform="translate(269.000000, 110.000000)">
+                    <g id="Soft-Shadow" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Hard-Shadow" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <polygon id="Ouline" fill="#FFFFFF" fill-rule="evenodd" points="17.9403457 21.1863925 13.5219224 23.061902 10.9929768 17.1040795 7.2 20.8970563 7.2 1.90294373 20.8970563 15.6 15.5690628 15.6"></polygon>
+                    <polygon id="Arrow" fill="#000000" fill-rule="evenodd" points="13.7560605 14.4 18 14.4 8.4 4.8 8.4 18 11.4024434 14.9975566 14.1576509 21.4884188 16.3668625 20.5506641"></polygon>
+                </g>
+                <g id="Group" transform="translate(251.000000, 29.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <text id="31,500" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#171717">
+                        <tspan x="3.868" y="12">31,500</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(65.175709, 231.000000)" fill="#6F6F6F" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14">
+                    <text id="2018-Q2" transform="translate(65.022527, 21.000000) rotate(-45.000000) translate(-65.022527, -21.000000) ">
+                        <tspan x="43.5225274" y="26">2018 Q2</tspan>
+                    </text>
+                    <text id="2018-Q4" transform="translate(153.008733, 21.000000) rotate(-45.000000) translate(-153.008733, -21.000000) ">
+                        <tspan x="131.508733" y="26">2018 Q4</tspan>
+                    </text>
+                    <text id="2018-Q3" transform="translate(108.662077, 21.464466) rotate(-45.000000) translate(-108.662077, -21.464466) ">
+                        <tspan x="87.1620771" y="26.4644661">2018 Q3</tspan>
+                    </text>
+                    <text id="2019-Q1" transform="translate(196.648283, 21.353553) rotate(-45.000000) translate(-196.648283, -21.353553) ">
+                        <tspan x="175.148283" y="26.3535534">2019 Q1</tspan>
+                    </text>
+                    <text id="2019-Q2" transform="translate(240.287833, 21.939340) rotate(-45.000000) translate(-240.287833, -21.939340) ">
+                        <tspan x="218.787833" y="26.9393398">2019 Q2</tspan>
+                    </text>
+                    <text id="2018-Q1" transform="translate(20.500000, 21.080915) rotate(-44.000000) translate(-20.500000, -21.080915) ">
+                        <tspan x="-1" y="26.0809147">2018 Q1</tspan>
+                    </text>
+                    <text id="2019-Q3" transform="translate(284.634489, 21.939340) rotate(-45.000000) translate(-284.634489, -21.939340) ">
+                        <tspan x="263.134489" y="26.9393398">2019 Q3</tspan>
+                    </text>
+                    <text id="2019-Q4" transform="translate(328.981146, 21.939340) rotate(-45.000000) translate(-328.981146, -21.939340) ">
+                        <tspan x="307.481146" y="26.9393398">2019 Q4</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(77.000000, 314.000000)">
+                    <rect id="Rectangle" fill="#0062FF" x="0" y="2" width="12" height="12" rx="1"></rect>
+                    <text id="Audience-C" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="16" y="12">Audience C</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="widgetTitle" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="18" fill="#171717">
+                <tspan x="0" y="16">Clicks (unique) over time</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

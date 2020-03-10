@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <g id="charts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Charts" transform="translate(-574.000000, -3344.000000)">
+            <g id="Group-28" transform="translate(574.903680, 3344.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="239" height="240"></rect>
+                <g id="chart-type/heatmap" transform="translate(34.711905, 34.285714)">
+                    <g id="heatmap" transform="translate(0.000000, 58.285714)">
+                        <rect id="Rectangle-2-Copy-3" fill="#D5E6FF" fill-rule="nonzero" x="0" y="0" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-47" fill="#D5E6FF" fill-rule="nonzero" x="0" y="37.7142857" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-14" fill="#97C1FF" fill-rule="nonzero" x="0" y="19.4285714" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-48" fill="#D5E6FF" fill-rule="nonzero" x="0" y="57.1428571" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-9" fill="#D5E6FF" fill-rule="nonzero" x="76.252381" y="0" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-49" fill="#408BFC" fill-rule="nonzero" x="76.252381" y="37.7142857" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-15" fill="#408BFC" fill-rule="nonzero" x="76.252381" y="19.4285714" width="17.0714286" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-50" fill="#408BFC" fill-rule="nonzero" x="76.252381" y="57.1428571" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-6" fill="#97C1FF" fill-rule="nonzero" x="19.347619" y="0" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-51" fill="#97C1FF" fill-rule="nonzero" x="19.347619" y="37.7142857" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-16" fill="#408BFC" fill-rule="nonzero" x="19.347619" y="19.4285714" width="17.0714286" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-52" fill="#97C1FF" fill-rule="nonzero" x="19.347619" y="57.1428571" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-10" fill="#D5E6FF" fill-rule="nonzero" x="94.4619048" y="0" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-53" fill="#408BFC" fill-rule="nonzero" x="94.4619048" y="37.7142857" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-17" fill="#97C1FF" fill-rule="nonzero" x="94.4619048" y="19.4285714" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-54" fill="#97C1FF" fill-rule="nonzero" x="94.4619048" y="57.1428571" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-7" fill="#408BFC" fill-rule="nonzero" x="37.5571429" y="0" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-55" fill="#408BFC" fill-rule="nonzero" x="37.5571429" y="37.7142857" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-18" fill="#0062FF" fill-rule="nonzero" x="37.5571429" y="19.4285714" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-56" fill="#97C1FF" fill-rule="nonzero" x="37.5571429" y="57.1428571" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-11" fill="#D5E6FF" fill-rule="nonzero" x="113.809524" y="0" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-57" fill="#408BFC" fill-rule="nonzero" x="113.809524" y="37.7142857" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-19" fill="#97C1FF" fill-rule="nonzero" x="113.809524" y="19.4285714" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-58" fill="#408BFC" fill-rule="nonzero" x="113.809524" y="57.1428571" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-8" fill="#408BFC" fill-rule="nonzero" x="56.9047619" y="0" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-59" fill="#0062FF" fill-rule="nonzero" x="56.9047619" y="37.7142857" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-20" fill="#0062FF" fill-rule="nonzero" x="56.9047619" y="19.4285714" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-60" fill="#408BFC" fill-rule="nonzero" x="56.9047619" y="57.1428571" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-12" fill="#97C1FF" fill-rule="nonzero" x="133.157143" y="0" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-61" fill="#408BFC" fill-rule="nonzero" x="133.157143" y="37.7142857" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-21" fill="#408BFC" fill-rule="nonzero" x="133.157143" y="19.4285714" width="17.0714286" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-62" fill="#408BFC" fill-rule="nonzero" x="133.157143" y="57.1428571" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-13" fill="#D5E6FF" fill-rule="nonzero" x="151.366667" y="0" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-63" fill="#D5E6FF" fill-rule="nonzero" x="151.366667" y="37.7142857" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-22" fill="#D5E6FF" fill-rule="nonzero" x="151.366667" y="19.4285714" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-64" fill="#D5E6FF" fill-rule="nonzero" x="151.366667" y="57.1428571" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-83" fill="#D5E6FF" fill-rule="nonzero" x="0" y="76.5714286" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-82" fill="#D5E6FF" fill-rule="nonzero" x="0" y="94.8571429" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-81" fill="#97C1FF" fill-rule="nonzero" x="76.252381" y="76.5714286" width="17.0714286" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-80" fill="#D5E6FF" fill-rule="nonzero" x="76.252381" y="94.8571429" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-79" fill="#D5E6FF" fill-rule="nonzero" x="19.347619" y="76.5714286" width="17.0714286" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-78" fill="#97C1FF" fill-rule="nonzero" x="19.347619" y="94.8571429" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-77" fill="#D5E6FF" fill-rule="nonzero" x="94.4619048" y="76.5714286" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-76" fill="#D5E6FF" fill-rule="nonzero" x="94.4619048" y="94.8571429" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-75" fill="#D5E6FF" fill-rule="nonzero" x="37.5571429" y="76.5714286" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-74" fill="#97C1FF" fill-rule="nonzero" x="37.5571429" y="94.8571429" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-73" fill="#97C1FF" fill-rule="nonzero" x="113.809524" y="76.5714286" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-72" fill="#D5E6FF" fill-rule="nonzero" x="113.809524" y="94.8571429" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-70" fill="#97C1FF" fill-rule="nonzero" x="56.9047619" y="76.5714286" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-69" fill="#97C1FF" fill-rule="nonzero" x="56.9047619" y="94.8571429" width="18.2095238" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-68" fill="#97C1FF" fill-rule="nonzero" x="133.157143" y="76.5714286" width="17.0714286" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-67" fill="#D5E6FF" fill-rule="nonzero" x="133.157143" y="94.8571429" width="17.0714286" height="18.2857143"></rect>
+                        <rect id="Rectangle-2-Copy-66" fill="#D5E6FF" fill-rule="nonzero" x="151.366667" y="76.5714286" width="18.2095238" height="17.1428571"></rect>
+                        <rect id="Rectangle-2-Copy-65" fill="#D5E6FF" fill-rule="nonzero" x="151.366667" y="94.8571429" width="18.2095238" height="18.2857143"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

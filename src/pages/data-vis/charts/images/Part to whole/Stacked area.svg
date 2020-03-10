@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="239px" height="240px" viewBox="0 0 239 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="168.438095" height="140.571429"></rect>
+    </defs>
+    <g id="charts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Charts" transform="translate(-815.000000, -2519.000000)">
+            <g id="Group-24" transform="translate(815.000000, 2519.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="239" height="240"></rect>
+                <g id="chart-type/stacekd-area" transform="translate(34.711905, 34.285714)">
+                    <g id="areastack" transform="translate(0.569048, 30.857143)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <g id="Group-29" mask="url(#mask-2)">
+                            <g transform="translate(-7.966667, 18.285714)" id="Group">
+                                <g>
+                                    <polygon id="Line-Copy-10" stroke="#0062FF" stroke-width="1.5" fill="#B2CFFF" stroke-linecap="square" points="0.707936508 65.7582417 34.5492063 44.4835165 60.9619048 14.5054945 91.5015873 0 119.56508 19.3406593 153.40635 19.3406593 179.819048 45.4505495 176.404762 125.714286 0.707936508 125.714286"></polygon>
+                                    <path d="M33.253468,93.7071177 L61.6129944,68.6463145 L95.1707395,76.5282557 L120.301579,56.3166266 L152.812917,66.5965939 L181.078809,87.4502618 L181.752648,86.5292541 L153.410729,65.6194961 L153.244718,65.5349533 L120.064136,55.0433734 L94.8911653,75.2888872 L61.3012913,67.3993998 L32.7560558,92.6243109 L7.9713612,96.2016984 L7.96391211,97.3573762 L33.253468,93.7071177 Z M94.6752261,75.4625576 L95.1605538,75.3521603 L94.8911653,75.2888872 L94.6752261,75.4625576 Z" id="Line-Copy-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                    <polygon id="Line-Copy" stroke="#0062FF" stroke-width="1.5" fill="#D3E4FF" stroke-linecap="square" points="1.53333333 99.2207792 33.7238096 94.5454545 61.7873016 69.6103896 95.6285714 77.4025974 120.390476 57.1428571 152.580953 67.2727273 176.371324 84.9680445 179.819048 87.5324675 179.819048 125.714286 1.53333333 125.714286"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

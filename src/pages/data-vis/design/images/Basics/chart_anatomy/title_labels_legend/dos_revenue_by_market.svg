@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="288px" viewBox="0 0 288 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 27</title>
+    <desc>Created with Sketch.</desc>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Design" transform="translate(-352.000000, -1580.000000)">
+            <g id="Group-26" transform="translate(352.000000, 1580.000000)">
+                <g id="Group-24">
+                    <g id="Group-27">
+                        <polygon id="Fill-1" fill="#FEFEFE" points="0 288 288 288 288 0 0 0"></polygon>
+                        <text id="Revenue-by-market-(c" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-size="18" font-weight="400" letter-spacing="0.205714286" fill="#000000">
+                            <tspan x="47.0465347" y="79.2457454">Revenue by market </tspan>
+                            <tspan x="47.0465347" y="102.245745">(current year)</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

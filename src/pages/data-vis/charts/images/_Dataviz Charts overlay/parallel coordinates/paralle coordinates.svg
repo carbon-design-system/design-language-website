@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>paralle coordinates</title>
+    <desc>Created with Sketch.</desc>
+    <g id="paralle-coordinates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F3F3" x="0" y="0" width="928" height="522"></rect>
+        <g id="Group-8" transform="translate(154.000000, 72.000000)">
+            <text id="Students-grade-by-su" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" fill="#171717">
+                <tspan x="0.3125" y="16">Students grade by subject</tspan>
+            </text>
+            <g id="Group-7" transform="translate(0.000000, 36.000000)">
+                <g id="Group-3" font-size="12" font-weight="normal">
+                    <text id="ylabel" transform="translate(8.500000, 158.687500) rotate(-90.000000) translate(-8.500000, -158.687500) " font-family="IBMPlexSans, IBM Plex Sans" line-spacing="16" fill="#171717">
+                        <tspan x="-7.85" y="162.1875">Grade</tspan>
+                    </text>
+                    <g id="Group-2" transform="translate(25.000000, 0.000000)" fill="#6F6F6F" font-family="IBMPlexMono, IBM Plex Mono">
+                        <text id="1">
+                            <tspan x="7.8" y="314">1</tspan>
+                        </text>
+                        <text id="5">
+                            <tspan x="7.8" y="163">5</tspan>
+                        </text>
+                        <text id="10">
+                            <tspan x="0.6" y="12">10</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(580.000000, 0.000000)" font-size="12" font-weight="normal">
+                    <text id="ylabel" transform="translate(31.500000, 159.312500) rotate(-270.000000) translate(-31.500000, -159.312500) " font-family="IBMPlexSans, IBM Plex Sans" line-spacing="16" fill="#171717">
+                        <tspan x="15.15" y="162.8125">Grade</tspan>
+                    </text>
+                    <g id="Group-4" transform="translate(0.000000, 1.000000)" fill="#6F6F6F" font-family="IBMPlexMono, IBM Plex Mono">
+                        <text id="1">
+                            <tspan x="0" y="314">1</tspan>
+                        </text>
+                        <text id="5">
+                            <tspan x="0" y="163">5</tspan>
+                        </text>
+                        <text id="10">
+                            <tspan x="0" y="12">10</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-6" transform="translate(0.312500, 326.000000)" fill="#171717" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16">
+                    <text id="Y-label" transform="translate(223.500000, 8.000000) rotate(-360.000000) translate(-223.500000, -8.000000) ">
+                        <tspan x="204.174" y="12">History</tspan>
+                    </text>
+                    <text id="Y-label-Copy-2" transform="translate(48.500000, 8.000000) rotate(-360.000000) translate(-48.500000, -8.000000) ">
+                        <tspan x="21.11" y="12">Chemistry</tspan>
+                    </text>
+                    <text id="Y-label-Copy" transform="translate(396.500000, 8.000000) rotate(-360.000000) translate(-396.500000, -8.000000) ">
+                        <tspan x="361.628" y="12">Mathematics</tspan>
+                    </text>
+                    <text id="Y-label-Copy-3" transform="translate(570.500000, 8.000000) rotate(-360.000000) translate(-570.500000, -8.000000) ">
+                        <tspan x="541.22" y="12">Geography</tspan>
+                    </text>
+                </g>
+                <g id="Group-5" transform="translate(48.000000, 1.000000)">
+                    <rect id="Rectangle-Copy-12" fill="#8C8C8C" transform="translate(0.500000, 157.000000) scale(1, -1) translate(-0.500000, -157.000000) " x="0" y="0" width="1" height="314"></rect>
+                    <rect id="Rectangle-Copy-13" fill="#8C8C8C" transform="translate(175.500000, 157.000000) scale(1, -1) translate(-175.500000, -157.000000) " x="175" y="0" width="1" height="314"></rect>
+                    <rect id="Rectangle-Copy-15" fill="#8C8C8C" transform="translate(349.500000, 157.000000) scale(1, -1) translate(-349.500000, -157.000000) " x="349" y="0" width="1" height="314"></rect>
+                    <rect id="Rectangle-Copy-16" fill="#8C8C8C" transform="translate(523.500000, 157.000000) scale(1, -1) translate(-523.500000, -157.000000) " x="523" y="0" width="1" height="314"></rect>
+                    <g id="Group-813" transform="translate(0.312500, 3.000000)" stroke="#EDF5FF">
+                        <polyline id="Stroke-1" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 76.261386 523 107.696047"></polyline>
+                        <polyline id="Stroke-3" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 135.775667 523 115.700573"></polyline>
+                        <polyline id="Stroke-5" style="mix-blend-mode: multiply;" points="0 197 174.333333 0 348.665771 31.5686423 523 107.875309"></polyline>
+                        <polyline id="Stroke-7" style="mix-blend-mode: multiply;" points="0 283 174.333333 264.735739 348.665771 179 523 189.052358"></polyline>
+                        <polyline id="Stroke-9" style="mix-blend-mode: multiply;" points="0 189.253898 174.333333 264 348.665771 157.525066 523 148"></polyline>
+                        <polyline id="Stroke-11" style="mix-blend-mode: multiply;" points="0 264 174.333333 93 348.665771 243.362172 523 107.387875"></polyline>
+                        <polyline id="Stroke-13" style="mix-blend-mode: multiply;" points="0 288 174.333333 264.487895 348.665771 179 523 189.022253"></polyline>
+                        <polyline id="Stroke-15" style="mix-blend-mode: multiply;" points="0 255 174.333333 93 348.665771 243.040324 523 188.30894"></polyline>
+                        <polyline id="Stroke-17" style="mix-blend-mode: multiply;" points="0 189.64802 174.333333 264 348.665771 178 523 210.359718"></polyline>
+                        <polyline id="Stroke-19" style="mix-blend-mode: multiply;" points="0 291 174.333333 264.757377 348.665771 179 523 211.268425"></polyline>
+                        <polyline id="Stroke-21" style="mix-blend-mode: multiply;" points="0 284 174.333333 264.468727 348.665771 179 523 211.158628"></polyline>
+                        <polyline id="Stroke-23" style="mix-blend-mode: multiply;" points="0 277 174.333333 264.045687 348.665771 9 523 188.328794"></polyline>
+                        <polyline id="Stroke-25" style="mix-blend-mode: multiply;" points="0 189.552809 174.333333 264 348.665771 157 523 208.712408"></polyline>
+                        <polyline id="Stroke-27" style="mix-blend-mode: multiply;" points="0 189.889773 174.333333 264 348.665771 21 523 190.79676"></polyline>
+                        <polyline id="Stroke-29" style="mix-blend-mode: multiply;" points="0 189.64802 174.333333 264 348.665771 178 523 210.359718"></polyline>
+                        <polyline id="Stroke-31" style="mix-blend-mode: multiply;" points="0 291 174.333333 264.757377 348.665771 179 523 211.268425"></polyline>
+                        <polyline id="Stroke-33" style="mix-blend-mode: multiply;" points="0 267 174.333333 264.007531 348.665771 178 523 188.083033"></polyline>
+                        <polyline id="Stroke-35" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 31.5734911 523 107.891878"></polyline>
+                        <polyline id="Stroke-37" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 31.5219423 523 107.715727"></polyline>
+                        <polyline id="Stroke-39" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 31.5734911 523 107.891878"></polyline>
+                        <polyline id="Stroke-41" style="mix-blend-mode: multiply;" points="0 210.569783 174.333333 265 348.665771 158 523 209.711214"></polyline>
+                        <polyline id="Stroke-43" style="mix-blend-mode: multiply;" points="0 207 174.333333 0 348.665771 31.5711836 523 148.339895"></polyline>
+                        <polyline id="Stroke-45" style="mix-blend-mode: multiply;" points="0 202.898255 174.333333 264 348.665771 157 523 208.712408"></polyline>
+                        <polyline id="Stroke-47" style="mix-blend-mode: multiply;" points="0 189.64802 174.333333 264 348.665771 178 523 210.359718"></polyline>
+                        <polyline id="Stroke-49" style="mix-blend-mode: multiply;" points="0 192.88917 174.333333 264 348.665771 157 523 181.226235"></polyline>
+                        <polyline id="Stroke-51" style="mix-blend-mode: multiply;" points="0 291 174.333333 264.757377 348.665771 179 523 189.054895"></polyline>
+                        <polyline id="Stroke-53" style="mix-blend-mode: multiply;" points="0 262 174.333333 0 348.665771 75.9876676 523 107.309503"></polyline>
+                        <polyline id="Stroke-55" style="mix-blend-mode: multiply;" points="0 204 174.333333 0 348.665771 31.6220342 523 108.057758"></polyline>
+                        <polyline id="Stroke-57" style="mix-blend-mode: multiply;" points="0 234 174.333333 92.7963859 348.665771 92 523 201.402773"></polyline>
+                        <polyline id="Stroke-59" style="mix-blend-mode: multiply;" points="0 284 174.333333 93 348.665771 97.8118724 523 187.179982"></polyline>
+                        <polyline id="Stroke-61" style="mix-blend-mode: multiply;" points="0 264 174.333333 93 348.665771 97.0105949 523 181.770297"></polyline>
+                        <polyline id="Stroke-63" style="mix-blend-mode: multiply;" points="0 257 174.333333 93 348.665771 103.399548 523 188.313537"></polyline>
+                        <polyline id="Stroke-65" style="mix-blend-mode: multiply;" points="0 189.047775 174.333333 93 348.665771 111.486712 523 205"></polyline>
+                        <polyline id="Stroke-67" style="mix-blend-mode: multiply;" points="0 282 174.333333 185.919606 348.665771 259.437027 523 183"></polyline>
+                        <polyline id="Stroke-69" style="mix-blend-mode: multiply;" points="0 222 174.333333 185.431853 348.665771 92 523 219.080255"></polyline>
+                        <polyline id="Stroke-71" style="mix-blend-mode: multiply;" points="0 224 174.333333 93 348.665771 110.626281 523 197.901674"></polyline>
+                        <polyline id="Stroke-73" style="mix-blend-mode: multiply;" points="0 244 174.333333 92.8001506 348.665771 92 523 205.066888"></polyline>
+                        <polyline id="Stroke-75" style="mix-blend-mode: multiply;" points="0 274 174.333333 92.8002175 348.665771 92 523 209.12752"></polyline>
+                        <polyline id="Stroke-77" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 84.2894654 523 107.696047"></polyline>
+                        <polyline id="Stroke-79" style="mix-blend-mode: multiply;" points="0 250.386609 174.333333 264 348.665771 219.101944 523 209"></polyline>
+                        <polyline id="Stroke-81" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 84.2894654 523 108.057544"></polyline>
+                        <polyline id="Stroke-83" style="mix-blend-mode: multiply;" points="0 280 174.333333 264.322994 348.665771 179 523 179.954284"></polyline>
+                        <polyline id="Stroke-85" style="mix-blend-mode: multiply;" points="0 196.46903 174.333333 264 348.665771 179 523 208.911043"></polyline>
+                        <polyline id="Stroke-87" style="mix-blend-mode: multiply;" points="0 268 174.333333 264.334072 348.665771 179 523 209.028601"></polyline>
+                        <polyline id="Stroke-89" style="mix-blend-mode: multiply;" points="0 230 174.333333 0 348.665771 0 523 197.07284"></polyline>
+                        <polyline id="Stroke-91" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 0 523 197.341169"></polyline>
+                        <polyline id="Stroke-93" style="mix-blend-mode: multiply;" points="0 198 174.333333 0 348.665771 84.2895879 523 101.304989"></polyline>
+                        <polyline id="Stroke-95" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 84.2894654 523 101.304842"></polyline>
+                        <polyline id="Stroke-97" style="mix-blend-mode: multiply;" points="0 217 174.333333 93 348.665771 100.192294 523 201.640688"></polyline>
+                        <polyline id="Stroke-99" style="mix-blend-mode: multiply;" points="0 192.540777 174.333333 265 348.665771 179.67777 523 121"></polyline>
+                        <polyline id="Stroke-101" style="mix-blend-mode: multiply;" points="0 277 174.333333 264.036099 348.665771 179 523 208.923746"></polyline>
+                        <polyline id="Stroke-103" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 84.0228342 523 120.819246"></polyline>
+                        <polyline id="Stroke-105" style="mix-blend-mode: multiply;" points="0 227.731805 174.333333 93 348.665771 243 523 188.283325"></polyline>
+                        <polyline id="Stroke-107" style="mix-blend-mode: multiply;" points="0 280 174.333333 263.762687 348.665771 179 523 179.948017"></polyline>
+                        <polyline id="Stroke-109" style="mix-blend-mode: multiply;" points="0 239.684702 174.333333 93 348.665771 243 523 196.355303"></polyline>
+                        <polyline id="Stroke-111" style="mix-blend-mode: multiply;" points="0 264 174.333333 0 348.665771 84.0635493 523 141.445697"></polyline>
+                        <polyline id="Stroke-113" style="mix-blend-mode: multiply;" points="0 200 174.333333 0 348.665771 84.0096317 523 100.607034"></polyline>
+                        <polyline id="Stroke-115" style="mix-blend-mode: multiply;" points="0 203.245812 174.333333 264 348.665771 164 523 180.128611"></polyline>
+                        <polyline id="Stroke-117" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 84.0228342 523 114.448258"></polyline>
+                        <polyline id="Stroke-119" style="mix-blend-mode: multiply;" points="0 237.028899 174.333333 93 348.665771 243 523 188.284514"></polyline>
+                        <polyline id="Stroke-121" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 128.17964 523 108.057544"></polyline>
+                        <polyline id="Stroke-123" style="mix-blend-mode: multiply;" points="0 197 174.333333 0 348.665771 30.7670691 523 134.844136"></polyline>
+                        <polyline id="Stroke-125" style="mix-blend-mode: multiply;" points="0 194 174.333333 0 348.665771 30.8191406 523 114.810605"></polyline>
+                        <polyline id="Stroke-127" style="mix-blend-mode: multiply;" points="0 190.574482 174.333333 93 348.665771 99.4006064 523 191"></polyline>
+                        <polyline id="Stroke-129" style="mix-blend-mode: multiply;" points="0 237 174.333333 93 348.665771 99.3987856 523 190.955118"></polyline>
+                        <polyline id="Stroke-131" style="mix-blend-mode: multiply;" points="0 231 174.333333 93 348.665771 99.4285418 523 191.410638"></polyline>
+                        <polyline id="Stroke-133" style="mix-blend-mode: multiply;" points="0 262 174.333333 0 348.665771 83.9869326 523 120.767622"></polyline>
+                        <polyline id="Stroke-135" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 29.2143827 523 135.07193"></polyline>
+                        <polyline id="Stroke-137" style="mix-blend-mode: multiply;" points="0 203.245812 174.333333 264 348.665771 164 523 210.596535"></polyline>
+                        <polyline id="Stroke-139" style="mix-blend-mode: multiply;" points="0 194 174.333333 0 348.665771 30.8191406 523 121.564521"></polyline>
+                        <polyline id="Stroke-141" style="mix-blend-mode: multiply;" points="0 196.611044 174.333333 264 348.665771 164 523 210.596535"></polyline>
+                        <polyline id="Stroke-143" style="mix-blend-mode: multiply;" points="0 297 174.333333 106.921208 348.665771 29 523 134.532724"></polyline>
+                        <polyline id="Stroke-145" style="mix-blend-mode: multiply;" points="0 223.896825 174.333333 93 348.665771 296 523 111.090628"></polyline>
+                        <polyline id="Stroke-147" style="mix-blend-mode: multiply;" points="0 217.228065 174.333333 93 348.665771 110.609403 523 218"></polyline>
+                        <polyline id="Stroke-149" style="mix-blend-mode: multiply;" points="0 214.149575 174.333333 93 348.665771 110.645051 523 225"></polyline>
+                        <polyline id="Stroke-151" style="mix-blend-mode: multiply;" points="0 202.99327 174.333333 93 348.665771 110.565181 523 215"></polyline>
+                        <polyline id="Stroke-153" style="mix-blend-mode: multiply;" points="0 260.343629 174.333333 264 348.665771 225.496436 523 209"></polyline>
+                        <polyline id="Stroke-155" style="mix-blend-mode: multiply;" points="0 230.388797 174.333333 93 348.665771 243 523 188.283325"></polyline>
+                        <polyline id="Stroke-157" style="mix-blend-mode: multiply;" points="0 224.989434 174.333333 264 348.665771 237.25675 523 202"></polyline>
+                        <polyline id="Stroke-159" style="mix-blend-mode: multiply;" points="0 193.293661 174.333333 264 348.665771 164 523 209.026893"></polyline>
+                        <polyline id="Stroke-161" style="mix-blend-mode: multiply;" points="0 237 174.333333 0 348.665771 127.999467 523 107.906846"></polyline>
+                        <polyline id="Stroke-163" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 84.2894654 523 121.202644"></polyline>
+                        <polyline id="Stroke-165" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 84.1602393 523 121.016825"></polyline>
+                        <polyline id="Stroke-167" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 0.801696264 523 204.083518"></polyline>
+                        <polyline id="Stroke-169" style="mix-blend-mode: multiply;" points="0 290 174.333333 0 348.665771 150.896433 523 141.805453"></polyline>
+                        <polyline id="Stroke-171" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 84.2894654 523 114.811438"></polyline>
+                        <polyline id="Stroke-173" style="mix-blend-mode: multiply;" points="0 281 174.333333 264.674154 348.665771 20 523 193.909334"></polyline>
+                        <polyline id="Stroke-175" style="mix-blend-mode: multiply;" points="0 207 174.333333 0 348.665771 84.1540887 523 114.264934"></polyline>
+                        <polyline id="Stroke-177" style="mix-blend-mode: multiply;" points="0 290 174.333333 0 348.665771 30.8146174 523 114.794947"></polyline>
+                        <polyline id="Stroke-179" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 84.0228342 523 114.448258"></polyline>
+                        <polyline id="Stroke-181" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 127.772983 523 107.715727"></polyline>
+                        <polyline id="Stroke-183" style="mix-blend-mode: multiply;" points="0 284 174.333333 0 348.665771 154.547088 523 209.287523"></polyline>
+                        <polyline id="Stroke-185" style="mix-blend-mode: multiply;" points="0 203.245812 174.333333 264 348.665771 164 523 210.596535"></polyline>
+                        <polyline id="Stroke-187" style="mix-blend-mode: multiply;" points="0 209.880034 174.333333 264 348.665771 164 523 210.595982"></polyline>
+                        <polyline id="Stroke-189" style="mix-blend-mode: multiply;" points="0 189.976277 174.333333 264 348.665771 164 523 180.128611"></polyline>
+                        <polyline id="Stroke-191" style="mix-blend-mode: multiply;" points="0 271 174.333333 264.661942 348.665771 164 523 180.234178"></polyline>
+                        <polyline id="Stroke-193" style="mix-blend-mode: multiply;" points="0 271 174.333333 93 348.665771 252.487026 523 213.019256"></polyline>
+                        <polyline id="Stroke-195" style="mix-blend-mode: multiply;" points="0 230.565608 174.333333 93 348.665771 252 523 188.405949"></polyline>
+                        <polyline id="Stroke-197" style="mix-blend-mode: multiply;" points="0 284 174.333333 93 348.665771 252.205187 523 188.529784"></polyline>
+                        <polyline id="Stroke-199" style="mix-blend-mode: multiply;" points="0 277 174.333333 93 348.665771 251.909199 523 212.585611"></polyline>
+                        <polyline id="Stroke-201" style="mix-blend-mode: multiply;" points="0 250.511539 174.333333 93 348.665771 252 523 208.612135"></polyline>
+                        <polyline id="Stroke-203" style="mix-blend-mode: multiply;" points="0 254 174.333333 93 348.665771 110.633214 523 228.956191"></polyline>
+                        <polyline id="Stroke-205" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 84.2894654 523 114.811438"></polyline>
+                        <polyline id="Stroke-207" style="mix-blend-mode: multiply;" points="0 244 174.333333 0 348.665771 29.2143343 523 231.412078"></polyline>
+                        <polyline id="Stroke-209" style="mix-blend-mode: multiply;" points="0 211 174.333333 93 348.665771 93.8057174 523 199.52539"></polyline>
+                        <polyline id="Stroke-211" style="mix-blend-mode: multiply;" points="0 207 174.333333 0 348.665771 127.972581 523 115.881312"></polyline>
+                        <polyline id="Stroke-213" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 239.323341 523 185.796017"></polyline>
+                        <polyline id="Stroke-215" style="mix-blend-mode: multiply;" points="0 192.654936 174.333333 264 348.665771 184 523 195.16406"></polyline>
+                        <polyline id="Stroke-217" style="mix-blend-mode: multiply;" points="0 294 174.333333 107.050159 348.665771 76 523 107.731193"></polyline>
+                        <polyline id="Stroke-219" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 12.0415226 523 211.150778"></polyline>
+                        <polyline id="Stroke-221" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 128.17964 523 116.067727"></polyline>
+                        <polyline id="Stroke-223" style="mix-blend-mode: multiply;" points="0 262.525967 174.333333 93 348.665771 270 523 202.63228"></polyline>
+                        <polyline id="Stroke-225" style="mix-blend-mode: multiply;" points="0 184.265057 174.333333 93 348.665771 307 523 217.019745"></polyline>
+                        <polyline id="Stroke-227" style="mix-blend-mode: multiply;" points="0 258 174.333333 93 348.665771 105.715946 523 190.979246"></polyline>
+                        <polyline id="Stroke-229" style="mix-blend-mode: multiply;" points="0 198 174.333333 93 348.665771 105.703906 523 186.844219"></polyline>
+                        <polyline id="Stroke-231" style="mix-blend-mode: multiply;" points="0 205.283951 174.333333 93 348.665771 296 523 222.062423"></polyline>
+                        <polyline id="Stroke-233" style="mix-blend-mode: multiply;" points="0 218.302018 174.333333 93 348.665771 296 523 222.062423"></polyline>
+                        <polyline id="Stroke-235" style="mix-blend-mode: multiply;" points="0 145.456517 174.333333 93 348.665771 296 523 222.062423"></polyline>
+                        <polyline id="Stroke-237" style="mix-blend-mode: multiply;" points="0 199.32584 174.333333 264 348.665771 229.518668 523 132"></polyline>
+                        <polyline id="Stroke-239" style="mix-blend-mode: multiply;" points="0 212 174.333333 49 348.665771 116.430037 523 106.449667"></polyline>
+                        <polyline id="Stroke-241" style="mix-blend-mode: multiply;" points="0 216.850501 174.333333 93 348.665771 295 523 221.934729"></polyline>
+                        <polyline id="Stroke-243" style="mix-blend-mode: multiply;" points="0 231 174.333333 93 348.665771 111.474001 523 186.004982"></polyline>
+                        <polyline id="Stroke-245" style="mix-blend-mode: multiply;" points="0 218 174.333333 93 348.665771 93.8010614 523 185.474532"></polyline>
+                        <polyline id="Stroke-247" style="mix-blend-mode: multiply;" points="0 236 174.333333 93 348.665771 105.711508 523 190.954226"></polyline>
+                        <polyline id="Stroke-249" style="mix-blend-mode: multiply;" points="0 271 174.333333 93 348.665771 102.638395 523 183.293712"></polyline>
+                        <polyline id="Stroke-251" style="mix-blend-mode: multiply;" points="0 257 174.333333 93 348.665771 105.688898 523 190.779997"></polyline>
+                        <polyline id="Stroke-253" style="mix-blend-mode: multiply;" points="0 204.170844 174.333333 93 348.665771 298 523 227.711868"></polyline>
+                        <polyline id="Stroke-255" style="mix-blend-mode: multiply;" points="0 255.694085 174.333333 264 348.665771 247.072094 523 148"></polyline>
+                        <polyline id="Stroke-257" style="mix-blend-mode: multiply;" points="0 271 174.333333 264.666034 348.665771 247.650443 523 215"></polyline>
+                        <polyline id="Stroke-259" style="mix-blend-mode: multiply;" points="0 203.95395 174.333333 93 348.665771 296 523 215.327956"></polyline>
+                        <polyline id="Stroke-261" style="mix-blend-mode: multiply;" points="0 154.762954 174.333333 93 348.665771 296 523 215.327956"></polyline>
+                        <polyline id="Stroke-263" style="mix-blend-mode: multiply;" points="0 210.713337 174.333333 93 348.665771 301 523 219.489206"></polyline>
+                        <polyline id="Stroke-265" style="mix-blend-mode: multiply;" points="0 193.983105 174.333333 93 348.665771 296 523 215.328672"></polyline>
+                        <polyline id="Stroke-267" style="mix-blend-mode: multiply;" points="0 237 174.333333 93 348.665771 111.389677 523 190.955118"></polyline>
+                        <polyline id="Stroke-269" style="mix-blend-mode: multiply;" points="0 237 174.333333 93 348.665771 111.389677 523 190.955118"></polyline>
+                        <polyline id="Stroke-271" style="mix-blend-mode: multiply;" points="0 223.914941 174.333333 93 348.665771 256 523 196.486719"></polyline>
+                        <polyline id="Stroke-273" style="mix-blend-mode: multiply;" points="0 245 174.333333 93 348.665771 239.006176 523 185.595311"></polyline>
+                        <polyline id="Stroke-275" style="mix-blend-mode: multiply;" points="0 280 174.333333 264.352076 348.665771 184 523 209.155176"></polyline>
+                        <polyline id="Stroke-277" style="mix-blend-mode: multiply;" points="0 284 174.333333 264.354311 348.665771 184 523 210.731918"></polyline>
+                        <polyline id="Stroke-279" style="mix-blend-mode: multiply;" points="0 186.022492 174.333333 264 348.665771 184 523 209.046141"></polyline>
+                        <polyline id="Stroke-281" style="mix-blend-mode: multiply;" points="0 290 174.333333 264.3578 348.665771 184 523 188.46366"></polyline>
+                        <polyline id="Stroke-283" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 141.37719 523 114.086716"></polyline>
+                        <polyline id="Stroke-285" style="mix-blend-mode: multiply;" points="0 224.967905 174.333333 93 348.665771 256 523 196.486719"></polyline>
+                        <polyline id="Stroke-287" style="mix-blend-mode: multiply;" points="0 231 174.333333 93 348.665771 110.671925 523 202.220758"></polyline>
+                        <polyline id="Stroke-289" style="mix-blend-mode: multiply;" points="0 251 174.333333 93 348.665771 111.070885 523 202.214219"></polyline>
+                        <polyline id="Stroke-291" style="mix-blend-mode: multiply;" points="0 227 174.333333 93 348.665771 110.619834 523 201.904976"></polyline>
+                        <polyline id="Stroke-293" style="mix-blend-mode: multiply;" points="0 194.156836 174.333333 93 348.665771 110.642803 523 198"></polyline>
+                        <polyline id="Stroke-295" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 110.631255 523 203.323664"></polyline>
+                        <polyline id="Stroke-297" style="mix-blend-mode: multiply;" points="0 231.050493 174.333333 93 348.665771 239 523 179.984715"></polyline>
+                        <polyline id="Stroke-299" style="mix-blend-mode: multiply;" points="0 230.545762 174.333333 93 348.665771 292 523 208.595781"></polyline>
+                        <polyline id="Stroke-301" style="mix-blend-mode: multiply;" points="0 204 174.333333 0 348.665771 20.3834165 523 108.057758"></polyline>
+                        <polyline id="Stroke-303" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 20.3521258 523 107.891878"></polyline>
+                        <polyline id="Stroke-305" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 20.3188977 523 107.715727"></polyline>
+                        <polyline id="Stroke-307" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 20.3845691 523 108.057544"></polyline>
+                        <polyline id="Stroke-309" style="mix-blend-mode: multiply;" points="0 237 174.333333 0 348.665771 20.3559159 523 217.598379"></polyline>
+                        <polyline id="Stroke-311" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 20.3188977 523 107.715727"></polyline>
+                        <polyline id="Stroke-313" style="mix-blend-mode: multiply;" points="0 288 174.333333 0 348.665771 20.3333182 523 121.265601"></polyline>
+                        <polyline id="Stroke-315" style="mix-blend-mode: multiply;" points="0 194 174.333333 0 348.665771 20.3834398 523 121.564521"></polyline>
+                        <polyline id="Stroke-317" style="mix-blend-mode: multiply;" points="0 230 174.333333 0 348.665771 141.41584 523 100.650354"></polyline>
+                        <polyline id="Stroke-319" style="mix-blend-mode: multiply;" points="0 207 174.333333 0 348.665771 20.3506384 523 114.627041"></polyline>
+                        <polyline id="Stroke-321" style="mix-blend-mode: multiply;" points="0 211 174.333333 93 348.665771 104.983383 523 208.334125"></polyline>
+                        <polyline id="Stroke-323" style="mix-blend-mode: multiply;" points="0 203.970116 174.333333 93 348.665771 256 523 196.487474"></polyline>
+                        <polyline id="Stroke-325" style="mix-blend-mode: multiply;" points="0 296 174.333333 106.889396 348.665771 20 523 127.807678"></polyline>
+                        <polyline id="Stroke-327" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 110.631255 523 188.493403"></polyline>
+                        <polyline id="Stroke-329" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 96.2070902 523 208.717244"></polyline>
+                        <polyline id="Stroke-331" style="mix-blend-mode: multiply;" points="0 217.498105 174.333333 93 348.665771 294 523 207.4757"></polyline>
+                        <polyline id="Stroke-333" style="mix-blend-mode: multiply;" points="0 257.136307 174.333333 93 348.665771 292 523 208.595282"></polyline>
+                        <polyline id="Stroke-335" style="mix-blend-mode: multiply;" points="0 224.134359 174.333333 93 348.665771 310 523 115.171946"></polyline>
+                        <polyline id="Stroke-337" style="mix-blend-mode: multiply;" points="0 231 174.333333 93 348.665771 103.443695 523 194.11287"></polyline>
+                        <polyline id="Stroke-339" style="mix-blend-mode: multiply;" points="0 216.285454 174.333333 49 348.665771 116.279796 523 232"></polyline>
+                        <polyline id="Stroke-341" style="mix-blend-mode: multiply;" points="0 210.713337 174.333333 93 348.665771 301 523 219.489206"></polyline>
+                        <polyline id="Stroke-343" style="mix-blend-mode: multiply;" points="0 250.511539 174.333333 93 348.665771 252 523 185.712917"></polyline>
+                        <polyline id="Stroke-345" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 128.17964 523 114.448749"></polyline>
+                        <polyline id="Stroke-347" style="mix-blend-mode: multiply;" points="0 207 174.333333 0 348.665771 83.352451 523 118.672154"></polyline>
+                        <polyline id="Stroke-349" style="mix-blend-mode: multiply;" points="0 230 174.333333 0 348.665771 127.809104 523 118.159004"></polyline>
+                        <polyline id="Stroke-351" style="mix-blend-mode: multiply;" points="0 217.853746 174.333333 93 348.665771 110.604043 523 222"></polyline>
+                        <polyline id="Stroke-353" style="mix-blend-mode: multiply;" points="0 187.954816 174.333333 93 348.665771 110.604043 523 222"></polyline>
+                        <polyline id="Stroke-355" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 33.2278259 523 135.07193"></polyline>
+                        <polyline id="Stroke-357" style="mix-blend-mode: multiply;" points="0 244 174.333333 0 348.665771 76.2624525 523 211.151621"></polyline>
+                        <polyline id="Stroke-359" style="mix-blend-mode: multiply;" points="0 282 174.333333 263.735553 348.665771 8 523 194.781973"></polyline>
+                        <polyline id="Stroke-361" style="mix-blend-mode: multiply;" points="0 249.846447 174.333333 93 348.665771 252 523 191.099674"></polyline>
+                        <polyline id="Stroke-363" style="mix-blend-mode: multiply;" points="0 269 174.333333 93 348.665771 252.487357 523 191.400363"></polyline>
+                        <polyline id="Stroke-365" style="mix-blend-mode: multiply;" points="0 257 174.333333 93 348.665771 251.844801 523 185.622421"></polyline>
+                        <polyline id="Stroke-367" style="mix-blend-mode: multiply;" points="0 241.203601 174.333333 93 348.665771 252 523 191.100409"></polyline>
+                        <polyline id="Stroke-369" style="mix-blend-mode: multiply;" points="0 224 174.333333 93 348.665771 110.574213 523 220.438863"></polyline>
+                        <polyline id="Stroke-371" style="mix-blend-mode: multiply;" points="0 297 174.333333 107.107062 348.665771 33 523 122.637947"></polyline>
+                        <polyline id="Stroke-373" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 83.3585431 523 103.846469"></polyline>
+                        <polyline id="Stroke-375" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 83.3585431 523 103.846469"></polyline>
+                        <polyline id="Stroke-377" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 20.8053144 523 104.929238"></polyline>
+                        <polyline id="Stroke-379" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 33.2278259 523 121.565333"></polyline>
+                        <polyline id="Stroke-381" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 33.1768836 523 121.378959"></polyline>
+                        <polyline id="Stroke-383" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 33.1768836 523 125.424368"></polyline>
+                        <polyline id="Stroke-385" style="mix-blend-mode: multiply;" points="0 214 174.333333 0 348.665771 83.4866171 523 105.356563"></polyline>
+                        <polyline id="Stroke-387" style="mix-blend-mode: multiply;" points="0 204 174.333333 0 348.665771 33.2278919 523 121.564381"></polyline>
+                        <polyline id="Stroke-389" style="mix-blend-mode: multiply;" points="0 189.976277 174.333333 264 348.665771 164 523 204.549494"></polyline>
+                        <polyline id="Stroke-391" style="mix-blend-mode: multiply;" points="0 282 174.333333 263.735553 348.665771 8 523 190.743155"></polyline>
+                        <polyline id="Stroke-393" style="mix-blend-mode: multiply;" points="0 271 174.333333 264.697914 348.665771 179 523 206.983259"></polyline>
+                        <polyline id="Stroke-395" style="mix-blend-mode: multiply;" points="0 186.658894 174.333333 264 348.665771 164 523 213.284637"></polyline>
+                        <polyline id="Stroke-397" style="mix-blend-mode: multiply;" points="0 193 174.333333 0 348.665771 33.170684 523 136.187864"></polyline>
+                        <polyline id="Stroke-399" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 83.4865382 523 97.2520279"></polyline>
+                        <polyline id="Stroke-401" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 83.3585431 523 110.588818"></polyline>
+                        <polyline id="Stroke-403" style="mix-blend-mode: multiply;" points="0 209.880034 174.333333 264 348.665771 164 523 212.614409"></polyline>
+                        <polyline id="Stroke-405" style="mix-blend-mode: multiply;" points="0 189.976277 174.333333 264 348.665771 164 523 191.10661"></polyline>
+                        <polyline id="Stroke-407" style="mix-blend-mode: multiply;" points="0 277 174.333333 264.036073 348.665771 8 523 107.191719"></polyline>
+                        <polyline id="Stroke-409" style="mix-blend-mode: multiply;" points="0 277 174.333333 264.036073 348.665771 8 523 195.000274"></polyline>
+                        <polyline id="Stroke-411" style="mix-blend-mode: multiply;" points="0 257.011344 174.333333 264 348.665771 8 523 200.364191"></polyline>
+                        <polyline id="Stroke-413" style="mix-blend-mode: multiply;" points="0 262 174.333333 0 348.665771 33.1085642 523 121.129009"></polyline>
+                        <polyline id="Stroke-415" style="mix-blend-mode: multiply;" points="0 260 174.333333 93 348.665771 252.172117 523 107.387249"></polyline>
+                        <polyline id="Stroke-417" style="mix-blend-mode: multiply;" points="0 237.214255 174.333333 93 348.665771 252 523 193.79459"></polyline>
+                        <polyline id="Stroke-419" style="mix-blend-mode: multiply;" points="0 247.18719 174.333333 93 348.665771 252 523 189.753536"></polyline>
+                        <polyline id="Stroke-421" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 33.2278259 523 136.42247"></polyline>
+                        <polyline id="Stroke-423" style="mix-blend-mode: multiply;" points="0 189.976277 174.333333 264 348.665771 164 523 191.10661"></polyline>
+                        <polyline id="Stroke-425" style="mix-blend-mode: multiply;" points="0 271 174.333333 93.5986178 348.665771 92 523 194.361499"></polyline>
+                        <polyline id="Stroke-427" style="mix-blend-mode: multiply;" points="0 277 174.333333 92.6016607 348.665771 91 523 193.556337"></polyline>
+                        <polyline id="Stroke-429" style="mix-blend-mode: multiply;" points="0 190 174.333333 264 348.665771 227.124036 523 214.64451"></polyline>
+                        <polyline id="Stroke-431" style="mix-blend-mode: multiply;" points="0 291 174.333333 93.5991008 348.665771 92 523 195.740473"></polyline>
+                        <polyline id="Stroke-433" style="mix-blend-mode: multiply;" points="0 264 174.333333 93 348.665771 252.177857 523 197.953232"></polyline>
+                        <polyline id="Stroke-435" style="mix-blend-mode: multiply;" points="0 251 174.333333 93 348.665771 110.669867 523 107.415174"></polyline>
+                        <polyline id="Stroke-437" style="mix-blend-mode: multiply;" points="0 244 174.333333 92.6047573 348.665771 91 523 201.865568"></polyline>
+                        <polyline id="Stroke-439" style="mix-blend-mode: multiply;" points="0 240.538493 174.333333 93 348.665771 252 523 212.652753"></polyline>
+                        <polyline id="Stroke-441" style="mix-blend-mode: multiply;" points="0 231 174.333333 93 348.665771 93.0035807 523 203.571873"></polyline>
+                        <polyline id="Stroke-443" style="mix-blend-mode: multiply;" points="0 204 174.333333 0 348.665771 83.4867038 523 109.408301"></polyline>
+                        <polyline id="Stroke-445" style="mix-blend-mode: multiply;" points="0 262 174.333333 0 348.665771 83.1868872 523 103.632623"></polyline>
+                        <polyline id="Stroke-447" style="mix-blend-mode: multiply;" points="0 291 174.333333 264.633371 348.665771 164 523 191.278295"></polyline>
+                        <polyline id="Stroke-449" style="mix-blend-mode: multiply;" points="0 197 174.333333 0 348.665771 33.1717886 523 121.359127"></polyline>
+                        <polyline id="Stroke-451" style="mix-blend-mode: multiply;" points="0 250 174.333333 0 348.665771 31.5379526 523 111.717292"></polyline>
+                        <polyline id="Stroke-453" style="mix-blend-mode: multiply;" points="0 207.258324 174.333333 93 348.665771 110.609403 523 218"></polyline>
+                        <polyline id="Stroke-455" style="mix-blend-mode: multiply;" points="0 221 174.333333 93 348.665771 110.671348 523 218.439714"></polyline>
+                        <polyline id="Stroke-457" style="mix-blend-mode: multiply;" points="0 201.625864 174.333333 93 348.665771 103.441008 523 213"></polyline>
+                        <polyline id="Stroke-459" style="mix-blend-mode: multiply;" points="0 225 174.333333 93 348.665771 103.413192 523 208.637603"></polyline>
+                        <polyline id="Stroke-461" style="mix-blend-mode: multiply;" points="0 204 174.333333 49 348.665771 116.303883 523 106.34201"></polyline>
+                        <polyline id="Stroke-463" style="mix-blend-mode: multiply;" points="0 183.259074 174.333333 93 348.665771 299 523 228.664334"></polyline>
+                        <polyline id="Stroke-465" style="mix-blend-mode: multiply;" points="0 120 174.333333 49 348.665771 116.037198 523 106.114798"></polyline>
+                        <polyline id="Stroke-467" style="mix-blend-mode: multiply;" points="0 198 174.333333 49 348.665771 116.596887 523 110.100402"></polyline>
+                        <polyline id="Stroke-469" style="mix-blend-mode: multiply;" points="0 225 174.333333 49 348.665771 116.564586 523 116.02386"></polyline>
+                        <polyline id="Stroke-471" style="mix-blend-mode: multiply;" points="0 257 174.333333 93 348.665771 104.888933 523 190.779997"></polyline>
+                        <polyline id="Stroke-473" style="mix-blend-mode: multiply;" points="0 198 174.333333 49 348.665771 116.596887 523 110.100402"></polyline>
+                        <polyline id="Stroke-475" style="mix-blend-mode: multiply;" points="0 212 174.333333 49 348.665771 116.430037 523 106.449667"></polyline>
+                        <polyline id="Stroke-477" style="mix-blend-mode: multiply;" points="0 193.003129 174.333333 93 348.665771 103.445718 523 209"></polyline>
+                        <polyline id="Stroke-479" style="mix-blend-mode: multiply;" points="0 189.899246 174.333333 93 348.665771 295 523 221.935159"></polyline>
+                        <polyline id="Stroke-481" style="mix-blend-mode: multiply;" points="0 190.558011 174.333333 310 348.665771 308.401613 523 189"></polyline>
+                        <polyline id="Stroke-483" style="mix-blend-mode: multiply;" points="0 209 174.333333 93 348.665771 93.003581 523 208.98687"></polyline>
+                        <polyline id="Stroke-485" style="mix-blend-mode: multiply;" points="0 206.670916 174.333333 93 348.665771 93.0023805 523 210"></polyline>
+                        <polyline id="Stroke-487" style="mix-blend-mode: multiply;" points="0 190 174.333333 49 348.665771 116.281137 523 104.977078"></polyline>
+                        <polyline id="Stroke-489" style="mix-blend-mode: multiply;" points="0 219 174.333333 49 348.665771 116.56574 523 105.212671"></polyline>
+                        <polyline id="Stroke-491" style="mix-blend-mode: multiply;" points="0 211 174.333333 49 348.665771 116.451936 523 105.11799"></polyline>
+                        <polyline id="Stroke-493" style="mix-blend-mode: multiply;" points="0 198.837299 174.333333 93 348.665771 302 523 111.125046"></polyline>
+                        <polyline id="Stroke-495" style="mix-blend-mode: multiply;" points="0 106.887062 174.333333 93 348.665771 295 523 221.935159"></polyline>
+                        <polyline id="Stroke-497" style="mix-blend-mode: multiply;" points="0 290.754582 174.333333 310 348.665771 308.398 523 215"></polyline>
+                        <polyline id="Stroke-499" style="mix-blend-mode: multiply;" points="0 273.990442 174.333333 310 348.665771 300.352449 523 209"></polyline>
+                        <polyline id="Stroke-501" style="mix-blend-mode: multiply;" points="0 259.518518 174.333333 310 348.665771 308.398697 523 211"></polyline>
+                        <polyline id="Stroke-503" style="mix-blend-mode: multiply;" points="0 217.110712 174.333333 93 348.665771 247 523 219.228261"></polyline>
+                        <polyline id="Stroke-505" style="mix-blend-mode: multiply;" points="0 199.878101 174.333333 264 348.665771 229.48233 523 148"></polyline>
+                        <polyline id="Stroke-507" style="mix-blend-mode: multiply;" points="0 248 174.333333 186 348.665771 217.790641 523 206.16015"></polyline>
+                        <polyline id="Stroke-509" style="mix-blend-mode: multiply;" points="0 264 174.333333 92.6046045 348.665771 91 523 193.744829"></polyline>
+                        <polyline id="Stroke-511" style="mix-blend-mode: multiply;" points="0 277 174.333333 264.042959 348.665771 239.889637 523 213"></polyline>
+                        <polyline id="Stroke-513" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 33.122717 523 134.644659"></polyline>
+                        <polyline id="Stroke-515" style="mix-blend-mode: multiply;" points="0 200 174.333333 0 348.665771 83.2093701 523 123.85386"></polyline>
+                        <polyline id="Stroke-517" style="mix-blend-mode: multiply;" points="0 225 174.333333 93 348.665771 110.619121 523 215.37464"></polyline>
+                        <polyline id="Stroke-519" style="mix-blend-mode: multiply;" points="0 230 174.333333 0 348.665771 20.8110023 523 104.957924"></polyline>
+                        <polyline id="Stroke-521" style="mix-blend-mode: multiply;" points="0 237 174.333333 0 348.665771 20.8419989 523 220.295663"></polyline>
+                        <polyline id="Stroke-523" style="mix-blend-mode: multiply;" points="0 283 174.333333 0 348.665771 33.1849226 523 122.752759"></polyline>
+                        <polyline id="Stroke-525" style="mix-blend-mode: multiply;" points="0 209.880034 174.333333 264 348.665771 164 523 212.614409"></polyline>
+                        <polyline id="Stroke-527" style="mix-blend-mode: multiply;" points="0 285 174.333333 264.052361 348.665771 8 523 195.012171"></polyline>
+                        <polyline id="Stroke-529" style="mix-blend-mode: multiply;" points="0 278 174.333333 263.722771 348.665771 8 523 194.771449"></polyline>
+                        <polyline id="Stroke-531" style="mix-blend-mode: multiply;" points="0 225 174.333333 93 348.665771 93.0023802 523 191.122019"></polyline>
+                        <polyline id="Stroke-533" style="mix-blend-mode: multiply;" points="0 211.439028 174.333333 264 348.665771 154 523 194.878902"></polyline>
+                        <polyline id="Stroke-535" style="mix-blend-mode: multiply;" points="0 240 174.333333 0 348.665771 119.727594 523 215.924821"></polyline>
+                        <polyline id="Stroke-537" style="mix-blend-mode: multiply;" points="0 285 174.333333 0 348.665771 156.331371 523 209.532436"></polyline>
+                        <polyline id="Stroke-539" style="mix-blend-mode: multiply;" points="0 258 174.333333 0 348.665771 156.108769 523 188.582896"></polyline>
+                        <polyline id="Stroke-541" style="mix-blend-mode: multiply;" points="0 196.572286 174.333333 0 348.665771 155.934123 523 209"></polyline>
+                        <polyline id="Stroke-543" style="mix-blend-mode: multiply;" points="0 230 174.333333 0 348.665771 84.0458051 523 94.2776235"></polyline>
+                        <polyline id="Stroke-545" style="mix-blend-mode: multiply;" points="0 238.324667 174.333333 264 348.665771 237.25675 523 202"></polyline>
+                        <polyline id="Stroke-547" style="mix-blend-mode: multiply;" points="0 237 174.333333 0 348.665771 84.1709856 523 100.800265"></polyline>
+                        <polyline id="Stroke-549" style="mix-blend-mode: multiply;" points="0 259 174.333333 93 348.665771 243.656616 523 195.456715"></polyline>
+                        <polyline id="Stroke-551" style="mix-blend-mode: multiply;" points="0 230 174.333333 0 348.665771 84.0458051 523 100.650354"></polyline>
+                        <polyline id="Stroke-553" style="mix-blend-mode: multiply;" points="0 251 174.333333 93 348.665771 96.2153071 523 200.86317"></polyline>
+                        <polyline id="Stroke-555" style="mix-blend-mode: multiply;" points="0 231 174.333333 93 348.665771 96.2154645 523 188.707213"></polyline>
+                        <polyline id="Stroke-557" style="mix-blend-mode: multiply;" points="0 257 174.333333 93 348.665771 96.2022382 523 208.499286"></polyline>
+                        <polyline id="Stroke-559" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 111.43273 523 204.672952"></polyline>
+                        <polyline id="Stroke-561" style="mix-blend-mode: multiply;" points="0 217.367279 174.333333 93 348.665771 301 523 215.444209"></polyline>
+                        <polyline id="Stroke-563" style="mix-blend-mode: multiply;" points="0 277 174.333333 93 348.665771 93.0023783 523 192.390489"></polyline>
+                        <polyline id="Stroke-565" style="mix-blend-mode: multiply;" points="0 291 174.333333 93 348.665771 93.0023868 523 191.397324"></polyline>
+                        <polyline id="Stroke-567" style="mix-blend-mode: multiply;" points="0 264 174.333333 93 348.665771 93.0023823 523 191.210144"></polyline>
+                        <polyline id="Stroke-569" style="mix-blend-mode: multiply;" points="0 251 174.333333 93 348.665771 101.033494 523 192.755679"></polyline>
+                        <polyline id="Stroke-571" style="mix-blend-mode: multiply;" points="0 235.704081 174.333333 93 348.665771 251 523 213.847505"></polyline>
+                        <polyline id="Stroke-573" style="mix-blend-mode: multiply;" points="0 229.729101 174.333333 93 348.665771 251 523 201.73945"></polyline>
+                        <polyline id="Stroke-575" style="mix-blend-mode: multiply;" points="0 201.631672 174.333333 264 348.665771 233.363931 523 130"></polyline>
+                        <polyline id="Stroke-577" style="mix-blend-mode: multiply;" points="0 247 174.333333 93 348.665771 127.054001 523 215.869395"></polyline>
+                        <polyline id="Stroke-579" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 59.2421376 523 94.4047978"></polyline>
+                        <polyline id="Stroke-581" style="mix-blend-mode: multiply;" points="0 157.358242 174.333333 93 348.665771 295 523 223.280486"></polyline>
+                        <polyline id="Stroke-583" style="mix-blend-mode: multiply;" points="0 244 174.333333 49 348.665771 116.351175 523 230.846031"></polyline>
+                        <polyline id="Stroke-585" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 76.261386 523 114.448749"></polyline>
+                        <polyline id="Stroke-587" style="mix-blend-mode: multiply;" points="0 284 174.333333 264.395416 348.665771 22 523 193.826526"></polyline>
+                        <polyline id="Stroke-589" style="mix-blend-mode: multiply;" points="0 271 174.333333 264.683674 348.665771 22 523 194.030863"></polyline>
+                        <polyline id="Stroke-591" style="mix-blend-mode: multiply;" points="0 264.661291 174.333333 265 348.665771 22 523 194.255097"></polyline>
+                        <polyline id="Stroke-593" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 20.3521258 523 107.891878"></polyline>
+                        <polyline id="Stroke-595" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 20.3521258 523 107.891878"></polyline>
+                        <polyline id="Stroke-597" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 12.0230615 523 210.827058"></polyline>
+                        <polyline id="Stroke-599" style="mix-blend-mode: multiply;" points="0 210 174.333333 0 348.665771 20.3188977 523 107.715727"></polyline>
+                        <polyline id="Stroke-601" style="mix-blend-mode: multiply;" points="0 190.349332 174.333333 265 348.665771 184.29418 523 182"></polyline>
+                        <polyline id="Stroke-603" style="mix-blend-mode: multiply;" points="0 204 174.333333 0 348.665771 20.3834165 523 108.057758"></polyline>
+                        <polyline id="Stroke-605" style="mix-blend-mode: multiply;" points="0 186.178504 174.333333 93 348.665771 105.032721 523 225"></polyline>
+                        <polyline id="Stroke-607" style="mix-blend-mode: multiply;" points="0 211.87437 174.333333 93 348.665771 105.031529 523 225"></polyline>
+                        <polyline id="Stroke-609" style="mix-blend-mode: multiply;" points="0 187.081981 174.333333 93 348.665771 104.977069 523 215"></polyline>
+                        <polyline id="Stroke-611" style="mix-blend-mode: multiply;" points="0 189.071633 174.333333 93 348.665771 104.978255 523 215"></polyline>
+                        <polyline id="Stroke-613" style="mix-blend-mode: multiply;" points="0 235.881846 174.333333 93 348.665771 256 523 196.486719"></polyline>
+                        <polyline id="Stroke-615" style="mix-blend-mode: multiply;" points="0 217.266396 174.333333 93 348.665771 256 523 196.486719"></polyline>
+                        <polyline id="Stroke-617" style="mix-blend-mode: multiply;" points="0 263 174.333333 93 348.665771 239.640083 523 180.366067"></polyline>
+                        <polyline id="Stroke-619" style="mix-blend-mode: multiply;" points="0 262 174.333333 0 348.665771 141.316781 523 107.309503"></polyline>
+                        <polyline id="Stroke-621" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 20.3521258 523 107.891878"></polyline>
+                        <polyline id="Stroke-623" style="mix-blend-mode: multiply;" points="0 203.152649 174.333333 264 348.665771 183.850451 523 180"></polyline>
+                        <polyline id="Stroke-625" style="mix-blend-mode: multiply;" points="0 189.862767 174.333333 264 348.665771 183.849262 523 180"></polyline>
+                        <polyline id="Stroke-627" style="mix-blend-mode: multiply;" points="0 297 174.333333 106.785668 348.665771 20 523 107.46648"></polyline>
+                        <polyline id="Stroke-629" style="mix-blend-mode: multiply;" points="0 291 174.333333 264.679455 348.665771 184.28532 523 182"></polyline>
+                        <polyline id="Stroke-631" style="mix-blend-mode: multiply;" points="0 189.862767 174.333333 264 348.665771 183.849262 523 180"></polyline>
+                        <polyline id="Stroke-633" style="mix-blend-mode: multiply;" points="0 271 174.333333 264.654343 348.665771 184 523 210.831731"></polyline>
+                        <polyline id="Stroke-635" style="mix-blend-mode: multiply;" points="0 291 174.333333 264.609082 348.665771 184 523 210.81787"></polyline>
+                        <polyline id="Stroke-637" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 20.3845691 523 108.057544"></polyline>
+                        <polyline id="Stroke-639" style="mix-blend-mode: multiply;" points="0 281 174.333333 264.629373 348.665771 184 523 210.823424"></polyline>
+                        <polyline id="Stroke-641" style="mix-blend-mode: multiply;" points="0 264 174.333333 93 348.665771 252.177857 523 204.69632"></polyline>
+                        <polyline id="Stroke-643" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 127.981934 523 107.530936"></polyline>
+                        <polyline id="Stroke-645" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 127.981934 523 107.530936"></polyline>
+                        <polyline id="Stroke-647" style="mix-blend-mode: multiply;" points="0 217 174.333333 0 348.665771 0 523 197.341169"></polyline>
+                        <polyline id="Stroke-649" style="mix-blend-mode: multiply;" points="0 204 174.333333 0 348.665771 128.178702 523 114.448976"></polyline>
+                        <polyline id="Stroke-651" style="mix-blend-mode: multiply;" points="0 291 174.333333 264.633371 348.665771 164 523 210.891664"></polyline>
+                        <polyline id="Stroke-653" style="mix-blend-mode: multiply;" points="0 204 174.333333 0 348.665771 128.178702 523 100.942353"></polyline>
+                        <polyline id="Stroke-655" style="mix-blend-mode: multiply;" points="0 204 174.333333 0 348.665771 128.178702 523 190.890665"></polyline>
+                        <polyline id="Stroke-657" style="mix-blend-mode: multiply;" points="0 211 174.333333 93 348.665771 99.4278344 523 195.471737"></polyline>
+                        <polyline id="Stroke-659" style="mix-blend-mode: multiply;" points="0 274 174.333333 264.370155 348.665771 179.407024 523 155"></polyline>
+                        <polyline id="Stroke-661" style="mix-blend-mode: multiply;" points="0 289 174.333333 264.056554 348.665771 179 523 179.952494"></polyline>
+                        <polyline id="Stroke-663" style="mix-blend-mode: multiply;" points="0 237.028899 174.333333 93 348.665771 243 523 188.284514"></polyline>
+                        <polyline id="Stroke-665" style="mix-blend-mode: multiply;" points="0 193.868236 174.333333 93 348.665771 243 523 188.283325"></polyline>
+                        <polyline id="Stroke-667" style="mix-blend-mode: multiply;" points="0 224 174.333333 0 348.665771 128.17964 523 107.696047"></polyline>
+                        <polyline id="Stroke-669" style="mix-blend-mode: multiply;" points="0 254 174.333333 93 348.665771 243.347419 523 191.200507"></polyline>
+                        <polyline id="Stroke-671" style="mix-blend-mode: multiply;" points="0 186.658894 174.333333 264 348.665771 164 523 209.026893"></polyline>
+                        <polyline id="Stroke-673" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 112.233014 523 216.807019"></polyline>
+                        <polyline id="Stroke-675" style="mix-blend-mode: multiply;" points="0 237 174.333333 93 348.665771 108.191473 523 197.679427"></polyline>
+                        <polyline id="Stroke-677" style="mix-blend-mode: multiply;" points="0 187 174.333333 93 348.665771 108.954324 523 107.317284"></polyline>
+                        <polyline id="Stroke-679" style="mix-blend-mode: multiply;" points="0 225 174.333333 93 348.665771 172.352092 523 103.013325"></polyline>
+                        <polyline id="Stroke-681" style="mix-blend-mode: multiply;" points="0 144.79182 174.333333 93 348.665771 296 523 107.368376"></polyline>
+                        <polyline id="Stroke-683" style="mix-blend-mode: multiply;" points="0 262 174.333333 92.7978984 348.665771 92 523 208.961191"></polyline>
+                        <polyline id="Stroke-685" style="mix-blend-mode: multiply;" points="0 251 174.333333 93 348.665771 105.85168 523 181.946088"></polyline>
+                        <polyline id="Stroke-687" style="mix-blend-mode: multiply;" points="0 273 174.333333 92.7975561 348.665771 92 523 154.556967"></polyline>
+                        <polyline id="Stroke-689" style="mix-blend-mode: multiply;" points="0 257 174.333333 92.7985675 348.665771 92 523 208.886009"></polyline>
+                        <polyline id="Stroke-691" style="mix-blend-mode: multiply;" points="0 250 174.333333 92.7968043 348.665771 92 523 154.406046"></polyline>
+                        <polyline id="Stroke-693" style="mix-blend-mode: multiply;" points="0 216.88628 174.333333 93 348.665771 111.359234 523 219"></polyline>
+                        <polyline id="Stroke-695" style="mix-blend-mode: multiply;" points="0 191.699565 174.333333 93 348.665771 111.359234 523 219"></polyline>
+                        <polyline id="Stroke-697" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 102.617698 523 184.44792"></polyline>
+                        <polyline id="Stroke-699" style="mix-blend-mode: multiply;" points="0 201.641877 174.333333 93 348.665771 111.359234 523 219"></polyline>
+                        <polyline id="Stroke-701" style="mix-blend-mode: multiply;" points="0 284 174.333333 93 348.665771 111.439752 523 191.227006"></polyline>
+                        <polyline id="Stroke-703" style="mix-blend-mode: multiply;" points="0 277 174.333333 93 348.665771 257.303445 523 181.942403"></polyline>
+                        <polyline id="Stroke-705" style="mix-blend-mode: multiply;" points="0 204.115585 174.333333 93 348.665771 249 523 180.437343"></polyline>
+                        <polyline id="Stroke-707" style="mix-blend-mode: multiply;" points="0 210.488332 174.333333 93 348.665771 307 523 221.938144"></polyline>
+                        <polyline id="Stroke-709" style="mix-blend-mode: multiply;" points="0 203.847724 174.333333 93 348.665771 307 523 221.93886"></polyline>
+                        <polyline id="Stroke-711" style="mix-blend-mode: multiply;" points="0 237 174.333333 93 348.665771 111.389677 523 190.955118"></polyline>
+                        <polyline id="Stroke-713" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 111.43273 523 208.717244"></polyline>
+                        <polyline id="Stroke-715" style="mix-blend-mode: multiply;" points="0 211.108961 174.333333 93 348.665771 293 523 228.933313"></polyline>
+                        <polyline id="Stroke-717" style="mix-blend-mode: multiply;" points="0 231 174.333333 93 348.665771 111.474001 523 208.97753"></polyline>
+                        <polyline id="Stroke-719" style="mix-blend-mode: multiply;" points="0 224 174.333333 93 348.665771 111.42753 523 208.685791"></polyline>
+                        <polyline id="Stroke-721" style="mix-blend-mode: multiply;" points="0 203.009468 174.333333 93 348.665771 102.641199 523 209"></polyline>
+                        <polyline id="Stroke-723" style="mix-blend-mode: multiply;" points="0 201.674865 174.333333 93 348.665771 102.642293 523 209"></polyline>
+                        <polyline id="Stroke-725" style="mix-blend-mode: multiply;" points="0 190.396882 174.333333 93 348.665771 102.581655 523 215"></polyline>
+                        <polyline id="Stroke-727" style="mix-blend-mode: multiply;" points="0 257 174.333333 93 348.665771 98.6009451 523 181.584558"></polyline>
+                        <polyline id="Stroke-729" style="mix-blend-mode: multiply;" points="0 218.749375 174.333333 93 348.665771 257 523 188.521733"></polyline>
+                        <polyline id="Stroke-731" style="mix-blend-mode: multiply;" points="0 257 174.333333 93 348.665771 98.6009451 523 181.584558"></polyline>
+                        <polyline id="Stroke-733" style="mix-blend-mode: multiply;" points="0 257 174.333333 93 348.665771 256.643403 523 180.238999"></polyline>
+                        <polyline id="Stroke-735" style="mix-blend-mode: multiply;" points="0 251 174.333333 93 348.665771 98.6238037 523 181.946088"></polyline>
+                        <polyline id="Stroke-737" style="mix-blend-mode: multiply;" points="0 234.059155 174.333333 93 348.665771 257 523 181.778139"></polyline>
+                        <polyline id="Stroke-739" style="mix-blend-mode: multiply;" points="0 210.487903 174.333333 93 348.665771 303 523 111.073142"></polyline>
+                        <polyline id="Stroke-741" style="mix-blend-mode: multiply;" points="0 247.749553 174.333333 264 348.665771 241.396512 523 201"></polyline>
+                        <polyline id="Stroke-743" style="mix-blend-mode: multiply;" points="0 291 174.333333 264.627627 348.665771 239.560307 523 212"></polyline>
+                        <polyline id="Stroke-745" style="mix-blend-mode: multiply;" points="0 284 174.333333 264.31555 348.665771 239.260551 523 145"></polyline>
+                        <polyline id="Stroke-747" style="mix-blend-mode: multiply;" points="0 156.499048 174.333333 93 348.665771 172 523 102.969045"></polyline>
+                        <polyline id="Stroke-749" style="mix-blend-mode: multiply;" points="0 213.770467 174.333333 93 348.665771 293 523 226.237273"></polyline>
+                        <polyline id="Stroke-751" style="mix-blend-mode: multiply;" points="0 264 174.333333 93 348.665771 104.913861 523 190.985017"></polyline>
+                        <polyline id="Stroke-753" style="mix-blend-mode: multiply;" points="0 183.904027 174.333333 92.6039335 348.665771 91 523 191"></polyline>
+                        <polyline id="Stroke-755" style="mix-blend-mode: multiply;" points="0 218.705712 174.333333 93 348.665771 293 523 226.237671"></polyline>
+                        <polyline id="Stroke-757" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 111.43273 523 119.199771"></polyline>
+                        <polyline id="Stroke-759" style="mix-blend-mode: multiply;" points="0 270 174.333333 92.7972259 348.665771 92 523 206.89915"></polyline>
+                        <polyline id="Stroke-761" style="mix-blend-mode: multiply;" points="0 128.173 174.333333 93 348.665771 292 523 116.477615"></polyline>
+                        <polyline id="Stroke-763" style="mix-blend-mode: multiply;" points="0 250.488579 174.333333 93 348.665771 292 523 213.981988"></polyline>
+                        <polyline id="Stroke-765" style="mix-blend-mode: multiply;" points="0 243.982722 174.333333 93 348.665771 301 523 219.488739"></polyline>
+                        <polyline id="Stroke-767" style="mix-blend-mode: multiply;" points="0 214 174.333333 93 348.665771 111.424378 523 204.622351"></polyline>
+                        <polyline id="Stroke-769" style="mix-blend-mode: multiply;" points="0 197.359715 174.333333 93 348.665771 105.015412 523 210"></polyline>
+                        <polyline id="Stroke-771" style="mix-blend-mode: multiply;" points="0 237 174.333333 93 348.665771 111.389677 523 228.615999"></polyline>
+                        <polyline id="Stroke-773" style="mix-blend-mode: multiply;" points="0 124 174.333333 93 348.665771 111.304582 523 110.984092"></polyline>
+                        <polyline id="Stroke-775" style="mix-blend-mode: multiply;" points="0 122.190283 174.333333 93 348.665771 292 523 116.478805"></polyline>
+                        <polyline id="Stroke-777" style="mix-blend-mode: multiply;" points="0 130.16781 174.333333 93 348.665771 292 523 116.478664"></polyline>
+                        <polyline id="Stroke-779" style="mix-blend-mode: multiply;" points="0 224 174.333333 93 348.665771 111.42753 523 204.64145"></polyline>
+                        <polyline id="Stroke-781" style="mix-blend-mode: multiply;" points="0 204.731398 174.333333 93 348.665771 293 523 214.103179"></polyline>
+                        <polyline id="Stroke-783" style="mix-blend-mode: multiply;" points="0 225 174.333333 93 348.665771 105.013848 523 209.984772"></polyline>
+                        <polyline id="Stroke-785" style="mix-blend-mode: multiply;" points="0 223.898074 174.333333 93 348.665771 292 523 215.329123"></polyline>
+                        <polyline id="Stroke-787" style="mix-blend-mode: multiply;" points="0 223.898074 174.333333 93 348.665771 292 523 215.329123"></polyline>
+                        <polyline id="Stroke-789" style="mix-blend-mode: multiply;" points="0 221 174.333333 93 348.665771 111.474645 523 214.386225"></polyline>
+                        <polyline id="Stroke-791" style="mix-blend-mode: multiply;" points="0 140.699425 174.333333 93 348.665771 110.574347 523 207"></polyline>
+                        <polyline id="Stroke-793" style="mix-blend-mode: multiply;" points="0 207.39357 174.333333 93 348.665771 293 523 214.1039"></polyline>
+                        <polyline id="Stroke-795" style="mix-blend-mode: multiply;" points="0 262 174.333333 93 348.665771 111.410628 523 116.475394"></polyline>
+                        <polyline id="Stroke-797" style="mix-blend-mode: multiply;" points="0 244 174.333333 93 348.665771 111.43273 523 119.199771"></polyline>
+                        <polyline id="Stroke-799" style="mix-blend-mode: multiply;" points="0 264 174.333333 93 348.665771 111.436587 523 108.417027"></polyline>
+                        <polyline id="Stroke-801" style="mix-blend-mode: multiply;" points="0 290 174.333333 92.7975579 348.665771 92 523 206.04722"></polyline>
+                        <polyline id="Stroke-803" style="mix-blend-mode: multiply;" points="0 189.626364 174.333333 92.7960479 348.665771 92 523 206"></polyline>
+                        <polyline id="Stroke-805" style="mix-blend-mode: multiply;" points="0 271 174.333333 93 348.665771 104.133802 523 189.82314"></polyline>
+                        <polyline id="Stroke-807" style="mix-blend-mode: multiply;" points="0 284 174.333333 93 348.665771 260.221797 523 184.257594"></polyline>
+                        <polyline id="Stroke-809" style="mix-blend-mode: multiply;" points="0 196.407283 174.333333 264 348.665771 233.41256 523 141"></polyline>
+                        <polyline id="Stroke-811" style="mix-blend-mode: multiply;" points="0 212.360554 174.333333 264 348.665771 247.816993 523 207"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

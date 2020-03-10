@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>scatterplot</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="144" height="48"></rect>
+        <filter x="-6.9%" y="-16.7%" width="113.9%" height="141.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="17.9403457 21.1863925 13.5219224 23.061902 10.9929768 17.1040795 7.2 20.8970563 7.2 1.90294373 20.8970563 15.6 15.5690628 15.6"></polygon>
+        <filter x="-25.6%" y="-15.2%" width="156.3%" height="137.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.75" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="17.9403457 21.1863925 13.5219224 23.061902 10.9929768 17.1040795 7.2 20.8970563 7.2 1.90294373 20.8970563 15.6 15.5690628 15.6"></polygon>
+        <filter x="-13.7%" y="-5.3%" width="127.4%" height="117.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0.75" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="scatterplot" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F3F3" x="0" y="0" width="928" height="522"></rect>
+        <g id="Group-7" transform="translate(249.000000, 93.000000)">
+            <g id="Group-6" transform="translate(0.000000, 36.000000)">
+                <g id="Group-4">
+                    <g id="Group-2" transform="translate(77.500000, 0.000000)">
+                        <rect id="Rectangle" stroke="#DCDCDC" x="0.5" y="0.5" width="351" height="226"></rect>
+                        <g id="graph_grid" fill="#E0E0E0">
+                            <rect id="Rectangle-Copy-2" x="0" y="113" width="351" height="1"></rect>
+                            <rect id="Rectangle-Copy-3" x="0" y="170" width="351" height="1"></rect>
+                            <rect id="Rectangle-Copy-8" x="29" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-9" x="78" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-11" x="225" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-10" x="127" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-13" x="274" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-15" x="323" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy" x="0" y="56" width="351" height="1"></rect>
+                        </g>
+                        <rect id="Rectangle" fill="#8C8C8C" x="0" y="226" width="352" height="1"></rect>
+                    </g>
+                    <g id="X-Axis" transform="translate(77.500000, 232.000000)" font-size="12" font-weight="normal">
+                        <text id="Mon" transform="translate(29.500000, 7.000000) rotate(-360.000000) translate(-29.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="19" y="12">Mon</tspan>
+                        </text>
+                        <text id="Tue" transform="translate(77.500000, 7.000000) rotate(-360.000000) translate(-77.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="68" y="12">Tue</tspan>
+                        </text>
+                        <text id="Wed" transform="translate(127.000000, 7.000000) rotate(-360.000000) translate(-127.000000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="116" y="12">Wed</tspan>
+                        </text>
+                        <text id="Thu" transform="translate(176.500000, 7.000000) rotate(-360.000000) translate(-176.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="167" y="12">Thu</tspan>
+                        </text>
+                        <text id="Fri" transform="translate(225.500000, 7.000000) rotate(-360.000000) translate(-225.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="219" y="12">Fri</tspan>
+                        </text>
+                        <text id="Sat" transform="translate(274.000000, 7.000000) rotate(-360.000000) translate(-274.000000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="266" y="12">Sat</tspan>
+                        </text>
+                        <text id="Sun" transform="translate(323.500000, 7.000000) rotate(-360.000000) translate(-323.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="314" y="12">Sun</tspan>
+                        </text>
+                        <text id="Y-label" transform="translate(175.000000, 30.000000) rotate(-360.000000) translate(-175.000000, -30.000000) " font-family="IBMPlexSans, IBM Plex Sans" line-spacing="16" fill="#171717">
+                            <tspan x="161.854" y="34">Days</tspan>
+                        </text>
+                    </g>
+                    <g id="ticks" transform="translate(25.000000, 0.000000)" fill="#6F6F6F" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal">
+                        <text id="0">
+                            <tspan x="37.8" y="226">0</tspan>
+                        </text>
+                        <text id="20,000" line-spacing="16">
+                            <tspan x="1.79400481" y="174">20,000</tspan>
+                        </text>
+                        <text id="40,000" line-spacing="16">
+                            <tspan x="1.79400481" y="117.5">40,000</tspan>
+                        </text>
+                        <text id="60,000" line-spacing="16">
+                            <tspan x="1.58379403" y="61">60,000</tspan>
+                        </text>
+                        <text id="80,000" line-spacing="16">
+                            <tspan x="1.8" y="12">80,000</tspan>
+                        </text>
+                    </g>
+                    <text id="ylabel" transform="translate(8.500000, 114.000000) rotate(-90.000000) translate(-8.500000, -114.000000) " font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#171717">
+                        <tspan x="-11.666" y="118">Visitors</tspan>
+                    </text>
+                    <g id="Group-3" transform="translate(78.000000, 286.000000)">
+                        <g id="Group">
+                            <rect id="Rectangle-Copy-6" fill="#EE5396" x="0" y="2" width="12" height="12" rx="1"></rect>
+                            <text id="Right-entrance" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#858686">
+                                <tspan x="16" y="12">Right entrance</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-5" transform="translate(96.000000, 0.000000)">
+                            <rect id="Rectangle-Copy-7" fill="#1192E8" x="0" y="2" width="12" height="12" rx="1"></rect>
+                            <text id="Left-entrance" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                                <tspan x="16" y="12">Left entrance</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-5-Copy" transform="translate(185.000000, 0.000000)">
+                            <rect id="Rectangle-Copy-7" fill="#6929C4" x="0" y="2" width="12" height="12" rx="1"></rect>
+                            <text id="Middle-entrance" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                                <tspan x="16" y="12">Middle entrance</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Data" transform="translate(102.500000, 51.000000)" fill-opacity="0.3" stroke-width="1.5">
+                    <g id="data_1" style="mix-blend-mode: multiply;">
+                        <circle id="Oval-Copy-21" stroke="#EE5396" fill="#EE5396" cx="4.5" cy="129" r="3.25"></circle>
+                        <circle id="Oval-Copy-45" stroke="#6929C4" fill="#6929C4" cx="53.5" cy="135" r="3.25"></circle>
+                        <circle id="Oval-Copy-46" stroke="#EE5396" fill="#EE5396" cx="53.5" cy="87" r="3.25"></circle>
+                        <circle id="Oval-Copy-47" stroke="#EE5396" fill="#EE5396" cx="102.5" cy="130" r="3.25"></circle>
+                        <circle id="Oval-Copy-59" stroke="#1192E8" fill="#1192E8" cx="102.5" cy="25" r="3.25"></circle>
+                        <circle id="Oval-Copy-60" stroke="#6929C4" fill="#6929C4" cx="249.5" cy="4.5" r="3.25"></circle>
+                        <circle id="Oval-Copy-48" stroke="#6929C4" fill="#6929C4" cx="200.5" cy="50" r="3.25"></circle>
+                        <circle id="Oval-Copy-49" stroke="#1192E8" fill="#1192E8" cx="249.5" cy="102" r="3.25"></circle>
+                        <circle id="Oval-Copy-55" stroke="#6929C4" fill="#6929C4" cx="298.5" cy="42.5" r="3.25"></circle>
+                        <circle id="Oval-Copy-56" stroke="#EE5396" fill="#EE5396" cx="298.5" cy="84.5" r="3.25"></circle>
+                        <circle id="Oval-Copy-58" stroke="#1192E8" fill="#1192E8" cx="298.5" cy="4.5" r="3.25"></circle>
+                    </g>
+                    <g id="data_2" style="mix-blend-mode: multiply;" transform="translate(0.000000, 51.000000)">
+                        <circle id="Oval-Copy-34" stroke="#1192E8" fill="#1192E8" cx="4.5" cy="57" r="3.25"></circle>
+                        <circle id="Oval-Copy-43" stroke="#6929C4" fill="#6929C4" cx="4.5" cy="52" r="3.25"></circle>
+                        <circle id="Oval-Copy-36" stroke="#1192E8" fill="#1192E8" cx="53.5" cy="60" r="3.25"></circle>
+                        <circle id="Oval-Copy-37" stroke="#6929C4" fill="#6929C4" cx="102.5" cy="29" r="3.25"></circle>
+                        <circle id="Oval-Copy-38" stroke="#EE5396" fill="#EE5396" cx="200.5" cy="101" r="3.25"></circle>
+                        <circle id="Oval-Copy-39" stroke="#1192E8" fill="#1192E8" cx="200.5" cy="4" r="3.25"></circle>
+                        <circle id="Oval-Copy-40" stroke="#EE5396" fill="#EE5396" cx="249.5" cy="65" r="3.25"></circle>
+                    </g>
+                </g>
+                <rect id="Rectangle-Copy-12" fill="#8C8C8C" transform="translate(78.000000, 113.000000) scale(1, -1) translate(-78.000000, -113.000000) " x="77.5" y="0" width="1" height="226"></rect>
+                <circle id="Oval-Copy-53" stroke="#EE5396" stroke-width="1.5" fill-opacity="0.3" fill="#EE5396" cx="253.5" cy="42" r="3.25"></circle>
+                <circle id="Oval-Copy-57" stroke="#1192E8" stroke-width="1.5" fill-opacity="0.3" fill="#1192E8" cx="253.5" cy="48" r="3.25"></circle>
+                <circle id="Oval-Copy-44" stroke="#6929C4" stroke-width="1.5" fill-opacity="0.3" fill="#6929C4" cx="253.5" cy="123" r="3.25"></circle>
+                <line x1="253.5" y1="225.5" x2="253.5" y2="0.5" id="Line-Copy-12" stroke="#0F6DFF" stroke-width="0.5" stroke-linecap="square" stroke-dasharray="2,2"></line>
+                <g id="inline-labels-copy-2" transform="translate(263.000000, 131.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle-Copy-4" fill="#6929C4" x="0" y="32" width="3" height="16"></rect>
+                    <text id="Right-entrance-Left" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="16" fill="#171717">
+                        <tspan x="7" y="12">Right entrance</tspan>
+                        <tspan x="7" y="28">Left entrance</tspan>
+                        <tspan x="7" y="44">Double entrance</tspan>
+                    </text>
+                    <text id="61,600-60,800-38,500" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal" line-spacing="16" fill="#171717">
+                        <tspan x="96" y="12">61,600</tspan>
+                        <tspan x="96" y="28">60,800</tspan>
+                        <tspan x="96" y="44">38,500</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-5" fill="#1192E8" x="0" y="16" width="3" height="15"></rect>
+                    <rect id="Rectangle-Copy-15" fill="#EE5396" x="0" y="0" width="3" height="15"></rect>
+                </g>
+                <rect id="Rectangle" fill="#E0E0E0" x="263" y="146" width="144" height="1"></rect>
+                <rect id="Rectangle-Copy-14" fill="#E0E0E0" x="263" y="162" width="144" height="1"></rect>
+                <g id="icon/hover-states/arrow-cursor" transform="translate(244.000000, 144.000000)">
+                    <g id="Soft-Shadow" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Hard-Shadow" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    </g>
+                    <polygon id="Ouline" fill="#FFFFFF" fill-rule="evenodd" points="17.9403457 21.1863925 13.5219224 23.061902 10.9929768 17.1040795 7.2 20.8970563 7.2 1.90294373 20.8970563 15.6 15.5690628 15.6"></polygon>
+                    <polygon id="Arrow" fill="#000000" fill-rule="evenodd" points="13.7560605 14.4 18 14.4 8.4 4.8 8.4 18 11.4024434 14.9975566 14.1576509 21.4884188 16.3668625 20.5506641"></polygon>
+                </g>
+            </g>
+            <text id="Visitors-by-entrance" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" fill="#1A1A1A">
+                <tspan x="1" y="16">Visitors by entrance</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

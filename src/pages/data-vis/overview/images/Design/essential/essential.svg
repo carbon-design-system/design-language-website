@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="608px" height="342px" viewBox="0 0 608 342" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <g id="principles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz---Principles-Overview" transform="translate(-352.000000, -1818.000000)" fill-rule="nonzero">
+            <g id="Group-18" transform="translate(352.000000, 1818.000000)">
+                <g id="principles_p_helpful">
+                    <g id="Back" fill="#282828">
+                        <rect id="Rectangle" x="0" y="0" width="608" height="342"></rect>
+                    </g>
+                    <g id="Layer_3" transform="translate(189.000000, 53.000000)" fill="#FFFFFF">
+                        <circle id="Oval" cx="32.78" cy="32.86" r="32.18"></circle>
+                        <circle id="Oval" cx="197.97" cy="197.63" r="11.33"></circle>
+                        <circle id="Oval" cx="32.78" cy="197.63" r="9.44"></circle>
+                        <circle id="Oval" cx="115.63" cy="197.63" r="15.76"></circle>
+                        <circle id="Oval" cx="197.97" cy="115.81" r="13.4"></circle>
+                        <circle id="Oval" cx="115.63" cy="115.81" r="17.43"></circle>
+                        <circle id="Oval" cx="32.78" cy="115.81" r="5.2"></circle>
+                        <circle id="Oval" cx="115.63" cy="32.86" r="28.88"></circle>
+                        <circle id="Oval" cx="197.97" cy="32.86" r="14.54"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

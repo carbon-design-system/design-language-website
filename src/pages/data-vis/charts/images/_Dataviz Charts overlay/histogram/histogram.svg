@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>histogram</title>
+    <desc>Created with Sketch.</desc>
+    <g id="histogram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F3F3" x="0" y="0" width="928" height="522"></rect>
+        <g id="Group-6" transform="translate(243.000000, 94.000000)">
+            <g id="Group-5" transform="translate(0.000000, 34.000000)">
+                <g id="Group-4">
+                    <g id="Group-2" transform="translate(56.000000, 0.000000)">
+                        <g id="graph_grid" fill="#E0E0E0">
+                            <rect id="Rectangle-Copy-2" x="0" y="135.6" width="366" height="1"></rect>
+                            <rect id="Rectangle-Copy-3" x="0" y="180.8" width="366" height="1"></rect>
+                            <rect id="Rectangle-Copy-11" x="127.5" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-13" x="187.5" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-15" x="247.5" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-14" x="307.5" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-16" x="67.5" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy" x="0" y="90.4" width="366" height="1"></rect>
+                            <rect id="Rectangle-Copy-6" x="0" y="45.2" width="366" height="1"></rect>
+                        </g>
+                        <rect id="Rectangle" stroke="#DCDCDC" x="0.5" y="0.5" width="365" height="226"></rect>
+                    </g>
+                    <g id="data" transform="translate(60.000000, 24.000000)" fill="#0062FF">
+                        <rect id="Rectangle-9" x="20" y="137" width="8" height="66"></rect>
+                        <rect id="Rectangle-9-Copy-2" x="30" y="137" width="8" height="66"></rect>
+                        <rect id="Rectangle-9-Copy-4" x="100" y="65" width="8" height="138"></rect>
+                        <polygon id="Rectangle-9" points="10 139 18 139 18 203 10 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-19" points="160 76.5 168 76.5 168 203 160 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-23" points="170 82 178 82 178 202.5 170 202.5"></polygon>
+                        <polygon id="Rectangle-9-Copy-24" points="180 87 188 87 188 203 180 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-25" points="200 103 208 103 208 203 200 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-26" points="210 113.5 218 113.5 218 203 210 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-27" points="220 120 228 120 228 203 220 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-28" points="230 113.5 238 113.5 238 203 230 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-29" points="240 126.5 248 126.5 248 203 240 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-37" points="250 112 258 112 258 203 250 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-38" points="260 137 268 137 268 203 260 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-39" points="270 164.5 278 164.5 278 203 270 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-40" points="280 167.5 288 167.5 288 203 280 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-41" points="290 170 298 170 298 203 290 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-42" points="300 176.5 308 176.5 308 203 300 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-43" points="310 183.5 318 183.5 318 203 310 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-44" points="320 170 328 170 328 203 320 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-45" points="330 157 338 157 338 203 330 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-46" points="340 140 348 140 348 203 340 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-47" points="350 126 358 126 358 203 350 203"></polygon>
+                        <polygon id="Rectangle-9" points="0 144 8 144 8 203 0 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-20" points="150 71 158 71 158 203 150 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-21" points="140 62 148 62 148 203 140 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-22" points="130 33 138 33 138 203 130 203"></polygon>
+                        <rect id="Rectangle-9-Copy-14" x="40" y="134" width="8" height="69"></rect>
+                        <rect id="Rectangle-9-Copy-13" x="110" y="42" width="8" height="161"></rect>
+                        <rect id="Rectangle-9-Copy-12" x="60" y="123" width="8" height="80"></rect>
+                        <rect id="Rectangle-9-Copy-11" x="80" y="103" width="8" height="100"></rect>
+                        <rect id="Rectangle-9-Copy-10" x="120" y="0" width="8" height="203"></rect>
+                        <polygon id="Rectangle-9-Copy-9" points="190 92 198 92 198 203 190 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-8" points="70 115.5 78 115.5 78 203 70 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-7" points="90 81 98 81 98 203 90 203"></polygon>
+                        <polygon id="Rectangle-9-Copy-6" points="50 130 58 130 58 203 50 203"></polygon>
+                    </g>
+                    <g id="Group-3" transform="translate(56.000000, 287.000000)">
+                        <rect id="Rectangle" fill="#0062FF" x="0" y="2" width="12" height="12" rx="1"></rect>
+                        <text id="Participants" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="16" y="12">Participants</tspan>
+                        </text>
+                    </g>
+                    <g id="X-Axis" transform="translate(46.000000, 231.000000)" font-size="12" font-weight="normal" line-spacing="16">
+                        <text id="09:00" transform="translate(18.000000, 8.000000) rotate(-360.000000) translate(-18.000000, -8.000000) " font-family="IBMPlexMono, IBM Plex Mono" fill="#6F6F6F">
+                            <tspan x="0" y="12">09:00</tspan>
+                        </text>
+                        <text id="10:00" transform="translate(78.000000, 8.000000) rotate(-360.000000) translate(-78.000000, -8.000000) " font-family="IBMPlexMono, IBM Plex Mono" fill="#6F6F6F">
+                            <tspan x="60" y="12">10:00</tspan>
+                        </text>
+                        <text id="11:00" transform="translate(138.000000, 8.000000) rotate(-360.000000) translate(-138.000000, -8.000000) " font-family="IBMPlexMono, IBM Plex Mono" fill="#6F6F6F">
+                            <tspan x="120" y="12">11:00</tspan>
+                        </text>
+                        <text id="12:00" transform="translate(198.000000, 8.000000) rotate(-360.000000) translate(-198.000000, -8.000000) " font-family="IBMPlexMono, IBM Plex Mono" fill="#6F6F6F">
+                            <tspan x="180" y="12">12:00</tspan>
+                        </text>
+                        <text id="13:00" transform="translate(258.000000, 8.000000) rotate(-360.000000) translate(-258.000000, -8.000000) " font-family="IBMPlexMono, IBM Plex Mono" fill="#6F6F6F">
+                            <tspan x="240" y="12">13:00</tspan>
+                        </text>
+                        <text id="14:00" transform="translate(318.000000, 8.000000) rotate(-360.000000) translate(-318.000000, -8.000000) " font-family="IBMPlexMono, IBM Plex Mono" fill="#6F6F6F">
+                            <tspan x="300" y="12">14:00</tspan>
+                        </text>
+                        <text id="15:00" transform="translate(378.000000, 8.000000) rotate(-360.000000) translate(-378.000000, -8.000000) " font-family="IBMPlexMono, IBM Plex Mono" fill="#6F6F6F">
+                            <tspan x="360" y="12">15:00</tspan>
+                        </text>
+                        <text id="Y-label" transform="translate(195.000000, 32.000000) rotate(-360.000000) translate(-195.000000, -32.000000) " font-family="IBMPlexSans, IBM Plex Sans" fill="#171717">
+                            <tspan x="181.536" y="36">Time</tspan>
+                        </text>
+                    </g>
+                    <g id="Group" font-size="12" font-weight="normal">
+                        <g id="ticks" transform="translate(24.500000, 0.000000)" fill="#6F6F6F" font-family="IBMPlexMono, IBM Plex Mono">
+                            <text id="0">
+                                <tspan x="15.8" y="226">0</tspan>
+                            </text>
+                            <text id="100" line-spacing="16">
+                                <tspan x="1.39400481" y="185">100</tspan>
+                            </text>
+                            <text id="200" line-spacing="16">
+                                <tspan x="1.39400481" y="139.666667">200</tspan>
+                            </text>
+                            <text id="300" line-spacing="16">
+                                <tspan x="1.39400481" y="94.3333333">300</tspan>
+                            </text>
+                            <text id="400" line-spacing="16">
+                                <tspan x="1.18379403" y="49">400</tspan>
+                            </text>
+                            <text id="500" line-spacing="16">
+                                <tspan x="1.4" y="12">500</tspan>
+                            </text>
+                        </g>
+                        <text id="ylabel" transform="translate(8.500000, 113.500000) rotate(-90.000000) translate(-8.500000, -113.500000) " font-family="IBMPlexSans, IBM Plex Sans" line-spacing="16" fill="#171717">
+                            <tspan x="-23.786" y="117.5">Participants</tspan>
+                        </text>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="#8C8C8C" x="56" y="226" width="366" height="1"></rect>
+                <rect id="Rectangle-Copy-12" fill="#8C8C8C" transform="translate(56.500000, 113.500000) scale(1, -1) translate(-56.500000, -113.500000) " x="56" y="0.5" width="1" height="226"></rect>
+            </g>
+            <text id="widgetTitle" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="18" fill="#171717">
+                <tspan x="0" y="16">Participants per hour </tspan>
+            </text>
+        </g>
+    </g>
+</svg>

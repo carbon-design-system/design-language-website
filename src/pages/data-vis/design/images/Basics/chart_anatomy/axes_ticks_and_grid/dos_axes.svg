@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="288px" viewBox="0 0 288 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Design" transform="translate(-352.000000, -2052.000000)">
+            <g id="Group-29" transform="translate(352.000000, 2052.000000)">
+                <polygon id="Fill-1" fill="#FEFEFE" points="0 288 288 288 288 0 0 0"></polygon>
+                <g id="Group-28" transform="translate(17.000000, 85.000000)">
+                    <text id="Percent" transform="translate(8.000000, 60.126984) rotate(-90.000000) translate(-8.000000, -60.126984) " font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" letter-spacing="0.137142857" fill="#000000">
+                        <tspan x="-13.252" y="64.626984">Percent</tspan>
+                    </text>
+                    <line x1="44.501207" y1="30.7305358" x2="245.501207" y2="30.7305358" id="Line-Copy-4" stroke="#DCDCDC" stroke-linecap="square"></line>
+                    <line x1="44.501207" y1="90.1916079" x2="245.501207" y2="90.1916079" id="Line-Copy-8" stroke="#DCDCDC" stroke-linecap="square"></line>
+                    <line x1="44.501207" y1="60.4610718" x2="245.501207" y2="60.4610718" id="Line-Copy-6" stroke="#DCDCDC" stroke-linecap="square"></line>
+                    <text id="Months" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" letter-spacing="0.137142857" fill="#000000">
+                        <tspan x="124.013778" y="158.83">Months</tspan>
+                    </text>
+                    <g id="Group-31" transform="translate(51.001207, 123.830000)" fill="#000000" fill-opacity="0.5" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" letter-spacing="0.137142857">
+                        <text id="Jan">
+                            <tspan x="0" y="12">Jan</tspan>
+                        </text>
+                        <text id="Feb">
+                            <tspan x="57.333334" y="12">Feb</tspan>
+                        </text>
+                        <text id="Mar">
+                            <tspan x="112.666667" y="12">Mar</tspan>
+                        </text>
+                        <text id="Apr">
+                            <tspan x="165" y="12">Apr</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle" fill="#6929C4" x="53.501207" y="3.269841" width="8" height="117"></rect>
+                    <rect id="Rectangle" fill="#009D9A" x="63.501207" y="18.269841" width="8" height="102"></rect>
+                    <rect id="Rectangle" fill="#6929C4" x="109.501207" y="36.269841" width="8" height="84"></rect>
+                    <rect id="Rectangle-Copy" fill="#6929C4" x="163.167874" y="29.269841" width="8" height="91"></rect>
+                    <rect id="Rectangle" fill="#009D9A" x="119.501207" y="76.269841" width="8" height="44"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#009D9A" x="173.167874" y="13.269841" width="8" height="107"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#6929C4" x="217.167874" y="89.269841" width="8" height="31"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#009D9A" x="227.167874" y="116.8" width="8" height="3.4436849"></rect>
+                    <text id="0" font-family="IBMPlexMono, IBM Plex Mono" font-size="10" font-weight="normal" letter-spacing="0.114285714" fill="#000000" fill-opacity="0.5">
+                        <tspan x="29.8857143" y="120">0</tspan>
+                    </text>
+                    <text id="80" font-family="IBMPlexMono, IBM Plex Mono" font-size="10" font-weight="normal" letter-spacing="0.114285714" fill="#000000" fill-opacity="0.5">
+                        <tspan x="23.7714286" y="10">80</tspan>
+                    </text>
+                    <path d="M245.501207,119.869329 L44.5,119.869329 L44.5,0.909329 L245.501207,0.909329 L245.501207,119.869329 Z" id="Rectangle" stroke="#DCDCDC"></path>
+                    <text id="20-copy-2" font-family="IBMPlexMono, IBM Plex Mono" font-size="10" font-weight="normal" letter-spacing="0.114285714" fill="#000000" fill-opacity="0.5">
+                        <tspan x="23.7714286" y="93.9999997">20</tspan>
+                    </text>
+                    <text id="40-copy-2" font-family="IBMPlexMono, IBM Plex Mono" font-size="10" font-weight="normal" letter-spacing="0.114285714" fill="#000000" fill-opacity="0.5">
+                        <tspan x="23.7714286" y="63.9999997">40</tspan>
+                    </text>
+                    <text id="60-copy-2" font-family="IBMPlexMono, IBM Plex Mono" font-size="10" font-weight="normal" letter-spacing="0.114285714" fill="#000000" fill-opacity="0.5">
+                        <tspan x="23.7714286" y="33.9999997">60</tspan>
+                    </text>
+                    <line x1="44.5" y1="119.5" x2="44.501207" y2="1" id="Line-Copy-10" stroke="#8C8C8C" stroke-linecap="square"></line>
+                    <line x1="44.501207" y1="119.83" x2="245.501207" y2="119.83" id="Line-Copy-10" stroke="#8C8C8C" stroke-linecap="square"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

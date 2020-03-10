@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Design---Basics" transform="translate(-352.000000, -3326.000000)">
+            <g id="Group-22" transform="translate(352.000000, 3326.000000)">
+                <g id="Group-17-Copy-6" fill="#FFFFFF" fill-rule="nonzero">
+                    <g id="principles_p_readability">
+                        <g id="Back">
+                            <rect id="Rectangle" x="0" y="0" width="928" height="522"></rect>
+                        </g>
+                        <g id="Layer_3" transform="translate(337.315789, 69.910714)">
+                            <ellipse id="Oval" cx="65.2957895" cy="127.175357" rx="49.1168421" ry="49.9939286"></ellipse>
+                            <ellipse id="Oval" cx="152.265263" cy="291.310179" rx="17.2931579" ry="17.6019643"></ellipse>
+                            <ellipse id="Oval" cx="92.7694737" cy="303.925179" rx="14.4084211" ry="14.6657143"></ellipse>
+                            <ellipse id="Oval" cx="170.535263" cy="242.295" rx="20.4526316" ry="20.8178571"></ellipse>
+                            <ellipse id="Oval" cx="52.0473684" cy="238.877143" rx="26.6036842" ry="27.07875"></ellipse>
+                            <ellipse id="Oval" cx="8.54736842" cy="285.561964" rx="7.93684211" ry="8.07857143"></ellipse>
+                            <ellipse id="Oval" cx="168.856316" cy="44.8671429" rx="44.08" ry="44.8671429"></ellipse>
+                            <ellipse id="Oval" cx="253.322632" cy="186.024643" rx="22.1926316" ry="22.5889286"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-9" transform="translate(260.000000, 93.000000)">
+                    <text id="Conversion-rate-over" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" fill="#171717">
+                        <tspan x="0.5" y="16">Conversion rate over time</tspan>
+                    </text>
+                    <g id="Group-2" transform="translate(55.500000, 36.000000)">
+                        <rect id="Rectangle" stroke="#DCDCDC" x="0.5" y="0.5" width="351" height="226"></rect>
+                        <g id="graph_grid" fill="#E0E0E0">
+                            <rect id="Rectangle-Copy-2" x="0" y="113" width="351" height="1"></rect>
+                            <rect id="Rectangle-Copy-3" x="0" y="170" width="351" height="1"></rect>
+                            <rect id="Rectangle-Copy-3" x="35.1" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-8" x="70.2" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-9" x="105.3" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-10" x="140.4" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-11" x="175.5" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-13" x="210.6" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-14" x="245.7" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-15" x="280.8" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy-16" x="315.9" y="0" width="1" height="227"></rect>
+                            <rect id="Rectangle-Copy" x="0" y="56" width="351" height="1"></rect>
+                        </g>
+                        <rect id="Rectangle" fill="#8C8C8C" x="0" y="226" width="352" height="1"></rect>
+                    </g>
+                    <g id="X-Axis" transform="translate(55.500000, 289.000000)" fill="#171717" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16">
+                        <text id="Y-label" transform="translate(175.000000, 8.000000) rotate(-360.000000) translate(-175.000000, -8.000000) ">
+                            <tspan x="154.924" y="12">Months</tspan>
+                        </text>
+                    </g>
+                    <g id="ticks" transform="translate(24.500000, 36.000000)" fill="#6F6F6F" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal">
+                        <text id="0">
+                            <tspan x="15.8" y="226">0</tspan>
+                        </text>
+                        <text id="5%" line-spacing="16">
+                            <tspan x="8.59400481" y="174">5%</tspan>
+                        </text>
+                        <text id="10%" line-spacing="16">
+                            <tspan x="1.39400481" y="117.5">10%</tspan>
+                        </text>
+                        <text id="15%" line-spacing="16">
+                            <tspan x="1.18379403" y="61">15%</tspan>
+                        </text>
+                        <text id="20%" line-spacing="16">
+                            <tspan x="1.4" y="12">20%</tspan>
+                        </text>
+                    </g>
+                    <g id="Data" transform="translate(75.500000, 54.000000)" stroke-width="1.5">
+                        <g id="data_1" style="mix-blend-mode: multiply;" transform="translate(11.000000, 63.000000)" fill="#F3F3F3" stroke="#8C8C8C">
+                            <circle id="Oval-Copy-21" cx="4.5" cy="112" r="3.25"></circle>
+                            <circle id="Oval-Copy-45" cx="39.5" cy="108" r="5.25"></circle>
+                            <circle id="Oval-Copy-46" cx="73.5" cy="61.5" r="5.75"></circle>
+                            <circle id="Oval-Copy-47" cx="75" cy="101" r="3.25"></circle>
+                            <circle id="Oval-Copy-48" cx="145" cy="42.5" r="6.75"></circle>
+                            <circle id="Oval-Copy-49" cx="180" cy="75" r="5.25"></circle>
+                            <circle id="Oval-Copy-50" cx="250" cy="63" r="3.25"></circle>
+                            <circle id="Oval-Copy-51" cx="215.5" cy="20" r="3.25"></circle>
+                            <circle id="Oval-Copy-52" cx="110" cy="6" r="5.25"></circle>
+                            <circle id="Oval-Copy-55" cx="285" cy="18" r="7.25"></circle>
+                        </g>
+                        <g id="data_2" style="mix-blend-mode: multiply;" transform="translate(6.000000, 101.000000)" fill="#F3F3F3" stroke="#8C8C8C">
+                            <circle id="Oval" cx="9.5" cy="9" r="8.25"></circle>
+                            <circle id="Oval-Copy-34" cx="45" cy="47" r="9.25"></circle>
+                            <circle id="Oval-Copy-35" cx="80" cy="73" r="5.25"></circle>
+                            <circle id="Oval-Copy-36" cx="114.75" cy="50" r="9.25"></circle>
+                            <circle id="Oval-Copy-37" cx="150" cy="25" r="15.25"></circle>
+                            <circle id="Oval-Copy-39" cx="185.5" cy="70.5" r="5.75"></circle>
+                            <circle id="Oval-Copy-40" cx="220.5" cy="57" r="11.25"></circle>
+                            <circle id="Oval-Copy-41" cx="255" cy="48" r="3.25"></circle>
+                            <circle id="Oval-Copy-42" cx="291" cy="92" r="9.25"></circle>
+                        </g>
+                        <g id="data_3" fill="#0F62FE" fill-opacity="0.3" stroke="#0F62FE">
+                            <circle id="Oval-Copy-20" cx="50.5" cy="100" r="4.25"></circle>
+                            <circle id="Oval-Copy-22" cx="16" cy="125" r="15.25"></circle>
+                            <circle id="Oval-Copy-23" cx="86" cy="111" r="3.25"></circle>
+                            <circle id="Oval-Copy-24" cx="121" cy="115" r="7.25"></circle>
+                            <circle id="Oval-Copy-25" cx="156" cy="135" r="14.25"></circle>
+                            <circle id="Oval-Copy-28" cx="226.5" cy="141" r="11.25"></circle>
+                            <circle id="Oval-Copy-30" cx="191" cy="32" r="5.25"></circle>
+                            <circle id="Oval-Copy-31" cx="261" cy="16" r="15.25"></circle>
+                        </g>
+                    </g>
+                    <text id="ylabel" transform="translate(8.500000, 149.000000) rotate(-90.000000) translate(-8.500000, -149.000000) " font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#171717">
+                        <tspan x="-33.854" y="153">Conversion rate</tspan>
+                    </text>
+                    <g id="Group-8" transform="translate(56.000000, 321.000000)">
+                        <g id="Group">
+                            <rect id="Rectangle-Copy-6" fill="#0F62FE" x="0" y="2" width="12" height="12" rx="1"></rect>
+                            <text id="Audience-A" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                                <tspan x="16" y="12">Audience A</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-7" transform="translate(80.000000, 0.000000)">
+                            <g id="Group-3">
+                                <rect id="Rectangle-Copy-7" fill="#8C8C8C" x="0" y="2" width="12" height="12" rx="1"></rect>
+                                <text id="Audience-B" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                                    <tspan x="16" y="12">Audience B</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <rect id="Rectangle-Copy-12" fill="#8C8C8C" transform="translate(56.000000, 149.000000) scale(1, -1) translate(-56.000000, -149.000000) " x="55.5" y="36" width="1" height="226"></rect>
+                    <g id="Group-4" transform="translate(83.500000, 267.000000)" fill="#6F6F6F" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14">
+                        <text id="Jan" transform="translate(9.000000, 7.000000) rotate(-360.000000) translate(-9.000000, -7.000000) ">
+                            <tspan x="0" y="12">Jan</tspan>
+                        </text>
+                        <text id="Feb" transform="translate(44.125000, 7.000000) rotate(-360.000000) translate(-44.125000, -7.000000) ">
+                            <tspan x="34.625" y="12">Feb</tspan>
+                        </text>
+                        <text id="Mar" transform="translate(79.750000, 7.000000) rotate(-360.000000) translate(-79.750000, -7.000000) ">
+                            <tspan x="70.25" y="12">Mar</tspan>
+                        </text>
+                        <text id="Apr" transform="translate(114.875000, 7.000000) rotate(-360.000000) translate(-114.875000, -7.000000) ">
+                            <tspan x="105.875" y="12">Apr</tspan>
+                        </text>
+                        <text id="May" transform="translate(148.000000, 7.000000) rotate(-360.000000) translate(-148.000000, -7.000000) ">
+                            <tspan x="138" y="12">May</tspan>
+                        </text>
+                        <text id="Jun" transform="translate(184.000000, 7.000000) rotate(-360.000000) translate(-184.000000, -7.000000) ">
+                            <tspan x="175" y="12">Jun</tspan>
+                        </text>
+                        <text id="Jul" transform="translate(218.250000, 7.000000) rotate(-360.000000) translate(-218.250000, -7.000000) ">
+                            <tspan x="210.75" y="12">Jul</tspan>
+                        </text>
+                        <text id="Aug" transform="translate(254.875000, 7.000000) rotate(-360.000000) translate(-254.875000, -7.000000) ">
+                            <tspan x="245.375" y="12">Aug</tspan>
+                        </text>
+                        <text id="Sep" transform="translate(288.500000, 7.000000) rotate(-360.000000) translate(-288.500000, -7.000000) ">
+                            <tspan x="279" y="12">Sep</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-6" transform="translate(216.000000, 321.000000)">
+                        <g id="Group-5" transform="translate(0.000000, 1.000000)" stroke="#8C8C8C">
+                            <circle id="Oval-Copy-33" cx="7" cy="7" r="6.5"></circle>
+                            <circle id="Oval-Copy-33" cx="7" cy="10" r="3.5"></circle>
+                        </g>
+                        <text id="Audience-size" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="18" y="12">Audience size</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

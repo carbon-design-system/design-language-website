@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Design---Basics" transform="translate(-352.000000, -6784.000000)">
+            <g id="Group-16" transform="translate(352.000000, 6784.000000)">
+                <g id="Design_Interaction">
+                    <g id="Background" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle" x="0" y="0" width="928" height="522"></rect>
+                    </g>
+                    <g id="Layer_3">
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.1" cx="206.357895" cy="387.771429" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="240.852632" cy="189.225" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="275.042105" cy="203.3625" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#171717" fill-rule="nonzero" cx="309.536842" cy="249.0375" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.1" cx="343.726316" cy="384.353571" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="378.221053" cy="343.494643" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.1" cx="412.410526" cy="392.742857" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="446.905263" cy="292.071429" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#171717" fill-rule="nonzero" cx="481.094737" cy="115.430357" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#171717" fill-rule="nonzero" cx="515.589474" cy="322.676786" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="549.778947" cy="148.055357" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#171717" fill-rule="nonzero" opacity="0.1" cx="584.273684" cy="385.285714" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#171717" fill-rule="nonzero" cx="618.463158" cy="261" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#171717" fill-rule="nonzero" cx="652.957895" cy="283.682143" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#171717" fill-rule="nonzero" cx="687.147368" cy="290.673214" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="721.642105" cy="228.841071" rx="7.63157895" ry="7.76785714"></ellipse>
+                        <line x1="0" y1="355.767857" x2="928" y2="355.767857" id="Path" stroke="#0062FF"></line>
+                        <line x1="228.947368" y1="0" x2="228.947368" y2="522" id="Path" stroke="#0062FF"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

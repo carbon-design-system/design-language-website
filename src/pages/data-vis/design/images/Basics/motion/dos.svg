@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="288px" viewBox="0 0 288 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Background</title>
+    <desc>Created with Sketch.</desc>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Design" transform="translate(-352.000000, -7115.000000)" fill-rule="nonzero">
+            <g id="Background" transform="translate(352.064356, 7115.000000)">
+                <g id="Group-17" transform="translate(0.441544, 0.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="-2.84217094e-14" width="287.00346" height="288"></rect>
+                    <g id="Pre" transform="translate(70.205462, 80.640000)" fill="#171717">
+                        <ellipse id="Oval" cx="8.03609689" cy="105.186462" rx="8.03609689" ry="8.064"></ellipse>
+                        <ellipse id="Oval" cx="121.159615" cy="68.8541538" rx="12.1866085" ry="12.2289231"></ellipse>
+                        <ellipse id="Oval" cx="56.7825307" cy="21.0018462" rx="20.1343966" ry="20.2043077"></ellipse>
+                        <ellipse id="Oval" cx="108.531462" cy="20.9132308" rx="12.8930785" ry="12.9378462"></ellipse>
+                        <ellipse id="Oval" cx="67.2029641" cy="97.4769231" rx="33.5573277" ry="33.6738462"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

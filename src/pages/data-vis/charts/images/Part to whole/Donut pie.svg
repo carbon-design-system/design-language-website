@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="239px" height="240px" viewBox="0 0 239 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <g id="charts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Charts" transform="translate(-335.000000, -2519.000000)">
+            <g id="Group-13" transform="translate(335.000000, 2519.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="239" height="240"></rect>
+                <g id="chart-type/donut" transform="translate(34.711905, 34.285714)">
+                    <g id="donut" transform="translate(19.347619, 25.142857)">
+                        <path d="M70.2956434,136.66569 C74.9592232,128.313302 77.6260449,118.691063 77.6446331,108.452731 C77.6538122,103.316885 76.9961197,98.3384817 75.7534065,93.599744 C69.2613976,68.8442921 46.8037021,50.6295119 20.0635046,50.6778122" id="Oval-Copy-36" stroke="#6EA6FF" stroke-width="12.9276" transform="translate(48.854069, 93.671751) rotate(150.000000) translate(-48.854069, -93.671751) "></path>
+                        <path d="M55.7786144,9.5244287 C42.9725339,11.9374423 31.6600194,18.6043115 23.3515857,28.0082015 C20.7856945,30.9124022 18.5063197,34.0776485 16.5579537,37.4592622 C11.6534794,45.9715417 8.84641429,55.8548152 8.84641429,66.3964571" id="Oval-Copy-37" stroke="#C9DEFF" stroke-width="12.9276"></path>
+                        <path d="M58.7062991,9.05097819 C55.9883038,9.41861997 53.3303935,9.97654195 50.7462999,10.7109551" id="Oval-Copy-6" stroke="#97C1FF" stroke-width="12.9276"></path>
+                        <path d="M159.106852,62.3180057 C147.532487,42.3519223 126.141616,29.7826494 102.55862,29.7826494 C77.2287962,29.7826494 54.5197919,44.2887659 43.7296179,66.6169217 C39.5207359,75.3263804 37.30502,84.895929 37.30502,94.7643594 L52.07942,94.7643594 C52.07942,87.1168339 53.7905631,79.7265061 57.0426303,72.9969888 C65.3937563,55.7159658 82.9591639,44.4954894 102.55862,44.4954894 C120.808851,44.4954894 137.350052,54.2150969 146.31149,69.6738109 L159.106852,62.3180057 Z" id="Oval-Copy-5" fill="#0062FF" fill-rule="nonzero" transform="translate(98.205936, 62.273504) rotate(90.000000) translate(-98.205936, -62.273504) "></path>
+                        <path d="M66.4717043,8.53072279 C65.2949163,8.53072279 64.1262383,8.56559123 62.9666391,8.63435541 C61.46253,8.72354898 59.9736955,8.86977049 58.5022493,9.07089717" id="Oval-Copy-39" stroke="#97C1FF" stroke-width="12.9276"></path>
+                        <polygon id="Path-4-Copy-24" fill="#FFFFFF" fill-rule="nonzero" points="0.569047619 67.7142857 16.502381 67.7142857 16.502381 66 0.569047619 66"></polygon>
+                        <polygon id="Path-4" fill="#FFFFFF" fill-rule="nonzero" points="65.725 0.571428571 65.725 16.5714286 67.4321429 16.5714286 67.4321429 0.571428571"></polygon>
+                        <polygon id="Path-4-Copy-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(50.929762, 10.285714) rotate(-15.000000) translate(-50.929762, -10.285714) " points="50.0842846 2.28884005 50.0676179 18.2843742 51.7752392 18.2825885 51.7919059 2.28705434"></polygon>
+                        <polygon id="Path-4-Copy-3" fill="#FFFFFF" fill-rule="nonzero" transform="translate(94.177381, 116.571429) rotate(-32.000000) translate(-94.177381, -116.571429) " points="93.3377865 108.582394 93.3078267 124.563673 95.0169754 124.560463 95.0469352 108.579184"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

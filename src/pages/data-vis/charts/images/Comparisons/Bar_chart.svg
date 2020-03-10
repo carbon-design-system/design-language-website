@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="239px" height="240px" viewBox="0 0 239 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <g id="charts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Charts" transform="translate(-335.000000, -1126.000000)">
+            <g id="Group-15" transform="translate(335.000000, 1126.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="239" height="240"></rect>
+                <g id="chart-type/bar" transform="translate(34.711905, 34.285714)" fill="#0062FF">
+                    <g id="bar" transform="translate(3.414286, 48.000000)">
+                        <g fill-rule="nonzero">
+                            <rect id="Rectangle" x="0" y="0" width="4.55238095" height="123.428571"></rect>
+                            <rect id="Rectangle-Copy-13" x="127.466667" y="11.4285714" width="4.55238095" height="112"></rect>
+                            <rect id="Rectangle-Copy-7" x="31.8666667" y="74.2857143" width="4.55238095" height="49.1428571"></rect>
+                            <rect id="Rectangle-Copy-9" x="63.7333333" y="45.7142857" width="4.55238095" height="77.7142857"></rect>
+                            <rect id="Rectangle-Copy-15" x="159.333333" y="101.714286" width="4.55238095" height="21.7142857"></rect>
+                            <rect id="Rectangle-Copy-11" x="95.6" y="54.8571429" width="4.55238095" height="68.5714286"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

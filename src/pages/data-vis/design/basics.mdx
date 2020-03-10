@@ -1,0 +1,279 @@
+---
+title: Design
+description: To make data visualization distinctive as IBM products, there are multiple elements, components and features to consider because, together, they all contribute to a functional and effective representation of data. The following set of good practices and applications are helpful to isolate the different design aspects and to properly address them.
+tabs: [Basics, Usage]
+---
+
+import beeImage from '../../images/bee.svg';
+import favicon from '../../images/favicon.svg';
+import {Button} from "carbon-components-react";
+import '../../../styles/data-vis.scss';
+
+import chartAnotomyCover from "./images/Basics/chart_anatomy/Chart_anatomy.png";
+import interactionCover from "./images/Basics/interaction/interaction.png";
+import motiondosCover from "./images/Basics/motion/dos.svg";
+import motiondontsCover from "./images/Basics/motion/donts.svg";
+
+
+<PageDescription>
+
+To make data visualization distinctive as IBM products, there are multiple elements, components and features to consider because, together, they all contribute to a functional and effective representation of data. The following set of good practices and applications are helpful to isolate the different design aspects and to properly address them.
+
+</PageDescription>
+
+<AnchorLinks>
+  <AnchorLink>Chart anatomy</AnchorLink>
+  <AnchorLink>Color</AnchorLink>
+  <AnchorLink>Interaction</AnchorLink>
+  <AnchorLink>Motion</AnchorLink>
+</AnchorLinks>
+
+## Chart anatomy
+
+<Row>
+<Column colMd={8} colLg={12}>
+
+<Video
+  src="/images/Basics/chart_anatomy/ChartAnatomy_Animation.mp4"
+  poster={chartAnotomyCover}
+/>
+
+</Column>
+</Row>
+
+#### Title, labels and legend
+
+The title should reflect the main insight the data reveals. Legend should explain the chart’s meaning by defining the association of each visual property, such as color, shape and size, to the corresponding data. When possible, use labels directly on the chart to avoid long legends and vice versa. All the text should be concise and easy to understand.
+
+<DoDontRow>
+<DoDont caption="Concise title">
+
+![consice-title](/images/Basics/chart_anatomy/title_labels_legend/dos_revenue_by_market.svg)
+
+</DoDont>
+<DoDont type="dont" caption="Long and too descriptive title">
+
+![descriptive title](/images/Basics/chart_anatomy/title_labels_legend/dont_barchart_of_sales.svg)
+
+</DoDont>
+</DoDontRow>
+
+#### Axes, ticks and grid
+
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+Axes, ticks and grid convey the proportions and scale of the data, the indicators involved and their units of measure. To improve comprehension, avoid filling up the chart frame with too many elements.
+
+
+</Column>
+<Column colMd={2} colLg={3}  className="hide-mobile">
+
+<div className="aside-button-container">
+
+<p>To learn more on the specs of every element, read the Carbon.</p>
+
+<Button kind="danger-primary" >Legends<img class="bx--btn__icon" src={favicon}/></Button>
+<Button kind="danger-primary" >Axes and labels<img class="bx--btn__icon" src={favicon}/></Button>
+
+</div>
+
+</Column>
+</Row>
+
+
+<div className="axesntricks-images">
+<DoDontRow>
+<DoDont caption="Correct density of grid lines and labels">
+
+![density guilines](/images/Basics/chart_anatomy/axes_ticks_and_grid/dos_axes.svg)
+
+</DoDont>
+<DoDont type="dont" caption="When there are too many elements it's hard to read the chart">
+
+![cluttering chart](/images/Basics/chart_anatomy/axes_ticks_and_grid/donts_axes.svg)
+
+</DoDont>
+</DoDontRow>
+</div>
+
+## Color
+
+The application of the IBM color palette brings a unified and recognizable consistency to IBM’s array of digital products and interfaces. This color pallette applies to data visualization, as well, but isn’t restricted to appearance only; it decreases recognition times, conveys meaning and helps users make faster, more informed decisions. When designing IBM’s data visualization, be sure to maximize accessibility and harmony, but also keep an eye on cultural and psychological contexts.
+
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+subTitle="Data visualization palette"
+href=""
+actionIcon="launch"
+>
+
+![Sketch Icon](../../images/SketchIcon.svg)
+
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM color palette"
+      href=""
+      actionIcon="launch"
+      >
+
+![Bee Icon](../../images/bee.svg)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+#### Emphasize the story you want to tell
+
+As one of the most powerful sensory cues, color is a highly influential visual property. Create a sharp contrast between elements to gain the user’s attention on the focus of the chart, but be essential—every color should have a reason for being there. On the contrary, even the absence of color delivers information.
+
+Shades of grey ensure data points are visible while not distracting from the key insights. On the other hand, connecting specific colors to certain key metrics helps your audience easily recognize frequent indicators.
+
+<Row>
+<Column colMd={8} colLg={12}>
+
+![Conversion rate overtime](/images/Basics/color/conversion_rateovertime.svg)
+
+</Column>
+</Row>
+
+#### Improve readability and hierarchy of elements
+
+Caring about contrast means caring if users will be able to read your chart on their screen, even in low light and if you use shades of colors like light grey. Well-chosen colors reduce the time for your viewers to gain insights and help them understand the message sooner. Rely on categorical palettes if you want to maximize contrast between data that doesn’t have an inherent relationship, while sequential palettes are good when you want to show relationships or hierarchies between data. Reinforce color meaning with other strong visual features, like shape, line or pattern, to make the focal point immediately recognizable.
+
+<Row>
+<Column colMd={8} colLg={12}>
+
+![Monthly visitors](/images/Basics/color/monthlyvisitors_by_age.svg)
+
+</Column>
+</Row>
+
+#### Represent quantity
+
+Color can convey meaning. By illuminating a chart through sequential or diverging palettes, you add depth and dimension to specific data, drawing attention to the quantitative aspect of the story.
+<Row>
+<Column colMd={8} colLg={12}>
+
+![Quantity](/images/Basics/color/top_botnet.svg)
+
+</Column>
+</Row>
+
+#### Texture and markers
+
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+Visualizations can be rich and “colorful” even in situations when color can’t be used. IBM employs different shades of black, together with patterns and markers, as a valid substitute to color. Patterns aren’t just a decoration, but become a way to convey information. Use lines with different weights and play with the density of elements.
+
+</Column>
+<Column colMd={2} colLg={3}  className="hide-mobile">
+
+<div className="aside-button-container">
+
+<p>Read the Carbon for guidance.</p>
+
+<Button kind="danger-primary" >Accessibility<img class="bx--btn__icon" src={favicon}/></Button>
+
+</div>
+
+</Column>
+</Row>
+
+
+<Row>
+<Column colMd={8} colLg={12}>
+
+![Textures](/images/Basics/color/optimization_rates.svg)
+
+</Column>
+</Row>
+
+## Interaction
+
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+At IBM, we’re curious. When we think something should be explored, we follow that impulse and see where it leads. Thus, we want our data visualization audience to explore problems from multiple perspectives with interaction patterns like searching, filtering or highlighting.
+
+</Column>
+<Column colMd={2} colLg={3}  className="hide-mobile">
+
+<div className="aside-button-container">
+
+<p>For more details, visit the Carbon.</p>
+
+<Button kind="danger-primary" >Patterns<img class="bx--btn__icon" src={favicon}/></Button>
+
+</div>
+
+</Column>
+</Row>
+
+Interactivity is an essential feature that turns your visualization into a tool to foster data exploration and improve user understanding by creating recognition, shortening the learning curve. A visualization reaches its maximum value when it allows users to find their own exploration path.
+
+
+#### Overview first, zoom and filter, then details on demand
+
+We want IBM’s data vis to present crucial points clearly and prominently for quick and easy reading, providing clear insights while still giving the user the option to get more information on demand at any time. Don’t hide important information behind an interactive behavior. Interaction should support analytical reasoning and user comprehension by revealing context, insights, associations and causality.
+
+<Row>
+<Column colMd={8} colLg={12}>
+
+<Video
+  src="/images/Basics/interaction/Design_Interaction.mp4"
+  poster={interactionCover}
+/>
+
+</Column>
+</Row>
+
+
+## Motion
+
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+Motion is a powerful tool in designing and building communication and user experience. In data visualization, we use it to communicate relationships between elements and make changes in the data set or on the environment explicit, clear and unambiguous. Consider the entrance and exit motion to enhance the visual hierarchy of elements, orientation of axes and the data displayed. Be careful not to communicate contradicting information with different transitions.
+
+</Column>
+<Column colMd={2} colLg={3}  className="hide-mobile">
+
+<div className="aside-button-container">
+
+<p>Usage guidance for motion can be found on the Motion page.</p>
+
+<Button kind="danger-primary" >Motion<img class="bx--btn__icon" src={beeImage}/></Button>
+
+</div>
+
+</Column>
+</Row>
+
+<DoDontRow>
+<DoDont caption="Animation emphasizes changes">
+
+<Video
+  src="/images/Basics/motion/Design_Motion_DO.mp4"
+  poster={motiondosCover}
+/>
+
+</DoDont>
+<DoDont type="dont" caption="Animation hides connections">
+
+<Video
+  src="images/Basics/motion/Design_Motion_DONTS.mp4"
+  poster={motiondontsCover}
+/>
+
+</DoDont>
+</DoDontRow>
+
