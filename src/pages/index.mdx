@@ -10,20 +10,18 @@ export default HomepageTemplate;
       ratio="1:1"
       hoverDark
       transparentImage="images/tooltip-components.svg"
-      subtitle="Components"
-      title="Carbon X"
+      title="Carbon components"
       actionIcon="resources"
-      link="https://www.carbondesignsystem.com/"
+      link="https://www.carbondesignsystem.com/components/overview"
       target="_blank"
     />
     <HomepageTile
       ratio="1:1"
       theme="dark"
-      subtitle="Design Kit"
-      title="Explore and create"
-      actionIcon="resources"
-      identityIcon="images/SketchIcon.svg"
-      link="https://www.carbondesignsystem.com/getting-started/designers#get-the-kit"
+      image="images/landing-plex-animation.gif"
+      title="Typeface"
+      actionIcon="article"
+      link="https://www.ibm.com/design/language/typography/typeface/"
       target="_blank"
     />
   </Column>
@@ -31,7 +29,6 @@ export default HomepageTemplate;
     <HomepageTile
       ratio="1:1"
       theme="dark"
-      subtitle="Elements"
       title="2x Grid"
       actionIcon="article"
       transparentImage="images/grid-temp.png"
@@ -41,11 +38,10 @@ export default HomepageTemplate;
     <HomepageTile
       ratio="1:1"
       theme="dark"
-      subtitle="GitHub Repo"
-      title="Design and development"
+      title="Carbon repo"
       actionIcon="resources"
       identityIcon="images/GitHubIcon.svg"
-      link="https://github.com/IBM/carbon-elements"
+      link="https://github.com/carbon-design-system/carbon"
       target="_blank"
     />
   </Column>
@@ -56,92 +52,32 @@ export default HomepageTemplate;
       hoverDark
       backgroundColor="#8a3ffc" // if omitted, defaults to #282828
       transparentImage="images/three-icons-stacked.svg"
-      subtitle="Iconography"
       title="UI icons"
+      actionIcon="article"
+      link="https://www.ibm.com/design/language/iconography/ui-icons/design/"
+      target="_blank"
+    />
+  </Column>
+  <Column colLg={4} colMd={4} noGutterSm>
+    <HomepageTile
+      ratio="1:1"
+      theme="dark"
+      image="images/plex-type_specs.svg"
+      title="Type specs UI"
+      actionIcon="article"
+      link="https://www.ibm.com/design/language/typography/type-specs-ui/"
+      target="_blank"
+    />
+    <HomepageTile
+      ratio="2:1"
+      theme="dark"
+      title="Sketch design kits"
       actionIcon="resources"
-      link="https://www.ibm.com/design/language/iconography/ui-icons/design"
+      identityIcon="images/SketchIcon.svg"
+      link="https://www.carbondesignsystem.com/get-started/design/sketch/"
       target="_blank"
     />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="2:1"
-      theme="dark"
-      subtitle="Elements"
-      title="Color in UI"
-      actionIcon=""
-      link="https://www.carbondesignsystem.com/guidelines/color/overview"
-      target="_blank"
-    />
-    <HomepageTile
-      ratio="1:1"
-      marginTop="50%"
-      theme="dark"
-      hoverDark
-      contentOnHover
-      image="images/blue1.jpg"
-      subtitle="Elements"
-      title="Color Palette"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/color/"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={8} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      hoverDark
-      image="images/landing-color-grid.svg"
-      subtitle="Elements"
-      title="Color Palette"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/color/"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      backgroundColor="rgb(6, 31, 128)" // if omitted, defaults to #282828
-      transparentImage="images/type-scales.svg"
-      actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/typography/type-specs-ui/"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      subtitle="Elements"
-      title="Type Specs"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/typography/type-specs-ui/"
-      target="_blank"
-    />
-  </Column>
-</Row>
-<Row classname='homepage-row'>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      image="images/landing-plex-animation.gif"
-      actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/typography/type-basics/"
-      target="_blank"
-    />
-    <HomepageTile
-      ratio="2:1"
-      theme="dark"
-      subtitle="Elements"
-      title="Typeface"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/typography/typeface/"
-      target="_blank"
-    />
+
   </Column>
   <Column colLg={8} noGutterSm>
   <HomepageTile
@@ -151,17 +87,38 @@ export default HomepageTemplate;
     <HomepageTile
       ratio={{ default: '2:1', md: '4:1', }}
       theme="dark"
-      subtitle="Gallery"
-      title="IBM Services"
+      title="Gallery"
       actionIcon="article"
       link="https://www.ibm.com/design/language/gallery/"
       target="_blank"
     />
     </HomepageTile>
   </Column>
-</Row>
-<Row classname='homepage-row'>
-  <Column colLg={12} noGutterSm>
+  <Column colLg={8} noGutterSm>
+    <HomepageTile
+      ratio="1:1"
+      theme="dark"
+      hoverDark
+      image="images/landing-color-grid.svg"
+      title="Color"
+      actionIcon="article"
+      link="https://www.ibm.com/design/language/color/"
+      target="_blank"
+    />
+  </Column>
+  <Column colLg={4} colMd={4} noGutterSm>
+    <HomepageTile
+      ratio="1:1"
+      theme="light"
+      title="Philosophy"
+      image="images/landing-color-grid.svg"
+      transparentImage="images/philosophy-rebus.svg"
+      actionIcon="article"
+      link="https://www.ibm.com/design/language/philosophy/pov"
+      target="_blank"
+    />
+  </Column>
+  <Column colLg={12} colMd={12} noGutterSm>
     <HomepageTile
       ratio={{ default: '1:2', md: '16:9' }}
       actionIcon="no-icon">
@@ -185,58 +142,5 @@ export default HomepageTemplate;
         target="_blank"
       />
     </HomepageTile>
-  </Column>
-</Row>
-<Row className="homepage-tiles--end">
-  <Column colLg={8} noGutterSm>
-    <HomepageTile
-      ratio={{ default: '1:2', md: '1:1' }}
-      image="images/landing-gallery-watson-duo-phone.jpg"
-      actionIcon="no-icon"
-    >
-      <HomepageTile
-        ratio={{ default: '2:1', md: '4:1' }}
-        theme="dark"
-        subtitle="Case Study"
-        title="Coming soon"
-        actionIcon="disabled"
-        disabled
-      />
-    </HomepageTile>
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      subtitle="Philosophy"
-      title="Principles"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/philosophy/principles"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      hoverDark
-      backgroundColor="#bb8eff"
-      image="images/landing-illustration-ibm-rand-logo.svg"
-      actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/philosophy/pov"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      subtitle="Philosophy"
-      title="Start smart"
-      transparentImage="images/big-arrow.svg"
-      actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/philosophy/pov"
-      target="_blank"
-    />
   </Column>
 </Row>
