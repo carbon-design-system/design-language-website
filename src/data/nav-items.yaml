@@ -45,6 +45,8 @@
       path: /illustration/line-style
     - title: Flat style
       path: /illustration/flat-style
+    - title: Isometric style
+      path: /illustration/isometric-style
 - title: Photography
   pages:
     - title: Overview
