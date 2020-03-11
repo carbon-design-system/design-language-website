@@ -1,6 +1,6 @@
 ---
 title: Color
-description: Our color palette expands on our unique aesthetic. The colors are harmonious with nature, yet chosen for their contemporary quality in the digital world.
+description: The IBM Color palette is blue at the core, expanding across color families and gradients, using specifications to represent mankind and machine in action.
 ---
 
 import Carousel from '../components/Carousel';
@@ -30,24 +30,24 @@ digital world.
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="IBM Design Language Sketch kit"
+      subTitle="IBM Design Language library"
       aspectRatio="2:1"
       href="sketch://add-library/cloud/nwqmk"
       >
 
-![](/images/SketchIcon.svg)
+![sketchIcon](/images/SketchIcon.svg)
 
   </ResourceCard>
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Color palettes for Adobe™(.ase)"
+      subTitle="IBM color palette (.ase and .clr)"
       aspectRatio="2:1"
       href="https://github.com/carbon-design-system/carbon/raw/master/packages/colors/artifacts/IBM_Colors.zip"
       actionIcon="download"
       >
 
-![](/images/ase.svg)
+![Zip Icon](/images/zip.png)
 
   </ResourceCard>
 </Column>
@@ -110,7 +110,7 @@ The full palette extends from the blue family to the edges of the blue spectrum�
 
 ### Grays
 
-Having multiple gray families gives each design the opportunity for nuance and meaningful moments of color. Each experience should be dominated by the grays and the core colors (black, white, and the blue family), allowing the other color families to have vibrancy and provide purpose.
+Having multiple gray families gives each design the opportunity for nuance and meaningful moments of color. Each experience should be dominated by the grays and the core colors of black, white, and the blue family, allowing the other color families to have vibrancy and provide purpose.
 
 <div>
   <ColorGrid colorFamily="coolGray" />
@@ -120,7 +120,7 @@ Having multiple gray families gives each design the opportunity for nuance and m
 
 ## Specifications
 
-Each of the 10 color families have been divided into 10 swatches ranging from light to dark. RGB and HEX values are provided for digital appliations along with Pantone and CMYK values for print.
+Each of the 10 color families have been divided into 10 swatches ranging from light to dark. RGB and HEX values are provided for digital applications along with Pantone® and CMYK values for print.
 
 <SwatchPaletteWidget
   palettes={[
@@ -151,62 +151,63 @@ The color palette has been organized into four distinct 4-Color families, each c
 
 ### Combinations to avoid
 
-The following color combinations have been eliminated from the Color families and should be avoided unless required for specific appliations such as Data Visualization.
+The following color combinations have been eliminated from the Color families and should be avoided unless required for specific applications, such as Data Visualization.
 
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Do not mix greens with reds, magentas or purples.">
+<DoDontRow>
+<DoDont type="dont" caption="Don't mix greens with reds, magentas or purples.">
 
 ![](images/combination-1-wrong.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Do not mix teals with reds or magentas.">
+</DoDont>
+<DoDont type="dont" caption="Don't mix teals with reds or magentas.">
 
 ![](images/combination-2-wrong.svg)
 
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Gradients
 
 Use combinations within any of the acceptable 2-Color families when blending gradients. Values between 30 and 60 are used to create vibrant gradients that work well against both dark and light backgrounds. For more contrast or subtlety, blend between darker or lighter colors. Do not blend between colors that are more than two steps away from each other.
 
-![Gradients](images/gradients-main.gif)
+<GifPlayer color="dark">
 
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Do not mix colors that are outside of the accepted 2-Color Families.">
+![Gradients](images/gradients-main.gif)
+![Gradients](images/gradients-main.jpg)
+
+</GifPlayer>
+
+<DoDontRow>
+<DoDont type="dont" caption="Don't mix colors that are outside of the accepted 2-Color Families.">
 
 ![](images/gradient-1-wrong.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Do not blend between colors that are more than 2 steps away, i.e. Blue 60 to Teal 20.">
+</DoDont>
+<DoDont type="dont" caption="Don't blend between colors that are more than 2 steps away, i.e. Blue 60 to Teal 20.">
 
 ![](images/gradient-2-wrong.svg)
 
-</DoDontExample>
-</Column>
-</Row>
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Do not create gradients with more than two colors.">
+</DoDont>
+</DoDontRow>
+
+<DoDontRow>
+<DoDont type="dont" caption="Don't create gradients with more than two colors.">
 
 ![](images/gradient-3-wrong.svg)
 
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Color in UI
 
 Application of the IBM color palette brings an unified and recognizable consistency to IBM’s vast array of digital products and interfaces. This consistency is grounded by a set of well-defined rules on how to work with our component library in the context of dark and light themes.
 
+<GifPlayer color="dark">
+
 ![introduction](images/introduction.gif)
+![introduction](images/introduction.jpg)
+
+</GifPlayer>
 
 ### Specifications
 

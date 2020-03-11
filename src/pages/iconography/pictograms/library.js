@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from 'gatsby-theme-carbon/src/templates/Default';
-import PictogramLibrary from '../../../components/SvgLibraries/PictogramLibrary';
+import { PictogramLibrary } from '../../../../plugins/gatsby-theme-carbon-svgs';
 
 const frontmatter = {
   label:
@@ -11,10 +11,10 @@ const frontmatter = {
   tabs: ['Library', 'Design', 'Usage', 'Contribute'],
 };
 
-const PictogramLibraryPage = ({ pageContext, ...rest }) => (
+const LibraryPage = ({ pageContext, ...rest }) => (
   <Layout pageContext={{ ...pageContext, frontmatter }} {...rest}>
-    <PictogramLibrary />
+    <PictogramLibrary site="idl" />
   </Layout>
 );
 
-export default PictogramLibraryPage;
+export default LibraryPage;

@@ -20,7 +20,7 @@ finish—and make progress.
 
 ## Paths
 
-Elements of our interface dance on the Grid. Motion paths trace lines along the grid which never run diagonal.
+Elements of our interface dance on the 2x Grid. Motion paths trace lines along the grid which never run diagonal.
 
 <Video
   src="/videos/motion/motion-path-do.mp4"
@@ -32,9 +32,9 @@ Elements of our interface dance on the Grid. Motion paths trace lines along the 
   src="/videos/motion/motion-path-dont.mp4"
   poster="/videos/motion/motion-path-dont.jpg"
 />
-<Caption>Not staggering horizontal and vertical animations create a straight diagonal path. It breaks the grid and is harsh to the eye.</Caption>
+<Caption>Not staggering horizontal and vertical animations creates a straight diagonal path. It breaks the grid and is harsh to the eye.</Caption>
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={3} colLg={4}>
   <Video
     src="/videos/motion/motion-path-grid-delete-do.mp4"
@@ -57,7 +57,7 @@ Elements of our interface dance on the Grid. Motion paths trace lines along the 
 </Column>
 </Row>
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={3} colLg={4}>
   <Video
     src="/videos/motion/motion-path-grid-sort-do.mp4"
@@ -74,7 +74,7 @@ Elements of our interface dance on the Grid. Motion paths trace lines along the 
     poster="/videos/motion/motion-path-grid-sort-dont.jpg"
   />
   <Caption>
-    Criss cross sorting appears disorganized. Avoid this motion path.
+    Criss-cross sorting appears disorganized. Avoid this motion path.
   </Caption>
 </Column>
 </Row>
@@ -87,24 +87,24 @@ When multiple animated elements coexist or interact with each other within the s
 
 When elements convey the same meaning, or perform the same functions, use the same motion for them. Similarly, actions with dramatically different meaning and intent should carry different motions. This helps to reinforce the meaning behind a motion, and improves user’s proficiency with the interface.
 
-In below example, both expanding a row of a data table and opening a dropdown uses a chevron and share similar intent—to reveal content hidden in a seam. Therefore, they should have the same motion style (Productive) and easing (entrance, standard), albeit different durations due to their difference in size.
+In the example shown here, both expanding a row of a data table and opening a dropdown uses a chevron and share similar intent—to reveal content hidden in a seam. Therefore, they should have the same motion style (Productive) and easing (entrance, standard), albeit different durations due to their difference in size.
 
 <Video
   src="/videos/motion/motion-consistency-pt1.mp4"
   poster="/videos/motion/motion-consistency-pt1.jpg"
 />
 <Caption>
-Comparing data table expansion and dropdown
+Comparing data table expansion and dropdown motion
 </Caption>
 
-Pay attention to the spatial relationships between elements and screens, and information hierarchy. Visually similar elements may need the different motions to respect their respective spatial location.
+Pay attention to the spatial relationships between elements and screens, and information hierarchy. Visually similar elements may need the different motions to respect their relative spatial locations.
 
 <Video
   src="/videos/motion/motion-consistency-pt2a.mp4"
   poster="/videos/motion/motion-consistency-pt2a.jpg"
 />
 <Caption>
-When the new content panel is on a higher layer, motion is “sliding”, moving content within with the panel. Also always dim the content below when new layer is introduced above.
+When the new content panel is on a higher layer, motion is “sliding”, moving content within with the panel. Also always dim the content below when a new layer is introduced above.
 </Caption>
 
 <Video
@@ -117,7 +117,7 @@ When the new content panel is on the same layer, motion is “pushing”, reveal
 
 Effective use of inconsistency in motion highlights a difference in meaning or intent behind actions with similar visual appearance.
 
-<Row>
+<Row className="mock-gallery">
 <Column colMd={3} colLg={4}>
   <Video
     src="/videos/motion/motion-consistency-pt3a.mp4"
@@ -138,7 +138,7 @@ Effective use of inconsistency in motion highlights a difference in meaning or i
 
 ### Continuity
 
-Motion can help establishing a sense of continuity between screens and experiences. Pay attention to shared elements across screens, such as the title panels, or buttons, to create a graceful transition.#
+Motion can help by establishing a sense of continuity between screens and experiences. Pay attention to shared elements across screens, such as the title panels, or buttons, to create a graceful transition.
 
 <Video
   src="/videos/motion/motion-continuity-do.mp4"
@@ -163,7 +163,7 @@ Motion can help establishing a sense of continuity between screens and experienc
 
 ## Sequence & stagger
 
-When multiple elements need to animate, distribute their entrances over time in stead of introducing everything at the user at once. This will help user to understand the content and orient themselves.
+When multiple elements need to animate, distribute their entrances over time instead of introducing everything at the user at once. This will help user to understand the content and orient themselves.
 
 For example, staggering the entrance of table content by 20ms significantly reduces the cognitive load. Depending on the number of staggered elements, the delay should be adjusted to ensure total time is still within 500 ms.
 
@@ -175,7 +175,7 @@ For example, staggering the entrance of table content by 20ms significantly redu
   Table with rows loading in at staggered timing.
 </Caption>
 
-Sequence the loading of page content when possible. Start with the most orienting content, such as the static content and header, and end with the most important information, such as the call to action button or a calculation result, to focus user’s attention to them.
+Sequence the loading of page content when possible. Start with the most orienting content, such as the static content and header, and end with the most important information, such as the call-to-action button or a calculation result, to focus user’s attention to them.
 
 <Video
   src="/videos/motion/motion-seq-content-type.mp4"

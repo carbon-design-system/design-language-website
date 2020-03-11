@@ -1,6 +1,6 @@
 ---
 title: Type specs UI
-description: With our new corporate typeface, IBM Plex™, comes a new set of guidance and best practices. Type Specs helps to set up a start point to apply typography.
+description: The proper application of type to reflect the IBM brand requires an understanding of scale, style, setting and color. Learn more about Type Specs.
 ---
 
 import { AnchorLinks, PageDescription, Video } from 'gatsby-theme-carbon';
@@ -10,7 +10,7 @@ import TypeScaleTable from '../../components/TypeScaleTable';
 
 <PageDescription>
 
-With our new bespoke corporate typeface, IBM Plex™, comes a new set of guidance and best practices. Type Specs helps to set up a start point to apply typography—type scales, styles and alignment on screens.
+Our bespoke corporate typeface, IBM Plex®, brings its own set of guidance and best practices. Type specs help to set a starting point to apply typography—type scales, styles and alignment on screens.
 
 </PageDescription>
 
@@ -27,24 +27,24 @@ With our new bespoke corporate typeface, IBM Plex™, comes a new set of guidanc
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="IBM Plex® latest typeface release"
-      aspectRatio="2:1"
-      href="https://github.com/IBM/plex/releases/latest"
-      >
+  <ResourceCard
+    subTitle="IBM Plex® latest typeface release"
+    aspectRatio="2:1"
+    href="https://github.com/IBM/plex/releases/latest"
+    >
 
 ![](../images/github-icon.png)
 
   </ResourceCard>
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="IBM Design Language Sketch kit"
-      aspectRatio="2:1"
-      href="sketch://add-library/cloud/nwqmk"
-      >
+  <ResourceCard
+    subTitle="IBM Design Language library"
+    aspectRatio="2:1"
+    href="sketch://add-library/cloud/nwqmk"
+    >
 
-![](../images/SketchIcon.svg)
+![sketchIcon](/images/SketchIcon.svg)
 
   </ResourceCard>
 </Column>
@@ -52,7 +52,7 @@ With our new bespoke corporate typeface, IBM Plex™, comes a new set of guidanc
 
 ## Typeface
 
-The IBM Plex™ family comes in sans, serif, condensed and monospaced versions to serve a variety of needs across all experiences. It has been specifically designed to work well in digital environments and small or large scales. It comes in extended Latin and non-Latin scripts. See the [Typeface page](/typography/typeface) to learn more.
+The IBM Plex® family comes in sans, serif, condensed and monospaced versions to serve a variety of needs across all experiences. It has been specifically designed to work well in digital environments and small or large scales. It comes in extended Latin and non-Latin scripts. See the [Typeface](/typography/typeface) page to learn more.
 
 <Row>
 <Column colLg={8} noGutterSm>
@@ -78,7 +78,7 @@ The IBM Plex™ family comes in sans, serif, condensed and monospaced versions t
 
 ## Scales
 
-The IBM type scale is built on a single equation. The formula for our scale was created to provide hierarchy for all types of experiences. The formula assumes that y₀=12px:
+The IBM type scale is built on a single equation. The formula for our scale was created to provide hierarchy for all types of experiences. The formula assumes that y₀=12px.
 
 <TypeScaleTable />
 
@@ -93,7 +93,7 @@ Typography creates purposeful texture. It guides users to read and understand th
 
 ### Weights
 
-We suggest to use IBM Plex Light, Regular, and SemiBold for digital experiences. The semibold weight is ideal for section headers, but should not be used for long text.
+We suggest use of IBM Plex Light, Regular, and Semibold for digital experiences. The semibold weight is ideal for section headers, but should not be used for long text.
 
 <Row>
 <Column colLg={8} noGutterSm>
@@ -168,67 +168,54 @@ Even though IBM Plex contains a wide range of scales, it’s important to use a 
 
 Careful consideration of color maintains quality and recognition for users. Legibility and accessibility are two keys. Keep colored type neutral when in paragraphs. Use primary blue for primary actions.
 
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do">
+<DoDontRow>
+<DoDont>
 
 ![](../images/type-color-do-1.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont">
+</DoDont>
+<DoDont type="dont">
 
 ![](../images/type-color-dont-1.svg)
 
-</DoDontExample>
-</Column>
-</Row>
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" color="dark">
+</DoDont>
+</DoDontRow>
+
+<DoDontRow>
+<DoDont color="dark">
 
 ![](../images/type-color-do-2.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" color="dark">
+</DoDont>
+<DoDont type="dont" color="dark">
 
 ![](../images/type-color-dont-2.svg)
 
-</DoDontExample>
-</Column>
-</Row>
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Core blue colors are used for text links and primary actions.">
+</DoDont>
+</DoDontRow>
+
+<DoDontRow>
+<DoDont caption="Core blue colors are used for text links and primary actions.">
 
 ![](../images/interactive-texts-do.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Secondary actions use gray 100 and icons.">
+</DoDont>
+<DoDont caption="Secondary actions use gray 100 and icons.">
 
 ![](../images/interactive-texts-dont.png)
 
-</DoDontExample>
-</Column>
-</Row>
-<Row>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Other use cases for colored type are code snippets, warnings, alerts, etc.">
+</DoDont>
+</DoDontRow>
+
+<DoDontRow>
+<DoDont caption="Other use cases for colored type are code snippets, warnings, alerts, etc.">
 
 ![](../images/color-type-for-specific-usage-do.svg)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do">
+</DoDont>
+<DoDont>
 
 ![](../images/color-type-for-specific-usage-dont.svg)
 
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>

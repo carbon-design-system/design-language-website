@@ -18,6 +18,10 @@
   position: relative;
   padding-top: $spacing-04;
   top: -$spacing-04;
+
+  @include carbon--breakpoint-down('md') {
+    display: none;
+  }
 }
 
 .motion-checklist aside:before {

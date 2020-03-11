@@ -7,6 +7,12 @@
   "engines": {
     "node": "^10 || ^12"
   },
+  "browserslist": [
+    "last 1 edge version",
+    "last 1 firefox version",
+    "last 1 safari version",
+    "last 1 chrome version"
+  ],
   "repository": {
     "url": "git@github.com:carbon-design-system/design-language-website.git",
     "type": "git"
@@ -20,6 +26,7 @@
     "lint:fix": "eslint . --fix",
     "build": "gatsby build",
     "build:prefix": "gatsby build --prefix-paths && yarn move-public",
+    "build:analyze": "gatsby clean && ANALYZE=true yarn build",
     "move-public": "mv public language && mkdir public && mkdir public/design && cp -R language public/design && rm -rf language",
     "serve": "gatsby serve",
     "ci-check": "yarn format:diff",
@@ -30,19 +37,28 @@
   },
   "dependencies": {
     "@carbon/elements": "^10.7.0",
-    "@carbon/icons-react": "^10.5.0",
-    "@carbon/pictograms": "^10.6.0-alpha.2",
-    "@carbon/pictograms-react": "^10.6.0-alpha.2",
-    "@ibm/plex": "^2.0.0",
-    "carbon-components": "^10.7.4",
-    "carbon-components-react": "^7.7.4",
-    "gatsby": "^2.13.64",
+    "@carbon/icons": "^10.9.1",
+    "@carbon/icons-react": "^10.9.1",
+    "@carbon/pictograms": "^10.9.0",
+    "@carbon/pictograms-react": "^10.9.0",
+    "@ibm/plex": "^4.0.2",
+    "@loadable/babel-plugin": "^5.12.0",
+    "@loadable/component": "^5.12.0",
+    "@loadable/webpack-plugin": "^5.12.0",
+    "babel-preset-gatsby": "^0.2.29",
+    "carbon-components": "^10.10.1",
+    "carbon-components-react": "^7.10.1",
+    "copy-to-clipboard": "^3.2.1",
+    "fs-extra": "^8.1.0",
+    "gatsby": "^2.19.17",
     "gatsby-plugin-manifest": "^2.2.5",
-    "gatsby-theme-carbon": "^1.18.2",
+    "gatsby-theme-carbon": "^1.20.0",
+    "lodash-es": "^4.17.15",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-textarea-autosize": "^7.1.0"
+    "react-textarea-autosize": "^7.1.0",
+    "use-media": "^1.4.0"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
@@ -55,7 +71,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.3.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
     "prettier": "^1.16.4"
   },
   "prettier": {

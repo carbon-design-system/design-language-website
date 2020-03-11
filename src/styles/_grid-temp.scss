@@ -38,3 +38,29 @@
 .bx--row img {
   width: 100%;
 }
+
+//---------------------------------------
+// Overrides
+//---------------------------------------
+
+// Principles/Layout page
+.principles-section .#{$prefix}--col-md-2,
+.example-section .#{$prefix}--col-md-2 {
+  margin-bottom: 1.5rem;
+  @include carbon--breakpoint('md') {
+    margin-bottom: 0;
+  }
+}
+
+// gallery clusters
+.mock-gallery {
+  @include carbon--breakpoint-down('md') {
+    --space: 0;
+  }
+}
+
+.mock-gallery [class*='#{$prefix}--col'] {
+  @include carbon--breakpoint-down('md') {
+    margin-top: 1.5rem;
+  }
+}
