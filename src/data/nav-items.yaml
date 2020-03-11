@@ -62,7 +62,8 @@
       path: /updates/road-map
 - title: Help
   pages:
-    - title: FAQ
-      path: /help/faq
     - title: Support
       path: /help/support
+    - title: FAQ
+      path: /help/faq
+
