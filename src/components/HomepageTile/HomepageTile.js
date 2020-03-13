@@ -184,7 +184,7 @@ const HomepageTile = ({
                     : `${prefix}--homepage-idl-tile-title`
                 }>
                 <div className={`${prefix}--type-body-long-01`}>{subtitle}</div>
-                <div className={`${prefix}--type-expressive-heading-03`}>
+                <div className={`${prefix}--image-card__title`}>
                   {title}
                 </div>
               </div>
