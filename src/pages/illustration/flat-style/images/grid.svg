@@ -49,43 +49,43 @@
 	<path class="st5" d="M452,140.1v47.8c0,13.4-14.8,24.2-28.2,24.2H0"/>
 	<path class="st5" d="M452,163.9v48.6c0,12.9-14.5,23.4-27.5,23.4H0"/>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="184" y1="1712.1" x2="292" y2="1712.1" gradientTransform="matrix(1 0 0 1 0 -1548)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="184" y1="-1422.1" x2="292" y2="-1422.1" gradientTransform="matrix(1 0 0 -1 0 -1258)">
 		<stop  offset="0" style="stop-color:#FFFFFF"/>
 		<stop  offset="1" style="stop-color:#6929C4"/>
 	</linearGradient>
 	<line class="st6" x1="188" y1="164.1" x2="288" y2="164.1"/>
 	
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="280" y1="1712.1" x2="388" y2="1712.1" gradientTransform="matrix(1 0 0 1 0 -1548)">
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="280" y1="-1422.1" x2="388" y2="-1422.1" gradientTransform="matrix(1 0 0 -1 0 -1258)">
 		<stop  offset="0" style="stop-color:#FA4D56"/>
 		<stop  offset="1" style="stop-color:#6929C4"/>
 	</linearGradient>
 	<line class="st7" x1="284" y1="164.1" x2="384" y2="164.1"/>
 	
-		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="0" y1="1736.1" x2="96" y2="1736.1" gradientTransform="matrix(1 0 0 1 0 -1548)">
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="0" y1="-1446.1" x2="96" y2="-1446.1" gradientTransform="matrix(1 0 0 -1 0 -1258)">
 		<stop  offset="0" style="stop-color:#FFFFFF"/>
 		<stop  offset="1" style="stop-color:#6929C4"/>
 	</linearGradient>
 	<line class="st8" x1="0" y1="188.1" x2="96" y2="188.1"/>
 	
-		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="280" y1="1760.1" x2="388" y2="1760.1" gradientTransform="matrix(1 0 0 1 0 -1548)">
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="280" y1="-1470.1" x2="388" y2="-1470.1" gradientTransform="matrix(1 0 0 -1 0 -1258)">
 		<stop  offset="0" style="stop-color:#FFFFFF"/>
 		<stop  offset="1" style="stop-color:#6929C4"/>
 	</linearGradient>
 	<line class="st9" x1="284" y1="212.1" x2="384" y2="212.1"/>
 	
-		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="88" y1="1784.1" x2="196" y2="1784.1" gradientTransform="matrix(1 0 0 1 0 -1548)">
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="88" y1="-1494.1" x2="196" y2="-1494.1" gradientTransform="matrix(1 0 0 -1 0 -1258)">
 		<stop  offset="0" style="stop-color:#FFFFFF"/>
 		<stop  offset="1" style="stop-color:#6929C4"/>
 	</linearGradient>
 	<line class="st10" x1="92" y1="236.1" x2="192" y2="236.1"/>
 	
-		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="184" y1="1784.1" x2="291" y2="1784.1" gradientTransform="matrix(1 0 0 1 0 -1548)">
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="184" y1="-1494.1" x2="291" y2="-1494.1" gradientTransform="matrix(1 0 0 -1 0 -1258)">
 		<stop  offset="0" style="stop-color:#FA4D56"/>
 		<stop  offset="1" style="stop-color:#6929C4"/>
 	</linearGradient>
 	<line class="st11" x1="188" y1="236.1" x2="287" y2="236.1"/>
 	
-		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="88" y1="1736.1" x2="196" y2="1736.1" gradientTransform="matrix(1 0 0 1 0 -1548)">
+		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="88" y1="-1446.1" x2="196" y2="-1446.1" gradientTransform="matrix(1 0 0 -1 0 -1258)">
 		<stop  offset="0" style="stop-color:#FA4D56"/>
 		<stop  offset="1" style="stop-color:#6929C4"/>
 	</linearGradient>
@@ -234,6 +234,36 @@
 			<line class="st14" x1="512" y1="264" x2="256" y2="264"/>
 			<line class="st14" x1="512" y1="272" x2="256" y2="272"/>
 			<line class="st14" x1="512" y1="280" x2="256" y2="280"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<defs>
+				<path id="SVGID_8_" d="M456,183v1c0,2.2-1.8,4-4,4s-4-1.8-4-4v-1H456z"/>
+			</defs>
+			<clipPath id="SVGID_9_">
+				<use xlink:href="#SVGID_8_"  style="overflow:visible;"/>
+			</clipPath>
+			<g style="clip-path:url(#SVGID_9_);">
+				
+					<image style="overflow:visible;" width="8" height="17" xlink:href="4752A2F4202B7456.png"  transform="matrix(1 0 0 1 448 183.02)"/>
+			</g>
+		</g>
+		
+			<image style="overflow:visible;" width="8" height="65.3" xlink:href="4752A2F4202B7451.png"  transform="matrix(1 0 0 1 448 118.6787)"/>
+		<g>
+			<defs>
+				<path id="SVGID_10_" d="M448,119.6v-0.9c0-2.2,1.8-4,4-4s4,1.8,4,4v0.9H448z"/>
+			</defs>
+			<clipPath id="SVGID_11_">
+				<use xlink:href="#SVGID_10_"  style="overflow:visible;"/>
+			</clipPath>
+			<g style="clip-path:url(#SVGID_11_);">
+				
+					<image style="overflow:visible;" width="8" height="17" xlink:href="4752A2F4202B7453.png"  transform="matrix(1 0 0 1 448 102.6139)"/>
+			</g>
 		</g>
 	</g>
 </g>
