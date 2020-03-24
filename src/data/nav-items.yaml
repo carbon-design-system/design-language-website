@@ -35,6 +35,18 @@
       path: /iconography/app-icons/design
     - title: Pictograms
       path: /iconography/pictograms/library
+- title: Illustration
+  pages:
+    - title: Overview
+      path: /illustration/overview/
+    - title: Tips and techniques
+      path: /illustration/tips-and-techniques/
+    - title: Line style
+      path: /illustration/line-style/design
+    - title: Flat style
+      path: /illustration/flat-style/design
+    - title: Isometric style
+      path: /illustration/isometric-style/design
 - title: Photography
   pages:
     - title: Overview

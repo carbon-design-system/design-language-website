@@ -109,6 +109,7 @@ const IconLibrary = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           allIconResults={filteredIcons.length}
+          repoUrl="https://github.ibm.com/brand/ui-icons/issues/new"
           pageName="icon"
           pageUrl="https://github.com/carbon-design-system/carbon/blob/master/packages/icons/master/ui-icon-master.ai"
         />

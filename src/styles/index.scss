@@ -48,3 +48,60 @@
 //---------------------------------------
 @import '../components/ColorBlock/color-block';
 @import '../components/ColorGrid/color-grid';
+
+//---------------------------------------
+// Table component
+//---------------------------------------
+@import "narrative";
+
+//temporary type fix
+  .show-on-small {
+    display: block;
+    @include carbon--breakpoint('md') {
+      display: none;
+    }
+  }
+  
+  .hide-on-small {
+    display: none;
+    @include carbon--breakpoint('md') {
+      display: block;
+    }
+  }
+  
+  .hide-on-medium {
+    display: none;
+    @include carbon--breakpoint('lg') {
+      display: block;
+    }
+  }
+  
+  .show-on-medium {
+    display: block;
+    @include carbon--breakpoint('lg') {
+      display: none;
+    }
+  }
+  
+  .noMarginBottom,
+  .noMarginBottom p {
+    margin-bottom: 0;
+  }
+  
+  .noMarginTop {
+    margin-top: 0;
+  }
+  
+  .nowrap {
+    white-space: nowrap;
+  }
+  
+  .bx--list--nested, .bx--list--unordered, .bx--list--ordered {
+    padding-left: 1rem;
+    margin-top: var(--space);
+  
+    li {
+      padding-left: 8px !important;
+      margin-bottom: 0;
+    }
+  }
