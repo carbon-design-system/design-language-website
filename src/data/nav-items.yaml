@@ -72,3 +72,10 @@
       path: /updates/whats-new
     - title: Roadmap
       path: /updates/road-map
+- title: Help
+  pages:
+    - title: Support
+      path: /help/support
+    - title: FAQ
+      path: /help/faq
+
