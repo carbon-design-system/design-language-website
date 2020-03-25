@@ -11,7 +11,7 @@ const MiniCard = props => (
     <a className='mini-card-link' href={props.link}>
         <div className='mini-card'>
             <p className='mini-card-label'> {props.labelName}</p>
-            <img className='mini-card-icon' alt={props.iconImage} src={props.iconImage}/>
+            <img className='mini-card-icon' alt={props.altText} src={props.iconImage}/>
         </div>
     </a>
 );
@@ -23,7 +23,8 @@ MiniCard.propTypes = {
     link: PropTypes.string,
     iconImage: PropTypes.string,
     labelName: PropTypes.string,
-    description: PropTypes.string
+    description: PropTypes.string,
+    altText: PropTypes.string
 
 };
 
