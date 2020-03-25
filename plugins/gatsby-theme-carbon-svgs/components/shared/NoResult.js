@@ -14,6 +14,7 @@ const NoResult = ({
   allIconResults,
   setSelectedCategory,
   selectedCategory,
+  repoUrl,
   type = 'icons',
   pageName,
   pageUrl,
@@ -50,7 +51,7 @@ const NoResult = ({
               subTitle={`Submit ${
                 pageName === 'icon' ? 'an icon' : 'a pictogram'
               } design`}
-              href="https://github.ibm.com/brand/pictograms/issues/new">
+              href={repoUrl}>
               <Github />
             </ResourceCard>
           </Column>
