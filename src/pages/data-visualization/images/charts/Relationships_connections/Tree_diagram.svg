@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="241px" height="240px" viewBox="0 0 241 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 31</title>
+    <desc>Created with Sketch.</desc>
+    <g id="charts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Charts" transform="translate(-574.000000, -3929.000000)">
+            <g id="Group-31" transform="translate(574.928741, 3929.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="240" height="240"></rect>
+                <g id="chart-type/tree-diagram" transform="translate(34.857143, 34.285714)">
+                    <g id="treediagram" transform="translate(1.142857, 65.142857)">
+                        <rect id="Rectangle" fill="#0062FF" fill-rule="nonzero" x="0" y="48" width="27.4285714" height="11.4285714"></rect>
+                        <rect id="Rectangle-Copy-167" fill="#0062FF" fill-rule="nonzero" x="139.428571" y="0" width="29.7142857" height="11.4285714"></rect>
+                        <rect id="Rectangle-Copy-169" fill="#0062FF" fill-rule="nonzero" x="139.428571" y="27.4285714" width="29.7142857" height="11.4285714"></rect>
+                        <path d="M69.7142857,19.4285714 C49.9189919,19.4285714 47.6968577,53.7142857 26.2857143,53.7142857" id="Stroke-1" stroke="#0062FF" stroke-width="0.5"></path>
+                        <path d="M98.2857143,19.4285714 C117.039151,19.4285714 119.14433,33.1428571 139.428571,33.1428571" id="Stroke-3-Copy-4" stroke="#0062FF" stroke-width="0.5"></path>
+                        <path d="M98.2857143,5.71428571 C117.039151,5.71428571 119.14433,19.4285714 139.428571,19.4285714" id="Stroke-3-Copy-5" stroke="#0062FF" stroke-width="0.5" transform="translate(118.857143, 12.571429) scale(-1, 1) rotate(-180.000000) translate(-118.857143, -12.571429) "></path>
+                        <path d="M69.7142857,53.7142857 C49.9189919,53.7142857 47.6968577,88 26.2857143,88" id="Stroke-1" stroke="#0062FF" stroke-width="0.5" transform="translate(48.000000, 70.857143) scale(-1, 1) rotate(-180.000000) translate(-48.000000, -70.857143) "></path>
+                        <line x1="96.5592705" y1="19.4285714" x2="148.291793" y2="20" id="Path-2-Copy-2" stroke="#146EFF" stroke-width="0.5"></line>
+                        <rect id="Rectangle-Copy-160" fill="#0062FF" fill-rule="nonzero" x="69.7142857" y="13.7142857" width="29.7142857" height="11.4285714"></rect>
+                        <rect id="Rectangle-Copy-161" fill="#0062FF" fill-rule="nonzero" x="69.7142857" y="81.1428571" width="29.7142857" height="11.4285714"></rect>
+                        <rect id="Rectangle-Copy-168" fill="#0062FF" fill-rule="nonzero" x="139.428571" y="13.7142857" width="29.7142857" height="11.4285714"></rect>
+                        <rect id="Rectangle-Copy-319" fill="#0062FF" fill-rule="nonzero" x="139.428571" y="81.1428571" width="29.7142857" height="11.4285714"></rect>
+                        <rect id="Rectangle-Copy-322" fill="#0062FF" fill-rule="nonzero" x="139.428571" y="67.4285714" width="29.7142857" height="11.4285714"></rect>
+                        <rect id="Rectangle-Copy-323" fill="#0062FF" fill-rule="nonzero" x="139.428571" y="94.8571429" width="29.7142857" height="11.4285714"></rect>
+                        <path d="M98.2857143,86.8571429 C117.039151,86.8571429 119.14433,100.571429 139.428571,100.571429" id="Stroke-3-Copy-10" stroke="#0062FF" stroke-width="0.5"></path>
+                        <path d="M98.2857143,73.1428571 C117.039151,73.1428571 119.14433,86.8571429 139.428571,86.8571429" id="Stroke-3-Copy-11" stroke="#0062FF" stroke-width="0.5" transform="translate(118.857143, 80.000000) scale(-1, 1) rotate(-180.000000) translate(-118.857143, -80.000000) "></path>
+                        <line x1="96.5592705" y1="86.8571429" x2="148.291793" y2="87.4285714" id="Path-2-Copy-3" stroke="#146EFF" stroke-width="0.5"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

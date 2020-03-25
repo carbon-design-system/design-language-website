@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>meter gauge copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="meter-gauge-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F3F3" x="0" y="0" width="928" height="522"></rect>
+        <g id="Group-4" transform="translate(371.000000, 179.000000)">
+            <g id="Group-3">
+                <text id="widgetTitle" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="18" fill="#171717">
+                    <tspan x="0" y="16">Memory usage</tspan>
+                </text>
+                <g id="Group" transform="translate(0.000000, 34.000000)">
+                    <rect id="Rectangle-Copy-6" fill="#0F62FE" x="0" y="2" width="12" height="12" rx="1"></rect>
+                    <text id="In-use" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="16" y="12">In use</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(0.000000, 72.000000)">
+                <path d="M186,93 C186,41.6375183 144.362482,0 93,0 C41.6375183,0 0,41.6375183 0,93" id="Oval" stroke="#E0E0E0" stroke-width="16"></path>
+                <path d="M93,0 C41.6375183,0 0,41.6375183 0,93" id="Oval" stroke="#0F62FE" stroke-width="16"></path>
+                <text id="widgetTitle-Copy" font-family="IBMPlexMono, IBM Plex Mono" font-size="20" font-weight="normal" line-spacing="20" fill="#171717">
+                    <tspan x="75" y="93">50%</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

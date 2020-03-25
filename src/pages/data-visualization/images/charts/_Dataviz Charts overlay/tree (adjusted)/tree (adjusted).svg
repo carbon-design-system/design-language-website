@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>tree (adjusted)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6 5 1 10 0.293 9.293 4.586 5 0.293 0.707 1 0"></polygon>
+    </defs>
+    <g id="tree-(adjusted)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F3F3" x="0" y="0" width="928" height="522"></rect>
+        <g id="Group-8" transform="translate(167.000000, 95.000000)">
+            <rect id="crop-container" stroke="#F4F4F4" fill="#FFFFFF" x="0.5" y="0.5" width="594" height="332"></rect>
+            <text id="widgetTitle" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="18" fill="#1A1A1A">
+                <tspan x="16" y="31">Activity log diagram</tspan>
+            </text>
+            <g id="tree_diagram_light" transform="translate(17.000000, 49.000000)">
+                <path d="M360.5,148 C386.94231,148 375.512119,148 401,148" id="Path-4" stroke="#8D8D8D"></path>
+                <path d="M360.5,74 C388.925483,74 373.600528,148 401,148" id="Path-4-Copy-5" stroke="#8D8D8D" transform="translate(380.750000, 111.000000) scale(1, -1) translate(-380.750000, -111.000000) "></path>
+                <path d="M360.5,148 C388.925483,148 373.600528,222 401,222" id="Path-4-Copy-6" stroke="#1063FF" stroke-width="1.5"></path>
+                <g id="Group-5" transform="translate(400.500000, 190.000000)">
+                    <rect id="Rectangle-5-Copy-2" fill="#F4F4F4" x="0.5" y="0" width="160" height="64"></rect>
+                    <text id="@entity.size()&gt;1" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16">
+                        <tspan x="8.5" y="20" fill="#1063FF">@entity.</tspan>
+                        <tspan x="54.628" y="20" fill="#000000">size()&gt;1 </tspan>
+                    </text>
+                    <text id="1-reponses/-1$contex" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#525252">
+                        <tspan x="8.5" y="52">1 reponses/ 1$context</tspan>
+                    </text>
+                    <line x1="0.5" y1="2.30926389e-13" x2="0.5" y2="64" id="Line-Copy" stroke="#0062FF" stroke-width="1.5"></line>
+                </g>
+                <g id="Group-6" transform="translate(401.000000, 116.000000)">
+                    <rect id="Rectangle-5-Copy-2" fill="#F4F4F4" x="0" y="0" width="160" height="64"></rect>
+                    <g id="Actions-/-Navigation-/-overflow-menu--vertical-/-16" transform="translate(136.000000, 8.000000)" fill="#000000">
+                        <path d="M8,4 C8.55228475,4 9,3.55228475 9,3 C9,2.44771525 8.55228475,2 8,2 C7.44771525,2 7,2.44771525 7,3 C7,3.55228475 7.44771525,4 8,4 Z M8,9 C8.55228475,9 9,8.55228475 9,8 C9,7.44771525 8.55228475,7 8,7 C7.44771525,7 7,7.44771525 7,8 C7,8.55228475 7.44771525,9 8,9 Z M8,14 C8.55228475,14 9,13.5522847 9,13 C9,12.4477153 8.55228475,12 8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 Z" id="Fill"></path>
+                    </g>
+                    <text id="@genre_bad" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16">
+                        <tspan x="8" y="20" fill="#1063FF">@</tspan>
+                        <tspan x="18.74" y="20" fill="#000000">genre_bad</tspan>
+                    </text>
+                    <text id="1-reponses/-1$contex" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#525252">
+                        <tspan x="8" y="52">1 reponses/ 1$context</tspan>
+                    </text>
+                </g>
+                <g id="Group-7" transform="translate(401.000000, 42.000000)">
+                    <rect id="Rectangle-5-Copy-3" fill="#F4F4F4" x="0" y="0" width="160" height="64"></rect>
+                    <g id="Actions-/-Navigation-/-overflow-menu--vertical-/-16" transform="translate(136.000000, 8.000000)" fill="#000000">
+                        <path d="M8,4 C8.55228475,4 9,3.55228475 9,3 C9,2.44771525 8.55228475,2 8,2 C7.44771525,2 7,2.44771525 7,3 C7,3.55228475 7.44771525,4 8,4 Z M8,9 C8.55228475,9 9,8.55228475 9,8 C9,7.44771525 8.55228475,7 8,7 C7.44771525,7 7,7.44771525 7,8 C7,8.55228475 7.44771525,9 8,9 Z M8,14 C8.55228475,14 9,13.5522847 9,13 C9,12.4477153 8.55228475,12 8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 Z" id="Fill"></path>
+                    </g>
+                    <text id="@genre" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16">
+                        <tspan x="8" y="20" fill="#1063FF">@</tspan>
+                        <tspan x="18.74" y="20" fill="#000000">genre</tspan>
+                    </text>
+                    <text id="1-reponses/-1$contex-copy" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#525252">
+                        <tspan x="8" y="52">1 reponses/ 1$context</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(201.000000, 0.000000)">
+                    <rect id="Rectangle-5-Copy-2" fill="#F4F4F4" x="0" y="0" width="160" height="92"></rect>
+                    <text id="Start-and-initialize" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" fill="#000000">
+                        <tspan x="8" y="20">Start and initialize </tspan>
+                        <tspan x="8" y="36">context</tspan>
+                        <tspan x="49.88" y="36" font-family="IBMPlexSans, IBM Plex Sans" font-weight="normal"></tspan>
+                        <tspan x="8" y="52" font-family="IBMPlexSans, IBM Plex Sans" font-weight="normal">#conversation_start</tspan>
+                    </text>
+                    <text id="1-reponses/-8$contex" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#525252">
+                        <tspan x="8" y="84">1 reponses/ 8$context</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(0.000000, 132.000000)">
+                    <polygon id="Rectangle-5-Copy-2" fill="#F4F4F4" points="0 5.34620091e-16 160 5.34620091e-16 160 32 0 32"></polygon>
+                    <text id="Car-Dashboard" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" fill="#000000">
+                        <tspan x="8" y="21">Car Dashboard</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(201.000000, 102.000000)">
+                    <rect id="Rectangle-5-Copy-2" fill="#F4F4F4" x="0" y="0" width="160" height="92"></rect>
+                    <text id="Entry-point-for-on/o" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" fill="#000000">
+                        <tspan x="8" y="20">Entry point for on/off </tspan>
+                        <tspan x="8" y="36">commands</tspan>
+                        <tspan x="8" y="52" font-family="IBMPlexSans, IBM Plex Sans" font-weight="normal">#turn_on</tspan>
+                    </text>
+                    <text id="2-reponses/-1$contex" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#525252">
+                        <tspan x="8" y="84">2 reponses/ 1$context</tspan>
+                    </text>
+                    <line x1="0.5" y1="0" x2="0.5" y2="92" id="Line" stroke="#0062FF" stroke-width="1.5"></line>
+                </g>
+                <g id="Group-4" transform="translate(201.000000, 200.000000)">
+                    <rect id="background-copy-2" fill="#C6C6C6" x="4" y="0" width="160" height="64"></rect>
+                    <rect id="background-copy" fill="#E0E0E0" x="2" y="2" width="160" height="64"></rect>
+                    <rect id="Rectangle-5-Copy-4" fill="#F4F4F4" x="0" y="4" width="160" height="64"></rect>
+                    <g id="icon/navigation/chevron/right/16" transform="translate(144.000000, 20.000000) rotate(-270.000000) translate(-144.000000, -20.000000) translate(136.000000, 12.000000)">
+                        <g id="Group">
+                            <g id="chevron--right" transform="translate(5.000000, 3.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g id="color/black" mask="url(#mask-2)" fill="#000000">
+                                    <g transform="translate(-5.000000, -3.000000)">
+                                        <rect x="0" y="0" width="40" height="40"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <rect id="transparent-rectangle" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) " x="0" y="0" width="16" height="16"></rect>
+                        </g>
+                    </g>
+                    <text id="#turn_off" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16">
+                        <tspan x="8" y="24" fill="#1063FF">#</tspan>
+                        <tspan x="15.872" y="24" fill="#000000">turn_off</tspan>
+                    </text>
+                    <text id="0-reponses/-1$contex" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#525252">
+                        <tspan x="8" y="56">0 reponses/ 1$context</tspan>
+                    </text>
+                </g>
+                <path d="M160,46 C188.425483,46 173.100528,148 200.5,148" id="Path-4-Copy-7" stroke="#8D8D8D" transform="translate(180.250000, 97.000000) scale(1, -1) translate(-180.250000, -97.000000) "></path>
+                <path d="M160,148 C188.425483,148 173.100528,236 200.5,236" id="Path-4-Copy-8" stroke="#8D8D8D"></path>
+                <path d="M160,148 C186.44231,148 175.012119,148 200.5,148" id="Path-4-Copy" stroke="#1063FF" stroke-width="1.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

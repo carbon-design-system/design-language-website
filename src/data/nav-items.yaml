@@ -46,7 +46,7 @@
     - title: Overview
       path: /data-visualization/overview
     - title: Charts
-      path: /data-visualization/charts/charts
+      path: /data-visualization/charts
     - title: Design
       path: /data-visualization/design/basics
 - title: Layout

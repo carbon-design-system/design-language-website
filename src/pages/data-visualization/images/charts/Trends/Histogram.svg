@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="239px" height="240px" viewBox="0 0 239 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="charts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Charts" transform="translate(-815.000000, -1931.000000)">
+            <g id="Group-20" transform="translate(815.000000, 1931.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="239" height="240"></rect>
+                <g id="chart-type/histogram" transform="translate(34.711905, 34.285714)" fill="#0062FF">
+                    <g id="histogram" transform="translate(1.707143, 70.857143)">
+                        <rect id="Rectangle-9-Copy-2" fill-rule="nonzero" x="0" y="54.8571429" width="6.82857143" height="45.7142857"></rect>
+                        <rect id="Rectangle-9-Copy-4" fill-rule="nonzero" x="15.9333333" y="44.5714286" width="6.82857143" height="56"></rect>
+                        <rect id="Rectangle-9-Copy-14" fill-rule="nonzero" x="87.6333333" y="50.2857143" width="6.82857143" height="50.2857143"></rect>
+                        <rect id="Rectangle-9-Copy-6" fill-rule="nonzero" x="31.8666667" y="35.4285714" width="6.82857143" height="65.1428571"></rect>
+                        <rect id="Rectangle-9-Copy-19" fill-rule="nonzero" x="135.433333" y="26.2857143" width="6.82857143" height="74.2857143"></rect>
+                        <rect id="Rectangle-9-Copy-20" fill-rule="nonzero" x="143.4" y="33.1428571" width="6.82857143" height="67.4285714"></rect>
+                        <rect id="Rectangle-9-Copy-17" fill-rule="nonzero" x="119.5" y="11.4285714" width="6.82857143" height="89.1428571"></rect>
+                        <rect id="Rectangle-9-Copy-22" fill-rule="nonzero" x="159.333333" y="0" width="6.82857143" height="100.571429"></rect>
+                        <rect id="Rectangle-9-Copy-3" fill-rule="nonzero" x="7.96666667" y="74.2857143" width="6.82857143" height="26.2857143"></rect>
+                        <rect id="Rectangle-9-Copy-13" fill-rule="nonzero" x="79.6666667" y="74.2857143" width="6.82857143" height="26.2857143"></rect>
+                        <rect id="Rectangle-9-Copy-7" fill-rule="nonzero" x="39.8333333" y="66.2857143" width="6.82857143" height="34.2857143"></rect>
+                        <rect id="Rectangle-9-Copy-15" fill-rule="nonzero" x="95.6" y="66.2857143" width="6.82857143" height="34.2857143"></rect>
+                        <rect id="Rectangle-9-Copy-18" fill-rule="nonzero" x="127.466667" y="66.2857143" width="6.82857143" height="34.2857143"></rect>
+                        <rect id="Rectangle-9-Copy-8" fill-rule="nonzero" x="111.533333" y="85.7142857" width="6.82857143" height="14.8571429"></rect>
+                        <rect id="Rectangle-9-Copy-11" fill-rule="nonzero" x="47.8" y="40" width="6.82857143" height="60.5714286"></rect>
+                        <rect id="Rectangle-9-Copy-9" fill-rule="nonzero" x="55.7666667" y="82.2857143" width="6.82857143" height="18.2857143"></rect>
+                        <rect id="Rectangle-9-Copy-5" fill-rule="nonzero" x="23.9" y="59.4285714" width="6.82857143" height="41.1428571"></rect>
+                        <rect id="Rectangle-9-Copy-12" fill-rule="nonzero" x="71.7" y="59.4285714" width="6.82857143" height="41.1428571"></rect>
+                        <rect id="Rectangle-9-Copy-16" fill-rule="nonzero" x="103.566667" y="56" width="6.82857143" height="44.5714286"></rect>
+                        <rect id="Rectangle-9-Copy-21" fill-rule="nonzero" x="151.366667" y="56" width="6.82857143" height="44.5714286"></rect>
+                        <rect id="Rectangle-9-Copy-10" fill-rule="nonzero" x="63.7333333" y="85.7142857" width="6.82857143" height="14.8571429"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

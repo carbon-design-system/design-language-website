@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>stacked area</title>
+    <desc>Created with Sketch.</desc>
+    <g id="stacked-area" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F3F3" x="0" y="0" width="928" height="522"></rect>
+        <text id="Optimization-rates-(" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" fill="#171717">
+            <tspan x="255" y="98">Optimization rates (overall)</tspan>
+        </text>
+        <g id="Group-6" transform="translate(255.000000, 118.000000)">
+            <g id="Group-2" transform="translate(55.000000, 0.000000)" fill="#E0E0E0">
+                <g id="graph_grid">
+                    <rect id="Rectangle-Copy-2" x="0" y="113" width="351" height="1"></rect>
+                    <rect id="Rectangle-Copy-3" x="0" y="170" width="351" height="1"></rect>
+                    <rect id="Rectangle-Copy-3" x="48" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-9" x="98.6" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-11" x="149.2" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-14" x="199.8" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-15" x="250.4" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-16" x="301" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy" x="0" y="56" width="351" height="1"></rect>
+                </g>
+            </g>
+            <g id="ticks" transform="translate(24.000000, 0.000000)" fill="#6F6F6F" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal">
+                <text id="0">
+                    <tspan x="15.8" y="226">0</tspan>
+                </text>
+                <text id="25" line-spacing="16">
+                    <tspan x="8.59400481" y="174">25</tspan>
+                </text>
+                <text id="50" line-spacing="16">
+                    <tspan x="8.59400481" y="117.5">50</tspan>
+                </text>
+                <text id="75" line-spacing="16">
+                    <tspan x="8.38379403" y="61">75</tspan>
+                </text>
+                <text id="100" line-spacing="16">
+                    <tspan x="1.4" y="12">100</tspan>
+                </text>
+            </g>
+            <text id="ylabel" transform="translate(8.000000, 113.964602) rotate(-90.000000) translate(-8.000000, -113.964602) " font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#171717">
+                <tspan x="2.438" y="117.964602">%</tspan>
+            </text>
+            <g id="Group-5" transform="translate(55.000000, 308.000000)">
+                <g id="Group">
+                    <rect id="Rectangle-Copy-6" fill="#FA4D56" x="0" y="2" width="12" height="12" rx="1"></rect>
+                    <text id="Open-rate" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="16" y="12">Open rate</tspan>
+                    </text>
+                </g>
+                <g id="Group-7" transform="translate(73.000000, 0.000000)">
+                    <g id="Group-3">
+                        <rect id="Rectangle-Copy-7" fill="#9F1853" x="0" y="2" width="12" height="12" rx="1"></rect>
+                        <text id="Click-rate" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="16" y="12">Click rate</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-7-Copy" transform="translate(143.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-7" fill="#520408" x="0" y="2" width="12" height="12" rx="1"></rect>
+                    <text id="Unsuscribe-rate" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="16" y="12">Unsuscribe rate</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="data3" transform="translate(55.500000, 33.500000)">
+                <polygon id="Path-9" fill-opacity="0.3" fill="#520408" points="0 104.069524 48 99.4018949 98.6 42.334238 149.2 64.2656123 199.8 80 250.4 61.5425624 301 1.42108547e-14 351.03075 80.5 351.03075 137.170324 300.942584 93.5 250.316378 96.5 199.830981 90.6111446 149.435449 123.693065 98.6785601 112.963971 48.0514654 128.5 0 111.778653"></polygon>
+                <polyline id="Path-10" stroke="#520408" stroke-width="1.5" points="0 104.069524 48 99.4018949 98.6 42.334238 149.2 64.2656123 199.8 80 250.4 61.5425624 301 4.26325641e-14 351.03075 79.5"></polyline>
+            </g>
+            <g id="data2" transform="translate(55.500000, 122.111145)">
+                <polygon id="Path-6" fill-opacity="0.3" fill="#9F1853" points="-9.09494702e-13 23.167508 48 39.8888554 98.6 24.719937 149.2 35.1866376 199.8 2.50145486 250.4 7.2524451 301 4.88885535 351.03075 48.3888554 351.03075 79.2295039 301.185324 19.8888554 250.427442 73.9626874 199.8 36.7491979 149.2 48.8888554 98.6 73.9626874 48 51.6990292 -2.85938828e-13 66.1791851"></polygon>
+                <polyline id="Path-8" stroke="#FFFFFF" stroke-width="1.5" points="0.5 22.2262017 48.5 38.8877107 99.1 23.443283 149.2 34.185493 200.3 0.998855352 250.9 6.2666035 301 3.8877107 351.03075 47.8877107"></polyline>
+                <polyline id="Path-8-Copy" stroke="#9F1853" stroke-width="1.5" points="0.5 23.2273463 48.5 39.8888554 99.1 24.4444277 149.2 35.1866376 200.3 2 250.9 7.26774814 301 4.88885535 351.03075 48.8888554"></polyline>
+            </g>
+            <g id="data1" transform="translate(55.000000, 141.000000)">
+                <polyline id="Path-5" stroke="#FFFFFF" stroke-width="1.5" points="0.5 46.2903298 49 32.3055723 99.1 54.073832 149.7 29 200.3 16.8603425 250.9 54.073832 301.5 -1.2867452e-17 351 59.3406485"></polyline>
+                <polygon id="Path-3" fill-opacity="0.3" fill="#FA4D56" points="0.5 47.2903298 49 33.6111446 99.1 55.1213601 149.7 29.5 200.3 17.8603425 251.4 55.1213601 301.5 1 351.53075 60.3406485 351.53075 85.5 0.5 85.5"></polygon>
+                <polyline id="Path-5-Copy" stroke="#FA4D56" stroke-width="1.5" points="0.5 47.2903298 49 33.3055723 99.1 55.073832 149.7 30 200.3 17.8603425 250.9 55.073832 301.5 1 351 60.3406485"></polyline>
+            </g>
+            <rect id="Rectangle" stroke="#DCDCDC" x="55.5" y="0.5" width="351" height="226"></rect>
+            <rect id="Rectangle" fill="#8C8C8C" x="55" y="226" width="352" height="1"></rect>
+            <rect id="Rectangle-Copy-12" fill="#8C8C8C" transform="translate(55.500000, 113.000000) scale(1, -1) translate(-55.500000, -113.000000) " x="55" y="0" width="1" height="226"></rect>
+            <g id="X-Axis" transform="translate(56.000000, 276.000000)" fill="#171717" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16">
+                <text id="Y-label" transform="translate(175.000000, 8.000000) rotate(-360.000000) translate(-175.000000, -8.000000) ">
+                    <tspan x="161.854" y="12">Days</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(33.000000, 231.000000)" fill="#7A7A7A" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal">
+                <text id="8-Aug" transform="translate(16.851417, 16.469441) rotate(-44.000000) translate(-16.851417, -16.469441) ">
+                    <tspan x="4.4994174" y="20.9694412">8 Aug </tspan>
+                </text>
+                <text id="9-Aug" transform="translate(64.396397, 15.427454) rotate(-44.000000) translate(-64.396397, -15.427454) ">
+                    <tspan x="50.5443966" y="19.9274536">9 Aug</tspan>
+                </text>
+                <text id="10-Aug" transform="translate(112.660716, 17.774783) rotate(-44.000000) translate(-112.660716, -17.774783) ">
+                    <tspan x="95.8287156" y="22.2747828">10 Aug</tspan>
+                </text>
+                <text id="11-Aug" transform="translate(162.723384, 18.469441) rotate(-44.000000) translate(-162.723384, -18.469441) ">
+                    <tspan x="146.891384" y="22.9694412">11 Aug </tspan>
+                </text>
+                <text id="12-Aug" transform="translate(213.505392, 18.469441) rotate(-44.000000) translate(-213.505392, -18.469441) ">
+                    <tspan x="197.673392" y="22.9694412">12 Aug </tspan>
+                </text>
+                <text id="13-Aug" transform="translate(264.287401, 18.469441) rotate(-44.000000) translate(-264.287401, -18.469441) ">
+                    <tspan x="248.455401" y="22.9694412">13 Aug </tspan>
+                </text>
+                <text id="14-Aug" transform="translate(315.069409, 18.469441) rotate(-44.000000) translate(-315.069409, -18.469441) ">
+                    <tspan x="299.237409" y="22.9694412">14 Aug </tspan>
+                </text>
+                <text id="15-Aug" transform="translate(366.570757, 17.774783) rotate(-44.000000) translate(-366.570757, -17.774783) ">
+                    <tspan x="349.738757" y="22.2747828">15 Aug</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

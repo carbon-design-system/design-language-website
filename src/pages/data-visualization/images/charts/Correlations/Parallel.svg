@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <g id="charts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Charts" transform="translate(-815.000000, -3344.000000)">
+            <g id="Group-29" transform="translate(815.000000, 3344.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="240" height="240"></rect>
+                <g id="chart-type/parallel" transform="translate(34.857143, 34.285714)">
+                    <g id="parallel" transform="translate(2.285714, 58.285714)">
+                        <polyline id="Path-14" stroke="#97C1FF" stroke-width="0.7" points="0 98.2857143 55.2380952 49.1428571 110.857143 101.714286 164.571429 76.5714286"></polyline>
+                        <polyline id="Path-15" stroke="#0062FF" stroke-width="0.7" points="0 98.2857143 54.8571429 6.85714286 109.714286 101.714286 165.714286 22.8571429"></polyline>
+                        <polyline id="Path-16" stroke="#97C1FF" stroke-width="0.7" points="0 98.2857143 55.04696 66.2857143 109.714286 101.714286 165.714286 65.1428571"></polyline>
+                        <polyline id="Path-16-Copy-2" stroke="#97C1FF" stroke-width="0.7" points="0 98.2857143 55.04696 83.4285714 109.714286 101.714286 165.714286 88"></polyline>
+                        <polyline id="Path-16-Copy" stroke="#0062FF" stroke-width="0.7" points="1.14285714 59.4285714 54.8571429 5.71428571 110.857143 70.8571429 164.571429 22.8571429"></polyline>
+                        <polyline id="Path-17" stroke="#0062FF" stroke-width="0.7" points="0 78.8571429 55.2380952 5.71428571 110.857143 52.5714286 165.714286 21.4243071"></polyline>
+                        <line x1="165.142857" y1="0" x2="165.142857" y2="113.142857" id="Path-13-Copy-3" stroke="#0062FF" stroke-width="1.5"></line>
+                        <line x1="110.285714" y1="0" x2="110.285714" y2="113.142857" id="Path-13-Copy-2" stroke="#0062FF" stroke-width="1.5"></line>
+                        <line x1="0.571428571" y1="0" x2="0.571428571" y2="113.142857" id="Path-13" stroke="#0062FF" stroke-width="1.5"></line>
+                        <line x1="55.4285714" y1="0" x2="55.4285714" y2="113.142857" id="Path-13-Copy" stroke="#0062FF" stroke-width="1.5"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

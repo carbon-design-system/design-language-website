@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Streamchart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="140" height="48"></rect>
+        <filter x="-7.1%" y="-16.7%" width="114.3%" height="141.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="17.9403457 21.1863925 13.5219224 23.061902 10.9929768 17.1040795 7.2 20.8970563 7.2 1.90294373 20.8970563 15.6 15.5690628 15.6"></polygon>
+        <filter x="-25.6%" y="-15.2%" width="156.3%" height="137.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.75" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="17.9403457 21.1863925 13.5219224 23.061902 10.9929768 17.1040795 7.2 20.8970563 7.2 1.90294373 20.8970563 15.6 15.5690628 15.6"></polygon>
+        <filter x="-13.7%" y="-5.3%" width="127.4%" height="117.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0.75" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Streamchart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F3F3" x="0" y="0" width="928" height="522"></rect>
+        <text id="2019-Optimization-ra" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" fill="#171717">
+            <tspan x="294" y="98">2019 Optimization rates (overall)</tspan>
+        </text>
+        <g id="Group-6" transform="translate(272.000000, 118.000000)">
+            <g id="Group-2" transform="translate(52.000000, 0.000000)" fill="#E0E0E0">
+                <g id="graph_grid">
+                    <rect id="Rectangle-Copy-3" x="0" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-9" x="29.3" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-10" x="58.6" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-12" x="87.9" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-13" x="146.5" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-14" x="175.8" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-17" x="205.1" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-15" x="234.4" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-16" x="293" y="0" width="1" height="227"></rect>
+                    <rect id="Rectangle-Copy-18" x="263.7" y="0" width="1" height="227"></rect>
+                </g>
+            </g>
+            <g id="X-Axis" transform="translate(23.000000, 276.000000)" fill="#171717" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16">
+                <text id="Y-label" transform="translate(175.000000, 8.000000) rotate(-360.000000) translate(-175.000000, -8.000000) ">
+                    <tspan x="161.854" y="12">Days</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(22.000000, 308.000000)">
+                <g id="Group">
+                    <rect id="Rectangle-Copy-6" fill="#520408" x="0" y="2" width="12" height="12" rx="1"></rect>
+                    <text id="Open-rate" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="16" y="12">Open rate</tspan>
+                    </text>
+                </g>
+                <g id="Group-7" transform="translate(73.000000, 0.000000)">
+                    <g id="Group-3">
+                        <rect id="Rectangle-Copy-7" fill="#9F1853" x="0" y="2" width="12" height="12" rx="1"></rect>
+                        <text id="Click-rate" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="16" y="12">Click rate</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-7-Copy" transform="translate(143.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-7" fill="#FA4D56" x="0" y="2" width="12" height="12" rx="1"></rect>
+                    <text id="Unsuscribe-rate" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="16" y="12">Unsuscribe rate</tspan>
+                    </text>
+                </g>
+            </g>
+            <line x1="169.5" y1="226" x2="169.5" y2="1" id="Line-Copy-12" stroke="#0F6DFF" stroke-width="0.5" stroke-linecap="square" stroke-dasharray="2,2"></line>
+            <g id="Group-4" transform="translate(0.000000, 231.000000)" fill="#7A7A7A" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal">
+                <text id="8-Aug" transform="translate(16.500000, 16.469441) rotate(-44.000000) translate(-16.500000, -16.469441) ">
+                    <tspan x="4.148" y="20.9694412">8 Aug </tspan>
+                </text>
+                <text id="9-Aug" transform="translate(48.000000, 15.427454) rotate(-44.000000) translate(-48.000000, -15.427454) ">
+                    <tspan x="34.148" y="19.9274536">9 Aug</tspan>
+                </text>
+                <text id="10-Aug" transform="translate(74.500000, 17.774783) rotate(-44.000000) translate(-74.500000, -17.774783) ">
+                    <tspan x="57.668" y="22.2747828">10 Aug</tspan>
+                </text>
+                <text id="11-Aug" transform="translate(102.997724, 18.469441) rotate(-44.000000) translate(-102.997724, -18.469441) ">
+                    <tspan x="87.1657241" y="22.9694412">11 Aug </tspan>
+                </text>
+                <text id="12-Aug" transform="translate(132.500000, 18.469441) rotate(-44.000000) translate(-132.500000, -18.469441) ">
+                    <tspan x="116.668" y="22.9694412">12 Aug </tspan>
+                </text>
+                <text id="13-Aug" transform="translate(161.500000, 18.469441) rotate(-44.000000) translate(-161.500000, -18.469441) ">
+                    <tspan x="145.668" y="22.9694412">13 Aug </tspan>
+                </text>
+                <text id="14-Aug" transform="translate(190.997724, 18.500000) rotate(-44.000000) translate(-190.997724, -18.500000) ">
+                    <tspan x="175.165724" y="23">14 Aug </tspan>
+                </text>
+                <text id="15-Aug" transform="translate(220.998384, 17.774783) rotate(-44.000000) translate(-220.998384, -17.774783) ">
+                    <tspan x="204.166384" y="22.2747828">15 Aug</tspan>
+                </text>
+                <text id="16-Aug" transform="translate(250.500000, 17.774783) rotate(-44.000000) translate(-250.500000, -17.774783) ">
+                    <tspan x="233.668" y="22.2747828">16 Aug</tspan>
+                </text>
+                <text id="17-Aug" transform="translate(279.500000, 17.774783) rotate(-44.000000) translate(-279.500000, -17.774783) ">
+                    <tspan x="262.668" y="22.2747828">17 Aug</tspan>
+                </text>
+                <text id="18-Aug" transform="translate(308.998384, 17.774783) rotate(-44.000000) translate(-308.998384, -17.774783) ">
+                    <tspan x="292.166384" y="22.2747828">18 Aug</tspan>
+                </text>
+                <text id="19-Aug" transform="translate(337.998384, 17.774783) rotate(-44.000000) translate(-337.998384, -17.774783) ">
+                    <tspan x="321.166384" y="22.2747828">19 Aug</tspan>
+                </text>
+                <text id="20-Aug" transform="translate(366.500000, 17.774783) rotate(-44.000000) translate(-366.500000, -17.774783) ">
+                    <tspan x="349.668" y="22.2747828">20 Aug</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(23.000000, 29.000000)" fill-rule="nonzero">
+                <path d="M0,95.0882273 L4.87166324,107.035482 C9.74332649,111.070965 19.486653,119.141929 29.2299795,119.280543 C38.973306,119.419156 47.6237662,109.13503 58.473306,108.391141 C69.3228457,107.647253 76.9978989,100.482192 87.7566735,100.482192 C98.5154482,100.482192 107.256674,112.804542 117,115.637204 C126.743326,118.469867 136.486653,121.636533 146.229979,122.592203 C155.973306,123.547872 165.646457,119.574579 175.473306,119.427561 C185.300155,119.280543 194.94854,108.391141 205.3,108.391141 C215.65146,108.391141 224.256674,123.140678 234,123.438064 C243.743326,123.73545 253.486653,116.566534 263.229979,114.809912 C272.973306,113.053291 282.716632,116.708963 292.473306,120.693804 C302.229979,124.678645 312,128.992654 321.756674,130.394633 C331.513347,131.796613 341.256674,130.286561 346.128337,129.531535 L351,128.77651 L346.128337,130.219941 C341.256674,131.663373 333.540095,135.766495 322.5,135.766495 C311.459905,135.766495 303.796769,128.266268 292.473306,128.266268 C281.149843,128.266268 273.206296,155.151647 263.229979,155.540689 C253.253663,155.929731 245.582608,146.413392 235.126694,146.413392 C224.67078,146.413392 214.513347,166.637662 204.756674,167.058355 C195,167.479047 187.042142,147.303871 176,147.303871 C164.957858,147.303871 157.017724,159.127039 146.229979,159.127039 C135.442235,159.127039 128.027072,147.303871 117,147.303871 C105.972928,147.303871 98.490364,182.276116 88.1,182.276116 C77.709636,182.276116 69.2292285,150.5 58.473306,150.5 C47.7173834,150.5 41.908077,162.775199 29.2299795,163.338514 C16.551882,163.901828 9.74332649,184.041979 4.87166324,191.02099 L0,198 L0,95.0882273 Z" id="Path" fill="#FA4D56"></path>
+                <path d="M0,86.0944926 L4.87166324,87.388294 C9.74332649,88.6820953 17.9663177,94.1888802 29.2299795,94.1888802 C40.4936413,94.1888802 47.8862942,98.0275265 58.473306,97.0944141 C69.0603177,96.1613018 78.6754999,81.1164203 87.7566735,81.1164203 C96.8378471,81.1164203 107.156674,90.849137 116.9,90.9289125 C126.643326,91.008688 136.486653,78.5015195 146.229979,77.3816344 C155.973306,76.2617492 165.01863,89 175.5,89 C185.98137,89 195,84.1499914 204.756674,84.4201989 C214.513347,84.6904063 224.256674,77.3884311 234,76.9937684 C243.743326,76.5991057 250.781817,95.9875744 263.229979,95.0882273 C275.678142,94.1888802 281.643251,90.9289125 292.473306,90.9289125 C303.303361,90.9289125 312,113.969872 321.756674,114.690093 C331.513347,115.410314 341.256674,112.245628 346.128337,114.262845 L351,116.280062 L351,128.786809 L346.128337,129.548869 C341.256674,130.310928 332.756674,134.442065 323,133.027025 C313.243326,131.611984 304.023463,126.702656 292.7,126.702656 C281.376537,126.702656 272.973306,112.917106 263.229979,114.690093 C253.486653,116.46308 243.743326,123.698784 234,123.398628 C224.256674,123.098471 214.636266,108.214371 205.3,108.214371 C195.963734,108.214371 186.515448,119.350761 175.473306,119.350761 C164.431164,119.350761 157.017724,126.702656 146.229979,126.702656 C135.442235,126.702656 128.017724,119.202374 117,119.202374 C105.982276,119.202374 98.5154482,100.479342 87.7566735,100.482192 C76.9978989,100.485041 69.2983843,107.490972 58.473306,108.211522 C47.6482276,108.932073 38.973306,119.342279 29.2299795,119.202374 C19.486653,119.062468 9.74332649,110.916312 4.87166324,106.843233 L0,102.770155 L0,86.0944926 Z" id="Path" fill="#9F1853"></path>
+                <path d="M351,128.786809 L346.128337,129.548869 C341.256674,130.310928 332.756674,134.442065 323,133.027025 C313.243326,131.611984 304.023463,126.702656 292.7,126.702656 C281.376537,126.702656 272.973306,112.917106 263.229979,114.690093 C253.486653,116.46308 243.743326,123.698784 234,123.398628 C224.256674,123.098471 214.636266,108.214371 205.3,108.214371 C195.963734,108.214371 186.515448,119.350761 175.473306,119.350761 C164.431164,119.350761 157.017724,126.702656 146.229979,126.702656 C135.442235,126.702656 128.017724,119.202374 117,119.202374 C105.982276,119.202374 98.5154482,100.479342 87.7566735,100.482192 C76.9978989,100.485041 69.2983843,107.490972 58.473306,108.211522 C47.6482276,108.932073 38.973306,119.342279 29.2299795,119.202374 C19.486653,119.062468 4.87166324,106.843233 2.27373675e-13,102.770155" id="Path" stroke="#FFFFFF"></path>
+                <path d="M0,53.3159444 L4.87166324,50.434171 C9.74332649,47.5523976 19.4652504,40.5362229 29.2299795,40.5362229 C38.9947085,40.5362229 48.3310039,41.3592007 58.473306,41.3592007 C68.615608,41.3592007 76.9424535,30.9156279 87.7566735,30.9156279 C98.5708935,30.9156279 107.656674,37.1613866 117.4,36.5449183 C127.143326,35.9284501 136.486653,24.8125277 146.229979,23.6900487 C155.973306,22.5675697 166.013709,30.3181182 176,30.9156279 C185.986291,31.5131376 196.115058,23.5994675 205.8,23.6900487 C215.484942,23.7806299 224.223114,17.5814817 234,17.5814817 C243.776886,17.5814817 253.073286,26.2634912 263.229979,26.2634912 C273.386673,26.2634912 282.462015,13.4123828 292.473306,13.4123828 C302.484597,13.4123828 312,11.3615207 321.756674,9.99412442 C331.513347,8.62672811 341.256674,4.31336406 346.128337,2.15668203 L351,0 L351,117 L346.128337,114.978111 C341.256674,112.956221 331.756674,115.7 322,114.978111 C312.243326,114.256221 303.891291,90.7616003 293.7,90.7616003 C283.508709,90.7616003 275.418621,95.0882273 263.229979,95.0882273 C251.041338,95.0882273 242.51299,77 234,77 C225.48701,77 214.513347,85.3371776 204.756674,85.0663442 C195,84.7955109 186.416191,88.2869612 175.473306,88.2869612 C164.530421,88.2869612 155.973306,76.8889983 146.229979,78.0114773 C136.486653,79.1339563 126.743326,90.8415606 117,90.7616003 C107.256674,90.6816399 98.3939929,81.7549136 87.7566735,81.7549136 C77.1193541,81.7549136 68.9343712,97.5315366 59.3,97.5315366 C49.6656288,97.5315366 40.9558539,95.0882273 29.2299795,94.8576514 C17.504105,94.6270755 9.74332649,89.3381119 4.87166324,88.0413139 L0,86.7445159 L0,53.3159444 Z" id="Path" fill="#520408"></path>
+                <path d="M0,86.0944926 C4.87166324,87.388294 18.1792639,94.1888802 29.2299795,94.1888802 C40.280695,94.1888802 47.6482276,97.0944141 58.473306,97.0944141 C69.2983843,97.0944141 77.7415283,81.1164203 87.7566735,81.1164203 C97.7718187,81.1164203 107.256674,90.6818247 117,90.7616003 C126.743326,90.8413758 136.486653,78.5015195 146.229979,77.3816344 C155.973306,76.2617492 164.431164,88.2869612 175.473306,88.2869612 C186.515448,88.2869612 195,84.1499914 204.756674,84.4201989 C214.513347,84.6904063 224.256674,77.3946627 234,77 C243.743326,76.6053373 248.818219,95.0882273 263.229979,95.0882273 C277.64174,95.0882273 281.149843,90.7616003 292.473306,90.7616003 C303.796769,90.7616003 312,113.542624 321.756674,114.262845 C331.513347,114.983066 341.256674,112.245628 346.128337,114.262845 L351,116.280062" id="Path" stroke="#FFFFFF"></path>
+            </g>
+            <rect id="Rectangle" stroke="#DCDCDC" x="22.5" y="0.5" width="351" height="226"></rect>
+            <rect id="Rectangle" fill="#8C8C8C" x="22" y="226" width="352" height="1"></rect>
+            <g id="inline-labels-copy-2" transform="translate(180.000000, 19.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-Copy-4" fill="#FA4D56" x="0" y="32" width="3" height="16"></rect>
+                <text id="Open-rate-Click-rate" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="16" fill="#171717">
+                    <tspan x="7" y="12">Open rate</tspan>
+                    <tspan x="7" y="28">Click rate</tspan>
+                    <tspan x="7" y="44">Unsuscribe rate</tspan>
+                </text>
+                <text id="21,000-19,900-10,250" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal" line-spacing="16" fill="#171717">
+                    <tspan x="92" y="12">21,000</tspan>
+                    <tspan x="92" y="28">19,900</tspan>
+                    <tspan x="92" y="44">10,250</tspan>
+                </text>
+                <rect id="Rectangle-Copy-5" fill="#9F1853" x="0" y="16" width="3" height="15"></rect>
+                <rect id="Rectangle-Copy-15" fill="#520408" x="0" y="0" width="3" height="15"></rect>
+            </g>
+            <g id="icon/hover-states/arrow-cursor" transform="translate(161.000000, 32.000000)">
+                <g id="Soft-Shadow" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-4)" xlink:href="#path-3"></use>
+                </g>
+                <g id="Hard-Shadow" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-6)" xlink:href="#path-5"></use>
+                </g>
+                <polygon id="Ouline" fill="#FFFFFF" fill-rule="evenodd" points="17.9403457 21.1863925 13.5219224 23.061902 10.9929768 17.1040795 7.2 20.8970563 7.2 1.90294373 20.8970563 15.6 15.5690628 15.6"></polygon>
+                <polygon id="Arrow" fill="#000000" fill-rule="evenodd" points="13.7560605 14.4 18 14.4 8.4 4.8 8.4 18 11.4024434 14.9975566 14.1576509 21.4884188 16.3668625 20.5506641"></polygon>
+            </g>
+        </g>
+        <rect id="Rectangle" fill="#E0E0E0" x="452" y="152" width="140" height="1"></rect>
+        <rect id="Rectangle-Copy-2" fill="#E0E0E0" x="452" y="168" width="140" height="1"></rect>
+    </g>
+</svg>

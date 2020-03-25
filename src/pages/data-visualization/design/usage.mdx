@@ -6,16 +6,17 @@ tabs: [Overview, Usage]
 
 
 
-import favicon from '../../images/favicon.svg';
+import beeImage from '../../images/bee.svg';
+import favicon from '../../images/carbon_grey.svg';
 import {Button} from "carbon-components-react";
 import '../../../styles/data-vis.scss';
 
-import beeImage from '../../images/bee.svg';
+import MiniCard from "../../../components/MiniCard";
+import '../../../styles/miniCardStyles.scss';
 
 <PageDescription>
 
-Taking our design philosophy from theory to practice, these examples demonstrate the IBM Data Vis guidelines applied across product UI and marketing environments of all types.
-
+Taking our design philosophy from theory to practice, these examples demonstrate the IBM data visualization guidelines applied across product UI and marketing environments of all types.
 </PageDescription>
 
 <AnchorLinks>
@@ -71,20 +72,18 @@ Complex environments for monitoring and decision-making typically require interf
 <Row>
 <Column colMd={5} colLg={8}>
 
-Data visualization can be declined in contexts, such as marketing presentations and editorial design, where the simplicity of the message is most important point to convey. Charts can be used as abstract elements to communicate concepts, trends and ideas.
+Data visualization can be declined in contexts, such as marketing presentations and editorial design, where the simplicity of the message is the most important point to convey. Charts can be used as abstract elements to communicate concepts, trends and ideas.
 
 </Column>
 <Column colMd={2} colLg={3}  className="hide-mobile">
 
-<div className="aside-button-container">
+<div className="mini-card-container">
 
-<p>Learn more on the use of data visualization within Illustration.</p>
+<p className="description">Learn more on the use of data visualization within Illustration.</p>
 
-<Button kind="danger-primary" >Illustartion<img class="bx--btn__icon" src={beeImage}/></Button>
+<MiniCard link={''} labelName={"Illustration"} iconImage={beeImage}></MiniCard>
 
 </div>
-
-
 
 </Column>
 </Row>

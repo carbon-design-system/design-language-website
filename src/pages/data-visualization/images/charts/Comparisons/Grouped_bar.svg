@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="239px" height="240px" viewBox="0 0 239 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="charts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dataviz-Charts" transform="translate(-575.000000, -1126.000000)">
+            <g id="Group-16" transform="translate(575.000000, 1126.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="239" height="240"></rect>
+                <g id="chart-type/grouped-bar" transform="translate(34.711905, 34.285714)">
+                    <g id="bargrouped" transform="translate(0.000000, 68.571429)">
+                        <rect id="Rectangle-9" fill="#97C1FF" fill-rule="nonzero" x="165.02381" y="25.1428571" width="4.55238095" height="77.7142857"></rect>
+                        <rect id="Rectangle-9" fill="#0062FF" fill-rule="nonzero" x="159.333333" y="56" width="4.55238095" height="46.8571429"></rect>
+                        <polygon id="Rectangle-9" fill="#97C1FF" fill-rule="nonzero" points="133.157143 10.2857143 137.709524 10.2857143 137.709524 102.857143 133.157143 102.857143"></polygon>
+                        <rect id="Rectangle-9" fill="#0062FF" fill-rule="nonzero" x="127.466667" y="32" width="4.55238095" height="70.8571429"></rect>
+                        <polygon id="Rectangle-9" fill="#97C1FF" fill-rule="nonzero" points="101.290476 46.8571429 105.842857 46.8571429 105.842857 102.857143 101.290476 102.857143"></polygon>
+                        <rect id="Rectangle-9" fill="#0062FF" fill-rule="nonzero" x="95.6" y="68.5714286" width="4.55238095" height="34.2857143"></rect>
+                        <polygon id="Rectangle-9" fill="#97C1FF" fill-rule="nonzero" points="70.5619048 38.8571429 75.1142857 38.8571429 75.1142857 102.857143 70.5619048 102.857143"></polygon>
+                        <rect id="Rectangle-9" fill="#0062FF" fill-rule="nonzero" x="64.8714286" y="82.2857143" width="4.55238095" height="20.5714286"></rect>
+                        <polygon id="Rectangle-9" fill="#97C1FF" fill-rule="nonzero" points="37.5571429 65.1428571 42.1095238 65.1428571 42.1095238 102.857143 37.5571429 102.857143"></polygon>
+                        <rect id="Rectangle-9" fill="#0062FF" fill-rule="nonzero" x="31.8666667" y="74.2857143" width="4.55238095" height="28.5714286"></rect>
+                        <rect id="Rectangle-9" fill="#97C1FF" fill-rule="nonzero" x="5.69047619" y="0" width="4.55238095" height="102.857143"></rect>
+                        <rect id="Rectangle-9-Copy" fill="#0062FF" fill-rule="nonzero" x="0" y="45.7142857" width="4.55238095" height="57.1428571"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

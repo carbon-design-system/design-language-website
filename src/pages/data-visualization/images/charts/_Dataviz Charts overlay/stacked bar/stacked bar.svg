@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>stacked bar</title>
+    <desc>Created with Sketch.</desc>
+    <g id="stacked-bar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F3F3" x="0" y="0" width="928" height="522"></rect>
+        <g id="Group-8" transform="translate(261.000000, 93.000000)">
+            <text id="Clicks-by-mailing" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" fill="#171717">
+                <tspan x="0" y="16">Clicks by mailing</tspan>
+            </text>
+            <g id="Group-4" transform="translate(0.000000, 36.000000)">
+                <g id="Group-2" transform="translate(55.000000, 0.000000)">
+                    <rect id="Rectangle" stroke="#DCDCDC" x="0.5" y="0.5" width="351" height="226"></rect>
+                    <g id="graph_grid" transform="translate(0.000000, 56.000000)" fill="#E0E0E0">
+                        <rect id="Rectangle-Copy-2" x="0" y="57" width="351" height="1"></rect>
+                        <rect id="Rectangle-Copy-3" x="0" y="114" width="351" height="1"></rect>
+                        <rect id="Rectangle-Copy" x="0" y="0" width="351" height="1"></rect>
+                    </g>
+                    <rect id="Rectangle" fill="#8C8C8C" x="0" y="226" width="352" height="1"></rect>
+                </g>
+                <g id="X-Axis" transform="translate(55.000000, 232.000000)" font-size="12" font-weight="normal">
+                    <text id="Mon" transform="translate(29.500000, 7.000000) rotate(-360.000000) translate(-29.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="19" y="12">Mon</tspan>
+                    </text>
+                    <text id="Tue" transform="translate(77.500000, 7.000000) rotate(-360.000000) translate(-77.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="68" y="12">Tue</tspan>
+                    </text>
+                    <text id="Wed" transform="translate(127.000000, 7.000000) rotate(-360.000000) translate(-127.000000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="116" y="12">Wed</tspan>
+                    </text>
+                    <text id="Thu" transform="translate(176.500000, 7.000000) rotate(-360.000000) translate(-176.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="167" y="12">Thu</tspan>
+                    </text>
+                    <text id="Fri" transform="translate(225.500000, 7.000000) rotate(-360.000000) translate(-225.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="219" y="12">Fri</tspan>
+                    </text>
+                    <text id="Sat" transform="translate(274.000000, 7.000000) rotate(-360.000000) translate(-274.000000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="266" y="12">Sat</tspan>
+                    </text>
+                    <text id="Sun" transform="translate(321.500000, 7.000000) rotate(-360.000000) translate(-321.500000, -7.000000) " font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-style="condensed" line-spacing="14" fill="#6F6F6F">
+                        <tspan x="312" y="12">Sun</tspan>
+                    </text>
+                    <text id="Y-label" transform="translate(175.000000, 30.000000) rotate(-360.000000) translate(-175.000000, -30.000000) " font-family="IBMPlexSans, IBM Plex Sans" line-spacing="16" fill="#171717">
+                        <tspan x="161.854" y="34">Days</tspan>
+                    </text>
+                </g>
+                <g id="ticks" transform="translate(24.000000, 0.000000)" fill="#6F6F6F" font-family="IBMPlexMono, IBM Plex Mono" font-size="12" font-weight="normal">
+                    <text id="0">
+                        <tspan x="15.8" y="226">0</tspan>
+                    </text>
+                    <text id="100" line-spacing="16">
+                        <tspan x="1.39400481" y="174">100</tspan>
+                    </text>
+                    <text id="200" line-spacing="16">
+                        <tspan x="1.39400481" y="117.5">200</tspan>
+                    </text>
+                    <text id="300" line-spacing="16">
+                        <tspan x="1.18379403" y="61">300</tspan>
+                    </text>
+                    <text id="400" line-spacing="16">
+                        <tspan x="1.4" y="12">400</tspan>
+                    </text>
+                </g>
+                <g id="data" transform="translate(76.000000, 31.000000)">
+                    <g id="sun" transform="translate(293.000000, 31.000000)">
+                        <rect id="Rectangle-9" fill="#1192E8" x="0" y="36" width="16" height="35"></rect>
+                        <rect id="Rectangle-9-Copy-5" fill="#6929C4" x="0" y="0" width="16" height="35"></rect>
+                        <rect id="Rectangle-9" fill="#EE5396" x="0" y="72" width="16" height="92"></rect>
+                    </g>
+                    <g id="sat" transform="translate(245.000000, 74.000000)">
+                        <rect id="Rectangle-9" fill="#1192E8" x="0" y="27" width="16" height="71"></rect>
+                        <rect id="Rectangle-9-Copy-5" fill="#6929C4" x="0" y="0" width="16" height="26"></rect>
+                        <rect id="Rectangle-9" fill="#EE5396" x="0" y="99" width="16" height="22"></rect>
+                    </g>
+                    <g id="fri" transform="translate(196.000000, 17.000000)">
+                        <g id="Group-11" transform="translate(0.200000, 0.000000)">
+                            <polygon id="Rectangle-9" fill="#1192E8" points="0 0 16 0 16 42 0 42"></polygon>
+                            <rect id="Rectangle-9" fill="#EE5396" x="0" y="43" width="16" height="136"></rect>
+                        </g>
+                    </g>
+                    <g id="thu" transform="translate(147.000000, 18.000000)">
+                        <g id="Group-10" transform="translate(0.400000, 0.000000)">
+                            <polygon id="Rectangle-9" fill="#1192E8" points="0 72 16 72 16 112 0 112"></polygon>
+                            <polygon id="Rectangle-9-Copy-4" fill="#6929C4" points="0 0 16 0 16 71 0 71"></polygon>
+                            <rect id="Rectangle-9" fill="#EE5396" x="0" y="113" width="16" height="65"></rect>
+                        </g>
+                    </g>
+                    <g id="wed" transform="translate(98.000000, 42.000000)">
+                        <g id="Group-7" transform="translate(0.600000, 0.000000)">
+                            <polygon id="Rectangle-9" fill="#1192E8" points="0 32 16 32 16 113 0 113"></polygon>
+                            <polygon id="Rectangle-9-Copy-3" fill="#6929C4" points="0 0 16 0 16 31 0 31"></polygon>
+                            <rect id="Rectangle-9" fill="#EE5396" x="0" y="114" width="16" height="40"></rect>
+                        </g>
+                    </g>
+                    <g id="tue" transform="translate(48.000000, 106.000000)">
+                        <g id="Group-6" transform="translate(0.800000, 0.000000)">
+                            <g id="Group-9">
+                                <polygon id="Rectangle-9" fill="#1192E8" points="0.2 17 16.2 17 16.2 33 0.2 33"></polygon>
+                                <polygon id="Rectangle-9-Copy-2" fill="#6929C4" points="0 0 16 0 16 16 0 16"></polygon>
+                                <rect id="Rectangle-9" fill="#EE5396" x="0.2" y="34" width="16" height="56"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="mon">
+                        <rect id="Rectangle-9" fill="#6929C4" x="0" y="0" width="16" height="85"></rect>
+                        <rect id="Rectangle-9" fill="#EE5396" x="0" y="135" width="16" height="60"></rect>
+                        <rect id="Rectangle-9-Copy" fill="#1192E8" x="0" y="86" width="16" height="48"></rect>
+                    </g>
+                </g>
+                <text id="ylabel" transform="translate(8.000000, 113.500000) rotate(-90.000000) translate(-8.000000, -113.500000) " font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="16" fill="#171717">
+                    <tspan x="-7.96" y="117.5">Clicks</tspan>
+                </text>
+                <rect id="Rectangle-Copy-12" fill="#8C8C8C" transform="translate(55.500000, 113.000000) scale(1, -1) translate(-55.500000, -113.000000) " x="55" y="0" width="1" height="226"></rect>
+                <g id="Group-3" transform="translate(55.500000, 286.000000)">
+                    <g id="Group">
+                        <rect id="Rectangle-Copy-6" fill="#EE5396" x="0" y="2" width="12" height="12" rx="1"></rect>
+                        <text id="Mailing-A" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="16" y="12">Mailing A</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5" transform="translate(69.000000, 0.000000)">
+                        <rect id="Rectangle-Copy-7" fill="#1192E8" x="0" y="2" width="12" height="12" rx="1"></rect>
+                        <text id="Mailing-B" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="16" y="12">Mailing B</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy" transform="translate(138.000000, 0.000000)">
+                        <rect id="Rectangle-Copy-7" fill="#6929C4" x="0" y="2" width="12" height="12" rx="1"></rect>
+                        <text id="Mailing-C" font-family="IBMPlexSansCond, IBM Plex Sans Condensed" font-size="12" font-style="condensed" font-weight="normal" line-spacing="14" fill="#6F6F6F">
+                            <tspan x="16" y="12">Mailing C</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
