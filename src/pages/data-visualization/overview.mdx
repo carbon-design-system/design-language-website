@@ -4,11 +4,14 @@ description: Data visualization is a powerful means to discover, understand and 
 ---
 
 
-import favicon from '../images/favicon.svg';
+import favicon from '../images/carbon_grey.svg';
 import Wikipedia from '../images/Wikipedia_W.svg';
 
 import {Button} from "carbon-components-react";
 import '../../styles/data-vis.scss';
+
+import MiniCard from "../../components/MiniCard";
+import '../../styles/miniCardStyles.scss';
 
 <PageDescription>
 
@@ -92,13 +95,13 @@ An IBM data visualization should communicate a message at a glance, in a clear, 
 Design is an exercise in decision-making. When you design data visualization, you must consider the utility in answering a question or solving a problem. A deﬁnite structure, contrast, rhythm and hierarchy of the information displayed is essential to guide users through complex information. Choose the visual model that best leverages the message. Take a dive into our Charts section to get a better understanding of how to pair your data with the most effective chart type.
 
 </Column>
-<Column colMd={2} colLg={3}  className="hide-mobile">
+<Column colMd={2} colLg={3}>
 
-<div className="aside-button-container">
+<div className="mini-card-container">
 
-<p>To learn more, read the Carbon for choosing the right chart.</p>
+<p className="description">To learn more, read the Carbon for choosing the right chart.</p>
 
-<Button kind="danger-primary" >Basic charts<img class="bx--btn__icon" src={favicon}/></Button>
+<MiniCard link={''} labelName={"Basic charts"} iconImage={favicon}></MiniCard>
 
 </div>
 
@@ -141,15 +144,20 @@ As IBMers, we love celebrating the beauty and creativity of things, but we also 
 Just as the core values of IBM have remained consistent over the years, similarly, we want our visualizations to be consistent both stylistically and from a data point of view. Be a good storyteller. Ensure each visual representation corresponds to the relative numerical quantity, and pay attention to the proportions and scale of the elements to keep the integrity of the data. A misrepresentation of data could lead to a misinterpretation of reality.
 
 </Column>
-<Column colMd={2} colLg={3}  className="hide-mobile">
+<Column colMd={2} colLg={3}>
 
-<div className="aside-button-container">
 
-<p>To learn more, read the Wikipedia page on the matter.</p>
+<div className="mini-card-container">
 
-<Button kind="danger-primary">Misleading charts<img class="bx--btn__icon" src={Wikipedia}/></Button>
+<p className="description">To learn more, read the Wikipedia page on the matter.</p>
+
+<MiniCard link={''} labelName={"Misleading charts"} iconImage={Wikipedia}></MiniCard>
 
 </div>
+
+
+
+
 
 </Column>
 </Row>
@@ -172,14 +180,16 @@ Just as the core values of IBM have remained consistent over the years, similarl
 <Column colMd={5} colLg={8}>
 Successful systems require both ﬁxed and fluid elements of expression. The innovative ways in which we use these elements deliver distinction and uniqueness, but the context should be the primary driver of our decisions. A visualization should be crafted based on the environment of the audience and its constraints. If it’s for marketing or analysis purposes, what’s the level of familiarity with the subject matter, and does the ﬁnal result respect the time required by the audience being asked to experience it? These examples are just a few of the essential aspects in a data visualization that affect layout and style, the level of complexity, and the amount of detail revealed.
 </Column>
-<Column colMd={2} colLg={3}  className="hide-mobile">
+<Column colMd={2} colLg={3} >
 
-<div className="aside-button-container">
+<div className="mini-card-container">
 
-<p>To learn more on the different contexts, read the Carbon.</p>
+<p className="description">To learn more on the different contexts, read the Carbon.</p>
 
-<Button kind="danger-primary">Illustration<img class="bx--btn__icon" src={favicon}/></Button>
-<Button kind="danger-primary">Data visualization<img class="bx--btn__icon" src={favicon}/></Button>
+<MiniCard link={''} labelName={"Illustration"} iconImage={favicon}></MiniCard>
+<MiniCard link={''} labelName={"Data visualization"} iconImage={favicon}></MiniCard>
+
+
 </div>
 
 </Column>
