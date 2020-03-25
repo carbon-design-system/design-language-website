@@ -41,14 +41,14 @@
       path: /photography/overview
     - title: Tips and techniques
       path: /photography/tips-and-techniques
-- title: Data Vis
+- title: Data Visualization
   pages:
     - title: Overview
-      path: /data-vis/overview
+      path: /data-visualization/overview
     - title: Charts
-      path: /data-vis/charts/charts
+      path: /data-visualization/charts/charts
     - title: Design
-      path: /data-vis/design/basics
+      path: /data-visualization/design/basics
 - title: Layout
   pages:
     - title: Overview
