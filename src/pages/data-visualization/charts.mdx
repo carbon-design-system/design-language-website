@@ -4,6 +4,8 @@ description: Charts are typically divided into categories based on their goals, 
 ---
 
 import '../../styles/data-vis.scss';
+import OverviewCard from "../../components/OverviewCard";
+
 
 <PageDescription>
 
@@ -27,66 +29,59 @@ Charts designed for comparison aim to visualize differences between elements. Mo
 Time-based data (for example, units sold per day, worked hours per month)<br/>
 Categorized data (for example, revenue by market, sold units by team)
 
-<Row className="image-card-group chart-page">
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Bar chart"
-  titleColor="dark"
-  className="card-background"
->
+<Row className="overview-card-group">
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Bar chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#bar-chart"
+    >
 
 ![bar chart](/images/charts/Comparisons/Bar_chart.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
 
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Grouped bar"
-  titleColor="dark"
-  className="card-background"
->
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Grouped bar"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#grouped-bar-chart"
+    >
 
 ![grouped charts](/images/charts/Comparisons/Grouped_bar.svg)
 
-</ImageCard>
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Bubble chart"
-  titleColor="dark"
-  className="card-background"
->
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Bubble chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#bubble-chart"
+    >
 
 ![bubble chart](/images/charts/Comparisons/Bubble_chart.svg)
 
-</ImageCard>
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Radar chart"
-  titleColor="dark"
-  className="card-background"
->
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Radar chart"
+    >
 
 ![radar chart](/images/charts/Comparisons/Radar_chart.svg)
 
-</ImageCard>
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Horizontal bar chart"
-  titleColor="dark"
-  className="card-background"
->
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Horizontal bar chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#horizontal-bar"
+    >
 
 ![horizontal](/images/charts/Comparisons/Horizontal_bar.svg)
 
-</ImageCard>
+</OverviewCard>
 </Column>
 </Row>
 
@@ -99,55 +94,52 @@ Trend charts represent data along with the time dimension. Use them mainly to tr
 
 Time-based data (for example, revenue by quarter, rainfall per day)
 
-<Row className="image-card-group chart-page">
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Line chart"
-  titleColor="dark"
-  className="card-background"
->
+
+<Row className="overview-card-group">
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Line chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#line-chart"
+    >
 
 ![line chart](/images/charts/Trends/Line_chart1.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
 
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Area chart"
-  titleColor="dark"
-  className="card-background"
->
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Area chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#area-chart"
+    >
 
 ![area chart](/images/charts/Trends/Area_chart.svg)
 
-</ImageCard>
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Histogram"
-  titleColor="dark"
-  className="card-background"
->
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Histogram"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#bar-chart"
+    >
 
 ![histogram](/images/charts/Trends/Histogram.svg)
 
-</ImageCard>
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Stream chart"
-  titleColor="dark"
-  className="card-background"
->
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Stream chart"
+    >
 
 ![stream chart](/images/charts/Trends/Stream_chart.svg)
 
-</ImageCard>
+</OverviewCard>
 </Column>
+
 </Row>
 
 ## Part to whole
@@ -157,62 +149,64 @@ The goal of these charts is to show the inner subdivision of a value among diffe
 #### Data typologies
 Categorized data (for example, subdivision of revenue by product, percentage of users by browser)
 
-<Row className="image-card-group chart-page">
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Donut / pie"
-  titleColor="dark"
-  className="card-background"
->
+
+<Row className="overview-card-group">
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Donut / pie"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#polar-charts"
+    >
 
 ![Donut pie](/images/charts/Part_to_whole/Donut_pie.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Stacked bar"
-  titleColor="dark"
-  className="card-background"
->
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Stacked bar"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts/#stacked-bar"
+    >
 
 ![stacked bar](/images/charts/Part_to_whole/Stacked_bar.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Stacked area"
-  titleColor="dark"
-  className="card-background"
->
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Stacked area"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts/#stacked-area-chart"
+    >
 
 ![stacked area](/images/charts/Part_to_whole/Stacked_area.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Treemap"
-  titleColor="dark"
-  className="card-background"
->
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm>
+ <OverviewCard
+    title="Tree map"
+    href=""
+    >
 
 ![tree map](/images/charts/Part_to_whole/Treemap.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Meter / gauge"
-  titleColor="dark"
-  className="card-background"
->
+
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Meter / gauge"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts/#meter-and-gauge"
+    >
 
 ![meter guage](/images/charts/Part_to_whole/Meter_gauge.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
+
 </Row>
 
 ## Correlations
@@ -222,39 +216,36 @@ These charts are better suited to highlight the possible correlation between two
 #### Data typologies
 Multidimensional data (for example, correlation between phone-call duration and customer’s satisfaction)
 
-<Row className="image-card-group chart-page">
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Scatterplot"
-  titleColor="dark"
-  className="card-background"
->
+
+<Row className="overview-card-group">
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm>
+ <OverviewCard
+    title="Scatter plot"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#scatter-plots"
+    >
 
 ![scatter plot](images/charts/Correlations/Scatterplot.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Heatmap"
-  titleColor="dark"
-  className="card-background"
->
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Heat map"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#heatmap"
+    >
 
 ![Heat map](images/charts/Correlations/Heatmap.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Parallel coordinates"
-  titleColor="dark"
-  className="card-background"
->
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Parallel coordinates"
+    >
 
 ![paralled coordinates](images/charts/Correlations/Parallel.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
 </Row>
 
@@ -266,30 +257,28 @@ Charts included in this category represent hierarchies. The intent is to explain
 Categorized data (for example, country of origin of asylum seeker and gender) <br/>
 Multidimensional data (for example, number of active users by testing phase)
 
-<Row className="image-card-group chart-page">
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Alluvial diagram"
-  titleColor="dark"
-  className="card-background"
->
+<Row className="overview-card-group">
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Alluvial diagram"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#alluvial-diagram"
+    tag="Design only"
+    >
 
 ![alluvial](images/charts/Relationships_connections/Alluvial.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Tree diagram"
-  titleColor="dark"
-  className="card-background"
->
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Tree diagram"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#tree-diagram"
+    >
 
 ![tree diagram](images/charts/Relationships_connections/Tree_diagram.svg)
-</ImageCard>
-</Column>
 
+</OverviewCard>
+</Column>
 </Row>
 
 ## Maps
@@ -299,42 +288,40 @@ Maps are the easiest and most immediate way to communicate geolocated informatio
 #### Data typologies
 Geographical data (for example, voters by county, average wage by neighborhood)
 
-<Row className="image-card-group chart-page">
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Choropleth map"
-  titleColor="dark"
-  className="card-background"
->
+
+<Row className="overview-card-group">
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Choropleth map"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#choropleth-map"
+    >
 
 ![choropleth](images/charts/Maps/Choropleth.svg)
-</ImageCard>
-</Column>
 
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Proportional symbol"
-  titleColor="dark"
-  className="card-background"
->
+</OverviewCard>
+</Column>
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Proportional symbol"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#proportional-symbol"
+    >
 
 ![proportional](images/charts/Maps/Proportional.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
-<Column colMd={3} colLg={3} noGutterSm className="homepage--no-gutter">
-<ImageCard
-  aspectRatio="1:1"
-  title="Connecting lines"
-  titleColor="dark"
-  className="card-background"
->
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Connecting lines"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#connecting-lines"
+    >
 
 ![connecting lines](images/charts/Maps/Connecting.svg)
-</ImageCard>
+
+</OverviewCard>
 </Column>
 </Row>
+
 
 
 
