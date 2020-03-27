@@ -1,0 +1,37 @@
+.narrativeTable,
+.narrativeTableLast {
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  display: block;
+  min-height: 180px;
+  margin-top: 0;
+  @include carbon--breakpoint('lg') {
+    display: flex;
+  }
+
+  .bx--row {
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+  }
+
+  .AutolinkHeader-module--anchor--36UpA{
+    display:none;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  // temporary fix for paragraph length
+  .bx--col-lg-8 p {
+    @include carbon--breakpoint('md') {
+      padding-right: 2rem !important;
+    }
+  }
+}
+
+.narrativeTableLast {
+  border-bottom: 0;
+}
