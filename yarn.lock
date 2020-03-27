@@ -839,7 +839,26 @@
   resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.8.0.tgz#bdd6f30c052e86c7de20522a2a2b58062fcdb9dd"
   integrity sha512-B0r/YUXSHrGOAzTt5WBRCdGtRpYMKZMuXAF8h2YfeyDoLvbT2pS2pVHntCkBXBAsNr1XUiUY4GFgGRs83igRMQ==
 
-"@carbon/elements@^10.7.0", "@carbon/elements@^10.9.1":
+"@carbon/colors@^10.8.1":
+  version "10.8.1"
+  resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.8.1.tgz#6b10d3ecedd145e62f9fe8db2156d4f45b81d99c"
+  integrity sha512-p/dSgmdW18CAy3VA1+GXL6s9W/u9fd+mFVnwepUYg9cCHDKA2t1rpeFP9HZd/96JvTFysjJqBl5HamkRVM03pA==
+
+"@carbon/elements@^10.10.2":
+  version "10.10.2"
+  resolved "https://registry.yarnpkg.com/@carbon/elements/-/elements-10.10.2.tgz#484a7d822633765bd2771e71ef3bd8cd6b70c63d"
+  integrity sha512-lZhU2guwBiag/Cjo6fx+TGwoZaiI+Ohpc4od2WalmiSYYF5ploYsneuWuFISLWOOVYwhlLxFxz77A/XuuxtRbg==
+  dependencies:
+    "@carbon/colors" "^10.8.1"
+    "@carbon/grid" "^10.9.2"
+    "@carbon/icons" "^10.9.2"
+    "@carbon/import-once" "^10.3.0"
+    "@carbon/layout" "^10.8.2"
+    "@carbon/motion" "^10.6.0"
+    "@carbon/themes" "^10.10.2"
+    "@carbon/type" "^10.9.2"
+
+"@carbon/elements@^10.7.0":
   version "10.10.1"
   resolved "https://registry.yarnpkg.com/@carbon/elements/-/elements-10.10.1.tgz#b3fe36492534101f5e52394f7ef3a0e631b0273f"
   integrity sha512-+iAjsqLRCE2zGV6aoiWaqq7N2RiV1IGHwTLymDEVMlgov6zx8S6/ClTh/1A/aoaRK4mWhM86a6B4bKmhQ78duQ==
@@ -861,15 +880,30 @@
     "@carbon/import-once" "^10.3.0"
     "@carbon/layout" "^10.8.1"
 
+"@carbon/grid@^10.9.2":
+  version "10.9.2"
+  resolved "https://registry.yarnpkg.com/@carbon/grid/-/grid-10.9.2.tgz#5ec850bae19a273e92eb8f4d9cb9b63c01f17012"
+  integrity sha512-ubApaJb3K2WB69dk40OgFHC63wtmKkrK/+6TIwcLQd13Hx79GUFnvRNvqLmrR8f/8r8jExIV+OFo/77X1LuctA==
+  dependencies:
+    "@carbon/import-once" "^10.3.0"
+    "@carbon/layout" "^10.8.2"
+
 "@carbon/icon-helpers@^10.6.0":
   version "10.6.0"
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.6.0.tgz#72a5bbd1edbee3728e47fa6d17c2aca67dbb101c"
   integrity sha512-4Nh6l+B8SRNyw1RpgNT4Z83Aa5UwRFmKJ2mx5m7mE5TqxPkfIZjyyLHyv5gl3gPtaVwq78ZGz80wG0NRQzRM7g==
 
-"@carbon/icons-react@^10.8.0", "@carbon/icons-react@^10.9.1":
+"@carbon/icons-react@^10.9.1":
   version "10.9.1"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.9.1.tgz#3030f3d94d737bab07a8b48bb99a9401a6087170"
   integrity sha512-M3K/+FJwKnOdSmjaSaOuhpVxDzfvCsm9W+rbQc8tWwxnb9bdUsgab7wghtEWKxGJmblblVetGTj3E6q9xSLCoQ==
+  dependencies:
+    "@carbon/icon-helpers" "^10.6.0"
+
+"@carbon/icons-react@^10.9.2":
+  version "10.9.2"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.9.2.tgz#8f4e81e78c8750a1dd3ccb4bb9c8cfa7642bccb7"
+  integrity sha512-Dm3ouT2ZEC3sY1ndOxUsHYUJhkwT7OLFqCwGr6zx2VhH27WQu4S63WBvm6N9g5UJkxKAbEH5v2kD7OUH9wV+4A==
   dependencies:
     "@carbon/icon-helpers" "^10.6.0"
 
@@ -877,6 +911,11 @@
   version "10.9.1"
   resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.9.1.tgz#e032eb480bc7a432925000944c55960e80caeee6"
   integrity sha512-SmBiC2kZaqiyQdlt+xd+96oHhyRXepE58a/Px04zEsZfGs+/EWlcVS2hLtaDdwDwYQ/TQRiNLM9DOBXsoaTvNw==
+
+"@carbon/icons@^10.9.2":
+  version "10.9.2"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.9.2.tgz#d7ffe047965e3db4c251976a17d98872fea33bde"
+  integrity sha512-FFAynS/jzGErCoTyDBvkVypqln5wTAkMvwdIE9oOWq4YJB3CQn+LYQD7GcW6H2nat2VSEqcfiTTTkXQIqZXKPw==
 
 "@carbon/import-once@^10.3.0":
   version "10.3.0"
@@ -887,6 +926,11 @@
   version "10.8.1"
   resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.8.1.tgz#23cbfa331824e57a4dce8608a0ec1810832264a1"
   integrity sha512-If1dzSJx/zAjCuEl6eD+7bj5dqy4dzH+QsEPwW07DnIQg3YBxxifEyZgaPGrDu5HJTL+R2A0YabGxo/DK1aqwQ==
+
+"@carbon/layout@^10.8.2":
+  version "10.8.2"
+  resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.8.2.tgz#7a2c781892dc062f3d6913291be7cfd8b210d266"
+  integrity sha512-ak78dHILgmWGgRZfIWhCRQRrP/tfJWY1iIjnlq2+cfD18gMUCtR0F8TSZLGTrH3h7jxQzLj0LoaRLe1u6o1iyA==
 
 "@carbon/motion@^10.6.0":
   version "10.6.0"
@@ -915,6 +959,16 @@
     "@carbon/type" "^10.9.1"
     color "^3.1.2"
 
+"@carbon/themes@^10.10.2":
+  version "10.10.2"
+  resolved "https://registry.yarnpkg.com/@carbon/themes/-/themes-10.10.2.tgz#bd75bb2cd0588167b2d8abc79951bf3ae1f2d876"
+  integrity sha512-hxCKpoNe07NYKMRrMm0QkisGHSvWxJpWjvlbfVsh+3XiDd1nEoRgeF53nRrMh7JTYJ4+0INV3dCXud5sWFJIYA==
+  dependencies:
+    "@carbon/colors" "^10.8.1"
+    "@carbon/layout" "^10.8.2"
+    "@carbon/type" "^10.9.2"
+    color "^3.1.2"
+
 "@carbon/type@^10.9.1":
   version "10.9.1"
   resolved "https://registry.yarnpkg.com/@carbon/type/-/type-10.9.1.tgz#1214b211e1af9c7bf8e71d905308d52571696b4c"
@@ -922,6 +976,14 @@
   dependencies:
     "@carbon/import-once" "^10.3.0"
     "@carbon/layout" "^10.8.1"
+
+"@carbon/type@^10.9.2":
+  version "10.9.2"
+  resolved "https://registry.yarnpkg.com/@carbon/type/-/type-10.9.2.tgz#df839b0e3feadf3eaff16b76d17bdcf4f49e7d67"
+  integrity sha512-y6ygWD3nlJrNJrF8g31cQlQylFVsqAFzH6M9wY7GjoXl8pWruNcQSahxE+Pv0JB5U2ErscF7jKHjbMRkab+XxQ==
+  dependencies:
+    "@carbon/import-once" "^10.3.0"
+    "@carbon/layout" "^10.8.2"
 
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.5":
   version "0.1.5"
@@ -2475,6 +2537,14 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+beautiful-react-hooks@^0.22.2:
+  version "0.22.12"
+  resolved "https://registry.yarnpkg.com/beautiful-react-hooks/-/beautiful-react-hooks-0.22.12.tgz#f2b28976744a86c563f68e04803f0f86b619adc2"
+  integrity sha512-tNZxg7FstSJ9BrkU/fasjUBOJ498C+rD63pn03FpbbXAamXuU98Cz9AFXSJbCw4YD+N2e48aboiFmqrT/hnT3A==
+  dependencies:
+    lodash.debounce "^4.0.8"
+    lodash.throttle "^4.1.1"
+
 better-assert@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/better-assert/-/better-assert-1.0.2.tgz#40866b9e1b9e0b55b481894311e68faffaebc522"
@@ -3042,7 +3112,7 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001020, can
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001031.tgz#76f1bdd39e19567b855302f65102d9a8aaad5930"
   integrity sha512-DpAP5a1NGRLgYfaNCaXIRyGARi+3tJA2quZXNNA1Du26VyVkqvy2tznNu5ANyN1Y5aX44QDotZSVSUSi2uMGjg==
 
-carbon-components-react@^7.10.1, carbon-components-react@^7.9.2:
+carbon-components-react@^7.10.1:
   version "7.10.1"
   resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.10.1.tgz#8f29cca3fea91f022ab66484800458680d5336e4"
   integrity sha512-mTwnOqKFrAS/on7nae8GRbYUQGhM+KAgMbZrLNtGUjRlan0BgEW057tjJrkzfEUH4f+ZDNbMJ2mxUfyQX72EGQ==
@@ -3060,7 +3130,26 @@ carbon-components-react@^7.10.1, carbon-components-react@^7.9.2:
     warning "^3.0.0"
     window-or-global "^1.0.1"
 
-carbon-components@^10.10.1, carbon-components@^10.9.2:
+carbon-components-react@^7.10.2:
+  version "7.10.2"
+  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.10.2.tgz#90e00155623a62728428cd15f31bcafe48aa9511"
+  integrity sha512-kgV2xe3PlDBVo8hAMX7AqeESSYOFa4sOU8k5uFVIBABDZW7gCgIeqL1hUKXAcg0AZ4ZfaTRJMlRIii6XT+uElA==
+  dependencies:
+    "@carbon/icons-react" "^10.9.2"
+    classnames "2.2.6"
+    downshift "^1.31.14"
+    flatpickr "4.6.1"
+    invariant "^2.2.3"
+    lodash.debounce "^4.0.8"
+    lodash.findlast "^4.5.0"
+    lodash.isequal "^4.5.0"
+    lodash.omit "^4.5.0"
+    lodash.throttle "^4.1.1"
+    react-is "^16.8.6"
+    warning "^3.0.0"
+    window-or-global "^1.0.1"
+
+carbon-components@^10.10.1:
   version "10.10.1"
   resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.10.1.tgz#db8bb3703123db402238283ab315aa23d5ab69a4"
   integrity sha512-qbZsbdz6cUD/cgiS3ww71pUWC3WzWOJMrEsfwLh/XItdJAs5P+Ax9HouMLrlM1ia1e9fW8xdUsqeMveuYIxk9w==
@@ -3069,6 +3158,15 @@ carbon-components@^10.10.1, carbon-components@^10.9.2:
     flatpickr "4.6.1"
     lodash.debounce "^4.0.8"
     scss-to-json "^2.0.0"
+    warning "^3.0.0"
+
+carbon-components@^10.10.2:
+  version "10.10.2"
+  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.10.2.tgz#509279b9f541e5c50532088e5bcfe67e77884cfe"
+  integrity sha512-gfuH+64gIHdg8jqyYcdhGTf8utzCE85+J6jc04zG2CocHBL4UMBahoiTk2H8nj2X0T8KrMjexGY4f8RS+iHVFA==
+  dependencies:
+    flatpickr "4.6.1"
+    lodash.debounce "^4.0.8"
     warning "^3.0.0"
 
 carbon-icons@^7.0.7:
@@ -4064,7 +4162,7 @@ csso@^4.0.2:
   dependencies:
     css-tree "1.0.0-alpha.37"
 
-csstype@^2.2.0, csstype@^2.5.7:
+csstype@^2.2.0, csstype@^2.5.7, csstype@^2.6.7:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.9.tgz#05141d0cd557a56b8891394c1911c40c8a98d098"
   integrity sha512-xz39Sb4+OaTsULgUERcCk+TJj8ylkL4aSVDQiX/ksxbELSqwkgt4d4RD7fovIdgJGSuNYqwZEiVjYY5l0ask+Q==
@@ -4358,11 +4456,6 @@ detect-node@^2.0.4:
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
   integrity sha512-ZIzRpLJrOj7jjP2miAtgqIfmzbxa4ZOr5jJc601zklsfEx9oTzmmj2nVpIPRpNlRTIh8lc1kyViIY7BWSGNmKw==
 
-detect-passive-events@^1.0.0:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/detect-passive-events/-/detect-passive-events-1.0.4.tgz#6ed477e6e5bceb79079735dcd357789d37f9a91a"
-  integrity sha1-btR35uW863kHlzXc01d4nTf5qRo=
-
 detect-port-alt@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/detect-port-alt/-/detect-port-alt-1.1.3.tgz#a4d2f061d757a034ecf37c514260a98750f2b131"
@@ -4487,6 +4580,14 @@ dom-helpers@^3.4.0:
   integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
   dependencies:
     "@babel/runtime" "^7.1.2"
+
+dom-helpers@^5.0.1:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-5.1.3.tgz#7233248eb3a2d1f74aafca31e52c5299cc8ce821"
+  integrity sha512-nZD1OtwfWGRBWlpANxacBEZrEuLa16o1nh7YopFWeoF68Zt8GGEmzHu6Xv4F3XaFIC+YXtTLrzgqKxFgLEe4jw==
+  dependencies:
+    "@babel/runtime" "^7.6.3"
+    csstype "^2.6.7"
 
 dom-serializer@0:
   version "0.2.2"
@@ -6245,21 +6346,23 @@ gatsby-telemetry@^1.1.49:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-carbon@^1.20.0:
-  version "1.21.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.21.2.tgz#e4c3779ec4b90dfb14d0813ab58d099c281fcbf1"
-  integrity sha512-GOHVrrcy0ynC3IEd67KyMV3h9T3kBZgnW1b8Ijs8uGkwrefrNJM8PrOR3qsbNDWpYGHUtf3QdXj5ueX1eDBTbg==
+gatsby-theme-carbon@^1.20.1:
+  version "1.22.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.22.1.tgz#fe860c6033ccf4fb6a5cd344d03cbc3d3f7ee044"
+  integrity sha512-6qYaQkENZZiIFdUGb0qAMZ+aufejOjsrkJ/cnFltsLD0UGQvJv4E6PxHPm++8Ttmmx6bJadvjit++i7VFHkZsg==
   dependencies:
-    "@carbon/elements" "^10.9.1"
-    "@carbon/icons-react" "^10.8.0"
+    "@carbon/elements" "^10.10.2"
+    "@carbon/icons-react" "^10.9.2"
     "@emotion/core" "^10.0.10"
     "@emotion/styled" "^10.0.11"
     "@mdx-js/mdx" "^1.5.5"
     "@mdx-js/react" "^1.5.5"
     "@reach/router" "^1.2.1"
     "@vimeo/player" "^2.9.1"
-    carbon-components "^10.9.2"
-    carbon-components-react "^7.9.2"
+    beautiful-react-hooks "^0.22.2"
+    carbon-components "^10.10.2"
+    carbon-components-react "^7.10.2"
+    carbon-icons "^7.0.7"
     classnames "^2.2.6"
     copy-to-clipboard "^3.2.0"
     emotion-theming "^10.0.10"
@@ -6288,7 +6391,7 @@ gatsby-theme-carbon@^1.20.0:
     prism-react-renderer "^0.1.7"
     prop-types "^15.7.2"
     react-helmet "^6.0.0-beta"
-    react-scroll-up "^1.3.3"
+    react-transition-group "^4.3.0"
     remark-slug "^5.1.2"
     slugify "^1.3.4"
     smooth-scroll "^16.0.3"
@@ -10826,7 +10929,7 @@ prompts@^2.3.0:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -11126,16 +11229,6 @@ react-reconciler@^0.24.0:
     prop-types "^15.6.2"
     scheduler "^0.18.0"
 
-react-scroll-up@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/react-scroll-up/-/react-scroll-up-1.3.3.tgz#c02dcf57feb9b33e1491e864ccad220e7f7e50d3"
-  integrity sha1-wC3PV/65sz4UkehkzK0iDn9+UNM=
-  dependencies:
-    detect-passive-events "^1.0.0"
-    object-assign "^4.0.1"
-    prop-types "^15.5.8"
-    tween-functions "^1.1.0"
-
 react-side-effect@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.0.tgz#1ce4a8b4445168c487ed24dab886421f74d380d3"
@@ -11148,6 +11241,16 @@ react-textarea-autosize@^7.1.0:
   dependencies:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
+
+react-transition-group@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.3.0.tgz#fea832e386cf8796c58b61874a3319704f5ce683"
+  integrity sha512-1qRV1ZuVSdxPlPf4O8t7inxUGpdyO5zG9IoNfJxSO0ImU2A1YWkEQvFPuIPZmMLkg5hYs7vv5mMOyfgSkvAwvw==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
 
 react@^16.8.0, react@^16.8.6:
   version "16.13.0"
@@ -13247,11 +13350,6 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
-
-tween-functions@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/tween-functions/-/tween-functions-1.2.0.tgz#1ae3a50e7c60bb3def774eac707acbca73bbc3ff"
-  integrity sha1-GuOlDnxguz3vd06scHrLynO7w/8=
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"

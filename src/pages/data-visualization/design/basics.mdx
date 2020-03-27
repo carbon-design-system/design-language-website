@@ -14,7 +14,7 @@ import '../../../styles/miniCardStyles.scss';
 
 <PageDescription>
 
-To make data visualization distinctive as IBM products, there are multiple elements, components and features to consider because, together, they all contribute to a functional and effective representation of data. The following set of good practices and applications are helpful to isolate the different design aspects and to properly address them.
+To make data visualization distinctive as IBM products, there are multiple elements, components and features to consider because, together, they all contribute to a functional and effective representation of data. The following set of best practices and applications are helpful to isolate the different design aspects and to properly address them.
 </PageDescription>
 
 <AnchorLinks>
@@ -24,7 +24,7 @@ To make data visualization distinctive as IBM products, there are multiple eleme
   <AnchorLink>Motion</AnchorLink>
 </AnchorLinks>
 
-## Chart anatomy
+### Chart anatomy
 
 <Row>
 <Column colMd={8} colLg={12}>
@@ -39,7 +39,8 @@ To make data visualization distinctive as IBM products, there are multiple eleme
 
 #### Title, labels and legend
 
-The title should reflect the main insight the data reveals. The legend should explain the chart’s meaning by defining the association of each visual property, such as color, shape and size, to the corresponding data. When possible, use labels directly on the chart to avoid long legends and vice versa. All the text should be concise and easy to understand.
+The title should reflect the main insight the data reveals. The legend should explain the chart’s meaning by defining the association of each visual property, such as color, shape and size, to the corresponding data. When possible, use labels directly on the chart to avoid long legends. All the text should be concise and easy to understand.
+
 <DoDontRow>
 <DoDont caption="Concise title">
 
@@ -59,42 +60,38 @@ The title should reflect the main insight the data reveals. The legend should ex
 <Row>
 <Column colMd={5} colLg={8}>
 
-Axes, ticks and grid should help the reader understand the proportions and scale of the data, the indicators involved and their unit of measure. Avoid filling  the chart frame with too many elements, as it impacts the user’s ability to interpret the data.
+Axes, ticks and the grid should help the reader understand the proportions and scale of the data, the indicators involved and their unit of measure. Avoid filling  the chart frame with too many elements, as it impacts the user’s ability to interpret the data.
 
 </Column>
-<Column colMd={2} colLg={3}>
-
-
+<Column colMd={2} colLg={3} >
 
 <div className="mini-card-container">
 
-<p className="description">To learn more on the specifications of every element, read the Carbon.</p>
+<p className="description">To learn more on the specifications of every element, read the Carbon site.</p>
 
-<MiniCard link={''} labelName={"Legends"} iconImage={favicon} altText={"carbon"}></MiniCard>
-<MiniCard link={''} labelName={"Axes and labels"} iconImage={favicon} altText={"carbon"}></MiniCard>
+<MiniCard link="" labelName="Legends" iconImage={favicon} altText="carbon"></MiniCard>
+<MiniCard link="" labelName="Axes and labels" iconImage={favicon} altText="carbon"></MiniCard>
 
 
 </div>
 </Column>
 </Row>
 
-
-<div className="axesntricks-images">
 <DoDontRow>
 <DoDont caption="Use the correct density of grid lines and labels.">
 
 ![density guilines](/images/Basics/chart_anatomy/axes_ticks_and_grid/dos_axes.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t use too many elements or the chart is difficult to read.">
+<DoDont type="dont" caption="Don’t use too many elements or the chart will be difficult to read.">
 
 ![cluttering chart](/images/Basics/chart_anatomy/axes_ticks_and_grid/donts_axes.svg)
 
 </DoDont>
 </DoDontRow>
-</div>
 
-## Color
+
+### Color
 
 The application of the IBM color palette brings a unified and recognizable consistency to the array of digital products and interfaces. This color pallette applies to data visualization, as well, but isn’t restricted to appearance only; it decreases recognition times, conveys meaning and helps users make faster, more informed decisions. When designing IBM’s data visualization, be sure to maximize accessibility and harmony, but also keep an eye on cultural and psychological contexts.
 
@@ -112,12 +109,12 @@ actionIcon="launch"
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="IBM color palette"
+      subTitle="IBM color palette (.ase and .clr)"
       href=""
       actionIcon="launch"
       >
 
-![Bee Icon](../../images/carbon.png)
+![Bee Icon](../../images/bee.png)
 
   </ResourceCard>
 </Column>
@@ -125,7 +122,7 @@ actionIcon="launch"
 
 #### Emphasize the story you want to tell
 
-Color is one of the most powerful sensory cues and a highly influential visual property. Create a sharp contrast between elements to gain the user’s attention on the focus of the chart, but be essential—every color should have a reason for being there. Conversely, even the absence of color delivers information.
+Color is one of the most powerful sensory cues and a highly influential visual property. Create a sharp contrast between elements to focus the user's attention on the meaning of the chart, but be essential—every color should have a reason for being there. Conversely, even the absence of color delivers information.
 
 Shades of grey ensure data points are visible while not distracting from the key insights. On the other hand, connecting specific colors to certain key metrics helps your audience easily recognize frequent indicators.
 
@@ -168,16 +165,16 @@ Color can convey meaning. By illuminating a chart through sequential or divergin
 <Row>
 <Column colMd={5} colLg={8}>
 
-Visualizations can be rich and “colorful”, even in situations when color can’t be used. IBM employs different shades of black, together with patterns and markers, as a valid substitute to color. Patterns aren’t just a decoration, but become a way to convey information. Use lines with different weights and play with the density of elements.
+Visualizations can be rich and “colorful,” even in situations when color can’t be used. IBM employs different shades of black, together with patterns and markers, as a valid substitute for color. Patterns aren’t just a decoration, but become a way to convey information. Use lines with different weights and play with the density of elements.
 
 </Column>
 <Column colMd={2} colLg={3} >
 
 <div className="mini-card-container">
 
-<p className="description">Read the Carbon for guidance.</p>
+<p className="description">To learn more about accessibility, read the Carbon site.</p>
 
-<MiniCard link={''} labelName={"Accessibility"} iconImage={favicon} altText={"carbon"}></MiniCard>
+<MiniCard link="https://www.carbondesignsystem.com/guidelines/accessibility/overview" labelName="Accessibility" iconImage={favicon} altText="carbon"></MiniCard>
 
 </div>
 
@@ -193,7 +190,7 @@ Visualizations can be rich and “colorful”, even in situations when color can
 </Column>
 </Row>
 
-## Interaction
+### Interaction
 
 
 <Row>
@@ -207,9 +204,9 @@ At IBM, we’re curious. When we think something should be explored, we follow t
 
 <div className="mini-card-container">
 
-<p className="description">Read the Carbon for guidance.</p>
+<p className="description">To learn more about patterns, read the Carbon site.</p>
 
-<MiniCard link={''} labelName={"Patterns"} iconImage={favicon} altText={"carbon"}></MiniCard>
+<MiniCard link="https://www.carbondesignsystem.com/patterns/overview" labelName="Patterns" iconImage={favicon} altText="carbon"></MiniCard>
 
 </div>
 
@@ -235,7 +232,7 @@ We want data visualization to present crucial points clearly and prominently for
 </Row>
 
 
-## Motion
+### Motion
 
 
 <Row>
@@ -247,9 +244,9 @@ Motion is a powerful tool in designing and building communication and user exper
 
 <div className="mini-card-container">
 
-<p className="description">Usage guidance for motion can be found on the Motion page.</p>
+<p className="description">Find more motion usage guidance on the Motion page.</p>
 
-<MiniCard link={''} labelName={"Motions"} iconImage={beeImage} altText={"beeImage"}></MiniCard>
+<MiniCard link="https://www.ibm.com/design/language/motion-ui/basics" labelName="Motion" iconImage={beeImage} altText="beeImage"></MiniCard>
 
 </div>
 
@@ -257,19 +254,19 @@ Motion is a powerful tool in designing and building communication and user exper
 </Row>
 
 <DoDontRow>
-<DoDont caption="Animation emphasizes changes">
+<DoDont color="dark" caption="Animation emphasizes changes.">
 
 <Video
   src="/videos/dataviz/Design_Motion_DO.mp4"
-  poster="/images/dataviz/motion_dos.png"
+  poster="/images/dataviz/Design_Motion_DO.png"
 />
 
 </DoDont>
-<DoDont type="dont" caption="Animation hides connections">
+<DoDont type="dont" color="dark" caption="Animation hides connections.">
 
 <Video
   src="/videos/dataviz/Design_Motion_DONTS.mp4"
-  poster="/images/dataviz//motion_donts.png"
+  poster="/images/dataviz//Design_Motion_DONTS.png"
 />
 
 </DoDont>
