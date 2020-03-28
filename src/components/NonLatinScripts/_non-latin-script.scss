@@ -134,10 +134,10 @@
 }
 
 .#{$prefix}--type-devanagari {
-  font-family: 'IBM Plex Devanagari' !important;
+  font-family: 'IBM Plex Sans Devanagari' !important;
   margin-top: $spacing-05; // https://github.com/carbon-design-system/design-language-website/issues/222
 }
 
 .#{$prefix}--type-arabic {
-  font-family: 'IBM Plex Arabic' !important;
+  font-family: 'IBM Plex Sans Arabic' !important;
 }
