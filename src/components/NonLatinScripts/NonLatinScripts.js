@@ -8,7 +8,7 @@ const NonLatinScripts = () => (
   <div className={`${prefix}--non-latin-outer-spacing`}>
     <NonLatinScript
       customStyle="--non-latin-type-example-arabic"
-      typefaceName="IBM Plex Arabic Sans"
+      typefaceName="IBM Plex Sans Arabic"
       className={`${prefix}--type-arabic`}
       rtl
       value="البشرية"
@@ -32,7 +32,7 @@ const NonLatinScripts = () => (
     />
     <NonLatinScript
       customStyle="--non-latin-type-example-devanagari"
-      typefaceName="IBM Plex Devanagari Sans"
+      typefaceName="IBM Plex Sans Devanagari"
       className={`${prefix}--type-devanagari`}
       value="संज्ञानात्मक"
     />
