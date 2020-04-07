@@ -211,6 +211,8 @@ export default class Carousel extends React.Component {
                 draggable="false"
                 src={img.src}
                 alt={img.alt}
+                srcSet={img.srcSet}
+                sizes={img.sizes}
                 key={`img-${i}`}
                 className={img.className}
               />

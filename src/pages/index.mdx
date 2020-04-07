@@ -5,7 +5,9 @@ import Carousel from '../components/Carousel';
 export default HomepageTemplate;
 
 import divers from '../images/homepage/divers.jpg';
-import windmill from '../images/homepage/windmill.jpg';
+import windmills from '../images/homepage/windmill.jpg';
+import diversMobile from '../images/homepage/divers_mobile.jpg';
+import windmillsMobile from '../images/homepage/windmill_mobile.jpg';
 
 
 
@@ -146,15 +148,17 @@ import windmill from '../images/homepage/windmill.jpg';
   </Column>
   <Column colLg={12} colMd={12} noGutterSm>
     <HomepageTile
-      ratio={{ default: '1:2', md: '16:9' }}
+      ratio={{ default: '1:1', md: '16:9' }}
       actionIcon="no-icon">
       <Carousel id="c1" count="1 2" nav={false} fade={true} autoPlay>
         <img
-          src={divers}
+          srcSet={`${diversMobile} 1216w, ${divers} 1920w`}
+          sizes="(max-width: 600px) 100vw, 1920px"
           alt="Divers on a beach with surfboards"
         />
         <img
-          src={windmill}
+          srcSet={`${windmillsMobile} 1216w, ${windmills} 1920w`}
+          sizes="(max-width: 600px) 100vw, 1920px"
           alt="Windmills peeking up above clouds"
         />
       </Carousel>
