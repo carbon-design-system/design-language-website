@@ -4,6 +4,9 @@ import Carousel from '../components/Carousel';
 
 export default HomepageTemplate;
 
+import divers from '../images/homepage/divers.jpg';
+import windmill from '../images/homepage/windmill.jpg';
+
 
 
 <Row classname='homepage-row'>
@@ -18,7 +21,7 @@ export default HomepageTemplate;
       className="card-background"
       >
 
-![](images/carbon_tile.png)
+![carbon components icons](../images/homepage/carbon_tile.png)
 
    </ImageCard>
     <ImageCard
@@ -30,7 +33,7 @@ export default HomepageTemplate;
       className="card-background"
       >
 
-![](images/landing-plex-animation.gif)
+![presentational animation of plex font](../images/homepage/landing-plex-animation.gif)
 
    </ImageCard>
   </Column>
@@ -44,7 +47,7 @@ export default HomepageTemplate;
       className="card-background"
       >
 
-![](images/grid-temp.png)
+![IBM 2x grid](../images/homepage/grid-temp.png)
 
    </ImageCard>
     <HomepageTile
@@ -68,7 +71,7 @@ export default HomepageTemplate;
         className="card-background"
         >
 
-![](images/UI_icons.png)
+![IBM user interface icons](../images/homepage/ui-icons.png)
 
    </ImageCard>
   </Column>
@@ -82,7 +85,7 @@ export default HomepageTemplate;
         className="card-background"
         >
 
-![](images/plex-type_specs.svg)
+![IBM plex typespec diagram](../images/homepage/plex-type-specs.png)
 
    </ImageCard>
     <HomepageTile
@@ -120,7 +123,7 @@ export default HomepageTemplate;
         className="card-background"
         >
 
-![](images/landing-color-grid.svg)
+![grid of ibm colors](../images/homepage/landing-color-grid.svg)
 
    </ImageCard>
 
@@ -136,7 +139,7 @@ export default HomepageTemplate;
         className="card-background"
         >
 
-![](images/philosophy-rebus.svg)
+![IBM rebus logo](../images/homepage/philosophy-rebus.png)
 
    </ImageCard>
 
@@ -147,12 +150,12 @@ export default HomepageTemplate;
       actionIcon="no-icon">
       <Carousel id="c1" count="1 2" nav={false} fade={true} autoPlay>
         <img
-          src="images/landing-photography-gallery-1-mobile.jpg"
-          alt="alt text"
+          src={divers}
+          alt="Divers on a beach with surfboards"
         />
         <img
-          src="images/landing-photography-gallery-2.jpg"
-          alt="alt text"
+          src={windmill}
+          alt="Windmills peeking up above clouds"
         />
       </Carousel>
       <HomepageTile
