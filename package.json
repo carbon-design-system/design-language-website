@@ -37,8 +37,8 @@
   },
   "dependencies": {
     "@carbon/elements": "^10.7.0",
-    "@carbon/icons": "^10.9.3-rc.0",
-    "@carbon/icons-react": "^10.9.3-rc.0",
+    "@carbon/icons": "^10.9.3",
+    "@carbon/icons-react": "^10.9.3",
     "@carbon/pictograms": "^10.9.0",
     "@carbon/pictograms-react": "^10.9.0",
     "@ibm/plex": "^4.0.2",

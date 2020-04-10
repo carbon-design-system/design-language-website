@@ -8,9 +8,9 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
+        iconPath: './src/images/favicon.svg',
         mdxExtensions: ['.mdx'],
-        iconPath: './src/images/favicon-512.png',
-        titleType: 'append'
+        titleType: 'append',
       },
     },
   ],
