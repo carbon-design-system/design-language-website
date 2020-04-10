@@ -1,6 +1,6 @@
 ---
 title: Design
-description: To make data visualization distinctive as IBM products, there are multiple elements, components and features to consider because, together, they all contribute to a functional and effective representation of data. The following set of good practices and applications are helpful to isolate the different design aspects and to properly address them.
+description: To make data visualization distinctive as IBM products, there are multiple elements, components and features to consider because, together, they all contribute to a functional and effective representation of data. The following set of best practices and applications are helpful to isolate the different design aspects and to properly address them.
 tabs: [Basics, Usage]
 ---
 
@@ -27,11 +27,11 @@ To make data visualization distinctive as IBM products, there are multiple eleme
 ## Chart anatomy
 
 <Row>
-<Column colMd={8} colLg={12}>
+<Column colMd={8} colLg={8}>
 
 <Video
   src="/videos/dataviz/ChartAnatomy_Animation.mp4"
-  poster="/images/dataviz/Chart_anatomy.svg"
+  poster="/images/dataviz/chart_anatomy_new.svg"
 />
 
 </Column>
@@ -39,7 +39,25 @@ To make data visualization distinctive as IBM products, there are multiple eleme
 
 #### Title, labels and legend
 
+
+<Row>
+<Column colMd={5} colLg={8}>
+
 The title should reflect the main insight the data reveals. The legend should explain the chart’s meaning by defining the association of each visual property, such as color, shape and size, to the corresponding data. When possible, use labels directly on the chart to avoid long legends. All the text should be concise and easy to understand.
+
+</Column>
+<Column colMd={2} colLg={3} >
+
+<div className="mini-card-container">
+
+<p className="description">Learn more on Carbon.</p>
+
+<MiniCard link="https://www.carbondesignsystem.com/data-visualization/legends" labelName="Legends" iconImage={favicon} altText="carbon"></MiniCard>
+
+</div>
+</Column>
+</Row>
+
 
 <DoDontRow>
 <DoDont caption="Concise title">
@@ -67,11 +85,9 @@ Axes, ticks and the grid should help the reader understand the proportions and s
 
 <div className="mini-card-container">
 
-<p className="description">To learn more on the specifications of every element, read the Carbon site.</p>
+<p className="description">Learn more on Carbon.</p>
 
-<MiniCard link="https://www.carbondesignsystem.com/data-visualization/legends" labelName="Legends" iconImage={favicon} altText="carbon"></MiniCard>
 <MiniCard link="https://www.carbondesignsystem.com/data-visualization/axes-and-labels" labelName="Axes and labels" iconImage={favicon} altText="carbon"></MiniCard>
-
 
 </div>
 </Column>
@@ -113,7 +129,7 @@ actionIcon="launch"
       actionIcon="download"
       >
 
-![Bee Icon](../../images/bee.png)
+![Bee Icon](../../images/zip.png)
 
   </ResourceCard>
 </Column>
@@ -126,7 +142,7 @@ Color is one of the most powerful sensory cues and a highly influential visual p
 Shades of grey ensure data points are visible while not distracting from the key insights. On the other hand, connecting specific colors to certain key metrics helps your audience easily recognize frequent indicators.
 
 <Row>
-<Column colMd={8} colLg={12}>
+<Column colMd={8} colLg={8}>
 
 ![Conversion rate overtime](/images/Basics/color/conversion_rateovertime.svg)
 
@@ -139,7 +155,7 @@ Caring about contrast means caring if users will be able to read your chart on t
 
 
 <Row>
-<Column colMd={8} colLg={12}>
+<Column colMd={8} colLg={8}>
 
 ![Monthly visitors](/images/Basics/color/monthlyvisitors_by_age.svg)
 
@@ -151,7 +167,7 @@ Caring about contrast means caring if users will be able to read your chart on t
 Color can convey meaning. By illuminating a chart through sequential or diverging palettes, you add depth and dimension to specific data, drawing attention to the quantitative aspect of the story.
 
 <Row>
-<Column colMd={8} colLg={12}>
+<Column colMd={8} colLg={8}>
 
 ![Quantity](/images/Basics/color/top_botnet.svg)
 
@@ -171,7 +187,7 @@ Visualizations can be rich and “colorful,” even in situations when color can
 
 <div className="mini-card-container">
 
-<p className="description">To learn more about accessibility, read the Carbon site.</p>
+<p className="description">Learn more on Carbon.</p>
 
 <MiniCard link="https://www.carbondesignsystem.com/guidelines/accessibility/overview" labelName="Accessibility" iconImage={favicon} altText="carbon"></MiniCard>
 
@@ -182,7 +198,7 @@ Visualizations can be rich and “colorful,” even in situations when color can
 
 
 <Row>
-<Column colMd={8} colLg={12}>
+<Column colMd={8} colLg={8}>
 
 ![Textures](/images/Basics/color/optimization_rates.svg)
 
@@ -203,7 +219,7 @@ At IBM, we’re curious. When we think something should be explored, we follow t
 
 <div className="mini-card-container">
 
-<p className="description">To learn more about patterns, read the Carbon site.</p>
+<p className="description">Learn more on Carbon.</p>
 
 <MiniCard link="https://www.carbondesignsystem.com/patterns/overview" labelName="Patterns" iconImage={favicon} altText="carbon"></MiniCard>
 
@@ -220,7 +236,7 @@ Interactivity is an essential feature that turns your visualization into a tool 
 We want data visualization to present crucial points clearly and prominently for quick and easy reading, providing clear insights while still giving the user the option to get more information on demand at any time. Don’t hide important information behind an interactive behavior. Interaction should support analytical reasoning and user comprehension by revealing context, insights, associations and causality.
 
 <Row>
-<Column colMd={8} colLg={12}>
+<Column colMd={8} colLg={8}>
 
 <Video
   src="/videos/dataviz/Design_Interaction.mp4"
@@ -243,7 +259,7 @@ Motion is a powerful tool in designing and building communication and user exper
 
 <div className="mini-card-container">
 
-<p className="description">Find more motion usage guidance on the Motion page.</p>
+<p className="description">Learn more on Carbon.</p>
 
 <MiniCard link="https://www.ibm.com/design/language/motion-ui/basics" labelName="Motion" iconImage={beeImage} altText="beeImage"></MiniCard>
 
