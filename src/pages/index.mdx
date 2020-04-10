@@ -4,6 +4,11 @@ import Carousel from '../components/Carousel';
 
 export default HomepageTemplate;
 
+import divers from '../images/homepage/divers.jpg';
+import diversMobile from '../images/homepage/divers-2-1.png';
+
+import windmills from '../images/homepage/windmills.jpg';
+import windmillsMobile from '../images/homepage/windmills-2-1.png';
 
 
 <Row classname='homepage-row'>
@@ -18,7 +23,7 @@ export default HomepageTemplate;
       className="card-background"
       >
 
-![](images/carbon_tile.png)
+![carbon components icons](../images/homepage/carbon_tile.png)
 
    </ImageCard>
     <ImageCard
@@ -30,7 +35,7 @@ export default HomepageTemplate;
       className="card-background"
       >
 
-![](images/landing-plex-animation.gif)
+![presentational animation of plex font](../images/homepage/landing-plex-animation.gif)
 
    </ImageCard>
   </Column>
@@ -44,7 +49,7 @@ export default HomepageTemplate;
       className="card-background"
       >
 
-![](images/grid-temp.png)
+![IBM 2x grid](../images/homepage/grid-temp.png)
 
    </ImageCard>
     <HomepageTile
@@ -68,7 +73,7 @@ export default HomepageTemplate;
         className="card-background"
         >
 
-![](images/UI_icons.png)
+![IBM user interface icons](../images/homepage/ui-icons.png)
 
    </ImageCard>
   </Column>
@@ -82,7 +87,7 @@ export default HomepageTemplate;
         className="card-background"
         >
 
-![](images/plex-type_specs.svg)
+![IBM plex typespec diagram](../images/homepage/plex-type-specs.png)
 
    </ImageCard>
     <HomepageTile
@@ -120,7 +125,7 @@ export default HomepageTemplate;
         className="card-background"
         >
 
-![](images/landing-color-grid.svg)
+![grid of ibm colors](../images/homepage/landing-color-grid.svg)
 
    </ImageCard>
 
@@ -136,7 +141,7 @@ export default HomepageTemplate;
         className="card-background"
         >
 
-![](images/philosophy-rebus.svg)
+![IBM rebus logo](../images/homepage/philosophy-rebus.png)
 
    </ImageCard>
 
@@ -147,12 +152,14 @@ export default HomepageTemplate;
       actionIcon="no-icon">
       <Carousel id="c1" count="1 2" nav={false} fade={true} autoPlay>
         <img
-          src="images/landing-photography-gallery-1-mobile.jpg"
-          alt="alt text"
+          srcSet={`${diversMobile} 1216w, ${divers} 1920w`}
+          sizes="(max-width: 600px) 100vw, 1920px"
+          alt="Divers on a beach with surfboards"
         />
         <img
-          src="images/landing-photography-gallery-2.jpg"
-          alt="alt text"
+          srcSet={`${windmillsMobile} 1216w, ${windmills} 1920w`}
+          sizes="(max-width: 600px) 100vw, 1920px"
+          alt="Windmills peeking up above clouds"
         />
       </Carousel>
       <HomepageTile
