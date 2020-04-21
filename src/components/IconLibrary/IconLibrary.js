@@ -8,11 +8,14 @@ import {
   icons as iconMetaData,
   categories as iconCategoryMetadata,
 } from '@carbon/icons/metadata.json';
-import { svgPage, svgLibrary } from '../shared/SvgLibrary.module.scss';
+import {
+  svgPage,
+  svgLibrary,
+} from '../../../plugins/gatsby-theme-carbon-svgs/components/shared/SvgLibrary.module.scss';
 
-import FilterRow from '../shared/FilterRow';
+import FilterRow from '../../../plugins/gatsby-theme-carbon-svgs/components/shared/FilterRow';
 import IconCategory from './IconCategory';
-import NoResult from '../shared/NoResult';
+import NoResult from '../../../plugins/gatsby-theme-carbon-svgs/components/shared/NoResult';
 
 const IconLibrary = () => {
   const [iconComponents, setIconComponents] = useState([]);

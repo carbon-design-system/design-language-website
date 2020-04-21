@@ -2,14 +2,14 @@ import React from 'react';
 import { h2 } from 'gatsby-theme-carbon/src/components/markdown/Markdown.module.scss';
 import cx from 'classnames';
 
-import SvgCard from '../shared/SvgCard';
-import useIntersectionObserver from '../shared/useIntersectionObserver';
+import SvgCard from '../../../plugins/gatsby-theme-carbon-svgs/components/shared/SvgCard';
+import useIntersectionObserver from '../../../plugins/gatsby-theme-carbon-svgs/components/shared/useIntersectionObserver';
 
 import {
   svgGrid,
   categoryTitle,
   svgCategory,
-} from '../shared/SvgLibrary.module.scss';
+} from '../../../plugins/gatsby-theme-carbon-svgs/components/shared/SvgLibrary.module.scss';
 
 const IconCategory = ({ category, icons }) => {
   const [subCategoryRef, containerIsVisible] = useIntersectionObserver();
