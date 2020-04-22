@@ -38,9 +38,9 @@
 - title: Illustration
   pages:
     - title: Overview
-      path: /illustration/overview/
+      path: /illustration/overview
     - title: Tips and techniques
-      path: /illustration/tips-and-techniques/
+      path: /illustration/tips-and-techniques
     - title: Line style
       path: /illustration/line-style/design
     - title: Flat style
