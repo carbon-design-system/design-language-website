@@ -30,12 +30,7 @@
 - title: Iconography
   pages:
     - title: UI icons
-      path: /iconography/ui-icons/library
-    - title: App icons
-      path: /iconography/app-icons/design
-    - title: Pictograms
-      path: /iconography/pictograms/library
-- title: Illustration
+      path: /andrea/basics
   pages:
     - title: Overview
       path: /illustration/overview
