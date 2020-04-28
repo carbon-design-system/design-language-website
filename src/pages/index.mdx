@@ -4,142 +4,99 @@ import Carousel from '../components/Carousel';
 
 export default HomepageTemplate;
 
+import divers from '../images/homepage/divers.jpg';
+import diversMobile from '../images/homepage/divers-2-1.png';
+
+import windmills from '../images/homepage/windmills.jpg';
+import windmillsMobile from '../images/homepage/windmills-2-1.png';
+
+
 <Row classname='homepage-row'>
   <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      hoverDark
-      transparentImage="images/tooltip-components.svg"
-      subtitle="Components"
-      title="Carbon X"
-      actionIcon="resources"
-      link="https://www.carbondesignsystem.com/"
-      target="_blank"
-    />
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      subtitle="Design Kit"
-      title="Explore and create"
-      actionIcon="resources"
-      identityIcon="images/SketchIcon.svg"
-      link="https://www.carbondesignsystem.com/getting-started/designers#get-the-kit"
-      target="_blank"
-    />
+    <ImageCard
+      title="Carbon components"
+      href="https://www.carbondesignsystem.com/components/overview"
+      actionIcon="arrowRight"
+      titleColor="dark"
+      iconColor="dark"
+      hoverColor="dark"
+      className="card-background"
+      >
+
+![carbon components icons](../images/homepage/carbon_tile.png)
+
+   </ImageCard>
+    <ImageCard
+      title="Typeface"
+      href="https://www.ibm.com/design/language/typography/typeface/"
+      actionIcon="arrowRight"
+      titleColor="light"
+      iconColor="light"
+      className="card-background"
+      >
+
+![presentational animation of plex font](../images/homepage/landing-plex-animation.gif)
+
+   </ImageCard>
   </Column>
   <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      subtitle="Elements"
+    <ImageCard
       title="2x Grid"
-      actionIcon="article"
-      transparentImage="images/grid-temp.png"
-      link="https://www.ibm.com/design/language/2x-grid/"
-      target="_blank"
-    />
+      href="https://www.ibm.com/design/language/2x-grid/"
+      actionIcon="arrowRight"
+      titleColor="light"
+      iconColor="light"
+      className="card-background"
+      >
+
+![IBM 2x grid](../images/homepage/grid-temp.png)
+
+   </ImageCard>
     <HomepageTile
       ratio="1:1"
       theme="dark"
-      subtitle="GitHub Repo"
-      title="Design and development"
+      title="Carbon repo"
       actionIcon="resources"
       identityIcon="images/GitHubIcon.svg"
-      link="https://github.com/IBM/carbon-elements"
+      link="https://github.com/carbon-design-system/carbon"
       target="_blank"
     />
+
   </Column>
   <Column colLg={4} colMd={4} noGutterSm>
+    <ImageCard
+        title="UI icons"
+        aspectRatio="1:2"
+        href="https://www.ibm.com/design/language/iconography/ui-icons/design/"
+        actionIcon="arrowRight"
+        iconColor="light"
+        className="card-background"
+        >
+
+![IBM user interface icons](../images/homepage/ui-icons.png)
+
+   </ImageCard>
+  </Column>
+  <Column colLg={4} colMd={4} noGutterSm>
+    <ImageCard
+        title="Type specs UI"
+        aspectRatio="1:1"
+        href="https://www.ibm.com/design/language/typography/type-specs-ui/"
+        actionIcon="arrowRight"
+        iconColor="light"
+        className="card-background"
+        >
+
+![IBM plex typespec diagram](../images/homepage/plex-type-specs.png)
+
+   </ImageCard>
     <HomepageTile
-      ratio="1:2"
+      ratio="2:1"
       theme="dark"
-      hoverDark
-      backgroundColor="#8a3ffc" // if omitted, defaults to #282828
-      transparentImage="images/three-icons-stacked.svg"
-      subtitle="Iconography"
-      title="UI icons"
+      title="Sketch design kits"
       actionIcon="resources"
-      link="https://www.ibm.com/design/language/iconography/ui-icons/design"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="2:1"
-      theme="dark"
-      subtitle="Elements"
-      title="Color in UI"
-      actionIcon=""
-      link="https://www.carbondesignsystem.com/guidelines/color/overview"
-      target="_blank"
-    />
-    <HomepageTile
-      ratio="1:1"
-      marginTop="50%"
-      theme="dark"
-      hoverDark
-      contentOnHover
-      image="images/blue1.jpg"
-      subtitle="Elements"
-      title="Color Palette"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/color/"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={8} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      hoverDark
-      image="images/landing-color-grid.svg"
-      subtitle="Elements"
-      title="Color Palette"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/color/"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      backgroundColor="rgb(6, 31, 128)" // if omitted, defaults to #282828
-      transparentImage="images/type-scales.svg"
-      actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/typography/type-specs-ui/"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      subtitle="Elements"
-      title="Type Specs"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/typography/type-specs-ui/"
-      target="_blank"
-    />
-  </Column>
-</Row>
-<Row classname='homepage-row'>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      image="images/landing-plex-animation.gif"
-      actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/typography/type-basics/"
-      target="_blank"
-    />
-    <HomepageTile
-      ratio="2:1"
-      theme="dark"
-      subtitle="Elements"
-      title="Typeface"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/typography/typeface/"
+      identityIcon="images/SketchIcon.svg"
+      link="https://www.carbondesignsystem.com/get-started/design/sketch/"
       target="_blank"
     />
   </Column>
@@ -151,34 +108,63 @@ export default HomepageTemplate;
     <HomepageTile
       ratio={{ default: '2:1', md: '4:1', }}
       theme="dark"
-      subtitle="Gallery"
-      title="IBM Services"
+      title="Gallery"
       actionIcon="article"
       link="https://www.ibm.com/design/language/gallery/"
       target="_blank"
     />
     </HomepageTile>
   </Column>
-</Row>
-<Row classname='homepage-row'>
-  <Column colLg={12} noGutterSm>
+  <Column colLg={8} noGutterSm>
+    <ImageCard
+        title="Color"
+        aspectRatio="1:1"
+        href="https://www.ibm.com/design/language/color/"
+        actionIcon="arrowRight"
+        iconColor="light"
+        className="card-background"
+        >
+
+![grid of ibm colors](../images/homepage/landing-color-grid.svg)
+
+   </ImageCard>
+
+  </Column>
+  <Column colLg={4} colMd={4} noGutterSm>
+    <ImageCard
+        title="Philosophy"
+        aspectRatio="1:1"
+        href="https://www.ibm.com/design/language/philosophy/pov"
+        actionIcon="arrowRight"
+        iconColor="dark"
+        titleColor="dark"
+        className="card-background"
+        >
+
+![IBM rebus logo](../images/homepage/philosophy-rebus.png)
+
+   </ImageCard>
+
+  </Column>
+  <Column colLg={12} colMd={12} noGutterSm>
     <HomepageTile
       ratio={{ default: '1:2', md: '16:9' }}
       actionIcon="no-icon">
       <Carousel id="c1" count="1 2" nav={false} fade={true} autoPlay>
         <img
-          src="images/landing-photography-gallery-1-mobile.jpg"
-          alt="alt text"
+          srcSet={`${diversMobile} 1216w, ${divers} 1920w`}
+          sizes="(max-width: 600px) 100vw, 1920px"
+          alt="Divers on a beach with surfboards"
         />
         <img
-          src="images/landing-photography-gallery-2.jpg"
-          alt="alt text"
+          srcSet={`${windmillsMobile} 1216w, ${windmills} 1920w`}
+          sizes="(max-width: 600px) 100vw, 1920px"
+          alt="Windmills peeking up above clouds"
         />
       </Carousel>
       <HomepageTile
         ratio={{ default: '2:1', md: '4:1', lg: '6:1' }}
         theme="dark"
-        subtitle="Elements"
         title="Photography"
         actionIcon="article"
         link="https://www.ibm.com/design/language/photography/overview"
@@ -186,57 +172,8 @@ export default HomepageTemplate;
       />
     </HomepageTile>
   </Column>
+
 </Row>
-<Row className="homepage-tiles--end">
-  <Column colLg={8} noGutterSm>
-    <HomepageTile
-      ratio={{ default: '1:2', md: '1:1' }}
-      image="images/landing-gallery-watson-duo-phone.jpg"
-      actionIcon="no-icon"
-    >
-      <HomepageTile
-        ratio={{ default: '2:1', md: '4:1' }}
-        theme="dark"
-        subtitle="Case Study"
-        title="Coming soon"
-        actionIcon="disabled"
-        disabled
-      />
-    </HomepageTile>
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      subtitle="Philosophy"
-      title="Principles"
-      actionIcon="article"
-      link="https://www.ibm.com/design/language/philosophy/principles"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      hoverDark
-      backgroundColor="#bb8eff"
-      image="images/landing-illustration-ibm-rand-logo.svg"
-      actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/philosophy/pov"
-      target="_blank"
-    />
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      subtitle="Philosophy"
-      title="Start smart"
-      transparentImage="images/big-arrow.svg"
-      actionIcon="no-icon"
-      link="https://www.ibm.com/design/language/philosophy/pov"
-      target="_blank"
-    />
-  </Column>
-</Row>
+
+
+

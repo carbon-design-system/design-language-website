@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
-import { Launch20, ArrowRight24, Error20 } from '@carbon/icons-react';
+import { Launch20, ArrowRight20, Error20 } from '@carbon/icons-react';
 import { baseFontSize, breakpoints as carbonBreakpoints } from '@carbon/layout';
 
 const { prefix } = settings;
@@ -106,11 +106,11 @@ const HomepageTile = ({
       case 'disabled':
         return <Error20 aria-label="disabled" />;
       case 'article':
-        return <ArrowRight24 aria-label="Go to content" />;
+        return <ArrowRight20 aria-label="Go to content" />;
       case 'no-icon':
         return null;
       default:
-        return <ArrowRight24 aria-label="Go to content" />;
+        return <ArrowRight20 aria-label="Go to content" />;
     }
   };
 
@@ -184,7 +184,7 @@ const HomepageTile = ({
                     : `${prefix}--homepage-idl-tile-title`
                 }>
                 <div className={`${prefix}--type-body-long-01`}>{subtitle}</div>
-                <div className={`${prefix}--type-expressive-heading-03`}>
+                <div className={`${prefix}--image-card__title`}>
                   {title}
                 </div>
               </div>

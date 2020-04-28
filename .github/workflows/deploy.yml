@@ -14,8 +14,12 @@ jobs:
           node-version: 10.x
       - name: Install and build
         run: yarn install && yarn build:prefix
-      - name: Install ibmcloud cli
+        
+      - name: Install IBM Cloud CLI
         run: curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
+      - name: Install Cloud Foundry CLI
+        run: ibmcloud cf install
+        
       - name: Login to to US
         env:
           API_KEY: ${{ secrets.IBM_CLOUD_KEY }}

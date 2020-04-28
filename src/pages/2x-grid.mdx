@@ -19,37 +19,12 @@ focus on your creative idea.
   <AnchorLink>Constructing the 2x grid</AnchorLink>
   <AnchorLink>Base unit</AnchorLink>
   <AnchorLink>Spatial relationships</AnchorLink>
+  <AnchorLink>2x Grid in UI</AnchorLink>
+  <AnchorLink>2x Grid for video</AnchorLink>
+
 </AnchorLinks>
 
 <Video vimeoId="337387156" />
-
-## Resources
-
-<Row className="resource-card-group">
-<Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="2x Grid"
-      aspectRatio="2:1"
-      href="https://www.carbondesignsystem.com/guidelines/2x-grid/basics"
-      actionIcon="arrowRight"
-      >
-
-![](/images/bee.svg)
-
-  </ResourceCard>
-</Column>
-<Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="2x Grid for events"
-      aspectRatio="2:1"
-      href="https://www.ibm.com/design/event/architecture/2x-grid"
-      >
-
-![](/images/bee.svg)
-
-  </ResourceCard>
-</Column>
-</Row>
 
 ## Divisions of two
 
@@ -339,17 +314,7 @@ The 8px mini unit guides everything in both software product and web environment
 
   </ResourceCard>
 </Column>
-<Column colMd={4} colLg={4} noGutterSm>
-      <ResourceCard
-      subTitle="2x Grid in UI: Implementation"
-      aspectRatio="2:1"
-      href="https://www.carbondesignsystem.com/guidelines/2x-grid/implementation"
-      >
 
-![](/images/carbon.png)
-
-  </ResourceCard>
-</Column>
 </Row>
 
 ### Baseline unit
@@ -437,3 +402,60 @@ All spacing between elements can be defined by the base unit. Use the following 
 Use common aspect ratios, such as 16:9, 4:3, 3:2, 2:1, and 1:1 for images and containers. Always measure the width to the columns; the height is determined by it.
 
 <Video src="/videos/aspect-ratios.mp4" poster="/images/aspect-ratios.jpg" />
+
+## 2x Grid in UI
+
+For detailed guidance on how to apply the 2x Grid system to products and user interfaces, please visit [Carbon Design System](https://carbondesignsystem.com/).
+
+![2x grid-UI](images/2x_UI.png)
+
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="2x Grid in UI: Basics"
+      aspectRatio="2:1"
+      href="https://www.carbondesignsystem.com/guidelines/2x-grid/basics"
+      actionIcon="launch"
+      >
+
+![carbon icon](/images/carbon.png)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="2x Grid in UI: Implementation"
+      aspectRatio="2:1"
+      actionIcon="launch"
+      href="https://www.carbondesignsystem.com/guidelines/2x-grid/implementation"
+      >
+
+![carbon icon](/images/carbon.png)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+## 2x Grid for video
+
+A unique application of the 2x Grid has been derived for the standard 1920x1080 video format. Due to these fixed dimensions and aspect ratio, there is a fundamental mini unit of 7.5px which allows for perfectly even divisions of the grid at 30px intervals.
+
+The 8 column structure pictured below will be sufficient for most layouts. If required, the canvas can be futher subdivided into 16 columns. It is recommended to have all elements ‘snap to grid’ with 30px increments in order to ensure proper alignments within the overall layout.
+
+![2x grid-video](images/2xgrid_video.png)
+
+
+<Row>
+<Column colMd={4} colLg={4} noGutterSm>
+      <ResourceCard
+      subTitle="2x video grid template"
+      aspectRatio="2:1"
+      actionIcon="download"
+      href="../../design/language/files/2x_video_grid.ai"
+      >
+
+![carbon icon](/images/illustrator.png)
+
+  </ResourceCard>
+</Column>
+</Row>

@@ -8,14 +8,9 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
+        iconPath: './src/images/favicon.svg',
         mdxExtensions: ['.mdx'],
-        iconPath: './src/images/favicon-512.png',
         titleType: 'append',
-        repository: {
-          baseUrl:
-            'https://github.com/carbon-design-system/design-language-website',
-          subDirectory: '',
-        },
       },
     },
   ],
