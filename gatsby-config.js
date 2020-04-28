@@ -10,6 +10,11 @@ module.exports = {
       options: {
         mdxExtensions: ['.mdx'],
         titleType: 'append',
+        repository: {
+          baseUrl:
+            'https://github.com/carbon-design-system/design-language-website',
+          branch: 'master',
+        },
       },
     },
   ],
