@@ -41,7 +41,7 @@
 
 .#{$prefix}--mobile-column {
   @include carbon--breakpoint("sm") {
-    margin-top: 0 !important;
+    margin-top: 0;
   }
 }
 
