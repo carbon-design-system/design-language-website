@@ -753,7 +753,6 @@ const isWithinBreakpoint = (viewportWidth, currentBreakpoint) => {
 class TypesetStyle extends React.Component {
   state = {
     simulatedScreenWidth: 1056,
-    typesetStyleYPos: 0,
   };
 
   toggleBreakpoint = simulatedScreenWidth => {
