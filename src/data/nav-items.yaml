@@ -66,16 +66,12 @@
 - title: Resources
   pages:
     - path: /resources
-- title: Updates
+- title: What’s new
   pages:
-    - title: What’s new
-      path: /updates/whats-new
-    - title: Roadmap
-      path: /updates/road-map
+    - path: /whats-new
 - title: Help
   pages:
     - title: Support
       path: /help/support
     - title: FAQ
       path: /help/faq
-
