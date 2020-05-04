@@ -39,6 +39,12 @@
     'Bitstream Vera Sans Mono', Courier, monospace;
 }
 
+.#{$prefix}--mobile-column {
+  @include carbon--breakpoint("sm") {
+    margin-top: 0;
+  }
+}
+
 .#{$prefix}--type-italic {
   font-style: italic;
 }
