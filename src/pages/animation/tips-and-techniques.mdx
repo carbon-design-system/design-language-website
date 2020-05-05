@@ -90,56 +90,53 @@ Every animation—from simple linework pictograms through expansive, high-fideli
 
 Motion is exceptionally useful in capturing attention. How we use motion to direct that attention is essential in effectively communicating with the viewer.
 
+### Focus
+
+Maintain a focal point of interest and seek out seamless means of transferring it from one subject to the next. A viewer’s attention is an investment. With the brief and dense nature of most animation, be cognizant of how you capture and shift a viewer's focus to minimize confusion and fatigue.
+
 <Row className="mock-gallery">
-
 <Column colMd={8} colLg={12}>
-
 <GifPlayer>
 
 ![Animated illustration](/videos/animation/animation-tt-attention.mp4)
-![Animated illustration](/images/animation/animation-tt-ex6.png)
+![Animated illustration](/images/animation/animation-tt-attention.png)
 
 </GifPlayer>
 
 <Caption>A commanding performance begins a sequence that leads the eye from right to left.</Caption>
 
 </Column>
-
 </Row>
-
-### Focus
-
-Maintain a focal point of interest and seek out seamless means of transferring it from one subject to the next. A viewer’s attention is an investment. With the brief and dense nature of most animation, be cognizant of how you capture and shift a viewer's focus to minimize confusion and fatigue.
-
-<DoDontRow>
-<DoDont caption="Controlled camera movements support action.">
-
-<GifPlayer>
-
-![Animated illustration](/images/animation/animation-tt-focus1.png)
-![Animated illustration](/videos/animation/animation-tt-focus1.mp4)
-
-</GifPlayer>
-
-</DoDont>
-
-<DoDont type="dont" caption="Avoid uncontrolled action cameras.">
-
-<GifPlayer>
-
-![Animated illustration](/images/animation/animation-tt-focus2.png)
-![Animated illustration](/videos/animation/animation-tt-focus2.mp4)
-
-</GifPlayer>
-
-</DoDont>
-</DoDontRow>
 
 ### Camera
 
 Cameras are the mechanism through which we present our view of the world to an observer and, therefore, must be treated with the utmost care to maintain an attitude of confidence and positivity. 
 
 Efficient, single-axis translations feel deliberate and unobtrusive, while untethered, dynamic moves impart a sense of chaos and uncertainty. If creating a dynamic animated camera is absolutely necessary, ensure its movement remains controlled, clearly focused and positioned to create balanced compositions.
+
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do" caption="Controlled camera movements support action.">
+<GifPlayer>
+
+![Animated illustration](/images/animation/animation-tt-focus1.png)
+![Animated illustration](/videos/animation/animation-tt-focus1.mp4)
+
+</GifPlayer>
+</DoDontExample>
+</Column>
+
+<Column colMd={4} colLg={6}>
+<DoDontExample type="dont" caption="Avoid uncontrolled action cameras.">
+<GifPlayer>
+
+![Animated illustration](/images/animation/animation-tt-focus2.png)
+![Animated illustration](/videos/animation/animation-tt-focus2.mp4)
+
+</GifPlayer >
+</DoDontExample>
+</Column>
+</Row>
 
 ## Visual clarity
 
@@ -149,11 +146,60 @@ Our animations should be simple and straightforward in their effect by not only 
 
 Every element in a composition has the potential for movement, but every movement of an element increases the density of information presented to a viewer. This dynamic intuitively leads us to apply an inverse relationship between the complexity of a design and the complexity of animation. In general, minimally populated compositions lend themselves to more expressive and expansive animation, while dense and complex designs benefit from smaller, more textural motion.
 
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<GifPlayer>
+
+![Animated illustration](/images/animation/animation-tt-complexity1-poster.png)
+![Animated illustration](/videos/animation/animation_tt_complexity1.mp4)
+
+</GifPlayer>
+
+<Caption>Detailed visuals call for subtle animations.</Caption>
+
+</Column>
+<Column colMd={4} colLg={6}>
+<GifPlayer>
+
+![Animated illustration](/images/animation/animation-tt-complexity2-poster.jpg)
+![Animated illustration](/videos/animation/animation_tt_complexity2.mp4)
+
+</GifPlayer>
+
+<Caption>Simple designs allow for dynamic animation.</Caption>
+
+</Column>
+</Row>
+
 ### Detail
 
 In animation, the accuracy of a form in any key pose should adhere to the same rigorous standards used in creating the design. During transitions from one key to another, strive to maintain clean and precise silhouettes by avoiding odd shapes, irregular angles, overlaps and intersections, unless explicitly desired as an effect. 
 
 A similar level of attention should be paid to the briefest of moments. For example, avoid creating irregularities during the overlap of transparent shapes by animating between swatch colors, not opacity. Maintain crisp graphic lines by increasing the stroke weight from zero to the thickness, not crossfading.
+
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do" caption="Caption">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-detail-do.png)
+![Animated illustration](/videos/animation/animation-tt-detail-do.mp4)
+
+</GifPlayer>
+</DoDontExample>
+</Column>
+
+<Column colMd={4} colLg={6}>
+<DoDontExample type="dont" caption="Caption">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-detail-dont.png)
+![Animated illustration](/videos/animation/animation-tt-detail-dont.mp4)
+
+</GifPlayer >
+</DoDontExample>
+</Column>
+</Row>
 
 ## Consistency
 
@@ -163,6 +209,30 @@ Making broad, consistent choices defines a framework for how we present informat
 
 In more illustrative scenarios, consistency can help demonstrate the role and function of abstract elements or define a baseline of behavior against which abrupt changes and influences become more noticeable. Setting expectations and, in some cases, subverting them is an excellent way to convey novel cause and effect, and imbue even simple forms with personality.
 
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-consistency-do.png)
+![Animated illustration](/videos/animation/animation-tt-consistency-do.gif)
+
+</GifPlayer>
+</DoDontExample>
+</Column>
+
+<Column colMd={4} colLg={6}>
+<DoDontExample type="dont">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-consistency-dont.png)
+![Animated illustration](/videos/animation/animation-tt-consistency-dont.gif)
+
+</GifPlayer >
+</DoDontExample>
+</Column>
+</Row>
+
 ## Personality
 
 Our animations should always seek a balance between natural and engineered in tone and behavior. Unless essential to the story, nothing should feel coldly mechanical or overtly organic—it’s both working in cooperation that imparts a subtle, yet appreciable, personality.
@@ -171,15 +241,88 @@ Our animations should always seek a balance between natural and engineered in to
 
 Elements move decisively, efficiently and with purpose. Align to the grid. Snap into place. Use momentum to instigate crisp transitions. While no single detail will be immediately noticeable, this precision and attention to detail is palpable and felt when applied holistically.
 
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do" caption="A clear intent and precise movements communicate purpose.">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-precision1.png)
+![Animated illustration](/videos/animation/animation-tt-precision1.mp4)
+
+</GifPlayer>
+</DoDontExample>
+</Column>
+
+<Column colMd={4} colLg={6}>
+<DoDontExample type="dont" caption="Avoid superfluous motion.">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-precision2.png)
+![Animated illustration](/videos/animation/animation-tt-precision2.mp4)
+
+</GifPlayer >
+</DoDontExample>
+</Column>
+</Row>
+
 ### Rhythm
 
 Establishing a sense of rhythm in motion is essential to well-paced and understandable animations–rarely does everything happen at once. No matter which tactic we use to choreograph action into sequences, they all contribute to an ebb and flow of activity that creates a pleasing rhythm and allows the viewer a mental pause before continuing. Tactics can include translating objects along already defined paths with slightly offset timings, showing deliberate moments of cause and effect or allowing elements to move purposefully and then rest.
+
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<GifPlayer>
+
+![Animated illustration](/images/animation/animation-tt-rhythm1.png)
+![Animated illustration](/videos/animation/animation-tt-rhythm1.mp4)
+
+</GifPlayer>
+
+<Caption>Stagger hero performances.</Caption>
+
+</Column>
+<Column colMd={4} colLg={6}>
+<GifPlayer>
+
+![Animated illustration](/images/animation/animation-tt-rhythm2.png)
+![Animated illustration](/videos/animation/animation-tt-rhythm2.mp4)
+
+</GifPlayer>
+
+<Caption>Offsetting similar actions by small increments can be effective.</Caption>
+
+</Column>
+</Row>
 
 ### Fluidity
 
 A well-animated object should feel effortless and elegant, with a fluidity to its motion—not in the path it takes, but the finesse with which it moves. Pay close attention to how each attribute is animated and the transition between movements. 
 
 In general, refrain from employing stepped, stilted or disorderly motion. Technically, this motion requires animating at or above 24 frames per second (FPS) to help ensure smooth performances.
+
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do" caption="Aim for smooth and seamless movements.">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-fluidity-do.png)
+![Animated illustration](/videos/animation/animation-tt-fluidity-do.mp4)
+
+</GifPlayer>
+</DoDontExample>
+</Column>
+
+<Column colMd={4} colLg={6}>
+<DoDontExample type="dont" caption="Don’t use a frame rate lower than 24 frames per second.">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-fluidity-dont.png)
+![Animated illustration](/videos/animation/animation-tt-fluidity-dont.mp4)
+
+</GifPlayer >
+</DoDontExample>
+</Column>
+</Row>
 
 ## Physicality
 
@@ -189,9 +332,44 @@ When applied selectively, animation that feels physical is an incredibly effecti
 
 Charm and spirit can be produced through collisions, moments of friction and slides. However, be deliberate and considered when moving elements—avoid cartoonish overshoots and bounces.
 
+<Row className="mock-gallery">
+<Column colMd={8} colLg={12}>
+<GifPlayer color="dark">
+
+![Animated illustration](/videos/animation/animation-tt-momentum.mp4)
+![Animated illustration](/images/animation/animation-tt-momentum.png)
+
+</GifPlayer>
+</Column>
+</Row>
+
 ### Volume
 
 Consider what the element to be animated represents, especially in higher-fidelity and dimensional executions. Intuitively, viewers expect things to behave as they do in reality; feathers shouldn’t fall like lead, stone shouldn’t stretch like rubber. Treating recognizable objects with a sense of stylized realism can be an effective way to create interest.
+
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-volume-do.png)
+![Animated illustration](/videos/animation/animation-tt-volume-do.mp4)
+
+</GifPlayer>
+</DoDontExample>
+</Column>
+
+<Column colMd={4} colLg={6}>
+<DoDontExample type="dont">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-volume-dont.png)
+![Animated illustration](/videos/animation/animation-tt-volume-dont.mp4)
+
+</GifPlayer >
+</DoDontExample>
+</Column>
+</Row>
 
 ## Structure
 
@@ -201,11 +379,57 @@ Animated illustrations inevitably fall into one of two categories—looped or se
 
 Sequential animations are intended to depict a sequence of events with deliberate start and end points—an A to B narrative. Whether they then settle into a loop state or reset to begin again, sequential animations are typically more anecdotal and linear in their message than loops.
 
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-sequential.png)
+![Animated illustration](/videos/animation/animation-tt-sequential.mp4)
+
+</GifPlayer>
+</Column>
+</Row>
+
 ### Simple Loops
 
 Loops will continue in a usually seamless cycle and often only convey a singular idea or message. This loop may be a series of states aligned to one topic or an overall ambient effect that draws focus and sets a particular tone.
 
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-simple-loop.png)
+![Animated illustration](/videos/animation/animation-tt-simple-loop.mp4)
+
+</GifPlayer>
+</Column>
+</Row>
+
 ### Nested Loops
+
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do" caption="Offset loops to guide attention in sequence for region to region.">
+<GifPlayer>
+
+![Animated illustration](/images/animation/animation-tt-nested-loop-do.png)
+![Animated illustration](/videos/animation/animation-tt-nested-loop-do.mp4)
+
+</GifPlayer>
+</DoDontExample>
+</Column>
+
+<Column colMd={4} colLg={6}>
+<DoDontExample type="dont" caption="Avoid excessive overlaps in action.">
+<GifPlayer>
+
+![Animated illustration](/images/animation/animation-tt-nested-loop-dont.png)
+![Animated illustration](/videos/animation/animation-tt-nested-loop-dont.mp4)
+
+</GifPlayer >
+</DoDontExample>
+</Column>
+</Row>
 
 ## Type
 
@@ -215,273 +439,54 @@ Type is an essential component of our communications. Accordingly, care must be 
 
 Whether revealing a block of type as a whole or animating individual elements—line by line, word by word, even per character—our approach to type should reinforce the natural rhythm of reading by appearing left to right, top to bottom. And, as with graphic elements, type should only ever be animated on one axis at a time, and be allowed enough time in frame to be legible and comprehensible to a viewer.
 
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-presentation-do.png)
+![Animated illustration](/videos/animation/animation-tt-presentation-do.mp4)
+
+</GifPlayer>
+</DoDontExample>
+</Column>
+
+<Column colMd={4} colLg={6}>
+<DoDontExample type="dont">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-presentation-dont.png)
+![Animated illustration](/videos/animation/animation-tt-presentation-dont.mp4)
+
+</GifPlayer >
+</DoDontExample>
+</Column>
+</Row>
+
 ### Integrity
 
 IBM Plex is designed to be a representation of our brand—every decision and detail made with purpose.  As such, the integrity of any typographic element must be maintained at all times. Refrain from stretching, warping, or otherwise distorting any form or detail, regardless of if it’s a single glyph or an entire paragraph.
 
-
-
-
-
-
-<ArtDirection>
-
-![recommended line weights](./images/lines-mobile.png)
-![recommended line weights](./images/lines.png)
-
-</ArtDirection>
-
-### Abstract and literal
-
-Expressing concepts in abstract ways creates interest and exciting compositions, while literal executions can communicate complicated concepts more clearly. Both techniques are vital for communications with illustrations.
-
 <Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+<DoDontExample type="do">
+<GifPlayer color="dark">
+
+![Animated illustration](/images/animation/animation-tt-integrity-do.png)
+![Animated illustration](/videos/animation/animation-tt-inegrity-do.mp4)
+
+</GifPlayer>
+</DoDontExample>
+</Column>
 
 <Column colMd={4} colLg={6}>
+<DoDontExample type="dont">
+<GifPlayer color="dark">
 
-![abstract illustration example](./images/tips-and-techniques/abstract.png)
+![Animated illustration](/images/animation/animation-tt-integrity-dont.png)
+![Animated illustration](/videos/animation/animation-tt-integrity-dont.mp4)
 
-<Caption>Abstraction is more conceptual and provocative.</Caption>
-</Column>
-<Column colMd={4} colLg={6}>
-
-![literal illustration example](./images/tips-and-techniques/literal.png)
-
-<Caption>Literal expressions are more explanatory and utilitarian.</Caption>
-</Column>
-
-</Row>
-
-### Micro and macro
-
-IBM has a long and rich history of showing systems in micro and macro scales. This ability to communicate in both scales allows us to communicate the hard to see or expansive concepts. These views are critical to illustration techniques and effectiveness.
-
-<Row className="mock-gallery">
-
-<Column colMd={4} colLg={6}>
-
-![micro illustration example](./images/tips-and-techniques/micro.png)
-
-<Caption>Micro views zoom into the subject.</Caption>
-</Column>
-<Column colMd={4} colLg={6}>
-
-![macro illustration example](./images/tips-and-techniques/macro.png)
-
-<Caption>Macro views show a larger picture.</Caption>
-</Column>
-
-</Row>
-
-### Low fidelity and high fidelity
-
-Some illustrations benefit from being simple and direct while others require more fidelity to capture greater detail or offer a dramatic effect. Illumination is always an idea to consider with color and detailing techniques, such as gradients, which can help communicate more vividly.
-
-<Row className="mock-gallery">
-
-<Column colMd={4} colLg={6}>
-
-![low fidelity illustration example](./images/tips-and-techniques/lo-fidelity.png)
-
-<Caption>Solid color is more simple and direct.</Caption>
-</Column>
-<Column colMd={4} colLg={6}>
-
-![high fidelity illustration example](./images/tips-and-techniques/high-fidelity.png)
-
-<Caption>Gradients and tone add depth and drama.</Caption>
-</Column>
-
-</Row>
-
-## Intent
-
-Knowing the intent of your illustration helps create the framework for decision-making. Will it serve as the cover of a brochure, a large wall at an event or support a series of ideas in a website. Illustrations can live within a wide variety of sizes and environments whether digital or physical. There are different types of illustrations used for various purposes at different scales and complexities.
-
-### Featured
-
-Featured, or hero, illustrations are impactful. These delightful illustrations tell complex stories. Hero illustrations tend to be more metaphorical and intricate than other types of imagery and may use more color, space and elements. While heros are more complex and imaginative, they should remain focused and balanced. Maintaining a sense of professionalism and organization through thoughtful composition is key.
-
-![hero illustration in booklet](./images/tips-and-techniques/featured.png)
-
-### Supportive
-
-Supportive, or spot, illustrations are simplified illustrations that usually enhance other content. Because they are supporting elements, spot illustrations must be easily read so viewers grasp concepts at glance. Spot illustrations are focused, but maintain a feeling of delight and nimbleness, guiding a viewer through a narrative. Spot illustrations are commonly used in digital empty states, in composition with other spot illustrations or paired with text.
-
-![supportive illustration on website](./images/tips-and-techniques/supportive.png)
-
-## Color
-
-Color in illustration sets the tone, gives meaning and reinforces our brand expression. When choosing colors for your illustrations, consider their association with your particular product or communication. When chosen thoughfully, colors can achieve engaging and delightful results.
-
-The starting point for illustrations should always be the [IBM color palette](https://www.ibm.com/design/language/color). Adherence to this palette creates brand consistency and distinction. When working on specific business units within IBM, please reference the individual [brand guidelines](https://www.ibm.com/brand/systems) for more detailed color guidance.
-
-![color illustration with gradient](./images/tips-and-techniques/color.png)
-
-### Color schemes
-
-There are many different ways to combine swatches from the IBM color palette, depending on the style and intent of your illustration. Below are a few common approaches to consider.
-
-#### Monochromatic
-Monochromatic illustrations have a simple and direct quality to them and are comprised of tints and tones of a single hue. This tehnique has a logical, systematic and engineered look. Within this scheme, flat or tint techniques can be applied.
-
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-
-![monochromatic illustration example 1](./images/tips-and-techniques/monochromatic-1.png)
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![monochromatic illustration example 2](./images/tips-and-techniques/monochromatic-2.png)
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![monochromatic illustration example 3](./images/tips-and-techniques/monochromatic-3.png)
-
+</GifPlayer >
+</DoDontExample>
 </Column>
 </Row>
-
-#### Analogous
-Analogous colors bring a harmonious quality by using neighboring hues from the palette. This technique adds subtle depth, movement and fidelity to an illustration. Two to three hues work best for this technique. Additional colors will likely add unnecessary complexity and should be avoided.
-
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-
-![analogous illustration example 1](./images/tips-and-techniques/analogous-1.png)
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![analogous illustration example 2](./images/tips-and-techniques/analogous-2.png)
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![analogous illustration example 3](./images/tips-and-techniques/analogous-3.png)
-
-</Column>
-</Row>
-
-#### Complementary
-The opposing nature of complementary colors create vibrancy and tension, which can be quite effective when you want to draw attention to an element. Large fields of complementary colors can be quite jarring, so it’s best to use them as accents that bring just the right amount of contrast and life to an illustration.
-
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-
-![complementary illustration example 1](./images/tips-and-techniques/complementary-1.png)
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![complementary illustration example 2](./images/tips-and-techniques/complementary-2.png)
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![complementary illustration example 3](./images/tips-and-techniques/complementary-3.png)
-
-</Column>
-</Row>
-
-### Use of blue
-
-Be cautious when using blues in an illustration that could potentially compete with other elements that are also blue, such as UI buttons and other focal points.
-
-<DoDontRow>
-<DoDont caption="Do choose colors that maintain clear delineation around focal points.">
-
-![example of clearly delineated elements](./images/tips-and-techniques/cta-1.png)
-
-</DoDont>
-<DoDont type="dont" caption="Don't use an abundance of blue that may obscure important UI elements.">
-
-![example of an overuse of blue](./images/tips-and-techniques/cta-2.png)
-
-</DoDont>
-</DoDontRow>
-
-### Additional colors
-
-In some cases, additional colors will be required to achieve a more realistic illustration. In general, orange and yellow tones are reserved for UI alert colors, but may be used, if required. Additional colors should be limited to specific use cases, such as skin tones.
-
-<DoDontRow>
-<DoDont caption="Specific blends of IBM red and green swatches may be used for skin tones.">
-
-![illustration with skin tone](./images/tips-and-techniques/add-color-1.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Yellow is not required to represent the pencil and should be avoided in this case.">
-
-![illustration with yellow pencil](./images/tips-and-techniques/add-color-2.svg)
-
-</DoDont>
-</DoDontRow>
-
-### Accessibility
-
-IBM firmly believes that all of our experiences should be accessible for everyone, regardless of abilities or impairments. If an illustration conveys information not entirely captured in accompanying text, the main concepts must meet [3:1 AA accessibility](https://link) standards. Always be conscious when choosing colors to give every user the same experience, regardless of ability.
-
-<DoDontRow>
-<DoDont caption="Colors pass with 3.9:1 contrast ratio.">
-
-![illustration with sufficient contrast ratio](./images/tips-and-techniques/accessibility-1.png)
-
-</DoDont>
-<DoDont type="dont" caption="Colors fail with 2.1:1 contrast ratio.">
-
-![illustration with insufficient contrast ratio](./images/tips-and-techniques/accessibility-2.png)
-
-</DoDont>
-</DoDontRow>
-
-## Canvases
-
-Use common aspect ratios, such as 16:9, 4:3, 3:2, 2:1 and 1:1, for illustrations unless otherwise dictated by specific platform requirements. These helpful aspect ratios also correspond well to the resolution, scale and line weights. These common aspect ratios work well with our 2x Grid, creating a visual rhythm across everything created using IBM Design Language, from our components and formats to signage and event spaces and more.
-
-![aspect ratios for illustration](./images/tips-and-techniques/canvases.svg)
-
-## Composition
-
-IBM has very specific guidance around composition. The following tips show how to best compose your ideas into distinct and successful illustrations. Visit [IDL Layout guidance](https://www.ibm.com/design/language/layout/overview) for more detailed information about composition.
-
-### Framing
-
-The [2x Grid](https://www.ibm.com/design/language/2x-grid) can be a useful guide when composing illustrations. Images should leverage divisions of two. Either horizontal or vertical, these divisions create zones for different kinds of representations. For example, one area could show a literal object while the adjacent area could reveal what’s happening digitally or behind the scenes.
-
-<ArtDirection>
-
-![illustration with two sides](./images/tips-and-techniques/framing-mobile-1.png)
-![illustration with two sides](./images/tips-and-techniques/framing-1.png)
-
-</ArtDirection>
-
-<Caption>Two sides</Caption>
-
-<ArtDirection>
-
-![illustration with clear horizons](./images/tips-and-techniques/framing-mobile-2.png)
-![illustration with clear horizons](./images/tips-and-techniques/framing-2.png)
-
-</ArtDirection>
-
-<Caption>Horizons</Caption>
-
-### Focal points
-
-Use the [2x Grid](https://www.ibm.com/design/language/2x-grid) to establish clear focal points. It may seem prescriptive, but when seen together, this approach acts as connective tissue between IBM illustrations. The same approach is used to create delightful animated experiences.
-
-<ArtDirection>
-
-![illustration with offset focal point](./images/tips-and-techniques/focal-mobile-1.png)
-![illustration with offset focal point](./images/tips-and-techniques/focal-1.png)
-
-</ArtDirection>
-
-<ArtDirection>
-
-![illustration with centered focal point](./images/tips-and-techniques/focal-mobile-2.png)
-![illustration with centered focal point](./images/tips-and-techniques/focal-2.png)
-
-</ArtDirection>
