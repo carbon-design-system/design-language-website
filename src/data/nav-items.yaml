@@ -68,10 +68,5 @@
     - path: /resources
 - title: What’s new
   pages:
-    - path: /whats-new
-- title: Help
-  pages:
-    - title: Support
-      path: /help/support
-    - title: FAQ
-      path: /help/faq
+    - title: What’s new
+      path: /updates/whats-new
