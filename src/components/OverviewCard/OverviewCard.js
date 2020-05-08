@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { Link } from 'gatsby';
 import { Tag } from 'carbon-components-react';
-import "./overview-card.scss";
-import "./overview-card-group.scss";
+import './overview-card.scss';
+import './overview-card-group.scss';
 
 export default class OverviewCard extends React.Component {
   static propTypes = {
@@ -62,7 +62,7 @@ export default class OverviewCard extends React.Component {
       <>
         <h4 className="overview-card__title">{title}</h4>
         {tag && <Tag type="teal">{tag}</Tag>}
-        <div className={`overview-card__img`}>{children}</div>
+        <div className="overview-card__img">{children}</div>
       </>
     );
 
@@ -89,7 +89,7 @@ export default class OverviewCard extends React.Component {
 
     return (
       <div className={OverviewCardClassNames}>
-        <div className="bx--aspect-ratio--1x1">
+        <div className="bx--aspect-ratio bx--aspect-ratio--1x1">
           <div className="bx--aspect-ratio--object">{cardContainer}</div>
         </div>
       </div>
