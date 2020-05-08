@@ -1,0 +1,14 @@
+$font-prefix: '/design/language/fonts';
+@import '@ibm/plex/scss/sans-devanagari/_index.scss';
+@import '@ibm/plex/scss/sans-thai/_index.scss';
+@import '@ibm/plex/scss/sans-hebrew/_index.scss';
+@import '@ibm/plex/scss/sans-arabic/_index.scss';
+@import '@ibm/plex/scss/sans-thai-looped/_index.scss';
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap&subset=cyrillic,cyrillic-ext,greek,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+
+//text variants
+@import '@ibm/plex/scss/sans/_index.scss';
+@import '@ibm/plex/scss/sans-condensed/_index.scss';
+@import '@ibm/plex/scss/serif/_index.scss';
+@import '@ibm/plex/scss/mono/_index.scss';

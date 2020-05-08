@@ -1,0 +1,34 @@
+.image-grid img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: $spacing-07;
+}
+
+img {
+  max-width: 100%; //needed for svg/gif images
+}
+
+// src ends with "svg"
+img[src$='svg'] {
+  width: 100%; // svgs can scale, so we're cool with stretching them
+}
+
+// images
+.bx--row img {
+  width: 100%;
+  display: block;
+}
+
+.gallery-row-padding {
+  margin-top: 0;
+  @include carbon--breakpoint('md') {
+    margin-top: rem(32px);
+  }
+}
+
+.gallery-row-padding div {
+  margin-top: rem(24px);
+  @include carbon--breakpoint('md') {
+    margin-top: 0;
+  }
+}

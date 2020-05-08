@@ -1,0 +1,21 @@
+//---------------------------------------
+// Design
+//---------------------------------------
+.footnote {
+  @include carbon--type-style('label-01');
+}
+
+.footnote__highlight {
+  position: relative;
+}
+
+.footnote__highlight:after {
+  content: '';
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  left: -0.75rem;
+  top: 0.325rem;
+  background-color: $carbon--blue-60;
+  border-radius: 0.25rem;
+}

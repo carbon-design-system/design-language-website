@@ -1,0 +1,39 @@
+.motion-checklist__item {
+  display: flex;
+  padding-bottom: $spacing-07;
+}
+
+.motion-checklist__input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.motion-checklist__checkbox {
+  margin-right: $spacing-05;
+  margin-top: $spacing-01;
+}
+
+.motion-checklist aside {
+  @include carbon--type-style('body-long-01');
+  position: relative;
+  padding-top: $spacing-04;
+  top: -$spacing-04;
+
+  @include carbon--breakpoint-down('md') {
+    display: none;
+  }
+}
+
+.motion-checklist aside:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  width: 40%;
+  height: 1px;
+  background: $ui-05;
+}
+
+.motion-checklist__score {
+  margin: $spacing-07 0;
+}

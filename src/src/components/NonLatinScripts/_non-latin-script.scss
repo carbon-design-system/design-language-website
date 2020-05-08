@@ -1,0 +1,145 @@
+.#{$prefix}--non-latin-coming-soon-sticker {
+  margin-bottom: 0;
+  padding: $spacing-07;
+  border-radius: 100%;
+  color: $carbon--white-0;
+  background-color: $carbon--purple-60;
+  text-align: center;
+  width: rem(50px);
+  height: rem(50px);
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-30deg);
+}
+
+.#{$prefix}--non-latin-button {
+  background: none;
+  color: $carbon--black-100;
+  border: 0;
+  padding: $spacing-03 0;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+
+  & > * {
+    vertical-align: middle;
+  }
+}
+
+.#{$prefix}--non-latin-container {
+  position: relative;
+  border-bottom: 1px solid $ibm-color__gray-20;
+  border-top: 1px solid $ibm-color__gray-20;
+  margin-bottom: -1px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+// Emulate the scaling font-size
+.#{$prefix}--non-latin-image-type-sample {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: content-box;
+  height: calc(3.625rem + (7.38636vw - 1.47727rem));
+  width: auto;
+
+  @include carbon--breakpoint('md') {
+    height: calc(5.85rem + (6.25vw - 2.625rem));
+  }
+
+  @include carbon--breakpoint('lg') {
+    height: calc(7.85rem + (11.71875vw - 7.73438rem));
+  }
+
+  @include carbon--breakpoint('xlg') {
+    height: calc(10.7rem + (12.5vw - 10.25rem));
+  }
+
+  @include carbon--breakpoint('max') {
+    height: 12.85rem;
+  }
+}
+
+.#{$prefix}--non-latin-typeface-name-heading {
+  max-width: 100%;
+  margin-bottom: 0;
+  display: block;
+  border: 0;
+  padding-top: $spacing-03;
+  margin-top: 0;
+}
+
+.#{$prefix}--non-latin-type-example {
+  white-space: nowrap;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-width: 0;
+  margin-bottom: $spacing-03;
+  line-height: 1.5;
+  font-weight: 400 !important;
+  width: 100%;
+  color: $carbon--gray-90;
+  -webkit-text-fill-color: $carbon--gray-90; // Needs manual autoprefixing
+  font-family: 'IBM Plex Sans', sans-serif;
+
+  &::selection {
+    background: $carbon--purple-20;
+  }
+
+  &.rtl {
+    direction: rtl;
+  }
+}
+
+.#{$prefix}--non-latin-type-example-devanagari,
+.#{$prefix}--non-latin-type-example-arabic {
+  height: 100%;
+}
+
+.#{$prefix}--non-latin-type-example-thai-looped {
+  height: 100%;
+}
+
+.#{$prefix}--non-latin-outer-spacing {
+  margin-top: $spacing-07;
+  margin-bottom: $spacing-09;
+}
+
+.#{$prefix}--type-mono,
+.#{$prefix}--type-mono * {
+  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono',
+    'Bitstream Vera Sans Mono', Courier, monospace !important;
+}
+
+.#{$prefix}--type-serif,
+.#{$prefix}--type-serif * {
+  font-family: 'IBM Plex Serif', 'Georgia', Times, serif !important;
+}
+
+.#{$prefix}--type-hebrew {
+  font-family: 'IBM Plex Sans Hebrew' !important;
+}
+
+.#{$prefix}--type-thai {
+  font-family: 'IBM Plex Sans Thai' !important;
+}
+
+.#{$prefix}--type-thai-looped {
+  font-family: 'IBM Plex Sans Thai Looped' !important;
+}
+
+.#{$prefix}--type-devanagari {
+  font-family: 'IBM Plex Sans Devanagari' !important;
+  margin-top: $spacing-05; // https://github.com/carbon-design-system/design-language-website/issues/222
+}
+
+.#{$prefix}--type-arabic {
+  font-family: 'IBM Plex Sans Arabic' !important;
+}
+
+// TODO CJK

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="288px" viewBox="0 0 288 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M127.875,11.625 L127.875,151.125 L11.625,151.125 L11.625,11.625 L127.875,11.625 Z M127.875,0 L11.625,0 C5.20468978,0 0,5.20468978 0,11.625 L0,151.125 C0,157.54531 5.20468978,162.75 11.625,162.75 L127.875,162.75 C134.29531,162.75 139.5,157.54531 139.5,151.125 L139.5,11.625 C139.5,5.20468978 134.29531,0 127.875,0 Z M29.0625,122.0625 L40.6875,122.0625 L40.6875,133.6875 L29.0625,133.6875 L29.0625,122.0625 Z M98.8125,122.0625 L110.4375,122.0625 L110.4375,133.6875 L98.8125,133.6875 L98.8125,122.0625 Z M29.0625,93 L40.6875,93 L40.6875,104.625 L29.0625,104.625 L29.0625,93 Z M98.8125,93 L110.4375,93 L110.4375,104.625 L98.8125,104.625 L98.8125,93 Z M29.0625,63.9375 L40.6875,63.9375 L40.6875,75.5625 L29.0625,75.5625 L29.0625,63.9375 Z M63.9375,122.0625 L75.5625,122.0625 L75.5625,133.6875 L63.9375,133.6875 L63.9375,122.0625 Z M63.9375,93 L75.5625,93 L75.5625,104.625 L63.9375,104.625 L63.9375,93 Z M63.9375,63.9375 L75.5625,63.9375 L75.5625,75.5625 L63.9375,75.5625 L63.9375,63.9375 Z M98.8125,63.9375 L110.4375,63.9375 L110.4375,75.5625 L98.8125,75.5625 L98.8125,63.9375 Z M29.0625,29.0625 L110.4375,29.0625 L110.4375,46.5 L29.0625,46.5 L29.0625,29.0625 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-Copy" transform="translate(-352.000000, -11652.000000)">
+            <g id="Group-8" transform="translate(352.000000, 11652.000000)">
+                <g id="Padding-do-Copy-2" fill="#FFFFFF">
+                    <rect id="Rectangle-3" x="0" y="0" width="288" height="288"></rect>
+                </g>
+                <g id="icon/image/calculator/32" transform="translate(51.000000, 51.000000)">
+                    <g id="calculator" stroke-width="1" fill-rule="evenodd" transform="translate(23.250000, 11.625000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="color/black" mask="url(#mask-2)">
+                            <g transform="translate(-23.250000, -11.625000)"></g>
+                        </g>
+                    </g>
+                    <rect id="transparent-rectangle" x="0" y="0" width="186" height="186"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
