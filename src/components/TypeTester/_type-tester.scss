@@ -40,7 +40,7 @@
 }
 
 .#{$prefix}--mobile-column {
-  @include carbon--breakpoint("sm") {
+  @include carbon--breakpoint('sm') {
     margin-top: 0;
   }
 }
@@ -93,7 +93,6 @@
       .#{$prefix}--list-box__menu {
         top: 3rem;
         background: $ui-02;
-        max-height: 15rem;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
 
         .#{$prefix}--list-box__menu-item {
