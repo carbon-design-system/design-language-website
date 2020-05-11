@@ -59,6 +59,14 @@
       path: /layout/overview
     - title: Tips and techniques
       path: /layout/tips-and-techniques
+- title: Animation
+  pages:
+    - title: Overview
+      path: /animation/overview/
+    - title: Classic principles
+      path: /animation/classic-principles/
+    - title: Tips and techniques
+      path: /animation/tips-and-techniques/
 - title: Motion UI
   pages:
     - title: Motion UI
