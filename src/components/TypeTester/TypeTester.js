@@ -203,7 +203,7 @@ const languageDropdownContent = [
 
 export default class TypeTester extends Component {
   state = {
-    typeSizeMultiplier: null,
+    typeSizeMultiplier: 840,
     label: 'IBM Plex Sans',
     variant: 'ibm-plex-sans',
     lastVariant: 'ibm-plex-sans',
@@ -213,9 +213,9 @@ export default class TypeTester extends Component {
   };
 
   componentDidMount() {
-    if (typeof window !== 'undefined' && !this.state.typeSizeMultiplier) {
+    if (typeof window !== 'undefined' && window.innerWidth < breakpoints.md) {
       this.setState({
-        typeSizeMultiplier: window.innerWidth < breakpoints.md ? 470 : 840,
+        typeSizeMultiplier: 470,
       });
     }
   }
@@ -338,6 +338,7 @@ export default class TypeTester extends Component {
               min={100}
               max={1600}
               value={this.state.typeSizeMultiplier}
+              key={this.state.typeSizeMultiplier}
               onChange={e => {
                 this.setState({ typeSizeMultiplier: Number(e.value) });
               }}
