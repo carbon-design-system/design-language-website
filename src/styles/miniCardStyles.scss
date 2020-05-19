@@ -1,0 +1,14 @@
+
+
+.mini-card-container .description {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.125rem ;
+}
+
+@media (max-width: 42rem) {
+  .mini-card-container{
+    margin-top: 1rem;
+  }
+
+}
