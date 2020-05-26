@@ -53,6 +53,14 @@
       path: /photography/overview
     - title: Tips and techniques
       path: /photography/tips-and-techniques
+- title: Data visualization
+  pages:
+    - title: Overview
+      path: /data-visualization/overview
+    - title: Charts
+      path: /data-visualization/charts
+    - title: Design
+      path: /data-visualization/design/basics
 - title: Layout
   pages:
     - title: Overview
