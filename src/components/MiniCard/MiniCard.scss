@@ -1,0 +1,35 @@
+.mini-card-link {
+  display: block;
+  text-decoration: none;
+  background: #fff;
+}
+
+.mini-card {
+  display: flex;
+  height: 3.5rem;
+  padding: .5rem 1rem;
+  //-ms-flex-align: center;
+  align-items: center;
+  //-ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+.mini-card-link:hover {
+  background-color: #e5e5e5;
+}
+
+.mini-card-label{
+  margin-bottom: 0;
+  color: #252525;
+  font-size: 14px;
+}
+
+
+.mini-card-icon {
+  width: 20px !important;
+  height: 20px;
+}
+
+
+
