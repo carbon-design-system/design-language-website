@@ -20,7 +20,7 @@
   "author": "Alison Joseph <alison.joseph@us.ibm.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "dev": "gatsby develop",
+    "dev": "gatsby develop -H 0.0.0.0",	
     "dev:clean": "gatsby clean && gatsby develop",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
