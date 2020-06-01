@@ -1,5 +1,3 @@
-
-
 .overview-card {
   position: relative;
 }
@@ -71,4 +69,48 @@
 .overview-card--disabled .overview-card__img {
   filter: grayscale(1);
   opacity: 0.3;
+}
+
+//outgoing link
+.bx--aspect-ratio--object.aspect-ratio__has-tooltip {
+  z-index: auto;
+}
+
+.overview-card .bx--tile.overview-card--outgoing:hover {
+  background: $carbon--white-0;
+}
+
+.overview-card
+  .bx--tile.overview-card--outgoing:hover
+  .overview-card__img:after {
+  display: none;
+}
+
+.overview-card__link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.overview-card__link:hover {
+  background: $hover-ui;
+}
+
+.overview-card__link:focus {
+  outline: 2px solid $focus;
+  outline-offset: -2px;
+}
+
+.overview-card--outgoing .overview-card__link svg {
+  opacity: 0;
+}
+
+.overview-card--outgoing:hover .overview-card__link svg {
+  opacity: 1;
+}
+
+.overview-card__tooltip.bx--tooltip__trigger:not(.bx--btn--icon-only) {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.5rem;
 }
