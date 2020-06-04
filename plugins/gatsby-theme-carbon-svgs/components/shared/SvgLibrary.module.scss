@@ -71,6 +71,10 @@
   border-bottom: 0;
 }
 
+.filter-row :global(.bx--list-box--expanded .bx--list-box__menu) {
+  max-height: 16.5rem;
+}
+
 .svg-library {
   overflow: hidden;
   @include carbon--breakpoint('md') {
