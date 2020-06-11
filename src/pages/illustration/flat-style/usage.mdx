@@ -21,13 +21,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor leo a augue c
 
 <Column colMd={4} colLg={8}>
 
-![Isometric illustration](./images/Usage-ex1.png)
+![Flat style illustration](./images/Usage-ex1.png)
 
 </Column>
 
 <Column colMd={4} colLg={4}>
 
-![Isometric illustration](./images/Usage-ex2.png)
+![Flat style illustration](./images/Usage-ex2.png)
 
 </Column>
 
@@ -37,13 +37,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor leo a augue c
 
 <Column colMd={4} colLg={4}>
 
-![Isometric illustration](./images/Usage-ex3.png)
+![Flat style illustration](./images/Usage-ex3.png)
 
 </Column>
 
 <Column colMd={4} colLg={8}>
 
-![Isometric illustration](./images/Usage-ex4.png)
+![Flat style illustration](./images/Usage-ex4.png)
 
 </Column>
 
@@ -53,35 +53,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor leo a augue c
 
 <Column colMd={4} colLg={8}>
 
-![Isometric illustration](./images/Usage-ex5.png)
+![Flat style illustration](./images/Usage-ex5.png)
 
 </Column>
 
 <Column colMd={4} colLg={4}>
 
-![Isometric illustration](./images/Usage-ex6.png)
-
-</Column>
-
-</Row>
-
-<Row className="mock-gallery">
-
-<Column colMd={4} colLg={4}>
-
-![Isometric illustration](./images/Usage-ex7.png)
-
-</Column>
-
-<Column colMd={4} colLg={4}>
-
-![Isometric illustration](./images/Usage-ex8.png)
-
-</Column>
-
-<Column colMd={4} colLg={4}>
-
-![Isometric illustration](./images/Usage-ex9.png)
+![Flat style illustration](./images/Usage-ex6.png)
 
 </Column>
 
@@ -89,145 +67,123 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor leo a augue c
 
 ## Animation
 
-The Isometric illustration style brings a completely unique set of characteristics that makes animation a distinctly different challenge. The illusion of depth opens up a wealth of new storytelling options, but care must be taken to maintain perspective, and animate with a more physical sense of cause and effect.
+The flat style’s reliance on simple, bold silhouettes allows for more expressive performances and evocative motion.
 
 <Video
-  poster="/images/illustration/usage-hero.png"
-  src="/videos/illustration/usage-hero.mp4"
+  poster="/images/illustration/fs-usage-hero.png"
+  src="/videos/illustration/fs-usage-hero.mp4"
 />
 
 #### Tips
-- Forms that are extruded or otherwise depict volume in the original design must maintain perspective when animated.
-- Use rotation selectively as a way to add interest, delight, or highlight elements of significance.
-- Animate to convey weight, mass, and precision to emphasize and support the physical/volumetric nature of the style.
-- Ensure that shadows accurately react to the movement of the objects casting them.
+- Shapes should stay true to the original design. Be careful of custom path animation and rely on position, rotation and scale.
+- Although more involved performances are encouraged, avoid exaggeration, bounces and smears.
+- Consider working at higher—though proportional—resolutions to ensure crisp, clean shapes and extra precision when aligning elements.
 
-### Maintaining perspective
 
-#### Translation
-It's incredibly important to follow the IBM isometric grid in animation, especially when moving objects in space. Objects that don’t behave in accordance with the 30° incremental angles of their construction immediately break the illusion of space in this style—elements moving in arcs or diagonally will quickly break the illusion of space and depth. 
+### Performance
+
+In contrast to the particular limitations of line style, flat illustration is well-suited to more nuanced and organic character performances. However, this style still requires fine attention to geometry and detail to ensure the integrity of graphic forms. 
+
+<Row className="mock-gallery">
+
+<Column colMd={4} colLg={4}>
+
+<GifPlayer>
+
+![Gradient usage](/videos/illustration/performance-1.mp4)
+![Gradient usage](/images/illustration/performance-1.png)
+
+</GifPlayer>
+
+</Column>
+
+<Column colMd={4} colLg={4}>
+
+<GifPlayer color="dark">
+
+![Gradient usage](/videos/illustration/performance-2.mp4)
+![Gradient usage](/images/illustration/performance-2.png)
+
+</GifPlayer>
+
+</Column>
+
+</Row>
+
+### Transparency
+
+Unless intentionally designed for this effect, long, ponderous fades will create unwanted intersections and confusing overlaps that run contrary to the bold, clean vernacular of flat style. Lean toward confident, productive fades that minimize the appearance of unintended shapes.
 
 <DoDontRow>
 
-<DoDont type="do" caption="Translate objects along the isometric grid on one axis at a time.">
-<GifPlayer color="dark">
+<DoDont type="do" caption="Use solid color to maintain clean graphic shapes.">
+<GifPlayer>
 
-![Translation do](/videos/illustration/translation-do.mp4)
-![Translation do](/images/illustration/translation-do.png)
+![Offset do](/videos/illustration/transparency-do.mp4)
+![Offset do](/images/illustration/transparency-do.png)
 
 </GifPlayer>
 </DoDont>
 
-<DoDont type="dont" caption="Avoid overlapping movement on multiple axes simultainiously.">
-<GifPlayer color="dark">
+<DoDont type="dont" caption="Avoid transparency, overlapping shapes, and intersections.">
+<GifPlayer>
 
-![Translation don't](/videos/illustration/translation-dont.mp4)
-![Translation don't](/images/illustration/translation-dont.png)
+![Offset don't](/videos/illustration/transparency-dont.mp4)
+![Offset don't](/images/illustration/transparency-dont.png)
 
 </GifPlayer>
 </DoDont>
   
 </DoDontRow>
 
-#### Rotation
-Rotation can be selectively added to individual elements as an avenue to create delight or add interest. However, rotation should only be used if it adheres to the same rules as 2D objects, applying it to one axis at a time with little to no overlap. 
+### Translation
 
-The animation of each element should typically be treated as you would a purely 2D object, although some designs may lend themselves to more subtly volumetric and complex animations, such as simple rotations and oscillations. 
+Flat style lends itself to richer, more elaborate designs and performances. Typically, this style requires action to be more focused and specific to a limited scope of elements, while broader motions that affect the entire canvas—camera moves—will quickly become distracting and disorienting. Any camera movement should be simple, decisive and applied with discretion.
 
 <DoDontRow>
 
-<DoDont type="do" caption="Keep rotation to one axis at a time.">
-<GifPlayer color="dark">
+<DoDont type="do" caption="Stick to simple, decisive camera movements.">
+<GifPlayer>
 
-![Rotation do](/videos/illustration/rotation-do.mp4)
-![Rotation do](/images/illustration/rotation-do.png)
+![Offset do](/videos/illustration/fs-translation-do.mp4)
+![Offset do](/images/illustration/fs-translation-do.png)
 
 </GifPlayer>
 </DoDont>
 
-<DoDont type="dont" caption="Avoid overlapping rotation on multiple axes simultainiously.">
-<GifPlayer color="dark">
+<DoDont type="dont" caption="Avoid complex, distracting camera movements.">
+<GifPlayer>
 
-![Rotation don't](/videos/illustration/rotation-dont.mp4)
-![Rotation don't](/images/illustration/rotation-dont.png)
+![Offset don't](/videos/illustration/fs-translation-dont.mp4)
+![Offset don't](/images/illustration/fs-translation-dont.png)
 
 </GifPlayer>
 </DoDont>
   
 </DoDontRow>
 
-#### Camera
-Maintaining the angle of view in an isometric world is extremely important. As such, the camera should remain locked in place at all times, not breaking perspective. Only on very rare occasions should the construction of a scene accommodate highly controlled, systematic repositioning of the camera.
+### Adaptation
 
-<DoDontRow>
+Illustrations may need to be modified to become technically feasible animations. For example, some complex gradients may be prohibitively difficult to animate cleanly and may need to be subtly simplified. 
 
-<DoDont type="do" caption="Lock the camera to an isometric angle.">
+Where possible, both illustrator and animator should collaborate on modifying a design without diluting the intention or fidelity of the original illustration.
 
-![Camera do](/images/illustration/camera-do.png)
+<Row className="mock-gallery">
 
-</DoDont>
+<Column colMd={4} colLg={4}>
 
-<DoDont type="dont" caption="Avoid changes in perspective.">
-<GifPlayer color="dark">
+![Complex gradient](./images/adaptation-1.png)
 
-![Camera don't](/videos/illustration/camera-dont.mp4)
-![Camera don't](/images/illustration/camera-dont.png)
+<Caption>Complex gradient shading.</Caption>
 
-</GifPlayer>
-</DoDont>
-  
-</DoDontRow>
+</Column>
 
-### Light, shadow and gradient
+<Column colMd={4} colLg={4}>
 
-Light, shadow and gradient—where possible—should be defined in 2D, not baked onto 3D surfaces as textures. If more complex objects are required, creating mattes in a 3D package to accurately depict rotation on an object is the preferred technique for elements that are brought into a 2D package for animation. 
+![Simplified gradient](./images/adaptation-2.png)
 
-Even though it presents the illusion of a third dimension, isometric style is still typically produced in 2D and should be treated as such in motion. Animate the movement and rotation, and their corresponding shadows, as you would 2D shapes.
+<Caption>Adapted shading for animation.</Caption>
 
-<DoDontRow>
+</Column>
 
-<DoDont type="do" caption="Add color and gradients in 2D.">
-<GifPlayer color="dark">
-
-![Lighting do](/videos/illustration/light-do.mp4)
-![Lighting do](/images/illustration/rotation-do.png)
-
-</GifPlayer>
-</DoDont>
-
-<DoDont type="dont" caption="Avoid baking gradients on surfaces in 3D.">
-<GifPlayer color="dark">
-
-![Lighting don't](/videos/illustration/light-dont.mp4)
-![Lighting don't](/images/illustration/rotation-dont.png)
-
-</GifPlayer>
-</DoDont>
-  
-</DoDontRow>
-
-### Physicality
-
-The introduction of volume creates a whole new avenue to create interest. However, achieving compelling performances in this perspective requires a greater emphasis on physically believable motion. It’s vital that we communicate a sense of mass, weight and momentum, as viewers instinctively expect an object to move in a natural manner—something our animations should attempt to capture.
-
-<DoDontRow>
-
-<DoDont type="do" caption="Animate with weight and momentum.">
-<GifPlayer color="dark">
-
-![Physicality do](/videos/illustration/physicality-do.mp4)
-![Physicality do](/images/illustration/rotation-do.png)
-
-</GifPlayer>
-</DoDont>
-
-<DoDont type="dont" caption="Avoid unnatural, exaggerated movements.">
-<GifPlayer color="dark">
-
-![Physicality don't](/videos/illustration/physicality-dont.mp4)
-![Physicality don't](/images/illustration/physicality-dont.png)
-
-</GifPlayer>
-</DoDont>
-  
-</DoDontRow>
+</Row>
