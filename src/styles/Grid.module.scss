@@ -22,6 +22,42 @@
     }
   }
 
+// grid classnames (should be added to either grid package or theme?)
+.#{$prefix}--no-gutter-lg {
+  @include carbon--breakpoint('lg') {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.#{$prefix}--no-gutter-md {
+  @include carbon--breakpoint('md') {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.#{$prefix}--no-gutter-sm {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.#{$prefix}--no-gutter-lg--left {
+  @include carbon--breakpoint('lg') {
+    padding-left: 0;
+  }
+}
+
+.#{$prefix}--no-gutter-md--left {
+  @include carbon--breakpoint('md') {
+    padding-left: 0;
+  }
+}
+
+.#{$prefix}--no-gutter-sm--left {
+  padding-left: 0;
+}
+
 //---------------------------------------
 // Overrides
 //---------------------------------------
@@ -50,7 +86,6 @@
 
 .example-section h3 {
   margin-top: 0;
-  // margin-bottom:  1.5rem;
 }
 
 .example-aside {
@@ -90,40 +125,6 @@
 
 .principles-section h2 {
   margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
-// grid classnames (should be added to either grid package or theme?)
-.#{$prefix}--no-gutter-lg {
-  @include carbon--breakpoint('lg') {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-.#{$prefix}--no-gutter-md {
-  @include carbon--breakpoint('md') {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-.#{$prefix}--no-gutter-sm {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.#{$prefix}--no-gutter-lg--left {
-  @include carbon--breakpoint('lg') {
-    padding-left: 0;
-  }
-}
-
-.#{$prefix}--no-gutter-md--left {
-  @include carbon--breakpoint('md') {
-    padding-left: 0;
-  }
-}
-
-.#{$prefix}--no-gutter-sm--left {
-  padding-left: 0;
-}
