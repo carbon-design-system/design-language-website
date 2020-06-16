@@ -1,12 +1,7 @@
-.grid-images {
+.grid-images [class*='#{$prefix}--col'] {
     @include carbon--breakpoint-down('md') {
       padding-right: 0px;
     }
-  }
-
-// images
-.bx--row img {
-    width: 100%;
   }
 
 // gallery clusters
@@ -63,8 +58,8 @@
 //---------------------------------------
 
 // Principles/Layout page
-.principles-section .#{$prefix}--col-md-2,
-.example-section .#{$prefix}--col-md-2 {
+.principles-section [class*='#{$prefix}--col'],
+.example-section [class*='#{$prefix}--col'] {
   margin-bottom: 1.5rem;
   @include carbon--breakpoint('md') {
     margin-bottom: 0;
@@ -93,8 +88,8 @@
 }
 
 .example-aside:before {
-  width: $spacing-07;
-  left: 0;
+  width: $spacing-07 !important;
+  left: 0 !important;;
 }
 
 .bx--aspect-ratio--image {
@@ -104,7 +99,6 @@
 .bx--aspect-ratio--image .gatsby-resp-image-wrapper {
   margin: 1rem !important;
 }
-
 
 //---------------------------------------
 // Principles page
@@ -125,6 +119,5 @@
 
 .principles-section h2 {
   margin-top: 0;
-  margin-bottom: 1.5rem;
 }
 
