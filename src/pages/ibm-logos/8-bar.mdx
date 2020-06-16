@@ -3,6 +3,8 @@ title: 8-Bar
 description: The IBM logo is a major corporate asset with specific legal requirements. See lineage, positive and negative versions, color, third-party usage and more.
 ---
 
+import { mockGallery, noGutterSm } from '../../styles/Grid.module.scss';
+
 <PageDescription>
 
 The IBM logo is one of our most valuable corporate assets. It’s among the most recognized corporate identities in the world, uniquely distinguishing us from our competitors and other companies. It’s the tangible symbol of our brand, representing everything we are: our expertise, our values, our people, our offerings.
@@ -62,7 +64,7 @@ The logotype has been adjusted to work well reversed on dark backgrounds. In thi
 
 In addition to the differences in bar thickness between the positive and reversed versions, there have been adjustments to the points in the counter shape. The positive being a sharp and the reversed more blunt. This subtle difference between the two ensures optical integrity on light or dark backgrounds.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={4}>
 
 ![positive /negative 8 bar](/images/pos-neg-1.svg)
@@ -98,7 +100,7 @@ The IBM core colors, consisting of the blue and gray families, are used when app
 
 <Title>Positive logo</Title>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={4}>
 
 ![Black on Gray 30](/images/core_black-on-gray30.svg)
@@ -124,7 +126,7 @@ The IBM core colors, consisting of the blue and gray families, are used when app
 
 <Title>Reversed logo</Title>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={4}>
 
 ![Blue 50 on Black](/images/core_blue50_on_black.svg)
@@ -154,7 +156,7 @@ Dark or light background colors work well with core color IBM 8-bar logos. Alway
 
 <Title>Positive logo</Title>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={4}>
 
 ![Gray 100 on Blue 20](/images/background_gray100_on_blue20.svg)
@@ -180,7 +182,7 @@ Dark or light background colors work well with core color IBM 8-bar logos. Alway
 
 <Title>Reversed logo</Title>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={4}>
 
 ![Blue 40 on Purple 90](/images/background_blue40_on_purple90.svg)
@@ -300,7 +302,7 @@ The logo should be carefully placed on photography. Always place the logo on cle
 <!-- Add this bit back in when small scale logo will be available to download. 
 ### Digital usage for small scales
 For small scale use, we have altered the 8-bar logo to take advantage of pixels. This alteration renders a crisper appearance for the 8-bars. Without the adjustments, anti-aliasing causes visual banding that creates a fuzzy effect on our logo. To avoid poor rendering, please choose this small-scale version in digital work where the logo is used below 32px.
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={4}>
 ![Original logo](/images/small-logo-original-2.png)
 <Caption>Original logo</Caption>
@@ -310,7 +312,7 @@ For small scale use, we have altered the 8-bar logo to take advantage of pixels.
 <Caption>Optimized logo</Caption>
 </Column>
 </Row>
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={4}>
 ![Original logo detail, zoomed in](/images/small-logo-original-zoom.png)
 <Caption>Original logo detail, zoomed in</Caption>
