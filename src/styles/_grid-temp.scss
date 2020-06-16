@@ -39,6 +39,12 @@
   width: 100%;
 }
 
+.bx--row--images {
+  @include carbon--breakpoint-down('md') {
+    padding-right: 0px;
+  }
+}
+
 //---------------------------------------
 // Overrides
 //---------------------------------------
