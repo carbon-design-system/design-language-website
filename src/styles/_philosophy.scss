@@ -26,7 +26,7 @@
 //---------------------------------------
 .principles-section {
   --space: 48px;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
 }
 
 .principles-section:before {
@@ -34,7 +34,7 @@
   display: block;
   background: $ui-04;
   height: 1px;
-  width: calc(100% - 2rem);
+  width: calc(100% - 1.5rem);
   margin: -$spacing-07 0 0 $spacing-05;
 }
 
