@@ -2,6 +2,7 @@
 title: Tips and techniques
 description: Every animation—from simple linework pictograms through expansive, high-fidelity 3D—requires a different approach and new solutions. However, the following guidance is universally applicable to every execution.
 ---
+import  LottiePlayer  from "../../components/LottiePlayer";
 
 <PageDescription>
 
@@ -24,10 +25,11 @@ Every animation—from simple linework pictograms through expansive, high-fideli
 
 <Column colMd={4} colLg={4}>
 
-<GifPlayer>
+<GifPlayer className="video-player">
 
-![Data vis chart](/videos/animation/animation-tt-ex1.mp4)
-![Data vis chart](/images/animation/animation-tt-ex1.jpg)
+<Video src="/videos/animation/animation-tt-ex1.mp4" autoPlay loop="on" muted/>
+
+![Data vis chart](/images/animation/animation-tt-ex1-poster.jpg)
 
 </GifPlayer>
 
@@ -38,7 +40,7 @@ Every animation—from simple linework pictograms through expansive, high-fideli
 <GifPlayer>
 
 ![Plex glyphs](/videos/animation/animation-tt-ex2.gif)
-![Plex glyphs](/images/animation/animation-tt-ex2.png)
+![Plex glyphs](/images/animation/animation-tt-ex2.png) <!-- this file is missing -->
 
 </GifPlayer>
 
@@ -46,9 +48,10 @@ Every animation—from simple linework pictograms through expansive, high-fideli
 
 <Column colMd={4} colLg={4}>
 
-<GifPlayer>
+<GifPlayer className="video-player">
 
-![Watson avatar](/videos/animation/animation-tt-ex3.mp4)
+<Video src="/videos/animation/animation-tt-ex3.mp4" autoPlay loop="on" muted/>
+
 ![Watson avatar](/images/animation/animation-tt-ex3-poster.png)
 
 </GifPlayer>
@@ -75,9 +78,10 @@ Every animation—from simple linework pictograms through expansive, high-fideli
 
 <Column colMd={4} colLg={4}>
 
-<GifPlayer>
+<GifPlayer className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-ex6.mp4)
+<Video src="/videos/animation/animation-tt-ex6.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-ex6.png)
 
 </GifPlayer>
@@ -98,7 +102,8 @@ Maintain a focal point of interest and seek out seamless means of transferring i
 <Column colMd={8} colLg={8}>
 <GifPlayer>
 
-![Animated illustration](/videos/animation/animation-tt-attention.mp4)
+<LottiePlayer src={import(`../../lottie/test.json`)}/>
+
 ![Animated illustration](/images/animation/animation-tt-attention.png)
 
 </GifPlayer>
@@ -114,29 +119,27 @@ Cameras are the mechanism through which we present our view of the world to an o
 
 Efficient, single-axis translations feel deliberate and unobtrusive, while untethered, dynamic moves impart a sense of chaos and uncertainty. If creating a dynamic animated camera is absolutely necessary, ensure its movement remains controlled, clearly focused and positioned to create balanced compositions.
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Controlled camera movements support action.">
-<GifPlayer>
+<DoDontRow>
+<DoDont caption="Controlled camera movements support action.">
+<GifPlayer className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-focus1.mp4)
+<Video src="/videos/animation/animation-tt-focus1.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-focus1.png)
 
 </GifPlayer>
-</DoDontExample>
-</Column>
+</DoDont>
 
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Avoid uncontrolled action cameras.">
-<GifPlayer>
+<DoDont type="dont" caption="Avoid uncontrolled action cameras.">
+<GifPlayer className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-focus2.mp4)
+<Video src="/videos/animation/animation-tt-focus2.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-focus2.png)
 
 </GifPlayer >
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Visual clarity
 
@@ -148,9 +151,10 @@ Every element in a composition has the potential for movement, but every movemen
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
-<GifPlayer>
+<GifPlayer className="video-player">
 
-![Animated illustration](/videos/animation/animation_tt_complexity1.mp4)
+<Video src="/videos/animation/animation_tt_complexity1.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-complexity1-poster.png)
 
 </GifPlayer>
@@ -159,9 +163,10 @@ Every element in a composition has the potential for movement, but every movemen
 
 </Column>
 <Column colMd={4} colLg={4}>
-<GifPlayer>
+<GifPlayer className="video-player">
 
-![Animated illustration](/videos/animation/animation_tt_complexity2.mp4)
+<Video src="/videos/animation/animation_tt_complexity2.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-complexity2-poster.jpg)
 
 </GifPlayer>
@@ -177,29 +182,27 @@ In animation, the accuracy of a form in any key pose should adhere to the same r
 
 A similar level of attention should be paid to the briefest of moments. For example, avoid creating irregularities during the overlap of transparent shapes by animating between swatch colors, not opacity. Maintain crisp graphic lines by increasing the stroke weight from zero to the thickness, not crossfading.
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Caption">
-<GifPlayer color="dark">
+<DoDontRow>
+<DoDont caption="Caption">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-detail-do.mp4)
+<Video src="/videos/animation/animation-tt-detail-do.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-detail-do.png)
 
 </GifPlayer>
-</DoDontExample>
-</Column>
+</DoDont>
 
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Caption">
-<GifPlayer color="dark">
+<DoDont type="dont" caption="Caption">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-detail-dont.mp4)
+<Video src="/videos/animation/animation-tt-detail-dont.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-detail-dont.png)
 
 </GifPlayer >
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Consistency
 
@@ -209,29 +212,25 @@ Making broad, consistent choices defines a framework for how we present informat
 
 In more illustrative scenarios, consistency can help demonstrate the role and function of abstract elements or define a baseline of behavior against which abrupt changes and influences become more noticeable. Setting expectations and, in some cases, subverting them is an excellent way to convey novel cause and effect, and imbue even simple forms with personality.
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do">
+<DoDontRow>
+<DoDont>
 <GifPlayer color="dark">
 
 ![Animated illustration](/videos/animation/animation-tt-consistency-do.gif)
 ![Animated illustration](/images/animation/animation-tt-consistency-do.png)
 
 </GifPlayer>
-</DoDontExample>
-</Column>
+</DoDont>
 
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont">
+<DoDont type="dont">
 <GifPlayer color="dark">
 
 ![Animated illustration](/videos/animation/animation-tt-consistency-dont.gif)
 ![Animated illustration](/images/animation/animation-tt-consistency-dont.png)
 
 </GifPlayer >
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Personality
 
@@ -241,29 +240,27 @@ Our animations should always seek a balance between natural and engineered in to
 
 Elements move decisively, efficiently and with purpose. Align to the grid. Snap into place. Use momentum to instigate crisp transitions. While no single detail will be immediately noticeable, this precision and attention to detail is palpable and felt when applied holistically.
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="A clear intent and precise movements communicate purpose.">
-<GifPlayer color="dark">
+<DoDontRow>
+<DoDont caption="A clear intent and precise movements communicate purpose.">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-precision1.mp4)
+<Video src="/videos/animation/animation-tt-precision1.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-precision1.png)
 
 </GifPlayer>
-</DoDontExample>
-</Column>
+</DoDont>
 
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Avoid superfluous motion.">
-<GifPlayer color="dark">
+<DoDont type="dont" caption="Avoid superfluous motion.">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-precision2.mp4)
+<Video src="/videos/animation/animation-tt-precision2.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-precision2.png)
 
 </GifPlayer >
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ### Rhythm
 
@@ -271,9 +268,10 @@ Establishing a sense of rhythm in motion is essential to well-paced and understa
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
-<GifPlayer>
+<GifPlayer className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-rhythm1.mp4)
+<Video src="/videos/animation/animation-tt-rhythm1.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-rhythm1.png)
 
 </GifPlayer>
@@ -282,9 +280,10 @@ Establishing a sense of rhythm in motion is essential to well-paced and understa
 
 </Column>
 <Column colMd={4} colLg={4}>
-<GifPlayer>
+<GifPlayer className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-rhythm2.mp4)
+<Video src="/videos/animation/animation-tt-rhythm2.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-rhythm2.png)
 
 </GifPlayer>
@@ -300,29 +299,27 @@ A well-animated object should feel effortless and elegant, with a fluidity to it
 
 In general, refrain from employing stepped, stilted or disorderly motion. Technically, this motion requires animating at or above 24 frames per second (FPS) to help ensure smooth performances.
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Aim for smooth and seamless movements.">
-<GifPlayer color="dark">
+<DoDontRow>
+<DoDont caption="Aim for smooth and seamless movements.">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-fluidity-do.mp4)
+<Video src="/videos/animation/animation-tt-fluidity-do.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-fluidity-do.png)
 
 </GifPlayer>
-</DoDontExample>
-</Column>
+</DoDont>
 
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Don’t use a frame rate lower than 24 frames per second.">
-<GifPlayer color="dark">
+<DoDont type="dont" caption="Don’t use a frame rate lower than 24 frames per second.">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-fluidity-dont.mp4)
+<Video src="/videos/animation/animation-tt-fluidity-dont.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-fluidity-dont.png)
 
 </GifPlayer >
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Physicality
 
@@ -334,9 +331,10 @@ Charm and spirit can be produced through collisions, moments of friction and sli
 
 <Row className="mock-gallery">
 <Column colMd={8} colLg={8}>
-<GifPlayer color="dark">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-momentum.mp4)
+<Video src="/videos/animation/animation-tt-momentum.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-momentum.png)
 
 </GifPlayer>
@@ -347,29 +345,27 @@ Charm and spirit can be produced through collisions, moments of friction and sli
 
 Consider what the element to be animated represents, especially in higher-fidelity and dimensional executions. Intuitively, viewers expect things to behave as they do in reality; feathers shouldn’t fall like lead, stone shouldn’t stretch like rubber. Treating recognizable objects with a sense of stylized realism can be an effective way to create interest.
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do">
-<GifPlayer color="dark">
+<DoDontRow>
+<DoDont>
+<GifPlayer color="dark"className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-volume-do.mp4)
+<Video src="/videos/animation/animation-tt-volume-do.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-volume-do.png)
 
 </GifPlayer>
-</DoDontExample>
-</Column>
+</DoDont>
 
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont">
-<GifPlayer color="dark">
+<DoDont type="dont">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-volume-dont.mp4)
+<Video src="/videos/animation/animation-tt-volume-dont.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-volume-dont.png)
 
 </GifPlayer >
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Structure
 
@@ -381,9 +377,10 @@ Sequential animations are intended to depict a sequence of events with deliberat
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
-<GifPlayer color="dark">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-sequential.mp4)
+<Video src="/videos/animation/animation-tt-sequential.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-sequential.png)
 
 </GifPlayer>
@@ -396,9 +393,10 @@ Loops will continue in a usually seamless cycle and often only convey a singular
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
-<GifPlayer color="dark">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-simple-loop.mp4)
+<Video src="/videos/animation/animation-tt-simple-loop.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-simple-loop.png)
 
 </GifPlayer>
@@ -407,29 +405,27 @@ Loops will continue in a usually seamless cycle and often only convey a singular
 
 ### Nested Loops
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Offset loops to guide attention in sequence for region to region.">
-<GifPlayer>
+<DoDontRow>
+<DoDont caption="Offset loops to guide attention in sequence for region to region.">
+<GifPlayer className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-nested-loop-do.mp4)
+<Video src="/videos/animation/animation-tt-nested-loop-do.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-nested-loop-do.png)
 
 </GifPlayer>
-</DoDontExample>
-</Column>
+</DoDont>
 
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Avoid excessive overlaps in action.">
-<GifPlayer>
+<DoDont type="dont" caption="Avoid excessive overlaps in action.">
+<GifPlayer className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-nested-loop-dont.mp4)
+<Video src="/videos/animation/animation-tt-nested-loop-dont.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-nested-loop-dont.png)
 
 </GifPlayer >
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Type
 
@@ -439,91 +435,53 @@ Type is an essential component of our communications. Accordingly, care must be 
 
 Whether revealing a block of type as a whole or animating individual elements—line by line, word by word, even per character—our approach to type should reinforce the natural rhythm of reading by appearing left to right, top to bottom. And, as with graphic elements, type should only ever be animated on one axis at a time, and be allowed enough time in frame to be legible and comprehensible to a viewer.
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do">
-<GifPlayer color="dark">
+<DoDontRow>
+<DoDont>
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-presentation-do.mp4)
+<Video src="/videos/animation/animation-tt-presentation-do.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-presentation-do.png)
 
 </GifPlayer>
-</DoDontExample>
-</Column>
+</DoDont>
 
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont">
-<GifPlayer color="dark">
+<DoDont type="dont">
+<GifPlayer color="dark" className="video-player">
 
-![Animated illustration](/videos/animation/animation-tt-presentation-dont.mp4)
+<Video src="/videos/animation/animation-tt-presentation-dont.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-presentation-dont.png)
 
 </GifPlayer >
-</DoDontExample>
-</Column>
-</Row>
+</DoDont>
+</DoDontRow>
 
 ### Integrity
 
 IBM Plex is designed to be a representation of our brand—every decision and detail made with purpose.  As such, the integrity of any typographic element must be maintained at all times. Refrain from stretching, warping, or otherwise distorting any form or detail, regardless of if it’s a single glyph or an entire paragraph.
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do">
-<GifPlayer color="dark">
-
-![Animated illustration](/videos/animation/animation-tt-integrity-do.mp4)
-![Animated illustration](/images/animation/animation-tt-integrity-do.png)
-
-</GifPlayer>
-</DoDontExample>
-</Column>
-
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont">
-<GifPlayer color="dark">
-
-![Animated illustration](/videos/animation/animation-tt-integrity-dont.mp4)
-![Animated illustration](/images/animation/animation-tt-integrity-dont.png)
-
-</GifPlayer>
-</DoDontExample>
-</Column>
-</Row>
-
-
-### Testing 1
-
 <DoDontRow>
 
   <DoDont type="do" aspectRatio="1:1">
-  <GifPlayer color="dark">
-  <Video src="/videos/animation/animation-tt-integrity-do.mp4" poster="/images/animation/animation-tt-integrity-do.png" autoplay="on" loop="on"> 
-  </Video>
+  <GifPlayer color="dark" className="video-player">
+
+  <Video src="/videos/animation/animation-tt-integrity-do.mp4" poster="/images/animation/animation-tt-integrity-do.png" autoPlay loop="on" muted/>
+
+  ![Animated illustration](/images/animation/animation-tt-integrity-do.png)
+
   </GifPlayer>
   </DoDont>
 
   <DoDont type="dont" aspectRatio="1:1">
-  <GifPlayer color="dark">
-  <Video src="/videos/animation/animation-tt-integrity-dont.mp4" poster="/images/animation/animation-tt-integrity-dont.png" autoplay="on" loop="on"> 
-  </Video>
+  <GifPlayer color="dark" className="video-player">
+
+  <Video src="/videos/animation/animation-tt-integrity-dont.mp4" poster="/images/animation/animation-tt-integrity-dont.png" autoPlay loop="on" muted/>
+
+  ![Animated illustration](/images/animation/animation-tt-integrity-dont.png)
+
   </GifPlayer>
   </DoDont>
 
 </DoDontRow>
 
-### Testing 2
-
-<DoDontRow>
-
-  <DoDont type="do" aspectRatio="1:1">
-  <Video src="/videos/animation/animation-tt-integrity-do.mp4" poster="/images/animation/animation-tt-integrity-do.png" autoplay="on" loop="on"> 
-  </Video>
-  </DoDont>
-
-  <DoDont type="dont" aspectRatio="1:1">
-  <Video src="/videos/animation/animation-tt-integrity-dont.mp4" poster="/images/animation/animation-tt-integrity-dont.png" autoplay="on" loop="on"> 
-  </Video>
-  </DoDont>
-
-</DoDontRow>
