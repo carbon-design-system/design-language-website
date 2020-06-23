@@ -20,3 +20,24 @@
 .post-video-row {
   margin-top: rem(80px);
 }
+
+//---------------------------------------
+// Principles page
+//---------------------------------------
+.principles-section {
+  --space: 24px;
+  padding-top: 2rem;
+}
+
+.principles-section:before {
+  content: '';
+  display: block;
+  background: $ui-04;
+  height: 1px;
+  width: calc(100% - 2rem);
+  margin: 0rem 1rem 1.5rem 1rem;
+}
+
+.principles-section h2 {
+  margin-top: 0;
+}
