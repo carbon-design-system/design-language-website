@@ -103,9 +103,9 @@ Maintain a focal point of interest and seek out seamless means of transferring i
 <Column colMd={8} colLg={8}>
 <GifPlayer>
 
-<LottiePlayer src={import(`../../lottie/test.json`)}/>
+<LottiePlayer src={import(`../../lottie/animation-tt-focus.json`)}/>
 
-![Animated illustration](/images/animation/animation-tt-attention.png)
+![Animated illustration](/images/animation/animation-tt-focus.png)
 
 </GifPlayer>
 
@@ -122,21 +122,21 @@ Efficient, single-axis translations feel deliberate and unobtrusive, while untet
 
 <DoDontRow>
 <DoDont caption="Controlled camera movements support action.">
-<GifPlayer className="video-player">
+<GifPlayer>
 
-<Video src="/videos/animation/animation-tt-focus1.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-camera1.json`)}/>
 
-![Animated illustration](/images/animation/animation-tt-focus1.png)
+![Animated illustration](/images/animation/animation-tt-camera1.png)
 
 </GifPlayer>
 </DoDont>
 
 <DoDont type="dont" caption="Avoid uncontrolled action cameras.">
-<GifPlayer className="video-player">
+<GifPlayer>
 
-<Video src="/videos/animation/animation-tt-focus2.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-camera2.json`)}/>
 
-![Animated illustration](/images/animation/animation-tt-focus2.png)
+![Animated illustration](/images/animation/animation-tt-camera2.png)
 
 </GifPlayer >
 </DoDont>
@@ -152,9 +152,9 @@ Every element in a composition has the potential for movement, but every movemen
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
-<GifPlayer className="video-player">
+<GifPlayer>
 
-<Video src="/videos/animation/animation_tt_complexity1.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-complexity1.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-complexity1-poster.png)
 
@@ -164,9 +164,9 @@ Every element in a composition has the potential for movement, but every movemen
 
 </Column>
 <Column colMd={4} colLg={4}>
-<GifPlayer className="video-player">
+<GifPlayer>
 
-<Video src="/videos/animation/animation_tt_complexity2.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-complexity2.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-complexity2-poster.jpg)
 
@@ -185,9 +185,9 @@ A similar level of attention should be paid to the briefest of moments. For exam
 
 <DoDontRow>
 <DoDont caption="Caption">
-<GifPlayer color="dark" className="video-player">
+<GifPlayer color="dark">
 
-<Video src="/videos/animation/animation-tt-detail-do.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-detail-do.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-detail-do.png)
 
@@ -195,9 +195,9 @@ A similar level of attention should be paid to the briefest of moments. For exam
 </DoDont>
 
 <DoDont type="dont" caption="Caption">
-<GifPlayer color="dark" className="video-player">
+<GifPlayer color="dark">
 
-<Video src="/videos/animation/animation-tt-detail-dont.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-detail-dont.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-detail-dont.png)
 
@@ -217,7 +217,8 @@ In more illustrative scenarios, consistency can help demonstrate the role and fu
 <DoDont>
 <GifPlayer color="dark">
 
-![Animated illustration](/videos/animation/animation-tt-consistency-do.gif)
+<LottiePlayer src={import(`../../lottie/animation-tt-consistency-do.json`)}/>
+
 ![Animated illustration](/images/animation/animation-tt-consistency-do.png)
 
 </GifPlayer>
@@ -226,7 +227,8 @@ In more illustrative scenarios, consistency can help demonstrate the role and fu
 <DoDont type="dont">
 <GifPlayer color="dark">
 
-![Animated illustration](/videos/animation/animation-tt-consistency-dont.gif)
+<LottiePlayer src={import(`../../lottie/animation-tt-consistency-dont.json`)}/>
+
 ![Animated illustration](/images/animation/animation-tt-consistency-dont.png)
 
 </GifPlayer >
@@ -243,9 +245,9 @@ Elements move decisively, efficiently and with purpose. Align to the grid. Snap 
 
 <DoDontRow>
 <DoDont caption="A clear intent and precise movements communicate purpose.">
-<GifPlayer color="dark" className="video-player">
+<GifPlayer color="dark">
 
-<Video src="/videos/animation/animation-tt-precision1.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-precision-do.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-precision1.png)
 
@@ -253,9 +255,9 @@ Elements move decisively, efficiently and with purpose. Align to the grid. Snap 
 </DoDont>
 
 <DoDont type="dont" caption="Avoid superfluous motion.">
-<GifPlayer color="dark" className="video-player">
+<GifPlayer color="dark">
 
-<Video src="/videos/animation/animation-tt-precision2.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-precision-dont.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-precision2.png)
 
@@ -302,9 +304,9 @@ In general, refrain from employing stepped, stilted or disorderly motion. Techni
 
 <DoDontRow>
 <DoDont caption="Aim for smooth and seamless movements.">
-<GifPlayer color="dark" className="video-player">
+<GifPlayer color="dark">
 
-<Video src="/videos/animation/animation-tt-fluidity-do.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-fluidity-do.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-fluidity-do.png)
 
@@ -312,9 +314,9 @@ In general, refrain from employing stepped, stilted or disorderly motion. Techni
 </DoDont>
 
 <DoDont type="dont" caption="Don’t use a frame rate lower than 24 frames per second.">
-<GifPlayer color="dark" className="video-player">
+<GifPlayer color="dark">
 
-<Video src="/videos/animation/animation-tt-fluidity-dont.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-fluidity-dont.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-fluidity-dont.png)
 
@@ -332,9 +334,9 @@ Charm and spirit can be produced through collisions, moments of friction and sli
 
 <Row className="mock-gallery">
 <Column colMd={8} colLg={8}>
-<GifPlayer color="dark" className="video-player">
+<GifPlayer color="dark">
 
-<Video src="/videos/animation/animation-tt-momentum.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-momentum.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-momentum.png)
 
@@ -414,6 +416,7 @@ Loops will continue in a usually seamless cycle and often only convey a singular
 <GifPlayer color="dark" className="video-player">
 
 <Video src="/videos/animation/animation-tt-simple-loop-mobile.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-simple-loop-mobile.png)
 
 </GifPlayer>
@@ -421,6 +424,7 @@ Loops will continue in a usually seamless cycle and often only convey a singular
 <GifPlayer color="dark" className="video-player">
 
 <Video src="/videos/animation/animation-tt-simple-loop-wide.mp4" autoPlay loop="on" muted/>
+
 ![Animated illustration](/images/animation/animation-tt-simple-loop-wide.png)
 
 </GifPlayer>
@@ -433,9 +437,9 @@ Loops will continue in a usually seamless cycle and often only convey a singular
 
 <DoDontRow>
 <DoDont caption="Offset loops to guide attention in sequence for region to region.">
-<GifPlayer className="video-player">
+<GifPlayer>
 
-<Video src="/videos/animation/animation-tt-nested-loop-do.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-nested-loop-do.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-nested-loop-do.png)
 
@@ -443,9 +447,9 @@ Loops will continue in a usually seamless cycle and often only convey a singular
 </DoDont>
 
 <DoDont type="dont" caption="Avoid excessive overlaps in action.">
-<GifPlayer className="video-player">
+<GifPlayer>
 
-<Video src="/videos/animation/animation-tt-nested-loop-dont.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-nested-loop-dont.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-nested-loop-dont.png)
 
@@ -463,9 +467,9 @@ Whether revealing a block of type as a whole or animating individual elements—
 
 <DoDontRow>
 <DoDont>
-<GifPlayer color="dark" className="video-player">
+<GifPlayer color="dark">
 
-<Video src="/videos/animation/animation-tt-presentation-do.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-presentation-do.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-presentation-do.png)
 
@@ -473,9 +477,9 @@ Whether revealing a block of type as a whole or animating individual elements—
 </DoDont>
 
 <DoDont type="dont">
-<GifPlayer color="dark" className="video-player">
+<GifPlayer color="dark">
 
-<Video src="/videos/animation/animation-tt-presentation-dont.mp4" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-presentation-dont.json`)}/>
 
 ![Animated illustration](/images/animation/animation-tt-presentation-dont.png)
 
@@ -489,25 +493,25 @@ IBM Plex is designed to be a representation of our brand—every decision and de
 
 <DoDontRow>
 
-  <DoDont type="do" aspectRatio="1:1">
-  <GifPlayer color="dark" className="video-player">
+<DoDont type="do">
+<GifPlayer color="dark">
 
-  <Video src="/videos/animation/animation-tt-integrity-do.mp4" poster="/images/animation/animation-tt-integrity-do.png" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-integrity-do.json`)}/>
 
-  ![Animated illustration](/images/animation/animation-tt-integrity-do.png)
+![Animated illustration](/images/animation/animation-tt-integrity-do.png)
 
-  </GifPlayer>
-  </DoDont>
+</GifPlayer>
+</DoDont>
 
-  <DoDont type="dont" aspectRatio="1:1">
-  <GifPlayer color="dark" className="video-player">
+<DoDont type="dont">
+<GifPlayer color="dark">
 
-  <Video src="/videos/animation/animation-tt-integrity-dont.mp4" poster="/images/animation/animation-tt-integrity-dont.png" autoPlay loop="on" muted/>
+<LottiePlayer src={import(`../../lottie/animation-tt-integrity-dont.json`)}/>
 
-  ![Animated illustration](/images/animation/animation-tt-integrity-dont.png)
+![Animated illustration](/images/animation/animation-tt-integrity-dont.png)
 
-  </GifPlayer>
-  </DoDont>
+</GifPlayer>
+</DoDont>
 
 </DoDontRow>
 
