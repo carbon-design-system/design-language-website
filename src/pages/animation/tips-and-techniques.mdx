@@ -97,7 +97,7 @@ Motion is exceptionally useful in capturing attention. How we use motion to dire
 
 ### Focus
 
-Maintain a focal point of interest and seek out seamless means of transferring it from one subject to the next. A viewer’s attention is an investment. With the brief and dense nature of most animation, be cognizant of how you capture and shift a viewer's focus to minimize confusion and fatigue.
+Maintain a focal point of interest and seek out a seamless means of transferring it from one subject to the next. A viewer’s attention is an investment. With the brief and dense nature of most animation, be cognizant of how you capture and shift a viewer's focus to minimize confusion and fatigue.
 
 <Row className="mock-gallery">
 <Column colMd={8} colLg={8}>
@@ -109,7 +109,7 @@ Maintain a focal point of interest and seek out seamless means of transferring i
 
 </GifPlayer>
 
-<Caption>A commanding performance begins a sequence that leads the eye from right to left.</Caption>
+<Caption>A commanding performance begins this sequence that leads the eye from right to left.</Caption>
 
 </Column>
 </Row>
@@ -118,7 +118,7 @@ Maintain a focal point of interest and seek out seamless means of transferring i
 
 Cameras are the mechanism through which we present our view of the world to an observer and, therefore, must be treated with the utmost care to maintain an attitude of confidence and positivity. 
 
-Efficient, single-axis translations feel deliberate and unobtrusive, while untethered, dynamic moves impart a sense of chaos and uncertainty. If creating a dynamic animated camera is absolutely necessary, ensure its movement remains controlled, clearly focused and positioned to create balanced compositions.
+Efficient, single-axis translations feel deliberate and unobtrusive, while untethered, dynamic moves impart a sense of chaos and uncertainty. If creating a dynamically animated camera is absolutely necessary, ensure its movement remains controlled, clearly focused and positioned to create balanced compositions.
 
 <DoDontRow>
 <DoDont caption="Controlled camera movements support action.">
@@ -144,11 +144,11 @@ Efficient, single-axis translations feel deliberate and unobtrusive, while untet
 
 ## Visual clarity
 
-Our animations should be simple and straightforward in their effect by not only respecting the integrity of their original design but enhancing and evolving it.
+Our animations should be simple and straightforward in their effect by not only respecting the integrity of their original design but also by enhancing and evolving it.
 
 ### Complexity
 
-Every element in a composition has the potential for movement, but every movement of an element increases the density of information presented to a viewer. This dynamic intuitively leads us to apply an inverse relationship between the complexity of a design and the complexity of animation. In general, minimally populated compositions lend themselves to more expressive and expansive animation, while dense and complex designs benefit from smaller, more textural motion.
+Every element in a composition has the potential for movement, but every movement of an element increases the density of information presented to a viewer. This dynamic intuitively leads us to apply an inverse relationship between the complexity of a design and the complexity of an animation. In general, minimally populated compositions lend themselves to more expressive and expansive animation, while dense and complex designs benefit from smaller, more textural motion.
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
@@ -214,7 +214,7 @@ Making broad, consistent choices defines a framework for how we present informat
 In more illustrative scenarios, consistency can help demonstrate the role and function of abstract elements or define a baseline of behavior against which abrupt changes and influences become more noticeable. Setting expectations and, in some cases, subverting them is an excellent way to convey novel cause and effect, and imbue even simple forms with personality.
 
 <DoDontRow>
-<DoDont>
+<DoDont caption="Reward expectations through consistent choices.">
 <GifPlayer color="dark">
 
 <LottiePlayer src={import(`../../lottie/animation-tt-consistency-do.json`)}/>
@@ -224,8 +224,8 @@ In more illustrative scenarios, consistency can help demonstrate the role and fu
 </GifPlayer>
 </DoDont>
 
-<DoDont type="dont">
-<GifPlayer color="dark">
+<DoDont type="dont" caption="Avoid the misinterpretation that can follow capricious movement.">
+<GifPlayer color="dark" caption="Avoid the misinterpretation that can follow capricious movement.">
 
 <LottiePlayer src={import(`../../lottie/animation-tt-consistency-dont.json`)}/>
 
@@ -267,7 +267,7 @@ Elements move decisively, efficiently and with purpose. Align to the grid. Snap 
 
 ### Rhythm
 
-Establishing a sense of rhythm in motion is essential to well-paced and understandable animations–rarely does everything happen at once. No matter which tactic we use to choreograph action into sequences, they all contribute to an ebb and flow of activity that creates a pleasing rhythm and allows the viewer a mental pause before continuing. Tactics can include translating objects along already defined paths with slightly offset timings, showing deliberate moments of cause and effect or allowing elements to move purposefully and then rest.
+Establishing a sense of rhythm in motion is essential to well-paced and understandable animations–rarely does everything happen at once. No matter which tactic you use to choreograph action into sequences, they all contribute to an ebb and flow of activity that creates a pleasing rhythm and allows the viewer a mental pause before continuing. Tactics can include translating objects along already defined paths with slightly offset timings, showing deliberate moments of cause and effect or allowing elements to move purposefully and then rest.
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
@@ -279,7 +279,7 @@ Establishing a sense of rhythm in motion is essential to well-paced and understa
 
 </GifPlayer>
 
-<Caption>Stagger hero performances.</Caption>
+<Caption>Achieve effective rhythm with staggered hero performances.</Caption>
 
 </Column>
 <Column colMd={4} colLg={4}>
@@ -300,7 +300,7 @@ Establishing a sense of rhythm in motion is essential to well-paced and understa
 
 A well-animated object should feel effortless and elegant, with a fluidity to its motion—not in the path it takes, but the finesse with which it moves. Pay close attention to how each attribute is animated and the transition between movements. 
 
-In general, refrain from employing stepped, stilted or disorderly motion. Technically, this motion requires animating at or above 24 frames per second (FPS) to help ensure smooth performances.
+In general, refrain from employing stepped, stilted or disorderly motion. Technically, motion requires animating at or above 24 frames per second (FPS) to help ensure smooth performances.
 
 <DoDontRow>
 <DoDont caption="Aim for smooth and seamless movements.">
@@ -349,7 +349,7 @@ Charm and spirit can be produced through collisions, moments of friction and sli
 Consider what the element to be animated represents, especially in higher-fidelity and dimensional executions. Intuitively, viewers expect things to behave as they do in reality; feathers shouldn’t fall like lead, stone shouldn’t stretch like rubber. Treating recognizable objects with a sense of stylized realism can be an effective way to create interest.
 
 <DoDontRow>
-<DoDont>
+<DoDont caption="Use motion that underscores the object in reality.">
 <GifPlayer color="dark" className="video-player">
 
 <Video src="/videos/animation/animation-tt-volume-do.mp4" autoPlay loop="on" muted/>
@@ -357,26 +357,30 @@ Consider what the element to be animated represents, especially in higher-fideli
 ![Animated illustration](/images/animation/animation-tt-volume-do.png)
 
 </GifPlayer>
+
+<Caption></Caption>
+
 </DoDont>
 
-<DoDont type="dont">
+<DoDont type="dont" caption="Avoid motion that contradicts the object in reality.">
 <GifPlayer color="dark" className="video-player">
 
 <Video src="/videos/animation/animation-tt-volume-dont.mp4" autoPlay loop="on" muted/>
 
 ![Animated illustration](/images/animation/animation-tt-volume-dont.png)
 
-</GifPlayer >
+</GifPlayer>
 </DoDont>
+
 </DoDontRow>
 
 ## Structure
 
-Animated illustrations inevitably fall into one of two categories—looped or sequential. Although a technical specification, this distinction also helps to define how a message is structured.
+Animated illustrations inevitably fall into one of two categories—sequential or looped. Although a technical specification, this distinction also helps to define how a message is structured.
 
 ### Sequential
 
-Sequential animations are intended to depict a sequence of events with deliberate start and end points—an A to B narrative. Whether they then settle into a loop state or reset to begin again, sequential animations are typically more anecdotal and linear in their message than loops.
+Sequential animations are intended to depict a sequence of events with deliberate start points and endpoints—an A to B narrative. Whether they then settle into a loop state or reset to begin again, sequential animations are typically more anecdotal and linear in their message than loops.
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={8}>
@@ -401,12 +405,14 @@ Sequential animations are intended to depict a sequence of events with deliberat
 
 </ArtDirection>
 
+<Caption>Sequential movement leads a viewer along a prescribed path.</Caption>
+
 </Column>
 </Row>
 
-### Simple Loops
+### Simple loops
 
-Loops will continue in a usually seamless cycle and often only convey a singular idea or message. This loop may be a series of states aligned to one topic or an overall ambient effect that draws focus and sets a particular tone.
+Loops continue in a usually seamless cycle and often only convey a singular idea or message. The loop may be a series of states aligned to one topic or an overall ambient effect that draws focus and sets a particular tone.
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={8}>
@@ -430,13 +436,16 @@ Loops will continue in a usually seamless cycle and often only convey a singular
 </GifPlayer>
 
 </ArtDirection>
+
+<Caption>Use simple loops to convey individual concepts.</Caption>
+
 </Column>
 </Row>
 
-### Nested Loops
+### Nested loops
 
 <DoDontRow>
-<DoDont caption="Offset loops to guide attention in sequence for region to region.">
+<DoDont caption="Offset loops to guide attention in sequence from region to region.">
 <GifPlayer>
 
 <LottiePlayer src={import(`../../lottie/animation-tt-nested-loop-do.json`)}/>
@@ -459,14 +468,14 @@ Loops will continue in a usually seamless cycle and often only convey a singular
 
 ## Type
 
-Type is an essential component of our communications. Accordingly, care must be taken in animation to present type in a manner that is natural and understandable to our viewers.
+Type is an essential component of our communications. Accordingly, care must be taken in animation to present type in a manner that's natural and understandable to our viewers.
 
 ### Presentation
 
-Whether revealing a block of type as a whole or animating individual elements—line by line, word by word, even per character—our approach to type should reinforce the natural rhythm of reading by appearing left to right, top to bottom. And, as with graphic elements, type should only ever be animated on one axis at a time, and be allowed enough time in frame to be legible and comprehensible to a viewer.
+Whether revealing a block of type as a whole or animating individual elements—line by line, word by word, even character by character—our approach to type should reinforce the natural rhythm of reading, typically by appearing left to right, top to bottom. And, as with graphic elements, type should only be animated on one axis at a time, and be left in the frame long enough to be legible and comprehensible to the viewer.
 
 <DoDontRow>
-<DoDont>
+<DoDont caption="Reveal type with orientation that supports comprehension.">
 <GifPlayer color="dark">
 
 <LottiePlayer src={import(`../../lottie/animation-tt-presentation-do.json`)}/>
@@ -476,7 +485,7 @@ Whether revealing a block of type as a whole or animating individual elements—
 </GifPlayer>
 </DoDont>
 
-<DoDont type="dont">
+<DoDont type="dont" caption="Avoid centered paragraphs and revealing type over multiple axes simultaneously.">
 <GifPlayer color="dark">
 
 <LottiePlayer src={import(`../../lottie/animation-tt-presentation-dont.json`)}/>
@@ -489,7 +498,7 @@ Whether revealing a block of type as a whole or animating individual elements—
 
 ### Integrity
 
-IBM Plex is designed to be a representation of our brand—every decision and detail made with purpose.  As such, the integrity of any typographic element must be maintained at all times. Refrain from stretching, warping, or otherwise distorting any form or detail, regardless of if it’s a single glyph or an entire paragraph.
+The IBM Plex® typeface is designed to be a representation of our brand, where every detail reflects a decision made with purpose. As such, the integrity of any typographic element must be maintained at all times. Refrain from stretching, warping, or otherwise distorting any form or detail, regardless whether it’s a single glyph or an entire paragraph.
 
 <DoDontRow>
 
@@ -514,4 +523,3 @@ IBM Plex is designed to be a representation of our brand—every decision and de
 </DoDont>
 
 </DoDontRow>
-
