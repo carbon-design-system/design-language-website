@@ -2,7 +2,7 @@
 
 This is the [IBM Design Language website](http://www.ibm.com/design/language) which is built using the [gatsby-theme-carbon](https://gatsby-theme-carbon.now.sh/) with GatsbyJS.
 
-## 📂 Structure
+## 📂 Project structure
 
 ```
 src
