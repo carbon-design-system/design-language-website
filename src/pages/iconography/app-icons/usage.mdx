@@ -4,6 +4,8 @@ description: App icons represent products or services within web platforms and m
 tabs: [Design, Usage, Production]
 ---
 
+import { mockGallery, noGutterSm } from '../../../styles/Grid.module.scss';
+
 <PageDescription>
 
 While app icons follow the same usage conventions as IBM UI icons when used in product and web platforms, there are differences when they are used in native OS applications and app store environments. Check the gallery of existing app icons when designing a new one to avoid confusion from similarities with those icons already in use.
@@ -98,7 +100,7 @@ Color app icons may be placed on background color values 10–20 and 90–100. U
 | 50–80                   | –                | Gray 10                  |
 | 90, 100, black          | Dark theme       | Gray 10                  |
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={4}>
 
 ![App icon on dark background](images/2_2-6_NativeOS_Background1.svg)
@@ -111,7 +113,7 @@ Color app icons may be placed on background color values 10–20 and 90–100. U
 </Column>
 </Row>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={4}>
 
 ![Monochromatic app icon on light background](images/2_2-8_NativeOS_Background3.svg)

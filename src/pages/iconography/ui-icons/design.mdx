@@ -4,6 +4,8 @@ description: The style, strokes, perspective, corners and angles of IBM icons al
 tabs: [Library, Design, Usage, Contribute]
 ---
 
+import { mockGallery, noGutterSm } from '../../../styles/Grid.module.scss';
+
 <PageDescription>
 
 As visual symbols, IBM user interface icons represent ideas, objects or actions. They can communicate messages at a glance, afford interactivity, and draw attention to important information. Based on details from the IBM Plex® typeface, they work well at small sizes.
@@ -214,7 +216,7 @@ The stylistic conventions of IBM icons deliver a meaningful bond with our typefa
 
 <Video src="/videos/icon-style.mp4" poster="/images/icon-style-poster.jpg" />
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={6}>
 <ArtDirection>
 
@@ -237,7 +239,7 @@ The stylistic conventions of IBM icons deliver a meaningful bond with our typefa
 </Column>
 </Row>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={6}>
 
 ![slab characteristics](../images/style-slab-characteristics.svg)

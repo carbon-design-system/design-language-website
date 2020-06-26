@@ -9,6 +9,7 @@ import {
 
 import { Illustrator, Github } from './Icons';
 import { noResult, allSvgs, searchLabel } from './SvgLibrary.module.scss';
+import '../../../../src/styles/Grid.module.scss';
 
 const NoResult = ({
   allIconResults,
