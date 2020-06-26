@@ -4,7 +4,6 @@ module.exports = {
   },
   pathPrefix: '/design/language',
   plugins: [
-    'gatsby-theme-carbon-svgs',
     {
       resolve: 'gatsby-theme-carbon',
       options: {
