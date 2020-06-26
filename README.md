@@ -1,6 +1,6 @@
 # IBM Design Language website
 
-This is the [IBM Design Language website](http://www.ibm.com/design/language) which is built using the [gatsby-theme-carbon](https://gatsby-theme-carbon.now.sh/) with GatsbyJS.
+This is website for [IBM Design Language website](http://www.ibm.com/design/language) which is built using the [gatsby-theme-carbon](https://gatsby-theme-carbon.now.sh/) with GatsbyJS.
 
 ## 📂 Structure
 
