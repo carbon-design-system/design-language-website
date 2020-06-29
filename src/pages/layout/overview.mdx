@@ -2,6 +2,8 @@
 title: Overview
 ---
 
+import { exampleSection, exampleAside } from '../../styles/Grid.module.scss';
+
 <PageDescription>
 
 The layout is where all the elements of communication come together. A good layout requires careful planning and use of composition, which relies on principles such as hierarchy, scale, proportion, contrast, harmony, rhythm, repetition, and many more.
@@ -16,7 +18,7 @@ While our look has evolved and will continue to evolve, what defines it is our a
 
 When practicing layout and composition, certain criteria should be considered to express our distinct point-of-view. While the aggregate of IBM communications should employ the following design characteristics, individual designs need not feature all equally.
 
-<Row className="example-section">
+<Row className={exampleSection}>
 <Column colMd={2} colLg={4}>
 
 ### Essential
@@ -33,9 +35,10 @@ Our purpose is to be essential to our clients and to the world, and that should 
 
 </Column>
 </Row>
+
 <Row>
 <Column colMd={2} colLg={3} className="hide-mobile">
-<Aside className="example-aside">
+<Aside className={exampleAside}>
 
 **IBM field guides**<br/>
 These field guide covers are expressive, yet minimal. Artwork is left aligned with the typography, and ample negative space makes the design feel light and open.
@@ -48,9 +51,10 @@ These field guide covers are expressive, yet minimal. Artwork is left aligned wi
 
 </Column>
 </Row>
+
 <Row>
 <Column colMd={2} colLg={3} className="hide-mobile">
-<Aside className="example-aside">
+<Aside className={exampleAside}>
 
 **IBM business card**<br/>
 Straightforward and essential, the IBM business card employs a simple grid structure and minimal typography. The eye is brought first to the logo and the name, then guided toward the employee information through alignment.
@@ -64,9 +68,10 @@ Straightforward and essential, the IBM business card employs a simple grid struc
 
 </Column>
 </Row>
+
 <Row>
 <Column colMd={2} colLg={3} className="hide-mobile">
-<Aside className="example-aside">
+<Aside className={exampleAside}>
 
 **IBM Security Connect**<br/>
 Essential design is especially crucial in software products. This open and utilitarian layout guides the user through clear hierarchy, simple structure, and purposeful use of color.
@@ -79,7 +84,8 @@ Essential design is especially crucial in software products. This open and utili
 
 </Column>
 </Row>
-<Row className="example-section">
+
+<Row className={exampleSection}>
 <Column colMd={2} colLg={4}>
 
 ### Dynamic
@@ -97,9 +103,10 @@ At IBM, we continuously adapt to the evolving needs of our clients to solve the 
 
 </Column>
 </Row>
+
 <Row>
 <Column colMd={2} colLg={3} className="hide-mobile">
-<Aside className="example-aside">
+<Aside className={exampleAside}>
 
 **Everyday Ethics for AI**<br/>
 The variation of layout throughout this field guide keeps the reader engaged with the content. Note how positive and negative space give the layouts a visual flow.
@@ -117,9 +124,10 @@ The variation of layout throughout this field guide keeps the reader engaged wit
 
 </Column>
 </Row>
+
 <Row>
 <Column colMd={2} colLg={3} className="hide-mobile">
-<Aside className="example-aside">
+<Aside className={exampleAside}>
 
 **IBM Project Debater homepage**<br/>
 Experimentation and playfulness are apparent through use of type, shape, and image. Everything contributes to the creative concept.
@@ -132,9 +140,10 @@ Experimentation and playfulness are apparent through use of type, shape, and ima
 
 </Column>
 </Row>
+
 <Row>
 <Column colMd={2} colLg={3} className="hide-mobile">
-<Aside className="example-aside">
+<Aside className={exampleAside}>
 
 **Blueprint poster**<br/>
 The blueprint event poster shows dynamic movement through the sizing and placement of typography as well as the directionality of the diagram arrows.
@@ -147,7 +156,8 @@ The blueprint event poster shows dynamic movement through the sizing and placeme
 
 </Column>
 </Row>
-<Row className="example-section">
+
+<Row className={exampleSection}>
 <Column colMd={2} colLg={4}>
 
 ### Engineered
@@ -164,9 +174,10 @@ Engineering has always been a part of our DNA. Whether it's industry-leading tec
 
 </Column>
 </Row>
+
 <Row>
 <Column colMd={2} colLg={3} className="hide-mobile">
-<Aside className="example-aside">
+<Aside className={exampleAside}>
 
 **IBM Design philosophy cards**<br/>
 Consistent alignments and type sizes, along with a precise, geometric illustration style, contribute to an engineered aesthetic. Nothing is placed, sized, or styled in any way without reason.
@@ -179,9 +190,10 @@ Consistent alignments and type sizes, along with a precise, geometric illustrati
 
 </Column>
 </Row>
+
 <Row>
 <Column colMd={2} colLg={3} className="hide-mobile">
-<Aside className="example-aside">
+<Aside className={exampleAside}>
 
 **IBM Design Town Hall poster**<br/>
 All elements in the composition are thoughtfully aligned to each other. The canvas is also logically divided into a simple 2-column, 2-row grid.
@@ -194,9 +206,10 @@ All elements in the composition are thoughtfully aligned to each other. The canv
 
 </Column>
 </Row>
+
 <Row>
 <Column colMd={2} colLg={3} className="hide-mobile">
-<Aside className="example-aside">
+<Aside className={exampleAside}>
 
 **IBM Garage posters**<br/>
 The visual system for IBM Garage exposes the underlying grid structure, making the layout logic apparent. The delicate scaffolding shows how elements are sized and placed according to the grid.

@@ -4,6 +4,7 @@ description: The IBM grid is the framework for all the visual elements and typog
 ---
 
 import { PageDescription, AnchorLinks, AnchorLink } from 'gatsby-theme-carbon';
+import { mockGallery, noGutterSm } from '../styles/Grid.module.scss';
 
 <PageDescription>
 
@@ -110,7 +111,7 @@ At the core of the 2x Grid concept is the idea of divisions of two. This can be 
 
 Each application of the grid can require a different grid structure. When constructing the grid, keep in mind these different types of grids and choose which one best serves your need.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={2} colLg={4}>
 
 ![](images/grid-ex-2x-grid-1.svg)
@@ -140,7 +141,7 @@ Add margins to your canvas when you need separation of content from the canvas b
 
 <Video src="/videos/margins.mp4" poster="/images/margins.jpg" />
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={6}>
 
 ![](images/grid-ex-2x-grid-with-margins.png)
@@ -170,7 +171,7 @@ Within the grid, columns and rows are especially important—they give layouts t
 
 <Caption>Columns only</Caption>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={6}>
 
 ![](images/RowsGridExample_v2.png)
@@ -206,7 +207,7 @@ Add gutters to columns and rows when additional space is needed to separate cont
 
 <Video src="/videos/gutters.mp4" poster="/images/gutters.jpg" />
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={6}>
 
 ![](images/grid-ex-with-gutters.png)
@@ -259,7 +260,7 @@ Mini unit sizes based on viewing distance:
 | 4–8m          | 32mm      | Print viewed from across a room   | 96pt                        |
 | 8–16m         | 64mm      | Print viewed from across a street | 192pt                       |
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={2} colLg={4}>
 
 ![](images/mini-unit-2mm.svg)
@@ -320,7 +321,7 @@ For advanced typographic layouts, consider creating a base unit from the leading
 
 The baseline unit can be used to construct all of the grid proportions, or you can take a hybrid approach by using the mini unit to create your grid and a baseline grid to guide your content.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={6}>
 
 ![](images/BaselineGrid-01.svg)
@@ -377,7 +378,7 @@ All spacing between elements can be defined by the base unit. Use the following 
 
 </ArtDirection>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={4} colLg={6}>
 
 ![](images/StandingBannerExample_v2.png)
@@ -448,7 +449,7 @@ The 8 column structure pictured below will be sufficient for most layouts. If re
       subTitle="2x video grid template"
       aspectRatio="2:1"
       actionIcon="download"
-      href="../../design/language/files/2x_video_grid.ai"
+      href="https://www.ibm.com/design/language/files/2x_video_grid.ai"
       >
 
 ![carbon icon](/images/illustrator.png)
