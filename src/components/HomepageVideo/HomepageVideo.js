@@ -6,6 +6,8 @@ import { breakpoints } from '@carbon/layout/es';
 import { ArrowRight20 } from '@carbon/icons-react';
 import VideoInternal from '../VideoInternal';
 
+import '../../styles/Grid.module.scss';
+
 const { prefix } = settings;
 
 class HomepageVideo extends Component {

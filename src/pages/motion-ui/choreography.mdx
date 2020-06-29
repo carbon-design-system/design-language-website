@@ -4,6 +4,8 @@ description: Motion is a powerful tool in designing and communicating for user e
 tabs: [Basics, Choreography, Resources]
 ---
 
+import { mockGallery } from '../../styles/Grid.module.scss';
+
 <PageDescription>
 
 Motion is a powerful tool in designing and building communication and user
@@ -34,7 +36,7 @@ Elements of our interface dance on the 2x Grid. Motion paths trace lines along t
 />
 <Caption>Not staggering horizontal and vertical animations creates a straight diagonal path. It breaks the grid and is harsh to the eye.</Caption>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={3} colLg={4}>
   <Video
     src="/videos/motion/motion-path-grid-delete-do.mp4"
@@ -57,7 +59,7 @@ Elements of our interface dance on the 2x Grid. Motion paths trace lines along t
 </Column>
 </Row>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={3} colLg={4}>
   <Video
     src="/videos/motion/motion-path-grid-sort-do.mp4"
@@ -104,7 +106,7 @@ Pay attention to the spatial relationships between elements and screens, and inf
   poster="/videos/motion/motion-consistency-pt2a.jpg"
 />
 <Caption>
-When the new content panel is on a higher layer, motion is “sliding”, moving content within with the panel. Also always dim the content below when a new layer is introduced above.
+When the new content panel is on a higher layer, motion is “sliding,” moving content within with the panel. Also always dim the content below when a new layer is introduced above.
 </Caption>
 
 <Video
@@ -112,12 +114,12 @@ When the new content panel is on a higher layer, motion is “sliding”, moving
   poster="/videos/motion/motion-consistency-pt2b.jpg"
 />
 <Caption>
-When the new content panel is on the same layer, motion is “pushing”, revealing content within with a mask.
+When the new content panel is on the same layer, motion is “pushing,” revealing content within with a mask.
 </Caption>
 
 Effective use of inconsistency in motion highlights a difference in meaning or intent behind actions with similar visual appearance.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={3} colLg={4}>
   <Video
     src="/videos/motion/motion-consistency-pt3a.mp4"

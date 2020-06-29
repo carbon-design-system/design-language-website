@@ -4,7 +4,7 @@ description: Isometric style illustrations have unique properties and can someti
 tabs: [Design, Usage, Production]
 ---
 
-import "../../../styles/top-margin.scss";
+import { mockGallery, noGutterSm } from '../../../styles/Grid.module.scss';
 
 <PageDescription>
 
@@ -47,7 +47,7 @@ The isometric grid behaves differently than the Adobe Illustrator grids you may 
 - Turn off snap to grid and snap to pixel.
 - Under `(Illustrator > Preferences)`, use the following specifications for Smart Guides:
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={8} colLg={8}>
 
@@ -81,7 +81,7 @@ Perspective can be simulated with simple, rectilinear shapes built on the isomet
 | Top-facing   | 86.6%          | 30°   | -30°   |
 | Right-facing | 86.6%          | 30°   | 30°    |
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -116,7 +116,7 @@ In most cases, we recommend against using Adobe Illustrator’s 3D effects. The 
 
 Simulating dimension with rectilinear objects is rather straightforward, but objects with rounded edges can be tricky. Any rounded object, whether it's a rounded rectangle or a circle, can be constructed using cylinders. From there, it is easy to combine cylinders with rectangular prisms to make rounded rectangles with depth.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -138,7 +138,7 @@ Simulating dimension with rectilinear objects is rather straightforward, but obj
 2. Draw an “X” over the bounding square.
 3. Group the objects and transform them in the desired direction.
 
-   <Row className="mock-gallery">
+   <Row className={mockGallery}>
 
    <Column colMd={4} colLg={4}>
 
@@ -157,7 +157,7 @@ Simulating dimension with rectilinear objects is rather straightforward, but obj
 4. Copy the transformed object and paste it along the grid in the direction of of the depth.
 5. With the Pen Tool, draw a polygon connecting the intersections of the circles and the diagonal lines.
 
-   <Row className="mock-gallery">
+   <Row className={mockGallery}>
 
    <Column colMd={4} colLg={4}>
 
@@ -183,7 +183,7 @@ Simulating dimension with rectilinear objects is rather straightforward, but obj
 7. Select both circles and the polygon and `Add` them together using the `(Window > Pathfinder)` palette.
 8. Paste the circle in place with `(Edit > Paste in place)`.
 
-   <Row className="mock-gallery">
+   <Row className={mockGallery}>
 
    <Column colMd={4} colLg={4}>
 

@@ -1,0 +1,87 @@
+.grid-images [class*='#{$prefix}--col'] {
+    @include carbon--breakpoint-down('md') {
+      padding-right: 0px;
+    }
+  }
+
+// gallery clusters
+.mock-gallery {
+    @include carbon--breakpoint-down('md') {
+      --space: 0;
+    }
+  }
+  
+  .mock-gallery [class*='#{$prefix}--col'] {
+    @include carbon--breakpoint-down('md') {
+      margin-top: 1.5rem;
+    }
+  }
+
+//---------------------------------------
+// Overrides
+//---------------------------------------
+
+// Principles/Layout page
+.principles-section [class*='#{$prefix}--col'],
+.example-section [class*='#{$prefix}--col'] {
+  margin-bottom: 1.5rem;
+  @include carbon--breakpoint('md') {
+    margin-bottom: 0;
+  }
+}
+
+.example-section {
+  padding-top: $layout-06;
+}
+
+.example-section:before {
+  content: '';
+  display: block;
+  background: $ui-04;
+  height: 1px;
+  width: calc(100% - 2rem);
+  margin: -$spacing-07 0 0 $spacing-05;
+}
+
+.example-section h3 {
+  margin-top: 0;
+}
+
+.example-aside {
+  margin-top: $spacing-04;
+}
+
+.example-aside:before {
+  width: $spacing-07 !important;
+  left: 0 !important;;
+}
+
+.#{$prefix}--aspect-ratio--image {
+  background: $carbon--white-0;
+}
+
+.#{$prefix}--aspect-ratio--image .gatsby-resp-image-wrapper {
+  margin: 1rem !important;
+}
+
+//---------------------------------------
+// Principles page
+//---------------------------------------
+.principles-section {
+  --space: 24px;
+  padding-top: 2rem;
+}
+
+.principles-section:before {
+  content: '';
+  display: block;
+  background: $ui-04;
+  height: 1px;
+  width: calc(100% - 2rem);
+  margin: 0rem 1rem 1.5rem 1rem;
+}
+
+.principles-section h2 {
+  margin-top: 0;
+}
+
