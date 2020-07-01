@@ -5,7 +5,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "17:00"
+      time: "16:33"
     allow:
       - dependency-name: "@carbon"
       - dependency-name: "carbon"
