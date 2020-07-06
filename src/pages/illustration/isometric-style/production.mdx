@@ -1,7 +1,7 @@
 ---
 title: Isometric style
 description: Isometric style illustrations have unique properties and can sometimes be difficult to achieve. The following production guidelines can help you through the technical details.
-tabs: [Design, Production]
+tabs: [Design, Usage, Production]
 ---
 
 import { mockGallery, noGutterSm } from '../../../styles/Grid.module.scss';
@@ -16,6 +16,7 @@ Isometric style illustrations have unique properties and can sometimes be diffic
   <AnchorLink>Workspace setup</AnchorLink>
   <AnchorLink>Creating perspective</AnchorLink>
   <AnchorLink>Rounded objects and depth</AnchorLink>
+  <AnchorLink>Animation workspace setup</AnchorLink>
 </AnchorLinks>
 
 ## Resources
@@ -197,3 +198,42 @@ Simulating dimension with rectilinear objects is rather straightforward, but obj
    </Column>
 
    </Row>
+
+## Animation workspace setup
+
+The isometric grid behaves differently than the Adobe grids you may be used to. A complete guide on how to work with isometric illustrations in Adobe Illustrator can be found on the [Isometric style design page](/illustration/isometric-style/design/). Additional setup tips and tricks can be found below.
+
+### Planes and flat surfaces
+
+Elements that appear to be volumetric should generally be treated as flat illustrations in Adobe After Effects, while planes and elements constructed from flat surfaces can be made with 3D layers. To match the isometric grid, the following camera settings can be used. Linking up the z-position to the negative zoom value allows you to use a very long lens to flatten the perspective.
+
+When making elements in 3D software outside of After Effects, please change the camera settings to isometric. 
+
+After Effects Specifications:
+
+| Null object | Position | Rotation | Scale |
+| ----------- | -------- | -------- | ----- |
+|             | 0.00     | 45°      | 100%  |
+|             | 0.00     | 35.264°  | 100%  |
+|             | 0.00     | 30°      | 100%  |
+
+<div className="top-margin-3rem">
+
+| Camera      | Position             | Rotation | Scale |
+| ----------- | -------------------- | -------- | ----- |
+|             | 0.00                 | 0°       | 100%  |
+|             | 0.00                 | 0°       | 100%  |
+|             | -(cameraOption.zoom) | 0°       | 100%  |
+| Camera zoom | 50,000               |          |       |
+
+</div>
+
+<div className="top-margin-3rem">
+
+![After Effects settings](/images/After_Effects_settings.png)
+
+</div>
+
+### Light and shadow
+
+Color and gradients help define the depth, volume and overall look of the isometric style. It’s important to keep in mind how physical light works and ensure that your shadows behave accordingly.
