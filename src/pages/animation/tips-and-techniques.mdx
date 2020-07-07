@@ -4,6 +4,9 @@ description: Every animation—from simple linework pictograms through expansive
 ---
 import  LottiePlayer  from "../../components/LottiePlayer";
 
+<!-- GIFs aren't properly processed with withPrefix, if we import them so weback can keep track of them -->
+import animation_tt_ex2 from './videos/animation-tt-ex2.gif';
+
 <PageDescription>
 
 Every animation—from simple linework pictograms through expansive, high-fidelity 3D—requires a different approach and new solutions. However, the following guidance is universally applicable to every execution.
@@ -39,9 +42,9 @@ Every animation—from simple linework pictograms through expansive, high-fideli
 
 <GifPlayer>
 
-![Plex glyphs](/videos/animation/animation-tt-ex2.gif)
+<img src={animation_tt_ex2} alt="Plex glyphs" />
 
-![Plex glyphs](/images/animation/animation-tt-ex2.png) 
+![Plex glyphs](/images/animation/animation-tt-ex2.png)
 
 </GifPlayer>
 
