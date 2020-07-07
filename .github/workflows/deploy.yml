@@ -7,19 +7,18 @@ jobs:
   build:
     runs-on: macOS-latest
     steps:
-      - uses: actions/checkout@master
-      - name: Use Node.js 12.x
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
           node-version: 12.x
       - name: Install and build
         run: yarn install && yarn build:prefix
-        
+
       - name: Install IBM Cloud CLI
         run: curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
       - name: Install Cloud Foundry CLI
         run: ibmcloud cf install
-        
+
       - name: Login to to US
         env:
           API_KEY: ${{ secrets.IBM_CLOUD_KEY }}
