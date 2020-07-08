@@ -4,6 +4,9 @@ description: Every animation—from simple linework pictograms through expansive
 ---
 import  LottiePlayer  from "../../components/LottiePlayer";
 
+<!-- GIFs aren't properly processed with withPrefix, if we import them so weback can keep track of them -->
+import animation_tt_ex2 from './videos/animation-tt-ex2.gif';
+
 <PageDescription>
 
 Every animation—from simple linework pictograms through expansive, high-fidelity 3D—requires a different approach and new solutions. However, the following guidance is universally applicable to every execution.
@@ -27,7 +30,7 @@ Every animation—from simple linework pictograms through expansive, high-fideli
 
 <GifPlayer className="video-player">
 
-<Video src="/videos/animation/animation-tt-ex1.mp4" autoPlay loop="on" muted/>
+<Video src="/videos/animation/minified/animation-tt-ex1.mp4" autoPlay loop="on" muted/>
 
 ![Data vis chart](/images/animation/animation-tt-ex1-poster.jpg)
 
@@ -39,9 +42,9 @@ Every animation—from simple linework pictograms through expansive, high-fideli
 
 <GifPlayer>
 
-![Plex glyphs](/videos/animation/animation-tt-ex2.gif)
+<img src={animation_tt_ex2} alt="Plex glyphs" />
 
-![Plex glyphs](/images/animation/animation-tt-ex2.png) 
+![Plex glyphs](/images/animation/animation-tt-ex2.png)
 
 </GifPlayer>
 
@@ -51,7 +54,7 @@ Every animation—from simple linework pictograms through expansive, high-fideli
 
 <GifPlayer className="video-player">
 
-<Video src="/videos/animation/animation-tt-ex3.mp4" autoPlay loop="on" muted/>
+<Video src="/videos/animation/minified/animation-tt-ex3.mp4" autoPlay loop="on" muted />
 
 ![Watson avatar](/images/animation/animation-tt-ex3-poster.png)
 
