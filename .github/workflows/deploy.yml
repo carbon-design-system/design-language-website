@@ -8,14 +8,43 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2-beta
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v2-beta
         with:
           node-version: 12.x
-      - name: Install and build
-        run: yarn install && yarn build:prefix
+
+      - name: Store yarn directory
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Check yarn cache
+        uses: actions/cache@v2
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Check Gatsby cache
+        id: gatsby-cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            .cache
+            public
+          key: ${{ runner.os }}-${{ hashFiles('gatsby-*.js') }}-${{ hashFiles('package.json') }}
+
+      - name: Install packages
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile
+        
+      - name: Build site
+        run: yarn build:prefix
 
       - name: Install IBM Cloud CLI
         run: curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
+        
       - name: Install Cloud Foundry CLI
         run: ibmcloud cf install
 
