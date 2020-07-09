@@ -2,16 +2,16 @@
   "name": "design-language-website",
   "description": "IBM Design Language website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "src",
   "engines": {
-    "node": "^10 || ^12"
+    "node": "^12 || ^14"
   },
   "browserslist": [
-    "last 1 edge version",
-    "last 1 firefox version",
-    "last 1 safari version",
-    "last 1 chrome version"
+    "last 2 edge version",
+    "last 2 firefox version",
+    "last 2 safari version",
+    "last 2 chrome version"
   ],
   "repository": {
     "url": "git@github.com:carbon-design-system/design-language-website.git",
