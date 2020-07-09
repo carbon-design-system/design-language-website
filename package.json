@@ -21,7 +21,8 @@
   "license": "Apache-2.0",
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
-    "dev:clean": "gatsby clean && gatsby develop",
+    "dev:clean": "yarn clean && gatsby develop",
+    "clean": "gatsby clean",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "gatsby build",
