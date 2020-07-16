@@ -1,11 +1,11 @@
+img {
+  max-width: 100%; //needed for svg/gif images
+}
+
 .image-grid img {
   width: 100%;
   height: 100%;
   margin-bottom: $spacing-07;
-}
-
-img {
-  max-width: 100%; //needed for svg/gif images
 }
 
 // src ends with "svg"

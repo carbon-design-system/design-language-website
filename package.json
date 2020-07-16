@@ -25,7 +25,7 @@
     "clean": "gatsby clean",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "lint:styles": "stylelint \"packages/**/*.scss\" --fix",
+    "lint:styles": "stylelint \"src/**/*.scss\" --fix",
     "build": "gatsby build",
     "build:prefix": "gatsby build --prefix-paths && yarn move-public",
     "build:analyze": "gatsby clean && ANALYZE=true yarn build",
