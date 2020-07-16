@@ -13,7 +13,7 @@ public/*
 .DS_Store
 *.swp
 .idea
-# .vscode
+.vscode
 .vscode/launch.json
 
 
