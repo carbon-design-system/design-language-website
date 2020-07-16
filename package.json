@@ -25,16 +25,35 @@
     "clean": "gatsby clean",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "lint:styles": "stylelint \"packages/**/*.scss\" --fix",
     "build": "gatsby build",
     "build:prefix": "gatsby build --prefix-paths && yarn move-public",
     "build:analyze": "gatsby clean && ANALYZE=true yarn build",
     "move-public": "mv public language && mkdir public && mkdir public/design && cp -R language public/design && rm -rf language",
     "serve": "gatsby serve -H 0.0.0.0",
     "ci-check": "yarn format:diff",
-    "format": "prettier --write \"**/*.{scss,css,js,md}\"",
-    "format:staged": "prettier --write",
-    "format:diff": "prettier --list-different \"**/*.{scss,css,js,md}\"",
+    "format": "prettier --write \"**/*.{css,scss,json,html,yaml}\"",
     "test:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths"
+  },
+  "eslintIgnore": [
+    "public/",
+    ".cache/"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ],
+    "*.{css,scss,json,html,yaml}": [
+      "prettier --write"
+    ],
+    "*.{css,scss}": [
+      "stylelint --fix"
+    ]
   },
   "dependencies": {
     "@carbon/elements": "^10.7.0",
@@ -74,12 +93,12 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^2.5.0",
-    "prettier": "^1.16.4"
-  },
-  "prettier": {
-    "jsxBracketSameLine": true,
-    "printWidth": 80,
-    "singleQuote": true,
-    "trailingComma": "es5"
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^1.16.4",
+    "prettier-config-carbon": "^0.2.0",
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-scss": "^3.18.0"
   }
 }

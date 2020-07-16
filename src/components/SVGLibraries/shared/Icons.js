@@ -5,12 +5,7 @@ import { icon } from './SvgLibrary.module.scss';
 export const Illustrator = () => (
   <svg width="32px" height="32px" viewBox="0 0 64 64">
     <desc>Created with Sketch.</desc>
-    <g
-      id="Page-1"
-      stroke="none"
-      stroke-width="1"
-      fill="none"
-      fill-rule="evenodd">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
       <image
         id="illustrator"
         x="0"
