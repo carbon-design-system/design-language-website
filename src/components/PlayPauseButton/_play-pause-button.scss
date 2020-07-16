@@ -1,4 +1,5 @@
 .#{$prefix}--play-pause-button {
+  color: white;
   border: none;
   padding: 0;
   position: absolute;
@@ -43,8 +44,8 @@
     left: 1rem;
     bottom: 1rem;
     top: auto;
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
     transform: translate(0);
     opacity: 1;
     display: none;
