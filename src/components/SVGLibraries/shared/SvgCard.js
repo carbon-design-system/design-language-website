@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { pascalCase } from 'change-case';
 import ActionBar from './ActionBar';
 
@@ -11,9 +11,14 @@ import {
 } from './SvgLibrary.module.scss';
 
 const SvgCard = ({ icon, containerIsVisible, ...rest }) => {
-  const { name, Component, friendlyName } = icon;
+  const { name, Component, friendlyName, assets } = icon;
   const [isActionBarVisible, setIsActionBarVisible] = useState(false);
-  const svgRef = useRef();
+
+  let { source } = assets[0];
+
+  if (icon.assets.length > 1) {
+    source = assets.find(({ size }) => size === 32);
+  }
 
   return (
     <li
@@ -30,7 +35,7 @@ const SvgCard = ({ icon, containerIsVisible, ...rest }) => {
           <>
             <div className={flexContainer}>
               {Component ? (
-                <Component ref={svgRef} {...rest}>
+                <Component {...rest}>
                   <title>{friendlyName}</title>
                 </Component>
               ) : (
@@ -39,7 +44,7 @@ const SvgCard = ({ icon, containerIsVisible, ...rest }) => {
             </div>
             <ActionBar
               name={name}
-              component={svgRef.current}
+              source={source}
               friendlyName={friendlyName}
               isActionBarVisible={isActionBarVisible}
               setIsActionBarVisible={setIsActionBarVisible}
