@@ -1,4 +1,5 @@
-/* eslint-disable react/no-danger */
+import React from 'react';
+
 export const onRenderBody = ({ setPostBodyComponents }) => {
   if (process.env.NODE_ENV !== `production`) {
     return null;

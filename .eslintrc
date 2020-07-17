@@ -1,4 +1,10 @@
 {
+  "root": true,
+  "env": {
+    "node": true,
+    "browser": true,
+    "commonjs": true
+  },
   "parser": "babel-eslint",
   "extends": [
     "eslint:recommended",
@@ -15,5 +21,10 @@
     "import/no-extraneous-dependencies": 0,
     "react/destructuring-assignment": 0,
     "arrow-body-style": 0
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
