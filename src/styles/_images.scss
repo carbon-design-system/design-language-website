@@ -14,7 +14,7 @@ img {
   }
 }
 
-// src ends with "svg"
+// targets svg files
 img[src$='svg'] {
   width: 100%; // svgs can scale, so we're cool with stretching them
 }
