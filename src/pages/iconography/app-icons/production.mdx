@@ -1,15 +1,19 @@
 ---
 title: App icons
-description: App icons are visual symbols that represent products or services. They allow users to identify apps at a glance while expressing our brand.
+description:
+  App icons are visual symbols that represent products or services. They allow
+  users to identify apps at a glance while expressing our brand.
 tabs: [Design, Usage, Production]
 ---
 
 import { Zip32 } from '@carbon/icons-react';
-import { noGutterSm } from '../../../styles/Grid.module.scss'
+import { noGutterSm } from '../../../styles/Grid.module.scss';
 
 <PageDescription>
 
-Follow the design and production guidelines found here when making a new app icon. Secure required approvals from the Design Language team so that your new app icon can be added into the icon library.
+Follow the design and production guidelines found here when making a new app
+icon. Secure required approvals from the Design Language team so that your new
+app icon can be added into the icon library.
 
 </PageDescription>
 
@@ -52,41 +56,57 @@ Follow the design and production guidelines found here when making a new app ico
 
 ## Design and production guidelines
 
-Don’t see a useful, available app icon in the master? Make your own! Follow these guidelines to ensure visual consistency and proper formatting.
+Don’t see a useful, available app icon in the master? Make your own! Follow
+these guidelines to ensure visual consistency and proper formatting.
 
-- All app icons should be unique and not redundant with any existing app icon in the system. Look through the icons in the `App_Icon_Master.ai` file from the [app icons repo](https://github.ibm.com/carbon/app-icons) to ensure that your proposed new icon won’t be confused with other app icons.
+- All app icons should be unique and not redundant with any existing app icon in
+  the system. Look through the icons in the `App_Icon_Master.ai` file from the
+  [app icons repo](https://github.ibm.com/carbon/app-icons) to ensure that your
+  proposed new icon won’t be confused with other app icons.
 - All app icons should adhere to the [IBM Design Language visual style](/).
-- All app icons should comply with IBM [accessibility standards](https://www.carbondesignsystem.com/guidelines/accessibility/overview).
+- All app icons should comply with IBM
+  [accessibility standards](https://www.carbondesignsystem.com/guidelines/accessibility/overview).
 - All app icons should be usable across all supported platforms and devices.
-- All app icons should be understandable by a global audience of users, regardless of nationality or language.
+- All app icons should be understandable by a global audience of users,
+  regardless of nationality or language.
 
 ## Making an app icon
 
-- Create a 32 x 32px artboard for each app icon. The `App_Icon_Builder.ai` file on the [app icons repo](https://github.ibm.com/carbon/app-icons) provides proper specs and grid lines.
+- Create a 32 x 32px artboard for each app icon. The `App_Icon_Builder.ai` file
+  on the [app icons repo](https://github.ibm.com/carbon/app-icons) provides
+  proper specs and grid lines.
 - 32px app icons should have 2px padding.
 - Set your workspace up from the start to snap to pixels.
-- Be aware of automatic alignments which can place vectors on uneven or half pixels.
+- Be aware of automatic alignments which can place vectors on uneven or half
+  pixels.
 
 ### Stroke app icon masking
 
-Stroke app icons feature both color and alpha channel gradients. This technique can be achieved in Adobe Illustrator using masking. Follow these guidelines to create proper gradient masks.
+Stroke app icons feature both color and alpha channel gradients. This technique
+can be achieved in Adobe Illustrator using masking. Follow these guidelines to
+create proper gradient masks.
 
-1. Draw a 32 x 32 px square and apply a color gradient. Set the angle to 45° and place the gradient slider locations at 10% and 90%.
+1. Draw a 32 x 32 px square and apply a color gradient. Set the angle to 45° and
+   place the gradient slider locations at 10% and 90%.
 
    ![Stroke app icon masking: step 1](/images/3_2-1_MakingAnIcon_Stroke_Step1.png)
 
-2. Place the artwork to be in color above the color square. Make sure the color is set to `#FFFFFF` white.
-3. Place black gradients on the parts of the icon to be masked. Set both gradient sliders to `#000000` black, and set one slider to 0% opacity. Any part of the artwork in black will be transparent after masking.
+2. Place the artwork to be in color above the color square. Make sure the color
+   is set to `#FFFFFF` white.
+3. Place black gradients on the parts of the icon to be masked. Set both
+   gradient sliders to `#000000` black, and set one slider to 0% opacity. Any
+   part of the artwork in black will be transparent after masking.
 
    ![Stroke app icon masking: step 3](/images/3_2-2_MakingAnIcon_Stroke_Step3.png)
 
 4. Open the Transparency panel `(Window > Transparency)`.
 5. Group all gradients with the white icon `(Object > Group)`.
-6. Select both the new group and the color square, then click `Make Mask` in the transparency panel.
+6. Select both the new group and the color square, then click `Make Mask` in the
+   transparency panel.
 
    <Video
-   poster="/images/3_2-3_MakingAnIcon_Stroke_Step6_PosterImage.png"
-   src="/videos/3_2-3_MakingAnIcon_Stroke_Step6.mp4"
+     poster="/images/3_2-3_MakingAnIcon_Stroke_Step6_PosterImage.png"
+     src="/videos/3_2-3_MakingAnIcon_Stroke_Step6.mp4"
    />
 
 ## Exporting SVGs for product and web
@@ -96,34 +116,51 @@ To be considered production-ready for product and web, confirm the following:
 - All artwork and artboards must be aligned to the pixel grid.
 - All strokes must be expanded (`Object > Expand`).
 - All possible shapes and paths should be combined.
-- Use only linear gradients. Do not use conical gradients, radial gradients, or gradients along stroke.
-- For stroke app icons, use the masking method described in the previous section. Do not use clipping masks.
-- If your icon **is not** a stroke app icon, then you will need to place a 32 x 32px transparent square background on each artboard. This square should have no fill or stroke to ensure that the icons maintains a squared size.
+- Use only linear gradients. Do not use conical gradients, radial gradients, or
+  gradients along stroke.
+- For stroke app icons, use the masking method described in the previous
+  section. Do not use clipping masks.
+- If your icon **is not** a stroke app icon, then you will need to place a 32 x
+  32px transparent square background on each artboard. This square should have
+  no fill or stroke to ensure that the icons maintains a squared size.
 
-App icons for product and web are created for all background types. This ensures your icon will be accessible in any UI context. Note that these SVGs will work in product and web, but may not render correctly in Sketch. For designing in sketch, export as PNG.
+App icons for product and web are created for all background types. This ensures
+your icon will be accessible in any UI context. Note that these SVGs will work
+in product and web, but may not render correctly in Sketch. For designing in
+sketch, export as PNG.
 
-1. Download the `App_Icon_Builder.ai` file from the [app icons repo](https://github.ibm.com/carbon/app-icons).
-2. Following app icon guidance, create the following 4 versions of your icon: dark theme, light theme, monochromatic dark theme, monochromatic light theme.
+1. Download the `App_Icon_Builder.ai` file from the
+   [app icons repo](https://github.ibm.com/carbon/app-icons).
+2. Following app icon guidance, create the following 4 versions of your icon:
+   dark theme, light theme, monochromatic dark theme, monochromatic light theme.
 
    ![Exporting for product and web: step 2](/images/3_3-1_ExportingProduct_Step2.png)
 
 3. Make sure your background layer is turned off.
-4. Select everything within one of the artboards. Then select `File > Export selection...` from the top navigation.
+4. Select everything within one of the artboards. Then select
+   `File > Export selection...` from the top navigation.
 5. In the `Formats` section, select the SVG format.
 6. Click `Export Asset`. Your file will export to SVG.
 7. Repeat steps 4–6 for each artboard.
 
 ## Exporting for native OS
 
-The app icon template makes it easy to export native app icons for any environment at every size you need. Refer to the read-me file in the template to automate your export process, or follow the guidance here to export manually.
+The app icon template makes it easy to export native app icons for any
+environment at every size you need. Refer to the read-me file in the template to
+automate your export process, or follow the guidance here to export manually.
 
-1. Download `App_Icon_Template.zip` from the [app icons repo](https://github.ibm.com/carbon/app-icons).
-2. Place the 32 x 32 px app icon in the `Place_Icon_Here.ai` file. Separate foreground icon elements from background elements and place on the respective artboards.
+1. Download `App_Icon_Template.zip` from the
+   [app icons repo](https://github.ibm.com/carbon/app-icons).
+2. Place the 32 x 32 px app icon in the `Place_Icon_Here.ai` file. Separate
+   foreground icon elements from background elements and place on the respective
+   artboards.
 
    ![Foreground and background layers for native OS](/images/3_4-1_ExportingNative_Step2.png)
 
-3. Create your icon background in the `App_Icon_Background_Color.ai` file and save.
-4. Open the `App_Icon_Export.ai` file. The artboards should have updated to include your icon.
+3. Create your icon background in the `App_Icon_Background_Color.ai` file and
+   save.
+4. Open the `App_Icon_Export.ai` file. The artboards should have updated to
+   include your icon.
 5. Select `File > Export > Export for Screens` from the top navigation.
 6. Select the artboards you need to export:
 
@@ -136,17 +173,20 @@ The app icon template makes it easy to export native app icons for any environme
    | Android                                          | Custom            | 05, 06, 07 |
 
    <Caption>
-   <span class="footnote__highlight" />
-   <span class="footnote">
-   Use monochromatic dark theme (gray 10) app icons for unplated Windows assets
-   </span>
+     <span class="footnote__highlight" />
+     <span class="footnote">
+       Use monochromatic dark theme (gray 10) app icons for unplated Windows
+       assets
+     </span>
    </Caption>
 
 7. In the `Formats` section, click the `Scale` dropdown and choose `Width`.
 
    ![Export dialog for native OS](/images/3_4-2_ExportingNative_Step7.png)
 
-8. Enter the final output size for the icon, and add as many scales as needed. Refer to your target platform’s documentation for sizing and naming specs. Here are some common ones:
+8. Enter the final output size for the icon, and add as many scales as needed.
+   Refer to your target platform’s documentation for sizing and naming specs.
+   Here are some common ones:
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
@@ -186,11 +226,17 @@ The app icon template makes it easy to export native app icons for any environme
 
 ### Android app icons
 
-Android icons are primarily created in the Image Asset Studio within Android Studio, but the source images should be exported from the app icon template. Refer to the read-me file in the template to automate your export process, or follow the guidance here to export manually. For more information on the Visual Asset Studio, visit the [Android app icon documentation](https://developer.android.com/studio/write/image-asset-studio).
+Android icons are primarily created in the Image Asset Studio within Android
+Studio, but the source images should be exported from the app icon template.
+Refer to the read-me file in the template to automate your export process, or
+follow the guidance here to export manually. For more information on the Visual
+Asset Studio, visit the
+[Android app icon documentation](https://developer.android.com/studio/write/image-asset-studio).
 
 #### Exporting images
 
-1. With your `App_Icon_Export.ai` file ready from the previous steps, select `File > Export > Export for Screens` from the top navigation.
+1. With your `App_Icon_Export.ai` file ready from the previous steps, select
+   `File > Export > Export for Screens` from the top navigation.
 2. Select artboards 5, 6, and 7.
 3. In the `Formats` section, configure your settings to match the table below:
 
@@ -203,31 +249,42 @@ Android icons are primarily created in the Image Asset Studio within Android Stu
 6. Select artboard 1.
 7. In the `Formats` section, configure your settings to match the table below:
 
-   | Scale | Suffix  | Format |
-   | ----- | ------- | ------ |
-   | 1x    | -web    | PNG    |
+   | Scale | Suffix | Format |
+   | ----- | ------ | ------ |
+   | 1x    | -web   | PNG    |
 
 #### Importing images to the Image Asset Studio
 
 1. In Android Studio, select `File > New > Image Asset`.
 2. In the `Icon Type` dropdown, choose `Launcher Icons (Adaptive and Legacy)`.
-3. Import your foreground asset `ic_launcher_foreground_xxxhdpi.png` and background asset `ic_launcher_background_xxxhdpi.png`. **Do not** trim or resize the artwork. The icon name is optional.
+3. Import your foreground asset `ic_launcher_foreground_xxxhdpi.png` and
+   background asset `ic_launcher_background_xxxhdpi.png`. **Do not** trim or
+   resize the artwork. The icon name is optional.
 4. Within the `Legacy` tab under `Google Play Store Icon`, select `no`.
 
    ![Image Asset Studio settings for Laucher icons](/images/3_4-3_ExportingNative_Android_Step8.png)
 
 5. Choose `Next` to confirm the icon path and select `Finish`.
-6. Next, add the notification icon. In Android Studio, select `File > New > Image Asset`.
+6. Next, add the notification icon. In Android Studio, select
+   `File > New > Image Asset`.
 7. In the `Icon Type` dropdown, choose `Notification Icons`.
-8. Import your notification asset `ic_stat_xxxhdpi.png`. **Do not** trim or add padding to the artwork. The icon name is optional.
+8. Import your notification asset `ic_stat_xxxhdpi.png`. **Do not** trim or add
+   padding to the artwork. The icon name is optional.
 
    ![Image Asset Studio settings for notification icons](/images/3_4-4_ExportingNative_Android_Step12.png)
-   
+
 9. Choose `Next` to confirm the icon path and select `Finish`.
-10. Finally, place the 512 px Google Play Store image within your project folder at `/app/src/main`.
+10. Finally, place the 512 px Google Play Store image within your project folder
+    at `/app/src/main`.
 
 ## Approval process
 
-App icons should go through the IBM Brand design review process to ensure consistency and proper representation of the IBM brand across all environments. This process is required for your app to be published to public app stores. Please [submit an issue in the repo](https://github.ibm.com/carbon/app-icons/issues/new?template=app-icon-approval-request.md) and your icon will be reviewed.
+App icons should go through the IBM Brand design review process to ensure
+consistency and proper representation of the IBM brand across all environments.
+This process is required for your app to be published to public app stores.
+Please
+[submit an issue in the repo](https://github.ibm.com/carbon/app-icons/issues/new?template=app-icon-approval-request.md)
+and your icon will be reviewed.
 
-If your app will not be on a public app store, you may still submit your icon for approval to get feedback on your design.
+If your app will not be on a public app store, you may still submit your icon
+for approval to get feedback on your design.

@@ -5,3 +5,5 @@ lib
 es
 umd
 *.md
+
+src/lottie
