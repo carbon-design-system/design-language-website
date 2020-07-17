@@ -11,20 +11,21 @@ import styles from './ActionBar.module.scss';
 const ActionBar = ({
   name,
   friendlyName,
+  source,
   setIsActionBarVisible,
   isActionBarVisible,
-  source,
 }) => {
   const { site, type } = useContext(LibraryContext);
-  const component = `<${pascalCase(friendlyName) +
-    (type === 'pictogram' ? '' : '32')} />`;
+  const component = `<${
+    pascalCase(friendlyName) + (type === 'pictogram' ? '' : '32')
+  } />`;
   const [copyText, setCopyText] = useState(`Copy ${component}`);
   const actionBarRef = useRef();
 
   // Don't show copy button on IDL deployment
   const shouldShowCopyButton = site === 'carbon';
 
-  const handleBlurEvent = e => {
+  const handleBlurEvent = (e) => {
     const isStillFocusedWithin = actionBarRef.current.contains(e.relatedTarget);
     setIsActionBarVisible(isStillFocusedWithin);
   };
