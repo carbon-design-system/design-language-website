@@ -1,12 +1,27 @@
 {
-  "extends": ["wesbos"],
-  "plugins": ["react-hooks"],
+  "root": true,
+  "env": {
+    "node": true,
+    "browser": true,
+    "commonjs": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "prettier",
+    "prettier/react"
+  ],
   "rules": {
-    "react/prop-types": 0,
-    "import/no-extraneous-dependencies": 0,
-    "react/destructuring-assignment": 0,
-    "arrow-body-style": 0,
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react/prop-types": 0
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
