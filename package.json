@@ -65,7 +65,7 @@
     "@loadable/babel-plugin": "^5.12.0",
     "@loadable/component": "^5.12.0",
     "@loadable/webpack-plugin": "^5.12.0",
-    "babel-preset-gatsby": "^0.5.0",
+    "babel-preset-gatsby": "^0.5.2",
     "carbon-components": "^10.13.0",
     "carbon-components-react": "^7.13.0",
     "copy-to-clipboard": "^3.2.1",
@@ -82,23 +82,22 @@
     "use-media": "^1.4.0"
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.14.1",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-config-wesbos": "0.0.19",
-    "eslint-plugin-html": "^5.0.3",
+    "@babel/core": "^7.10.5",
+    "babel-eslint": "^10.1.0",
+    "carbon-icons": "^7.0.7",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^2.5.0",
+    "eslint-plugin-react-hooks": "^4.0.8",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
-    "prettier": "^1.16.4",
+    "prettier": "^2.0.5",
     "prettier-config-carbon": "^0.2.0",
     "stylelint": "^13.6.1",
     "stylelint-config-recommended-scss": "^4.2.0",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-scss": "^3.18.0",
+    "webpack": "^4.43.0"
   }
 }
