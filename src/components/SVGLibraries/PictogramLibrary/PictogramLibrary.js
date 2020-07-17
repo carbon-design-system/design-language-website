@@ -7,7 +7,7 @@ import { groupBy, debounce } from 'lodash-es';
 import {
   icons as pictogramMetaData,
   categories as pictogramCatagoryMetadata,
-} from '@carbon/pictograms/metadata.json';
+} from './metadata.json';
 
 import FilterRow from '../shared/FilterRow';
 import { svgPage, svgLibrary } from '../shared/SvgLibrary.module.scss';
@@ -60,11 +60,8 @@ const IconLibrary = () => {
         const searchValue = searchInputValue.toLowerCase();
         return (
           friendlyName.toLowerCase().includes(searchValue) ||
-          aliases.some(alias =>
-            alias
-              .toString()
-              .toLowerCase()
-              .includes(searchValue)
+          aliases.some((alias) =>
+            alias.toString().toLowerCase().includes(searchValue)
           ) ||
           category.toLowerCase().includes(searchValue) ||
           name.toLowerCase().includes(searchValue)
@@ -92,7 +89,7 @@ const IconLibrary = () => {
         type="pictogram"
         categoryList={categoryList}
         selectedCategory={selectedCategory}
-        onSearchChange={e =>
+        onSearchChange={(e) =>
           debouncedSetSearchInputValue(e.currentTarget.value)
         }
         onDropdownChange={({ selectedItem }) =>
