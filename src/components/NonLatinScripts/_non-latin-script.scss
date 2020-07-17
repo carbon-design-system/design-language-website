@@ -122,24 +122,24 @@
 }
 
 .#{$prefix}--type-hebrew {
-  font-family: 'IBM Plex Sans Hebrew' !important;
+  font-family: 'IBM Plex Sans Hebrew', sans-serif !important;
 }
 
 .#{$prefix}--type-thai {
-  font-family: 'IBM Plex Sans Thai' !important;
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
 }
 
 .#{$prefix}--type-thai-looped {
-  font-family: 'IBM Plex Sans Thai Looped' !important;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif !important;
 }
 
 .#{$prefix}--type-devanagari {
-  font-family: 'IBM Plex Sans Devanagari' !important;
+  font-family: 'IBM Plex Sans Devanagari', sans-serif !important;
   margin-top: $spacing-05; // https://github.com/carbon-design-system/design-language-website/issues/222
 }
 
 .#{$prefix}--type-arabic {
-  font-family: 'IBM Plex Sans Arabic' !important;
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
 }
 
 // TODO CJK

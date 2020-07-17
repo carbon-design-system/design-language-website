@@ -9,7 +9,7 @@ import {
 
 import { Illustrator, Github } from './Icons';
 import { noResult, allSvgs, searchLabel } from './SvgLibrary.module.scss';
-import '../../../../src/styles/Grid.module.scss';
+import '../../../styles/Grid.module.scss';
 
 const NoResult = ({
   allIconResults,
@@ -28,14 +28,12 @@ const NoResult = ({
         </span>
         <h2 className={h2}>
           {allIconResults} matches found in{' '}
-          <span
-            role="button"
-            tabIndex="0"
+          <button
+            type="button"
             onClick={() => setSelectedCategory(`All ${type}`)}
-            href="#"
             className={cx(allSvgs, 'bx--link')}>
             all {type}.
-          </span>
+          </button>
         </h2>
       </>
     ) : (

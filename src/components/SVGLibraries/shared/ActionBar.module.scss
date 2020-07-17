@@ -19,10 +19,6 @@
   text-decoration: none;
 }
 
-.container button::-moz-focus-inner {
-  border: 0;
-}
-
 .container button,
 .container a {
   cursor: pointer;
@@ -34,11 +30,14 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  &:hover:not(:active) {
-    background-color: $hover-ui;
+  &::-moz-focus-inner {
+    border: 0;
   }
   &:active {
     background-color: $active-ui;
+  }
+  &:hover:not(:active) {
+    background-color: $hover-ui;
   }
 }
 

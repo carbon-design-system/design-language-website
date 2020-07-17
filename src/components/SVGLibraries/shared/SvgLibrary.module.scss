@@ -36,22 +36,6 @@
   }
 }
 
-.filter-row.pictograms :global(.bx--search) {
-  @include carbon--breakpoint('lg') {
-    width: calc(75% + 1px);
-  }
-}
-
-.filter-row::before {
-  content: '';
-  position: absolute;
-  z-index: z('dropdown');
-  height: 1rem;
-  width: 100%;
-  top: -1rem;
-  background: #f3f3f3;
-}
-
 .filter-row :global(.bx--search-input) {
   border-bottom: 1px solid $ui-03;
   @include carbon--breakpoint('md') {
@@ -67,12 +51,18 @@
   }
 }
 
-.dropdown {
-  border-bottom: 0;
+.filter-row::before {
+  content: '';
+  position: absolute;
+  z-index: z('dropdown');
+  height: 1rem;
+  width: 100%;
+  top: -1rem;
+  background: #f3f3f3;
 }
 
-.filter-row :global(.bx--list-box--expanded .bx--list-box__menu) {
-  max-height: 16.5rem;
+.dropdown {
+  border-bottom: 0;
 }
 
 .svg-library {
@@ -88,24 +78,26 @@
   margin-top: $spacing-11;
 }
 
-// i.e. fallback
 .svg-grid {
+  // i.e. fallback
   display: flex;
   flex-wrap: wrap;
-}
 
-.svg-grid {
   margin-top: $spacing-05;
-  display: grid;
   width: 100%;
-  grid-template-columns: repeat(2, 1fr);
 
-  @include carbon--breakpoint('md') {
-    grid-template-columns: repeat(4, 1fr);
-  }
+  @supports (display: grid) {
+    display: grid;
 
-  @include carbon--breakpoint('lg') {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+
+    @include carbon--breakpoint('md') {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    @include carbon--breakpoint('lg') {
+      grid-template-columns: repeat(6, 1fr);
+    }
   }
 }
 
@@ -188,10 +180,6 @@ $svg-card-border: 1px solid $ui-03;
   border-left: $svg-card-border;
   border-top: $svg-card-border;
 
-  // reset 2 column borders
-  &:nth-child(-n + 2) {
-    border-top: $svg-card-border;
-  }
   &:nth-child(odd) {
     border-left: $svg-card-border;
   }
@@ -200,6 +188,7 @@ $svg-card-border: 1px solid $ui-03;
   &:nth-child(-n + 2) {
     border-top: none;
   }
+
   // every 2nd card (starting with 4th)
   &:nth-child(2n + 1) {
     border-left: none;
@@ -210,12 +199,6 @@ $svg-card-border: 1px solid $ui-03;
   .pictograms .svg-card {
     // reset 4 column borders
     &:nth-child(odd) {
-      border-left: $svg-card-border;
-    }
-    &:nth-child(-n + 4) {
-      border-top: $svg-card-border;
-    }
-    &:nth-child(4n + 1) {
       border-left: $svg-card-border;
     }
 
@@ -316,4 +299,14 @@ $svg-card-border: 1px solid $ui-03;
 
 .icon-inverse {
   fill: $inverse-01;
+}
+
+.filter-row :global(.bx--list-box--expanded .bx--list-box__menu) {
+  max-height: 16.5rem;
+}
+
+.filter-row.pictograms :global(.bx--search) {
+  @include carbon--breakpoint('lg') {
+    width: calc(75% + 1px);
+  }
 }
