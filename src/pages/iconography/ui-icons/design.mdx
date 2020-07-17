@@ -1,14 +1,18 @@
 ---
 title: UI icons
-description: The style, strokes, perspective, corners and angles of IBM icons all echo our Plex(R) typeface. Use them to represent ideas, invite action or draw attention.
+description:
+  The style, strokes, perspective, corners and angles of IBM icons all echo our
+  Plex(R) typeface. Use them to represent ideas, invite action or draw
+  attention.
 tabs: [Library, Design, Usage, Contribute]
 ---
 
-import { mockGallery, noGutterSm } from '../../../styles/Grid.module.scss';
-
 <PageDescription>
 
-As visual symbols, IBM user interface icons represent ideas, objects or actions. They can communicate messages at a glance, afford interactivity, and draw attention to important information. Based on details from the IBM Plex® typeface, they work well at small sizes.
+As visual symbols, IBM user interface icons represent ideas, objects or actions.
+They can communicate messages at a glance, afford interactivity, and draw
+attention to important information. Based on details from the IBM Plex®
+typeface, they work well at small sizes.
 
 </PageDescription>
 
@@ -64,13 +68,20 @@ As visual symbols, IBM user interface icons represent ideas, objects or actions.
 
 ## The foundation
 
-The square grid is the underlying fabric of all IBM icons and is used as the foundation to determine line thickness, proportion, shape and positioning across the entire set of icons. The grid helps guide design decisions, which helps ensure a unified approach. More importantly, it allows flexibility in creating the appropriate shape needed to communicate the right idea.
+The square grid is the underlying fabric of all IBM icons and is used as the
+foundation to determine line thickness, proportion, shape and positioning across
+the entire set of icons. The grid helps guide design decisions, which helps
+ensure a unified approach. More importantly, it allows flexibility in creating
+the appropriate shape needed to communicate the right idea.
 
 <Video src="/videos/icon-grid.mp4" poster="/images/icon-grid-poster.svg" />
 
 ### Base grid
 
-IBM icons are drawn on a pixel-based grid of 32px x 32px and scaled down linearly to different sizes. Use the grid as your basic guideline to snap the artwork in place. We recommend fine-tuning adjustments for the shape you are trying to achieve during creation.
+IBM icons are drawn on a pixel-based grid of 32px x 32px and scaled down
+linearly to different sizes. Use the grid as your basic guideline to snap the
+artwork in place. We recommend fine-tuning adjustments for the shape you are
+trying to achieve during creation.
 
 <ArtDirection>
 
@@ -107,7 +118,10 @@ IBM icons are drawn on a pixel-based grid of 32px x 32px and scaled down linearl
 
 ### Padding
 
-The grid contains 2px padding. This ensures icons will retain their desired scale and and surrounding white space when exported. Only extend artwork into the padding for additional visual weight or for specific details required to define the shape's content, meaning or character.
+The grid contains 2px padding. This ensures icons will retain their desired
+scale and and surrounding white space when exported. Only extend artwork into
+the padding for additional visual weight or for specific details required to
+define the shape's content, meaning or character.
 
 <ArtDirection>
 
@@ -156,7 +170,10 @@ The grid contains 2px padding. This ensures icons will retain their desired scal
 
 ### Keyshapes
 
-Key lines give you consistent sizes for basic shapes or proportions across the icon set. This makes it easier to create a visually stable foundation and helps to establish relationships between the similarly proportioned icons and the objects or ideas they represent.
+Key lines give you consistent sizes for basic shapes or proportions across the
+icon set. This makes it easier to create a visually stable foundation and helps
+to establish relationships between the similarly proportioned icons and the
+objects or ideas they represent.
 
 <ArtDirection>
 
@@ -212,11 +229,15 @@ Key lines give you consistent sizes for basic shapes or proportions across the i
 
 ## Style
 
-The stylistic conventions of IBM icons deliver a meaningful bond with our typeface IBM Plex®. Each icon is intentionally designed to harmoniously pair by sharing distinct details and characteristics found in the letterforms. The video below demonstrates some of these relationships between icons and letters which allows them to family well together visually.
+The stylistic conventions of IBM icons deliver a meaningful bond with our
+typeface IBM Plex®. Each icon is intentionally designed to harmoniously pair by
+sharing distinct details and characteristics found in the letterforms. The video
+below demonstrates some of these relationships between icons and letters which
+allows them to family well together visually.
 
 <Video src="/videos/icon-style.mp4" poster="/images/icon-style-poster.jpg" />
 
-<Row className={mockGallery}>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 <ArtDirection>
 
@@ -239,7 +260,7 @@ The stylistic conventions of IBM icons deliver a meaningful bond with our typefa
 </Column>
 </Row>
 
-<Row className={mockGallery}>
+<Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
 ![slab characteristics](../images/style-slab-characteristics.svg)
@@ -258,7 +279,11 @@ The stylistic conventions of IBM icons deliver a meaningful bond with our typefa
 
 ## Strokes
 
-One icon should not look heavier or lighter than other icons of the same size. Nor should there be different weights within one icon. Maintain the same visual weight by using a 2px stroke for all icons. There are a few exceptions to this rule which occurs when the icon is complex or has a certain density of line. See examples shown here.
+One icon should not look heavier or lighter than other icons of the same size.
+Nor should there be different weights within one icon. Maintain the same visual
+weight by using a 2px stroke for all icons. There are a few exceptions to this
+rule which occurs when the icon is complex or has a certain density of line. See
+examples shown here.
 
 <ArtDirection>
 
@@ -306,7 +331,9 @@ One icon should not look heavier or lighter than other icons of the same size. N
 
 ## Perspective
 
-The IBM icons are designed and ready to use. However, if creating a new icon to contribute to the library, please be sure to avoid dimensional representations. Use more objective vantage points that are straight-on, or profile views.
+The IBM icons are designed and ready to use. However, if creating a new icon to
+contribute to the library, please be sure to avoid dimensional representations.
+Use more objective vantage points that are straight-on, or profile views.
 
 <DoDontRow>
 <DoDont caption="Use icon as it is.">
@@ -323,9 +350,12 @@ The IBM icons are designed and ready to use. However, if creating a new icon to 
 
 ## Corners
 
-Use a consistent corner radius of 2px for rounded shapes. The 2px radius can be increased by a multiple of two when necessary to make the icon’s metaphor understandable or object shape clearly defined.
+Use a consistent corner radius of 2px for rounded shapes. The 2px radius can be
+increased by a multiple of two when necessary to make the icon’s metaphor
+understandable or object shape clearly defined.
 
-Use an additional radius to make the metaphor reflect the real form of the object.
+Use an additional radius to make the metaphor reflect the real form of the
+object.
 
 <!-- TODO: join mobiles images and add ArtDirection -->
 
@@ -377,7 +407,10 @@ Use an additional radius to make the metaphor reflect the real form of the objec
 
 ## Angles
 
-Use 45° angles for even anti-aliasing. Use increments of 15° whenever possible for other angles needed to best depict the shape you’re creating for your metaphor. You can create harmony across the icon set by consistently making angles sit on the same increments.
+Use 45° angles for even anti-aliasing. Use increments of 15° whenever possible
+for other angles needed to best depict the shape you’re creating for your
+metaphor. You can create harmony across the icon set by consistently making
+angles sit on the same increments.
 
 <ArtDirection>
 
@@ -396,8 +429,7 @@ Use 45° angles for even anti-aliasing. Use increments of 15° whenever possible
 <DoDont caption="Do use multiples of 15° or an angle that best represents the metaphor when necessary.">
 <ArtDirection>
 
-![angles](../images/angles-do-mobile.svg)
-![angles](../images/angles-do.svg)
+![angles](../images/angles-do-mobile.svg) ![angles](../images/angles-do.svg)
 
 </ArtDirection>
 </DoDont>

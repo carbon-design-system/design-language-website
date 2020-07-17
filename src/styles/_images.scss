@@ -49,3 +49,20 @@ div[aria-label='animation'] {
   display: flex;
   align-items: flex-start;
 }
+
+// gallery clusters
+.mock-gallery {
+  --space: 2rem;
+}
+
+.mock-gallery [class*='#{$prefix}--col'] {
+  --space: 2rem;
+  &:last-of-type {
+    --space: 0;
+  }
+}
+
+.mock-gallery ~ span,
+.mock-gallery ~ [class*='video'] {
+  --space: 2rem;
+}
