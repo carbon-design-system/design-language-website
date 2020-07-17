@@ -11,28 +11,28 @@ import styles from './ActionBar.module.scss';
 const ActionBar = ({
   name,
   friendlyName,
-  component: Element,
+  source,
   setIsActionBarVisible,
   isActionBarVisible,
 }) => {
   const { site, type } = useContext(LibraryContext);
-  const component = `<${pascalCase(friendlyName) +
-    (type === 'pictogram' ? '' : '32')} />`;
+  const component = `<${
+    pascalCase(friendlyName) + (type === 'pictogram' ? '' : '32')
+  } />`;
   const [copyText, setCopyText] = useState(`Copy ${component}`);
   const actionBarRef = useRef();
 
   // Don't show copy button on IDL deployment
   const shouldShowCopyButton = site === 'carbon';
 
-  const handleBlurEvent = e => {
+  const handleBlurEvent = (e) => {
     const isStillFocusedWithin = actionBarRef.current.contains(e.relatedTarget);
     setIsActionBarVisible(isStillFocusedWithin);
   };
 
   const handleDownload = () => {
     const a = document.body.appendChild(document.createElement('a'));
-    const string = Element.outerHTML;
-    const blob = new Blob([string], { type: 'image/svg+xml' });
+    const blob = new Blob([source], { type: 'image/svg+xml' });
     const url = window.URL.createObjectURL(blob);
     a.download = `${name}.svg`;
     a.href = url;
