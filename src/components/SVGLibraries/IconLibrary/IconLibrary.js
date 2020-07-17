@@ -7,7 +7,7 @@ import loadable from '@loadable/component';
 import {
   icons as iconMetaData,
   categories as iconCategoryMetadata,
-} from '@carbon/icons/metadata.json';
+} from './metadata.json';
 import { svgPage, svgLibrary } from '../shared/SvgLibrary.module.scss';
 
 import FilterRow from '../shared/FilterRow';
@@ -63,11 +63,8 @@ const IconLibrary = () => {
         const searchValue = searchInputValue.toLowerCase();
         return (
           friendlyName.toLowerCase().includes(searchValue) ||
-          aliases.some(alias =>
-            alias
-              .toString()
-              .toLowerCase()
-              .includes(searchValue)
+          aliases.some((alias) =>
+            alias.toString().toLowerCase().includes(searchValue)
           ) ||
           subcategory.toLowerCase().includes(searchValue) ||
           category.toLowerCase().includes(searchValue) ||
@@ -95,7 +92,7 @@ const IconLibrary = () => {
       <FilterRow
         categoryList={categoryList}
         selectedCategory={selectedCategory}
-        onSearchChange={e =>
+        onSearchChange={(e) =>
           debouncedSetSearchInputValue(e.currentTarget.value)
         }
         onDropdownChange={({ selectedItem }) =>
