@@ -39,6 +39,10 @@ div[aria-label='animation'] {
 }
 
 // Custom class provided to the GifPlayer component which allows for videos
+.video-player video {
+  max-width: 100%;
+}
+
 .video-player div[role='button'] {
   //removes video button
   display: none;
