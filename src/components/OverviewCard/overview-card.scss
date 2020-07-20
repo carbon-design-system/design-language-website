@@ -11,6 +11,7 @@
   transition: background $transition--base;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 
   &:hover {
     background: $hover-ui;
