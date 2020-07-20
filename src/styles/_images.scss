@@ -2,13 +2,19 @@ img {
   max-width: 100%; //needed for svg/gif images
 }
 
-.image-grid img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: $spacing-07;
+.image-grid [class*='column'] {
+  &:nth-child(-n + 3) {
+    margin-bottom: 2rem;
+  }
+  @include carbon--breakpoint-down('lg') {
+    margin-bottom: 2rem;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
 }
 
-// src ends with "svg"
+// targets svg files
 img[src$='svg'] {
   width: 100%; // svgs can scale, so we're cool with stretching them
 }
@@ -48,4 +54,21 @@ div[aria-label='animation'] {
   // fixes video jumping inside gif players
   display: flex;
   align-items: flex-start;
+}
+
+// gallery clusters
+.mock-gallery {
+  --space: 2rem;
+}
+
+.mock-gallery [class*='#{$prefix}--col'] {
+  --space: 2rem;
+  &:last-of-type {
+    --space: 0;
+  }
+}
+
+.mock-gallery ~ span,
+.mock-gallery ~ [class*='video'] {
+  --space: 2rem;
 }
