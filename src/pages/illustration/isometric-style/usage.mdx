@@ -7,6 +7,8 @@ description:
 tabs: [Design, Usage, Production]
 ---
 
+import heroPoster from '../images/usage-hero.png';
+
 <PageDescription>
 
 Our isometric illustration style does a lot of heavy lifting when it comes to
@@ -101,10 +103,7 @@ illusion of depth opens up a wealth of new storytelling options, but care must
 be taken to maintain perspective, and animate with a more physical sense of
 cause and effect.
 
-<Video
-  poster="/images/illustration/usage-hero.png"
-  src="/videos/illustration/usage-hero.mp4"
-/>
+<Video poster={heroPoster} src="/videos/illustration/usage-hero.mp4" />
 
 #### Tips
 
@@ -132,7 +131,7 @@ quickly break the illusion of space and depth.
 <DoDont type="do" caption="Translate objects along the isometric grid on one axis at a time.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -140,7 +139,7 @@ quickly break the illusion of space and depth.
   src="/videos/illustration/translation-do.mp4"
 />
 
-![Translation do](/images/illustration/translation-do.png)
+![Translation do](../images/translation-do.png)
 
 </GifPlayer>
 </DoDont>
@@ -148,7 +147,7 @@ quickly break the illusion of space and depth.
 <DoDont type="dont" caption="Avoid overlapping movement on multiple axes simultainiously.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -156,7 +155,7 @@ quickly break the illusion of space and depth.
   src="/videos/illustration/translation-dont.mp4"
 />
 
-![Translation don't](/images/illustration/translation-dont.png)
+![Translation don't](../images/translation-dont.png)
 
 </GifPlayer>
 </DoDont>
@@ -179,7 +178,7 @@ and complex animations, such as simple rotations and oscillations.
 <DoDont type="do" caption="Keep rotation to one axis at a time.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -187,7 +186,7 @@ and complex animations, such as simple rotations and oscillations.
   src="/videos/illustration/rotation-do.mp4"
 />
 
-![Rotation do](/images/illustration/rotation-do.png)
+![Rotation do](../images/rotation-do.png)
 
 </GifPlayer>
 </DoDont>
@@ -195,7 +194,7 @@ and complex animations, such as simple rotations and oscillations.
 <DoDont type="dont" caption="Avoid overlapping rotation on multiple axes simultainiously.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -203,7 +202,7 @@ and complex animations, such as simple rotations and oscillations.
   src="/videos/illustration/rotation-dont.mp4"
 />
 
-![Rotation don't](/images/illustration/rotation-dont.png)
+![Rotation don't](../images/rotation-dont.png)
 
 </GifPlayer>
 </DoDont>
@@ -222,7 +221,7 @@ accommodate highly controlled, systematic repositioning of the camera.
 <DoDont type="do" caption="Lock the camera to an isometric angle.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -230,7 +229,7 @@ accommodate highly controlled, systematic repositioning of the camera.
   src="/videos/illustration/camera-do.mp4"
 />
 
-![Camera do](/images/illustration/camera-do.png)
+![Camera do](../images/camera-do.png)
 
 </GifPlayer>
 </DoDont>
@@ -238,7 +237,7 @@ accommodate highly controlled, systematic repositioning of the camera.
 <DoDont type="dont" caption="Avoid changes in perspective.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -246,7 +245,7 @@ accommodate highly controlled, systematic repositioning of the camera.
   src="/videos/illustration/camera-dont.mp4"
 />
 
-![Camera don't](/images/illustration/camera-dont.png)
+![Camera don't](../images/camera-dont.png)
 
 </GifPlayer>
 </DoDont>
@@ -271,7 +270,7 @@ shapes.
 <DoDont type="do" caption="Add color and gradients in 2D.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -279,7 +278,7 @@ shapes.
   src="/videos/illustration/light-do.mp4"
 />
 
-![Lighting do](/images/illustration/rotation-do.png)
+![Lighting do](../images/rotation-do.png)
 
 </GifPlayer>
 </DoDont>
@@ -287,7 +286,7 @@ shapes.
 <DoDont type="dont" caption="Avoid baking gradients on surfaces in 3D.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -295,7 +294,7 @@ shapes.
   src="/videos/illustration/light-dont.mp4"
 />
 
-![Lighting don't](/images/illustration/rotation-dont.png)
+![Lighting don't](../images/rotation-dont.png)
 
 </GifPlayer>
 </DoDont>
@@ -316,7 +315,7 @@ capture.
 <DoDont type="do" caption="Animate with weight and momentum.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -324,7 +323,7 @@ capture.
   src="/videos/illustration/physicality-do.mp4"
 />
 
-![Physicality do](/images/illustration/rotation-do.png)
+![Physicality do](../images/rotation-do.png)
 
 </GifPlayer>
 </DoDont>
@@ -332,7 +331,7 @@ capture.
 <DoDont type="dont" caption="Avoid unnatural, exaggerated movements.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -340,7 +339,7 @@ capture.
   src="/videos/illustration/physicality-dont.mp4"
 />
 
-![Physicality don't](/images/illustration/physicality-dont.png)
+![Physicality don't](../images/physicality-dont.png)
 
 </GifPlayer>
 </DoDont>

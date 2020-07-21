@@ -6,6 +6,8 @@ description:
 tabs: [Design, Usage]
 ---
 
+import heroPoster from '../images/ls-usage-hero.png';
+
 <PageDescription>
 
 We apply line style effectively across many formats—from technical drawings to
@@ -77,10 +79,7 @@ The forthright construction and reduced aesthetic of line-style animations lend
 themselves particularly well to deftly applied stroke effects and geometrically
 driven animation.
 
-<Video
-  poster="/images/illustration/ls-usage-hero.png"
-  src="/videos/illustration/ls-usage-hero.mp4"
-/>
+<Video poster={heroPoster} src="/videos/illustration/ls-usage-hero.mp4" />
 
 #### Tips
 
@@ -104,7 +103,7 @@ animating complex gradients unless they’re necessary to convey the message.
 
 <GifPlayer className="video-player">
 
-<video
+<Video
   playsInline
   autoPlay
   loop="on"
@@ -112,7 +111,7 @@ animating complex gradients unless they’re necessary to convey the message.
   src="/videos/illustration/ls-gradients-1.mp4"
 />
 
-![Gradient usage](/images/illustration/ls-gradients-1.png)
+![Gradient usage](../images/ls-gradients-1.png)
 
 </GifPlayer>
 
@@ -124,7 +123,7 @@ animating complex gradients unless they’re necessary to convey the message.
 
 <GifPlayer className="video-player">
 
-<video
+<Video
   playsInline
   autoPlay
   loop="on"
@@ -132,7 +131,7 @@ animating complex gradients unless they’re necessary to convey the message.
   src="/videos/illustration/ls-gradients-2.mp4"
 />
 
-![Gradient usage](/images/illustration/ls-gradients-2.png)
+![Gradient usage](../images/ls-gradients-2.png)
 
 </GifPlayer>
 
@@ -156,7 +155,7 @@ and disorder.
 <DoDont type="do" caption="Choreographed offsets on each object create visual interest.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   playsInline
   autoPlay
   loop="on"
@@ -164,7 +163,7 @@ and disorder.
   src="/videos/illustration/ls-offset-do.mp4"
 />
 
-![Offset do](/images/illustration/ls-offset-do.png)
+![Offset do](../images/ls-offset-do.png)
 
 </GifPlayer>
 </DoDont>
@@ -172,7 +171,7 @@ and disorder.
 <DoDont type="dont" caption="Avoid overlapping objects.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   playsInline
   autoPlay
   loop="on"
@@ -180,7 +179,7 @@ and disorder.
   src="/videos/illustration/ls-offset-dont.mp4"
 />
 
-![Offset don't](/images/illustration/ls-offset-dont.png)
+![Offset don't](../images/ls-offset-dont.png)
 
 </GifPlayer>
 </DoDont>
@@ -199,7 +198,7 @@ gesture at realism, without closely imitating it.
 <DoDont type="do" caption="Here’s a graphic interpretation of human performance.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   playsInline
   autoPlay
   loop="on"
@@ -207,7 +206,7 @@ gesture at realism, without closely imitating it.
   src="/videos/illustration/ls-design-do.mp4"
 />
 
-![Design-first do](/images/illustration/ls-design-do.png)
+![Design-first do](../images/ls-design-do.png)
 
 </GifPlayer>
 </DoDont>
@@ -215,7 +214,7 @@ gesture at realism, without closely imitating it.
 <DoDont type="dont" caption="Overly fluid performances degrade the design.">
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   playsInline
   autoPlay
   loop="on"
@@ -223,7 +222,7 @@ gesture at realism, without closely imitating it.
   src="/videos/illustration/ls-design-dont.mp4"
 />
 
-![Design-first don't](/images/illustration/ls-design-dont.png)
+![Design-first don't](../images/ls-design-dont.png)
 
 </GifPlayer>
 </DoDont>
