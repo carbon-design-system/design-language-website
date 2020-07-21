@@ -21,6 +21,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
+    "serve:prefix": "gatsby serve --prefix-paths -H 0.0.0.0",
     "dev:clean": "yarn clean && gatsby develop",
     "clean": "gatsby clean",
     "lint": "eslint .",
