@@ -6,6 +6,8 @@ description:
 tabs: [Design, Usage]
 ---
 
+import fsPoster from '../images/fs-usage-hero.png';
+
 <PageDescription>
 
 We use flat style when bold color and graphic quality best express dynamic
@@ -76,10 +78,7 @@ personality to the canvas.
 The flat style’s reliance on simple, bold silhouettes allows for more expressive
 performances and evocative motion.
 
-<Video
-  poster="/images/illustration/fs-usage-hero.png"
-  src="/videos/illustration/fs-usage-hero.mp4"
-/>
+<Video poster={fsPoster} src="/videos/illustration/fs-usage-hero.mp4" />
 
 #### Tips
 
@@ -103,7 +102,7 @@ integrity of graphic forms.
 
 <GifPlayer className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -111,7 +110,7 @@ integrity of graphic forms.
   src="/videos/illustration/performance-1.mp4"
 />
 
-![Organic character performance](/images/illustration/performance-1.png)
+![Organic character performance](../images/performance-1.png)
 
 </GifPlayer>
 
@@ -121,7 +120,7 @@ integrity of graphic forms.
 
 <GifPlayer color="dark" className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -129,7 +128,7 @@ integrity of graphic forms.
   src="/videos/illustration/performance-2.mp4"
 />
 
-![Underlying geometry in hand](/images/illustration/performance-2.png)
+![Underlying geometry in hand](../images/performance-2.png)
 
 </GifPlayer>
 
@@ -149,7 +148,7 @@ minimize the appearance of unintended shapes.
 <DoDont type="do" caption="Use solid color to maintain clean graphic shapes.">
 <GifPlayer className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -157,7 +156,7 @@ minimize the appearance of unintended shapes.
   src="/videos/illustration/transparency-do.mp4"
 />
 
-![Offset do](/images/illustration/transparency-do.png)
+![Offset do](../images/transparency-do.png)
 
 </GifPlayer>
 </DoDont>
@@ -165,7 +164,7 @@ minimize the appearance of unintended shapes.
 <DoDont type="dont" caption="Avoid transparency, overlapping shapes and intersections.">
 <GifPlayer className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -173,7 +172,7 @@ minimize the appearance of unintended shapes.
   src="/videos/illustration/transparency-dont.mp4"
 />
 
-![Offset don't](/images/illustration/transparency-dont.png)
+![Offset don't](../images/transparency-dont.png)
 
 </GifPlayer>
 </DoDont>
@@ -193,7 +192,7 @@ movement should be simple, decisive and applied with discretion.
 <DoDont type="do" caption="Stick to simple, decisive camera movements.">
 <GifPlayer className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -201,7 +200,7 @@ movement should be simple, decisive and applied with discretion.
   src="/videos/illustration/fs-translation-do.mp4"
 />
 
-![Offset do](/images/illustration/fs-translation-do.png)
+![Offset do](../images/fs-translation-do.png)
 
 </GifPlayer>
 </DoDont>
@@ -209,7 +208,7 @@ movement should be simple, decisive and applied with discretion.
 <DoDont type="dont" caption="Avoid complex, distracting camera movements.">
 <GifPlayer className="video-player">
 
-<video
+<Video
   autoPlay
   playsInline
   loop="on"
@@ -217,7 +216,7 @@ movement should be simple, decisive and applied with discretion.
   src="/videos/illustration/fs-translation-dont.mp4"
 />
 
-![Offset don't](/images/illustration/fs-translation-dont.png)
+![Offset don't](../images/fs-translation-dont.png)
 
 </GifPlayer>
 </DoDont>
