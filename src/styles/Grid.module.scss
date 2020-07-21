@@ -13,7 +13,7 @@
 
 .mock-gallery [class*='#{$prefix}--col'] {
   @include carbon--breakpoint-down('md') {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
 }
 
