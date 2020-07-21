@@ -7,6 +7,7 @@ description:
 ---
 
 import LottiePlayer from '../../components/LottiePlayer';
+import { withPrefix } from 'gatsby';
 
 <!-- GIFs aren't properly processed with withPrefix, if we import them so weback can keep track of them -->
 
@@ -45,7 +46,10 @@ guidance is universally applicable to every execution.
   src="/videos/animation/minified/animation-tt-ex1.mp4"
 />
 
-![Data vis chart](/images/animation/animation-tt-ex1-poster.jpg)
+<img
+  src={withPrefix('/images/animation/animation-tt-ex1-poster.jpg')}
+  alt="Data vis chart"
+/>
 
 </GifPlayer>
 
@@ -57,7 +61,10 @@ guidance is universally applicable to every execution.
 
 <img src={animation_tt_ex2} alt="Plex glyphs" />
 
-![Plex glyphs](/images/animation/animation-tt-ex2.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-ex2.png')}
+  alt="Plex glyphs"
+/>
 
 </GifPlayer>
 
@@ -75,7 +82,10 @@ guidance is universally applicable to every execution.
   src="/videos/animation/minified/animation-tt-ex3.mp4"
 />
 
-![Watson avatar](/images/animation/animation-tt-ex3-poster.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-ex3-poster.png')}
+  alt="Watson avatar"
+/>
 
 </GifPlayer>
 
@@ -119,7 +129,10 @@ guidance is universally applicable to every execution.
   src="/videos/animation/animation-tt-ex6.mp4"
 />
 
-![Animated illustration](/images/animation/animation-tt-ex6.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-ex6.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -145,7 +158,10 @@ shift a viewer's focus to minimize confusion and fatigue.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-focus.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-focus.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-focus.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -174,7 +190,10 @@ controlled, clearly focused and positioned to create balanced compositions.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-camera1.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-camera1.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-camera1.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
@@ -184,7 +203,10 @@ controlled, clearly focused and positioned to create balanced compositions.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-camera2.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-camera2.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-camera2.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer >
 </DoDont>
@@ -212,7 +234,10 @@ textural motion.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-complexity1.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-complexity1-poster.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-complexity1-poster.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -224,7 +249,10 @@ textural motion.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-complexity2.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-complexity2-poster.jpg)
+<img
+  src={withPrefix('/images/animation/animation-tt-complexity2-poster.jpg')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -252,7 +280,10 @@ increasing the stroke weight from zero to the thickness, not crossfading.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-detail-do.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-detail-do.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-detail-do.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
@@ -262,7 +293,10 @@ increasing the stroke weight from zero to the thickness, not crossfading.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-detail-dont.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-detail-dont.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-detail-dont.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer >
 </DoDont>
@@ -290,7 +324,10 @@ effect, and imbue even simple forms with personality.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-consistency-do.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-consistency-do.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-consistency-do.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
@@ -300,7 +337,10 @@ effect, and imbue even simple forms with personality.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-consistency-dont.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-consistency-dont.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-consistency-dont.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer >
 </DoDont>
@@ -326,7 +366,10 @@ palpable and felt when applied holistically.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-precision-do.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-precision1.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-precision1.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
@@ -336,7 +379,10 @@ palpable and felt when applied holistically.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-precision-dont.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-precision2.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-precision2.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer >
 </DoDont>
@@ -364,7 +410,10 @@ of cause and effect or allowing elements to move purposefully and then rest.
   src="/videos/animation/animation-tt-rhythm1.mp4"
 />
 
-![Animated illustration](/images/animation/animation-tt-rhythm1.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-rhythm1.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -382,7 +431,10 @@ of cause and effect or allowing elements to move purposefully and then rest.
   src="/videos/animation/animation-tt-rhythm2.mp4"
 />
 
-![Animated illustration](/images/animation/animation-tt-rhythm2.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-rhythm2.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -410,7 +462,10 @@ help ensure smooth performances.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-fluidity-do.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-fluidity-do.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-fluidity-do.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
@@ -420,7 +475,10 @@ help ensure smooth performances.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-fluidity-dont.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-fluidity-dont.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-fluidity-dont.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer >
 </DoDont>
@@ -444,7 +502,10 @@ cartoonish overshoots and bounces.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-momentum.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-momentum.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-momentum.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </Column>
@@ -470,7 +531,10 @@ stylized realism can be an effective way to create interest.
   src="/videos/animation/animation-tt-volume-do.mp4"
 />
 
-![Animated illustration](/images/animation/animation-tt-volume-do.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-volume-do.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -489,7 +553,10 @@ stylized realism can be an effective way to create interest.
   src="/videos/animation/animation-tt-volume-dont.mp4"
 />
 
-![Animated illustration](/images/animation/animation-tt-volume-dont.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-volume-dont.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
@@ -524,7 +591,10 @@ typically more anecdotal and linear in their message than loops.
   src="/videos/animation/animation-tt-sequential-mobile.mp4"
 />
 
-![Animated illustration](/images/animation/animation-tt-sequential-mobile.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-sequential-mobile.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -538,7 +608,10 @@ typically more anecdotal and linear in their message than loops.
   src="videos/animation/animation-tt-sequential-wide.mp4"
 />
 
-![Animated illustration](/images/animation/animation-tt-sequential-wide.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-sequential-wide.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -570,7 +643,10 @@ overall ambient effect that draws focus and sets a particular tone.
   src="/videos/animation/animation-tt-simple-loop-mobile.mp4"
 />
 
-![Animated illustration](/images/animation/animation-tt-simple-loop-mobile.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-simple-loop-mobile.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -584,7 +660,10 @@ overall ambient effect that draws focus and sets a particular tone.
   src="/videos/animation/animation-tt-simple-loop-wide.mp4"
 />
 
-![Animated illustration](/images/animation/animation-tt-simple-loop-wide.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-simple-loop-wide.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 
@@ -603,7 +682,10 @@ overall ambient effect that draws focus and sets a particular tone.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-nested-loop-do.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-nested-loop-do.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-nested-loop-do.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
@@ -613,7 +695,10 @@ overall ambient effect that draws focus and sets a particular tone.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-nested-loop-dont.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-nested-loop-dont.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-nested-loop-dont.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer >
 </DoDont>
@@ -640,7 +725,10 @@ legible and comprehensible to the viewer.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-presentation-do.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-presentation-do.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-presentation-do.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
@@ -652,7 +740,10 @@ legible and comprehensible to the viewer.
   src={import(`../../lottie/animation-tt-presentation-dont.json`)}
 />
 
-![Animated illustration](/images/animation/animation-tt-presentation-dont.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-presentation-dont.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer >
 </DoDont>
@@ -673,7 +764,10 @@ whether it’s a single glyph or an entire paragraph.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-integrity-do.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-integrity-do.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-integrity-do.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
@@ -683,7 +777,10 @@ whether it’s a single glyph or an entire paragraph.
 
 <LottiePlayer src={import(`../../lottie/animation-tt-integrity-dont.json`)} />
 
-![Animated illustration](/images/animation/animation-tt-integrity-dont.png)
+<img
+  src={withPrefix('/images/animation/animation-tt-integrity-dont.png')}
+  alt="Animated illustration"
+/>
 
 </GifPlayer>
 </DoDont>
