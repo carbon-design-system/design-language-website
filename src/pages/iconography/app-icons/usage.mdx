@@ -47,6 +47,40 @@ When pairing with typography, app icons should not appear to be a logo for any p
 </DoDont>
 </DoDontRow>
 
+### Monochromatic icons
+
+In some limited use cases, you may need a single-color app icon. These icons are generally used when the icon needs to appear on a color background or in situations when the icon shouldn’t call attention to itself with color, such as disabled states.
+
+<Row className={mockGallery}>
+<Column colMd={4} colLg={4}>
+
+![Monochromatic dark theme app icon](images/1_2-27_StrokeIcons_Elements_Monochromatic_Dark.svg)
+
+<Caption>Gray 10 monochromatic icon for background values 60–100</Caption>
+
+</Column>
+<Column colMd={4} colLg={4}>
+
+![Monochromatic light theme app icon](images/1_2-28_StrokeIcons_Elements_Monochromatic_Light.svg)
+
+<Caption>Gray 100 monochromatic icon for background values 10–50</Caption>
+
+</Column>
+</Row>
+
+<DoDontRow>
+<DoDont caption="Use monochromatic for app icons on color fields.">
+
+![Monochromatic app icon on a color field](images/1_2-29_StrokeIcons_Elements_Monochromatic_Do.png)
+
+</DoDont>
+<DoDont type="dont" caption="Don’t apply color to an app icon on a color field.">
+
+![Color app icon on a color field](images/1_2-30_StrokeIcons_Elements_Monochromatic_Dont.png)
+
+</DoDont>
+</DoDontRow>
+
 ## Native OS
 
 Icons for native applications appear within a variety of contexts, such as task bars, user-customized wallpapers, notifications, system preferences, and more. In most systems, a background container shape is needed to provide proper contrast against the large variety of backgrounds. Check the requirements of the operating system on which your product will be published to determine whether your icon needs a container shape.
@@ -78,7 +112,7 @@ Icons for native applications appear within a variety of contexts, such as task 
 </DoDont>
 </DoDontRow>
 
-#### Android adaptive icons
+### Android adaptive icons
 
 Android app icons have user-customizable masks as container shapes and make use of foreground and background layers to achieve parallax effects. You can separate your icon's elements into the two layers to make use of this interactive feature.
 
@@ -86,58 +120,6 @@ Android app icons have user-customizable masks as container shapes and make use 
   poster="/images/2_2-5_NativeOS_Adapticon_PosterImage.png"
   src="/videos/2_2-5_NativeOS_Adapticon.mp4"
 />
-
-### Background color
-
-You can choose a background color or gradient for native app icon container shapes. Most icons are placed on a black or white background, but you may choose alternative background colors within the color guidance of your app icon style.
-
-Color app icons may be placed on background color values 10–20 and 90–100. Use monochromatic app icons for color values 20–80, and make sure the icon complies with [IBM accessibility standards](https://www.carbondesignsystem.com/guidelines/accessibility/overview).
-
-| Background color values | Color icon theme | Monochromatic icon color |
-| ----------------------- | ---------------- | ------------------------ |
-| White, 10, 20           | Light theme      | Gray 100                 |
-| 30–50                   | –                | Gray 100                 |
-| 50–80                   | –                | Gray 10                  |
-| 90, 100, black          | Dark theme       | Gray 10                  |
-
-<Row className={mockGallery}>
-<Column colMd={4} colLg={4}>
-
-![App icon on dark background](images/2_2-6_NativeOS_Background1.svg)
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![App icon on light background](images/2_2-7_NativeOS_Background2.svg)
-
-</Column>
-</Row>
-
-<Row className={mockGallery}>
-<Column colMd={4} colLg={4}>
-
-![Monochromatic app icon on light background](images/2_2-8_NativeOS_Background3.svg)
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![Monochromatic app icon on dark background](images/2_2-9_NativeOS_Background4.svg)
-
-</Column>
-</Row>
-
-<DoDontRow>
-<DoDont type="dont" caption="Don’t use monochromatic icons on backgrounds with inaccessible contrast.">
-
-![Monochromatic app icon with inaccessible contrast to the background](images/2_2-10_NativeOS_Background_Dont1.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t use color app icons with mid-range color values. ">
-
-![App icon on background with clashing mid-range colors](images/2_2-11_NativeOS_Background_Dont2.svg)
-
-</DoDont>
-</DoDontRow>
 
 ## Gallery
 
