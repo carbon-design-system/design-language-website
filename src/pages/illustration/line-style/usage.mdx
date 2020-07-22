@@ -6,8 +6,6 @@ description:
 tabs: [Design, Usage]
 ---
 
-import heroPoster from '../images/ls-usage-hero.png';
-
 <PageDescription>
 
 We apply line style effectively across many formats—from technical drawings to
@@ -79,7 +77,19 @@ The forthright construction and reduced aesthetic of line-style animations lend
 themselves particularly well to deftly applied stroke effects and geometrically
 driven animation.
 
-<Video poster={heroPoster} src="/videos/illustration/ls-usage-hero.mp4" />
+<GifPlayer className="video-player">
+
+<Video
+  autoPlay
+  playsInline
+  loop="on"
+  muted
+  src="/videos/illustration/ls-usage-hero.mp4"
+/>
+
+![line style illustration animation](../images/ls-usage-hero.png)
+
+</GifPlayer>
 
 #### Tips
 
