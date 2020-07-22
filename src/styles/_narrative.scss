@@ -5,7 +5,7 @@
   padding-bottom: 1rem;
   border-bottom: 1px solid #e0e0e0;
   display: block;
-  min-height: 180px;
+  min-height: 200px;
   @include carbon--breakpoint('lg') {
     display: flex;
   }

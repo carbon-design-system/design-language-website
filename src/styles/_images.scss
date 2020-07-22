@@ -32,3 +32,20 @@ img[src$='svg'] {
     margin-top: 0;
   }
 }
+
+div[aria-label='animation'] {
+  // needed for lottie animation files
+  line-height: 0;
+}
+
+// Custom class provided to the GifPlayer component which allows for videos
+.video-player div[role='button'] {
+  //removes video button
+  display: none;
+}
+
+.video-player > div:first-of-type > div:first-of-type {
+  // fixes video jumping inside gif players
+  display: flex;
+  align-items: flex-start;
+}

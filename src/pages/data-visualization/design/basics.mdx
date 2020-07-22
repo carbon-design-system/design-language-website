@@ -7,10 +7,9 @@ tabs: [Basics, Usage]
 import beeImage from '../../images/bee.svg';
 import favicon from '../../images/carbon_grey.svg';
 import {Button} from "carbon-components-react";
-import '../../../styles/data-vis.scss';
+import { noGutterSm } from '../../../styles/Grid.module.scss'
 
 import MiniCard from "../../../components/MiniCard";
-import '../../../styles/miniCardStyles.scss';
 
 <PageDescription>
 
@@ -29,7 +28,12 @@ To make data visualization distinctive as IBM products, there are multiple eleme
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Chart Anatomy](/images/dataviz/Design_ChartAnatomy_Animation.gif)
+<GifPlayer color="dark">
+
+![Chart Anatomy](/images/Basics/chart_anatomy/Design_ChartAnatomy_Animation.gif)
+![Chart Anatomy](/images/Basics/chart_anatomy/Design_ChartAnatomy.jpg)
+
+</GifPlayer>
 
 </Column>
 </Row>

@@ -5,6 +5,7 @@ tabs: [Library, Design, Usage, Contribute]
 ---
 
 import { Bee32 } from '@carbon/icons-react';
+import { mockGallery, noGutterSm } from '../../../styles/Grid.module.scss';
 
 <PageDescription>
 
@@ -34,7 +35,7 @@ IBM’s pictograms are visual symbols used to represent ideas, objects or narrat
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Pictogram master"
+      subTitle="IBM pictogram master"
       aspectRatio="2:1"
       href="https://github.com/carbon-design-system/carbon/raw/master/packages/pictograms/master/pictogram-master.ai"
       actionIcon="download"
@@ -111,7 +112,7 @@ The grid contains 1px padding. This ensures pictograms will retain their desired
 
 The stylistic conventions of IBM’s pictograms deliver meaningful metaphor through simple line art. Each symbol is intentionally designed to harmoniously pair with [IBM Plex™](https://www.ibm.com/plex/). The juxtaposition of smooth curves and sharp angles is central to IBM Design.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={6} colLg={6}>
 <ArtDirection>
 
@@ -131,7 +132,7 @@ The stylistic conventions of IBM’s pictograms deliver meaningful metaphor thro
 </ArtDirection>
 </Column>
 </Row>
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={6} colLg={6}>
 <ArtDirection>
 
@@ -151,7 +152,7 @@ The stylistic conventions of IBM’s pictograms deliver meaningful metaphor thro
 </ArtDirection>
 </Column>
 </Row>
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={6} colLg={6}>
 <ArtDirection>
 
@@ -172,7 +173,7 @@ The stylistic conventions of IBM’s pictograms deliver meaningful metaphor thro
 </ArtDirection>
 </Column>
 </Row>
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 <Column colMd={6} colLg={6}>
 <ArtDirection>
 

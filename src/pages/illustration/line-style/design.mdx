@@ -1,11 +1,14 @@
 ---
 title: Line style
 description: Line style illustrations use limited line weights and a small grid to convey concepts with precision and yet a wide latitude for expression.
+tabs: [Design, Usage]
 ---
+
+import { mockGallery, noGutterSm } from '../../../styles/Grid.module.scss';
 
 <PageDescription>
 
-Line style is the most basic and immediate type of illustration at IBM. Line style illustrations use a very limited set of line weights, a 4px grid and simple color rules. Please consider the following guidelines when crafting Line style illustrations.
+Line style is the most basic and immediate type of illustration at IBM. Line style illustrations use a very limited set of line weights, a 4px grid and simple color rules. Please consider the following guidelines when crafting line style illustrations.
 
 </PageDescription>
 
@@ -39,7 +42,7 @@ Line style is the most basic and immediate type of illustration at IBM. Line sty
 
 ![Line style illustration example 1](./images/line-1.png)
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -63,7 +66,7 @@ Line style is the most basic and immediate type of illustration at IBM. Line sty
 
 ![Line style illustration example 5](./images/line-5.png)
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -194,7 +197,7 @@ Please use standard angles—15°, 30°, 45°, 60°, 75° and 90° are preferred
 
 Create curves using the grid as your guide and use quarter circles, semicircles and full circles whenever possible to achieve pure and simple curved shapes. Following this guidance will help ensure the engineered aesthetic.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={6}>
 
@@ -217,7 +220,7 @@ Create curves using the grid as your guide and use quarter circles, semicircles 
 
 </DoDont>
 
-<DoDont type="dont" caption="Don't use irregular curves if they can be avoided.">
+<DoDont type="dont" caption="Don’t use irregular curves if they can be avoided.">
 
 ![irregular curves example](./images/curves-dont.png)
 
@@ -228,7 +231,7 @@ Create curves using the grid as your guide and use quarter circles, semicircles 
 
 Organic Bézier curves may be used to add more realism and character to your illustration, but should be used intentionally and with precision. Basic shapes should always lay the foundation and be used to ground the more irregular curves.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={6}>
 
@@ -262,7 +265,7 @@ You can round the corners of angles in Adobe Illustrator for a fluid and control
 
 </DoDont>
 
-<DoDont type="dont" caption="Don't use different corner radii when nesting lines.">
+<DoDont type="dont" caption="Don’t use different corner radii when nesting lines.">
 
 ![poorly executed rounded corners](./images/rounded-dont.png)
 
@@ -277,7 +280,7 @@ Each illustration style has a slightly different expression of color based on th
 
 Gradients can be an effective way of adding more fidelity to your linework by implying depth, dimension and movement. For best results, apply the gradient so that it follows the path of the stroke.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -297,7 +300,7 @@ Gradients can be an effective way of adding more fidelity to your linework by im
 
 In most cases, it’s recommended to use opaque lines and avoid the use of lighting effects, such as transparency and multiply. This technique helps ensure consistent colors across all our illustrations. Transparency effects can still be implied by carefully selecting sequential swatches from the palette or by using gradients where one of the swatches blends into the background.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 

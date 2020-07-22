@@ -1,7 +1,10 @@
 ---
 title: Flat style
 description: Flat style illustrations use basic geometric shapes to suggest people, objects, places and concepts using elements such as grid and color.
+tabs: [Design, Usage]
 ---
+
+import { mockGallery, noGutterSm } from '../../../styles/Grid.module.scss';
 
 <PageDescription>
 
@@ -39,7 +42,7 @@ Flat style is the boldest and most graphic illustration style used at IBM. As th
 
 ![Flat style illustration example 1](./images/flat-1.png)
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -63,7 +66,7 @@ Flat style is the boldest and most graphic illustration style used at IBM. As th
 
 ![Flat style illustration example 5](./images/flat-5.svg)
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -96,7 +99,7 @@ Objects in flat style illustrations should use basic geometric shapes as the fou
 
 </ArtDirection>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -110,7 +113,7 @@ Objects in flat style illustrations should use basic geometric shapes as the fou
 
 ![combining shapes example 2](./images/shapes-3.svg)
 
-<Caption>Two squares and one circle to make a heart.</Caption>
+<Caption>Two circles and one square to make a heart.</Caption>
 
 </Column>
 
@@ -120,7 +123,7 @@ Objects in flat style illustrations should use basic geometric shapes as the fou
 
 All objects within a flat style illustration should be at least 8px wide or tall. This measurement is very important as using a shape any thinner or shorter will be seen as a line and will change the character of your illustration. Similarly, any negative space or spacing between shapes should also be a minimum of 8px.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -209,7 +212,7 @@ Please use standard angles—15°, 30°, 45°, 60°, 75° and 90° are preferred
 
 Create curves using the grid as your guide and use quarter circles, semicircles and full circles whenever possible to achieve pure and simple curved shapes. Following this guidance will help ensure the engineered aesthetic.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={6}>
 
@@ -232,7 +235,7 @@ Create curves using the grid as your guide and use quarter circles, semicircles 
 
 </DoDont>
 
-<DoDont type="dont" caption="Don't use irregular curves if they can be avoided.">
+<DoDont type="dont" caption="Don’t use irregular curves if they can be avoided.">
 
 ![irregular curves example example](./images/curves-dont.svg)
 
@@ -243,7 +246,7 @@ Create curves using the grid as your guide and use quarter circles, semicircles 
 
 Organic Bézier curves may be used to add more realism and character to your illustration, but should be used intentionally and with precision. Basic shapes should always lay the foundation and be used to ground the more irregular curves.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={6}>
 
@@ -292,7 +295,7 @@ Each illustration style has a slightly different expression of color based on th
 
 Gradients can be an effective way of adding more fidelity to your illustration by implying depth, dimension and movement. They can also be an effective and necessary means of creating definition between neighboring shapes.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -312,7 +315,7 @@ Gradients can be an effective way of adding more fidelity to your illustration b
 
 In most cases, it’s recommended to use opaque shapes and avoid the use of lighting effects, such as transparency and multiply. This technique helps ensure consistent colors across all our illustrations. Transparency effects can still be implied by carefully use of swatches from the palette or by using gradients where one of the swatches blends into the background.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 

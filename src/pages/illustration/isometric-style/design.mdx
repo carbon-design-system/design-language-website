@@ -1,8 +1,10 @@
 ---
 title: Isometric style
 description: Isometric style illustrations transform 2D objects using equal angles, color, light and shadow, showing the illusion of depth, substance and motion.
-tabs: [Design, Production]
+tabs: [Design, Usage, Production]
 ---
+
+import { mockGallery, noGutterSm } from '../../../styles/Grid.module.scss';
 
 <PageDescription>
 
@@ -41,7 +43,7 @@ Isometric style is the most spatial and realistic type of illustration at IBM. I
 
 ![Isometric illustration example 1](./images/Gallery1.png)
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -65,7 +67,7 @@ Isometric style is the most spatial and realistic type of illustration at IBM. I
 
 ![Isometric illustration example 5](./images/Gallery5.svg)
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -98,7 +100,7 @@ Isometric style illustrations employ the isometric projection method to create t
 
 </ArtDirection>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -122,7 +124,7 @@ Isometric style illustrations employ the isometric projection method to create t
 
 Due to its realism, isometric style is often used to illustrate the relationship between humans and technology. This relationship should be effortless, and illustrations should appear lightweight, with actions depicted as easy and precise. Floating objects, lean dimensions and precise alignments give the viewer a sense of airiness, ease and order.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -153,29 +155,21 @@ Based on the angles of an equilateral triangle, the isometric 2x grid is essenti
 
 Illustrations should snap to the intersections of the isometric grid lines in Adobe Illustrator. The grid gives the precise and engineered aesthetic, which is vital to any IBM illustration.
 
-<Row>
+<DoDontRow>
 
-<Column colMd={4} colLg={4}>
-
-<DoDontExample type="do" caption="Do make sure the anchor point lands clearly on intersecting grid lines.">
+<DoDont caption="Do make sure the anchor point lands clearly on intersecting grid lines.">
 
 ![Circle with anchor points on the grid intersections](./images/Snapping_Do.svg)
 
-</DoDontExample>
+</DoDont>
 
-</Column>
-
-<Column colMd={4} colLg={4}>
-
-<DoDontExample type="dont" caption="Don’t place anchor points off-grid unless absolutely necessary.">
+<DoDont type="dont" caption="Don’t place anchor points off-grid unless absolutely necessary.">
 
 ![Circle with anchor points off-grid](./images/Snapping_Dont.svg)
 
-</DoDontExample>
+</DoDont>
 
-</Column>
-
-</Row>
+</DoDontRow>
 
 ## Drawing
 
@@ -203,7 +197,7 @@ For a consistent look across all isometric style illustrations, it's important t
 
 Create curves using the grid as your guide and use quarter circles, semicircles and full circles whenever possible to achieve pure and simple curved shapes. Following this guidance will help ensure the engineered aesthetic.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={6}>
 
@@ -219,35 +213,24 @@ Create curves using the grid as your guide and use quarter circles, semicircles 
 
 </Row>
 
-<Row className="mock-gallery">
-
-<Column colMd={4} colLg={4}>
-
-<DoDontExample type="do" caption="Do use clear and regular curves when possible.">
+<DoDontRow>
+<DoDont caption="Do use clear and regular curves when possible.">
 
 ![Curves made from sections of cirlces](./images/CircularCurves_Do.svg)
 
-</DoDontExample>
-
-</Column>
-
-<Column colMd={4} colLg={4}>
-
-<DoDontExample type="dont" caption="Don't use irregular curves if they can be avoided.">
+</DoDont>
+<DoDont type="dont" caption="Don't use irregular curves if they can be avoided.">
 
 ![Curves made without circles](./images/CircularCurves_Dont.svg)
 
-</DoDontExample>
-
-</Column>
-
-</Row>
+</DoDont>
+</DoDontRow>
 
 ### Organic Curves
 
 Organic Bézier curves may be used to add more realism and character to your illustration, but should be used intentionally and with precision. Basic shapes should always lay the foundation and be used to ground the more irregular curves.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={6}>
 
@@ -263,25 +246,18 @@ Organic Bézier curves may be used to add more realism and character to your ill
 
 </Row>
 
-<Row className="mock-gallery">
-
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Always use isometric angles as the foundation when drawing organic curves.">
+<DoDontRow>
+<DoDont caption="Always use isometric angles as the foundation when drawing organic curves.">
 
 ![Shoulders aligned to isometric angles](./images/OrganicCurves_Do.svg)
 
-</DoDontExample>
-</Column>
-
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Don't use non-isometric angles for primary elements that should align to the grid.">
+</DoDont>
+<DoDont type="dont" caption="Don't use non-isometric angles for primary elements that should align to the grid.">
 
 ![Shoulders not aligned to isometric angles](./images/OrganicCurves_Dont.svg)
 
-</DoDontExample>
-</Column>
-
-</Row>
+</DoDont>
+</DoDontRow>
 
 ### Rounded corners and nesting
 
@@ -294,25 +270,18 @@ You can round the corners of angles in Adobe Illustrator for a fluid and control
 
 </ArtDirection>
 
-<Row className="mock-gallery">
-
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Nested lines that curve should remain equally spaced with increasing radii.">
+<DoDontRow>
+<DoDont caption="Nested lines that curve should remain equally spaced with increasing radii.">
 
 ![Rounded corners nested with increasing radii](./images/RoundedCorners_Do.svg)
 
-</DoDontExample>
-</Column>
-
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Avoid the use of different corner radii in a nested design.">
+</DoDont>
+<DoDont type="dont" caption="Avoid the use of different corner radii in a nested design.">
 
 ![Rounded corners nested with equal radii](./images/RoundedCorners_Dont.svg)
 
-</DoDontExample>
-</Column>
-
-</Row>
+</DoDont>
+</DoDontRow>
 
 ## Color
 
@@ -322,7 +291,7 @@ Color techniques for isometric illustrations can help render the scene with more
 
 Gradients can be an effective way of adding more fidelity to your illustration by implying depth, dimension and movement. They can also be applied to various surfaces to imply a point source of light or material qualities.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -342,7 +311,7 @@ Gradients can be an effective way of adding more fidelity to your illustration b
 
 Transparency can help determine an object’s materiality and its interaction with light. Whenever possible, use colors from the [IBM color palette](https://www.ibm.com/design/language/color) as your starting point and add transparency only when necessary. Avoid lighting effects, such as screen, multiply and overlay.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
@@ -366,7 +335,7 @@ Light produces shadow which helps create shape and dimension to ground objects i
 
 The key to lighting within the isometric style is consistency. Keep the direction, or source, of light consistent within your illustration or set of illustrations. This creates a clear relationship between an object's shape and the shadow it casts.
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={3} colLg={6}>
 
@@ -382,25 +351,18 @@ The key to lighting within the isometric style is consistency. Keep the directio
 
 </Row>
 
-<Row className="mock-gallery">
-
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Use a single light source throughout an illustration.">
+<DoDontRow>
+<DoDont caption="Use a single light source throughout an illustration.">
 
 ![Consistent shadow angles](./images/LightSource_Do.svg)
 
-</DoDontExample>
-</Column>
-
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Don’t imply multiple light sources by using various shadow angles.">
+</DoDont>
+<DoDont type="dont" caption="Don’t imply multiple light sources by using various shadow angles.">
 
 ![Multiple shadow angles](./images/LightSource_Dont.svg)
 
-</DoDontExample>
-</Column>
-
-</Row>
+</DoDont>
+</DoDontRow>
 
 ### Shadow types
 
@@ -413,25 +375,18 @@ There are multiple shadow types to choose from, flat shadows have sharp edges, w
 
 </ArtDirection>
 
-<Row className="mock-gallery">
-
-<Column colMd={4} colLg={4}>
-<DoDontExample type="do" caption="Use consistent shadow styles throughout an illustration.">
+<DoDontRow>
+<DoDont caption="Use consistent shadow styles throughout an illustration.">
 
 ![Consistent shadow types](./images/ShadowType_Do.svg)
 
-</DoDontExample>
-</Column>
-
-<Column colMd={4} colLg={4}>
-<DoDontExample type="dont" caption="Avoid the use of different corner radii in a nested design.">
+</DoDont>
+<DoDont type="dont" caption="Avoid the use of different corner radii in a nested design.">
 
 ![Multiple shadow types](./images/ShadowType_Dont.svg)
 
-</DoDontExample>
-</Column>
-
-</Row>
+</DoDont>
+</DoDontRow>
 
 ### Illumination
 
@@ -444,7 +399,7 @@ Light and gradient can be used to illuminate what’s possible with technology. 
 
 </ArtDirection>
 
-<Row className="mock-gallery">
+<Row className={mockGallery}>
 
 <Column colMd={4} colLg={4}>
 
