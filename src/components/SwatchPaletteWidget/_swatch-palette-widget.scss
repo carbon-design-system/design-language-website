@@ -4,11 +4,12 @@
 
   .#{$prefix}--swatch-palette {
     width: 100%;
-    margin-bottom: $spacing-07;
+    margin-bottom: 1px;
 
     .#{$prefix}--swatch {
       padding: $spacing-05;
-      @include carbon--type-style('code-02') .#{$prefix}--swatch-name {
+      @include carbon--type-style('code-02');
+      .#{$prefix}--swatch-name {
         text-transform: capitalize;
       }
       .#{$prefix}--swatch-value {

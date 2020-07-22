@@ -1,7 +1,12 @@
 .overview-card-group {
-  @include carbon--breakpoint('md') {
-    margin: $spacing-05 rem(-16px) $spacing-07 rem(-16px);
+  @include carbon--breakpoint-down('lg') {
+    max-width: 100vw;
+    overflow-x: hidden;
   }
+}
+
+.overview-card-group > * {
+  --space: 0;
 }
 
 .overview-card-group .overview-card {
