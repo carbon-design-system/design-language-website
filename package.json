@@ -21,6 +21,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
+    "serve:prefix": "gatsby serve --prefix-paths -H 0.0.0.0",
     "dev:clean": "yarn clean && gatsby develop",
     "clean": "gatsby clean",
     "lint": "eslint .",
@@ -72,7 +73,7 @@
     "fs-extra": "^8.1.0",
     "gatsby": "^2.19.17",
     "gatsby-plugin-manifest": "^2.2.5",
-    "gatsby-theme-carbon": "^1.26.1",
+    "gatsby-theme-carbon": "^1.26.2",
     "lodash-es": "^4.17.15",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
