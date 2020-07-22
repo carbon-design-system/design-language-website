@@ -6,8 +6,6 @@ description:
 tabs: [Design, Usage]
 ---
 
-import fsPoster from '../images/fs-usage-hero.png';
-
 <PageDescription>
 
 We use flat style when bold color and graphic quality best express dynamic
@@ -78,7 +76,19 @@ personality to the canvas.
 The flat style’s reliance on simple, bold silhouettes allows for more expressive
 performances and evocative motion.
 
-<Video poster={fsPoster} src="/videos/illustration/fs-usage-hero.mp4" />
+<GifPlayer className="video-player video-player__gray">
+
+<Video
+  autoPlay
+  playsInline
+  loop="on"
+  muted
+  src="/videos/illustration/fs-usage-hero.mp4"
+/>
+
+![flat style video poster](../images/fs-usage-hero.png)
+
+</GifPlayer>
 
 #### Tips
 

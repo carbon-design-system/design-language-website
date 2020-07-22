@@ -7,8 +7,6 @@ description:
 tabs: [Design, Usage, Production]
 ---
 
-import heroPoster from '../images/usage-hero.png';
-
 <PageDescription>
 
 Our isometric illustration style does a lot of heavy lifting when it comes to
@@ -103,7 +101,19 @@ illusion of depth opens up a wealth of new storytelling options, but care must
 be taken to maintain perspective, and animate with a more physical sense of
 cause and effect.
 
-<Video poster={heroPoster} src="/videos/illustration/usage-hero.mp4" />
+<GifPlayer className="video-player video-player__gray">
+
+<Video
+  autoPlay
+  playsInline
+  loop="on"
+  muted
+  src="/videos/illustration/usage-hero.mp4"
+/>
+
+![isometric illustration animation](../images/usage-hero.png)
+
+</GifPlayer>
 
 #### Tips
 
