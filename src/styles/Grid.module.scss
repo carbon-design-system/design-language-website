@@ -1,21 +1,21 @@
 .grid-images [class*='#{$prefix}--col'] {
-    @include carbon--breakpoint-down('md') {
-      padding-right: 0px;
-    }
+  @include carbon--breakpoint-down('md') {
+    padding-right: 0px;
   }
+}
 
 // gallery clusters
 .mock-gallery {
-    @include carbon--breakpoint-down('md') {
-      --space: 0;
-    }
+  @include carbon--breakpoint-down('md') {
+    --space: 0;
   }
-  
-  .mock-gallery [class*='#{$prefix}--col'] {
-    @include carbon--breakpoint-down('md') {
-      margin-top: 1.5rem;
-    }
+}
+
+.mock-gallery [class*='#{$prefix}--col'] {
+  @include carbon--breakpoint-down('md') {
+    margin-top: 2rem;
   }
+}
 
 //---------------------------------------
 // Overrides
@@ -53,7 +53,7 @@
 
 .example-aside:before {
   width: $spacing-07 !important;
-  left: 0 !important;;
+  left: 0 !important;
 }
 
 .#{$prefix}--aspect-ratio--image {
@@ -84,4 +84,3 @@
 .principles-section h2 {
   margin-top: 0;
 }
-

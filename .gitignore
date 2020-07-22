@@ -16,6 +16,7 @@ public/*
 .vscode
 .vscode/launch.json
 
+
 # Coverage directory used by tools like Istanbul
 coverage
 
@@ -23,3 +24,6 @@ coverage
 package-lock.json
 
 .now
+
+# Icon metadata
+metadata.json

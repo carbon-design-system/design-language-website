@@ -4,7 +4,7 @@ import Lottie from 'react-lottie';
 const LottiePlayer = props => {
   const [data, setData] = useState(null);
 
-  const path = props.src
+  props.src
     .then(module => {
       setData(module.default);
     })
@@ -19,7 +19,7 @@ const LottiePlayer = props => {
     },
   };
 
-  return <Lottie width={'100%'} height={'100%'} options={defaultOptions} />;
+  return <Lottie width="100%" height="100%" options={defaultOptions} />;
 };
 
 export default LottiePlayer;

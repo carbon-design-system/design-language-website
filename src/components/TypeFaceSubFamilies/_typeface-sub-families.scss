@@ -1,5 +1,4 @@
 .#{$prefix}--subfamilies-menu-tabs {
-  width: 100%;
   padding-left: 0 !important;
   width: rem(10px);
 }
@@ -18,7 +17,7 @@
   visibility: hidden;
 
   * {
-    font-family: 'IBM Plex Sans Condensed';
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
   }
 }
 
@@ -41,7 +40,6 @@
   margin: 0;
   padding-left: $spacing-05;
   padding-right: $spacing-05;
-  box-sizing: border-box;
   white-space: nowrap;
   text-overflow: ellipsis;
   outline: none;

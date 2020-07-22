@@ -4,12 +4,12 @@ import classnames from 'classnames';
 import { settings } from 'carbon-components';
 
 import {
-  PlayOutline20,
-  PlayOutlineFilled20,
-  PauseOutline20,
-  PauseOutlineFilled20,
-  Play20 as Play32,
-  Pause20 as Pause32,
+  PlayOutline24,
+  PlayOutlineFilled24,
+  PauseOutline24,
+  PauseOutlineFilled24,
+  Play24 as Play32,
+  Pause24 as Pause32,
 } from '@carbon/icons-react';
 
 const { prefix } = settings;
@@ -55,25 +55,25 @@ class PlayPauseButton extends React.Component {
               className={classnames(`${prefix}--play-pause-icon`, {
                 active: playing && hover,
               })}>
-              <PauseOutlineFilled20 />
+              <PauseOutlineFilled24 />
             </span>
             <span
               className={classnames(`${prefix}--play-pause-icon`, {
                 active: playing && !hover,
               })}>
-              <PauseOutline20 />
+              <PauseOutline24 />
             </span>
             <span
               className={classnames(`${prefix}--play-pause-icon`, {
                 active: !playing && hover,
               })}>
-              <PlayOutlineFilled20 />
+              <PlayOutlineFilled24 />
             </span>
             <span
               className={classnames(`${prefix}--play-pause-icon`, {
                 active: !playing && !hover,
               })}>
-              <PlayOutline20 />
+              <PlayOutline24 />
             </span>
           </>
         )}
