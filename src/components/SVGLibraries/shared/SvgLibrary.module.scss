@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   position: sticky;
-  z-index: z('dropdown');
+  z-index: 5000;
   top: 7rem;
   border-bottom: 1px solid $ui-03;
   transition: box-shadow $duration--fast-02 ease;
