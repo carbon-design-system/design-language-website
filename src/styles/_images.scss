@@ -61,6 +61,10 @@ div[aria-label='animation'] {
   align-items: flex-start;
 }
 
+.video-player.video-player__gray svg {
+  fill: $carbon--gray-50;
+}
+
 // gallery clusters
 .mock-gallery {
   --space: 2rem;
