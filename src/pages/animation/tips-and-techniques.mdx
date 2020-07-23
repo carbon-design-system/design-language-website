@@ -6,9 +6,6 @@ description:
   following guidance is universally applicable to every execution.
 ---
 
-import ex4poster from './images/animation-tt-ex4-poster.jpg';
-import ex5poster from './images/animation-tt-ex5-poster.png';
-
 import LottiePlayer from '../../components/LottiePlayer';
 
 <!-- GIFs aren't properly processed with withPrefix, if we import them so weback can keep track of them -->
@@ -86,27 +83,37 @@ guidance is universally applicable to every execution.
 
 </Row>
 
+<GifPlayer className="video-player video-player__gray">
+
 <Video
   autoPlay
   playsInline
   loop="on"
   muted
-  poster={ex4poster}
   src="/videos/animation/animation-tt-ex4.mp4"
 />
+
+![animation tips and techniques](./images/animation-tt-ex4-poster.jpg)
+
+</GifPlayer>
 
 <Row className="mock-gallery">
 
 <Column colMd={8} colLg={8}>
 
+<GifPlayer "video-player video-player__gray">
+
 <Video
   autoPlay
   playsInline
   loop="on"
   muted
-  poster={ex5poster}
   src="/videos/animation/animation-tt-ex5.mp4"
 />
+
+![animation tips and techniques demo](./images/animation-tt-ex5-poster.png)
+
+</GifPlayer>
 
 </Column>
 
