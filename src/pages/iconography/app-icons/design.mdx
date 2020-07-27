@@ -172,17 +172,30 @@ for consistent color across each icon.
 </Column>
 </Row>
 
-You can choose between any of the four color gradients below. Note that the
-colors are adjusted for both light and dark backgrounds to appear best in either
-context.
+Here are the 4 standard icon colors. Note that the colors are adjusted for both light and dark backgrounds to appear best in either context. Additional color gradients can be created from any acceptable 2-color family. Refer to the table below when creating new color gradients.
 
-![Color gradients for dark backgrounds](/images/1_2-11_StrokeIcons_Elements_ColorGradient_PaletteDark.svg)
+<Row>
+<Column colMd={4} colLg={6}>
+
+![Color gradients for dark backgrounds](/images/1_2-11_StrokeIcons_Elements_ColorGradient_PaletteDark_v2.svg)
 
 <Caption>Color gradients for dark backgrounds</Caption>
 
-![Color gradients for light backgrounds](/images/1_2-12_StrokeIcons_Elements_ColorGradient_PaletteLight.svg)
+</Column>
+<Column colMd={4} colLg={6}>
+
+![Color gradients for light backgrounds](/images/1_2-12_StrokeIcons_Elements_ColorGradient_PaletteLight_v2.svg)
 
 <Caption>Color gradients for light backgrounds</Caption>
+
+</Column>
+</Row>
+
+| Icon theme | Color value 1 | Color value 2 |
+| ---------- | ------------- | ------------- |
+| Dark       | 50            | 40, 30        |
+| Light      | 60            | 50, 40        |
+
 
 <DoDontRow>
 <DoDont type="dont" caption="Don’t alter the angle or scale of the color gradient.">
@@ -297,43 +310,6 @@ any approved color gradient.
 </DoDont>
 </DoDontRow>
 
-### Monochromatic icons
-
-In some limited use cases, you may need a single-color app icon. These icons are
-generally used when the icon needs to appear on a color background or in
-situations when the icon shouldn’t call attention to itself with color, such as
-disabled states.
-
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-
-![Monochromatic dark theme app icon](images/1_2-27_StrokeIcons_Elements_Monochromatic_Dark.svg)
-
-<Caption>Gray 10 monochromatic icon for background values 60–100</Caption>
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![Monochromatic light theme app icon](images/1_2-28_StrokeIcons_Elements_Monochromatic_Light.svg)
-
-<Caption>Gray 100 monochromatic icon for background values 10–50</Caption>
-
-</Column>
-</Row>
-
-<DoDontRow>
-<DoDont caption="Use monochromatic for app icons on color fields.">
-
-![Monochromatic app icon on a color field](images/1_2-29_StrokeIcons_Elements_Monochromatic_Do.png)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t apply color to an app icon on a color field.">
-
-![Color app icon on a color field](images/1_2-30_StrokeIcons_Elements_Monochromatic_Dont.png)
-
-</DoDont>
-</DoDontRow>
-
 ## Fill app icons
 
 As an alternative to stroke app icons, fill app icons communicate the core idea
@@ -397,9 +373,6 @@ grid to allow for endless possibilities.
 ![House app icon](images/1_3-7_FillIcons_Style_Dont2.svg)
 
 </DoDont>
-</DoDontRow>
-
-<DoDontRow>
 <DoDont type="dont" caption="Don’t use organic shapes. ">
 
 ![App icon with organic shapes](images/1_3-8_FillIcons_Style_Dont3.svg)
@@ -468,14 +441,6 @@ choosing the right color gradient for your app icon.
 
 </ArtDirection>
 
-Use combinations within any of the acceptable 2-Color families when blending
-gradients. Values between 30 and 60 are used to create vibrant gradients that
-work well against both dark and light backgrounds. For more contrast or
-subtlety, blend between darker or lighter colors. Do not blend between colors
-that are more than two steps away from each other.
-
-![Primary graident palette](images/1_3-15_FillIcons_Elements_PrimaryGradient_Palette.gif)
-
 <DoDontRow>
 <DoDont type="dont" caption="Don’t use more than one 2-Color Family for the primary gradient.">
 
@@ -485,19 +450,6 @@ that are more than two steps away from each other.
 <DoDont type="dont" caption="Don’t use different color values for the primary gradient.">
 
 ![App icon with multiple color values of the same color family](images/1_3-17_FillIcons_Elements_PrimaryGradient_Dont2.svg)
-
-</DoDont>
-</DoDontRow>
-
-<DoDontRow>
-<DoDont type="dont" caption="Don’t mix colors that are outside of the accepted 2-Color Families.">
-
-![Unacceptable color combination](images/1_3-18_FillIcons_Elements_PrimaryGradient_Dont3.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t blend between colors that are more than two steps away, for example, Blue 60 to Teal 20.">
-
-![Unacceptable color combination](images/1_3-19_FillIcons_Elements_PrimaryGradient_Dont4.svg)
 
 </DoDont>
 </DoDontRow>
@@ -577,43 +529,6 @@ Gray 10 for dark backgrounds or Gray 100 for light backgrounds.
 ![Tertiary gradient for light backgrounds](/images/1_3-29_FillIcons_Elements_TertiaryGradient_PaletteLight.svg)
 
 <Caption>Tertiary gradient for light backgrounds</Caption>
-
-### Monochromatic icons
-
-In some limited use cases, you may need a single-color app icon. These icons are
-generally used when the icon needs to appear on a color background or in
-situations when the icon shouldn’t call attention to itself with color, such as
-disabled states. Fill icons use opacities of a single color to create gradients.
-
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-
-![Monochromatic dark theme app icon](images/1_3-30_FillIcons_Elements_Monochromatic_Dark.svg)
-
-<Caption>Gray 10 monochromatic icon for background values 60–100</Caption>
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![Monochromatic light theme app icon](images/1_3-31_FillIcons_Elements_Monochromatic_Light.svg)
-
-<Caption>Gray 100 monochromatic icon for background values 10–50</Caption>
-
-</Column>
-</Row>
-
-<DoDontRow>
-<DoDont caption="Use monochromatic for app icons on color fields.">
-
-![Monochromatic app icon on a color field](images/1_3-32_FillIcons_Elements_Monochromatic_Do.png)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t apply color to an app icon on a color field.">
-
-![Color app icon on a color field](images/1_3-33_FillIcons_Elements_Monochromatic_Dont.svg)
-
-</DoDont>
-</DoDontRow>
 
 ## IBM Plex® app icons
 
@@ -743,19 +658,6 @@ icon padding guidelines.
 <DoDont type="dont" caption="Don’t left, right, top, or bottom align the type.">
 
 ![IBM Plex bottom-left aligned to the icon grid](images/1_4-17_IBMPlexIcons_Alignment_Dont2.svg)
-
-</DoDont>
-</DoDontRow>
-
-<DoDontRow>
-<DoDont caption="Use the padding occasionally for optical centering.">
-
-![IBM Plex extending appropriately into the padding](images/1_4-18_IBMPlexIcons_Alignment_Do3.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t place logos in the padding unless absolutely necessary.">
-
-![IBM Plex extending inappropriately into the padding](images/1_4-19_IBMPlexIcons_Alignment_Dont3.svg)
 
 </DoDont>
 </DoDontRow>
