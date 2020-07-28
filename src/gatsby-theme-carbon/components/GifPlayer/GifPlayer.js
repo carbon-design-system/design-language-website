@@ -23,34 +23,30 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
   const [suspended, setSuspended] = useState(false);
   const containerRef = useRef();
 
-  // For videos, we want the fallaback image to also be the poster
-  // this prevents us from needing to supply it both as the
-  // second child and through the `poster` attribute.
-  //
-  // This is particularly important when phones are on low battery mode
-  // as the video won't autoplay.
   useEffect(() => {
     if (containerRef.current) {
       const video = containerRef.current.querySelector('video');
       const image = containerRef.current.querySelector('img');
+
+      const onSuspend = () => setSuspended(true);
+      const onPlay = () => setSuspended(false);
+
       if (video) {
+        // For videos, we want the fallaback image to also be the poster
+        // this prevents us from needing to supply it both as the
+        // second child and through the `poster` attribute.
         if (!video.poster && image.src) {
           video.setAttribute('poster', image.src);
         }
-        video.addEventListener(
-          'suspend',
-          () => {
-            setSuspended(true);
-          },
-          { once: true }
-        );
-        video.addEventListener(
-          'play',
-          () => {
-            setSuspended(false);
-          },
-          { once: true }
-        );
+
+        // when suspended, videos will show the browser's play button, so
+        // we can hide ours
+        video.addEventListener('suspend', onSuspend);
+        video.addEventListener('play', onPlay);
+        return () => {
+          video.addEventListener('suspend', onSuspend);
+          video.addEventListener('play', onPlay);
+        };
       }
     }
   }, []);
