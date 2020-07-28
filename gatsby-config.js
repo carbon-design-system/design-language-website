@@ -8,6 +8,9 @@ module.exports = {
       resolve: 'gatsby-theme-carbon',
       options: {
         iconPath: './src/images/favicon.svg',
+        gatsbyPluginSharpOptions: {
+          srcSetBreakpoints: [600],
+        },
         mdxExtensions: ['.mdx'],
         titleType: 'append',
         repository: {

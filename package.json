@@ -28,6 +28,7 @@
     "lint:fix": "eslint . --fix",
     "lint:styles": "stylelint \"src/**/*.scss\" --fix",
     "build": "gatsby build",
+    "build:clean": "yarn clean && gatsby build",
     "build:prefix": "gatsby build --prefix-paths && yarn move-public",
     "build:analyze": "gatsby clean && ANALYZE=true yarn build",
     "move-public": "mv public language && mkdir public && mkdir public/design && cp -R language public/design && rm -rf language",
