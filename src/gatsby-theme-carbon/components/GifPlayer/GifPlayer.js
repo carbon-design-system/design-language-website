@@ -33,8 +33,13 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
       const video = containerRef.current.querySelector('video');
       const image = containerRef.current.querySelector('img');
 
-      const onSuspend = () => setSuspended(true);
-      const onPlay = () => setSuspended(false);
+      const onSuspend = () => {
+        setSuspended(true);
+      };
+
+      const onPlay = () => {
+        setSuspended(false);
+      };
 
       if (video) {
         // For videos, we want the fallaback image to also be the poster
@@ -49,8 +54,8 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
         video.addEventListener('suspend', onSuspend);
         video.addEventListener('play', onPlay);
         return () => {
-          video.addEventListener('suspend', onSuspend);
-          video.addEventListener('play', onPlay);
+          video.removeEventListener('suspend', onSuspend);
+          video.removeEventListener('play', onPlay);
         };
       }
     }
