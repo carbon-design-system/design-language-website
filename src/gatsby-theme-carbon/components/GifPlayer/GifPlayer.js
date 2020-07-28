@@ -20,6 +20,7 @@ const ToggleIcon = ({ paused, hovering }) =>
 
 const GifPlayer = ({ children, color, className, isInDialog }) => {
   const [paused, setPaused] = useState(false);
+  const [suspended, setSuspended] = useState(false);
   const containerRef = useRef();
 
   // For videos, we want the fallaback image to also be the poster
@@ -32,8 +33,24 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
     if (containerRef.current) {
       const video = containerRef.current.querySelector('video');
       const image = containerRef.current.querySelector('img');
-      if (video && !video.poster && image.src) {
-        video.setAttribute('poster', image.src);
+      if (video) {
+        if (!video.poster && image.src) {
+          video.setAttribute('poster', image.src);
+        }
+        video.addEventListener(
+          'suspend',
+          () => {
+            setSuspended(true);
+          },
+          { once: true }
+        );
+        video.addEventListener(
+          'play',
+          () => {
+            setSuspended(false);
+          },
+          { once: true }
+        );
       }
     }
   }, []);
@@ -81,20 +98,22 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
         aria-hidden={paused ? false : 'true'}>
         {childrenArray[1]}
       </div>
-      <button
-        aria-pressed={paused ? 'true' : 'false'}
-        type="button"
-        aria-label={labelText}
-        className={controlsClassNames}
-        onMouseEnter={() => setHovering(true)}
-        onMouseLeave={() => setHovering(false)}
-        onClick={onClick}
-        onKeyDown={(e) => {
-          // Stop keyDown event from propogating to ImageGalleryImage component.
-          e.stopPropagation();
-        }}>
-        <ToggleIcon hovering={hovering} paused={paused} />
-      </button>
+      {!suspended && (
+        <button
+          aria-pressed={paused ? 'true' : 'false'}
+          type="button"
+          aria-label={labelText}
+          className={controlsClassNames}
+          onMouseEnter={() => setHovering(true)}
+          onMouseLeave={() => setHovering(false)}
+          onClick={onClick}
+          onKeyDown={(e) => {
+            // Stop keyDown event from propogating to ImageGalleryImage component.
+            e.stopPropagation();
+          }}>
+          <ToggleIcon hovering={hovering} paused={paused} />
+        </button>
+      )}
     </div>
   );
 };
