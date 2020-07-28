@@ -1,3 +1,8 @@
+// Shadowing changes:
+// If Media is a Video, set it's poster to be the fallback image
+// If Media is a Video, listen for the 'suspend' event. This means
+//    a mobile browser has paused loading of the asset. We hide our
+//    control because in this circumstance, the browser will add it's own
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
