@@ -5,7 +5,7 @@ class TypeScaleTable extends Component {
   render() {
     return (
       <Row>
-        <Column colLg={8} className="type-scale-table">
+        <Column colLg={8} className="type-scale-table no-gap">
           <table>
             <thead>
               <tr>
@@ -80,7 +80,7 @@ class TypeScaleTable extends Component {
               </tr>
               <tr>
                 <td>5.75</td>
-                <td>Plex 92</td>
+                <td style={{ paddingRight: '1rem' }}>Plex 92</td>
               </tr>
             </tbody>
           </table>
