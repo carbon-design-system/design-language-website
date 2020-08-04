@@ -11,12 +11,26 @@
   display: block;
 }
 
-@include carbon--breakpoint-down('md') { 
-  .mobile-columns {display:flex;}
-  .mobile-columns .one {order: 1}
-  .mobile-columns .two {order: 3}
-  .mobile-columns .three {order: 2}
-  .mobile-columns .four {order: 4}
+.mobile-columns [class*='column'] {
+  --space: 0;
+}
+
+@include carbon--breakpoint-down('md') {
+  .mobile-columns {
+    display: flex;
+  }
+  .mobile-columns .one {
+    order: 1;
+  }
+  .mobile-columns .two {
+    order: 3;
+  }
+  .mobile-columns .three {
+    order: 2;
+  }
+  .mobile-columns .four {
+    order: 4;
+  }
 }
 
 //---------------------------------------
