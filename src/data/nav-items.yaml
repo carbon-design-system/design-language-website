@@ -7,6 +7,7 @@
 - title: Gallery
   pages:
     - path: /gallery
+  hasDivider: true
 - title: Typography
   pages:
     - title: Typeface
@@ -79,6 +80,7 @@
   pages:
     - title: Motion UI
       path: /motion-ui/basics
+  hasDivider: true
 - title: Resources
   pages:
     - path: /resources
