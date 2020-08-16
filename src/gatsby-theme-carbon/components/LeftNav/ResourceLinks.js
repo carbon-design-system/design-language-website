@@ -13,7 +13,7 @@ const links = [
 ];
 
 const CustomResources = () => (
-  <ResourceLinks includeDividerSpace shouldOpenNewTabs links={links} />
+  <ResourceLinks includeDividerSpace={false} shouldOpenNewTabs links={links} />
 );
 
 export default CustomResources;
