@@ -38,6 +38,10 @@ const languageSample = [
     content: 'דג סקרן שט בים מאוכזב ולפתע מצא חברה.',
   },
   {
+    language: 'korean',
+    content: '플렉스산스한글의진보적아름다움.',
+  },
+  {
     language: 'thai',
     content:
       'นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ',
@@ -80,6 +84,12 @@ const languageDropdownContent = [
     label: 'IBM Plex Sans Hebrew',
     language: 'hebrew',
     className: [`${prefix}--type-hebrew`],
+    weights: commonFontWeights,
+  },
+  {
+    label: 'IBM Plex Sans KR',
+    language: 'korean',
+    className: [`${prefix}--type-korean`],
     weights: commonFontWeights,
   },
   {
@@ -196,7 +206,7 @@ const languageDropdownContent = [
     className: [`${prefix}--type-arabic`],
     weights: commonFontWeights,
   },
-].map(variant => {
+].map((variant) => {
   variant.value = variant.label.toLowerCase().replace(/ /g, '-');
   return variant;
 });
@@ -208,7 +218,7 @@ export default class TypeTester extends Component {
     variant: 'ibm-plex-sans',
     lastVariant: 'ibm-plex-sans',
     fontWeight: 300,
-    text: languageSample.find(el => el.language === 'latin').content,
+    text: languageSample.find((el) => el.language === 'latin').content,
     openDropdown: null,
   };
 
@@ -243,7 +253,7 @@ export default class TypeTester extends Component {
     }, 100);
   };
 
-  onChangeOpenDropdown = dropdown => {
+  onChangeOpenDropdown = (dropdown) => {
     this.setState({
       openDropdown: dropdown === this.state.openDropdown ? null : dropdown,
     });
@@ -252,8 +262,8 @@ export default class TypeTester extends Component {
   getCurrentOrDefaultFontWeightForLanguage = (language, currentWeight) =>
     currentWeight;
 
-  getClassNameForVariant = variant =>
-    languageDropdownContent.find(item => item.value === variant).className ||
+  getClassNameForVariant = (variant) =>
+    languageDropdownContent.find((item) => item.value === variant).className ||
     null;
 
   getDefaultTextForVariant = (variant, lastVariant) => {
@@ -262,24 +272,24 @@ export default class TypeTester extends Component {
       this.getLanguageForVariant(lastVariant)
     ) {
       return languageSample.find(
-        item => item.language === this.getLanguageForVariant(variant)
+        (item) => item.language === this.getLanguageForVariant(variant)
       ).content;
     }
   };
 
-  getLanguageForVariant = variant =>
-    languageDropdownContent.find(item => item.value === variant).language;
+  getLanguageForVariant = (variant) =>
+    languageDropdownContent.find((item) => item.value === variant).language;
 
   getWeightsForLanguage = () => {
     const language = this.getLanguageForVariant(this.state.variant);
     const languageConfig = languageDropdownContent.find(
-      i => i.language === language
+      (i) => i.language === language
     );
     return languageConfig.weights;
   };
 
-  getLanguageForWeight = weight => {
-    const weightObj = commonFontWeights.find(w => w.value === weight);
+  getLanguageForWeight = (weight) => {
+    const weightObj = commonFontWeights.find((w) => w.value === weight);
     return weightObj.label;
   };
 
@@ -338,7 +348,7 @@ export default class TypeTester extends Component {
               min={100}
               max={1600}
               value={this.state.typeSizeMultiplier}
-              onChange={e => {
+              onChange={(e) => {
                 this.setState({ typeSizeMultiplier: e.value });
               }}
               hideTextInput
@@ -355,7 +365,7 @@ export default class TypeTester extends Component {
               direction: this.isRtl() ? 'rtl' : 'ltr',
             }}
             value={this.state.text}
-            onChange={e => this.setState({ text: e.target.value })}
+            onChange={(e) => this.setState({ text: e.target.value })}
           />
         </div>
       </div>
