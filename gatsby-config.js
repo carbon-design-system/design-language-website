@@ -2,6 +2,9 @@ module.exports = {
   siteMetadata: {
     title: 'IBM Design Language',
     siteUrl: 'https://www.ibm.com/design/language',
+    keywords: 'IBM,Design Language,IBM Design Language,IDL,Carbon',
+    description:
+      'The IBM Design Language provides the guidance and assets used to express the IBM brand in products, communications, marketing, events and digital experiences.',
   },
   pathPrefix: '/design/language',
   plugins: [

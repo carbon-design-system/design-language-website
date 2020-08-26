@@ -1,6 +1,7 @@
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import HomepageTile from '../components/HomepageTile';
 import Carousel from '../components/Carousel';
+import Helmet from '../components/Helmet';
 
 export default HomepageTemplate;
 
@@ -11,6 +12,8 @@ import windmills from '../images/homepage/windmills.jpg';
 import windmillsMobile from '../images/homepage/windmills-2-1.png';
 
 import { noGutterSm } from '../styles/Grid.module.scss';
+
+<Helmet />
 
 <Row classname='homepage-row'>
   <Column colLg={4} colMd={4} noGutterSm>
