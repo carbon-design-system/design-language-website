@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'IBM Design Language',
+    siteUrl: 'https://www.ibm.com/design/language',
   },
   pathPrefix: '/design/language',
   plugins: [
@@ -17,5 +18,6 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 };
