@@ -25,11 +25,11 @@ jobs:
       - name: Install Cloud Foundry CLI
         run: ibmcloud cf install
 
-      - name: Login to to US
+      - name: Login
         env:
           API_KEY: ${{ secrets.IBM_CLOUD_KEY }}
         run: |
-          ibmcloud login -a https://cloud.ibm.com --apikey $API_KEY -o \
+          ibmcloud login -a https://cloud.ibm.com --no-region --apikey $API_KEY -o \
           IBMDesignOrg -s idl
 
       - name: Deploy to US
