@@ -28,12 +28,16 @@ jobs:
       - name: Login to to US
         env:
           API_KEY: ${{ secrets.IBM_CLOUD_KEY }}
-        run: ibmcloud login -a https://api.ng.bluemix.net --apikey $API_KEY -o IBMDesignOrg -s idl
+        run: |
+          ibmcloud login -a https://cloud.ibm.com --apikey $API_KEY -o \
+          IBMDesignOrg -s idl
+
       - name: Deploy to US
-        run: ibmcloud cf v3-zdt-push design-language-website-carbon -b https://github.com/cloudfoundry/nginx-buildpack.git
-      - name: Login to to EU
-        env:
-          API_KEY: ${{ secrets.IBM_CLOUD_KEY }}
-        run: ibmcloud login -a https://api.eu-de.bluemix.net --apikey $API_KEY -o IBMDesignOrg -s idl
+        run: |
+          ibmcloud cf v3-zdt-push design-language-website-carbon -b \
+          https://github.com/cloudfoundry/nginx-buildpack.git
+
       - name: Deploy to EU
-        run: ibmcloud cf v3-zdt-push design-language-website-carbon -b https://github.com/cloudfoundry/nginx-buildpack.git
+        run: |
+          ibmcloud cf v3-zdt-push design-language-website-carbon-eu -b \
+          https://github.com/cloudfoundry/nginx-buildpack.git
