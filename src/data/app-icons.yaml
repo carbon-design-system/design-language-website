@@ -1,0 +1,580 @@
+- name: CloudProfessionalServicesGovernment
+  friendly_name: IBM Cloud® Professional Services for Government
+  category: stroke
+  aliases: 
+  - IBM Cloud
+  - Government
+  - Municipal
+  - Federal
+  - Professional
+  - Services
+  - Blue
+  - Teal
+  - Person 
+  - Human
+  - People
+  - Group
+  - Customer
+  - Service
+  - Desk
+  - Concierge
+  - Help
+  - Customer service
+  - Assistance
+  - Information desk
+  - Help desk
+
+-	name: 099
+  friendly_name: Unassigned
+  category: 
+  aliases: [ ]
+
+-	name: app-icon-light-CallHomeConnectMobile
+  	friendly_name: IBM Call Home Mobile Connect
+	aliases: 
+	- IBM Systems
+	- Communications
+	- Connectivity
+	- Connection
+	- Mobile
+
+-	name: app-icon-light-EPM
+  	friendly_name: IBM enterprise performance management
+	aliases: 
+	- Finance and operations
+	- Performance management
+	- EPM
+
+-	name: app-icon-light-CloudStaticRoute
+  	friendly_name: IBM Cloud® static route
+	aliases: 
+	- Cloud
+	- IBM Cloud
+- Line
+- Magenta
+- Purple
+- Network
+- Connect
+- Similarities
+- Related
+- Group
+- Discover
+- Static route 
+
+
+-	name: app-icon-light-CloudDiagnosticDebugTool
+  	friendly_name: IBM Cloud® Kubernetes Service Diagnostics and Debug Tool add-on
+	aliases: 
+	- IBM Cloud
+	- Cloud
+	- Diagnostics tool
+	- Debug tool
+	- Debug
+	- Diagnostics
+- Line
+- Blue
+- Teal
+- Magnifier
+- Magnifying glass
+- Switch
+- On
+- Off
+- Search
+- Settings
+- Status
+- Options	
+- State
+- Current state
+
+
+-	name: app-icon-light-CloudManagedOAuthProxy
+  	friendly_name: IBM Cloud Managed OAuth proxy add-on
+	aliases:
+- IBM Cloud
+- Cloud
+- OAuth proxy
+- Line
+- Purple
+- Blue
+- Key
+- Password
+- Passcode
+- ID
+- Identity
+
+
+-	name: app-icon-light-CloudKubernetesTerminal
+  	friendly_name: IBM Cloud® Kubernetes Terminal
+	aliases: 
+	- Cloud
+	- IBM Cloud
+	- Line
+	- Blue
+	- Purple
+	- Box
+	- Storage
+	- Code
+	- Shredder
+
+
+-	name: app-icon-light-CloudDataOps
+  	friendly_name: IBM® DataOps
+	aliases: 
+	- Cloud
+	- IBM DataOps
+	- Line
+	- Green
+	- Teal
+	- Magnifier
+	- Magnifying glass
+	- Bar
+	- Graph
+	- Chart
+	- Analytics
+	- Review
+	- Study
+	- Highlight
+	- Search
+	- Reflect
+	- Statistics
+	- Rank
+	- Ranking
+
+
+-	name: app-icon-light-IBV
+  	friendly_name: IBM Institute for Business Value
+	aliases: 
+- Fill
+- Blue
+- Teal
+- Dial
+- Control
+- Adjust
+	- Institute
+- Business
+- IBV
+- Institute of Business Value
+
+
+-	name: app-icon-light-CloudClusterAutoscalerAddon
+  	friendly_name: IBM Cloud cluster autoscaler add-on
+	aliases: 
+	- Cloud
+	- IBM Cloud
+	- Cluster autoscaler
+	- Autoscaler
+
+-	name: app-icon-light-WatsonLanguageTranslator
+  	friendly_name: IBM Watson® Language Translator
+	aliases: 
+	- Watson
+	- Language translator
+	- Translator
+	- Language
+
+-	name: app-icon-light-WatsonCompareComply
+  	friendly_name: IBM Watson® Compare and Comply
+	aliases: 
+	- IBM Watson
+	- Data
+	- Data extraction
+	- Natural language processing
+	- Check mark
+	- Compare
+	- Comply
+
+
+-	name: app-icon-light-WatsonPersonalityInsights
+  	friendly_name: IBM Watson® Personality Insights
+	aliases: 
+	- IBM Watson
+	- Watson 
+	- Personality insights
+	- Watson Personality Insights
+
+-	name: app-icon-light-WatsonSpeechToText
+  	friendly_name: IBM Watson® Speech to Text
+	aliases: 
+	- IBM Watson
+- Watson speech to text
+- Speech to text
+
+-	name: app-icon-light-WatsonTextToSpeech
+  	friendly_name: IBM Watson® Text to Speech
+	aliases: 
+- IBM Watson
+- Watson test to speech
+- Text to speech
+
+-	name: app-icon-light-CloudDatabasesMongoDB
+  	friendly_name: IBM Cloud® Databases for MongoDB
+	aliases: 
+	- IBM Cloud
+- Databases
+	- Databases for MongoDB
+
+-	name: app-icon-light-CloudDatabasesETCD
+  	friendly_name: IBM Cloud® Databases for etcd
+	aliases: 
+	- IBM Cloud
+	- etcd
+	- Key-value store
+	- Databases for etcd
+	- Databases
+
+-	name: app-icon-light-CloudDatabasesDatastax
+  	friendly_name: IBM Cloud® Databases for DataStax
+	aliases: 
+- IBM Cloud
+- NoSQL database
+- Databases for DataStax
+
+-	name: app-icon-light-CloudDatabasesElasticsearch
+  	friendly_name: IBM Cloud® Databases for Elasticsearch
+	aliases: 
+- IBM Cloud
+- Cloud
+- Databases for Elasticsearch
+- Elasticsearch
+- Data analysis
+
+-	name: app-icon-light-CloudDatabasesRabbit
+  	friendly_name: IBM Cloud® Databases for Rabbit
+I can’t find this solution name. I did find Messages for RabbitMQ, though. See: https://www.ibm.com/blogs/cloud-archive/tag/messages-for-rabbit-mq/
+	
+aliases: 
+	- IBM Cloud
+	- Cloud
+- Databases for Rabbit
+- Rabbit
+- Databases
+
+-	name: app-icon-light-CloudDatabasesPostgreSQL
+  	friendly_name: IBM Cloud® Databases for PostgreSQL
+	aliases: 
+- IBM Cloud
+- Cloud
+- Databases for PostgreSQL
+- Databases
+- Database as a service
+- DBaaS
+
+-	name: app-icon-light-CloudDatabasesEnterpriseDB
+  	friendly_name: IBM Cloud® Databases for EnterpriseDB
+	aliases: 
+	- IBM Cloud
+	- Cloud
+- Databases for EnterpriseDB
+- Databases
+- DBaaS
+
+-	name: app-icon-light-CloudDatabasesRedis
+  	friendly_name: IBM Cloud® Databases for Redis
+	aliases: 
+	- IBM Cloud
+	- Cloud
+- Databases for Redis
+- In-memory key value store
+
+-	name: app-icon-light-CloudAppService
+  	friendly_name: IBM Cloud® App Service
+	aliases: 
+	- IBM Cloud
+	- Cloud
+- Cloud app service
+- App service
+
+-	name: app-icon-light-CognosAnalyticsMobile
+  	friendly_name: IBM Cognos® Analytics for Mobile
+	aliases: 
+	- Hybrid cloud
+- IBM Cognos
+- Cognos
+- Mobile analytics
+- Analytics
+- Business intelligence
+
+-	name: app-icon-light-AgroPad
+  	friendly_name: IBM AgroPad
+	aliases: 
+	- IBM Research
+- IBM AgroPad
+- AI
+- AI farming technology
+- Chemical analysis
+- Analysis
+
+-	name: app-icon-light-CloudContentDeliveryNetwork
+  	friendly_name: IBM Cloud® Content Delivery Network
+	aliases: 
+	- IBM Cloud
+	- Cloud
+- Edge servers
+- Edge
+- Content delivery
+- Network
+
+-	name: app-icon-light-CloudDNSServices
+  	friendly_name: IBM Cloud® DNS Services
+	aliases: 
+	- IBM Cloud
+	- Cloud
+	- Connectivity
+	- Domain Name System
+	- DNS
+
+-	name: app-icon-light-CloudEdgeApplicationManager
+  	friendly_name: IBM Edge Application Manager
+	aliases: 
+	- Cloud
+- Edge computing
+- Edge application manager
+
+-	name: app-icon-light-CloudInternetServices
+  	friendly_name: IBM Cloud® Internet Services
+	aliases: 
+	- Cloud
+	- IBM Cloud
+	- Internet services
+	- Edge network
+	- Edge network services
+
+-	name: app-icon-light-CloudDirectLink
+  	friendly_name: IBM Cloud® Direct Link 2.0
+	aliases: 
+	- Cloud
+- IBM Cloud
+- Cloud security
+- Data security
+- Security
+
+-	name: app-icon-light-CloudKubernetesService
+  	friendly_name: IBM Cloud® Kubernetes Service
+	aliases: 
+	- Cloud
+- IBM Cloud
+- Container orchestration
+- Kubernetes containers
+
+-	name: app-icon-light-Db2DataGate
+  	friendly_name: IBM Db2® for z/OS® Data Gate
+	aliases: 
+	- Db2
+- IBM Db2
+- Data management
+- IBM z/OS data management
+- z/OS
+
+-	name: app-icon-light-CloudCitrixVirtualAppsDesktops
+  	friendly_name: IBM Cloud® Citrix Virtual Apps and Desktops
+	aliases: 
+	- Cloud
+- IBM Cloud
+- Virtual apps and desktops
+- Virtual desktops
+- Citrix Cloud
+
+-	name: app-icon-light-CloudSatellite
+  	friendly_name: IBM Cloud® Satellite
+	aliases: 
+	- Cloud
+- IBM Cloud
+- IBM Cloud Satellite
+- Cloud services
+
+-	name: app-icon-light-Rubik
+  	friendly_name: IBM Release Builder Kit (RBK)
+	category:
+-	stroke
+aliases: 
+	- GBS
+- GTS
+- hexagon
+- blue
+- teal
+
+
+-	name: app-icon-light-CloudDataReplication
+  	friendly_name: IBM Data Replication on Cloud
+	aliases: 
+	- Cloud
+- Data replication
+- Data integration
+- Data synchronization
+
+-	name: app-icon-light-新视界
+  	friendly_name: IBM 新视界
+	aliases: 
+	- 	WeChat app
+
+-	name: app-icon-light-MaaS360Admin
+  	friendly_name: IBM MaaS360 admin
+	aliases: 
+	- IBM Security
+- Configuring administrator
+- MaaS360
+- Portal administration
+
+-	name: app-icon-light-CloudObjectStorage
+  	friendly_name: IBM Cloud® Object Storage
+	aliases: 
+	- Cloud
+- IBM Cloud
+- Data storage
+- Object Storage
+
+-	name: app-icon-light-DownloadDirector
+  	friendly_name: IBM Download Director
+	aliases: 
+	- Finance and operations
+- Download Director
+- Software downloader
+
+-	name: app-icon-light-Cloudeconfig
+  	friendly_name: IBM e-config on Cloud
+	aliases: 
+	- Cloud
+- e-config on cloud
+- e-config
+- e-configurator
+
+-	name: app-icon-light-WatsonReturntoWorkplaceAdvisor
+  	friendly_name: IBM Return-to-Workplace Advisor
+	aliases: 
+	- Watson Health
+- IBM Watson Health
+- Workplace re-opening advisor
+- Healthcare
+- Workforce readiness
+
+
+-	name: app-icon-light-CloudTDMDataPrivacy
+  	friendly_name: IBM InfoSphere® Optim Test Data Management and Data Privacy
+	aliases: 
+	- Cloud
+- Test data management
+- Data privacy
+- IBM InfoSphere Optim
+- InfoSphere
+- TDM
+
+-	name: app-icon-light-CloudSubnets
+  	friendly_name: IBM Cloud® subnets
+	aliases: 
+	- Cloud
+- IBM Cloud subnets
+- Subnets
+- Networks
+- Computer networks
+
+-	name: app-icon-light-CloudHardwareFirewall
+  	friendly_name: IBM Cloud hardware firewall
+	aliases: 
+	- Cloud
+- IBM Cloud
+- Hardware firewall
+- Security
+- Firewall
+
+-	name: app-icon-light-ZDevOpsDb2DevTools
+  	friendly_name: IBM Db2® ZDevTools extension
+	aliases: 
+	- Systems
+	- IBM Z
+	- Db2
+- ZDevTools
+
+-	name: app-icon-light-SecurityVerifyCredentials
+  	friendly_name: IBM Verify Credentials
+	aliases: 
+	- Security
+- Credential verification
+- Identity protection
+
+
+-	name: app-icon-light-MaximoVoiceAssistant
+  	friendly_name: IBM Maximo® Voice Assistant
+	aliases: 
+	- Watson
+- IBM Watson
+- Maximo
+- Voice assistant
+- IoT
+- Text
+- Speech
+- Data collection
+- Data collection device
+- Data collection instrument
+- Surveys
+- Statistical aggregation
+- Data measurement
+- Data collection tool
+- Statistics
+
+
+-	name: app-icon-light-WCG
+  	friendly_name: IBM World Community Grid
+	aliases: 
+	- ibm.org
+	- IBM Corporate Social Responsibility
+- IBM Word Community Grid
+- Computing grid
+- Humanitarian grid
+- Scientific research
+
+-	name: app-icon-light-SiteAccess
+  	friendly_name: IBM Site Access
+	aliases: 
+	- GBS
+- Site access
+- Site access management
+
+-	name: app-icon-light-LocationTracker
+  	friendly_name: IBM Location Tracker
+	aliases: 
+	- GBS
+- User movement tracking
+- User movement mapping
+- Tracker
+- Mapper
+
+-	name: app-icon-light-Developer
+  	friendly_name: IBM Developer
+	aliases: 
+	- DBG
+- Network center
+- Technical resource
+- Web-based developer network
+- Developer network
+
+-	name: app-icon-light-CognosAnalyticsReporting
+  	friendly_name: IBM Cognos® Analytics Reporting
+	aliases: 
+	- Hybrid cloud
+- Web-based report authoring tool
+- Report authoring tool
+- Report authoring
+- Authoring tool
+- Line
+- Purple
+- Blue
+- Clipboard
+- File
+- Document
+- Graph
+- Bar
+- Chart
+- Analytics
+- Statistics
+- Rankings
+- Rank
+- Results
+- Polls
+- Poll
+- Outcomes
+- Reporting
+- Reports
+
+
+
+
