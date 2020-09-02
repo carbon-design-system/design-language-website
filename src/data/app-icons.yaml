@@ -2,113 +2,124 @@
   friendly_name: IBM Cloud® Professional Services for Government
   category: stroke
   aliases: 
-  - IBM Cloud
-  - Government
-  - Municipal
-  - Federal
-  - Professional
-  - Services
-  - Blue
-  - Teal
-  - Person 
-  - Human
-  - People
-  - Group
-  - Customer
-  - Service
-  - Desk
-  - Concierge
-  - Help
-  - Customer service
-  - Assistance
-  - Information desk
-  - Help desk
+	- IBM Cloud
+	- Government
+	- Municipal
+	- Federal
+	- Professional
+	- Services
+	- Blue
+	- Teal
+	- Person 
+	- Human
+	- People
+	- Group
+	- Customer
+	- Service
+	- Desk
+	- Concierge
+	- Help
+	- Customer service
+	- Assistance
+	- Information desk
+	- Help desk
 
--	name: 099
+- name: 099
   friendly_name: Unassigned
-  category: 
-  aliases: [ ]
+  category: fill
+  aliases:
+	- blue
+	- teal
+	- half circle
+	- square
 
--	name: app-icon-light-CallHomeConnectMobile
-  	friendly_name: IBM Call Home Mobile Connect
-	aliases: 
+- name: CallHomeConnectMobile
+  friendly_name: IBM Call Home Mobile Connect
+  category: stroke
+  aliases: 
 	- IBM Systems
+	- green
+	- teal
 	- Communications
 	- Connectivity
 	- Connection
 	- Mobile
+	- heart rate
+	- circle
+	- pulse
 
--	name: app-icon-light-EPM
-  	friendly_name: IBM enterprise performance management
-	aliases: 
+- name: EnterprisePerformanceManagement
+  friendly_name: IBM Enterprise Performance Management
+  category: fill
+  aliases: 
 	- Finance and operations
 	- Performance management
 	- EPM
+	- blue
+	- purple
+	- circle
 
--	name: app-icon-light-CloudStaticRoute
-  	friendly_name: IBM Cloud® static route
-	aliases: 
+- name: CloudStaticRoute
+  friendly_name: IBM Cloud® static route
+  category: stroke
+  aliases: 
 	- Cloud
 	- IBM Cloud
-- Line
-- Magenta
-- Purple
-- Network
-- Connect
-- Similarities
-- Related
-- Group
-- Discover
-- Static route 
+	- Magenta
+	- Purple
+	- Network
+	- Connect
+	- Similarities
+	- Related
+	- Group
+	- Discover
+	- Static route 
 
-
--	name: app-icon-light-CloudDiagnosticDebugTool
-  	friendly_name: IBM Cloud® Kubernetes Service Diagnostics and Debug Tool add-on
-	aliases: 
+- name: CloudDiagnosticDebugTool
+  friendly_name: IBM Cloud® Kubernetes Service Diagnostics and Debug Tool add-on
+  category: stroke
+  aliases: 
 	- IBM Cloud
 	- Cloud
 	- Diagnostics tool
 	- Debug tool
 	- Debug
 	- Diagnostics
-- Line
-- Blue
-- Teal
-- Magnifier
-- Magnifying glass
-- Switch
-- On
-- Off
-- Search
-- Settings
-- Status
-- Options	
-- State
-- Current state
+	- Blue
+	- Teal
+	- Magnifier
+	- Magnifying glass
+	- Switch
+	- On
+	- Off
+	- Search
+	- Settings
+	- Status
+	- Options	
+	- State
+	- Current state
 
+- name: CloudManagedOAuthProxy
+  friendly_name: IBM Cloud Managed OAuth proxy add-on
+  cateogry: stroke
+  aliases:
+	- IBM Cloud
+	- Cloud
+	- OAuth proxy
+	- Purple
+	- Blue
+	- Key
+	- Password
+	- Passcode
+	- ID
+	- Identity
 
--	name: app-icon-light-CloudManagedOAuthProxy
-  	friendly_name: IBM Cloud Managed OAuth proxy add-on
-	aliases:
-- IBM Cloud
-- Cloud
-- OAuth proxy
-- Line
-- Purple
-- Blue
-- Key
-- Password
-- Passcode
-- ID
-- Identity
-
-
--	name: app-icon-light-CloudKubernetesTerminal
-  	friendly_name: IBM Cloud® Kubernetes Terminal
-	aliases: 
+- name: CloudKubernetesTerminal
+  friendly_name: IBM Cloud® Kubernetes Terminal
+  category: stroke
+  aliases: 
 	- Cloud
 	- IBM Cloud
-	- Line
 	- Blue
 	- Purple
 	- Box
@@ -116,13 +127,12 @@
 	- Code
 	- Shredder
 
-
--	name: app-icon-light-CloudDataOps
-  	friendly_name: IBM® DataOps
-	aliases: 
+- name: CloudDataOps
+  friendly_name: IBM® DataOps
+  category: stroke
+  aliases: 
 	- Cloud
 	- IBM DataOps
-	- Line
 	- Green
 	- Teal
 	- Magnifier
@@ -140,41 +150,51 @@
 	- Rank
 	- Ranking
 
-
--	name: app-icon-light-IBV
-  	friendly_name: IBM Institute for Business Value
-	aliases: 
-- Fill
-- Blue
-- Teal
-- Dial
-- Control
-- Adjust
+- name: IBV
+  friendly_name: IBM Institute for Business Value
+  category: fill
+  aliases: 
 	- Institute
-- Business
-- IBV
-- Institute of Business Value
+	- Business
+	- IBV
+	- Institute of Business Value
+	- Blue
+	- Teal
+	- Dial
+	- Control
+	- Adjust
 
-
--	name: app-icon-light-CloudClusterAutoscalerAddon
-  	friendly_name: IBM Cloud cluster autoscaler add-on
-	aliases: 
+- name: CloudClusterAutoscalerAddon
+  friendly_name: IBM Cloud cluster autoscaler add-on
+  category: stroke
+  aliases: 
 	- Cloud
 	- IBM Cloud
 	- Cluster autoscaler
 	- Autoscaler
+	- blue
+	- teal
+	- hexagon
 
--	name: app-icon-light-WatsonLanguageTranslator
-  	friendly_name: IBM Watson® Language Translator
-	aliases: 
+- name: WatsonLanguageTranslator
+  friendly_name: IBM Watson® Language Translator
+  category: stroke
+  aliases: 
 	- Watson
 	- Language translator
 	- Translator
 	- Language
+	- purple
+	- blue
+	- characters
+	- letters
+	- connection
+	- relationship
 
--	name: app-icon-light-WatsonCompareComply
-  	friendly_name: IBM Watson® Compare and Comply
-	aliases: 
+- name: WatsonCompareComply
+  friendly_name: IBM Watson® Compare and Comply
+  category: stroke
+  aliases: 
 	- IBM Watson
 	- Data
 	- Data extraction
@@ -182,175 +202,261 @@
 	- Check mark
 	- Compare
 	- Comply
+	- purple
+	- blue
+	- documents
+	- text
 
-
--	name: app-icon-light-WatsonPersonalityInsights
-  	friendly_name: IBM Watson® Personality Insights
-	aliases: 
+- name: WatsonPersonalityInsights
+  friendly_name: IBM Watson® Personality Insights
+  category: stroke
+  aliases: 
 	- IBM Watson
 	- Watson 
 	- Personality insights
 	- Watson Personality Insights
+	- purple
+	- blue
+	- person
+	- human
+	- tree
+	- graphic
+	- analytics
 
--	name: app-icon-light-WatsonSpeechToText
-  	friendly_name: IBM Watson® Speech to Text
-	aliases: 
+- name: WatsonSpeechToText
+  friendly_name: IBM Watson® Speech to Text
+  category: stroke
+  aliases: 
 	- IBM Watson
-- Watson speech to text
-- Speech to text
+	- Watson speech to text
+	- Speech to text
+	- purple
+	- blue
+	- speech bubble
+	- text
 
--	name: app-icon-light-WatsonTextToSpeech
-  	friendly_name: IBM Watson® Text to Speech
-	aliases: 
-- IBM Watson
-- Watson test to speech
-- Text to speech
+- name: WatsonTextToSpeech
+  friendly_name: IBM Watson® Text to Speech
+  category: stroke
+  aliases: 
+	- IBM Watson
+	- Watson test to speech
+	- Text to speech
+	- purple
+	- blue
+	- speech bubble
+	- text
 
--	name: app-icon-light-CloudDatabasesMongoDB
-  	friendly_name: IBM Cloud® Databases for MongoDB
-	aliases: 
+- name: CloudDatabasesMongoDB
+  friendly_name: IBM Cloud® Databases for MongoDB
+  category: IBM Plex
+  aliases: 
 	- IBM Cloud
-- Databases
+	- Databases
 	- Databases for MongoDB
+	- green
+	- teal
 
--	name: app-icon-light-CloudDatabasesETCD
-  	friendly_name: IBM Cloud® Databases for etcd
-	aliases: 
+- name: CloudDatabasesETCD
+  friendly_name: IBM Cloud® Databases for etcd
+  category: IBM Plex
+  aliases: 
 	- IBM Cloud
 	- etcd
 	- Key-value store
 	- Databases for etcd
 	- Databases
+	- blue
+	- teal
 
--	name: app-icon-light-CloudDatabasesDatastax
-  	friendly_name: IBM Cloud® Databases for DataStax
-	aliases: 
-- IBM Cloud
-- NoSQL database
-- Databases for DataStax
-
--	name: app-icon-light-CloudDatabasesElasticsearch
-  	friendly_name: IBM Cloud® Databases for Elasticsearch
-	aliases: 
-- IBM Cloud
-- Cloud
-- Databases for Elasticsearch
-- Elasticsearch
-- Data analysis
-
--	name: app-icon-light-CloudDatabasesRabbit
-  	friendly_name: IBM Cloud® Databases for Rabbit
-I can’t find this solution name. I did find Messages for RabbitMQ, though. See: https://www.ibm.com/blogs/cloud-archive/tag/messages-for-rabbit-mq/
+- name: CloudDatabasesDatastax
+  friendly_name: IBM Cloud® Databases for DataStax
+  category: IBM Plex
+  aliases: 
+	- IBM Cloud
+	- NoSQL database
+	- Databases for DataStax
+	- blue
 	
-aliases: 
+- name: CloudDatabasesElasticsearch
+  friendly_name: IBM Cloud® Databases for Elasticsearch
+  category: IBM Plex
+  aliases: 
 	- IBM Cloud
 	- Cloud
-- Databases for Rabbit
-- Rabbit
-- Databases
+	- Databases for Elasticsearch
+	- Elasticsearch
+	- Data analysis
+	- magenta
+	- purple
 
--	name: app-icon-light-CloudDatabasesPostgreSQL
-  	friendly_name: IBM Cloud® Databases for PostgreSQL
-	aliases: 
-- IBM Cloud
-- Cloud
-- Databases for PostgreSQL
-- Databases
-- Database as a service
-- DBaaS
-
--	name: app-icon-light-CloudDatabasesEnterpriseDB
-  	friendly_name: IBM Cloud® Databases for EnterpriseDB
-	aliases: 
+- name: CloudDatabasesRabbit
+  friendly_name: IBM Cloud® Databases for Rabbit 
+# from Peggy: I can’t find this solution name. I did find Messages for RabbitMQ, though. See: https://www.ibm.com/blogs/cloud-archive/tag/messages-for-rabbit-mq/	
+  category: IBM Plex
+  aliases: 
 	- IBM Cloud
 	- Cloud
-- Databases for EnterpriseDB
-- Databases
-- DBaaS
+	- Databases for Rabbit
+	- Rabbit
+	- Databases
+	- magenta
+	- red
 
--	name: app-icon-light-CloudDatabasesRedis
-  	friendly_name: IBM Cloud® Databases for Redis
-	aliases: 
+- name: CloudDatabasesPostgreSQL
+  friendly_name: IBM Cloud® Databases for PostgreSQL
+  category: IBM Plex
+  aliases: 
 	- IBM Cloud
 	- Cloud
-- Databases for Redis
-- In-memory key value store
+	- Databases for PostgreSQL
+	- Databases
+	- Database as a service
+	- DBaaS
+	- blue
+	- teal
 
--	name: app-icon-light-CloudAppService
-  	friendly_name: IBM Cloud® App Service
-	aliases: 
+- name:  CloudDatabasesEnterpriseDB
+  friendly_name: IBM Cloud® Databases for EnterpriseDB
+  category: IBM Plex
+  aliases: 
 	- IBM Cloud
 	- Cloud
-- Cloud app service
-- App service
+	- Databases for EnterpriseDB
+	- Databases
+	- DBaaS
+	- purple
+	- red
 
--	name: app-icon-light-CognosAnalyticsMobile
-  	friendly_name: IBM Cognos® Analytics for Mobile
-	aliases: 
+- name: CloudDatabasesRedis
+  friendly_name: IBM Cloud® Databases for Redis
+  category: IBM Plex
+  aliases: 
+	- IBM Cloud
+	- Cloud
+	- Databases for Redis
+	- In-memory key value store
+	- red
+
+- name: CloudAppService
+  friendly_name: IBM Cloud® App Service
+  category: fill
+  aliases: 
+	- IBM Cloud
+	- Cloud
+	- Cloud app service
+	- App service
+	- magenta
+	- purple
+	- circles
+
+- name: CognosAnalyticsMobile
+  friendly_name: IBM Cognos® Analytics for Mobile
+  category: stroke
+  aliases: 
 	- Hybrid cloud
-- IBM Cognos
-- Cognos
-- Mobile analytics
-- Analytics
-- Business intelligence
+	- IBM Cognos
+	- Cognos
+	- Mobile analytics
+	- Analytics
+	- Business intelligence
+	- blue
+	- teal
+	- speed
+	- data
 
--	name: app-icon-light-AgroPad
-  	friendly_name: IBM AgroPad
-	aliases: 
+- name: AgroPad
+  friendly_name: IBM AgroPad
+  category: stroke
+  aliases: 
 	- IBM Research
-- IBM AgroPad
-- AI
-- AI farming technology
-- Chemical analysis
-- Analysis
+	- IBM AgroPad
+	- AI
+	- AI farming technology
+	- Chemical analysis
+	- Analysis
+	- green
+	-teal
+	- hills
+	- graphic
+	- analytics
+	- bar
+	- chart
 
--	name: app-icon-light-CloudContentDeliveryNetwork
-  	friendly_name: IBM Cloud® Content Delivery Network
-	aliases: 
+- name: CloudContentDeliveryNetwork
+  friendly_name: IBM Cloud® Content Delivery Network
+  category: stroke
+  aliases: 
 	- IBM Cloud
 	- Cloud
-- Edge servers
-- Edge
-- Content delivery
-- Network
+	- Edge servers
+	- Edge
+	- Content delivery
+	- Network
+	- blue
+	- teal
+	- globe
+	- earth
+	- global
 
--	name: app-icon-light-CloudDNSServices
-  	friendly_name: IBM Cloud® DNS Services
-	aliases: 
+- name: CloudDNSServices
+  friendly_name: IBM Cloud® DNS Services
+  category: stroke
+  aliases: 
 	- IBM Cloud
 	- Cloud
 	- Connectivity
 	- Domain Name System
 	- DNS
+	- blue
+	- teal
+	- earth
+	- globe
+	- global
+	- text
 
--	name: app-icon-light-CloudEdgeApplicationManager
-  	friendly_name: IBM Edge Application Manager
-	aliases: 
+- name: CloudEdgeApplicationManager
+  friendly_name: IBM Edge Application Manager
+  category:
+  aliases: 
 	- Cloud
-- Edge computing
-- Edge application manager
+	- Edge computing
+	- Edge application manager
+	- circle
+	- data
+	- blue
+	- teal
 
--	name: app-icon-light-CloudInternetServices
-  	friendly_name: IBM Cloud® Internet Services
-	aliases: 
+- name: CloudInternetServices
+  friendly_name: IBM Cloud® Internet Services
+  category: stroke
+  aliases: 
 	- Cloud
 	- IBM Cloud
 	- Internet services
 	- Edge network
 	- Edge network services
+	- blue
+	- teal
+	- share
 
--	name: app-icon-light-CloudDirectLink
-  	friendly_name: IBM Cloud® Direct Link 2.0
-	aliases: 
+- name: CloudDirectLink
+  friendly_name: IBM Cloud® Direct Link 2.0
+  category: stroke
+  aliases: 
 	- Cloud
-- IBM Cloud
-- Cloud security
-- Data security
-- Security
+	- IBM Cloud
+	- Cloud security
+	- Data security
+	- Security
+	- blue
+	- teal
+	- chain
+	- link
 
--	name: app-icon-light-CloudKubernetesService
-  	friendly_name: IBM Cloud® Kubernetes Service
-	aliases: 
+- name: CloudKubernetesService
+  friendly_name: IBM Cloud® Kubernetes Service
+  aliases: 
 	- Cloud
 - IBM Cloud
 - Container orchestration
