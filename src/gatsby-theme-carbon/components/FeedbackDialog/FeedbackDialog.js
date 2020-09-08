@@ -4,7 +4,6 @@ import ThemeFeedbackDialog from 'gatsby-theme-carbon/src/components/FeedbackDial
 import * as axios from 'axios';
 import { ToastNotification } from 'carbon-components-react';
 
-const REQUEST_KEY = 'b64cb88a-fab4-4e4f-8ab3-07574522a125';
 const SURVEY_ID = '5806027';
 
 const successMessage = {
@@ -39,9 +38,6 @@ const FeedbackDialog = ({ props }) => {
         surveyId: SURVEY_ID,
       },
       url: 'https://b3fa4946.us-south.apigw.appdomain.cloud/feedback/submit',
-      headers: {
-        'X-IBM-Client-Id': REQUEST_KEY,
-      },
     };
 
     axios(config)
