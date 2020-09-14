@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import ThemeFeedbackDialog from 'gatsby-theme-carbon/src/components/FeedbackDialog/FeedbackDialog';
 import * as axios from 'axios';
 import { ToastNotification } from 'carbon-components-react';
@@ -11,24 +10,17 @@ const successMessage = {
   subtitle: 'Thank you for submiting your feedback.',
   kind: 'success',
 };
+
 const failMesage = {
   title: 'Feedback not sent',
   subtitle: 'Please contact the website administrator.',
   kind: 'error',
 };
 
-let timeoutInstance;
+const TIMEOUT_LENGTH = 4500;
 
 const FeedbackDialog = ({ props }) => {
-  const [notification, setNotification] = useState({});
-
-  const showNotification = (notificationOpt) => {
-    clearTimeout(timeoutInstance);
-    setNotification(notificationOpt);
-    timeoutInstance = setTimeout(() => {
-      setNotification({});
-    }, 4500);
-  };
+  const [notification, setNotification] = useState(null);
 
   const onSubmit = (feedbackData) => {
     const config = {
@@ -45,41 +37,38 @@ const FeedbackDialog = ({ props }) => {
         const { success } = res.data;
 
         if (success) {
-          showNotification(successMessage);
+          setNotification(successMessage);
         } else {
-          showNotification(failMesage);
+          setNotification(failMesage);
         }
       })
       .catch(() => {
-        showNotification(failMesage);
+        setNotification(failMesage);
+      })
+      .finally(() => {
+        setTimeout(() => {
+          setNotification(null);
+        }, TIMEOUT_LENGTH);
       });
   };
 
   return (
     <>
-      {Object.keys(notification).length !== 0 &&
-        notification.constructor === Object && (
-          <div style={{ position: 'fixed', top: 45, right: 0 }}>
-            <ToastNotification
-              iconDescription="Close"
-              title={notification.title}
-              subtitle={<span>{notification.subtitle}</span>}
-              kind={notification.kind}
-              caption=""
-            />
-          </div>
-        )}
-
-      {
-        // eslint-disable-next-line
-        <ThemeFeedbackDialog {...props} onSubmit={onSubmit} />
-      }
+      {notification && (
+        <div style={{ position: 'fixed', top: 45, right: 0 }}>
+          <ToastNotification
+            iconDescription="Close"
+            timeout={TIMEOUT_LENGTH}
+            title={notification.title}
+            subtitle={<span>{notification.subtitle}</span>}
+            kind={notification.kind}
+            caption=""
+          />
+        </div>
+      )}
+      <ThemeFeedbackDialog {...props} onSubmit={onSubmit} />
     </>
   );
-};
-
-FeedbackDialog.propTypes = {
-  props: PropTypes.object,
 };
 
 export default FeedbackDialog;
