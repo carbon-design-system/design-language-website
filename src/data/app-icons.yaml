@@ -5163,7 +5163,7 @@
     - Player
     - Team
     - Teammate
-- name: app-icon-light~Unassigned-124
+- name: '124'
   friendly_name: Unassigned
   category: stroke
   aliases:
