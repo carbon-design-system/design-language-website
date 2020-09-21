@@ -21,6 +21,14 @@ module.exports = {
         },
       },
     },
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      name: `AppIcons`,
+      options: {
+        path: `${__dirname}/src/data/app-icons.yaml`,
+      },
+    },
     {
       resolve: 'gatsby-plugin-fathom',
       options: {
