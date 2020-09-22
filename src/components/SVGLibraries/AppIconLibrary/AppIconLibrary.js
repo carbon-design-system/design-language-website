@@ -10,7 +10,7 @@ import { svgPage } from '../shared/SvgLibrary.module.scss';
 // import AppIconCategory from './AppIconCategory';
 // import NoResult from '../shared/NoResult';
 
-const CATEGORY_LIST = ['Stroke', 'Fill', 'Line', 'IBM Plex'];
+const CATEGORY_LIST = ['Stroke', 'Fill', 'IBM Plex'];
 
 const IconLibrary = () => {
   const { allAppIconsYaml } = useStaticQuery(graphql`
