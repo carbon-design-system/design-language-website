@@ -961,7 +961,7 @@
     - Client Vantage
 - name: Cloud-APIConnect
   friendly_name: IBM API Connect®
-  category: Line
+  category: Stroke
   aliases:
     - Hybrid
     - Cloud
@@ -2894,7 +2894,7 @@
     - Stakeholder
 - name: SterlingSupplyChain
   friendly_name: IBM SterlingTM Supply Chain
-  category: Line
+  category: Stroke
   aliases:
     - Sterling
     - Watson
