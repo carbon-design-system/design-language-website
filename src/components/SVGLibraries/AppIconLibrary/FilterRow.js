@@ -1,17 +1,15 @@
 import React from 'react';
 import { Search, Dropdown } from 'carbon-components-react';
-import cx from 'classnames';
 import useSticky from '../shared/useSticky';
-import {
-  filterRow,
-  pictograms,
-  dropdown,
-} from '../shared/SvgLibrary.module.scss';
+
+import { themeDropdown, filterRow } from './AppIconLibrary.module.scss';
 
 const FilterRow = ({
   onSearchChange,
-  onDropdownChange,
+  onCategoryChange,
   selectedCategory,
+  isDarkTheme,
+  setIsDarkTheme,
   categoryList,
 }) => {
   const [filterRowRef, isSticky] = useSticky();
@@ -20,7 +18,7 @@ const FilterRow = ({
     <div
       data-stuck={isSticky || undefined}
       ref={filterRowRef}
-      className={cx(filterRow, pictograms)}>
+      className={filterRow}>
       <Search
         light
         labelText={`filter app icons by searching for their name or category`}
@@ -28,13 +26,28 @@ const FilterRow = ({
         placeHolderText={placeHolderText}
       />
       <Dropdown
-        className={dropdown}
+        className={themeDropdown}
+        id="category-filter"
+        size="xl"
+        direction="bottom"
+        light
+        selectedItem={isDarkTheme ? `Dark theme` : `Light theme`}
+        onChange={({ selectedItem }) => {
+          console.log({ selectedItem });
+          console.log({ isDarkTheme });
+          setIsDarkTheme(selectedItem === `Dark theme`);
+        }}
+        label={`Select theme`}
+        items={[`Dark theme`, `Light theme`]}
+      />
+      <Dropdown
+        className={themeDropdown}
         id="category-filter"
         size="xl"
         direction="bottom"
         light
         selectedItem={selectedCategory}
-        onChange={onDropdownChange}
+        onChange={onCategoryChange}
         label={`Filter app icons by category`}
         items={[`All app icons`, ...categoryList]}
       />

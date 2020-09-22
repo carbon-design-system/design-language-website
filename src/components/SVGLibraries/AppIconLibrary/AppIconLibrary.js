@@ -1,5 +1,5 @@
 /* eslint-disable no-debugger */
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { groupBy } from 'lodash-es';
 
@@ -13,6 +13,9 @@ import { svgPage } from '../shared/SvgLibrary.module.scss';
 const CATEGORY_LIST = ['Stroke', 'Fill', 'IBM Plex'];
 
 const IconLibrary = () => {
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
+  const [selectedCategory, setSelectedCategory] = useState('All app icons');
+  const [searchValue, setSearchValue] = useState('');
   const { allAppIconsYaml } = useStaticQuery(graphql`
     query AppIconQuery {
       allAppIconsYaml(sort: { fields: name, order: ASC }) {
@@ -29,14 +32,25 @@ const IconLibrary = () => {
     }
   `);
 
-  const rawData = allAppIconsYaml.edges.map(({ node }) => node);
-  const data = rawData.filter(({ name }) => Boolean(name));
+  const data = useMemo(() => {
+    const allIcons = allAppIconsYaml.edges
+      .map(({ node }) => node)
+      .filter(({ name }) => Boolean(name));
 
-  const [isDarkTheme, setIsDarkTheme] = useState(true);
-  const [selectedCategory, setSelectedCategory] = useState('All app icons');
-  const [searchValue, setSearchValue] = useState('');
+    const searchPattern = new RegExp(searchValue, 'i');
+    const containsSearchString = (test) => searchPattern.test(test);
+
+    return allIcons.filter(({ friendly_name, name, aliases }) => {
+      return (
+        containsSearchString(friendly_name) ||
+        containsSearchString(name) ||
+        aliases?.some(containsSearchString)
+      );
+    });
+  }, [allAppIconsYaml, searchValue]);
 
   console.log(searchValue);
+  console.log(data);
 
   let categories = groupBy(data, 'category');
 
@@ -52,14 +66,13 @@ const IconLibrary = () => {
         type="pictogram"
         categoryList={CATEGORY_LIST}
         selectedCategory={selectedCategory}
+        setIsDarkTheme={setIsDarkTheme}
+        isDarkTheme={isDarkTheme}
         onSearchChange={(e) => setSearchValue(e.target.value)}
-        onDropdownChange={({ selectedItem }) =>
+        onCategoryChange={({ selectedItem }) =>
           setSelectedCategory(selectedItem)
         }
       />
-      <button type="button" onClick={() => setIsDarkTheme(!isDarkTheme)}>
-        change theme
-      </button>
       {Object.keys(categories).map((category) => {
         return (
           <AppIconCategory

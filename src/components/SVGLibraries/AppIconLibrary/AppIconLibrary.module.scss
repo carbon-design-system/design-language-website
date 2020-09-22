@@ -2,8 +2,14 @@
   margin-top: $spacing-05;
   display: grid;
   grid-gap: 1px;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  max-width: 100vw;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fill, minmax(196px, 1fr));
   background-color: $ui-01;
+
+  @include carbon--breakpoint-down('md') {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
 }
 
 .card {
@@ -35,6 +41,50 @@
 }
 
 .card img {
-  height: 64px;
-  width: 64px;
+  height: 35%;
+  width: 35%;
+}
+
+.themeDropdown {
+  border-bottom: none;
+}
+
+.filter-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  background-color: $ui-03;
+  border-bottom: 1px solid $ui-03;
+  grid-gap: 1px;
+  position: sticky;
+  z-index: z('dropdown');
+  top: 7rem;
+  transition: box-shadow $duration--fast-02 ease;
+  @include carbon--breakpoint-down('md') {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.filter-row[data-stuck] {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.filter-row :global(.bx--search-input) {
+  border-bottom: none;
+  font-size: 1rem;
+  line-height: revert;
+  height: 3rem;
+}
+
+// .filter-row :global(.bx--dropdown__wrapper) {
+// }
+
+.filter-row::before {
+  content: '';
+  position: absolute;
+  z-index: z('dropdown');
+  height: 1rem;
+  width: 100%;
+  top: -1rem;
+  background: #f3f3f3;
 }
