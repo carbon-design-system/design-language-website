@@ -29,25 +29,8 @@ const IconLibrary = () => {
     }
   `);
 
-  const broken = [
-    'DataCollectionTool',
-    '007',
-    '046',
-    '047',
-    '053',
-    '055',
-    '058',
-    '066',
-    '098',
-    '112',
-    '132',
-  ];
-
   const rawData = allAppIconsYaml.edges.map(({ node }) => node);
-  const data = rawData.filter(
-    ({ name }) => Boolean(name) && !broken.includes(name)
-  );
-  //   const brokenIcons = rawData.filter(({ name }) => broken.includes(name));
+  const data = rawData.filter(({ name }) => Boolean(name));
 
   const [isDarkTheme, setIsDarkTheme] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('All app icons');
