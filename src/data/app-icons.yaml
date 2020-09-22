@@ -5116,16 +5116,6 @@
     - Allow
     - Permit
     - Approvals
-# - name: '132' Only able to render as a PNG,
-#   friendly_name: Unassigned
-#   category: Fill
-#   aliases:
-#     - Blue
-#     - Purple
-#     - Radar
-#     - Selector
-#     - Dial
-#     - Control
 - name: Security-001
   friendly_name: Unassigned
   category: Stroke
