@@ -817,7 +817,7 @@
     - Bee
     - Rebus
     - Bumble bee
-- name: BlockchainFoodtrust
+- name: BlockchainFoodTrust
   friendly_name: Blockchain IBM Food Trust™
   category: Stroke
   aliases:
@@ -4689,7 +4689,7 @@
     - Go
 - name: '101'
   friendly_name: Unassigned
-  category: Fill
+  category: Stroke
   aliases:
     - Purple
     - Blue
@@ -4841,7 +4841,7 @@
     - Pound
 - name: '114'
   friendly_name: Unassigned
-  category: Fill
+  category: Stroke
   aliases:
     - Blue
     - Teal
@@ -5070,7 +5070,7 @@
     - Highlight
 - name: '129'
   friendly_name: Unassigned
-  category: Stroke
+  category: Fill
   aliases:
     - Purple
     - Blue
