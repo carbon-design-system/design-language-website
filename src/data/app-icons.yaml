@@ -1584,35 +1584,6 @@
     - System monitoring
     - System control
     - System control center
-- name: DataCollectionTool
-  friendly_name: Data collection tool
-  category: Stroke
-  aliases:
-    - Hybrid
-    - Cloud
-    - Business
-    - Cognitive
-    - Software
-    - Watson
-    - Blue
-    - Teal
-    - Mobile
-    - Pulse
-    - Spectrum
-    - Graph
-    - Sound
-    - Analyzer
-    - Equalizer
-    - Text
-    - Speech
-    - Data collection
-    - Data collection device
-    - Data collection instrument
-    - Surveys
-    - Statistical aggregation
-    - Data measurement
-    - Data collection tool
-    - Statistics
 - name: Db2
   friendly_name: IBM Db2®
   category: IBM Plex
@@ -3672,18 +3643,6 @@
     - Confirmed
     - Approved
     - Selected
-- name: '007'
-  friendly_name: Unassigned
-  category: Stroke
-  aliases:
-    - Magenta
-    - Purple
-    - Network
-    - Connect
-    - Similarities
-    - Related
-    - Group
-    - Discover
 - name: '009'
   friendly_name: Unassigned
   category: Stroke
@@ -4217,37 +4176,6 @@
     - Update
     - Outbound
     - Directions
-- name: '046'
-  friendly_name: Unassigned
-  category: Stroke
-  aliases:
-    - Purple
-    - Blue
-    - Key
-    - Password
-    - Passcode
-    - ID
-    - Identity
-- name: '047'
-  friendly_name: Unassigned
-  category: Stroke
-  aliases:
-    - Green
-    - Teal
-    - Magnifier
-    - Magnifying glass
-    - Bar
-    - Graph
-    - Chart
-    - Analytics
-    - Review
-    - Study
-    - Highlight
-    - Search
-    - Reflect
-    - Statistics
-    - Rank
-    - Ranking
 - name: '048'
   friendly_name: Unassigned
   category: Stroke
@@ -4335,28 +4263,6 @@
     - Explore
     - Take off
     - Future state
-- name: '053'
-  friendly_name: Unassigned
-  category: Stroke
-  aliases:
-    - Purple
-    - Blue
-    - Clipboard
-    - File
-    - Document
-    - Graph
-    - Bar
-    - Chart
-    - Analytics
-    - Statistics
-    - Rankings
-    - Rank
-    - Results
-    - Polls
-    - Poll
-    - Outcomes
-    - Reporting
-    - Reports
 - name: '054'
   friendly_name: Unassigned
   category: Stroke
@@ -4380,23 +4286,6 @@
     - Rank
     - Rankings
     - Statistics
-- name: '055'
-  friendly_name: Unassigned
-  category: Stroke
-  aliases:
-    - Blue
-    - Teal
-    - Magnifier
-    - Magnifying glass
-    - Switch
-    - On
-    - Off
-    - Search
-    - Settings
-    - Status
-    - Options
-    - State
-    - Current state
 - name: '056'
   friendly_name: Unassigned
   category: Stroke
@@ -4433,16 +4322,6 @@
     - Regulated
     - Checked
     - Compliance
-- name: '058'
-  friendly_name: Unassigned
-  category: Stroke
-  aliases:
-    - Blue
-    - Purple
-    - Box
-    - Storage
-    - Code
-    - Shredder
 - name: '059'
   friendly_name: Unassigned
   category: Stroke
@@ -4522,19 +4401,6 @@
     - Circle
     - Expansion
     - Expand
-- name: '066'
-  friendly_name: Unassigned
-  category: Fill
-  aliases:
-    - Purple
-    - Blue
-    - Square
-    - Circle
-    - Intersection
-    - Section
-    - Segment
-    - Discover
-    - Discovery
 - name: '067'
   friendly_name: Unassigned
   category: Fill
@@ -4799,15 +4665,6 @@
     - Blue
     - Heart
     - Health
-- name: '098'
-  friendly_name: Unassigned
-  category: Fill
-  aliases:
-    - Blue
-    - Teal
-    - Dial
-    - Control
-    - Adjust
 - name: '099'
   friendly_name: Unassigned
   category: Fill
@@ -4969,25 +4826,6 @@
     - Help desk ticket
     - Service ticket
     - Chat
-- name: '112'
-  friendly_name: Unassigned
-  category: Stroke
-  aliases:
-    - Blue
-    - Teal
-    - Person
-    - Human
-    - People
-    - Group
-    - Customer
-    - Service
-    - Desk
-    - Concierge
-    - Help
-    - Customer service
-    - Assistance
-    - Information desk
-    - Help desk
 - name: '113'
   friendly_name: Unassigned
   category: Stroke
@@ -5278,16 +5116,16 @@
     - Allow
     - Permit
     - Approvals
-- name: '132'
-  friendly_name: Unassigned
-  category: Fill
-  aliases:
-    - Blue
-    - Purple
-    - Radar
-    - Selector
-    - Dial
-    - Control
+# - name: '132' Only able to render as a PNG,
+#   friendly_name: Unassigned
+#   category: Fill
+#   aliases:
+#     - Blue
+#     - Purple
+#     - Radar
+#     - Selector
+#     - Dial
+#     - Control
 - name: Security-001
   friendly_name: Unassigned
   category: Stroke
