@@ -1,35 +1,44 @@
 import React from 'react';
+import sortBy from 'lodash-es/sortBy';
+import remove from 'lodash-es/remove';
 
 import { h2 } from 'gatsby-theme-carbon/src/components/markdown/Markdown.module.scss';
 import cx from 'classnames';
 
-import useIntersectionObserver from '../shared/useIntersectionObserver';
+import { container, card, light } from './AppIconLibrary.module.scss';
 
-import SvgCard from '../shared/SvgCard';
+import { categoryTitle, svgCategory } from '../shared/SvgLibrary.module.scss';
 
-import {
-  svgGrid,
-  categoryTitle,
-  svgCategory,
-  pictograms as pictogramList,
-} from '../shared/SvgLibrary.module.scss';
+const IconCategory = ({ category, icons, isDarkTheme }) => {
+  const srcPrefix = `/app-icons/${isDarkTheme ? 'dark-theme' : 'light-theme'}`;
+  const sortedIcons = sortBy(icons, 'name');
 
-const IconCategory = ({ category, pictograms }) => {
-  const [sectionRef, containerIsVisible] = useIntersectionObserver();
+  const unassignedIcons = remove(
+    sortedIcons,
+    ({ friendly_name }) => friendly_name === 'Unassigned'
+  );
+
   return (
-    <section ref={sectionRef} className={svgCategory}>
+    <section className={svgCategory}>
       <h2 className={cx(h2, categoryTitle)}>{category}</h2>
-      <ul className={cx(svgGrid, pictogramList)}>
-        {pictograms.map(pictogram => (
-          <SvgCard
-            containerIsVisible={containerIsVisible}
-            key={pictogram.name}
-            icon={pictogram}
-            height="35%"
-            width="35%"
-          />
-        ))}
-      </ul>
+      <div className={container}>
+        {[...sortedIcons, ...unassignedIcons].map((icon) => {
+          if (!icon.name) {
+            console.error('error', icon);
+          }
+          return (
+            <div
+              key={`${srcPrefix}/${icon.name}`}
+              className={cx(card, !isDarkTheme && light)}>
+              <span>{icon.friendly_name}</span>
+              <img
+                src={`${srcPrefix}/${icon.name}.svg`}
+                alt={'icon not found'}
+              />
+            </div>
+          );
+        })}
+      </div>
     </section>
   );
 };

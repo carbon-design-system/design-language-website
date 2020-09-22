@@ -1,21 +1,21 @@
 /* eslint-disable no-debugger */
 import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { groupBy } from 'lodash-es';
 
-import FilterRow from '../shared/FilterRow';
+import AppIconCategory from './AppIconCategory';
+import FilterRow from './FilterRow';
 import { svgPage } from '../shared/SvgLibrary.module.scss';
-
-import { container, card, light } from './AppIconLibrary.module.scss';
-
-import cx from 'classnames';
 
 // import AppIconCategory from './AppIconCategory';
 // import NoResult from '../shared/NoResult';
 
+const CATEGORY_LIST = ['Stroke', 'Fill', 'Line', 'IBM Plex'];
+
 const IconLibrary = () => {
   const { allAppIconsYaml } = useStaticQuery(graphql`
     query AppIconQuery {
-      allAppIconsYaml {
+      allAppIconsYaml(sort: { fields: name, order: ASC }) {
         totalCount
         edges {
           node {
@@ -47,20 +47,27 @@ const IconLibrary = () => {
   const data = rawData.filter(
     ({ name }) => Boolean(name) && !broken.includes(name)
   );
-  const brokenIcons = rawData.filter(({ name }) => broken.includes(name));
+  //   const brokenIcons = rawData.filter(({ name }) => broken.includes(name));
 
   const [isDarkTheme, setIsDarkTheme] = useState(true);
-  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [selectedCategory, setSelectedCategory] = useState('All app icons');
   const [searchValue, setSearchValue] = useState('');
 
   console.log(searchValue);
 
-  const srcPrefix = `/app-icons/${isDarkTheme ? 'dark-theme' : 'light-theme'}`;
+  let categories = groupBy(data, 'category');
+
+  if (CATEGORY_LIST.includes(selectedCategory)) {
+    categories = {
+      [selectedCategory]: categories[selectedCategory],
+    };
+  }
+
   return (
     <div className={svgPage}>
       <FilterRow
         type="pictogram"
-        categoryList={['all', 'stroke', 'fill', 'plex']}
+        categoryList={CATEGORY_LIST}
         selectedCategory={selectedCategory}
         onSearchChange={(e) => setSearchValue(e.target.value)}
         onDropdownChange={({ selectedItem }) =>
@@ -70,23 +77,17 @@ const IconLibrary = () => {
       <button type="button" onClick={() => setIsDarkTheme(!isDarkTheme)}>
         change theme
       </button>
-      <div className={container}>
-        {[...brokenIcons, ...data].map((icon) => {
-          if (!icon.name) {
-            console.error('error', icon);
-          }
-          return (
-            <div
-              key={`${srcPrefix}/${icon.name}`}
-              className={cx(card, !isDarkTheme && light)}>
-              <img
-                src={`${srcPrefix}/${icon.name}.svg`}
-                alt={'icon not found'}
-              />
-            </div>
-          );
-        })}
-      </div>
+      {Object.keys(categories).map((category) => {
+        return (
+          <AppIconCategory
+            key={category}
+            category={category}
+            icons={categories[category]}
+            isDarkTheme={isDarkTheme}
+          />
+        );
+      })}
+      {/* <AppIconCategory category={} */}
     </div>
   );
 };
