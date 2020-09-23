@@ -961,7 +961,7 @@
     - Client Vantage
 - name: Cloud-APIConnect
   friendly_name: IBM API Connect®
-  category: Stroke
+  category: Fill
   aliases:
     - Hybrid
     - Cloud
