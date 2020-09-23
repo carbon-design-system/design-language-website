@@ -70,9 +70,10 @@ const IconLibrary = () => {
           setSelectedCategory(selectedItem)
         }
       />
-      {Object.keys(categories).map((category) => {
+      {Object.keys(categories).map((category, i) => {
         return (
           <AppIconCategory
+            topCategory={i === 0}
             key={category}
             category={category}
             icons={categories[category]}
