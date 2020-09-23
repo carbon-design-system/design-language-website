@@ -49,9 +49,6 @@ const IconLibrary = () => {
     });
   }, [allAppIconsYaml, searchValue]);
 
-  console.log(searchValue);
-  console.log(data);
-
   let categories = groupBy(data, 'category');
 
   if (CATEGORY_LIST.includes(selectedCategory)) {

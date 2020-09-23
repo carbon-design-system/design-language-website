@@ -33,8 +33,6 @@ const FilterRow = ({
         light
         selectedItem={isDarkTheme ? `Dark theme` : `Light theme`}
         onChange={({ selectedItem }) => {
-          console.log({ selectedItem });
-          console.log({ isDarkTheme });
           setIsDarkTheme(selectedItem === `Dark theme`);
         }}
         label={`Select theme`}
