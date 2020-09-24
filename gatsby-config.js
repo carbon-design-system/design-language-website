@@ -12,7 +12,6 @@ module.exports = {
       resolve: 'gatsby-theme-carbon',
       options: {
         iconPath: './src/images/favicon.svg',
-        isServiceWorkerEnabled: true,
         mdxExtensions: ['.mdx'],
         titleType: 'append',
         repository: {
@@ -23,11 +22,24 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'IBM Design Language',
+        short_name: 'IDL',
+        start_url: '/',
+        background_color: '#f4f4f4',
+        theme_color: '#0f62fe',
+        display: 'browser',
+        lang: 'en',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-fathom',
       options: {
         siteId: 'HLFJURXW',
       },
     },
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-remove-serviceworker`,
   ],
 };
