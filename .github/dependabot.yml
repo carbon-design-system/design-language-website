@@ -2,10 +2,14 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
+    commit-message:
+      prefix: "chore: "
     directory: "/"
+    labels:
+      - "dependencies"
     schedule:
       interval: "daily"
-      time: "17:08"
+      time: "12:05"
+      timezone: "America/Chicago"
     allow:
-      - dependency-name: "@carbon"
-      - dependency-name: "carbon"
+      - dependency-name: "*carbon*"
