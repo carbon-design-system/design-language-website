@@ -1082,7 +1082,7 @@
   dependencies:
     "@carbon/icon-helpers" "^10.9.0"
 
-"@carbon/icons@^10.18.0", "@carbon/icons@^10.9.3":
+"@carbon/icons@^10.15.0", "@carbon/icons@^10.18.0":
   version "10.18.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.18.0.tgz#544451253f8606a3c7dead7f5756f65d799ae573"
   integrity sha512-yBKfOoWHetNPO7rkh1l9B1XqS05QLAatOdNbNMgHbwEEMYwYgvs62sOgQWZr4IOJO/mcZYNUzPhMi6gdlAYcrQ==
@@ -1109,10 +1109,10 @@
   dependencies:
     "@carbon/icon-helpers" "^10.9.0"
 
-"@carbon/pictograms@^10.9.0":
-  version "10.16.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-10.16.0.tgz#395d3642b22b6b12f43959158fb8e07d60c54f6d"
-  integrity sha512-WyAkmw7yd8ZVjBVO0ybKAWQFB0UndgEBcsPdOYqgT9Q8smMRMy09zOZiZdXdTAqVFNGOq5UjfSjXj8ZHsz9h+Q==
+"@carbon/pictograms@^10.18.0":
+  version "10.18.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-10.18.0.tgz#c7953b2c58196431ae49877a472617fa41acbc88"
+  integrity sha512-ZNss+t+mW6IkfPS/FA7srZE+8Db8jXKuXB+xFVRgP6RvQeUVp46FhUvEbhBasgV3eKx89tyjeuhfoxpOOg5Rog==
 
 "@carbon/themes@^10.19.0":
   version "10.19.0"
@@ -3805,10 +3805,10 @@ carbon-components-react@^7.13.0, carbon-components-react@^7.16.0:
     warning "^3.0.0"
     window-or-global "^1.0.1"
 
-carbon-components@^10.13.0, carbon-components@^10.16.0:
-  version "10.17.0"
-  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.17.0.tgz#e1f5e219443b9317147013280224cdb89dbc0bf8"
-  integrity sha512-kTSWkgtTaW9FGBTHOCj0/Ir86RCNRBti0Ckf7yVC1LaQJ0VWy2/BLrwhfNWaWGCGUnx4A+qt8MwEuG1Yz07JhA==
+carbon-components@^10.16.0, carbon-components@^10.20.0:
+  version "10.20.0"
+  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.20.0.tgz#3a927ad4f566c5dc263d32c257269c74a3ab23cc"
+  integrity sha512-MysxXg4/DpDt9GJPV3zmxi9X6HyGxr7DyROvVjf4SCyYrBqTeLOoajd3sbPhKxPjDdRIyqEb2roLq5DbbtazLg==
   dependencies:
     flatpickr "4.6.1"
     lodash.debounce "^4.0.8"
@@ -12306,10 +12306,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier-config-carbon@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/prettier-config-carbon/-/prettier-config-carbon-0.2.0.tgz#d75333c17f3b04fc1bb66aa49857f00d19502e3a"
-  integrity sha512-R1hb/IjlVKLNuLs3IKuGQj0RFUqIZP/8f1A2TSZVWlq35RfhoPrGg/y/UwJLB/24sQq7b9htbZe3/eZizyNMDA==
+prettier-config-carbon@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/prettier-config-carbon/-/prettier-config-carbon-0.3.0.tgz#2dd2c800d77fe629f57b990d5e649e91f3247e16"
+  integrity sha512-wAMBTL23UnCnd4wK5WYvaHLxgqqbmbuOoAmUva2RpCpc2HFmsKMBNt7ucLfx6/oO87pA0sVxwAj9TNCcaEoU1w==
 
 prettier@^2.0.5:
   version "2.0.5"
