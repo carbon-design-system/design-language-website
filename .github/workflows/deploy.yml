@@ -7,6 +7,9 @@ jobs:
   build:
     runs-on: macOS-latest
     steps:
+      - uses: fkirc/skip-duplicate-actions@v1.4.0
+        with:
+          github_token: ${{ github.token }}
       - uses: actions/checkout@v2
       - name: Use Node.js 12.x
         uses: actions/setup-node@v2-beta
