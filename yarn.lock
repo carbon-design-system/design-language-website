@@ -1043,32 +1043,32 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@carbon/colors@^10.11.0":
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.11.0.tgz#060dce87ddfaabe313ad85d677962e92cf6184a1"
-  integrity sha512-x9kT5sN3f8sz/gELpVmDbTeNJ20LP70MI+kLsd19RQICrZipoLJG0Ajn1J9t5NCdz3XGBYb3oiUoAtMiwt/4jA==
+"@carbon/colors@^10.13.0":
+  version "10.13.0"
+  resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.13.0.tgz#8b17a4555dd00c4494471471c7813b3df5bab9a3"
+  integrity sha512-SVWgbwa5cjT4cnZ6xJZUB8KJakSIzEqvtD23RHOWpv/qLATXbCEWzSvsa7RO0hNaqYH5EYkYxFS2Y+qV/Mz9pA==
 
-"@carbon/elements@^10.11.0", "@carbon/elements@^10.7.0":
-  version "10.16.0"
-  resolved "https://registry.yarnpkg.com/@carbon/elements/-/elements-10.16.0.tgz#a4365ede3066bae3cdab8fbc1af3006a7be1aa3b"
-  integrity sha512-HOHyzlR+V6uoLzJ6AX2Bf45RLg/hETRHvdnHB6Dxdot0iQxKv1i+ArPqqwF/XxdsNc4eAhC/4YBhpHtQ3zrehQ==
+"@carbon/elements@^10.11.0", "@carbon/elements@^10.19.0":
+  version "10.19.0"
+  resolved "https://registry.yarnpkg.com/@carbon/elements/-/elements-10.19.0.tgz#2630e6c174042d2fd1c9f8bcb68e6419d20c1aea"
+  integrity sha512-AQCmd0wP0etfv42twUzyzCSSNduTJXoaZMm9Euu8QHS0f/O/7JAFkzoLPdue2uCMEqd2871nhAQVxfhYkxUeqw==
   dependencies:
-    "@carbon/colors" "^10.11.0"
-    "@carbon/grid" "^10.14.0"
-    "@carbon/icons" "^10.15.0"
+    "@carbon/colors" "^10.13.0"
+    "@carbon/grid" "^10.15.0"
+    "@carbon/icons" "^10.18.0"
     "@carbon/import-once" "^10.3.0"
-    "@carbon/layout" "^10.12.0"
+    "@carbon/layout" "^10.13.0"
     "@carbon/motion" "^10.9.0"
-    "@carbon/themes" "^10.16.0"
-    "@carbon/type" "^10.14.0"
+    "@carbon/themes" "^10.19.0"
+    "@carbon/type" "^10.16.0"
 
-"@carbon/grid@^10.14.0":
-  version "10.14.0"
-  resolved "https://registry.yarnpkg.com/@carbon/grid/-/grid-10.14.0.tgz#5643303b8e6821306b20ac943ce327068bbbc34e"
-  integrity sha512-V/XuB013ilbQyNV/Mhc24ZBWT0aoF+ZgUw9Rq5NlALgQf08BvTJjQl0C/5GxnAzFHaeYZh9jdVhXa0kCvY9nTg==
+"@carbon/grid@^10.15.0":
+  version "10.15.0"
+  resolved "https://registry.yarnpkg.com/@carbon/grid/-/grid-10.15.0.tgz#560e750f267c5da247ca2b4b01b2a0d16fa899d2"
+  integrity sha512-XSGKz2lMEWmG/9E7ONy/YTF1IjRrcvke+Jz2spWOQPrDcg/n7sCaKlsCR9tISZ4XKjVUWOU3CtaeA1WOJqXnOA==
   dependencies:
     "@carbon/import-once" "^10.3.0"
-    "@carbon/layout" "^10.12.0"
+    "@carbon/layout" "^10.13.0"
 
 "@carbon/icon-helpers@^10.9.0":
   version "10.9.0"
@@ -1082,7 +1082,7 @@
   dependencies:
     "@carbon/icon-helpers" "^10.9.0"
 
-"@carbon/icons@^10.15.0", "@carbon/icons@^10.18.0":
+"@carbon/icons@^10.18.0":
   version "10.18.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.18.0.tgz#544451253f8606a3c7dead7f5756f65d799ae573"
   integrity sha512-yBKfOoWHetNPO7rkh1l9B1XqS05QLAatOdNbNMgHbwEEMYwYgvs62sOgQWZr4IOJO/mcZYNUzPhMi6gdlAYcrQ==
@@ -1092,10 +1092,10 @@
   resolved "https://registry.yarnpkg.com/@carbon/import-once/-/import-once-10.3.0.tgz#58617da4efb6d7a11352d8e6b7209da1d39f364d"
   integrity sha512-PFk3FhMe3psihYtCg3JsyPHismqglnbUqIpz1DCG5Gn/kt0HdVKhGvHdEq7E305rGoBUCKzMn/4xoY9v9mcmlg==
 
-"@carbon/layout@^10.12.0":
-  version "10.12.0"
-  resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.12.0.tgz#8f80c8d169a1c62669cb65470619b6c259e187a5"
-  integrity sha512-qS6WHPqEyVl1AzAnG5awoxfYw8RbX4Pf5Y/Z46s5wTTxm/zzF7Ju/Ej3H2Xkjny1NL7PsF3xyh2CtiojLBrurg==
+"@carbon/layout@^10.13.0":
+  version "10.13.0"
+  resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.13.0.tgz#fd7ecaf1502f4d4ef1598816d9316dd6c84be5da"
+  integrity sha512-OgLe9/27zffC019rOGjWd4lavZO7BAkgUyKG+0Mg8IpzqqmGt7v8k4viMH5ThMt8y7Qk1LQfno/4ZzBItWi5Ow==
 
 "@carbon/motion@^10.9.0":
   version "10.9.0"
@@ -1114,23 +1114,23 @@
   resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-10.18.0.tgz#c7953b2c58196431ae49877a472617fa41acbc88"
   integrity sha512-ZNss+t+mW6IkfPS/FA7srZE+8Db8jXKuXB+xFVRgP6RvQeUVp46FhUvEbhBasgV3eKx89tyjeuhfoxpOOg5Rog==
 
-"@carbon/themes@^10.16.0":
-  version "10.16.0"
-  resolved "https://registry.yarnpkg.com/@carbon/themes/-/themes-10.16.0.tgz#983d6b573b7be4e6197f6f5cf5161431648a8082"
-  integrity sha512-H62EXEMfhsy0H6Oqe7ExYTrGJ2HmpcH6PgfKl3jbYln75rP9zfIf5nnLen6RQctqUdiNNeJDYgJxI1nEH1AOGQ==
+"@carbon/themes@^10.19.0":
+  version "10.19.0"
+  resolved "https://registry.yarnpkg.com/@carbon/themes/-/themes-10.19.0.tgz#57f7e7bd2d4c0699032e139d351a2500431e5ce8"
+  integrity sha512-i5znhSU4o+86P2KONv6SxNLitwvlzOlwrX1guobM3S2w9oFOaQypMEkRpklM8D2l3E0i++/qcdBCa307R0qnsA==
   dependencies:
-    "@carbon/colors" "^10.11.0"
-    "@carbon/layout" "^10.12.0"
-    "@carbon/type" "^10.14.0"
+    "@carbon/colors" "^10.13.0"
+    "@carbon/layout" "^10.13.0"
+    "@carbon/type" "^10.16.0"
     color "^3.1.2"
 
-"@carbon/type@^10.14.0":
-  version "10.14.0"
-  resolved "https://registry.yarnpkg.com/@carbon/type/-/type-10.14.0.tgz#d0abd3f388f13ccf727a7248117cbe0f64e1d5f0"
-  integrity sha512-BLf4eCIH8/HIJaQCMDDNZan36X36irFyOrcVo6JP/gS98Ft8Fl12cysZBeUs7p31hpL/y7ELUYmve29GlAzwZg==
+"@carbon/type@^10.16.0":
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@carbon/type/-/type-10.16.0.tgz#0f85209852f5c1a0e0128b7408d9c71e588a4ca7"
+  integrity sha512-Qf2TfUJTFFcrCyFT9sH9wsETAVHKPGID0e3k9KjGrBjvbgeqny1jPHM7B7Gpl29NtOVDY2+K7AvGiBIH7SP/jQ==
   dependencies:
     "@carbon/import-once" "^10.3.0"
-    "@carbon/layout" "^10.12.0"
+    "@carbon/layout" "^10.13.0"
 
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.5":
   version "0.1.5"
