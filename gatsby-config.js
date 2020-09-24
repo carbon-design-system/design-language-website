@@ -12,7 +12,6 @@ module.exports = {
       resolve: 'gatsby-theme-carbon',
       options: {
         iconPath: './src/images/favicon.svg',
-        isServiceWorkerEnabled: true,
         mdxExtensions: ['.mdx'],
         titleType: 'append',
         repository: {
