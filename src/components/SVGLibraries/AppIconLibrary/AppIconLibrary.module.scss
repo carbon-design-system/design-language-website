@@ -14,7 +14,7 @@
 .card {
   background-color: white;
   --border: 1px solid #{$decorative-01};
-  color: $text-01;
+  color: $text-02;
   position: relative;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@
 .card.dark {
   background-color: black;
   --border: 1px solid #{$carbon--gray-70};
-  color: $text-04;
+  color: $carbon--gray-30;
 }
 
 .card:after {
@@ -89,9 +89,6 @@
   line-height: revert;
   height: 3rem;
 }
-
-// .filter-row :global(.bx--dropdown__wrapper) {
-// }
 
 .filter-row::before {
   content: '';
