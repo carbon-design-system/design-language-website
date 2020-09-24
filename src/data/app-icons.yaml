@@ -306,7 +306,7 @@
     - circles
 - name: CognosAnalyticsMobile
   friendly_name: IBM Cognos® Analytics for Mobile
-  category: Stroke
+  category: Fill
   aliases:
     - Hybrid cloud
     - IBM Cognos
