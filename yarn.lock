@@ -1109,10 +1109,10 @@
   dependencies:
     "@carbon/icon-helpers" "^10.9.0"
 
-"@carbon/pictograms@^10.9.0":
-  version "10.16.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-10.16.0.tgz#395d3642b22b6b12f43959158fb8e07d60c54f6d"
-  integrity sha512-WyAkmw7yd8ZVjBVO0ybKAWQFB0UndgEBcsPdOYqgT9Q8smMRMy09zOZiZdXdTAqVFNGOq5UjfSjXj8ZHsz9h+Q==
+"@carbon/pictograms@^10.18.0":
+  version "10.18.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-10.18.0.tgz#c7953b2c58196431ae49877a472617fa41acbc88"
+  integrity sha512-ZNss+t+mW6IkfPS/FA7srZE+8Db8jXKuXB+xFVRgP6RvQeUVp46FhUvEbhBasgV3eKx89tyjeuhfoxpOOg5Rog==
 
 "@carbon/themes@^10.16.0":
   version "10.16.0"
