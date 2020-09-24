@@ -66,7 +66,7 @@
 
 .filter-row {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: $decorative-01;
   border-bottom: 1px solid $decorative-01;
   grid-gap: 1px;
@@ -75,12 +75,17 @@
   top: 7rem;
   transition: box-shadow $duration--fast-02 ease;
   @include carbon--breakpoint-down('md') {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 .filter-row[data-stuck] {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+// search container
+.filter-row :global(.bx--search) {
+  grid-column-end: span 2;
 }
 
 .filter-row :global(.bx--search-input) {
