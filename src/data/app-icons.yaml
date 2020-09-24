@@ -744,7 +744,7 @@
     - Programming interface
 - name: APIConnectTestAndMonitor
   friendly_name: IBM API Connect® Test and Monitor
-  category: Stroke
+  category: Fill
   aliases:
     - Hybrid
     - Cloud
@@ -961,7 +961,7 @@
     - Client Vantage
 - name: Cloud-APIConnect
   friendly_name: IBM API Connect®
-  category: Fill
+  category: Stroke
   aliases:
     - Hybrid
     - Cloud
