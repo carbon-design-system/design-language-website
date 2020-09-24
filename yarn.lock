@@ -1082,7 +1082,7 @@
   dependencies:
     "@carbon/icon-helpers" "^10.9.0"
 
-"@carbon/icons@^10.15.0", "@carbon/icons@^10.18.0":
+"@carbon/icons@^10.18.0":
   version "10.18.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.18.0.tgz#544451253f8606a3c7dead7f5756f65d799ae573"
   integrity sha512-yBKfOoWHetNPO7rkh1l9B1XqS05QLAatOdNbNMgHbwEEMYwYgvs62sOgQWZr4IOJO/mcZYNUzPhMi6gdlAYcrQ==
