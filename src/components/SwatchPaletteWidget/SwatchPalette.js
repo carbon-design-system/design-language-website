@@ -16,7 +16,7 @@ import {
   green,
   gray,
   cyan,
-} from '@carbon/elements';
+} from '@carbon/colors';
 
 const { prefix } = settings;
 
@@ -592,7 +592,7 @@ const Swatch = ({ name, hex, txtcolor, value }) => (
   </div>
 );
 
-const hexToRgb = hex => {
+const hexToRgb = (hex) => {
   const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
   return result
     ? {
@@ -644,7 +644,7 @@ const SwatchPalette = ({ palette, format, showBW }) => {
       {BlackSwatch}
       {Object.keys(paletteObj)
         .reverse()
-        .map(grade => {
+        .map((grade) => {
           const { hex } = paletteObj[grade];
           const txtcolor =
             parseInt(grade) > CUTOFF_POINT_FOR_DARK_TEXT
