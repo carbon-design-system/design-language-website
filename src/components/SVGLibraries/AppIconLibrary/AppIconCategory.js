@@ -10,8 +10,10 @@ import { container, card, dark } from './AppIconLibrary.module.scss';
 
 import { categoryTitle, svgCategory } from '../shared/SvgLibrary.module.scss';
 
-const IconCategory = ({ category, icons, isDarkTheme, topCategory }) => {
-  const srcPrefix = withPrefix(`/app-icons/${isDarkTheme ? 'dark-theme' : 'light-theme'}`);
+const IconCategory = ({ category, icons, isDarkTheme }) => {
+  const srcPrefix = withPrefix(
+    `/app-icons/${isDarkTheme ? 'dark-theme' : 'light-theme'}`
+  );
   const sortedIcons = sortBy(icons, 'name');
 
   const unassignedIcons = remove(
@@ -23,14 +25,14 @@ const IconCategory = ({ category, icons, isDarkTheme, topCategory }) => {
     <section className={svgCategory}>
       <h2 className={cx(h2, categoryTitle)}>{category}</h2>
       <div className={container}>
-        {[...sortedIcons, ...unassignedIcons].map((icon, i) => {
+        {[...sortedIcons, ...unassignedIcons].map((icon) => {
           if (!icon.name) {
             console.error('error', icon);
           }
 
           // Only lazy load images that are "below the fold" they're not among the first
           // 8 images in the "top" category"
-          const loading = topCategory && i < 8 ? 'auto' : 'lazy';
+          //   const loading = topCategory && i < 8 ? 'auto' : 'lazy';
 
           return (
             <div
@@ -38,7 +40,6 @@ const IconCategory = ({ category, icons, isDarkTheme, topCategory }) => {
               className={cx(card, isDarkTheme && dark)}>
               <span aria-hidden="true">{icon.friendly_name}</span>
               <img
-                loading={loading}
                 height="48px"
                 width="48px"
                 src={`${srcPrefix}/${icon.name}.svg`}

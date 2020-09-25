@@ -8,7 +8,7 @@ const frontmatter = {
   title: 'App icons',
   description:
     'IBM app icons are visual symbols used to represent products or services. They identify apps at a glance for users while serving as a unique expression of our brand.',
-  tabs: ['Library', 'Design', 'Usage', 'Contribute'],
+  tabs: ['Library', 'Design', 'Usage', 'Production'],
 };
 
 const LibraryPage = ({ pageContext, ...rest }) => (
