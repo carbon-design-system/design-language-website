@@ -13,7 +13,7 @@
   position: sticky;
   z-index: z('dropdown');
   top: 7rem;
-  border-bottom: 1px solid $ui-03;
+  border-bottom: 1px solid $decorative-01;
   transition: box-shadow $duration--fast-02 ease;
   @include carbon--breakpoint('md') {
     align-items: flex-end;
@@ -28,16 +28,16 @@
 .filter-row :global(.bx--search) {
   @include carbon--breakpoint('md') {
     width: calc(50% + 1px);
-    border-right: 1px solid $ui-03;
+    border-right: 1px solid $decorative-01;
   }
   @include carbon--breakpoint('lg') {
     width: calc(66.666% + 1px);
-    border-right: 1px solid $ui-03;
+    border-right: 1px solid $decorative-01;
   }
 }
 
 .filter-row :global(.bx--search-input) {
-  border-bottom: 1px solid $ui-03;
+  border-bottom: 1px solid $decorative-01;
   font-size: 1rem;
   line-height: inherit;
   @include carbon--breakpoint('md') {
@@ -103,7 +103,7 @@
   }
 }
 
-$svg-card-border: 1px solid $ui-03;
+$svg-card-border: 1px solid $decorative-01;
 
 .svg-card {
   height: 0;
