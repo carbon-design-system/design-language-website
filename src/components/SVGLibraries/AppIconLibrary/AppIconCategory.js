@@ -1,6 +1,7 @@
 import React from 'react';
 import sortBy from 'lodash-es/sortBy';
 import remove from 'lodash-es/remove';
+import { withPrefix } from 'gatsby';
 
 import { h2 } from 'gatsby-theme-carbon/src/components/markdown/Markdown.module.scss';
 import cx from 'classnames';
@@ -10,7 +11,7 @@ import { container, card, dark } from './AppIconLibrary.module.scss';
 import { categoryTitle, svgCategory } from '../shared/SvgLibrary.module.scss';
 
 const IconCategory = ({ category, icons, isDarkTheme, topCategory }) => {
-  const srcPrefix = `/app-icons/${isDarkTheme ? 'dark-theme' : 'light-theme'}`;
+  const srcPrefix = withPrefix(`/app-icons/${isDarkTheme ? 'dark-theme' : 'light-theme'}`);
   const sortedIcons = sortBy(icons, 'name');
 
   const unassignedIcons = remove(
