@@ -12610,10 +12610,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier-config-carbon@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/prettier-config-carbon/-/prettier-config-carbon-0.3.0.tgz#2dd2c800d77fe629f57b990d5e649e91f3247e16"
-  integrity sha512-wAMBTL23UnCnd4wK5WYvaHLxgqqbmbuOoAmUva2RpCpc2HFmsKMBNt7ucLfx6/oO87pA0sVxwAj9TNCcaEoU1w==
+prettier-config-carbon@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/prettier-config-carbon/-/prettier-config-carbon-0.4.0.tgz#c0edfa6315bbede93dba5145a22a5686e3851e64"
+  integrity sha512-25XYXih6LheqxnrJ89/rY//cJLqKsOmtU++E/G3KC0UyBV/p6us6Zi5ln3OwBc3COKC3K9CUdnkoYsb5E+qCjQ==
 
 prettier@^2.0.5:
   version "2.1.2"

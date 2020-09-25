@@ -98,7 +98,7 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "prettier-config-carbon": "^0.3.0",
+    "prettier-config-carbon": "^0.4.0",
     "stylelint": "^13.6.1",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-scss": "^3.18.0",
