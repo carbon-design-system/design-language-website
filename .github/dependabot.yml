@@ -12,4 +12,7 @@ updates:
       time: "12:05"
       timezone: "America/Chicago"
     allow:
-      - dependency-name: "*carbon*"
+      - dependency-name: "@carbon/icons"
+      - dependency-name: "@carbon/icons-react"
+      - dependency-name: "@carbon/pictograms"
+      - dependency-name: "@carbon/pictograms-react"
