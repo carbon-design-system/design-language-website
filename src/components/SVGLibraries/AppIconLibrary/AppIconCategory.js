@@ -40,8 +40,8 @@ const IconCategory = ({ category, icons, isDarkTheme }) => {
               className={cx(card, isDarkTheme && dark)}>
               <span aria-hidden="true">{icon.friendly_name}</span>
               <img
-                height="48px"
                 width="48px"
+                height="48px"
                 src={`${srcPrefix}/${icon.name}.svg`}
                 alt={icon.friendly_name}
               />
