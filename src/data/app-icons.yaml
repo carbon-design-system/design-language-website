@@ -133,7 +133,7 @@
     - Control
     - Adjust
 - name: CloudClusterAutoscalerAddon
-  friendly_name: IBM Cloud cluster autoscaler add-on
+  friendly_name: IBM Cloud® Cluster Autoscaler add-on
   category: Stroke
   aliases:
     - Cloud
@@ -351,7 +351,7 @@
     - earth
     - global
 - name: CloudDNSServices
-  friendly_name: IBM Cloud® DNS Services
+  friendly_name: IBM Cloud® DNS services
   category: Stroke
   aliases:
     - IBM Cloud
@@ -487,7 +487,7 @@
     - teal
     - eye
 - name: MaaS360Admin
-  friendly_name: IBM MaaS360 admin
+  friendly_name: IBM MaaS360® admin
   category: Stroke
   aliases:
     - IBM Security
@@ -656,7 +656,7 @@
     - circle
     - earth
 - name: SiteAccess
-  friendly_name: IBM Site Access
+  friendly_name: IBM site access
   category: Stroke
   aliases:
     - GBS
@@ -712,7 +712,7 @@
     - Reporting
     - Reports
 - name: AlertNotification
-  friendly_name: Alert Notification
+  friendly_name: Alert notification
   category: Stroke
   aliases:
     - Cloud
@@ -790,7 +790,7 @@
     - Tech support tool
     - Repair tool
 - name: Bee
-  friendly_name: Bee, Generic
+  friendly_name: Bee, generic
   category: Stroke
   aliases:
     - Unassigned
@@ -805,7 +805,7 @@
     - IBM rebus
     - Bumble bee
 - name: BeeFill
-  friendly_name: Bee, Generic
+  friendly_name: Bee, generic
   category: Fill
   aliases:
     - Unassigned
@@ -818,7 +818,7 @@
     - Rebus
     - Bumble bee
 - name: BlockchainFoodTrust
-  friendly_name: Blockchain IBM Food Trust™
+  friendly_name: IBM Food Trust™ Blockchain
   category: Stroke
   aliases:
     - Blockchain
@@ -872,7 +872,7 @@
     - Hardware failure alert
     - Hardware monitoring
 - name: Capture
-  friendly_name: Capture
+  friendly_name: IBM Mobile Capture
   category: Stroke
   aliases:
     - Hybrid
@@ -1097,7 +1097,7 @@
     - Transaction middleware
     - Information management
 - name: CloudAutoscale
-  friendly_name: IBM Cloud® Autoscale
+  friendly_name: IBM Cloud® autoscaling
   category: Stroke
   aliases:
     - Hybrid
@@ -1362,7 +1362,7 @@
     - Full stack infrastructure
     - Cloud management
 - name: CloudRegulatoryAccelerator
-  friendly_name: Cloud Regulatory Accelerator
+  friendly_name: Regulatory Accelerator on IBM Cloud Pak® for Data
   category: Stroke
   aliases:
     - Hybrid
@@ -1449,7 +1449,7 @@
     - Virtual private cloud
     - Virtual private cloud network
 - name: CloudVPCEndpoints
-  friendly_name: Cloud VPC endpoints
+  friendly_name: IBM Cloud® VPC endpoints
   category: Stroke
   aliases:
     - Hybrid
@@ -1473,7 +1473,7 @@
     - Cloud communication
     - Private cloud communication
 - name: CloudVPCFlowLogs
-  friendly_name: Cloud VPC flow logs
+  friendly_name: IBM Cloud® Flow Logs for VPC
   category: Stroke
   aliases:
     - Hybrid
@@ -1542,7 +1542,7 @@
     - Digital health monitoring
     - Health monitoring
 - name: CommunityHealthMember
-  friendly_name: Community Health Member
+  friendly_name: Community health member
   category: Stroke
   aliases:
     - GTS
@@ -1561,7 +1561,7 @@
     - Community health
     - Medical community
 - name: ControlDesk
-  friendly_name: Control desk
+  friendly_name: IBM Control Desk
   category: Stroke
   aliases:
     - Hybrid
@@ -1680,7 +1680,7 @@
     - App production implementation
     - Development toolkits
 - name: DigitalAssistant
-  friendly_name: Digital assistant
+  friendly_name:  IBM Digital Assistant
   category: Stroke
   aliases:
     - DBG
@@ -1776,7 +1776,7 @@
     - Machine replacement help
     - Machine replacement
 - name: ePassMobile
-  friendly_name: ePass Mobile
+  friendly_name: ePass mobile
   category: Stroke
   aliases:
     - GTS
@@ -1791,7 +1791,7 @@
     - Login
     - Password
 - name: ePricerBP
-  friendly_name: ePricer BP
+  friendly_name: IBM ePricer BP
   category: Stroke
   aliases:
     - Finance
@@ -2056,7 +2056,7 @@
     - Watson IoT
     - Watson business analytics
 - name: IoTConnect
-  friendly_name: IBM Watson® IoT Platform Connection Service
+  friendly_name: IBM Watson IoT® Platform Connection Service
   category: Stroke
   aliases:
     - Watson
@@ -2073,7 +2073,7 @@
     - IBM Watson IoT Platform
     - IoT platform connection
 - name: IoTPlatform
-  friendly_name: IBM Watson® IoT Platform
+  friendly_name: IBM Watson IoT® Platform
   category: Stroke
   aliases:
     - Watson
@@ -2112,7 +2112,7 @@
     - IoT building performance
     - IoT management
 - name: IzODA
-  friendly_name: IzODA
+  friendly_name: IBM Open Data Analytics for z/OS® (IzODA)
   category: Stroke
   aliases:
     - Systems
@@ -2159,7 +2159,7 @@
     - Phone
     - Connect
 - name: Live-Events
-  friendly_name: Live events
+  friendly_name: IBM Live (IBM Events)
   category: Stroke
   aliases:
     - CHQ
@@ -2329,7 +2329,7 @@
     - Remote tech support
     - Remote technical support
 - name: MaximoCycleCounts
-  friendly_name: IBM Maximo® cycle counts
+  friendly_name: IBM Maximo® Cycle Counts
   category: Stroke
   aliases:
     - Watson
@@ -2521,7 +2521,7 @@
     - Hybrid cloud migration
     - Agentless migration
 - name: MyClinicalDiaryMobile
-  friendly_name: IBM My Clinical Diary Mobile
+  friendly_name: IBM My Clinical Diary mobile
   category: Stroke
   aliases:
     - Watson
@@ -2700,7 +2700,7 @@
     - Coding
     - Programming
 - name: SecurityAccessRequest
-  friendly_name: IBM Security Access Request
+  friendly_name: IBM Security™ Access Request
   category: Stroke
   aliases:
     - Security
@@ -2711,7 +2711,7 @@
     - Human
     - Access
 - name: SecurityCases
-  friendly_name: Security Cases
+  friendly_name: IBM Security™ cases
   category: Stroke
   aliases:
     - Security
@@ -2720,7 +2720,7 @@
     - Shield
     - Folder
 - name: SecurityDataExplorer
-  friendly_name: Security Data Explorer
+  friendly_name: IBM Security™ Data Explorer
   category: Stroke
   aliases:
     - Security
@@ -2733,7 +2733,7 @@
     - Exploration
     - Data
 - name: SecurityServices
-  friendly_name: Security Services
+  friendly_name: IBM Security™ Services
   category: Stroke
   aliases:
     - Security
@@ -2745,7 +2745,7 @@
     - Connect
     - Services
 - name: SecurityThreatIntelligenceInsights
-  friendly_name: Security Threat Intelligence Insights
+  friendly_name: IBM Threat Intelligence Insights
   category: Stroke
   aliases:
     - Security
@@ -2757,7 +2757,7 @@
     - Intelligence
     - Insight
 - name: SecurityVerify
-  friendly_name: Security Verify
+  friendly_name: IBM Security™ Verify
   category: Stroke
   aliases:
     - Security
@@ -2803,7 +2803,7 @@
     - Analytics
     - AI
 - name: SPSSModelerSubscription
-  friendly_name: SPSS Modeler Subscription
+  friendly_name: IBM SPSS® Modeler Subscription
   category: Stroke
   aliases:
     - Data
@@ -2864,7 +2864,7 @@
     - Inventory
     - Stakeholder
 - name: SterlingSupplyChain
-  friendly_name: IBM SterlingTM Supply Chain
+  friendly_name: IBM Sterling™ Supply Chain
   category: Stroke
   aliases:
     - Sterling
@@ -2893,7 +2893,7 @@
     - Knowledge
     - Catalog
 - name: StoreEngagement
-  friendly_name: IBM Sterling Store Engagement
+  friendly_name: IBM Sterling™ Store Engagement
   category: Stroke
   aliases:
     - Sterling
@@ -2925,7 +2925,7 @@
     - Clinical
     - Trial
 - name: TechUAgenda
-  friendly_name: IBM Systems TechU Agenda
+  friendly_name: IBM Systems TechU agenda
   category: Stroke
   aliases:
     - Systems
@@ -3019,7 +3019,7 @@
     - Assistant
     - Chatbot
 - name: WatsonAdverseImpactAnalysis
-  friendly_name: IBM Watson Recruitment Adverse Impact Analysis
+  friendly_name: IBM Watson® Recruitment Adverse Impact Analysis
   category: Stroke
   aliases:
     - Watson
@@ -3148,7 +3148,7 @@
     - Spaceship
     - Fly
 - name: WatsonOnboard
-  friendly_name: IBM Onboard
+  friendly_name: IBM Kenexa® Onboard
   category: Stroke
   aliases:
     - Watson
@@ -3161,7 +3161,7 @@
     - Plus
     - Add
 - name: WatsonOpenScale
-  friendly_name: IBM Watson® OpenScaleTM
+  friendly_name: IBM Watson® OpenScale™
   category: Stroke
   aliases:
     - Watson
@@ -3174,7 +3174,7 @@
     - Data
     - Outcomes
 - name: WatsonProjectZeno
-  friendly_name: Watson Project Zeno
+  friendly_name: IBM Watson® Project Zeno
   category: Stroke
   aliases:
     - Watson
@@ -3200,7 +3200,7 @@
     - Goal
     - Recruitment
 - name: WatsonStudio
-  friendly_name: IBM Watson Studio
+  friendly_name: IBM Watson® Studio
   category: Stroke
   aliases:
     - Watson
@@ -3213,7 +3213,7 @@
     - Studio
     - Model
 - name: WatsonTalent
-  friendly_name: IBM Watson Talent
+  friendly_name: IBM Watson® Talent
   category: Stroke
   aliases:
     - Watson
@@ -3225,7 +3225,7 @@
     - Star
     - Recruitment
 - name: WatsonTalentAPIs
-  friendly_name: IBM Watson Recruitment API
+  friendly_name: IBM Watson® Recruitment API
   category: Stroke
   aliases:
     - Watson
@@ -3238,7 +3238,7 @@
     - Star
     - Recruitment
 - name: WatsonTalentAssessments
-  friendly_name: IBM Watson Talent Assessment
+  friendly_name: IBM Watson® Talent Assessment
   category: Stroke
   aliases:
     - Watson
@@ -3253,7 +3253,7 @@
     - OK
     - Checkmark
 - name: WatsonTalentMatchAPIs
-  friendly_name: IBM Watson Talent Match API
+  friendly_name: IBM Watson® Talent Match API
   category: Stroke
   aliases:
     - Watson
@@ -3265,7 +3265,7 @@
     - Developer
     - Build
 - name: WatsonTalentSuite
-  friendly_name: IBM Watson Talent Suite
+  friendly_name: IBM Watson® Talent Suite
   category: Stroke
   aliases:
     - Watson
@@ -3278,7 +3278,7 @@
     - Tool
     - Settings
 - name: WatsonWorkbench
-  friendly_name: IBM Watson Workbench
+  friendly_name: IBM Watson® Workbench
   category: Stroke
   aliases:
     - Watson
@@ -3307,7 +3307,7 @@
     - Cloud
     - Business
 - name: YourProcure
-  friendly_name: Your Procure
+  friendly_name: IBM YourProcure
   category: Stroke
   aliases:
     - Digital
@@ -3329,7 +3329,7 @@
     - Infrastructure
     - Z
 - name: ZDevOpsAnalyze
-  friendly_name: DevOps Analyze
+  friendly_name: IBM DevOps Analyze
   category: Stroke
   aliases:
     - Systems
@@ -3346,7 +3346,7 @@
     - Graph
     - Bar
 - name: ZDevOpsBuild
-  friendly_name: DevOps Build
+  friendly_name: IBM DevOps Build
   category: Stroke
   aliases:
     - Systems
@@ -3360,7 +3360,7 @@
     - Developer
     - Build
 - name: ZDevOpsCICDPipeline
-  friendly_name: DevOps CICD Pipeline
+  friendly_name: IBM DevOps CI/CD Pipeline
   category: Stroke
   aliases:
     - Systems
@@ -3373,7 +3373,7 @@
     - Developer
     - Build
 - name: ZDevOpsCode
-  friendly_name: DevOps Code
+  friendly_name: IBM DevOps Code
   category: Stroke
   aliases:
     - Systems
@@ -3388,7 +3388,7 @@
     - Build
     - Code
 - name: ZDevOpsDebug
-  friendly_name: DevOps Debug
+  friendly_name: IBM DevOps Debug
   category: Stroke
   aliases:
     - Systems
@@ -3404,7 +3404,7 @@
     - Bug
     - Insect
 - name: ZDevOpsDeploy
-  friendly_name: DevOps Deploy
+  friendly_name: IBM DevOps Deploy
   category: Stroke
   aliases:
     - Systems
@@ -3419,7 +3419,7 @@
     - Build
     - Arrow
 - name: ZDevOpsDeveloperForZOS
-  friendly_name: DevOps Developer for z/OS®
+  friendly_name: IBM Developer for z/OS®
   category: Stroke
   aliases:
     - Systems
@@ -3433,7 +3433,7 @@
     - Developer
     - Build
 - name: ZDevOpsMonitor
-  friendly_name: DevOps Monitor
+  friendly_name: IBM DevOps Monitor
   category: Stroke
   aliases:
     - Systems
@@ -3448,7 +3448,7 @@
     - Build
     - Pulse
 - name: ZDevOpsPlan
-  friendly_name: DevOps Plan
+  friendly_name: IBM DevOps Plan
   category: Stroke
   aliases:
     - Systems
@@ -3464,7 +3464,7 @@
     - Time
     - Clock
 - name: ZDevOpsProvision
-  friendly_name: DevOps Provision
+  friendly_name: IBM DevOps Provision
   category: Stroke
   aliases:
     - Systems
@@ -3478,7 +3478,7 @@
     - DevOps
     - Build
 - name: ZDevOpsRelease
-  friendly_name: DevOps Release
+  friendly_name: IBM DevOps Release
   category: Stroke
   aliases:
     - Systems
@@ -3494,7 +3494,7 @@
     - Upload
     - Arrow
 - name: ZDevOpsTest
-  friendly_name: DevOps Test
+  friendly_name: IBM DevOps Test
   category: Stroke
   aliases:
     - Systems
@@ -3510,7 +3510,7 @@
     - OK
     - Checkmark
 - name: ZDigitalCore
-  friendly_name: Digital Core
+  friendly_name: IBM Digital Core
   category: Stroke
   aliases:
     - Systems
@@ -3523,7 +3523,7 @@
     - Build
     - Developer
 - name: ZDocBuddy
-  friendly_name: Doc Buddy
+  friendly_name: IBM Doc Buddy
   category: Stroke
   aliases:
     - Systems
