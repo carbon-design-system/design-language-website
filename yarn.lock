@@ -1082,10 +1082,10 @@
   dependencies:
     "@carbon/icon-helpers" "^10.9.0"
 
-"@carbon/icons@^10.18.0":
-  version "10.18.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.18.0.tgz#544451253f8606a3c7dead7f5756f65d799ae573"
-  integrity sha512-yBKfOoWHetNPO7rkh1l9B1XqS05QLAatOdNbNMgHbwEEMYwYgvs62sOgQWZr4IOJO/mcZYNUzPhMi6gdlAYcrQ==
+"@carbon/icons@^10.18.0", "@carbon/icons@^10.19.0":
+  version "10.19.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.19.0.tgz#4e7a27726df547a865297bcd3118fefe7c7a8476"
+  integrity sha512-tz6hLeAXCN1YEAEUC+/b11OFaX3cC10nbnuZrKBti4BhfJKIMbbGOmYrvnGbWJl1fU8vIatPSZPSeFdQRl/4LA==
 
 "@carbon/import-once@^10.3.0":
   version "10.3.0"
