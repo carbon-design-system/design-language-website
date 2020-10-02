@@ -1,10 +1,10 @@
-# IBM Design Language website
+# IBM DESIGN LANGUAGE WEBSITE
 
 ![Deploy website to IBM Cloud](https://github.com/carbon-design-system/design-language-website/workflows/Deploy%20website%20to%20IBM%20Cloud/badge.svg)
 
 This is the [IBM Design Language website](http://www.ibm.com/design/language) which is built using the [gatsby-theme-carbon](https://gatsby-theme-carbon.now.sh/) with GatsbyJS.
 
-## 📂 Project structure
+## 📂 PROJECT STRUCTURE
 
 ```
 src
@@ -17,7 +17,7 @@ src
 ├── util
 ```
 
-## 👩‍💻 Development
+## 👩‍💻 DEVELOPMENT
 
 - 🤝 [Contribution Guidelines](.github/CONTRIBUTING.md)
 - 📚 [Content/Markdown Guidelines](https://gatsby-theme-carbon.now.sh/components/markdown)
@@ -31,7 +31,7 @@ src
 
 If you need more detailed information on how to setup your machine to develop locally, please take a look at our [wiki](https://github.com/carbon-design-system/carbon-website-gatsby/wiki).
 
-## 🚀 Build
+## 🚀 BUILD
 
 Running the build commands generates all the files and places them in the `public` folder.
 
