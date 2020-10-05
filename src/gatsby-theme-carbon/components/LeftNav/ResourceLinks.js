@@ -8,7 +8,7 @@ const links = [
   },
   {
     title: 'Carbon libraries',
-    href: 'https://www.carbondesignsystem.com/resources/#theme-libraries',
+    href: 'https://www.carbondesignsystem.com/designing/kits/sketch',
   },
 ];
 
