@@ -563,7 +563,7 @@ const PALETTES = {
     },
   },
   yellow: {
-    20: {
+    30: {
       hex: yellow,
       pms: '2645',
       cmyk: 'c34 m44 y0 k0',
