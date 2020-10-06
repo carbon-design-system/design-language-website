@@ -56,13 +56,13 @@
 .#{$prefix}--swatch-palettes__format-switcher {
   position: relative;
   width: 100%;
-  height: rem(49px);
   padding-bottom: 1px;
 
   .#{$prefix}--content-switcher-btn {
     flex: 1;
     width: calc(25% - 1px);
-    height: rem(48px);
+    height: 3rem;
+    bottom: 8px;
     padding: $spacing-03 $spacing-05;
     outline: none;
     transition: background-color 100ms cubic-bezier(0.2, 0.2, 0.38, 0.9);
