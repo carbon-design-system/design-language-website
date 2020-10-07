@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 import React, { useState } from 'react';
-import { pascalCase } from 'change-case';
 import ActionBar from './ActionBar';
+import ErrorBoundry from './ErrorBoundry';
 
 import {
   svgCard,
@@ -32,14 +32,12 @@ const SvgCard = ({ icon, containerIsVisible, ...rest }) => {
       <div className={svgCardInside}>
         <span className={triggerText}>{friendlyName}</span>
         {containerIsVisible && (
-          <>
+          <ErrorBoundry>
             <div className={flexContainer}>
-              {Component ? (
+              {React.isValidElement(Component) && (
                 <Component {...rest}>
                   <title>{friendlyName}</title>
                 </Component>
-              ) : (
-                <p>Error: no component found for {pascalCase(friendlyName)}</p>
               )}
             </div>
             <ActionBar
@@ -49,7 +47,7 @@ const SvgCard = ({ icon, containerIsVisible, ...rest }) => {
               isActionBarVisible={isActionBarVisible}
               setIsActionBarVisible={setIsActionBarVisible}
             />
-          </>
+          </ErrorBoundry>
         )}
       </div>
     </li>
