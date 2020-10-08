@@ -34,7 +34,7 @@
     - purple
     - circle
 - name: CloudStaticRoute
-  friendly_name: IBM Cloud® static route
+  friendly_name: IBM Cloud® Static Route
   category: Stroke
   aliases:
     - Cloud
@@ -72,7 +72,7 @@
     - State
     - Current state
 - name: CloudManagedOAuthProxy
-  friendly_name: IBM Cloud Managed OAuth proxy add-on
+  friendly_name: IBM Cloud® Managed OAuth Proxy add-on
   category: Stroke
   aliases:
     - IBM Cloud
@@ -578,7 +578,7 @@
     - teal
     - network
 - name: CloudHardwareFirewall
-  friendly_name: IBM Cloud hardware firewall
+  friendly_name: IBM Cloud® Hardware Firewall
   category: Stroke
   aliases:
     - Cloud
@@ -712,7 +712,7 @@
     - Reporting
     - Reports
 - name: AlertNotification
-  friendly_name: Alert notification
+  friendly_name: IBM Alert Notification
   category: Stroke
   aliases:
     - Cloud
@@ -1137,7 +1137,7 @@
     - Open-source platform
     - Cloud platform
 - name: CloudDedicatedHost
-  friendly_name: IBM Cloud® dedicated host
+  friendly_name: IBM Cloud® Dedicated Host
   category: Stroke
   aliases:
     - Hybrid
@@ -1194,7 +1194,7 @@
     - Automated event response management
     - Event data integration
 - name: CloudHybridLink
-  friendly_name: IBM Cloud® hybrid link
+  friendly_name: IBM Cloud® Hybrid Link
   category: Stroke
   aliases:
     - Hybrid
@@ -1449,7 +1449,7 @@
     - Virtual private cloud
     - Virtual private cloud network
 - name: CloudVPCEndpoints
-  friendly_name: IBM Cloud® VPC endpoints
+  friendly_name: IIBM Cloud® Virtual Private Cloud (VPC) endpoints
   category: Stroke
   aliases:
     - Hybrid
@@ -1704,7 +1704,7 @@
     - Voice recognition
     - Information assistant
 - name: DigitalNation
-  friendly_name: IBM Digital - Nation Africa
+  friendly_name: IBM Digital–Nation Africa
   category: Stroke
   aliases:
     - Cognitive
@@ -1776,7 +1776,7 @@
     - Machine replacement help
     - Machine replacement
 - name: ePassMobile
-  friendly_name: ePass mobile
+  friendly_name: IBM ePass mobile
   category: Stroke
   aliases:
     - GTS
@@ -2024,7 +2024,7 @@
     - IoT management
     - Internet of Things management
 - name: IoTAsset
-  friendly_name: IoT Asset
+  friendly_name: IoT asset
   category: Stroke
   aliases:
     - Watson
@@ -2159,7 +2159,7 @@
     - Phone
     - Connect
 - name: Live-Events
-  friendly_name: IBM Live (IBM Events)
+  friendly_name: IBM Live | IBM Events
   category: Stroke
   aliases:
     - CHQ
@@ -2521,7 +2521,7 @@
     - Hybrid cloud migration
     - Agentless migration
 - name: MyClinicalDiaryMobile
-  friendly_name: IBM My Clinical Diary mobile
+  friendly_name: IBM My Clinical Diary Mobile
   category: Stroke
   aliases:
     - Watson
@@ -3419,7 +3419,7 @@
     - Build
     - Arrow
 - name: ZDevOpsDeveloperForZOS
-  friendly_name: IBM Developer for z/OS®
+  friendly_name: IBM DevOps Developer for z/OS®
   category: Stroke
   aliases:
     - Systems
