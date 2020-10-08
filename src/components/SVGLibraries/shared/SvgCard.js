@@ -34,7 +34,7 @@ const SvgCard = ({ icon, containerIsVisible, ...rest }) => {
         {containerIsVisible && (
           <ErrorBoundry>
             <div className={flexContainer}>
-              {React.isValidElement(Component) && (
+              {Component && (
                 <Component {...rest}>
                   <title>{friendlyName}</title>
                 </Component>

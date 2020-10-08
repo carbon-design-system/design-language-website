@@ -34,7 +34,7 @@ const IconLibrary = () => {
         {
           ...icon,
           Component: loadable(() =>
-            import(`@carbon/icons-react/lib/${path}/32`).catch((error) => {
+            import(`@carbon/icons-react/es/${path}/32`).catch((error) => {
               console.error(error, icon);
               return null;
             })
