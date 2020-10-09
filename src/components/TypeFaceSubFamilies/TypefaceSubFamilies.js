@@ -83,6 +83,7 @@ export default class TypefaceSubFamilies extends React.Component {
               items={fontVariants}
               label={this.state.fontVariantLabel}
               selected={this.state.fontVariant}
+              size="xl"
               onChange={({ selectedItem }) => {
                 setTimeout(
                   () =>
