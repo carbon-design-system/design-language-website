@@ -318,23 +318,6 @@
     - teal
     - speed
     - data
-- name: AgroPad
-  friendly_name: IBM AgroPad
-  category: Stroke
-  aliases:
-    - IBM Research
-    - IBM AgroPad
-    - AI
-    - AI farming technology
-    - Chemical analysis
-    - Analysis
-    - green
-    - teal
-    - hills
-    - graphic
-    - analytics
-    - bar
-    - chart
 - name: CloudContentDeliveryNetwork
   friendly_name: IBM Cloud® Content Delivery Network
   category: Stroke
@@ -486,21 +469,6 @@
     - blue
     - teal
     - eye
-- name: MaaS360Admin
-  friendly_name: IBM MaaS360® admin
-  category: Stroke
-  aliases:
-    - IBM Security
-    - Configuring administrator
-    - MaaS360
-    - Portal administration
-    - blue
-    - teal
-    - circle
-    - user
-    - account
-    - person
-    - human
 - name: CloudObjectStorage
   friendly_name: IBM Cloud® Object Storage
   category: Stroke
@@ -513,19 +481,6 @@
     - purple
     - server
     - containers
-- name: DownloadDirector
-  friendly_name: IBM Download Director
-  category: Stroke
-  aliases:
-    - Finance and operations
-    - Download Director
-    - Software downloader
-    - blue
-    - teal
-    - desktop
-    - monitor
-    - screen
-    - arrow
 - name: Cloudeconfig
   friendly_name: IBM e-config on Cloud
   category: Stroke
@@ -538,6 +493,30 @@
     - teal
     - server
     - data base
+- name: MaximoVoiceAssistant
+  friendly_name: IBM Maximo® Voice Assistant
+  category: Stroke
+  aliases:
+    - Watson
+    - IBM Watson
+    - Maximo
+    - Voice assistant
+    - IoT
+    - Text
+    - Speech
+    - Data collection
+    - Data collection device
+    - Data collection instrument
+    - Surveys
+    - Statistical aggregation
+    - Data measurement
+    - Data collection tool
+    - Statistics
+    - blue
+    - purple
+    - mobile
+    - sound
+    - spectrogram
 - name: WatsonReturntoWorkplaceAdvisor
   friendly_name: IBM Return-to-Workplace Advisor
   category: Stroke
@@ -604,43 +583,6 @@
     - hexagon
     - server
     - data base
-- name: SecurityVerifyCredentials
-  friendly_name: IBM Verify Credentials
-  category: Stroke
-  aliases:
-    - Security
-    - Credential verification
-    - Identity protection
-    - purple
-    - blue
-    - shield
-    - id
-    - person
-    - human
-- name: MaximoVoiceAssistant
-  friendly_name: IBM Maximo® Voice Assistant
-  category: Stroke
-  aliases:
-    - Watson
-    - IBM Watson
-    - Maximo
-    - Voice assistant
-    - IoT
-    - Text
-    - Speech
-    - Data collection
-    - Data collection device
-    - Data collection instrument
-    - Surveys
-    - Statistical aggregation
-    - Data measurement
-    - Data collection tool
-    - Statistics
-    - blue
-    - purple
-    - mobile
-    - sound
-    - spectrogram
 - name: WCG
   friendly_name: IBM World Community Grid
   category: Stroke
@@ -655,14 +597,6 @@
     - global
     - circle
     - earth
-- name: SiteAccess
-  friendly_name: IBM site access
-  category: Stroke
-  aliases:
-    - GBS
-    - Site access
-    - Site access management
-    - key
 - name: LocationTracker
   friendly_name: IBM Location Tracker
   category: Fill
@@ -837,40 +771,6 @@
     - Food network
     - Food delivery
     - Food delivery system
-- name: BlockchainTrustedIdentity
-  friendly_name: IBM Blockchain Trusted Identity
-  category: Stroke
-  aliases:
-    - Blockchain
-    - Blue
-    - Teal
-    - Person
-    - ID
-    - Human
-    - Card
-    - Identity management
-    - Digital identity management
-    - Digital identity
-    - Identity security
-    - Identity protection
-- name: CallHomeConnectMobile
-  friendly_name: IBM Call Home Connect Mobile
-  category: Stroke
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - Teal
-    - Green
-    - Connect
-    - Circle
-    - Pulse
-    - IBM Call Home Connect
-    - Mobile communication
-    - Call Home
-    - Call Home tech support feature
-    - Hardware failure alert
-    - Hardware monitoring
 - name: Capture
   friendly_name: IBM Mobile Capture
   category: Stroke
@@ -1522,44 +1422,6 @@
     - Data report creation
     - Self-service data report creation
     - Data virtualization
-- name: CommunityHealthCoach
-  friendly_name: Community health coach
-  category: Stroke
-  aliases:
-    - GTS
-    - Global
-    - Technology
-    - Services
-    - Magenta
-    - Blue
-    - Person
-    - Human
-    - Heart
-    - Relationship
-    - Cognitive health coaching
-    - Cognitive health data
-    - Cognitive health analytics
-    - Digital health monitoring
-    - Health monitoring
-- name: CommunityHealthMember
-  friendly_name: Community health member
-  category: Stroke
-  aliases:
-    - GTS
-    - Global
-    - Technology
-    - Services
-    - Magenta
-    - Blue
-    - Heart
-    - Pulse
-    - Heartbeat
-    - Health
-    - Medical
-    - Medicine
-    - Health community
-    - Community health
-    - Medical community
 - name: ControlDesk
   friendly_name: IBM Control Desk
   category: Stroke
@@ -1680,7 +1542,7 @@
     - App production implementation
     - Development toolkits
 - name: DigitalAssistant
-  friendly_name:  IBM Digital Assistant
+  friendly_name: IBM Digital Assistant
   category: Stroke
   aliases:
     - DBG
@@ -1741,20 +1603,6 @@
     - Academic initiatives
     - Academic initiative for Africa
     - African academic initiatives
-- name: EcosystemItalia
-  friendly_name: IBM Ecosystem Italia
-  category: Stroke
-  aliases:
-    - Global
-    - Markets
-    - Business
-    - Partners
-    - Teal
-    - Green
-    - Relationship
-    - Person
-    - Human
-    - Circle
 - name: EntitledSystemsSupport
   friendly_name: IBM Entitled Systems Support
   category: Stroke
@@ -2210,24 +2058,6 @@
     - IPWC
     - Program management
     - Project management
-- name: Maintall
-  friendly_name: Maintall
-  category: Stroke
-  aliases:
-    - Global
-    - Markets
-    - Hybrid
-    - Cloud
-    - Business
-    - Industries
-    - Blue
-    - Teal
-    - Tool
-    - Wrench
-    - Maintenance
-    - Settings
-    - Database
-    - Inventory
 - name: MasterDataConnect
   friendly_name: IBM Master Data Connect
   category: Stroke
@@ -2303,31 +2133,6 @@
     - Asset meter reading
     - Asset reporting
     - Asset downtime reports
-- name: MaximoAugmentedCollaboration
-  friendly_name: IBM Maximo® Augmented Collaboration
-  category: Stroke
-  aliases:
-    - Watson
-    - IoT
-    - Blue
-    - Purple
-    - Person
-    - Human
-    - Group
-    - Eye
-    - People
-    - Augmented reality collaboration
-    - AR collaboration
-    - Asset management
-    - Technician knowledge base
-    - Technician guidance
-    - Technical advice
-    - Real-time technical training
-    - Technical training
-    - Troubleshooting
-    - Service delivery
-    - Remote tech support
-    - Remote technical support
 - name: MaximoCycleCounts
   friendly_name: IBM Maximo® Cycle Counts
   category: Stroke
@@ -2559,21 +2364,6 @@
     - Open source
     - Developer platform
     - Cross-platform developer platform
-- name: OpenLabs
-  friendly_name: IBM Open Labs
-  category: Stroke
-  aliases:
-    - Cognitive
-    - Applications
-    - Blue
-    - Teal
-    - Light
-    - Lightbulb
-    - Code
-    - Developer
-    - Developer workshops
-    - Developer skills workshops
-    - Self-paced developer workshops
 - name: php
   friendly_name: Unassigned
   category: IBM Plex
@@ -2783,25 +2573,6 @@
     - Mobile
     - AI
     - Technical assistance
-- name: SpeakPlayWin
-  friendly_name: Speak Play Win
-  category: Stroke
-  aliases:
-    - Hybrid
-    - Cloud
-    - Business
-    - Cognitive
-    - Software
-    - Magenta
-    - Purple
-    - Speech
-    - Bubble
-    - Star
-    - Speak
-    - Play
-    - Watson
-    - Analytics
-    - AI
 - name: SPSSModelerSubscription
   friendly_name: IBM SPSS® Modeler Subscription
   category: Stroke
@@ -2944,32 +2715,14 @@
   friendly_name: TLConnect
   category: Stroke
   aliases:
-- Global
-- Markets
-- Industries
-- Blue
-- Teal
-- Bookmark
-- Inventory
-- Database
-- name: TouchToken
-  friendly_name: IBM TouchToken
-  category: Stroke
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
+    - Global
+    - Markets
+    - Industries
+    - Blue
     - Teal
-    - Green
-    - Fingerprint
-    - ID
-    - Identification
-    - OK
-    - Checkmark
-    - Password
-    - Approved
-    - Verified
-    - Mobile
+    - Bookmark
+    - Inventory
+    - Database
 - name: VideoStreaming
   friendly_name: IBM Video Streaming
   category: Fill
@@ -3522,19 +3275,6 @@
     - Hexagon
     - Build
     - Developer
-- name: ZDocBuddy
-  friendly_name: IBM Doc Buddy
-  category: Stroke
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - Z
-    - Purple
-    - Blue
-    - Server
-    - Magnifier
-    - Magnifying glass
 - name: ZHMCMobile
   friendly_name: IBM HMC Mobile
   category: Stroke
