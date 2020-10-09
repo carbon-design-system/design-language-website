@@ -493,6 +493,30 @@
     - teal
     - server
     - data base
+- name: MaximoVoiceAssistant
+  friendly_name: IBM Maximo® Voice Assistant
+  category: Stroke
+  aliases:
+    - Watson
+    - IBM Watson
+    - Maximo
+    - Voice assistant
+    - IoT
+    - Text
+    - Speech
+    - Data collection
+    - Data collection device
+    - Data collection instrument
+    - Surveys
+    - Statistical aggregation
+    - Data measurement
+    - Data collection tool
+    - Statistics
+    - blue
+    - purple
+    - mobile
+    - sound
+    - spectrogram
 - name: WatsonReturntoWorkplaceAdvisor
   friendly_name: IBM Return-to-Workplace Advisor
   category: Stroke
@@ -2109,31 +2133,6 @@
     - Asset meter reading
     - Asset reporting
     - Asset downtime reports
-- name: MaximoAugmentedCollaboration
-  friendly_name: IBM Maximo® Augmented Collaboration
-  category: Stroke
-  aliases:
-    - Watson
-    - IoT
-    - Blue
-    - Purple
-    - Person
-    - Human
-    - Group
-    - Eye
-    - People
-    - Augmented reality collaboration
-    - AR collaboration
-    - Asset management
-    - Technician knowledge base
-    - Technician guidance
-    - Technical advice
-    - Real-time technical training
-    - Technical training
-    - Troubleshooting
-    - Service delivery
-    - Remote tech support
-    - Remote technical support
 - name: MaximoCycleCounts
   friendly_name: IBM Maximo® Cycle Counts
   category: Stroke
