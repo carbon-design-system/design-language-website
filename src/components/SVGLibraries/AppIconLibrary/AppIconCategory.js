@@ -52,7 +52,7 @@ const Icon = ({ name, themeFolder }) => {
       setHtml(rawHtml);
     };
     getHtml();
-  }, [name]);
+  }, [name, themeFolder]);
 
   return <div dangerouslySetInnerHTML={{ __html: html }} />;
 };
