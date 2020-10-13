@@ -65,7 +65,7 @@ $type-scale: 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem, 1.5rem, 1.75rem, 2rem,
 .type-scale-table {
   overflow-x: auto;
   background: $ui-02;
-  border-bottom: rem(1px) solid $ui-03;
+  border-bottom: 0.0625rem solid $ui-03;
 
   table tbody tr {
     border: none;
@@ -93,7 +93,7 @@ $type-scale: 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem, 1.5rem, 1.75rem, 2rem,
     padding: 0 $spacing-09 0 0;
 
     @include carbon--breakpoint('md') {
-      padding-right: rem(112px);
+      padding-right: 7rem;
     }
 
     @include carbon--breakpoint('lg') {
@@ -139,7 +139,7 @@ $type-scale: 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem, 1.5rem, 1.75rem, 2rem,
   }
 
   table tbody tr:nth-child(7) td:first-child {
-    padding-bottom: rem(26px);
+    padding-bottom: 1.625rem;
   }
 
   table tbody tr:nth-child(8) td:first-child {
@@ -155,24 +155,24 @@ $type-scale: 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem, 1.5rem, 1.75rem, 2rem,
   }
 
   table tbody tr:nth-child(11) td:first-child {
-    padding-bottom: rem(56px);
+    padding-bottom: 35rem;
   }
 
   table tbody tr:nth-child(12) td:first-child,
   table tbody tr:nth-child(13) td:first-child {
-    padding-bottom: rem(64px);
+    padding-bottom: 4rem;
   }
 
   table tbody tr:nth-child(14) td:first-child {
-    padding-bottom: rem(72px);
+    padding-bottom: 4.5rem;
   }
 
   table tbody tr:nth-child(15) td:first-child {
-    padding-bottom: rem(80px);
+    padding-bottom: 5rem;
   }
 
   table tbody tr:nth-child(16) td:first-child {
-    padding-bottom: rem(88px);
+    padding-bottom: 5.5rem;
   }
 
   table tbody tr:nth-child(17) td:nth-child(2) {
