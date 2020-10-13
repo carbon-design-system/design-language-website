@@ -47,7 +47,7 @@ const Icon = ({ name, themeFolder }) => {
   useEffect(() => {
     const getHtml = async () => {
       const { default: rawHtml } = await import(
-        `!!raw-loader!./icon-files/${themeFolder}/${name}.svg`
+        `!!raw-loader!../../../images/app-icons/${themeFolder}/${name}.svg`
       );
       setHtml(rawHtml);
     };
