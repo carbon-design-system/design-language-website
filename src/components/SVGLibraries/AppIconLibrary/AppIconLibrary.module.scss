@@ -46,7 +46,7 @@
   color: $carbon--gray-30;
 }
 
-.card:after {
+.card::after {
   content: '';
   display: block;
   padding-bottom: 100%;
@@ -58,6 +58,11 @@
   top: 0;
   left: 0;
   padding: $spacing-05;
+}
+
+.card svg {
+  width: 48px;
+  height: 48px;
 }
 
 .themeDropdown {
