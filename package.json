@@ -79,6 +79,7 @@
     "gatsby-theme-carbon": "^1.26.2",
     "lodash-es": "^4.17.15",
     "prop-types": "^15.7.2",
+    "raw-loader": "^4.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-lottie": "^1.2.3",

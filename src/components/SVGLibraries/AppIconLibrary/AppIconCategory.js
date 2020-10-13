@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import sortBy from 'lodash-es/sortBy';
 import remove from 'lodash-es/remove';
-import { withPrefix } from 'gatsby';
 
 import { h2 } from 'gatsby-theme-carbon/src/components/markdown/Markdown.module.scss';
 import cx from 'classnames';
@@ -11,9 +10,10 @@ import { container, card, dark } from './AppIconLibrary.module.scss';
 import { categoryTitle, svgCategory } from '../shared/SvgLibrary.module.scss';
 
 const IconCategory = ({ category, icons, isDarkTheme }) => {
-  const srcPrefix = withPrefix(
-    `/app-icons/${isDarkTheme ? 'dark-theme' : 'light-theme'}`
-  );
+  const srcPrefix = `./icon-files/${
+    isDarkTheme ? 'dark-theme' : 'light-theme'
+  }`;
+
   const sortedIcons = sortBy(icons, 'name');
 
   const unassignedIcons = remove(
@@ -30,27 +30,34 @@ const IconCategory = ({ category, icons, isDarkTheme }) => {
             console.error('error', icon);
           }
 
-          // Only lazy load images that are "below the fold" they're not among the first
-          // 8 images in the "top" category"
-          //   const loading = topCategory && i < 8 ? 'auto' : 'lazy';
-
           return (
             <div
               key={`${srcPrefix}/${icon.name}`}
               className={cx(card, isDarkTheme && dark)}>
               <span aria-hidden="true">{icon.friendly_name}</span>
-              <img
-                height="48px"
-                width="48px"
-                src={`${srcPrefix}/${icon.name}.svg`}
-                alt={icon.friendly_name}
-              />
+              <Icon name={icon.name} />
             </div>
           );
         })}
       </div>
     </section>
   );
+};
+
+const Icon = ({ name }) => {
+  const [html, setHtml] = useState('');
+
+  useEffect(() => {
+    const getHtml = async () => {
+      const { default: rawHtml } = await import(
+        `!!raw-loader!./icon-files/dark-theme/${name}.svg`
+      );
+      setHtml(rawHtml);
+    };
+    getHtml();
+  }, [name]);
+
+  return <div dangerouslySetInnerHTML={{ __html: html }} />;
 };
 
 export default IconCategory;
