@@ -30,7 +30,7 @@
     "build": "gatsby build",
     "build:prefix": "gatsby clean && gatsby build --prefix-paths && yarn move-public",
     "build:analyze": "gatsby clean && ANALYZE=true yarn build",
-    "build:svgs": "npx svgo -r -f ./static/icon-files -o ./src/components/SVGLibraries/AppIconLibrary/icon-files --config=.svgo.yml",
+    "build:svgs": "npx svgo -r -f ./src/images/app-icons --config=.svgo.yml",
     "move-public": "mv public language && mkdir public && mkdir public/design && cp -R language public/design && rm -rf language",
     "serve": "gatsby serve -H 0.0.0.0",
     "ci-check": "yarn format:diff",
