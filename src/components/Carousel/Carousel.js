@@ -1,4 +1,3 @@
-/* eslint-disable no-lonely-if */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { RadioButtonGroup, RadioButton } from 'carbon-components-react';
