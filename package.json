@@ -5,7 +5,7 @@
   "version": "1.0.1",
   "main": "src",
   "engines": {
-    "node": "^12 || ^14"
+    "node": "^12 || ^13 || ^14"
   },
   "browserslist": [
     "last 2 edge version",
@@ -30,6 +30,7 @@
     "build": "gatsby build",
     "build:prefix": "gatsby clean && gatsby build --prefix-paths && yarn move-public",
     "build:analyze": "gatsby clean && ANALYZE=true yarn build",
+    "build:svgs": "npx svgo -r -f ./src/images/app-icons --config=.svgo.yml",
     "move-public": "mv public language && mkdir public && mkdir public/design && cp -R language public/design && rm -rf language",
     "serve": "gatsby serve -H 0.0.0.0",
     "ci-check": "yarn format:diff",
@@ -79,6 +80,7 @@
     "gatsby-theme-carbon": "^1.26.2",
     "lodash-es": "^4.17.15",
     "prop-types": "^15.7.2",
+    "raw-loader": "^4.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-lottie": "^1.2.3",

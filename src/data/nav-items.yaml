@@ -76,10 +76,6 @@
       path: /animation/classic-principles/
     - title: Tips and techniques
       path: /animation/tips-and-techniques/
-- title: Motion UI
-  pages:
-    - title: Motion UI
-      path: /motion-ui/basics
   hasDivider: true
 - title: Resources
   pages:
