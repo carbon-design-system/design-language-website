@@ -77,7 +77,7 @@
     "gatsby-plugin-manifest": "^2.2.5",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sitemap": "^2.4.12",
-    "gatsby-theme-carbon": "^1.26.2",
+    "gatsby-theme-carbon": "^1.27.0",
     "lodash-es": "^4.17.15",
     "prop-types": "^15.7.2",
     "raw-loader": "^4.0.2",
