@@ -20,7 +20,6 @@ const FilterRow = ({
       ref={filterRowRef}
       className={filterRow}>
       <Search
-        light
         labelText={`filter app icons by searching for their name or category`}
         onChange={onSearchChange}
         placeHolderText={placeHolderText}
@@ -30,7 +29,6 @@ const FilterRow = ({
         id="category-filter"
         size="xl"
         direction="bottom"
-        light
         selectedItem={isDarkTheme ? `Dark theme` : `Light theme`}
         onChange={({ selectedItem }) => {
           setIsDarkTheme(selectedItem === `Dark theme`);
@@ -43,7 +41,6 @@ const FilterRow = ({
         id="category-filter"
         size="xl"
         direction="bottom"
-        light
         selectedItem={selectedCategory}
         onChange={onCategoryChange}
         label={`Filter app icons by category`}

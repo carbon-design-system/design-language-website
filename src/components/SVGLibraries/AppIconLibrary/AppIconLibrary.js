@@ -10,7 +10,7 @@ import { svgPage } from '../shared/SvgLibrary.module.scss';
 // import AppIconCategory from './AppIconCategory';
 // import NoResult from '../shared/NoResult';
 
-const CATEGORY_LIST = ['Stroke', 'Fill', 'IBM Plex'];
+const CATEGORY_LIST = ['Stroke style', 'Fill style', 'IBM Plex® style'];
 
 const IconLibrary = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
@@ -81,7 +81,6 @@ const IconLibrary = () => {
           />
         );
       })}
-      {/* <AppIconCategory category={} */}
     </div>
   );
 };
