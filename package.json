@@ -59,8 +59,8 @@
   },
   "dependencies": {
     "@carbon/colors": "^10.13.0",
-    "@carbon/icons": "^10.19.0",
     "@carbon/icons-react": "^10.20.0",
+    "@carbon/icons": "^10.20.0",
     "@carbon/pictograms": "^10.18.0",
     "@carbon/pictograms-react": "^10.9.0",
     "@ibm/plex": "^5.1.0",

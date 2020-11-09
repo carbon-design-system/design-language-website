@@ -1075,10 +1075,10 @@
   dependencies:
     "@carbon/icon-helpers" "^10.9.0"
 
-"@carbon/icons@^10.19.0":
-  version "10.19.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.19.0.tgz#4e7a27726df547a865297bcd3118fefe7c7a8476"
-  integrity sha512-tz6hLeAXCN1YEAEUC+/b11OFaX3cC10nbnuZrKBti4BhfJKIMbbGOmYrvnGbWJl1fU8vIatPSZPSeFdQRl/4LA==
+"@carbon/icons@^10.19.0", "@carbon/icons@^10.20.0":
+  version "10.20.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.20.0.tgz#223dc74cef30611bbe4412b214ad131268573ba6"
+  integrity sha512-5phm6FswP6dDkFAeHDPPg9fpuan8i7/vh7idI01mDHxAaSzswdnf3iTW3+M5PaIvcJbXUHMcJLPpTgByPdnuKQ==
 
 "@carbon/import-once@^10.3.0":
   version "10.3.0"
