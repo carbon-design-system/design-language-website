@@ -4,7 +4,6 @@
   max-width: 100vw;
   overflow: hidden;
   grid-template-columns: repeat(2, 1fr);
-  background-color: $ui-01;
 
   @include carbon--breakpoint('md') {
     grid-template-columns: repeat(4, 1fr);
