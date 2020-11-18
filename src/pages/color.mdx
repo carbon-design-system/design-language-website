@@ -24,6 +24,7 @@ with nature, yet chosen for their luminous quality in the digital world.
   <AnchorLink>Color families</AnchorLink>
   <AnchorLink>Gradients</AnchorLink>
   <AnchorLink>Color in UI</AnchorLink>
+  <AnchorLink>Accessibility</AnchorLink>
   <AnchorLink>Color in action</AnchorLink>
 </AnchorLinks>
 
@@ -246,14 +247,148 @@ are used sparingly and purposefully.
 <SwatchPaletteWidget palettes={[['blue-bw', 'gray-bw', 'alert']]} />
 
 <Row className="resource-card-group">
-  <Column colMd={4} colLg={4} noGutterSm>
+<Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
       subTitle="Visit Color in UI for more color guidance"
       aspectRatio="2:1"
       href="https://www.carbondesignsystem.com/guidelines/color/overview"
       actionIcon="arrowRight"
-    />
-  </Column>
+      >
+
+![CarbonIcon](images/carbon.png)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+## Accessibility
+
+Color plays a key role in legibility regardless of the medium and application—think
+of motion graphics in videos, social content, data visualization charts, user
+interfaces and more. When colors are insufficiently distinct, whether in
+brightness or difference in hue, low-vision users might have difficulty discerning
+letters and graphical elements. Don’t let poor color choices stand between your 
+design’s message and a good user experience.
+
+### Contrast ratios
+
+Contrast is the difference in brightness between any two elements. The [Web 
+Content Acessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/) set specific ratios that achieve the
+minimum required contrast for legibility. Generally speaking, small text is any
+size below 24px and requires a 4.5:1 contrast ratio. Large text is anything above
+24px and requires a 3:1 contrast ratio. Graphical elements, such as charts in
+data visualization, also require a 3:1 contrast ratio.
+
+The IBM palette is comprised of twelve color grades—Black, White and ten
+values for each hue. When determining contrast ratios, it’s useful to assess how
+many color grades or “steps” are between the foreground and background
+colors. Steps imply the distance between any two colors when arranged
+sequentially. For example, a color grade of 60 is five steps away from a color
+grade of 10. The following table indicates the minimum number of steps
+required to achieve commonly used contrast ratios between any two colors.
+
+<Row>
+<Column colLg={8}>
+<ArtDirection>
+
+![color grades - Mobile image](images/graystable1_mobile.png)
+![color grades graphic](images/colorgrades_table.png)
+
+</ArtDirection>
+</Column>
+</Row>
+
+| Color 1  | Color 2 (4.5:1 contrast)   | Color 2 (3:1 contrast)     |
+| -------- | -------------------------- | -------------------------- |
+| Black    | 50 through White (6 steps) | 60 through White (5 steps) |
+| 100      | 50 through White (5 steps) | 60 through White (4 steps) |
+| 90       | 50 through White (4 steps) | 60 through White (3 steps) |
+| 80       | 40 through White (4 steps) | 50 through White (3 steps) |
+| 70       | 30 through White (4 steps) | 40 through White (3 steps) |
+| 60       | 20 through White (4 steps) | 20 through White (4 steps) |
+| 50       | 90 through Black (4 steps) | 80 through Black (3 steps) |
+| 40       | 80 through Black (4 steps) | 70 through Black (3 steps) |
+| 30       | 70 through Black (4 steps) | 70 through Black (4 steps) |
+| 20       | 70 through Black (5 steps) | 60 through Black (4 steps) |
+| 10       | 60 through Black (5 steps) | 50 through Black (4 steps) |
+| White    | 60 through Black (6 steps) | 50 through Black (5 steps) |
+
+### Examples
+
+<DoDontRow>
+<DoDont type="do" caption="Purple 90 text is accessible on Purple 50.">
+
+![](images/accessibility_doexample_1.svg)
+
+</DoDont>
+<DoDont type="do" caption="Teal 20 text is accessible on Teal 80.">
+
+![](images/accessibility_doexample_2.svg)
+
+</DoDont>
+<DoDont type="do" caption="Black text is accessible on Blue 50 and Teal 40.">
+
+![](images/accessibility_doexample_3.svg)
+
+</DoDont>
+</DoDontRow>
+
+<DoDontRow>
+<DoDont type="dont" caption="Blue 60 text is not accessible on Black.">
+
+![](images/accessibility_dontexample_1.svg)
+
+</DoDont>
+<DoDont type="dont" caption="White text is not accessible on Gray 50.">
+
+![](images/accessibility_dontexample_2.svg)
+
+</DoDont>
+<DoDont type="dont" caption="White text is not accessible on Blue 50 and Teal 40.">
+
+![](images/accessibility_dontexample_3.svg)
+
+</DoDont>
+</DoDontRow>
+
+### Color blindness
+
+Don’t rely on color alone to convey meaning. This rule includes conveying
+information, indicating an action, prompting the user for a response or
+distinguishing one visual element from another.
+
+Those people affected by protanopia color blindness are less sensitive to red
+light, while sufferers of deuteranopia have the same problem with green. For
+example, people with protanopia will confuse blue and purple because they
+can’t recognize the red element of the color purple. The third type of color
+deficiency, tritanopia, is the least common and refers to sufferers who struggle
+to distinguish blue or yellow light. This image shows what the rainbow may look
+like to individuals with each of these forms of color blindness, compared to
+normal vision.
+
+<Row>
+<Column colLg={8}>
+<ArtDirection>
+
+![color blindness graphic - Mobile image](images/color_blindness_graphic_mobile2.png)
+![color blindness graphic](images/color_blindness_graphic.png)
+
+</ArtDirection>
+</Column>
+</Row>
+
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="WCAG 2.1"
+      aspectRatio="2:1"
+      href="https://www.w3.org/TR/WCAG20/"
+      >
+
+![ColorIcon](images/color_enabled.png)
+
+  </ResourceCard>
+</Column>
 </Row>
 
 ## Color in action
@@ -330,3 +465,14 @@ well-balanced and cohesive experience.
     />
   </Column>
 </Row>
+
+
+
+
+
+
+
+
+
+
+
