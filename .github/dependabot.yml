@@ -15,5 +15,3 @@ updates:
     allow:
       - dependency-name: "@carbon/icons"
       - dependency-name: "@carbon/icons-react"
-      - dependency-name: "@carbon/pictograms"
-      - dependency-name: "@carbon/pictograms-react"
