@@ -68,7 +68,7 @@
   z-index: 2;
   box-sizing: content-box;
   position: sticky;
-  top: 112px;
+  top: 120px;
 }
 
 .#{$prefix}--typeset-style-nav-shiv {
@@ -85,7 +85,6 @@
   padding-left: $spacing-05;
   padding-right: 0;
   width: 100%;
-  margin-top: 8px;
 
   @include carbon--breakpoint('md') {
     width: 62.5%;
@@ -152,7 +151,7 @@
 
 .#{$prefix}--typeset-style-input {
   margin: 0;
-  margin-right: rem(20px);
+  margin-right: 1.25rem;
   width: 100%;
 }
 

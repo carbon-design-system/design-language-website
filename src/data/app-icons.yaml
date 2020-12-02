@@ -1,6 +1,6 @@
 - name: CloudProfessionalServicesGovernment
   friendly_name: IBM Cloud® Professional Services for Government
-  category: Stroke
+  category: Stroke style
   aliases:
     - IBM Cloud
     - Government
@@ -25,7 +25,7 @@
     - Help desk
 - name: EnterprisePerformanceManagement
   friendly_name: IBM Enterprise Performance Management
-  category: Fill
+  category: Fill style
   aliases:
     - Finance and operations
     - Performance management
@@ -34,8 +34,8 @@
     - purple
     - circle
 - name: CloudStaticRoute
-  friendly_name: IBM Cloud® static route
-  category: Stroke
+  friendly_name: IBM Cloud® Static Route
+  category: Stroke style
   aliases:
     - Cloud
     - IBM Cloud
@@ -50,7 +50,7 @@
     - Static route
 - name: CloudDiagnosticDebugTool
   friendly_name: IBM Cloud® Kubernetes Service Diagnostics and Debug Tool add-on
-  category: Stroke
+  category: Stroke style
   aliases:
     - IBM Cloud
     - Cloud
@@ -72,8 +72,8 @@
     - State
     - Current state
 - name: CloudManagedOAuthProxy
-  friendly_name: IBM Cloud Managed OAuth proxy add-on
-  category: Stroke
+  friendly_name: IBM Cloud® Managed OAuth Proxy add-on
+  category: Stroke style
   aliases:
     - IBM Cloud
     - Cloud
@@ -87,7 +87,7 @@
     - Identity
 - name: CloudKubernetesTerminal
   friendly_name: IBM Cloud® Kubernetes Terminal
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - IBM Cloud
@@ -99,7 +99,7 @@
     - Shredder
 - name: CloudDataOps
   friendly_name: IBM® DataOps
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - IBM DataOps
@@ -121,7 +121,7 @@
     - Ranking
 - name: IBV
   friendly_name: IBM Institute for Business Value
-  category: Fill
+  category: Fill style
   aliases:
     - Institute
     - Business
@@ -133,8 +133,8 @@
     - Control
     - Adjust
 - name: CloudClusterAutoscalerAddon
-  friendly_name: IBM Cloud cluster autoscaler add-on
-  category: Stroke
+  friendly_name: IBM Cloud® Cluster Autoscaler add-on
+  category: Stroke style
   aliases:
     - Cloud
     - IBM Cloud
@@ -145,7 +145,7 @@
     - hexagon
 - name: WatsonLanguageTranslator
   friendly_name: IBM Watson® Language Translator
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Language translator
@@ -159,7 +159,7 @@
     - relationship
 - name: WatsonCompareComply
   friendly_name: IBM Watson® Compare and Comply
-  category: Stroke
+  category: Stroke style
   aliases:
     - IBM Watson
     - Data
@@ -174,7 +174,7 @@
     - text
 - name: WatsonPersonalityInsights
   friendly_name: IBM Watson® Personality Insights
-  category: Stroke
+  category: Stroke style
   aliases:
     - IBM Watson
     - Watson
@@ -189,7 +189,7 @@
     - analytics
 - name: WatsonSpeechToText
   friendly_name: IBM Watson® Speech to Text
-  category: Stroke
+  category: Stroke style
   aliases:
     - IBM Watson
     - Watson speech to text
@@ -200,7 +200,7 @@
     - text
 - name: WatsonTextToSpeech
   friendly_name: IBM Watson® Text to Speech
-  category: Stroke
+  category: Stroke style
   aliases:
     - IBM Watson
     - Watson test to speech
@@ -211,7 +211,7 @@
     - text
 - name: CloudDatabasesMongoDB
   friendly_name: IBM Cloud® Databases for MongoDB
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - IBM Cloud
     - Databases
@@ -220,7 +220,7 @@
     - teal
 - name: CloudDatabasesETCD
   friendly_name: IBM Cloud® Databases for etcd
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - IBM Cloud
     - etcd
@@ -231,7 +231,7 @@
     - teal
 - name: CloudDatabasesDatastax
   friendly_name: IBM Cloud® Databases for DataStax
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - IBM Cloud
     - NoSQL database
@@ -239,7 +239,7 @@
     - blue
 - name: CloudDatabasesElasticsearch
   friendly_name: IBM Cloud® Databases for Elasticsearch
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - IBM Cloud
     - Cloud
@@ -252,7 +252,7 @@
   friendly_name: IBM Cloud® Databases for Rabbit
   # from Peggy: I can’t find this solution name. I did find Messages for RabbitMQ, though.
   # See: https://www.ibm.com/blogs/cloud-archive/tag/messages-for-rabbit-mq/
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - IBM Cloud
     - Cloud
@@ -263,7 +263,7 @@
     - red
 - name: CloudDatabasesPostgreSQL
   friendly_name: IBM Cloud® Databases for PostgreSQL
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - IBM Cloud
     - Cloud
@@ -275,7 +275,7 @@
     - teal
 - name: CloudDatabasesEnterpriseDB
   friendly_name: IBM Cloud® Databases for EnterpriseDB
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - IBM Cloud
     - Cloud
@@ -286,7 +286,7 @@
     - red
 - name: CloudDatabasesRedis
   friendly_name: IBM Cloud® Databases for Redis
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - IBM Cloud
     - Cloud
@@ -295,7 +295,7 @@
     - red
 - name: CloudAppService
   friendly_name: IBM Cloud® App Service
-  category: Fill
+  category: Fill style
   aliases:
     - IBM Cloud
     - Cloud
@@ -306,7 +306,7 @@
     - circles
 - name: CognosAnalyticsMobile
   friendly_name: IBM Cognos® Analytics for Mobile
-  category: Fill
+  category: Fill style
   aliases:
     - Hybrid cloud
     - IBM Cognos
@@ -318,26 +318,9 @@
     - teal
     - speed
     - data
-- name: AgroPad
-  friendly_name: IBM AgroPad
-  category: Stroke
-  aliases:
-    - IBM Research
-    - IBM AgroPad
-    - AI
-    - AI farming technology
-    - Chemical analysis
-    - Analysis
-    - green
-    - teal
-    - hills
-    - graphic
-    - analytics
-    - bar
-    - chart
 - name: CloudContentDeliveryNetwork
   friendly_name: IBM Cloud® Content Delivery Network
-  category: Stroke
+  category: Stroke style
   aliases:
     - IBM Cloud
     - Cloud
@@ -351,8 +334,8 @@
     - earth
     - global
 - name: CloudDNSServices
-  friendly_name: IBM Cloud® DNS Services
-  category: Stroke
+  friendly_name: IBM Cloud® DNS services
+  category: Stroke style
   aliases:
     - IBM Cloud
     - Cloud
@@ -367,7 +350,7 @@
     - text
 - name: CloudEdgeApplicationManager
   friendly_name: IBM Edge Application Manager
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - Edge computing
@@ -378,7 +361,7 @@
     - teal
 - name: CloudInternetServices
   friendly_name: IBM Cloud® Internet Services
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - IBM Cloud
@@ -390,7 +373,7 @@
     - share
 - name: CloudDirectLink
   friendly_name: IBM Cloud® Direct Link 2.0
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - IBM Cloud
@@ -403,7 +386,7 @@
     - link
 - name: CloudKubernetesService
   friendly_name: IBM Cloud® Kubernetes Service
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - IBM Cloud
@@ -414,7 +397,7 @@
     - hexagon
 - name: Db2DataGate
   friendly_name: IBM Db2® for z/OS® Data Gate
-  category: Stroke
+  category: Stroke style
   aliases:
     - Db2
     - IBM Db2
@@ -428,7 +411,7 @@
     - network
 - name: CloudCitrixVirtualAppsDesktops
   friendly_name: IBM Cloud® Citrix Virtual Apps and Desktops
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - IBM Cloud
@@ -442,7 +425,7 @@
     - catalogue
 - name: CloudSatellite
   friendly_name: IBM Cloud® Satellite
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - IBM Cloud
@@ -453,7 +436,7 @@
     - hexagon
 - name: Rubik
   friendly_name: IBM Release Builder Kit (RBK)
-  category: Stroke
+  category: Stroke style
   aliases:
     - Services
     - GBS
@@ -465,7 +448,7 @@
     - teal
 - name: CloudDataReplication
   friendly_name: IBM Data Replication on Cloud
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - Data replication
@@ -478,7 +461,7 @@
     - refresh
 - name: VisualHorizon
   friendly_name: IBM New Visual Horizon
-  category: Stroke
+  category: Stroke style
   aliases:
     - WeChat app
     - GCG LTV
@@ -486,24 +469,9 @@
     - blue
     - teal
     - eye
-- name: MaaS360Admin
-  friendly_name: IBM MaaS360 admin
-  category: Stroke
-  aliases:
-    - IBM Security
-    - Configuring administrator
-    - MaaS360
-    - Portal administration
-    - blue
-    - teal
-    - circle
-    - user
-    - account
-    - person
-    - human
 - name: CloudObjectStorage
   friendly_name: IBM Cloud® Object Storage
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - IBM Cloud
@@ -513,22 +481,9 @@
     - purple
     - server
     - containers
-- name: DownloadDirector
-  friendly_name: IBM Download Director
-  category: Stroke
-  aliases:
-    - Finance and operations
-    - Download Director
-    - Software downloader
-    - blue
-    - teal
-    - desktop
-    - monitor
-    - screen
-    - arrow
 - name: Cloudeconfig
   friendly_name: IBM e-config on Cloud
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - e-config on cloud
@@ -538,88 +493,9 @@
     - teal
     - server
     - data base
-- name: WatsonReturntoWorkplaceAdvisor
-  friendly_name: IBM Return-to-Workplace Advisor
-  category: Stroke
-  aliases:
-    - Watson Health
-    - IBM Watson Health
-    - Workplace re-opening advisor
-    - Healthcare
-    - Workforce readiness
-    - blue
-    - purple
-    - building
-    - enterprise
-    - arrow
-- name: CloudTDMDataPrivacy
-  friendly_name: IBM InfoSphere® Optim Test Data Management and Data Privacy
-  category: Stroke
-  aliases:
-    - Cloud
-    - Test data management
-    - Data privacy
-    - IBM InfoSphere Optim
-    - InfoSphere
-    - TDM
-    - blue
-    - purple
-    - circle
-- name: CloudSubnets
-  friendly_name: IBM Cloud® subnets
-  category: Stroke
-  aliases:
-    - Cloud
-    - IBM Cloud subnets
-    - Subnets
-    - Networks
-    - Computer networks
-    - blue
-    - teal
-    - network
-- name: CloudHardwareFirewall
-  friendly_name: IBM Cloud hardware firewall
-  category: Stroke
-  aliases:
-    - Cloud
-    - IBM Cloud
-    - Hardware firewall
-    - Security
-    - Firewall
-    - magenta
-    - purple
-    - lock
-    - bricks
-    - wall
-- name: ZDevOpsDb2DevTools
-  friendly_name: IBM Db2® ZDevTools extension
-  category: Stroke
-  aliases:
-    - Systems
-    - IBM Z
-    - Db2
-    - ZDevTools
-    - purple
-    - blue
-    - hexagon
-    - server
-    - data base
-- name: SecurityVerifyCredentials
-  friendly_name: IBM Verify Credentials
-  category: Stroke
-  aliases:
-    - Security
-    - Credential verification
-    - Identity protection
-    - purple
-    - blue
-    - shield
-    - id
-    - person
-    - human
 - name: MaximoVoiceAssistant
   friendly_name: IBM Maximo® Voice Assistant
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IBM Watson
@@ -641,9 +517,75 @@
     - mobile
     - sound
     - spectrogram
+- name: WatsonReturntoWorkplaceAdvisor
+  friendly_name: IBM Return-to-Workplace Advisor
+  category: Stroke style
+  aliases:
+    - Watson Health
+    - IBM Watson Health
+    - Workplace re-opening advisor
+    - Healthcare
+    - Workforce readiness
+    - blue
+    - purple
+    - building
+    - enterprise
+    - arrow
+- name: CloudTDMDataPrivacy
+  friendly_name: IBM InfoSphere® Optim Test Data Management and Data Privacy
+  category: Stroke style
+  aliases:
+    - Cloud
+    - Test data management
+    - Data privacy
+    - IBM InfoSphere Optim
+    - InfoSphere
+    - TDM
+    - blue
+    - purple
+    - circle
+- name: CloudSubnets
+  friendly_name: IBM Cloud® subnets
+  category: Stroke style
+  aliases:
+    - Cloud
+    - IBM Cloud subnets
+    - Subnets
+    - Networks
+    - Computer networks
+    - blue
+    - teal
+    - network
+- name: CloudHardwareFirewall
+  friendly_name: IBM Cloud® Hardware Firewall
+  category: Stroke style
+  aliases:
+    - Cloud
+    - IBM Cloud
+    - Hardware firewall
+    - Security
+    - Firewall
+    - magenta
+    - purple
+    - lock
+    - bricks
+    - wall
+- name: ZDevOpsDb2DevTools
+  friendly_name: IBM Db2® ZDevTools extension
+  category: Stroke style
+  aliases:
+    - Systems
+    - IBM Z
+    - Db2
+    - ZDevTools
+    - purple
+    - blue
+    - hexagon
+    - server
+    - data base
 - name: WCG
   friendly_name: IBM World Community Grid
-  category: Stroke
+  category: Stroke style
   aliases:
     - ibm.org
     - IBM Corporate Social Responsibility
@@ -655,17 +597,9 @@
     - global
     - circle
     - earth
-- name: SiteAccess
-  friendly_name: IBM Site Access
-  category: Stroke
-  aliases:
-    - GBS
-    - Site access
-    - Site access management
-    - key
 - name: LocationTracker
   friendly_name: IBM Location Tracker
-  category: Fill
+  category: Fill style
   aliases:
     - GBS
     - User movement tracking
@@ -675,7 +609,7 @@
     - blue
     - heart
 - name: Developer
-  category: Stroke
+  category: Stroke style
   friendly_name: IBM Developer
   aliases:
     - DBG
@@ -687,7 +621,7 @@
     - green
 - name: CognosAnalyticsReporting
   friendly_name: IBM Cognos® Analytics Reporting
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid cloud
     - Web-based report authoring tool
@@ -712,8 +646,8 @@
     - Reporting
     - Reports
 - name: AlertNotification
-  friendly_name: Alert Notification
-  category: Stroke
+  friendly_name: IBM Alert Notification
+  category: Stroke style
   aliases:
     - Cloud
     - Cognitive
@@ -730,7 +664,7 @@
     - Caution
 - name: API
   friendly_name: Unassigned
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Hybrid
     - Cloud
@@ -744,7 +678,7 @@
     - Programming interface
 - name: APIConnectTestAndMonitor
   friendly_name: IBM API Connect® Test and Monitor
-  category: Fill
+  category: Fill style
   aliases:
     - Hybrid
     - Cloud
@@ -759,7 +693,7 @@
     - API management
 - name: AugmentedRemoteAssist
   friendly_name: IBM Augmented Remote Assist
-  category: Stroke
+  category: Stroke style
   aliases:
     - GTS
     - TSS
@@ -790,8 +724,8 @@
     - Tech support tool
     - Repair tool
 - name: Bee
-  friendly_name: Bee, Generic
-  category: Stroke
+  friendly_name: Bee, generic
+  category: Stroke style
   aliases:
     - Unassigned
     - Generic
@@ -805,8 +739,8 @@
     - IBM rebus
     - Bumble bee
 - name: BeeFill
-  friendly_name: Bee, Generic
-  category: Fill
+  friendly_name: Bee, generic
+  category: Fill style
   aliases:
     - Unassigned
     - Generic
@@ -818,8 +752,8 @@
     - Rebus
     - Bumble bee
 - name: BlockchainFoodTrust
-  friendly_name: Blockchain IBM Food Trust™
-  category: Stroke
+  friendly_name: IBM Food Trust™ Blockchain
+  category: Stroke style
   aliases:
     - Blockchain
     - Magenta
@@ -837,43 +771,9 @@
     - Food network
     - Food delivery
     - Food delivery system
-- name: BlockchainTrustedIdentity
-  friendly_name: IBM Blockchain Trusted Identity
-  category: Stroke
-  aliases:
-    - Blockchain
-    - Blue
-    - Teal
-    - Person
-    - ID
-    - Human
-    - Card
-    - Identity management
-    - Digital identity management
-    - Digital identity
-    - Identity security
-    - Identity protection
-- name: CallHomeConnectMobile
-  friendly_name: IBM Call Home Connect Mobile
-  category: Stroke
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - Teal
-    - Green
-    - Connect
-    - Circle
-    - Pulse
-    - IBM Call Home Connect
-    - Mobile communication
-    - Call Home
-    - Call Home tech support feature
-    - Hardware failure alert
-    - Hardware monitoring
 - name: Capture
-  friendly_name: Capture
-  category: Stroke
+  friendly_name: IBM Mobile Capture
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -893,7 +793,7 @@
     - Photo
 - name: CarbonDesignSystem
   friendly_name: Carbon Design System
-  category: Stroke
+  category: Stroke style
   aliases:
     - Product
     - Design
@@ -910,7 +810,7 @@
     - Open-source design tool
 - name: CICS
   friendly_name: IBM CICS®
-  category: Stroke
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -927,7 +827,7 @@
     - IBM CICS
 - name: CICSTXonCloud
   friendly_name: IBM CICS® TX on Cloud
-  category: Stroke
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -944,7 +844,7 @@
     - CICS TX
 - name: ClientVantage
   friendly_name: IBM Client Vantage
-  category: Fill
+  category: Fill style
   aliases:
     - GBS
     - Global
@@ -961,7 +861,7 @@
     - Client Vantage
 - name: Cloud-APIConnect
   friendly_name: IBM API Connect®
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -979,7 +879,7 @@
     - API creation
 - name: Cloud-AppConnect
   friendly_name: IBM App Connect Enterprise
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - Cognitive
@@ -1001,7 +901,7 @@
     - Integration tool
 - name: Cloud-Aspera
   friendly_name: IBM Aspera®
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1021,7 +921,7 @@
     - Data migration
 - name: Cloud-CloudPakIntegration
   friendly_name: IBM Cloud Pak® for Integration
-  category: Stroke
+  category: Stroke style
   aliases:
     - Cloud
     - Blue
@@ -1036,7 +936,7 @@
     - Workload deployment
 - name: Cloud-DataPower
   friendly_name: IBM DataPower®
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1060,7 +960,7 @@
     - Cloud gateway
 - name: Cloud-EventStreams
   friendly_name: IBM Event Streams
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1079,7 +979,7 @@
     - Data streaming
 - name: Cloud-MQ
   friendly_name: IBM MQ
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1097,8 +997,8 @@
     - Transaction middleware
     - Information management
 - name: CloudAutoscale
-  friendly_name: IBM Cloud® Autoscale
-  category: Stroke
+  friendly_name: IBM Cloud® autoscaling
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1117,7 +1017,7 @@
     - On-demand cloud scaling
 - name: CloudColigo
   friendly_name: IBM Cloud® Project Coligo
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1137,8 +1037,8 @@
     - Open-source platform
     - Cloud platform
 - name: CloudDedicatedHost
-  friendly_name: IBM Cloud® dedicated host
-  category: Stroke
+  friendly_name: IBM Cloud® Dedicated Host
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1155,7 +1055,7 @@
     - Virtualized servers
 - name: CloudEmailDeliveryService
   friendly_name: IBM Cloud® email delivery service
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1173,7 +1073,7 @@
     - Newsletter authentication
 - name: CloudEventManagement
   friendly_name: IBM Cloud® Event Management
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1194,8 +1094,8 @@
     - Automated event response management
     - Event data integration
 - name: CloudHybridLink
-  friendly_name: IBM Cloud® hybrid link
-  category: Stroke
+  friendly_name: IBM Cloud® Hybrid Link
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1220,7 +1120,7 @@
     - Network traffic routing
 - name: CloudPakApplications
   friendly_name: IBM Cloud Pak® for Applications
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1234,7 +1134,7 @@
     - Mobile app development
 - name: CloudPakAutomation
   friendly_name: IBM Cloud Pak® for Automation
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1249,7 +1149,7 @@
     - Containerized cloud software
 - name: CloudPakData
   friendly_name: IBM Cloud Pak® for Data
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1275,7 +1175,7 @@
     - Cloud DataOps
 - name: CloudPakIntegration
   friendly_name: IBM Cloud Pak® for Integration
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1294,7 +1194,7 @@
     - Cloud application integration
 - name: CloudPakMulticloudManagement
   friendly_name: IBM Cloud Pak® for Multicloud Management
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1320,7 +1220,7 @@
     - Multicloud management
 - name: CloudPakSecurity
   friendly_name: IBM Cloud Pak® for Security
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1338,7 +1238,7 @@
     - Multicloud threat mitigation
 - name: CloudPakSystem
   friendly_name: IBM Cloud Pak® System
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1362,8 +1262,8 @@
     - Full stack infrastructure
     - Cloud management
 - name: CloudRegulatoryAccelerator
-  friendly_name: Cloud Regulatory Accelerator
-  category: Stroke
+  friendly_name: Regulatory Accelerator on IBM Cloud Pak® for Data
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1385,7 +1285,7 @@
     - Cloud data governance
 - name: CloudSchematics
   friendly_name: IBM Cloud® Schematics
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1410,7 +1310,7 @@
     - VM delivery
 - name: CloudTransitGateway
   friendly_name: IBM Cloud® Transit Gateway
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1434,7 +1334,7 @@
     - Network service
 - name: CloudVPC
   friendly_name: IBM Cloud® VPC
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1449,8 +1349,8 @@
     - Virtual private cloud
     - Virtual private cloud network
 - name: CloudVPCEndpoints
-  friendly_name: Cloud VPC endpoints
-  category: Stroke
+  friendly_name: IIBM Cloud® Virtual Private Cloud (VPC) endpoints
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1473,8 +1373,8 @@
     - Cloud communication
     - Private cloud communication
 - name: CloudVPCFlowLogs
-  friendly_name: Cloud VPC flow logs
-  category: Stroke
+  friendly_name: IBM Cloud® Flow Logs for VPC
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1505,7 +1405,7 @@
     - Cloud network monitoring
 - name: CognosAnalytics
   friendly_name: IBM Cognos® Analytics
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1522,47 +1422,9 @@
     - Data report creation
     - Self-service data report creation
     - Data virtualization
-- name: CommunityHealthCoach
-  friendly_name: Community health coach
-  category: Stroke
-  aliases:
-    - GTS
-    - Global
-    - Technology
-    - Services
-    - Magenta
-    - Blue
-    - Person
-    - Human
-    - Heart
-    - Relationship
-    - Cognitive health coaching
-    - Cognitive health data
-    - Cognitive health analytics
-    - Digital health monitoring
-    - Health monitoring
-- name: CommunityHealthMember
-  friendly_name: Community Health Member
-  category: Stroke
-  aliases:
-    - GTS
-    - Global
-    - Technology
-    - Services
-    - Magenta
-    - Blue
-    - Heart
-    - Pulse
-    - Heartbeat
-    - Health
-    - Medical
-    - Medicine
-    - Health community
-    - Community health
-    - Medical community
 - name: ControlDesk
-  friendly_name: Control desk
-  category: Stroke
+  friendly_name: IBM Control Desk
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -1586,7 +1448,7 @@
     - System control center
 - name: Db2
   friendly_name: IBM Db2®
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Hybrid
     - Cloud
@@ -1614,7 +1476,7 @@
     - Data availability
 - name: DB2BigSQL
   friendly_name: IBM Db2® Big SQL
-  category: Stroke
+  category: Stroke style
   aliases:
     - GTS
     - Global
@@ -1640,7 +1502,7 @@
     - Query performance
 - name: DBG
   friendly_name: DBG
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - DBG
     - Digital
@@ -1653,7 +1515,7 @@
     - Debugging
 - name: DCConnectClient
   friendly_name: IBM DCConnect Client
-  category: Stroke
+  category: Stroke style
   aliases:
     - GBS
     - Global
@@ -1680,8 +1542,8 @@
     - App production implementation
     - Development toolkits
 - name: DigitalAssistant
-  friendly_name: Digital assistant
-  category: Stroke
+  friendly_name: IBM Digital Assistant
+  category: Stroke style
   aliases:
     - DBG
     - Digital
@@ -1704,8 +1566,8 @@
     - Voice recognition
     - Information assistant
 - name: DigitalNation
-  friendly_name: IBM Digital - Nation Africa
-  category: Stroke
+  friendly_name: IBM Digital–Nation Africa
+  category: Stroke style
   aliases:
     - Cognitive
     - Applications
@@ -1741,23 +1603,9 @@
     - Academic initiatives
     - Academic initiative for Africa
     - African academic initiatives
-- name: EcosystemItalia
-  friendly_name: IBM Ecosystem Italia
-  category: Stroke
-  aliases:
-    - Global
-    - Markets
-    - Business
-    - Partners
-    - Teal
-    - Green
-    - Relationship
-    - Person
-    - Human
-    - Circle
 - name: EntitledSystemsSupport
   friendly_name: IBM Entitled Systems Support
-  category: Stroke
+  category: Stroke style
   aliases:
     - Finance
     - Operations
@@ -1776,8 +1624,8 @@
     - Machine replacement help
     - Machine replacement
 - name: ePassMobile
-  friendly_name: ePass Mobile
-  category: Stroke
+  friendly_name: IBM ePass mobile
+  category: Stroke style
   aliases:
     - GTS
     - Global
@@ -1791,8 +1639,8 @@
     - Login
     - Password
 - name: ePricerBP
-  friendly_name: ePricer BP
-  category: Stroke
+  friendly_name: IBM ePricer BP
+  category: Stroke style
   aliases:
     - Finance
     - Operations
@@ -1805,7 +1653,7 @@
     - Pricing strategy deployment
 - name: ExpertWithBoxPlatform
   friendly_name: IBM Expert Seller with Box Platform
-  category: Stroke
+  category: Stroke style
   aliases:
     - GBS
     - Global
@@ -1829,7 +1677,7 @@
     - Cognitive technology
 - name: ExplorerForZOS
   friendly_name: IBM Explorer for z/OS®
-  category: Fill
+  category: Fill style
   aliases:
     - Systems
     - IT
@@ -1850,7 +1698,7 @@
     - Connectivity tool
 - name: Eye
   friendly_name: Eye, generic
-  category: Stroke
+  category: Stroke style
   aliases:
     - Unassigned
     - Generic
@@ -1863,7 +1711,7 @@
     - Sight
 - name: EyeFill
   friendly_name: Eye, generic
-  category: Fill
+  category: Fill style
   aliases:
     - Unassigned
     - Generic
@@ -1876,7 +1724,7 @@
     - Sight
 - name: go
   friendly_name: Unassigned
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Unassigned
     - Hybrid
@@ -1884,7 +1732,7 @@
     - Business
 - name: HelloQuantum
   friendly_name: Hello Quantum
-  category: Fill
+  category: Fill style
   aliases:
     - Research
     - Blue
@@ -1907,7 +1755,7 @@
     - Mobile quantum computing tutorial
 - name: HybridDevOpsAndManagement
   friendly_name: Hybrid DevOps and management
-  category: Fill
+  category: Fill style
   aliases:
     - Hybrid
     - Cloud
@@ -1926,7 +1774,7 @@
     - Hybrid cloud management
 - name: iAccessClientSolution
   friendly_name: IBM iAccess Client Solutions
-  category: Fill
+  category: Fill style
   aliases:
     - Systems
     - IT
@@ -1944,7 +1792,7 @@
     - Hardware consolidation interface
 - name: IBMerNews
   friendly_name: IBMer News
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - CHQ
     - Communications
@@ -1959,7 +1807,7 @@
     - News stories
 - name: ImmersiveData
   friendly_name: IBM Immersive Data
-  category: Fill
+  category: Fill style
   aliases:
     - Hybrid
     - Cloud
@@ -1982,7 +1830,7 @@
     - Mobile AR visualization tool
 - name: InstantCheckout
   friendly_name: IBM Instant Checkout
-  category: Stroke
+  category: Stroke style
   aliases:
     - iX
     - Services
@@ -2008,7 +1856,7 @@
     - Connected grocery store
 - name: IoTAdministration
   friendly_name: IoT administration
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2024,8 +1872,8 @@
     - IoT management
     - Internet of Things management
 - name: IoTAsset
-  friendly_name: IoT Asset
-  category: Stroke
+  friendly_name: IoT asset
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2042,7 +1890,7 @@
     - IoT asset performance management
 - name: IoTBusinessAnalytics
   friendly_name: IoT business analytics
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2056,8 +1904,8 @@
     - Watson IoT
     - Watson business analytics
 - name: IoTConnect
-  friendly_name: IBM Watson® IoT Platform Connection Service
-  category: Stroke
+  friendly_name: IBM Watson IoT® Platform Connection Service
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2073,8 +1921,8 @@
     - IBM Watson IoT Platform
     - IoT platform connection
 - name: IoTPlatform
-  friendly_name: IBM Watson® IoT Platform
-  category: Stroke
+  friendly_name: IBM Watson IoT® Platform
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2095,7 +1943,7 @@
     - Device data insights
 - name: IoTTRIRIGABuildingInsights
   friendly_name: IBM TRIRIGA® Building Insights
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2112,8 +1960,8 @@
     - IoT building performance
     - IoT management
 - name: IzODA
-  friendly_name: IzODA
-  category: Stroke
+  friendly_name: IBM Open Data Analytics for z/OS® (IzODA)
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -2132,7 +1980,7 @@
     - IBM Z data
 - name: js
   friendly_name: Unassigned
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Unassigned
     - Hybrid
@@ -2145,7 +1993,7 @@
     - Application/x-javascript
 - name: LILOX
   friendly_name: LILOX
-  category: Stroke
+  category: Stroke style
   aliases:
     - Global
     - Markets
@@ -2159,8 +2007,8 @@
     - Phone
     - Connect
 - name: Live-Events
-  friendly_name: Live events
-  category: Stroke
+  friendly_name: IBM Live | IBM Events
+  category: Stroke style
   aliases:
     - CHQ
     - Marketing
@@ -2181,7 +2029,7 @@
     - Media streaming
 - name: M&AAccelerator-ProgramWorkCenter
   friendly_name: IBM M&A Accelerator | IBM Program Work Center
-  category: Stroke
+  category: Stroke style
   aliases:
     - GBS
     - Global
@@ -2210,27 +2058,9 @@
     - IPWC
     - Program management
     - Project management
-- name: Maintall
-  friendly_name: Maintall
-  category: Stroke
-  aliases:
-    - Global
-    - Markets
-    - Hybrid
-    - Cloud
-    - Business
-    - Industries
-    - Blue
-    - Teal
-    - Tool
-    - Wrench
-    - Maintenance
-    - Settings
-    - Database
-    - Inventory
 - name: MasterDataConnect
   friendly_name: IBM Master Data Connect
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -2248,7 +2078,7 @@
     - IBM InfoSphere
 - name: MasterDataManagement
   friendly_name: IBM Master Data Management
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -2266,7 +2096,7 @@
     - IBM InfoSphere
 - name: MaximoAssetAuditor
   friendly_name: IBM Maximo® Asset Audit
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2283,7 +2113,7 @@
     - Asset editing
 - name: MaximoAssetDataManager
   friendly_name: IBM Maximo® Asset Data Manager
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2303,34 +2133,9 @@
     - Asset meter reading
     - Asset reporting
     - Asset downtime reports
-- name: MaximoAugmentedCollaboration
-  friendly_name: IBM Maximo® Augmented Collaboration
-  category: Stroke
-  aliases:
-    - Watson
-    - IoT
-    - Blue
-    - Purple
-    - Person
-    - Human
-    - Group
-    - Eye
-    - People
-    - Augmented reality collaboration
-    - AR collaboration
-    - Asset management
-    - Technician knowledge base
-    - Technician guidance
-    - Technical advice
-    - Real-time technical training
-    - Technical training
-    - Troubleshooting
-    - Service delivery
-    - Remote tech support
-    - Remote technical support
 - name: MaximoCycleCounts
-  friendly_name: IBM Maximo® cycle counts
-  category: Stroke
+  friendly_name: IBM Maximo® Cycle Counts
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2351,7 +2156,7 @@
     - Inventory accuracy
 - name: MaximoInspector
   friendly_name: IBM Maximo® Inspector
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2367,7 +2172,7 @@
     - Asset location
 - name: MaximoIssuesReturns
   friendly_name: IBM Maximo® Issues and Returns
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2382,7 +2187,7 @@
     - Inventory consumption
 - name: MaximoServiceRequestor
   friendly_name: IBM Maximo® Service Requestor
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2399,7 +2204,7 @@
     - Asset management platform
 - name: MaximoSupervisor
   friendly_name: IBM Maximo® Supervisor
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2417,7 +2222,7 @@
     - Work order approvals
 - name: MaximoTechnician
   friendly_name: IBM Maximo® Technician
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2436,7 +2241,7 @@
     - Labor actual reports
 - name: MaximoTransfersReceipts
   friendly_name: IBM Maximo® Transfers Receipts
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2454,7 +2259,7 @@
     - Inventory tracking app
 - name: MaximoWorkerInsights
   friendly_name: IBM Maximo® Worker Insights
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - IoT
@@ -2478,7 +2283,7 @@
     - Predictive information
 - name: MDMExpress
   friendly_name: IBM Master Data Management Express
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -2502,7 +2307,7 @@
     - Self-service analytics
 - name: MigrationServices
   friendly_name: IBM Cloud® Migration Services
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -2522,7 +2327,7 @@
     - Agentless migration
 - name: MyClinicalDiaryMobile
   friendly_name: IBM My Clinical Diary Mobile
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Health
@@ -2549,7 +2354,7 @@
     - Mobile patient health
 - name: net
   friendly_name: Unassigned
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Unassigned
     - Hybrid
@@ -2559,24 +2364,9 @@
     - Open source
     - Developer platform
     - Cross-platform developer platform
-- name: OpenLabs
-  friendly_name: IBM Open Labs
-  category: Stroke
-  aliases:
-    - Cognitive
-    - Applications
-    - Blue
-    - Teal
-    - Light
-    - Lightbulb
-    - Code
-    - Developer
-    - Developer workshops
-    - Developer skills workshops
-    - Self-paced developer workshops
 - name: php
   friendly_name: Unassigned
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Unassigned
     - Hybrid
@@ -2584,7 +2374,7 @@
     - Business
 - name: PlanningAnalytics
   friendly_name: IBM Planning Analytics
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -2604,7 +2394,7 @@
     - Intelligent workflows
 - name: PowerQuickReference
   friendly_name: IBM POWER® Quick Reference
-  category: Stroke
+  category: Stroke style
   aliases:
     - Global
     - Markets
@@ -2625,7 +2415,7 @@
     - POWER reference guide
 - name: PrivateCloud
   friendly_name: IBM Cloud® Private
-  category: Stroke
+  category: Stroke style
   aliases:
     - Hybrid
     - Cloud
@@ -2650,7 +2440,7 @@
     - Analytics
 - name: py
   friendly_name: Unassigned
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Unassigned
     - Hybrid
@@ -2662,7 +2452,7 @@
     - Programming
 - name: RapidFinancing
   friendly_name: IBM Rapid Financing®
-  category: Stroke
+  category: Stroke style
   aliases:
     - Global
     - Financing
@@ -2674,7 +2464,7 @@
     - Mobile
 - name: RationalDeveloperForI
   friendly_name: IBM Rational® Developer for i
-  category: Stroke
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -2689,7 +2479,7 @@
     - environment
 - name: rb
   friendly_name: Unassigned
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Unassigned
     - Hybrid
@@ -2700,8 +2490,8 @@
     - Coding
     - Programming
 - name: SecurityAccessRequest
-  friendly_name: IBM Security Access Request
-  category: Stroke
+  friendly_name: IBM Security™ Access Request
+  category: Stroke style
   aliases:
     - Security
     - Blue
@@ -2711,8 +2501,8 @@
     - Human
     - Access
 - name: SecurityCases
-  friendly_name: Security Cases
-  category: Stroke
+  friendly_name: IBM Security™ cases
+  category: Stroke style
   aliases:
     - Security
     - Blue
@@ -2720,8 +2510,8 @@
     - Shield
     - Folder
 - name: SecurityDataExplorer
-  friendly_name: Security Data Explorer
-  category: Stroke
+  friendly_name: IBM Security™ Data Explorer
+  category: Stroke style
   aliases:
     - Security
     - Blue
@@ -2733,8 +2523,8 @@
     - Exploration
     - Data
 - name: SecurityServices
-  friendly_name: Security Services
-  category: Stroke
+  friendly_name: IBM Security™ Services
+  category: Stroke style
   aliases:
     - Security
     - Blue
@@ -2745,8 +2535,8 @@
     - Connect
     - Services
 - name: SecurityThreatIntelligenceInsights
-  friendly_name: Security Threat Intelligence Insights
-  category: Stroke
+  friendly_name: IBM Threat Intelligence Insights
+  category: Stroke style
   aliases:
     - Security
     - Blue
@@ -2757,8 +2547,8 @@
     - Intelligence
     - Insight
 - name: SecurityVerify
-  friendly_name: Security Verify
-  category: Stroke
+  friendly_name: IBM Security™ Verify
+  category: Stroke style
   aliases:
     - Security
     - Blue
@@ -2772,7 +2562,7 @@
     - Verified
 - name: SelfGuidance
   friendly_name: IBM Research® Self Guidance Tool
-  category: Stroke
+  category: Stroke style
   aliases:
     - Research
     - Blue
@@ -2783,28 +2573,9 @@
     - Mobile
     - AI
     - Technical assistance
-- name: SpeakPlayWin
-  friendly_name: Speak Play Win
-  category: Stroke
-  aliases:
-    - Hybrid
-    - Cloud
-    - Business
-    - Cognitive
-    - Software
-    - Magenta
-    - Purple
-    - Speech
-    - Bubble
-    - Star
-    - Speak
-    - Play
-    - Watson
-    - Analytics
-    - AI
 - name: SPSSModelerSubscription
-  friendly_name: SPSS Modeler Subscription
-  category: Stroke
+  friendly_name: IBM SPSS® Modeler Subscription
+  category: Stroke style
   aliases:
     - Data
     - AI
@@ -2817,7 +2588,7 @@
     - Analytics
 - name: SPSSStatistics
   friendly_name: IBM SPSS® Statistics
-  category: Fill
+  category: Fill style
   aliases:
     - Data
     - AI
@@ -2831,7 +2602,7 @@
     - Statistics
 - name: StakeholderCollaborator
   friendly_name: IBM Stakeholder Collaborator
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Health
@@ -2849,7 +2620,7 @@
     - Board
 - name: StakeholderManager
   friendly_name: IBM Stakeholder Manager
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Health
@@ -2864,8 +2635,8 @@
     - Inventory
     - Stakeholder
 - name: SterlingSupplyChain
-  friendly_name: IBM SterlingTM Supply Chain
-  category: Stroke
+  friendly_name: IBM Sterling™ Supply Chain
+  category: Stroke style
   aliases:
     - Sterling
     - Watson
@@ -2879,7 +2650,7 @@
     - Global
 - name: KnowledgeCatalogInstaScan
   friendly_name: IBM Watson® Knowledge Catalog InstaScan
-  category: Fill
+  category: Fill style
   aliases:
     - Hybrid
     - Cloud
@@ -2893,8 +2664,8 @@
     - Knowledge
     - Catalog
 - name: StoreEngagement
-  friendly_name: IBM Sterling Store Engagement
-  category: Stroke
+  friendly_name: IBM Sterling™ Store Engagement
+  category: Stroke style
   aliases:
     - Sterling
     - Watson
@@ -2909,7 +2680,7 @@
     - Smile
 - name: StudyAdvance
   friendly_name: IBM Study Advance
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Health
@@ -2925,8 +2696,8 @@
     - Clinical
     - Trial
 - name: TechUAgenda
-  friendly_name: IBM Systems TechU Agenda
-  category: Stroke
+  friendly_name: IBM Systems TechU agenda
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -2942,37 +2713,19 @@
     - TechU
 - name: TLConnect
   friendly_name: TLConnect
-  category: Stroke
+  category: Stroke style
   aliases:
-- Global
-- Markets
-- Industries
-- Blue
-- Teal
-- Bookmark
-- Inventory
-- Database
-- name: TouchToken
-  friendly_name: IBM TouchToken
-  category: Stroke
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
+    - Global
+    - Markets
+    - Industries
+    - Blue
     - Teal
-    - Green
-    - Fingerprint
-    - ID
-    - Identification
-    - OK
-    - Checkmark
-    - Password
-    - Approved
-    - Verified
-    - Mobile
+    - Bookmark
+    - Inventory
+    - Database
 - name: VideoStreaming
   friendly_name: IBM Video Streaming
-  category: Fill
+  category: Fill style
   aliases:
     - Hybrid
     - Cloud
@@ -2988,7 +2741,7 @@
     - Streaming
 - name: VisualInspector
   friendly_name: IBM Visual Inspector
-  category: Stroke
+  category: Stroke style
   aliases:
     - GBS
     - Global
@@ -3005,7 +2758,7 @@
     - Manufacturing
 - name: WatsonAssistant
   friendly_name: IBM Watson® Assistant
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Data
@@ -3019,8 +2772,8 @@
     - Assistant
     - Chatbot
 - name: WatsonAdverseImpactAnalysis
-  friendly_name: IBM Watson Recruitment Adverse Impact Analysis
-  category: Stroke
+  friendly_name: IBM Watson® Recruitment Adverse Impact Analysis
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3033,7 +2786,7 @@
     - Adverse impact analysis
 - name: WatsonBrassRing
   friendly_name: IBM Watson® BrassRing®
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3046,7 +2799,7 @@
     - Recruitment
 - name: WatsonCandidateAssistant
   friendly_name: IBM Watson® Candidate Assistant
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3062,7 +2815,7 @@
     - Career
 - name: WatsonCareerCoach
   friendly_name: IBM Watson® Career Coach
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3077,7 +2830,7 @@
     - AI
 - name: WatsonDb2DataManagementConsole
   friendly_name: IBM Db2® Data Management Console
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Analytics
@@ -3094,7 +2847,7 @@
     - Data
 - name: WatsonDiscovery
   friendly_name: IBM Watson® Discovery
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Data
@@ -3107,7 +2860,7 @@
     - Discovery
 - name: WatsonKnowledgeCatalog
   friendly_name: IBM Watson® Knowledge Catalog
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Data
@@ -3124,7 +2877,7 @@
     - Knowledge
 - name: WatsonLeadManager
   friendly_name: IBM Kenexa® Lead Manager
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3135,7 +2888,7 @@
     - Magnifying glass
 - name: WatsonMachineLearning
   friendly_name: IBM Watson® Machine Learning
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Data
@@ -3148,8 +2901,8 @@
     - Spaceship
     - Fly
 - name: WatsonOnboard
-  friendly_name: IBM Onboard
-  category: Stroke
+  friendly_name: IBM Kenexa® Onboard
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3161,8 +2914,8 @@
     - Plus
     - Add
 - name: WatsonOpenScale
-  friendly_name: IBM Watson® OpenScaleTM
-  category: Stroke
+  friendly_name: IBM Watson® OpenScale™
+  category: Stroke style
   aliases:
     - Watson
     - Data
@@ -3174,8 +2927,8 @@
     - Data
     - Outcomes
 - name: WatsonProjectZeno
-  friendly_name: Watson Project Zeno
-  category: Stroke
+  friendly_name: IBM Watson® Project Zeno
+  category: Stroke style
   aliases:
     - Watson
     - Data
@@ -3189,7 +2942,7 @@
     - Inventory
 - name: WatsonRecruitment
   friendly_name: IBM Watson® Recruitment
-  category: Stroke
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3200,8 +2953,8 @@
     - Goal
     - Recruitment
 - name: WatsonStudio
-  friendly_name: IBM Watson Studio
-  category: Stroke
+  friendly_name: IBM Watson® Studio
+  category: Stroke style
   aliases:
     - Watson
     - Data
@@ -3213,8 +2966,8 @@
     - Studio
     - Model
 - name: WatsonTalent
-  friendly_name: IBM Watson Talent
-  category: Stroke
+  friendly_name: IBM Watson® Talent
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3225,8 +2978,8 @@
     - Star
     - Recruitment
 - name: WatsonTalentAPIs
-  friendly_name: IBM Watson Recruitment API
-  category: Stroke
+  friendly_name: IBM Watson® Recruitment API
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3238,8 +2991,8 @@
     - Star
     - Recruitment
 - name: WatsonTalentAssessments
-  friendly_name: IBM Watson Talent Assessment
-  category: Stroke
+  friendly_name: IBM Watson® Talent Assessment
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3253,8 +3006,8 @@
     - OK
     - Checkmark
 - name: WatsonTalentMatchAPIs
-  friendly_name: IBM Watson Talent Match API
-  category: Stroke
+  friendly_name: IBM Watson® Talent Match API
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3265,8 +3018,8 @@
     - Developer
     - Build
 - name: WatsonTalentSuite
-  friendly_name: IBM Watson Talent Suite
-  category: Stroke
+  friendly_name: IBM Watson® Talent Suite
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3278,8 +3031,8 @@
     - Tool
     - Settings
 - name: WatsonWorkbench
-  friendly_name: IBM Watson Workbench
-  category: Stroke
+  friendly_name: IBM Watson® Workbench
+  category: Stroke style
   aliases:
     - Watson
     - Talent
@@ -3291,7 +3044,7 @@
     - Workbench
 - name: WSC
   friendly_name: WSC
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - WSC
     - Watson
@@ -3300,15 +3053,15 @@
     - Sterling
 - name: xsp
   friendly_name: Unassigned
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Unassigned
     - Hybrid
     - Cloud
     - Business
 - name: YourProcure
-  friendly_name: Your Procure
-  category: Stroke
+  friendly_name: IBM YourProcure
+  category: Stroke style
   aliases:
     - Digital
     - Business
@@ -3322,15 +3075,15 @@
     - Checkmark
 - name: Z
   friendly_name: IBM Z®
-  category: IBM Plex
+  category: IBM Plex® style
   aliases:
     - Systems
     - IT
     - Infrastructure
     - Z
 - name: ZDevOpsAnalyze
-  friendly_name: DevOps Analyze
-  category: Stroke
+  friendly_name: IBM DevOps Analyze
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3346,8 +3099,8 @@
     - Graph
     - Bar
 - name: ZDevOpsBuild
-  friendly_name: DevOps Build
-  category: Stroke
+  friendly_name: IBM DevOps Build
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3360,8 +3113,8 @@
     - Developer
     - Build
 - name: ZDevOpsCICDPipeline
-  friendly_name: DevOps CICD Pipeline
-  category: Stroke
+  friendly_name: IBM DevOps CI/CD Pipeline
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3373,8 +3126,8 @@
     - Developer
     - Build
 - name: ZDevOpsCode
-  friendly_name: DevOps Code
-  category: Stroke
+  friendly_name: IBM DevOps Code
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3388,8 +3141,8 @@
     - Build
     - Code
 - name: ZDevOpsDebug
-  friendly_name: DevOps Debug
-  category: Stroke
+  friendly_name: IBM DevOps Debug
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3404,8 +3157,8 @@
     - Bug
     - Insect
 - name: ZDevOpsDeploy
-  friendly_name: DevOps Deploy
-  category: Stroke
+  friendly_name: IBM DevOps Deploy
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3419,8 +3172,8 @@
     - Build
     - Arrow
 - name: ZDevOpsDeveloperForZOS
-  friendly_name: DevOps Developer for z/OS®
-  category: Stroke
+  friendly_name: IBM DevOps Developer for z/OS®
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3433,8 +3186,8 @@
     - Developer
     - Build
 - name: ZDevOpsMonitor
-  friendly_name: DevOps Monitor
-  category: Stroke
+  friendly_name: IBM DevOps Monitor
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3448,8 +3201,8 @@
     - Build
     - Pulse
 - name: ZDevOpsPlan
-  friendly_name: DevOps Plan
-  category: Stroke
+  friendly_name: IBM DevOps Plan
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3464,8 +3217,8 @@
     - Time
     - Clock
 - name: ZDevOpsProvision
-  friendly_name: DevOps Provision
-  category: Stroke
+  friendly_name: IBM DevOps Provision
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3478,8 +3231,8 @@
     - DevOps
     - Build
 - name: ZDevOpsRelease
-  friendly_name: DevOps Release
-  category: Stroke
+  friendly_name: IBM DevOps Release
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3494,8 +3247,8 @@
     - Upload
     - Arrow
 - name: ZDevOpsTest
-  friendly_name: DevOps Test
-  category: Stroke
+  friendly_name: IBM DevOps Test
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3510,8 +3263,8 @@
     - OK
     - Checkmark
 - name: ZDigitalCore
-  friendly_name: Digital Core
-  category: Stroke
+  friendly_name: IBM Digital Core
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3522,22 +3275,9 @@
     - Hexagon
     - Build
     - Developer
-- name: ZDocBuddy
-  friendly_name: Doc Buddy
-  category: Stroke
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - Z
-    - Purple
-    - Blue
-    - Server
-    - Magnifier
-    - Magnifying glass
 - name: ZHMCMobile
   friendly_name: IBM HMC Mobile
-  category: Stroke
+  category: Stroke style
   aliases:
     - Systems
     - IT
@@ -3555,7 +3295,7 @@
     - LinuxONE
 - name: '001'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -3569,7 +3309,7 @@
     - Alarm
 - name: '002'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3581,7 +3321,7 @@
     - Transfer
 - name: '003'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -3600,7 +3340,7 @@
     - Linked
 - name: '004'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3614,7 +3354,7 @@
     - Linked
 - name: '005'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -3627,7 +3367,7 @@
     - Update
 - name: '006'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -3645,7 +3385,7 @@
     - Selected
 - name: '009'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -3665,7 +3405,7 @@
     - Shopping history
 - name: '010'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -3679,7 +3419,7 @@
     - Enclose
 - name: '011'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Purple
@@ -3695,7 +3435,7 @@
     - Audience
 - name: '012'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Purple
@@ -3714,7 +3454,7 @@
     - Update
 - name: '013'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Purple
@@ -3724,7 +3464,7 @@
     - Add
 - name: '014'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Purple
@@ -3743,7 +3483,7 @@
     - Statistics
 - name: '015'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3758,7 +3498,7 @@
     - Employee
 - name: '016'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3769,7 +3509,7 @@
     - Replace
 - name: '017'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3786,7 +3526,7 @@
     - Structure
 - name: '018'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3799,7 +3539,7 @@
     - Grouping
 - name: '019'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -3812,7 +3552,7 @@
     - Segment
 - name: '020'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3823,7 +3563,7 @@
     - Hybrid
 - name: '021'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Teal
     - Green
@@ -3839,7 +3579,7 @@
     - International
 - name: '022'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3848,7 +3588,7 @@
     - Download
 - name: '023'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -3863,7 +3603,7 @@
     - Groceries
 - name: '024'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3875,7 +3615,7 @@
     - Seafood
 - name: '025'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -3890,7 +3630,7 @@
     - Freshness
 - name: '026'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -3908,7 +3648,7 @@
     - Farm
 - name: '027'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -3926,7 +3666,7 @@
     - Harvest
 - name: '028'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3941,7 +3681,7 @@
     - Selections
 - name: '029'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -3959,7 +3699,7 @@
     - Workings
 - name: '030'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -3972,7 +3712,7 @@
     - Selection
 - name: '031'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Purple
@@ -3985,7 +3725,7 @@
     - Reset
 - name: '032'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -3999,7 +3739,7 @@
     - Grouping
 - name: '033'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4009,7 +3749,7 @@
     - Device independent
 - name: '034'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4019,7 +3759,7 @@
     - Pinpoint
 - name: '035'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4033,7 +3773,7 @@
     - Clipboard
 - name: '036'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4045,7 +3785,7 @@
     - Hardware
 - name: '037'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4057,7 +3797,7 @@
     - Monitor
 - name: '038'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4074,7 +3814,7 @@
     - Ranking
 - name: '039'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4085,7 +3825,7 @@
     - Savings
 - name: '040'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4098,7 +3838,7 @@
     - Approved
 - name: '041'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4108,7 +3848,7 @@
     - Process
 - name: '042'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4128,7 +3868,7 @@
     - Status
 - name: '043'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4148,7 +3888,7 @@
     - Library
 - name: '044'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4166,7 +3906,7 @@
     - Status
 - name: '045'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4178,7 +3918,7 @@
     - Directions
 - name: '048'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Purple
@@ -4193,7 +3933,7 @@
     - Priority
 - name: '049'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4209,7 +3949,7 @@
     - Reset
 - name: '050'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4223,7 +3963,7 @@
     - Go
 - name: '051'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4241,7 +3981,7 @@
     - Concern
 - name: '052'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4265,7 +4005,7 @@
     - Future state
 - name: '054'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4288,7 +4028,7 @@
     - Statistics
 - name: '056'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4305,7 +4045,7 @@
     - Link
 - name: '057'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4324,7 +4064,7 @@
     - Compliance
 - name: '059'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4336,7 +4076,7 @@
     - Responsive
 - name: '060'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4350,7 +4090,7 @@
     - Bytes
 - name: '061'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4365,7 +4105,7 @@
     - Update
 - name: '062'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4378,14 +4118,14 @@
     - Menu
 - name: '063'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
     - Expand
 - name: '064'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4394,7 +4134,7 @@
     - Expand
 - name: '065'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Magenta
     - Purple
@@ -4403,14 +4143,14 @@
     - Expand
 - name: '067'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Magenta
     - Purple
     - Circle
 - name: '068'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4420,7 +4160,7 @@
     - Volume
 - name: '069'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Magenta
     - Purple
@@ -4430,7 +4170,7 @@
     - Segment
 - name: '070'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4441,7 +4181,7 @@
     - Highlight
 - name: '071'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4453,7 +4193,7 @@
     - Transform
 - name: '072'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
@@ -4463,7 +4203,7 @@
     - Gauge
 - name: '073'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4479,19 +4219,19 @@
     - Growth
 - name: '074'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Magenta
     - Purple
 - name: '075'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
 - name: '076'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4500,7 +4240,7 @@
     - Join
 - name: '077'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
@@ -4512,27 +4252,27 @@
     - Define
 - name: '078'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Purple
     - Square
 - name: '079'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
     - Integration
 - name: '080'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Magenta
     - Purple
 - name: '081'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
@@ -4540,21 +4280,21 @@
     - Collection
 - name: '082'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
     - Compress
 - name: '083'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
     - Expand
 - name: '084'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
@@ -4565,31 +4305,31 @@
     - Gallery
 - name: '085'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
 - name: '086'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Magenta
     - Purple
 - name: '087'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
 - name: '088'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Magenta
     - Purple
 - name: '089'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4597,7 +4337,7 @@
     - Upload
 - name: '090'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Unassigned
     - Fill
@@ -4606,7 +4346,7 @@
     - Circle
 - name: '091'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4616,13 +4356,13 @@
     - Start
 - name: '092'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Magenta
     - Purple
 - name: '093'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Magenta
     - Purple
@@ -4631,14 +4371,14 @@
     - Pause
 - name: '094'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
     - Cloud
 - name: '095'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
@@ -4648,7 +4388,7 @@
     - Audio
 - name: '096'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4659,7 +4399,7 @@
     - Map
 - name: '097'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
@@ -4667,7 +4407,7 @@
     - Health
 - name: '099'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4678,7 +4418,7 @@
     - Convert
 - name: '100'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -4689,7 +4429,7 @@
     - Go
 - name: '101'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4704,7 +4444,7 @@
     - Manual
 - name: '102'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4720,7 +4460,7 @@
     - Notes
 - name: '103'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Teal
     - Green
@@ -4733,7 +4473,7 @@
     - Monetary
 - name: '104'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4743,7 +4483,7 @@
     - Calculate
 - name: '106'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Teal
     - Green
@@ -4763,7 +4503,7 @@
     - Interview
 - name: '107'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4777,7 +4517,7 @@
     - Conversion
 - name: '108'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4788,7 +4528,7 @@
     - Terminal
 - name: '109'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4800,7 +4540,7 @@
     - Dollars
 - name: '110'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4813,7 +4553,7 @@
     - Service ticket
 - name: '111'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4828,7 +4568,7 @@
     - Chat
 - name: '113'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4841,7 +4581,7 @@
     - Pound
 - name: '114'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4855,7 +4595,7 @@
     - Access
 - name: '115'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Text
@@ -4871,7 +4611,7 @@
     - Approved
 - name: '116'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4886,7 +4626,7 @@
     - Interdependence
 - name: '117'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4898,7 +4638,7 @@
     - Rice bowl
 - name: '118'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -4911,7 +4651,7 @@
     - Messaging
 - name: '119'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4926,7 +4666,7 @@
     - Access
 - name: '120'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4938,7 +4678,7 @@
     - Play
 - name: '121'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -4956,7 +4696,7 @@
     - Goals
 - name: '122'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -4975,7 +4715,7 @@
     - Goals
 - name: '123'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -4989,7 +4729,7 @@
     - Teammate
 - name: '124'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Green
     - Teal
@@ -5009,7 +4749,7 @@
     - Directory
 - name: '125'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Purple
@@ -5029,7 +4769,7 @@
     - Directory
 - name: '126'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Magenta
     - Purple
@@ -5043,7 +4783,7 @@
     - Notepad
 - name: '127'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -5059,7 +4799,7 @@
     - Wayfinder
 - name: '128'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Blue
     - Teal
@@ -5070,7 +4810,7 @@
     - Highlight
 - name: '129'
   friendly_name: Unassigned
-  category: Fill
+  category: Fill style
   aliases:
     - Purple
     - Blue
@@ -5087,7 +4827,7 @@
     - Sector
 - name: '130'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -5099,7 +4839,7 @@
     - Create
 - name: '131'
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -5118,7 +4858,7 @@
     - Approvals
 - name: Security-001
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Security
     - Purple
@@ -5134,7 +4874,7 @@
     - Partner
 - name: Security-002
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Security
     - Purple
@@ -5152,7 +4892,7 @@
     - Password
 - name: Security-003
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Security
     - Purple
@@ -5171,7 +4911,7 @@
     - Directory
 - name: Security-004
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Security
     - Purple
@@ -5184,7 +4924,7 @@
     - Create
 - name: Security-005
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Security
     - Purple
@@ -5202,7 +4942,7 @@
     - Slider
 - name: Security-006
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Security
     - Purple
@@ -5215,7 +4955,7 @@
     - Like
 - name: Security-007
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Security
     - Purple
@@ -5233,7 +4973,7 @@
     - Convert
 - name: Security-008
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Security
     - Purple
@@ -5246,7 +4986,7 @@
     - Search
 - name: Security-009
   friendly_name: Unassigned
-  category: Stroke
+  category: Stroke style
   aliases:
     - Security
     - Purple

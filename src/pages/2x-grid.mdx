@@ -9,12 +9,14 @@ import { PageDescription, AnchorLinks, AnchorLink } from 'gatsby-theme-carbon';
 
 <PageDescription>
 
+
 The IBM grid is the framework for all the visual elements and typography. It’s
 fundamental to everything we design. No matter what device or medium you’re
 working with, the grid gives you just enough structure and guidance so you can
 focus on your creative idea.
 
 </PageDescription>
+
 
 <AnchorLinks>
   <AnchorLink>Divisions of two</AnchorLink>
@@ -24,7 +26,9 @@ focus on your creative idea.
   <AnchorLink>2x Grid in UI</AnchorLink>
   <AnchorLink>2x Grid for video</AnchorLink>
 
+
 </AnchorLinks>
+
 
 <Video vimeoId="337387156" />
 
@@ -40,27 +44,36 @@ make decisions and organize your content.
 
 <ImageGallery>
 
+
 <ImageGalleryImage alt="watson chatbot" title="Watson chatbot" col={8}>
+
 
 ![watson chatbot](images/grid-ex-watson-chatbot.png)
 
 </ImageGalleryImage>
 
+
 <ImageGalleryImage alt="business card" title="Business card" col={4}>
+
 
 ![business card](images/grid-ex-business-card.png)
 
 </ImageGalleryImage>
 
+
 <ImageGalleryImage alt="cloud high performance" title="Cloud high performance" col={4}>
+
 
 ![cloud high performance](images/Cloud-Grid-HighPerformance.jpg)
 
 </ImageGalleryImage>
 
+
 <ImageGalleryImage alt="icon grid" title="Icon grid" col={4}>
 
+
 <GifPlayer>
+
 
 ![icon grid](images/IconGrid.gif)
 
@@ -68,35 +81,47 @@ make decisions and organize your content.
 
 </GifPlayer>
 
+
 </ImageGalleryImage>
 
+
 <ImageGalleryImage alt="grid example" title="Grid example" col={4}>
+
 
 ![grid example](images/grid-ex-sadek-bazaraa.jpg)
 
 </ImageGalleryImage>
 
+
 <ImageGalleryImage alt="street with rain" title="street with rain" col={4}>
+
 
 ![street with rain](images/grid-ex-street-rain.jpg)
 
 </ImageGalleryImage>
 
+
 <ImageGalleryImage alt="think schedule" title="Think schedule" col={8}>
+
 
 ![think schedule](images/grid-ex-think-schedule.png)
 
 </ImageGalleryImage>
 
+
 <ImageGalleryImage alt="tote bag" title="Tote bag" col={4}>
+
 
 ![tote bag](images/grid-ex-tote-bag.jpg)
 
 </ImageGalleryImage>
 
+
 <ImageGalleryImage alt="watson cloud" title="Watson cloud" col={4}>
 
+
 <GifPlayer color="dark">
+
 
 ![watson cloud](images/WatsonCloud.gif)
 
@@ -104,15 +129,20 @@ make decisions and organize your content.
 
 </GifPlayer>
 
+
 </ImageGalleryImage>
 
+
 <ImageGalleryImage alt="water thing example" title="Water thing example" col={4}>
+
 
 ![water thing example](images/grid-ex-water-thing.png)
 
 </ImageGalleryImage>
 
+
 </ImageGallery>
+
 
 ## Constructing the 2x grid
 
@@ -123,12 +153,14 @@ which one best serves your need.
 <Row className="mock-gallery">
 <Column colMd={2} colLg={4}>
 
+
 ![](images/grid-ex-2x-grid-1.svg)
 
 <Caption>No margin or gutter</Caption>
 
 </Column>
 <Column colMd={2} colLg={4}>
+
 
 ![](images/grid-ex-2x-grid-2.svg)
 
@@ -137,12 +169,14 @@ which one best serves your need.
 </Column>
 <Column colMd={2} colLg={4}>
 
+
 ![](images/grid-ex-2x-grid-3.svg)
 
 <Caption>Margin and gutter</Caption>
 
 </Column>
 </Row>
+
 
 ### Margins
 
@@ -154,6 +188,7 @@ boundaries. In some cases, margins are specified by the production method.
 <Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
+
 ![](images/grid-ex-2x-grid-with-margins.png)
 
 <Caption>2x Grid constructed with margins</Caption>
@@ -161,12 +196,14 @@ boundaries. In some cases, margins are specified by the production method.
 </Column>
 <Column colMd={4} colLg={6}>
 
+
 ![](images/EventGridExample_v2.png)
 
 <Caption>2x Grid without margins</Caption>
 
 </Column>
 </Row>
+
 
 ### Columns and rows
 
@@ -186,12 +223,14 @@ your choice throughout your design to maintain structure.
 <Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
+
 ![](images/RowsGridExample_v2.png)
 
 <Caption>Rows only</Caption>
 
 </Column>
 <Column colMd={4} colLg={6}>
+
 
 ![](images/grid-ex-columns-and-rows.png)
 
@@ -200,18 +239,22 @@ your choice throughout your design to maintain structure.
 </Column>
 </Row>
 
+
 <DoDontRow>
 <DoDont caption="Always divide the live area to ensure equal column and row widths.">
+
 
 ![](images/divide-right.svg)
 
 </DoDont>
 <DoDont type="dont" caption="Never divide from the canvas boundary when using a margin.">
 
+
 ![](images/divide-wrong.svg)
 
 </DoDont>
 </DoDontRow>
+
 
 ### Gutters
 
@@ -224,12 +267,14 @@ canvas divisions. Columns and rows must always remain equal.
 <Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
+
 ![](images/grid-ex-with-gutters.png)
 
 <Caption>With gutters</Caption>
 
 </Column>
 <Column colMd={4} colLg={6}>
+
 
 ![](images/grid-ex-without-gutters.png)
 
@@ -238,18 +283,22 @@ canvas divisions. Columns and rows must always remain equal.
 </Column>
 </Row>
 
+
 <DoDontRow>
 <DoDont caption="Distribute gutters evenly to achieve equal columns and rows.">
+
 
 ![](images/gutters-right.svg)
 
 </DoDont>
 <DoDont type="dont" caption="Never add gutter to the canvas divisions without redistributing.">
 
+
 ![](images/gutters-wrong.svg)
 
 </DoDont>
 </DoDontRow>
+
 
 ## Base unit
 
@@ -284,12 +333,14 @@ Mini unit sizes based on viewing distance:
 <Row className="mock-gallery">
 <Column colMd={2} colLg={4}>
 
+
 ![](images/mini-unit-2mm.svg)
 
 <Caption>Handheld card—2mm mini unit</Caption>
 
 </Column>
 <Column colMd={2} colLg={4}>
+
 
 ![](images/StandingBanner-01.svg)
 
@@ -298,6 +349,7 @@ Mini unit sizes based on viewing distance:
 </Column>
 <Column colMd={2} colLg={4}>
 
+
 ![](images/mini-unit-256mm.svg)
 
 <Caption>Billboard—256mm mini unit</Caption>
@@ -305,12 +357,15 @@ Mini unit sizes based on viewing distance:
 </Column>
 </Row>
 
+
 <ArtDirection>
+
 
 ![mini unit grid example](images/Mobile-mini-unit-all.svg)
 ![mini unit grid example](images/mini-unit-all.svg)
 
 </ArtDirection>
+
 
 <Caption>
   Grids above viewed at intended distance—all mini units have the same apparent
@@ -331,12 +386,15 @@ within it.
       href="https://www.carbondesignsystem.com/guidelines/2x-grid/basics#mini-unit"
       >
 
+
 ![](/images/carbon.png)
 
   </ResourceCard>
 </Column>
 
+
 </Row>
+
 
 ### Baseline unit
 
@@ -353,6 +411,7 @@ baseline grid to guide your content.
 <Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
 
+
 ![](images/BaselineGrid-01.svg)
 
 <Caption>Baseline unit grid</Caption>
@@ -360,12 +419,14 @@ baseline grid to guide your content.
 </Column>
 <Column colMd={4} colLg={6}>
 
+
 ![](images/HybridGrid-01.svg)
 
 <Caption>Hybrid mini unit grid with baseline</Caption>
 
 </Column>
 </Row>
+
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
@@ -375,6 +436,7 @@ baseline grid to guide your content.
       href="/typography/type-specs-ui/#scales"
       actionIcon="arrowRight"
       >
+
 
 ![](/images/bee.svg)
 
@@ -396,6 +458,7 @@ baseline grid to guide your content.
 </Column>
 </Row>
 
+
 ## Spatial relationships
 
 All spacing between elements can be defined by the base unit. Use the following
@@ -405,13 +468,16 @@ between all content.
 
 <ArtDirection>
 
+
 ![spatial relationship grid example](images/Mobile_SpatialRelationships.svg)
 ![spatial relationship grid example](images/Desktop_SpatialRelationships.svg)
 
 </ArtDirection>
 
+
 <Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
+
 
 ![](images/StandingBannerExample_v2.png)
 
@@ -420,12 +486,14 @@ between all content.
 </Column>
 <Column colMd={4} colLg={6}>
 
+
 ![](images/StationeryExample_v2.png)
 
 <Caption>IBM Letterhead (baseline unit)</Caption>
 
 </Column>
 </Row>
+
 
 ### Aspect relationships
 
@@ -452,6 +520,7 @@ interfaces, please visit
       actionIcon="launch"
       >
 
+
 ![carbon icon](/images/carbon.png)
 
   </ResourceCard>
@@ -464,11 +533,13 @@ interfaces, please visit
       href="https://www.carbondesignsystem.com/guidelines/2x-grid/implementation"
       >
 
+
 ![carbon icon](/images/carbon.png)
 
   </ResourceCard>
 </Column>
 </Row>
+
 
 ## 2x Grid for video
 
@@ -486,15 +557,18 @@ proper alignments within the overall layout.
 
 <Row>
 <Column colMd={4} colLg={4} noGutterSm>
-      <ResourceCard
+    <ResourceCard
+      download
       subTitle="2x video grid template"
       aspectRatio="2:1"
       actionIcon="download"
-      href="https://www.ibm.com/design/language/files/2x_video_grid.ai"
+      href="/files/2x_video_grid.ai"
       >
+
 
 ![carbon icon](/images/illustrator.png)
 
   </ResourceCard>
 </Column>
 </Row>
+

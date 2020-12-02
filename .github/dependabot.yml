@@ -2,6 +2,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
+    versioning-strategy: "lockfile-only"
     commit-message:
       prefix: "chore: "
     directory: "/"
@@ -14,5 +15,3 @@ updates:
     allow:
       - dependency-name: "@carbon/icons"
       - dependency-name: "@carbon/icons-react"
-      - dependency-name: "@carbon/pictograms"
-      - dependency-name: "@carbon/pictograms-react"

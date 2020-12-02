@@ -71,8 +71,6 @@
       .#{$prefix}--list-box__field {
         background: $ui-02;
         height: 3rem;
-        padding-top: $spacing-05;
-        padding-bottom: rem(15px);
         border-bottom: 1px solid $carbon--gray-20;
 
         &:hover {
@@ -104,7 +102,7 @@
 
           .#{$prefix}--list-box__menu-item__option {
             height: auto;
-            padding: rem(14px) 0;
+            padding: 0.875rem 0;
           }
         }
       }
