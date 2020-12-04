@@ -30,9 +30,16 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-fathom',
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        siteId: 'HLFJURXW',
+        name: 'IBM Design Language',
+        description:
+              'The IBM Design Language provides the guidance and assets used to express the IBM brand in products, communications, marketing, events and digital experiences.',
+        short_name: 'IDL',
+        start_url: 'https://www.ibm.com/design/language/',
+        icon: 'src/images/favicon.svg',
+        background_color: '#f4f4f4',
+        theme_color: '#0f62fe',
       },
     },
     `gatsby-plugin-sitemap`,
