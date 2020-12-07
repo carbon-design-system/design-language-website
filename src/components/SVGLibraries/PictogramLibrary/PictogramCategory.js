@@ -20,13 +20,13 @@ const IconCategory = ({ category, pictograms }) => {
     <section ref={sectionRef} className={svgCategory}>
       <h2 className={cx(h2, categoryTitle)}>{category}</h2>
       <ul className={cx(svgGrid, pictogramList)}>
-        {pictograms.map(pictogram => (
+        {pictograms.map((pictogram) => (
           <SvgCard
             containerIsVisible={containerIsVisible}
             key={pictogram.name}
             icon={pictogram}
-            height="35%"
-            width="35%"
+            height="23.5%"
+            width="23.5%"
           />
         ))}
       </ul>

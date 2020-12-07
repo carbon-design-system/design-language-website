@@ -1056,7 +1056,7 @@
     "@carbon/import-once" "^10.3.0"
     "@carbon/layout" "^10.13.0"
 
-"@carbon/icon-helpers@^10.10.0", "@carbon/icon-helpers@^10.9.0":
+"@carbon/icon-helpers@^10.10.0":
   version "10.10.0"
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.10.0.tgz#be6591539cc32a39965aecce8f871aaed5a3a120"
   integrity sha512-R/M2OfXwVOBKw7k4QPBjdtNxksPY41FM/7wzWvpkjtj+sjz5e1SOK89p4/gR3nfcwLOGTkmhMbhHgM9hENBT4g==
@@ -1089,17 +1089,18 @@
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-10.9.0.tgz#39cdfe2f9fc7ecc85479413a5b4eadb36e0e366d"
   integrity sha512-U3DsATkfzcqKOiXSa1DqWOo9HNeOkO4opGZkl0mQ40zhKyxwY0SJz1th1W/QdjXlAPlMeTRi2p45e86yEgrqyw==
 
-"@carbon/pictograms-react@^10.9.0":
-  version "10.18.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-10.18.0.tgz#2b4d1cebe1c022071f5e0dcd58dd62cb3f1af551"
-  integrity sha512-AuAQ8eMsGCgXugNvYKdmAA97K+WYoLcipId+B+dtP4JEDYlNhiXs11bNuvCz1xDyjX3XLl/QgKOA9utmA7MNAg==
+"@carbon/pictograms-react@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.npmjs.org/@carbon/pictograms-react/-/pictograms-react-11.0.0.tgz#0aad34e9927ed17f3e2c72b44c826aaf380af5ff"
+  integrity sha512-u+PeY1zgTwlSz9AT7fTlDxGkC1vFcf6Db9fsDBUJ/oJO/MEBYz/EjwRzqMPeMn6cqA5b3/mLJTFzr+sC9KCEQw==
   dependencies:
-    "@carbon/icon-helpers" "^10.9.0"
+    "@carbon/icon-helpers" "^10.10.0"
+    prop-types "^15.7.2"
 
-"@carbon/pictograms@^10.18.0":
-  version "10.18.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-10.18.0.tgz#c7953b2c58196431ae49877a472617fa41acbc88"
-  integrity sha512-ZNss+t+mW6IkfPS/FA7srZE+8Db8jXKuXB+xFVRgP6RvQeUVp46FhUvEbhBasgV3eKx89tyjeuhfoxpOOg5Rog==
+"@carbon/pictograms@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.npmjs.org/@carbon/pictograms/-/pictograms-11.0.0.tgz#51029a6ee259dd2dbfc869c8f62e3c45926ee855"
+  integrity sha512-2vEpklUxjMMsBLUrX/PaScOVtX2I6Dh1V7HxkER0Jmk+7o3bN0PW1+qrO2ifwfs276qKeTnAw8SNz40UfkrWPQ==
 
 "@carbon/themes@^10.19.0":
   version "10.21.0"
