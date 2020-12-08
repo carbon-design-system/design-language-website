@@ -50,7 +50,6 @@ Find design tools and repositories for the IBM Plex® typeface and other element
 <ResourceCard
 subTitle="Carbon libraries"
 href="https://www.carbondesignsystem.com/designing/kits/sketch"
-actionIcon="arrowRight"
 >
 
 ![Carbon theme libraries](/images/SketchIcon.svg)
@@ -115,7 +114,7 @@ actionIcon="arrowRight"
 <Row className="resource-card-group typography-external">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Simplified Chinese Noto Sans CJK SC"
+      subTitle={<>Simplified Chinese<br />Noto Sans CJK SC</>}
       aspectRatio="2:1"
       href="https://www.google.com/get/noto/#serif-hans"
       >
@@ -127,7 +126,7 @@ actionIcon="arrowRight"
 
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Traditional Chinese Noto Sans CJK TC"
+      subTitle={<>Traditional Chinese<br /> Noto Sans CJK TC</>}
       aspectRatio="2:1"
       href="https://www.google.com/get/noto/#sans-hant"
       >
@@ -139,7 +138,7 @@ actionIcon="arrowRight"
 
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Japanese Noto Sans JP"
+      subTitle={<>Japanese<br />Noto Sans JP</>}
       aspectRatio="2:1"
       href="https://fonts.google.com/specimen/Noto+Sans+JP"
       >
@@ -152,8 +151,7 @@ actionIcon="arrowRight"
 <Column colMd={2} colLg={3} offsetMd={1} offsetLg={1} className="hide-mobile type-alt-sidebar" >
 <Aside>
 
-For the typefaces still missing from the Plex family
-(Chinese, Japanese), please use the mentioned alternatives.
+Some typefaces are still under development for the Plex family. For Chinese and Japanese, please use the alternatives shown here.
 
 </Aside>
 </Column>
@@ -178,7 +176,6 @@ For the typefaces still missing from the Plex family
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
       subTitle="Color in UI"
-      actionIcon="arrowRight"
       href="https://www.carbondesignsystem.com/guidelines/color/overview"
       >
 
@@ -218,7 +215,6 @@ href="https://marijohannessen.github.io/color-contrast-checker/"
   subTitle="2x Grid in UI: overview"
   aspectRatio="2:1"
   href="https://www.carbondesignsystem.com/guidelines/2x-grid/overview"
-  actionIcon="arrowRight"
 >
 
 ![carbon icon](/images/carbon.png)
@@ -231,7 +227,6 @@ href="https://marijohannessen.github.io/color-contrast-checker/"
   subTitle="2x Grid in UI: implementation"
   aspectRatio="2:1"
   href="https://www.carbondesignsystem.com/guidelines/2x-grid/implementation"
-  actionIcon="arrowRight"
 >
 
 ![carbon icon](/images/carbon.png)
@@ -257,7 +252,6 @@ href="https://www.ibm.com/design/language/files/2x_video_grid.ai"
   subTitle="2x Grid in UI: the mini unit"
   aspectRatio="2:1"
   href="https://www.carbondesignsystem.com/guidelines/2x-grid/basics#mini-unit"
-  actionIcon="arrowRight"
 >
 
 ![carbon icon](/images/carbon.png)
@@ -290,9 +284,8 @@ href="https://www.ibm.com/design/language/files/2x_video_grid.ai"
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle={<>IBMer IBM logo request<br />(IBM ID required)</>}
+      subTitle={<>Internal IBM logo request<br />(IBM ID required)</>}
       href="https://www.ibm.com/brand/ibm-logos/logo-requests"
-      actionIcon="arrowRight"
       >
 
 ![ibm logo](/images/ibm.svg)
@@ -302,9 +295,8 @@ href="https://www.ibm.com/design/language/files/2x_video_grid.ai"
 
 <Column colMd={4} colLg={4} noGutterSm>
 <ResourceCard
-  subTitle={<>Third-party IBM logo request tool<br />(IBM ID required)</>}
+  subTitle={<>Third-party IBM logo request<br />(IBM ID required)</>}
   href="https://prdpcrhibmbl01.w3-969.ibm.com/marketing/logotool/logotool.nsf/BrandingLogoHome?Openform"
-  actionIcon="arrowRight"
 >
 
 ![IBM Icon](/images/ibm.svg)
@@ -316,7 +308,6 @@ href="https://www.ibm.com/design/language/files/2x_video_grid.ai"
 <ResourceCard
   subTitle={<>IBM co-branding<br />(IBM ID required)</>}
   href="https://www.ibm.com/brand/ibm-logos/co-branding"
-  actionIcon="arrowRight"
 >
 
 ![Bee Icon](/images/bee.png)
@@ -366,7 +357,28 @@ actionIcon="download"
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="IBM icons (.ai and .svg)"
+      subTitle="IBM UI icons master"
+      actionIcon="download"
+      href="https://github.com/carbon-design-system/carbon/raw/master/packages/icons/master/ui-icon-master.ai"
+      >
+
+![Adobe Illustrator](/images/illustrator2.png)
+
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM UI icons (.svg)"
+      href="https://github.com/carbon-design-system/carbon/tree/master/packages/icons/src/svg"
+      >
+
+![Github Icon](/images/github-icon.png)
+
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM UI icons repo"
       href="https://github.com/carbon-design-system/carbon/tree/master/packages/icons"
       >
 
@@ -381,12 +393,33 @@ actionIcon="download"
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="IBM app icon master"
+      subTitle="IBM app icons master"
       actionIcon="download"
       href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Master.ai"
       >
 
 ![Adobe Illustrator](/images/illustrator2.png)
+
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM app icons (.svg)"
+      href="https://github.ibm.com/brand/App-icons/tree/master/svg"
+      >
+
+![Github Icon](/images/github-icon.png)
+
+</ResourceCard>
+</Column>
+
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM app icons repo"
+      href="https://github.ibm.com/brand/App-icons"
+      >
+
+![Github Icon](/images/github-icon.png)
 
 </ResourceCard>
 </Column>
@@ -470,12 +503,32 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="IBM pictogram master"
+      subTitle="IBM pictograms master"
       actionIcon="download"
       href="https://github.com/carbon-design-system/carbon/raw/master/packages/pictograms/master/pictogram-master.ai"
       >
 
 ![Adobe Illustrator](/images/illustrator2.png)
+
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM pictograms (.svg)"
+      href="https://github.com/carbon-design-system/carbon/tree/master/packages/pictograms/src/svg"
+      >
+
+![Github Icon](/images/github-icon.png)
+
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM pictograms repo"
+      href="https://github.com/carbon-design-system/carbon/tree/master/packages/pictograms"
+      >
+
+![Github Icon](/images/github-icon.png)
 
 </ResourceCard>
 </Column>
@@ -530,7 +583,6 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
       subTitle={<>Photography library<br />(IBM ID required)</>}
       aspectRatio="2:1"
       href="https://www.ibm.com/brand/photography#photo-library"
-      actionIcon="arrowRight"
       >
 
 ![Bee Icon](/images/bee.png)
@@ -547,7 +599,6 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
       subTitle="Carbon data visualization"
       aspectRatio="2:1"
       href="https://www.carbondesignsystem.com/data-visualization/getting-started"
-      actionIcon="arrowRight"
       >
 
 ![carbon Icon](/images/carbon.png)
@@ -556,10 +607,9 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Data visualization color palette"
+      subTitle="Carbon data visualization color palette"
       aspectRatio="2:1"
       href="https://www.carbondesignsystem.com/data-visualization/color-palettes/"
-      actionIcon="arrowRight"
       >
 
 ![carbon Icon](/images/carbon.png)
@@ -576,7 +626,6 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
       subTitle="Motion in UI"
       aspectRatio="2:1"
       href="https://www.carbondesignsystem.com/guidelines/motion/overview"
-      actionIcon="arrowRight"
       >
 
 ![carbon Icon](/images/carbon.png)
@@ -615,7 +664,6 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
       subTitle="Getting started with Carbon"
       aspectRatio="2:1"
       href="https://www.carbondesignsystem.com/designing/get-started"
-      actionIcon="arrowRight"
       >
 
 ![carbon Icon](/images/carbon.png)
@@ -627,7 +675,6 @@ href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-
       subTitle={<>Brand Center resource page<br />(IBM ID required)</>}
       aspectRatio="2:1"
       href="https://www.ibm.com/brand/resources"
-      actionIcon="arrowRight"
       >
 
 ![Bee Icon](/images/bee.png)
