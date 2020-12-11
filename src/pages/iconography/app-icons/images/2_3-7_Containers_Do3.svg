@@ -1,0 +1,26 @@
+<svg id="bb59e117-60a9-4efb-a5ac-e3da87990cfd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 288">
+  <defs>
+    <linearGradient id="ac8a0e39-7581-44a5-af9c-66c2e78998c1" x1="159.333" y1="159.511" x2="159.333" y2="132.678" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fbc2b33a-2d70-4cdc-b203-334539b00b13" x="82.667" y="82.845" width="122.667" height="122.667" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M155.5,171.011v15.334H101.833V132.678H155.5v26.833h7.667V132.678a7.667,7.667,0,0,0-7.667-7.667H101.833a7.667,7.667,0,0,0-7.666,7.667v53.667a7.666,7.666,0,0,0,7.666,7.666H155.5a7.667,7.667,0,0,0,7.667-7.666V171.011Z" fill="#fff"/>
+        <polygon points="167 159.511 151.667 159.511 155.5 132.678 163.167 132.678 167 159.511" fill="url(#ac8a0e39-7581-44a5-af9c-66c2e78998c1)"/>
+      </g>
+    </mask>
+    <linearGradient id="bed26d89-b98b-4a04-8ab1-d9ec38d34d3d" x1="82.667" y1="205.511" x2="205.333" y2="82.845" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#ff7eb6"/>
+      <stop offset="0.9" stop-color="#a56eff"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0H288V288H0Z" fill="#fff" fill-rule="evenodd"/>
+  <circle cx="143.223" cy="145.616" r="92"/>
+  <g>
+    <g mask="url(#fbc2b33a-2d70-4cdc-b203-334539b00b13)">
+      <rect x="82.667" y="82.845" width="122.667" height="122.667" fill="url(#bed26d89-b98b-4a04-8ab1-d9ec38d34d3d)"/>
+    </g>
+    <path d="M186.167,94.345H132.5a7.667,7.667,0,0,0-7.667,7.666v15.334H132.5V102.011h53.671v53.672H132.5V140.345h-7.667v15.338a7.667,7.667,0,0,0,7.667,7.666h53.671a7.666,7.666,0,0,0,7.666-7.666V102.011A7.666,7.666,0,0,0,186.167,94.345Z" fill="#f4f4f4"/>
+  </g>
+</svg>

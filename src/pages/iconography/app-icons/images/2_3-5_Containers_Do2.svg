@@ -1,0 +1,31 @@
+<svg id="ee579d3b-b5da-4678-908a-b3667bdd4e83" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 288">
+  <defs>
+    <linearGradient id="b382aaf6-698c-4561-90cf-15396ce2e64c" x1="-1177.681" y1="-2894.167" x2="-1177.681" y2="-2863.5" gradientTransform="translate(1329.348 2984.014)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-opacity="0"/>
+      <stop offset="0.82"/>
+    </linearGradient>
+    <linearGradient id="b7b2681f-8171-415c-8bd6-955ec4e1dff1" x1="-1254.348" y1="-3672.167" x2="-1254.348" y2="-3641.5" gradientTransform="matrix(1, 0, 0, -1, 1390.681, -3474.986)" xlink:href="#b382aaf6-698c-4561-90cf-15396ce2e64c"/>
+    <mask id="f9c1519d-8f1c-42d3-bb57-dd50a4bb8e1d" x="82.667" y="82.181" width="122.667" height="122.667" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M182.333,166.514a15.147,15.147,0,0,0-7.739,2.174l-17.5-17.507-5.423,5.424,17.506,17.5a15.1,15.1,0,0,0-1.628,3.906H124.833v7.667h42.712a15.308,15.308,0,1,0,14.788-19.167Zm0,23A7.667,7.667,0,1,1,190,181.848,7.675,7.675,0,0,1,182.333,189.514Z" fill="#fff"/>
+        <path d="M136.333,130.427l-17.506-17.506a15.1,15.1,0,0,0,1.628-3.907h42.712v-7.666H120.455a15.308,15.308,0,1,0-14.788,19.166,15.147,15.147,0,0,0,7.739-2.173l17.507,17.507Zm-30.666-17.579a7.667,7.667,0,1,1,7.666-7.667A7.675,7.675,0,0,1,105.667,112.848Z" fill="#fff"/>
+        <rect x="144" y="89.848" width="15.333" height="30.667" transform="translate(46.486 256.848) rotate(-90)" fill="url(#b382aaf6-698c-4561-90cf-15396ce2e64c)"/>
+        <rect x="128.667" y="166.514" width="15.333" height="30.667" transform="translate(-45.514 318.181) rotate(-90)" fill="url(#b7b2681f-8171-415c-8bd6-955ec4e1dff1)"/>
+      </g>
+    </mask>
+    <linearGradient id="adb0a434-7c2f-4ef8-9112-43c4fc8c881b" x1="82.667" y1="204.848" x2="205.333" y2="82.181" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#43d1cf"/>
+      <stop offset="0.9" stop-color="#418cff"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0H288V288H0Z" fill="#fff" fill-rule="evenodd"/>
+  <g>
+    <circle cx="144" cy="143.514" r="92"/>
+    <g>
+      <g mask="url(#f9c1519d-8f1c-42d3-bb57-dd50a4bb8e1d)">
+        <rect x="82.667" y="82.181" width="122.667" height="122.667" fill="url(#adb0a434-7c2f-4ef8-9112-43c4fc8c881b)"/>
+      </g>
+      <path d="M182.333,89.848A15.351,15.351,0,0,0,167,105.181a15.154,15.154,0,0,0,2.173,7.74l-55.767,55.767a15.147,15.147,0,0,0-7.739-2.174A15.334,15.334,0,1,0,121,181.848a15.154,15.154,0,0,0-2.173-7.74l55.767-55.767a15.147,15.147,0,0,0,7.739,2.173,15.333,15.333,0,1,0,0-30.666Zm-76.666,99.666a7.667,7.667,0,1,1,7.666-7.666A7.675,7.675,0,0,1,105.667,189.514Zm76.666-76.666A7.667,7.667,0,1,1,190,105.181,7.675,7.675,0,0,1,182.333,112.848Z" fill="#f4f4f4"/>
+    </g>
+  </g>
+</svg>
