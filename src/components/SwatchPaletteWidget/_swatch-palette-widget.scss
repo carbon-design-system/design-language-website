@@ -48,7 +48,7 @@
     z-index: 8888;
     margin: 0 -1rem;
     padding: 0 $spacing-05;
-    background: $ui-01;
+    background: $ui-02;
     top: 3rem;
   }
 }
@@ -74,7 +74,7 @@
     }
 
     &:not(.#{$prefix}--content-switcher--selected) {
-      background-color: $ui-02;
+      background-color: $ui-01;
       color: $text-01;
 
       &:hover {
