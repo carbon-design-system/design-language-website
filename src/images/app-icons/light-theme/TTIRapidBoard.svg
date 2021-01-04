@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b9f0a685-f114-4024-bf67-c321e3e4e6e3" x1="17" y1="27.5" x2="31" y2="27.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.9"/>
+    </linearGradient>
+    <mask id="b7964ab7-b458-442b-9237-4030a1d2663b" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M18,23H16V21a3,3,0,0,0-3-3H9a3,3,0,0,0-3,3v2H4V21a5.006,5.006,0,0,1,5-5h4a5.006,5.006,0,0,1,5,5Z" fill="#fff"/>
+      <path d="M11,6A3,3,0,1,1,8,9a3,3,0,0,1,3-3m0-2a5,5,0,1,0,5,5A5,5,0,0,0,11,4Z" fill="#fff"/>
+      <rect x="2" y="24" width="18" height="3"/>
+      <rect x="2" y="26" width="28" height="2" fill="#fff"/>
+      <rect x="17" y="25" width="14" height="5" fill="url(#b9f0a685-f114-4024-bf67-c321e3e4e6e3)"/>
+    </mask>
+    <linearGradient id="ae6e3cfb-afc6-49d8-993e-16a353c38c86" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g id="bd24be82-c366-4f30-bdda-636e6f50ffbb" data-name="Layer 2">
+    <g id="bd745605-e2a4-47c7-b679-dc21b3f51fa6" data-name="Light theme">
+      <g>
+        <g mask="url(#b7964ab7-b458-442b-9237-4030a1d2663b)">
+          <rect width="32" height="32" fill="url(#ae6e3cfb-afc6-49d8-993e-16a353c38c86)"/>
+        </g>
+        <path d="M30,8H27.985L28,6H26V4h4ZM19,4h4V6H20.988V8H19Zm9,9h2v2H28Zm-2-2h2v2H26Zm-7,0h2.02L21,13h2v2H19Z" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>

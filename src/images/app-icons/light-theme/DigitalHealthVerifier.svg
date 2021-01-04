@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a6e65438-a77c-4dd8-b698-751500628792" x1="7" y1="16" x2="31" y2="16" gradientTransform="translate(16.878 -8.749) rotate(44.999)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#42be65"/>
+      <stop offset="0.9" stop-color="#007d79"/>
+    </linearGradient>
+  </defs>
+  <g id="f9ad7e8a-65a9-4b59-8181-2e662f5d0f7a" data-name="Layer 2">
+    <g id="fc44bbbf-8683-4504-8e09-6ed6f63656e6" data-name="Build icon here">
+      <g>
+        <rect x="2.757" y="11.757" width="8.485" height="8.485" transform="translate(13.364 -0.263) rotate(45)" fill="#001d6c"/>
+        <rect x="6.273" y="11.757" width="25.455" height="8.485" transform="translate(-5.748 18.121) rotate(-44.999)" fill="url(#a6e65438-a77c-4dd8-b698-751500628792)"/>
+        <rect width="32" height="32" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

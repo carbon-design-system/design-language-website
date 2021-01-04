@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b06f4501-ec85-431d-8841-ed2d5ef165a9" x1="-2141.504" y1="2039.004" x2="-2141.504" y2="2027.004" gradientTransform="matrix(1, 0, 0, -1, 2159.504, 2060.504)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.442"/>
+      <stop offset="0.867" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="a2f74fc8-a246-4b4b-8488-2913eae7ed80" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M16,22a6,6,0,1,1,6-6A5.937,5.937,0,0,1,16,22Zm0-10a3.913,3.913,0,0,0-4,4,3.913,3.913,0,0,0,4,4,3.913,3.913,0,0,0,4-4A3.913,3.913,0,0,0,16,12Z" fill="#fff"/>
+        <path d="M29.305,11.044,26.944,6.956a2,2,0,0,0-2.373-.894l-2.434.823a11.214,11.214,0,0,0-1.312-.759l-.5-2.518A2,2,0,0,0,18.36,2H13.64a2,2,0,0,0-1.962,1.608l-.5,2.518a11.1,11.1,0,0,0-1.327.754L7.429,6.062a2,2,0,0,0-2.373.894L2.7,11.044a2,2,0,0,0,.412,2.5l1.931,1.7C5.021,15.5,5,15.745,5,16s.01.513.028.766L3.107,18.454a2,2,0,0,0-.412,2.5l2.361,4.088a2,2,0,0,0,2.373.894l2.434-.823a11.074,11.074,0,0,0,1.312.759l.5,2.518A2,2,0,0,0,13.64,30H23V28H13.64l-.711-3.551a9.1,9.1,0,0,1-2.694-1.571L6.788,24.044,4.427,19.956l2.726-2.395a8.908,8.908,0,0,1-.007-3.128L4.427,12.044,6.789,7.956l3.426,1.159a9.04,9.04,0,0,1,2.714-1.564L13.64,4h4.72l.711,3.551a9.1,9.1,0,0,1,2.694,1.571l3.447-1.166,2.361,4.088-2.8,2.452L26.092,16l2.8-2.454A2,2,0,0,0,29.305,11.044Z" fill="#fff"/>
+        <rect x="13.5" y="21.5" width="9" height="12" transform="translate(45.5 9.5) rotate(90)" fill="url(#b06f4501-ec85-431d-8841-ed2d5ef165a9)"/>
+      </g>
+    </mask>
+    <linearGradient id="fe029bec-d6b1-4d09-aafd-64bb4ccd615b" x1="40.176" y1="31.529" x2="71.235" y2="0.471" gradientTransform="translate(-43.187) scale(1.063 1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g id="a785dd0d-a7d4-44fe-8516-690d13056520" data-name="Layer 2">
+    <g id="ee95feeb-b9ac-4de3-a1c4-68d1f48f2d26" data-name="Light theme">
+      <g>
+        <g mask="url(#a2f74fc8-a246-4b4b-8488-2913eae7ed80)">
+          <rect width="32" height="32" fill="url(#fe029bec-d6b1-4d09-aafd-64bb4ccd615b)"/>
+        </g>
+        <polygon points="23 26.18 20.41 23.59 19 25 23 29 30 22 28.59 20.59 23 26.18" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>

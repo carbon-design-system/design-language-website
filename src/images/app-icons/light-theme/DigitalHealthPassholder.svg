@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bcb5e389-0876-4f55-aa35-42708a0cb4a6" x1="4" y1="20" x2="20" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#42be65"/>
+      <stop offset="0.9" stop-color="#007d79"/>
+    </linearGradient>
+    <linearGradient id="ed6a675e-8738-4adc-b47d-ceb69767ed6f" x1="-1605.038" y1="18" x2="-1597.038" y2="18" gradientTransform="translate(-1577.038 34) rotate(180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161616" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#161616" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <g id="b574daf0-e0ec-41da-b01d-ec275b6907cb" data-name="Layer 2">
+    <g id="a2aee1f7-833a-493d-9592-2ceddf932b8b" data-name="Build icon here">
+      <g>
+        <rect width="32" height="32" fill="none"/>
+        <polygon points="4 20 12 20 12 28 20 28 20 12 4 12 4 20" fill="url(#bcb5e389-0876-4f55-aa35-42708a0cb4a6)"/>
+        <rect x="12" y="4" width="8" height="8" fill="#001d6c"/>
+        <rect x="20" y="12" width="8" height="8" fill="url(#ed6a675e-8738-4adc-b47d-ceb69767ed6f)"/>
+      </g>
+    </g>
+  </g>
+</svg>
