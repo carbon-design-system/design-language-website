@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="fbe83b64-ffd8-4048-b992-ecd5da9810bf" x1="10" y1="29" x2="19" y2="29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.88"/>
+    </linearGradient>
+    <mask id="e80f6988-73a6-484f-9ae7-8bef05a93218" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <rect x="19.249" y="27.417" width="4.751" height="3.513"/>
+      <g>
+        <rect x="6" y="14" width="7" height="2" fill="#fff"/>
+        <rect x="6" y="6" width="4" height="2" fill="#fff"/>
+        <circle cx="7" cy="11" r="1" fill="#fff"/>
+        <path d="M18,28H4V4H22V8h2V4a2,2,0,0,0-2-2H4A2,2,0,0,0,2,4V28a2,2,0,0,0,2,2H18Z" fill="#fff"/>
+        <circle cx="12" cy="19" r="1" fill="#fff"/>
+        <rect x="16" y="6" width="4" height="2" fill="#fff"/>
+        <circle cx="13" cy="7" r="1" fill="#fff"/>
+        <rect x="10" y="10" width="7" height="2" fill="#fff"/>
+        <rect x="6" y="22" width="8" height="2" fill="#fff"/>
+        <rect x="6" y="18" width="3" height="2" fill="#fff"/>
+      </g>
+      <rect x="10" y="27" width="9" height="4" fill="url(#fbe83b64-ffd8-4048-b992-ecd5da9810bf)"/>
+    </mask>
+    <linearGradient id="aca42b8c-df37-435a-8384-d0b46302e3da" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="a6b7b829-adf2-47b6-8212-d1fd4fca07c5" data-name="Layer 2">
+    <g id="b663c76f-5433-4d59-93a8-27a02a223732" data-name="Layer 1">
+      <g>
+        <g mask="url(#e80f6988-73a6-484f-9ae7-8bef05a93218)">
+          <rect width="32" height="32" fill="url(#aca42b8c-df37-435a-8384-d0b46302e3da)"/>
+        </g>
+        <rect x="20" y="25" width="7" height="2" fill="#f4f4f4"/>
+        <rect x="22" y="29" width="3" height="2" fill="#f4f4f4"/>
+        <path d="M27,23H25a3.925,3.925,0,0,1,1.159-2.8l.524-.523a4.5,4.5,0,1,0-6.365,0l.525.525A3.924,3.924,0,0,1,22,23H20a1.938,1.938,0,0,0-.571-1.379L18.9,21.1a6.5,6.5,0,1,1,9.193,0l-.525.524A1.937,1.937,0,0,0,27,23Z" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>

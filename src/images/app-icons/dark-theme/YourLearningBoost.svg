@@ -1,0 +1,26 @@
+<svg id="fbcdca1e-35f7-47af-8982-3e317a388804" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bd6b7e05-c221-4441-abef-9ddcb24bbcf0" x1="3.719" y1="14.049" x2="18.281" y2="17.951" gradientUnits="userSpaceOnUse">
+      <stop offset="0.16" stop-opacity="0"/>
+      <stop offset="0.6"/>
+    </linearGradient>
+    <linearGradient id="f9e9cb91-a471-4b18-b18e-7d556a83d50c" x1="-4458.281" y1="-617.049" x2="-4443.719" y2="-620.951" gradientTransform="translate(4467 640)" xlink:href="#bd6b7e05-c221-4441-abef-9ddcb24bbcf0"/>
+    <mask id="e45cc55d-38fd-4c40-b8e8-2b8efe695068" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M17.742,27.125,21,24.52V17a1,1,0,0,1,.293-.707l4.071-4.071A8.945,8.945,0,0,0,28,5.858V4H26.143a8.941,8.941,0,0,0-6.365,2.636l-4.071,4.071A1,1,0,0,1,15,11H7.48L4.875,14.258,17.142,16.01l-.284,1.98-14-2a1,1,0,0,1-.639-1.615l4-5A1,1,0,0,1,7,9h7.586l3.778-3.778A10.926,10.926,0,0,1,26.143,2H28a2,2,0,0,1,2,2V5.858a10.931,10.931,0,0,1-3.222,7.778L23,17.414V25a1,1,0,0,1-.375.781l-5,4a1,1,0,0,1-1.615-.639l-2-14,1.98-.284Z" fill="#fff"/>
+        <rect x="4" y="13" width="14" height="6" fill="url(#bd6b7e05-c221-4441-abef-9ddcb24bbcf0)"/>
+        <rect x="9" y="18" width="14" height="6" transform="translate(-5 37) rotate(-90)" fill="url(#f9e9cb91-a471-4b18-b18e-7d556a83d50c)"/>
+      </g>
+    </mask>
+    <linearGradient id="ff1fec34-f8c5-4317-a703-1506f1ac9926" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#e45cc55d-38fd-4c40-b8e8-2b8efe695068)">
+      <rect width="32" height="32" fill="url(#ff1fec34-f8c5-4317-a703-1506f1ac9926)"/>
+    </g>
+    <rect x="6.343" y="19" width="11.314" height="2" transform="translate(-10.627 14.343) rotate(-45)" fill="#f4f4f4"/>
+  </g>
+</svg>

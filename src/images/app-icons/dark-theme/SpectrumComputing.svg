@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bdf44216-c4e3-4933-bf91-577d2ac7cd11" x1="5.183" y1="17.843" x2="14.815" y2="1.161" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.65" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="e44eb354-c377-4fed-967e-a64f92fbe7a2" x1="5.183" y1="205.347" x2="14.815" y2="188.665" gradientTransform="matrix(1, 0, 0, -1, 0, 219.504)" xlink:href="#bdf44216-c4e3-4933-bf91-577d2ac7cd11"/>
+    <linearGradient id="b4e1d44d-a18d-42fe-90dc-3a816d292d3e" x1="14" y1="16" x2="25" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="af588043-a7ba-44fe-9d55-d0ce6d1473b0" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M2.864,16.5,1.136,15.5l7-12A1,1,0,0,1,9,3h9V5H9.574Z" fill="url(#bdf44216-c4e3-4933-bf91-577d2ac7cd11)"/>
+      <path d="M2.864,15.5,1.136,16.5l7,12A1,1,0,0,0,9,29h9V27H9.574Z" fill="url(#e44eb354-c377-4fed-967e-a64f92fbe7a2)"/>
+      <rect x="14" y="15" width="11" height="2" fill="url(#b4e1d44d-a18d-42fe-90dc-3a816d292d3e)"/>
+    </mask>
+    <linearGradient id="a8de0b09-479b-4c99-aac6-f8136fce46e1" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#d4bbff"/>
+      <stop offset="0.9" stop-color="#ee5396"/>
+    </linearGradient>
+  </defs>
+  <g id="e2c1d353-fba5-47f4-a1c3-37b8731be5ef" data-name="Layer 2">
+    <g id="fe6777ee-0095-4176-822f-f7447fd529a0" data-name="Dark theme icons">
+      <g>
+        <g mask="url(#af588043-a7ba-44fe-9d55-d0ce6d1473b0)">
+          <rect width="32" height="32" fill="url(#a8de0b09-479b-4c99-aac6-f8136fce46e1)"/>
+        </g>
+        <circle cx="29" cy="16" r="2" fill="#f4f4f4"/>
+        <circle cx="22" cy="4" r="2" fill="#f4f4f4"/>
+        <circle cx="22" cy="28" r="2" fill="#f4f4f4"/>
+        <path d="M10.75,22H4.917a1,1,0,0,1-.864-.5l-2.917-5a1,1,0,0,1,0-1.008l2.917-5a1,1,0,0,1,.864-.5H10.75a1,1,0,0,1,.864.5l2.916,5a1,1,0,0,1,0,1.008l-2.916,5A1,1,0,0,1,10.75,22ZM5.491,20h4.685l2.333-4-2.333-4H5.491L3.158,16Z" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>

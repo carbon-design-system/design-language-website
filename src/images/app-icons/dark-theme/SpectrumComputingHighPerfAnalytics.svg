@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a127d85b-2e0a-43d8-9dac-7729704baadd" x1="2" y1="16" x2="16" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0.3" stop-color="#fff"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="e7368876-bea4-4e1e-948d-1905d0336acf" x1="791.528" y1="469.515" x2="805.537" y2="469.453" gradientTransform="translate(818.076 479.409) rotate(179.998)" xlink:href="#a127d85b-2e0a-43d8-9dac-7729704baadd"/>
+    <linearGradient id="ec6861b6-c26d-4418-96b8-2ede599355ed" x1="791.528" y1="-437.515" x2="805.537" y2="-437.453" gradientTransform="translate(457.007 820.581) rotate(-90)" xlink:href="#a127d85b-2e0a-43d8-9dac-7729704baadd"/>
+    <mask id="ab8b88aa-4041-4ad3-8ea2-3c3fbd85eb82" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <rect x="2" y="15" width="14" height="2" fill="url(#a127d85b-2e0a-43d8-9dac-7729704baadd)"/>
+      <path d="M18,21H13.333a1,1,0,0,1-.863-.5l-2.334-4a1,1,0,0,1,0-1.008l2.334-4a1,1,0,0,1,.863-.5H18a1,1,0,0,1,.864.5l2.333,4a1,1,0,0,1,0,1.008l-2.333,4A1,1,0,0,1,18,21Zm-4.092-2h3.518l1.75-3-1.75-3H13.908l-1.75,3Z" fill="#fff"/>
+      <rect x="12.527" y="8.954" width="14" height="2" transform="translate(1.09 21.805) rotate(-59.742)" fill="url(#e7368876-bea4-4e1e-948d-1905d0336acf)"/>
+      <rect x="18.527" y="15.046" width="2" height="14" transform="translate(-8.449 12.842) rotate(-30.257)" fill="url(#ec6861b6-c26d-4418-96b8-2ede599355ed)"/>
+    </mask>
+    <linearGradient id="aae8dbcb-1bf5-45ea-bf43-37ee68940625" x1="2734" y1="32" x2="2702" gradientTransform="matrix(1, 0, 0, -1, -2702, 32)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#d4bbff"/>
+      <stop offset="0.9" stop-color="#a56eff"/>
+    </linearGradient>
+  </defs>
+  <g id="e1c7c777-7995-4ee0-be6f-e582efddc74f" data-name="Layer 2">
+    <g id="af5f793f-8d3a-4d96-ab61-5bf66e3c3772" data-name="Dark theme icons">
+      <g>
+        <g mask="url(#ab8b88aa-4041-4ad3-8ea2-3c3fbd85eb82)">
+          <rect width="32" height="32" transform="translate(32 32) rotate(180)" fill="url(#aae8dbcb-1bf5-45ea-bf43-37ee68940625)"/>
+        </g>
+        <circle cx="28" cy="16" r="2" fill="#f4f4f4"/>
+        <circle cx="10" cy="26" r="2" fill="#f4f4f4"/>
+        <circle cx="10" cy="6" r="2" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>

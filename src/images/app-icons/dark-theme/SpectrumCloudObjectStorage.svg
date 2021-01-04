@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b8c9e5a4-926d-48c3-bc2b-65603bf28674" x1="1283.009" y1="-5349.052" x2="1308.009" y2="-5349.052" gradientTransform="translate(-5333.052 -1276.948) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="edbba8fc-55a3-47bc-bd9c-1282a80f0e1b" x1="16" y1="16" x2="16" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.7" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="fcdd86e6-302c-4b3a-973e-ab592ddc568e" x1="-1174.103" y1="222.595" x2="-1174.103" y2="213.595" gradientTransform="translate(1184.103 -200.595)" xlink:href="#edbba8fc-55a3-47bc-bd9c-1282a80f0e1b"/>
+    <linearGradient id="b48209a8-c55f-4992-882b-0c4db92b3712" x1="22" y1="13" x2="22" y2="22" xlink:href="#edbba8fc-55a3-47bc-bd9c-1282a80f0e1b"/>
+    <mask id="ff619dc3-088d-45d0-9e03-fd0229854d0a" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M3,23.061v-17H5V22.487L16,28.9l11-6.416V6.061h2v17a1,1,0,0,1-.5.864l-12,7a1,1,0,0,1-1.008,0l-12-7A1,1,0,0,1,3,23.061Z" fill="url(#b8c9e5a4-926d-48c3-bc2b-65603bf28674)"/>
+      <rect x="15" y="16" width="2" height="9" fill="url(#edbba8fc-55a3-47bc-bd9c-1282a80f0e1b)"/>
+      <rect x="9" y="13" width="2" height="9" transform="translate(20 35) rotate(180)" fill="url(#fcdd86e6-302c-4b3a-973e-ab592ddc568e)"/>
+      <rect x="21" y="13" width="2" height="9" fill="url(#b48209a8-c55f-4992-882b-0c4db92b3712)"/>
+    </mask>
+    <linearGradient id="e861ef08-2675-4615-ab87-b75a16716200" x1="1308.948" y1="-5333.052" x2="1276.948" y2="-5365.052" gradientTransform="translate(-1276.948 5365.052)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="a5ff07f0-6c06-48b7-b1e7-4f8dcaee74b9" data-name="Layer 2">
+    <g id="bd7345d7-2a58-4cf7-a628-e5fbe72dfd20" data-name="dark theme">
+      <g>
+        <g mask="url(#ff619dc3-088d-45d0-9e03-fd0229854d0a)">
+          <rect width="32" height="32" transform="translate(32) rotate(90)" fill="url(#e861ef08-2675-4615-ab87-b75a16716200)"/>
+        </g>
+        <path d="M16,17a1,1,0,0,1-.5-.136l-6-3.5A1,1,0,0,1,9,12.5v-7a1,1,0,0,1,.5-.864l6-3.5a1,1,0,0,1,1.008,0l6,3.5A1,1,0,0,1,23,5.5v7a1,1,0,0,1-.5.864l-6,3.5A1,1,0,0,1,16,17Zm-5-5.074,5,2.916,5-2.916V6.074L16,3.158,11,6.074Z" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>
