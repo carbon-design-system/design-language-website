@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b534b98f-4066-4623-88ee-dc7fb1b855d7" x1="318.464" y1="1.248" x2="311.964" y2="-5.252" gradientTransform="translate(-289.751 9.002)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.3" stop-opacity="0"/>
+      <stop offset="0.9"/>
+    </linearGradient>
+    <linearGradient id="fc7acdd4-f421-4fa5-8202-14cd45d63461" x1="-4871.5" y1="19.714" x2="-4878.009" y2="25.176" gradientTransform="matrix(-1, 0, 0, 1, -4863.996, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.065"/>
+      <stop offset="0.731" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a63b4e4e-0812-43b3-8d52-05b25379d8d1" x1="-1659.001" y1="1982.498" x2="-1653" y2="1982.498" gradientTransform="matrix(0, 1, 1, 0, -1971.998, 1664.001)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="e7f15f9e-e867-48aa-b6c8-1a2bf469ed90" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M23,13h0a5,5,0,1,1,5-5A5.006,5.006,0,0,1,23,13Zm0-8a3,3,0,1,0,3,3A3,3,0,0,0,23,5Z" fill="#fff"/>
+      <path d="M4,27H14a1,1,0,0,0,.874-1.486l-5-9a1.04,1.04,0,0,0-1.748,0l-5,9A1,1,0,0,0,4,27Zm8.3-2H5.7L9,19.059Z" fill="#fff"/>
+      <rect x="23" y="3" width="5.001" height="8" fill="url(#b534b98f-4066-4623-88ee-dc7fb1b855d7)"/>
+      <polygon points="5.7 25 10.853 15.723 15 24 5.7 25" fill="url(#fc7acdd4-f421-4fa5-8202-14cd45d63461)"/>
+      <rect x="13" y="1" width="3" height="4"/>
+      <path d="M13,4H6A1,1,0,0,0,5,5v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V5.25" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <rect x="6" y="5" width="9" height="6" fill="url(#a63b4e4e-0812-43b3-8d52-05b25379d8d1)"/>
+      <polygon points="9.883 17.469 6.705 15.723 11.436 15.723 9.883 17.469"/>
+    </mask>
+    <linearGradient id="ab58cd78-4705-4154-9508-848cfcf68f1d" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="e51c32cf-bebf-4676-8802-9949f7653dee" data-name="Layer 2">
+    <g id="f4865340-5ad9-42f1-9c2a-ba0b39d5c7a9" data-name="Dark theme icons">
+      <g>
+        <g mask="url(#e7f15f9e-e867-48aa-b6c8-1a2bf469ed90)">
+          <rect width="32" height="32" fill="url(#ab58cd78-4705-4154-9508-848cfcf68f1d)"/>
+        </g>
+        <polygon points="24 27.17 24 17 22 17 22 27.17 19.41 24.59 18 26 23 31 28 26 26.59 24.59 24 27.17" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="f4820095-7132-4360-8624-911ad1372aca" x1="-1370.5" y1="-2868.5" x2="-1364.5" y2="-2868.5" gradientTransform="translate(1384.5 2894.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.9"/>
+    </linearGradient>
+    <linearGradient id="acf53c19-b669-47bc-907d-a111421de6d8" x1="-1370.5" y1="-2875.5" x2="-1364.5" y2="-2875.5" gradientTransform="translate(1391.5 2901.5)" xlink:href="#f4820095-7132-4360-8624-911ad1372aca"/>
+    <linearGradient id="bfb29cf4-2122-4c51-943f-2f515a1c9bf2" x1="-1370.5" y1="-2861.5" x2="-1364.5" y2="-2861.5" gradientTransform="translate(1377.5 2887.5)" xlink:href="#f4820095-7132-4360-8624-911ad1372aca"/>
+    <mask id="af5f12f2-6915-44c3-b26d-f75b3fe229cb" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <rect x="16" y="18" width="2" height="10" fill="#fff"/>
+        <rect x="23" y="15" width="2" height="13" fill="#fff"/>
+        <rect x="9" y="21" width="2" height="7" fill="#fff"/>
+        <rect x="14" y="24" width="6" height="4" transform="translate(43 9) rotate(90)" fill="url(#f4820095-7132-4360-8624-911ad1372aca)"/>
+        <rect x="21" y="24" width="6" height="4" transform="translate(50 2) rotate(90)" fill="url(#acf53c19-b669-47bc-907d-a111421de6d8)"/>
+        <rect x="7" y="24" width="6" height="4" transform="translate(36 16) rotate(90)" fill="url(#bfb29cf4-2122-4c51-943f-2f515a1c9bf2)"/>
+        <path d="M4,2H2V28a2,2,0,0,0,2,2H30V28H4Z" fill="#fff"/>
+      </g>
+    </mask>
+    <linearGradient id="a20d0496-9570-425f-8edc-760676dc07d5" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="e2d7d5d8-90a4-45ea-b3e3-e40bbf12a8a0" data-name="Layer 2">
+    <g id="b3fd5ab0-2049-43b5-9994-50d0c4807ba9" data-name="Dark theme icons">
+      <g>
+        <g mask="url(#af5f12f2-6915-44c3-b26d-f75b3fe229cb)">
+          <rect width="32" height="32" fill="url(#a20d0496-9570-425f-8edc-760676dc07d5)"/>
+        </g>
+        <polygon points="28 2 22 2 22 4 26.586 4 19 11.586 15 7.586 6.293 16.293 7.707 17.707 15 10.414 19 14.414 28 5.414 28 10 30 10 30 4 30 2 28 2" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>

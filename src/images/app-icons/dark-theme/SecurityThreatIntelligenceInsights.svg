@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="SecurityThreatIntelligenceInsights_svg__a" x1="6" y1="25.5" x2="27" y2="25.5" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-opacity="0"/><stop offset=".75"/></linearGradient><linearGradient id="SecurityThreatIntelligenceInsights_svg__c" y1="32" x2="32" gradientUnits="userSpaceOnUse"><stop offset=".2" stop-color="#8a3ffc"/><stop offset=".8" stop-color="#30b0ff"/></linearGradient><mask id="SecurityThreatIntelligenceInsights_svg__b" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse"><path d="M15 29a9.011 9.011 0 01-9-9V7.618l9-4.5 11 5.5V6.382l-11-5.5-11 5.5V20a11 11 0 0022 0h-2a9.011 9.011 0 01-9 9z" fill="#fff"/><path fill="url(#SecurityThreatIntelligenceInsights_svg__a)" d="M6 19h21v13H6z"/></mask></defs><g data-name="Layer 2"><g data-name="Dark theme icons"><g mask="url(#SecurityThreatIntelligenceInsights_svg__b)"><path fill="url(#SecurityThreatIntelligenceInsights_svg__c)" d="M0 0h32v32H0z"/></g><circle cx="20" cy="19" r="2" fill="#f4f4f4"/><path d="M28.749 18.473a9.729 9.729 0 00-17.5 0L11 19l.251.527a9.729 9.729 0 0017.5 0L29 19zM20 23.838A4.838 4.838 0 1124.838 19 4.843 4.843 0 0120 23.838z" fill="#f4f4f4"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a28a041d-463e-4d61-9fc8-0a22f57480b3" x1="6" y1="25.5" x2="27" y2="25.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-opacity="0"/>
+      <stop offset="0.75"/>
+    </linearGradient>
+    <mask id="b955b8a4-7e7b-44d7-8a5a-7becac458315" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M15,29a9.011,9.011,0,0,1-9-9V7.618l9-4.5,11,5.5V6.382L15,.882,4,6.382V20a11,11,0,0,0,22,0H24A9.011,9.011,0,0,1,15,29Z" fill="#fff"/>
+        <rect x="6" y="19" width="21" height="13" fill="url(#a28a041d-463e-4d61-9fc8-0a22f57480b3)"/>
+      </g>
+    </mask>
+    <linearGradient id="ae98f0bb-24fc-48ba-8822-fc8490871564" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#8a3ffc"/>
+      <stop offset="0.8" stop-color="#30b0ff"/>
+    </linearGradient>
+  </defs>
+  <g id="a6f3012a-3d7f-49b2-bba5-e1deac338dba" data-name="Layer 2">
+    <g id="f227ce51-2549-4f80-be80-93b4f75ee132" data-name="Dark theme icons">
+      <g>
+        <g mask="url(#b955b8a4-7e7b-44d7-8a5a-7becac458315)">
+          <rect width="32" height="32" fill="url(#ae98f0bb-24fc-48ba-8822-fc8490871564)"/>
+        </g>
+        <g>
+          <circle cx="20" cy="19" r="2" fill="#f4f4f4"/>
+          <path d="M28.749,18.473a9.729,9.729,0,0,0-17.5,0L11,19l.251.527a9.729,9.729,0,0,0,17.5,0L29,19ZM20,23.838A4.838,4.838,0,1,1,24.838,19,4.843,4.843,0,0,1,20,23.838Z" fill="#f4f4f4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

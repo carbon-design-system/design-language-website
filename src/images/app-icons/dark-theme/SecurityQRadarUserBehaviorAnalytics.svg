@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
   <defs>
-    <linearGradient id="b8bdd93f-4b99-43cc-a2ba-6ee5b3fc8ebe" x1="6" y1="25.5" x2="27" y2="25.5" gradientUnits="userSpaceOnUse">
+    <linearGradient id="af8b3970-a40c-4599-96fa-61dc9c5984ed" x1="6" y1="25.5" x2="27" y2="25.5" gradientUnits="userSpaceOnUse">
       <stop offset="0.1" stop-opacity="0"/>
       <stop offset="0.75"/>
     </linearGradient>
-    <mask id="b6b69d62-be0a-481b-ad9d-386a55f3251b" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+    <mask id="a926185e-02bb-4e42-81f9-f794734cd4bc" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
       <g>
         <path d="M15,29a9.011,9.011,0,0,1-9-9V7.618l9-4.5,11,5.5V6.382L15,.882,4,6.382V20a11,11,0,0,0,22,0H24A9.011,9.011,0,0,1,15,29Z" fill="#fff"/>
-        <rect x="6" y="19" width="21" height="13" fill="url(#b8bdd93f-4b99-43cc-a2ba-6ee5b3fc8ebe)"/>
+        <rect x="6" y="19" width="21" height="13" fill="url(#af8b3970-a40c-4599-96fa-61dc9c5984ed)"/>
       </g>
     </mask>
-    <linearGradient id="aba5cede-b1b5-4fbb-bb5c-615bcf3452ad" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+    <linearGradient id="acff2586-bb71-43c0-ab88-82c7a69ded68" y1="32" x2="32" gradientUnits="userSpaceOnUse">
       <stop offset="0.2" stop-color="#8a3ffc"/>
       <stop offset="0.8" stop-color="#30b0ff"/>
     </linearGradient>
   </defs>
-  <g id="a2764468-d752-43a6-8a98-8cb987aa2593" data-name="Layer 2">
-    <g id="aa1493b0-d517-48b3-bc47-7eda667fb3b7" data-name="Dark theme icons">
+  <g id="ebd19932-d17f-43c8-995c-7cf5747ce1f0" data-name="Layer 2">
+    <g id="b921954f-bc19-4d0e-b4f6-eddd539f286d" data-name="Dark theme icons">
       <g>
-        <g mask="url(#b6b69d62-be0a-481b-ad9d-386a55f3251b)">
-          <rect width="32" height="32" fill="url(#aba5cede-b1b5-4fbb-bb5c-615bcf3452ad)"/>
+        <g mask="url(#a926185e-02bb-4e42-81f9-f794734cd4bc)">
+          <rect width="32" height="32" fill="url(#acff2586-bb71-43c0-ab88-82c7a69ded68)"/>
         </g>
         <g>
           <rect x="22" y="22" width="2" height="5" fill="#f4f4f4"/>

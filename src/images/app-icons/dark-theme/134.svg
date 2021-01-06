@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bc782f89-4750-486a-a2de-c3486145a966" x1="-1152.125" y1="-812.184" x2="-1141.045" y2="-805.787" gradientTransform="translate(1159.585 827.485)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.35"/>
+      <stop offset="0.68" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ad6af96b-7143-42b6-9129-9911dfd7b7b8" x1="-642.5" y1="1076.5" x2="-637.5" y2="1076.5" gradientTransform="translate(-1059.5 -627.5) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="0.8" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="b8a651c2-d56f-409a-98a5-ec231af14cab" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M12.5,23h-7a1,1,0,0,1-.864-.5l-3.5-6a1,1,0,0,1,0-1.008l3.5-6A1,1,0,0,1,5.5,9h7a1,1,0,0,1,.864.5l1.721,2.951-1.727,1.008L11.926,11H6.074L3.158,16l2.916,5h5.852l3.21-5.5L16.864,16.5l-3.5,6A1,1,0,0,1,12.5,23Z" fill="#fff"/>
+      <rect x="8.5" y="13.5" width="9" height="10" transform="translate(31.5 5.5) rotate(90)" fill="url(#bc782f89-4750-486a-a2de-c3486145a966)"/>
+      <path d="M25,15H20.89A6.977,6.977,0,0,0,23,10V8H21v2a5.006,5.006,0,0,1-5,5H9v2h7a5.006,5.006,0,0,1,5,5v2h2V22a6.977,6.977,0,0,0-2.11-5H25Z" fill="#fff"/>
+      <polygon points="26 10 26 15 8 15 8 14 17 14 17 10 26 10" fill="url(#ad6af96b-7143-42b6-9129-9911dfd7b7b8)"/>
+    </mask>
+    <linearGradient id="ae4b7d29-d12f-46e3-acb1-03de8f1a8c79" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="e3ca8a29-c7b8-42ae-a319-568f0cbed320" data-name="Layer 2">
+    <g id="b3a91595-2905-407b-90da-be16bf395457" data-name="Dark theme icons">
+      <g>
+        <g mask="url(#b8a651c2-d56f-409a-98a5-ec231af14cab)">
+          <rect width="32" height="32" fill="url(#ae4b7d29-d12f-46e3-acb1-03de8f1a8c79)"/>
+        </g>
+        <circle cx="29" cy="16" r="2" fill="#f4f4f4"/>
+        <circle cx="22" cy="4" r="2" fill="#f4f4f4"/>
+        <circle cx="22" cy="28" r="2" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>
