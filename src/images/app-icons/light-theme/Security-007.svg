@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="Security-007_svg__a" x1="6" y1="25.5" x2="27" y2="25.5" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-opacity="0"/><stop offset=".75"/></linearGradient><linearGradient id="Security-007_svg__c" y1="32" x2="32" gradientUnits="userSpaceOnUse"><stop offset=".2" stop-color="#8a3ffc"/><stop offset=".8" stop-color="#30b0ff"/></linearGradient><mask id="Security-007_svg__b" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse"><path d="M15 29a9.011 9.011 0 01-9-9V7.618l9-4.5 11 5.5V6.382l-11-5.5-11 5.5V20a11 11 0 0022 0h-2a9.011 9.011 0 01-9 9z" fill="#fff"/><path fill="url(#Security-007_svg__a)" d="M6 19h21v13H6z"/></mask></defs><g data-name="Layer 2"><g data-name="Light theme icons"><g mask="url(#Security-007_svg__b)"><path fill="url(#Security-007_svg__c)" d="M0 0h32v32H0z"/></g><path d="M19 14.414V17h2v-6h-6v2h2.586L13 17.584a2.007 2.007 0 000 2.833l2.291 2.29 1.414-1.414L14.416 19zM27 17.583l-2.291-2.29-1.414 1.414L25.584 19 21 23.586V21h-2v6h6v-2h-2.586L27 20.417a2.008 2.008 0 000-2.834z" fill="#001d6c"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="aa842697-73fe-407d-99b6-74808db90988" x1="6" y1="25.5" x2="27" y2="25.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-opacity="0"/>
+      <stop offset="0.75"/>
+    </linearGradient>
+    <mask id="e92d3dad-af12-451d-90b5-d54fe3fd5649" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M15,29a9.011,9.011,0,0,1-9-9V7.618l9-4.5,11,5.5V6.382L15,.882,4,6.382V20a11,11,0,0,0,22,0H24A9.011,9.011,0,0,1,15,29Z" fill="#fff"/>
+        <rect x="6" y="19" width="21" height="13" fill="url(#aa842697-73fe-407d-99b6-74808db90988)"/>
+      </g>
+    </mask>
+    <linearGradient id="e0f1406e-a770-4479-a9a4-a8db9065a9fb" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#8a3ffc"/>
+      <stop offset="0.8" stop-color="#30b0ff"/>
+    </linearGradient>
+  </defs>
+  <g id="f67d7f39-f5c1-4c16-a9f6-442ba8a5f406" data-name="Layer 2">
+    <g id="a8b730c6-358b-44f9-b8cb-a5b31da541ce" data-name="Light theme icons">
+      <g>
+        <g mask="url(#e92d3dad-af12-451d-90b5-d54fe3fd5649)">
+          <rect width="32" height="32" fill="url(#e0f1406e-a770-4479-a9a4-a8db9065a9fb)"/>
+        </g>
+        <path d="M20,15.414V18h2V12H16v2h2.586L14,18.584a2.007,2.007,0,0,0,0,2.833l2.291,2.29,1.414-1.414L15.416,20Z" fill="#001d6c"/>
+        <path d="M28,18.583l-2.291-2.29-1.414,1.414L26.584,20,22,24.586V22H20v6h6V26H23.414L28,21.417A2.008,2.008,0,0,0,28,18.583Z" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>

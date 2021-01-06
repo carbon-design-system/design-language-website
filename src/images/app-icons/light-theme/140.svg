@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bd08f45f-5c9a-4419-8140-fdd74a99021d" x1="31" y1="16" x2="8.5" y2="16" gradientTransform="translate(32) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#1190e5"/>
+      <stop offset="0.9" stop-color="#43d1cf"/>
+    </linearGradient>
+    <linearGradient id="b6537bdb-8c7f-4aff-9f42-1eebe1d64128" x1="12.25" y1="28.99" x2="12.25" y2="3.01" gradientTransform="translate(32) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161616" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#161616" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <g id="b34a4d87-cf96-4cba-b110-ff0882e0868b" data-name="Layer 2">
+    <g id="f7993917-fe8f-46d9-9951-c11918fef2b8" data-name="Light theme icons">
+      <g>
+        <polygon points="28.99 23.5 28.99 8.5 3.01 23.5 16 31 28.99 23.5" fill="url(#bd08f45f-5c9a-4419-8140-fdd74a99021d)"/>
+        <polygon points="28.99 8.5 16 1 3.01 8.5 3.01 23.5 16 16 28.99 8.5" fill="url(#b6537bdb-8c7f-4aff-9f42-1eebe1d64128)"/>
+        <polyline points="16 31 3.01 23.5 16 16" fill="#001d6c"/>
+        <rect width="32" height="32" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

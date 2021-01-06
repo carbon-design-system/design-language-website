@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bb4093f5-53a5-4e0f-bee8-36224ab0bc19" x1="301.456" y1="-229.694" x2="316.403" y2="-225.689" gradientTransform="translate(-23.948 -357.16) rotate(120)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2"/>
+      <stop offset="0.8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="af62c3a0-fc0b-450a-885e-38bcc4250304" x1="16.015" y1="4.371" x2="30.961" y2="8.375" gradientTransform="translate(-1.49 2.127)" xlink:href="#bb4093f5-53a5-4e0f-bee8-36224ab0bc19"/>
+    <linearGradient id="f4ade179-aba0-49d8-8997-f80cc3ae1e33" x1="-45.068" y1="-359.172" x2="-30.121" y2="-355.167" gradientTransform="matrix(-0.5, -0.866, 0.866, -0.5, 298.433, -196.966)" xlink:href="#bb4093f5-53a5-4e0f-bee8-36224ab0bc19"/>
+    <mask id="bc804fcc-4591-499a-b542-d872c16c7da5" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M27.26,22.5A13,13,0,0,1,16,29" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <polygon points="22 32 28.989 23.5 15.998 16 9.998 26.393 22 32" fill="url(#bb4093f5-53a5-4e0f-bee8-36224ab0bc19)"/>
+        <path d="M16,3A13,13,0,0,1,27.26,22.5L16,16" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <rect x="15.998" y="1" width="12" height="15" fill="url(#af62c3a0-fc0b-450a-885e-38bcc4250304)"/>
+        <path d="M4.74,22.5A13,13,0,0,1,16,3V16" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <polygon points="0 13 3.008 23.5 15.998 16 9.998 5.608 0 13" fill="url(#f4ade179-aba0-49d8-8997-f80cc3ae1e33)"/>
+        <path d="M16,29A13,13,0,0,1,4.74,22.5L16,16" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <polygon points="19.464 10 12.536 10 9.072 16 12.536 22 19.464 22 22.928 16 19.464 10"/>
+      </g>
+    </mask>
+    <linearGradient id="ab6f80e6-1708-41ea-9fcb-62351c4b2861" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#a56eff"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g id="be3e60e4-0ece-4fe9-aa09-bdeac9034067" data-name="Layer 2">
+    <g id="e7c1ea7b-d94d-48a7-a816-2abe777be23b" data-name="Light theme icons">
+      <g>
+        <g mask="url(#bc804fcc-4591-499a-b542-d872c16c7da5)">
+          <rect width="32" height="32" fill="url(#ab6f80e6-1708-41ea-9fcb-62351c4b2861)"/>
+        </g>
+        <path d="M16,20a4,4,0,1,1,4-4A4,4,0,0,1,16,20Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,16,14Z" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>
