@@ -36,7 +36,7 @@ export default function SwatchPaletteWidget(props) {
   return (
     <div className={`${prefix}--swatch-palettes-container`}>
       <div className="sticky-container" style={{ top }}>
-        <div className={`${prefix}--row`}>
+        <div className={`${prefix}--row`} style={{ paddingTop: ".5rem" }}>
           <div
             className={`${prefix}--col-lg-4 ${prefix}--col-md-4 ${prefix}--col-no-gutter`}>
             <ContentSwitcher
