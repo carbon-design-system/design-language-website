@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="aab91cab-e537-4dbe-bd99-d332d2dbaac6" x1="2.377" y1="13.627" x2="12.623" y2="31.373" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.7"/>
+      <stop offset="0.407" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="b5abb4aa-64c7-4933-8283-507ae8ac158e" cx="14.667" cy="12" r="5" gradientTransform="translate(-3.6) scale(1.2 1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.24" stop-color="#fff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="ef747e28-a5ec-41e6-8611-b65d6409361a" x="-1" y="-1" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M0,0V30H30V0Z" fill="#fff"/>
+        <g>
+          <polygon points="15 15 0 22 0 14.531 15 15 15 15" fill="#fff"/>
+          <polygon points="0 22 0 14.719 15 15 15 15 0 22" fill="#fcfcfc"/>
+          <polygon points="0 22 0 14.911 15 15 15 15 0 22" fill="#f9f9f9"/>
+          <polygon points="0 22 0 15.108 15 15 15 15 0 22" fill="#f6f6f6"/>
+          <polygon points="0 22 0 15.31 15 15 15 15 0 22" fill="#f2f2f2"/>
+          <polygon points="0 22 0 15.517 15 15 15 15 0 22" fill="#efefef"/>
+          <polygon points="0 22 0 15.729 15 15 15 15 0 22" fill="#ececec"/>
+          <polygon points="0 22 0 15.948 15 15 15 15 0 22" fill="#e9e9e9"/>
+          <polygon points="0 22 0 16.172 15 15 15 15 0 22" fill="#e6e6e6"/>
+          <polygon points="0 22 0 16.403 15 15 15 15 0 22" fill="#e3e3e3"/>
+          <polygon points="0 22 0 16.639 15 15 15 15 0 22" fill="#e0e0e0"/>
+          <polygon points="0 22 0 16.883 15 15 15 15 0 22" fill="#dcdcdc"/>
+          <polygon points="0 22 0 17.133 15 15 15 15 0 22" fill="#d9d9d9"/>
+          <polygon points="0 22 0 17.39 15 15 15 15 0 22" fill="#d6d6d6"/>
+          <polygon points="0 22 0 17.655 15 15 15 15 0 22" fill="#d3d3d3"/>
+          <polygon points="0 22 0 17.928 15 15 15 15 0 22" fill="#d0d0d0"/>
+          <polygon points="0 22 0 18.21 15 15 15 15 0 22" fill="#cdcdcd"/>
+          <polygon points="4.515 30 0 18.499 15 15 15 15 4.515 30" fill="#c9c9c9"/>
+          <polygon points="4.515 30 0 18.798 15 15 15 15 4.515 30" fill="#c6c6c6"/>
+          <polygon points="4.515 30 0 19.107 15 15 15 15 4.515 30" fill="#c3c3c3"/>
+          <polygon points="4.515 30 0 19.424 15 15 15 15 4.515 30" fill="silver"/>
+          <polygon points="4.515 30 0 19.753 15 15 15 15 4.515 30" fill="#bdbdbd"/>
+          <polygon points="4.515 30 0 20.093 15 15 15 15 4.515 30" fill="#bababa"/>
+          <polygon points="4.515 30 0 20.442 15 15 15 15 4.515 30" fill="#b7b7b7"/>
+          <polygon points="4.515 30 0 20.796 15 15 15 15 4.515 30" fill="#b3b3b3"/>
+          <polygon points="4.515 30 0 21.163 15 15 15 15 4.515 30" fill="#b0b0b0"/>
+          <polygon points="4.515 30 0 21.543 15 15 15 15 4.515 30" fill="#adadad"/>
+          <polygon points="4.515 30 0 21.937 15 15 15 15 4.515 30" fill="#aaa"/>
+          <polygon points="4.515 30 0 22.345 15 15 15 15 4.515 30" fill="#a7a7a7"/>
+          <polygon points="4.515 30 0 22.768 15 15 15 15 4.515 30" fill="#a4a4a4"/>
+          <polygon points="4.515 30 0 23.206 15 15 15 15 4.515 30" fill="#a1a1a1"/>
+          <polygon points="4.515 30 0 23.663 15 15 15 15 4.515 30" fill="#9d9d9d"/>
+          <polygon points="4.515 30 0 24.137 15 15 15 15 4.515 30" fill="#9a9a9a"/>
+          <polygon points="4.515 30 0 24.629 15 15 15 15 4.515 30" fill="#979797"/>
+          <polygon points="4.515 30 0 25.142 15 15 15 15 4.515 30" fill="#949494"/>
+          <polygon points="4.515 30 0 25.677 15 15 15 15 4.515 30" fill="#919191"/>
+          <polygon points="4.515 30 0 26.233 15 15 15 15 4.515 30" fill="#8e8e8e"/>
+          <polygon points="4.515 30 0 26.815 15 15 15 15 4.515 30" fill="#8b8b8b"/>
+          <polygon points="4.515 30 0 27.423 15 15 15 15 4.515 30" fill="#878787"/>
+          <polygon points="4.515 30 0 28.058 15 15 15 15 4.515 30" fill="#848484"/>
+          <polygon points="4.515 30 0 28.721 15 15 15 15 4.515 30" fill="#818181"/>
+          <polygon points="4.515 30 0 29.418 15 15 15 15 4.515 30" fill="#7e7e7e"/>
+          <polygon points="4.515 30 0.146 30 15 15 15 15 4.515 30" fill="#7b7b7b"/>
+          <polygon points="15 30 0.862 30 15 15 15 15 15 30" fill="#787878"/>
+          <polygon points="15 30 1.543 30 15 15 15 15 15 30" fill="#747474"/>
+          <polygon points="15 30 2.194 30 15 15 15 15 15 30" fill="#717171"/>
+          <polygon points="15 30 2.815 30 15 15 15 15 15 30" fill="#6e6e6e"/>
+          <polygon points="15 30 3.407 30 15 15 15 15 15 30" fill="#6b6b6b"/>
+          <polygon points="15 30 3.974 30 15 15 15 15 15 30" fill="#686868"/>
+          <polygon points="15 30 4.516 30 15 15 15 15 15 30" fill="#656565"/>
+          <polygon points="15 30 5.037 30 15 15 15 15 15 30" fill="#626262"/>
+          <polygon points="15 30 5.537 30 15 15 15 15 15 30" fill="#5e5e5e"/>
+          <polygon points="15 30 6.016 30 15 15 15 15 15 30" fill="#5b5b5b"/>
+          <polygon points="15 30 6.477 30 15 15 15 15 15 30" fill="#585858"/>
+          <polygon points="15 30 6.92 30 15 15 15 15 15 30" fill="#555"/>
+          <polygon points="15 30 7.346 30 15 15 15 15 15 30" fill="#525252"/>
+          <polygon points="15 30 7.756 30 15 15 15 15 15 30" fill="#4f4f4f"/>
+          <polygon points="15 30 8.152 30 15 15 15 15 15 30" fill="#4c4c4c"/>
+          <polygon points="15 30 8.533 30 15 15 15 15 15 30" fill="#484848"/>
+          <polygon points="15 30 8.901 30 15 15 15 15 15 30" fill="#454545"/>
+          <polygon points="15 30 9.253 30 15 15 15 15 15 30" fill="#424242"/>
+          <polygon points="15 30 9.589 30 15 15 15 15 15 30" fill="#3f3f3f"/>
+          <polygon points="15 30 9.913 30 15 15 15 15 15 30" fill="#3c3c3c"/>
+          <polygon points="15 30 10.227 30 15 15 15 15 15 30" fill="#393939"/>
+          <polygon points="15 30 10.531 30 15 15 15 15 15 30" fill="#363636"/>
+          <polygon points="15 30 10.825 30 15 15 15 15 15 30" fill="#323232"/>
+          <polygon points="15 30 11.11 30 15 15 15 15 15 30" fill="#2f2f2f"/>
+          <polygon points="15 30 11.387 30 15 15 15 15 15 30" fill="#2c2c2c"/>
+          <polygon points="15 30 11.655 30 15 15 15 15 15 30" fill="#292929"/>
+          <polygon points="15 30 11.916 30 15 15 15 15 15 30" fill="#262626"/>
+          <polygon points="15 30 12.168 30 15 15 15 15 15 30" fill="#232323"/>
+          <polygon points="15 30 12.414 30 15 15 15 15 15 30" fill="#1f1f1f"/>
+          <polygon points="15 30 12.653 30 15 15 15 15 15 30" fill="#1c1c1c"/>
+          <polygon points="15 30 12.885 30 15 15 15 15 15 30" fill="#191919"/>
+          <polygon points="15 30 13.11 30 15 15 15 15 15 30" fill="#161616"/>
+          <polygon points="15 30 13.33 30 15 15 15 15 15 30" fill="#131313"/>
+          <polygon points="15 30 13.543 30 15 15 15 15 15 30" fill="#101010"/>
+          <polygon points="15 30 13.752 30 15 15 15 15 15 30" fill="#0d0d0d"/>
+          <polygon points="15 30 13.954 30 15 15 15 15 15 30" fill="#090909"/>
+          <polygon points="15 30 14.151 30 15 15 15 15 15 30" fill="#060606"/>
+          <polygon points="15 30 14.344 30 15 15 15 15 15 30" fill="#030303"/>
+          <polygon points="30 30 14.531 30 15 15 15 15 30 30"/>
+        </g>
+        <rect y="15" width="15" height="15" fill="url(#aab91cab-e537-4dbe-bd99-d332d2dbaac6)"/>
+        <path d="M-1-1V31H31V-1ZM15,29A14,14,0,1,1,29,15,14,14,0,0,1,15,29Z"/>
+        <rect x="8" y="7" width="12" height="10" fill="url(#b5abb4aa-64c7-4933-8283-507ae8ac158e)"/>
+      </g>
+    </mask>
+    <linearGradient id="abaacb3b-b5f5-484d-96e6-ea0a3c0cd937" x1="-500" y1="515" x2="-485" y2="530" gradientTransform="translate(500 -515)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8a3ffc" stop-opacity="0.5"/>
+      <stop offset="0.492" stop-color="#8a3ffc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="f7a71685-165b-44f9-a938-ecd9c36b49a5" x1="499" y1="516" x2="514" y2="531" gradientTransform="translate(-499 -516)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#33b1ff" stop-opacity="0.5"/>
+      <stop offset="0.492" stop-color="#33b1ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fa1c10c1-0ca0-4dd2-9d7a-b3dbac2db830" x1="499" y1="516" x2="514" y2="531" gradientTransform="matrix(1, 0, 0, -1, -484, 531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7eb6" stop-opacity="0.5"/>
+      <stop offset="0.492" stop-color="#ff7eb6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b192a80f-4c6d-44f1-9c6d-cee08fb63941" x1="-500" y1="515" x2="-485" y2="530" gradientTransform="matrix(1, 0, 0, -1, 515, 530)" xlink:href="#abaacb3b-b5f5-484d-96e6-ea0a3c0cd937"/>
+  </defs>
+  <g id="a4da0246-613a-426c-a690-e66e6926555e" data-name="Layer 2">
+    <g id="b96372ae-3e35-42fd-8989-531e29e03f0a" data-name="Light theme icons">
+      <g>
+        <g mask="url(#ef747e28-a5ec-41e6-8611-b65d6409361a)">
+          <g>
+            <rect width="30" height="30" fill="#33b1ff"/>
+            <polygon points="30 15 15 15 15 15 30 8 30 15" fill="#ff7eb6"/>
+            <polygon points="15 15 15 15 30 8 30 14.983 15 15" fill="#fd7db7"/>
+            <polygon points="15 15 15 15 30 8 30 14.726 15 15" fill="#fb7cb8"/>
+            <polygon points="15 15 15 15 30 8 30 14.459 15 15" fill="#f97bb9"/>
+            <polygon points="15 15 15 15 30 8 30 14.183 15 15" fill="#f77abb"/>
+            <polygon points="15 15 15 15 30 8 30 13.896 15 15" fill="#f579bc"/>
+            <polygon points="15 15 15 15 30 8 30 13.599 15 15" fill="#f378bd"/>
+            <polygon points="15 15 15 15 30 8 30 13.292 15 15" fill="#f277be"/>
+            <polygon points="15 15 15 15 30 8 30 12.973 15 15" fill="#f076bf"/>
+            <polygon points="15 15 15 15 30 8 30 12.641 15 15" fill="#ee75c0"/>
+            <polygon points="15 15 15 15 30 8 30 12.298 15 15" fill="#ec74c1"/>
+            <polygon points="15 15 15 15 24 0 30 11.94 15 15" fill="#ea73c3"/>
+            <polygon points="15 15 15 15 24 0 30 11.568 15 15" fill="#e872c4"/>
+            <polygon points="15 15 15 15 24 0 30 11.18 15 15" fill="#e671c5"/>
+            <polygon points="15 15 15 15 24 0 30 10.777 15 15" fill="#e470c6"/>
+            <polygon points="15 15 15 15 24 0 30 10.355 15 15" fill="#e26fc7"/>
+            <polygon points="15 15 15 15 24 0 30 9.915 15 15" fill="#e06dc8"/>
+            <polygon points="15 15 15 15 24 0 30 9.456 15 15" fill="#de6cca"/>
+            <polygon points="15 15 15 15 22 0 30 8.981 15 15" fill="#dc6bcb"/>
+            <polygon points="15 15 15 15 22 0 30 8.484 15 15" fill="#db6acc"/>
+            <polygon points="15 15 15 15 22 0 30 7.963 15 15" fill="#d969cd"/>
+            <polygon points="15 15 15 15 22 0 30 7.416 15 15" fill="#d768ce"/>
+            <polygon points="15 15 15 15 22 0 30 6.842 15 15" fill="#d567cf"/>
+            <polygon points="15 15 15 15 22 0 30 6.238 15 15" fill="#d366d0"/>
+            <polygon points="15 15 15 15 22 0 30 5.602 15 15" fill="#d165d2"/>
+            <polygon points="15 15 15 15 22 0 30 4.931 15 15" fill="#cf64d3"/>
+            <polygon points="15 15 15 15 22 0 30 4.223 15 15" fill="#cd63d4"/>
+            <polygon points="15 15 15 15 22 0 30 3.474 15 15" fill="#cb62d5"/>
+            <polygon points="15 15 15 15 22 0 30 2.681 15 15" fill="#c961d6"/>
+            <polygon points="15 15 15 15 22 0 30 1.838 15 15" fill="#c760d7"/>
+            <polygon points="15 15 15 15 22 0 30 0.944 15 15" fill="#c55fd8"/>
+            <polygon points="15 15 15 15 22 0 30 0 15 15" fill="#c45eda"/>
+            <polygon points="15 15 15 15 22 0 29.039 0 15 15" fill="#c25ddb"/>
+            <polygon points="15 15 15 15 22 0 28.146 0 15 15" fill="#c05cdc"/>
+            <polygon points="15 15 15 15 22 0 27.306 0 15 15" fill="#be5bdd"/>
+            <polygon points="15 15 15 15 22 0 26.516 0 15 15" fill="#bc5ade"/>
+            <polygon points="15 15 15 15 22 0 25.772 0 15 15" fill="#ba59df"/>
+            <polygon points="15 15 15 15 12 0 25.068 0 15 15" fill="#b858e0"/>
+            <polygon points="15 15 15 15 12 0 24.402 0 15 15" fill="#b657e2"/>
+            <polygon points="15 15 15 15 12 0 23.771 0 15 15" fill="#b456e3"/>
+            <polygon points="15 15 15 15 12 0 23.172 0 15 15" fill="#b255e4"/>
+            <polygon points="15 15 15 15 12 0 22.601 0 15 15" fill="#b054e5"/>
+            <polygon points="15 15 15 15 12 0 22.059 0 15 15" fill="#ae53e6"/>
+            <polygon points="15 15 15 15 12 0 21.543 0 15 15" fill="#ad52e7"/>
+            <polygon points="15 15 15 15 12 0 21.05 0 15 15" fill="#ab51e8"/>
+            <polygon points="15 15 15 15 12 0 20.582 0 15 15" fill="#a950ea"/>
+            <polygon points="15 15 15 15 12 0 20.138 0 15 15" fill="#a74eeb"/>
+            <polygon points="15 15 15 15 12 0 19.712 0 15 15" fill="#a54dec"/>
+            <polygon points="15 15 15 15 12 0 19.305 0 15 15" fill="#a34ced"/>
+            <polygon points="15 15 15 15 12 0 18.915 0 15 15" fill="#a14bee"/>
+            <polygon points="15 15 15 15 12 0 18.54 0 15 15" fill="#9f4aef"/>
+            <polygon points="15 15 15 15 12 0 18.18 0 15 15" fill="#9d49f1"/>
+            <polygon points="15 15 15 15 12 0 17.834 0 15 15" fill="#9b48f2"/>
+            <polygon points="15 15 15 15 12 0 17.501 0 15 15" fill="#9947f3"/>
+            <polygon points="15 15 15 15 12 0 17.181 0 15 15" fill="#9746f4"/>
+            <polygon points="15 15 15 15 12 0 16.872 0 15 15" fill="#9645f5"/>
+            <polygon points="15 15 15 15 12 0 16.575 0 15 15" fill="#9444f6"/>
+            <polygon points="15 15 15 15 12 0 16.287 0 15 15" fill="#9243f7"/>
+            <polygon points="15 15 15 15 12 0 16.011 0 15 15" fill="#9042f9"/>
+            <polygon points="15 15 15 15 12 0 15.743 0 15 15" fill="#8e41fa"/>
+            <polygon points="15 15 15 15 12 0 15.484 0 15 15" fill="#8c40fb"/>
+            <polygon points="15 15 15 15 12 0 15.234 0 15 15" fill="#8a3ffc"/>
+            <polygon points="15 15 12 0 14.985 0 15 15 15 15" fill="#8941fc"/>
+            <polygon points="15 15 12 0 14.727 0 15 15 15 15" fill="#8743fc"/>
+            <polygon points="15 15 12 0 14.461 0 15 15 15 15" fill="#8645fc"/>
+            <polygon points="15 15 12 0 14.186 0 15 15 15 15" fill="#8446fc"/>
+            <polygon points="15 15 12 0 13.901 0 15 15 15 15" fill="#8348fc"/>
+            <polygon points="15 15 12 0 13.608 0 15 15 15 15" fill="#814afc"/>
+            <polygon points="15 15 12 0 13.303 0 15 15 15 15" fill="#804cfc"/>
+            <polygon points="15 15 0 4 12.989 0 15 15 15 15" fill="#7f4efc"/>
+            <polygon points="15 15 0 4 12.662 0 15 15 15 15" fill="#7d50fc"/>
+            <polygon points="15 15 0 4 12.323 0 15 15 15 15" fill="#7c52fc"/>
+            <polygon points="15 15 0 4 11.973 0 15 15 15 15" fill="#7a54fd"/>
+            <polygon points="15 15 0 4 11.608 0 15 15 15 15" fill="#7955fd"/>
+            <polygon points="15 15 0 4 11.229 0 15 15 15 15" fill="#7757fd"/>
+            <polygon points="15 15 0 4 10.836 0 15 15 15 15" fill="#7659fd"/>
+            <polygon points="15 15 0 4 10.426 0 15 15 15 15" fill="#755bfd"/>
+            <polygon points="15 15 0 4 10 0 15 15 15 15" fill="#735dfd"/>
+            <polygon points="15 15 0 4 9.555 0 15 15 15 15" fill="#725ffd"/>
+            <polygon points="15 15 0 4 9.093 0 15 15 15 15" fill="#7061fd"/>
+            <polygon points="15 15 0 4 8.614 0 15 15 15 15" fill="#6f63fd"/>
+            <polygon points="15 15 0 4 8.115 0 15 15 15 15" fill="#6d64fd"/>
+            <polygon points="15 15 0 4 7.592 0 15 15 15 15" fill="#6c66fd"/>
+            <polygon points="15 15 0 4 7.044 0 15 15 15 15" fill="#6b68fd"/>
+            <polygon points="15 15 0 4 6.471 0 15 15 15 15" fill="#696afd"/>
+            <polygon points="15 15 0 4 5.869 0 15 15 15 15" fill="#686cfd"/>
+            <polygon points="15 15 0 4 5.236 0 15 15 15 15" fill="#666efd"/>
+            <polygon points="15 15 0 4 4.571 0 15 15 15 15" fill="#6570fd"/>
+            <polygon points="15 15 0 11 3.871 0 15 15 15 15" fill="#6371fd"/>
+            <polygon points="15 15 0 11 3.132 0 15 15 15 15" fill="#6273fd"/>
+            <polygon points="15 15 0 11 2.352 0 15 15 15 15" fill="#6175fd"/>
+            <polygon points="15 15 0 11 1.528 0 15 15 15 15" fill="#5f77fd"/>
+            <polygon points="15 15 0 11 0.653 0 15 15 15 15" fill="#5e79fe"/>
+            <polygon points="15 15 0 11 0 0.27 15 15 15 15" fill="#5c7bfe"/>
+            <polygon points="15 15 0 14 0 1.162 15 15 15 15" fill="#5b7dfe"/>
+            <polygon points="15 15 0 14 0 2.002 15 15 15 15" fill="#5a7ffe"/>
+            <polygon points="15 15 0 14 0 2.793 15 15 15 15" fill="#5880fe"/>
+            <polygon points="15 15 0 14 0 3.538 15 15 15 15" fill="#5782fe"/>
+            <polygon points="15 15 0 14 0 4.243 15 15 15 15" fill="#5584fe"/>
+            <polygon points="15 15 0 14 0 4.909 15 15 15 15" fill="#5486fe"/>
+            <polygon points="15 15 0 14 0 5.542 15 15 15 15" fill="#5288fe"/>
+            <polygon points="15 15 0 14 0 6.141 15 15 15 15" fill="#518afe"/>
+            <polygon points="15 15 0 14 0 6.712 15 15 15 15" fill="#508cfe"/>
+            <polygon points="15 15 0 14 0 7.254 15 15 15 15" fill="#4e8dfe"/>
+            <polygon points="15 15 0 14 0 7.771 15 15 15 15" fill="#4d8ffe"/>
+            <polygon points="15 15 0 14 0 8.264 15 15 15 15" fill="#4b91fe"/>
+            <polygon points="15 15 0 14 0 8.732 15 15 15 15" fill="#4a93fe"/>
+            <polygon points="15 15 0 14 0 9.177 15 15 15 15" fill="#4895fe"/>
+            <polygon points="15 15 0 14 0 9.602 15 15 15 15" fill="#4797fe"/>
+            <polygon points="15 15 0 14 0 10.01 15 15 15 15" fill="#4699fe"/>
+            <polygon points="15 15 0 14 0 10.4 15 15 15 15" fill="#449bfe"/>
+            <polygon points="15 15 0 14 0 10.775 15 15 15 15" fill="#439cfe"/>
+            <polygon points="15 15 0 14 0 11.136 15 15 15 15" fill="#419eff"/>
+            <polygon points="15 15 0 14 0 11.482 15 15 15 15" fill="#40a0ff"/>
+            <polygon points="15 15 0 14 0 11.816 15 15 15 15" fill="#3ea2ff"/>
+            <polygon points="15 15 0 14 0 12.136 15 15 15 15" fill="#3da4ff"/>
+            <polygon points="15 15 0 14 0 12.445 15 15 15 15" fill="#3ca6ff"/>
+            <polygon points="15 15 0 14 0 12.743 15 15 15 15" fill="#3aa8ff"/>
+            <polygon points="15 15 0 14 0 13.03 15 15 15 15" fill="#39aaff"/>
+            <polygon points="15 15 0 14 0 13.307 15 15 15 15" fill="#37abff"/>
+            <polygon points="15 15 0 14 0 13.575 15 15 15 15" fill="#36adff"/>
+            <polygon points="15 15 0 14.303 0 13.833 15 15 15 15" fill="#34afff"/>
+            <polygon points="15 15 0 15 0 14.084 15 15 15 15" fill="#33b1ff"/>
+            <polygon points="30 30 30 30 15 15 30 15 30 30" fill="#ff7eb6"/>
+            <rect width="15" height="15" transform="translate(15 0) rotate(90)" fill="url(#abaacb3b-b5f5-484d-96e6-ea0a3c0cd937)"/>
+            <rect width="15" height="15" transform="translate(0 15) rotate(-90)" fill="url(#f7a71685-165b-44f9-a938-ecd9c36b49a5)"/>
+            <rect x="15" width="15" height="15" transform="translate(15 30) rotate(-90)" fill="url(#fa1c10c1-0ca0-4dd2-9d7a-b3dbac2db830)"/>
+            <rect x="15" width="15" height="15" transform="translate(30 -15) rotate(90)" fill="url(#b192a80f-4c6d-44f1-9c6d-cee08fb63941)"/>
+          </g>
+        </g>
+        <path d="M16.414,13.586a2,2,0,1,0-2.828,2.828L26.172,29,29,26.172Z" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>
