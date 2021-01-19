@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="SPSSStatistics_svg__a" x1="7" y1="5" x2="25" y2="5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b98cfd" stop-opacity="0"/><stop offset="1" stop-color="#418afc"/></linearGradient><linearGradient id="SPSSStatistics_svg__b" x1="7" y1="27" x2="25" y2="27" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#418afc" stop-opacity="0"/><stop offset="1" stop-color="#b98cfd"/></linearGradient><linearGradient id="SPSSStatistics_svg__c" x1="11.839" y1="28.9" x2="11.839" y2="3.1" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b98cfd"/><stop offset="1" stop-color="#418afc"/></linearGradient></defs><g data-name="Layer 2"><g data-name="Light theme icons"><path fill="none" d="M0 0h32v32H0z"/><path fill="url(#SPSSStatistics_svg__a)" d="M7 2h18v6H7z"/><path fill="url(#SPSSStatistics_svg__b)" d="M7 24h18v6H7z"/><circle cx="25" cy="5" r="3" fill="#001d6c"/><circle cx="25" cy="27" r="3" fill="#001d6c"/><path d="M9.322 28.9l-4.644-3.8 7.446-9.1-7.446-9.1 4.644-3.8 9 11a3 3 0 010 3.8z" fill="url(#SPSSStatistics_svg__c)"/><circle cx="7" cy="5" r="3" fill="#001d6c"/><circle cx="16" cy="16" r="3" fill="#001d6c"/><circle cx="7" cy="27" r="3" fill="#001d6c"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b2c250c1-0bd6-4f69-849b-a7bf91b93994" x1="7" y1="5" x2="25" y2="5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b98cfd" stop-opacity="0"/>
+      <stop offset="1" stop-color="#418afc"/>
+    </linearGradient>
+    <linearGradient id="b08a8fae-21ae-4f74-af55-6a5dd4ca4ab6" x1="7" y1="27" x2="25" y2="27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#418afc" stop-opacity="0"/>
+      <stop offset="1" stop-color="#b98cfd"/>
+    </linearGradient>
+    <linearGradient id="fd4a439b-449e-482c-999d-6f25a4eb54f3" x1="11.839" y1="28.899" x2="11.839" y2="3.1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b98cfd"/>
+      <stop offset="1" stop-color="#418afc"/>
+    </linearGradient>
+  </defs>
+  <g id="a9507069-3a3e-48e9-90cd-20f082befefd" data-name="Layer 2">
+    <g id="b5e9a489-46bf-4a1e-84ff-0f8aa756accf" data-name="Build icon here">
+      <g>
+        <rect width="32" height="32" fill="none"/>
+        <rect x="7" y="2" width="18" height="6" fill="url(#b2c250c1-0bd6-4f69-849b-a7bf91b93994)"/>
+        <rect x="7" y="24" width="18" height="6" fill="url(#b08a8fae-21ae-4f74-af55-6a5dd4ca4ab6)"/>
+        <path d="M9.322,28.9,4.678,25.1,12.124,16,4.678,6.9,9.322,3.1l9,11a3,3,0,0,1,0,3.8Z" fill="url(#fd4a439b-449e-482c-999d-6f25a4eb54f3)"/>
+        <circle cx="25" cy="5" r="3" fill="#061f80"/>
+        <circle cx="25" cy="27" r="3" fill="#061f80"/>
+        <circle cx="7" cy="5" r="3" fill="#061f80"/>
+        <circle cx="16" cy="16" r="3" fill="#061f80"/>
+        <circle cx="7" cy="27" r="3" fill="#061f80"/>
+      </g>
+    </g>
+  </g>
+</svg>
