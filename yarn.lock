@@ -1152,9 +1152,9 @@
     prop-types "^15.7.2"
 
 "@carbon/icons@^10.19.0", "@carbon/icons@^10.20.0":
-  version "10.23.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.23.0.tgz#db91d763a3a1d4ba1149d7cfaef43cd0f7a18311"
-  integrity sha512-GBUt3+XTRmyeQJlfpIsEHfHZXhxkuNoWxxi1kPUyTuv+lzoHYJRaedPXL2tdZWpv1t6oHx/HAK0ah9EYExnkLw==
+  version "10.24.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.24.0.tgz#562ff42de41a9037c18e225b3a44cf6efd73d47f"
+  integrity sha512-vBNIdRyvpI44qZcFFgcUp3dlFYrwFuv7stRViwO00XiEBn+dS5QqzTet061aWGRX8l4gIoQ79zdeQ1rtRN2RnQ==
 
 "@carbon/import-once@^10.3.0":
   version "10.3.0"
