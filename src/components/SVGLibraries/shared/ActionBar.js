@@ -59,8 +59,8 @@ const ActionBar = ({
       <TooltipDefinition
         onFocus={() => setIsActionBarVisible(true)}
         onClick={handleDownload}
-        align="center"
         direction="top"
+        align="end"
         tooltipText="Download SVG"
         className={styles.tooltip}
         triggerClassName={styles.trigger}>
@@ -68,8 +68,8 @@ const ActionBar = ({
       </TooltipDefinition>
       {shouldShowCopyButton && (
         <TooltipDefinition
-          align="center"
           direction="top"
+          align="end"
           tooltipText={copyText}
           onClick={handleCopy}
           onFocus={() => setIsActionBarVisible(true)}
