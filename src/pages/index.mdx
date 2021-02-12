@@ -97,16 +97,19 @@ import { noGutterSm } from '../styles/Grid.module.scss';
 
 ![IBM plex typespec diagram](../images/homepage/plex-type-specs.png)
 
-   </ImageCard>
-    <HomepageTile
-      ratio="2:1"
-      theme="dark"
-      title="Sketch design kits"
-      actionIcon="resources"
-      identityIcon="../images/resource-cards/sketch.png"
-      link="https://www.carbondesignsystem.com/designing/kits/sketch"
-    />
-  </Column>
+</ImageCard>
+
+<HomepageTile
+  ratio="2:1"
+  theme="dark"
+  title="Sketch design kits"
+  actionIcon="resources"
+  identityIcon="../images/resource-cards/sketch.png"
+  link="https://www.carbondesignsystem.com/designing/kits/sketch"
+  >
+</HomepageTile>
+</Column>
+  
   <Column colLg={8} noGutterSm>
   <HomepageTile
     ratio="1:1"
@@ -118,9 +121,10 @@ import { noGutterSm } from '../styles/Grid.module.scss';
       title="Gallery"
       actionIcon="article"
       link="/gallery"
-    />
+    >
     </HomepageTile>
   </Column>
+  
   <Column colLg={8} noGutterSm>
     <ImageCard
         title="Color"
