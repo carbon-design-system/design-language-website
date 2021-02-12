@@ -69,7 +69,7 @@
       border-bottom: transparent;
 
       .#{$prefix}--list-box__field {
-        background: $ui-02;
+        background: $ui-01;
         height: 3rem;
         border-bottom: 1px solid $carbon--gray-20;
 
@@ -94,7 +94,7 @@
 
       .#{$prefix}--list-box__menu {
         top: 3rem;
-        background: $ui-02;
+        background: $ui-01;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
 
         .#{$prefix}--list-box__menu-item {
@@ -113,7 +113,7 @@
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    background-color: $ui-02;
+    background-color: $ui-01;
     width: 100%;
     height: 3rem;
     border-bottom: 1px solid $carbon--gray-20;
@@ -161,7 +161,7 @@
 
 .#{$prefix}--type-tester-sample {
   width: 100%;
-  background: $ui-02;
+  background: $ui-01;
 
   .#{$prefix}--custom-textarea {
     font-size: 48px;
@@ -170,7 +170,7 @@
     width: 100%;
     height: auto;
     outline: none;
-    background: $ui-02;
+    background: $ui-01;
     padding: $spacing-05;
     overflow: none;
 

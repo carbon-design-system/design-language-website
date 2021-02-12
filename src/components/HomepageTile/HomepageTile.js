@@ -1,4 +1,5 @@
 import React, { useLayoutEffect, useState } from 'react';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
 import { Launch20, ArrowRight20, Error20 } from '@carbon/icons-react';
@@ -150,14 +151,14 @@ const HomepageTile = ({
             </div>
           </div>
         ) : (
-          <a
+          <Link
             className={
               theme === 'dark'
                 ? `${prefix}--homepage-idl-tile ${prefix}--homepage-idl-tile__dark`
                 : `${prefix}--homepage-idl-tile`
             }
             style={ratioStyle}
-            href={link}
+            to={link}
             target={target}>
             <div
               className={
@@ -201,7 +202,7 @@ const HomepageTile = ({
                 {getActionIcon(actionIcon)}
               </div>
             </div>
-          </a>
+          </Link>
         )}
       </>
     )

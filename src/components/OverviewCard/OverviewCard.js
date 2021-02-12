@@ -85,11 +85,7 @@ export default class OverviewCard extends React.Component {
         {tag && <Tag type="teal">{tag}</Tag>}
         <div className="overview-card__img">{children}</div>
         {isLink === false && (
-          <a
-            className="overview-card__link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href={href}>
+          <a className="overview-card__link" href={href}>
             <TooltipIcon
               className="overview-card__tooltip"
               direction="top"

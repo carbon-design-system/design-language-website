@@ -317,7 +317,6 @@ export default class TypeTester extends Component {
         <div className={`${prefix}--type-tester-menu`}>
           <div className="dropdown_wrapper">
             <Dropdown
-              light
               id={`${prefix}--type-tester-language-dropdown`}
               items={languageDropdownContent}
               label={this.state.label}
@@ -330,7 +329,6 @@ export default class TypeTester extends Component {
               open={this.state.openDropdown === 'language-dropdown'}
             />
             <Dropdown
-              light
               id={`${prefix}--type-tester-weight-dropdown`}
               items={this.getWeightsForLanguage()}
               label={this.getLanguageForWeight(this.state.fontWeight)}

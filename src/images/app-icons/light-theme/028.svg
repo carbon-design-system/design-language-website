@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="028_svg__a" y1="24" x2="8" y2="16" gradientUnits="userSpaceOnUse"><stop offset=".35"/><stop offset=".75" stop-opacity="0"/></linearGradient><linearGradient id="028_svg__c" y1="32" x2="32" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-color="#08bdba"/><stop offset=".9" stop-color="#0f62fe"/></linearGradient><mask id="028_svg__b" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse"><path d="M26.962 16.757c.017-.251.038-.5.038-.757s-.01-.513-.028-.766l1.921-1.688a2 2 0 00.412-2.5l-2.361-4.09a2 2 0 00-1.732-1 2.041 2.041 0 00-.641.106l-2.434.824a11.074 11.074 0 00-1.312-.759l-.5-2.518A2 2 0 0018.36 2h-4.72a2 2 0 00-1.962 1.608l-.5 2.518a11.017 11.017 0 00-1.327.754l-2.422-.819a2 2 0 00-2.373.9L2.7 11.044a2 2 0 00.412 2.5l1.931 1.7C5.021 15.5 5 15.745 5 16s.01.513.028.766L0 21.184l1.075 1.327 6.078-4.95a8.908 8.908 0 01-.007-3.128l-2.719-2.389 2.362-4.088 3.426 1.159a9.04 9.04 0 012.714-1.564L13.64 4h4.72l.711 3.551a9.1 9.1 0 012.694 1.571l3.447-1.166 2.36 4.088-2.725 2.395a8.908 8.908 0 01.007 3.128l2.718 2.389-2.36 4.088-3.427-1.159a9.028 9.028 0 01-2.714 1.564L18.36 28H14v2h4.36a2 2 0 001.962-1.608l.5-2.518a11.1 11.1 0 001.327-.754l2.419.819a2 2 0 002.373-.895l2.361-4.088a2 2 0 00-.412-2.5z" fill="#fff"/><path fill="url(#028_svg__a)" d="M0 16h8v8H0z"/></mask></defs><g data-name="Layer 2"><g data-name="Light theme icons"><g mask="url(#028_svg__b)"><path fill="url(#028_svg__c)" d="M0 0h32v32H0z"/></g><path d="M16 21a5 5 0 115-5 5.006 5.006 0 01-5 5zm0-8a3 3 0 103 3 3 3 0 00-3-3zM3.994 27.087h2.913V30H3.994zM9.093 27.087h2.913V30H9.093zM3.994 21.988h2.913v2.913H3.994zM9.093 21.988h2.913v2.913H9.093z" fill="#001d6c"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a76610c1-93e4-4a50-8405-8d466edbe3a5" y1="24" x2="8" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0.35"/>
+      <stop offset="0.75" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bb50b7e0-3a63-4956-a7ba-ccbe8596f6a4" x1="10" y1="19.499" x2="18" y2="19.499" gradientTransform="matrix(1, 0, 0, -1, -1.501, 37.499)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.38"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="e80cbf09-9a49-421a-aa68-8c066ba06be1" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M16,22a6,6,0,1,1,6-6A6.006,6.006,0,0,1,16,22Zm0-10a4,4,0,1,0,4,4A4,4,0,0,0,16,12Z" fill="#fff"/>
+      <g>
+        <path d="M26.962,16.757c.017-.251.038-.5.038-.757s-.01-.513-.028-.766l1.921-1.688a2,2,0,0,0,.412-2.5L26.944,6.956a2,2,0,0,0-1.732-1,2.041,2.041,0,0,0-.641.106l-2.434.824a11.074,11.074,0,0,0-1.312-.759l-.5-2.518A2,2,0,0,0,18.36,2H13.64a2,2,0,0,0-1.962,1.608l-.5,2.518a11.017,11.017,0,0,0-1.327.754L7.429,6.061a2,2,0,0,0-2.373.9L2.7,11.044a2,2,0,0,0,.412,2.5l1.931,1.7C5.021,15.5,5,15.745,5,16s.01.513.028.766L0,21.184l1.075,1.327,6.078-4.95a8.908,8.908,0,0,1-.007-3.128L4.427,12.044,6.789,7.956l3.426,1.159a9.04,9.04,0,0,1,2.714-1.564L13.64,4h4.72l.711,3.551a9.1,9.1,0,0,1,2.694,1.571l3.447-1.166,2.36,4.088-2.725,2.395a8.908,8.908,0,0,1,.007,3.128l2.718,2.389-2.36,4.088-3.427-1.159a9.028,9.028,0,0,1-2.714,1.564L18.36,28H16v2h2.36a2,2,0,0,0,1.962-1.608l.5-2.518a11.1,11.1,0,0,0,1.327-.754l2.419.819a2,2,0,0,0,2.373-.895l2.361-4.088a2,2,0,0,0-.412-2.5Z" fill="#fff"/>
+        <rect y="16" width="8" height="8" fill="url(#a76610c1-93e4-4a50-8405-8d466edbe3a5)"/>
+      </g>
+      <rect x="8.499" y="14.501" width="8" height="6.998" transform="translate(-5.501 30.499) rotate(-90)" fill="url(#bb50b7e0-3a63-4956-a7ba-ccbe8596f6a4)"/>
+    </mask>
+    <linearGradient id="afb9949b-091e-4827-9fa3-88edf3d19fa0" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g id="acf44c23-9fab-4bda-bde2-1520f1f0d09d" data-name="Layer 2">
+    <g id="b44dc03a-cf82-4ad3-8b8b-7ee847f7726f" data-name="Light theme icons">
+      <g>
+        <g mask="url(#e80cbf09-9a49-421a-aa68-8c066ba06be1)">
+          <rect width="32" height="32" fill="url(#afb9949b-091e-4827-9fa3-88edf3d19fa0)"/>
+        </g>
+        <rect x="5" y="22" width="3" height="3" fill="#001d6c"/>
+        <rect x="10" y="22" width="3" height="3" fill="#001d6c"/>
+        <rect x="5" y="27" width="3" height="3" fill="#001d6c"/>
+        <rect x="10" y="27" width="3" height="3" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>
