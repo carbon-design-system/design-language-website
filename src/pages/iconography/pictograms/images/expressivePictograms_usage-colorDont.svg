@@ -1,0 +1,41 @@
+<svg id="b21ad683-4d34-4da8-bf8b-474c86a2fbea" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 288">
+  <defs>
+    <linearGradient id="b9998055-8a6f-404d-ad18-e36bdafc4b49" x1="159.608" y1="209.749" x2="267.249" y2="102.108" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="0.9" stop-color="#e0e0e0"/>
+    </linearGradient>
+    <linearGradient id="a5f9744d-3f60-48aa-8a0b-bebc34d607ab" x1="-4610.999" y1="-4519.358" x2="-4520.608" y2="-4609.749" gradientTransform="matrix(0, -1, -1, 0, -4400, -4384)" xlink:href="#b9998055-8a6f-404d-ad18-e36bdafc4b49"/>
+    <linearGradient id="ad707d78-a424-491a-9fc0-ad9e13dfaf63" x1="76.233" y1="150.126" x2="137.874" y2="211.767" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="0.9" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="a45f6d3e-5f0d-4764-9ef8-1512dfa4d3e0" x1="59.359" y1="86.5" x2="228.641" y2="86.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e0e0e0"/>
+    </linearGradient>
+    <linearGradient id="b8c45252-7d4c-4379-84e5-25aee6805e53" x1="59.359" y1="138.25" x2="182.641" y2="138.25" xlink:href="#a45f6d3e-5f0d-4764-9ef8-1512dfa4d3e0"/>
+    <mask id="ebb231a9-8cc8-4601-82d0-35288a2c284b" x="52" y="52" width="183.999" height="183.999" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M224.5,228.641h-46v-8.283h41.859V63.5h8.282v161A4.144,4.144,0,0,1,224.5,228.641Z" fill="url(#b9998055-8a6f-404d-ad18-e36bdafc4b49)"/>
+        <path d="M178.5,228.641H121v-8.283h53.359V109.5h8.282v115A4.144,4.144,0,0,1,178.5,228.641Z" fill="url(#a5f9744d-3f60-48aa-8a0b-bebc34d607ab)"/>
+        <path d="M125.141,224.5h-8.282V171.141H63.5v-8.283H121A4.144,4.144,0,0,1,125.141,167Z" fill="url(#ad707d78-a424-491a-9fc0-ad9e13dfaf63)"/>
+        <path d="M63.5,113.641a4.144,4.144,0,0,1-4.141-4.141v-46A4.144,4.144,0,0,1,63.5,59.359h161a4.141,4.141,0,0,1,0,8.282H67.641V109.5A4.143,4.143,0,0,1,63.5,113.641Z" fill="url(#a45f6d3e-5f0d-4764-9ef8-1512dfa4d3e0)"/>
+        <path d="M63.5,171.141A4.144,4.144,0,0,1,59.359,167V109.5a4.143,4.143,0,0,1,4.141-4.141h115a4.141,4.141,0,0,1,0,8.282H67.641V167A4.143,4.143,0,0,1,63.5,171.141Z" fill="url(#b8c45252-7d4c-4379-84e5-25aee6805e53)"/>
+        <path d="M121,228.641H63.5a4.144,4.144,0,0,1-4.141-4.142V167a4.141,4.141,0,1,1,8.282,0v53.358H121a4.142,4.142,0,0,1,0,8.283Z" fill="#fff"/>
+      </g>
+    </mask>
+    <linearGradient id="ee1c6980-6ac5-42c5-b24e-56c494c79a84" x1="52" y1="235.999" x2="236" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="288" height="288" fill="#fff"/>
+  <g>
+    <g mask="url(#ebb231a9-8cc8-4601-82d0-35288a2c284b)">
+      <rect x="52" y="52" width="183.999" height="183.999" fill="url(#ee1c6980-6ac5-42c5-b24e-56c494c79a84)"/>
+    </g>
+    <g id="fce84176-c992-4a18-972b-624546636a58" data-name="micro">
+      <path d="M98.009,203.569H86.5a2.069,2.069,0,0,1-2.069-2.069V190a2.069,2.069,0,0,1,2.069-2.07H98.009a2.069,2.069,0,0,1,2.069,2.07v11.5A2.069,2.069,0,0,1,98.009,203.569Zm-9.44-4.139h7.37v-7.361h-7.37Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
