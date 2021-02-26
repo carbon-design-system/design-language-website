@@ -1,0 +1,13 @@
+<svg id="a8110796-4f63-4f7b-9f07-31090fbb223a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 448">
+  <rect width="448" height="448" fill="#fff"/>
+  <g>
+    <circle cx="249.5" cy="139" r="17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.12"/>
+    <circle cx="198.5" cy="139" r="17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.12"/>
+    <rect x="181.5" y="249.5" width="85" height="25.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.12"/>
+    <rect x="181.5" y="207" width="85" height="25.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.12"/>
+    <path d="M185.161,292a42.328,42.328,0,0,0,77.678,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.12"/>
+    <path d="M262.839,190a42.328,42.328,0,0,0-77.678,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.12"/>
+    <path d="M155.129,260.924a29.754,29.754,0,1,1-44.358-32.585L173,190Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.12"/>
+    <path d="M292.871,260.924a29.754,29.754,0,1,0,44.358-32.585L275,190Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.12"/>
+  </g>
+</svg>
