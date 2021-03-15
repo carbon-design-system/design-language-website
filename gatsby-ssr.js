@@ -7,11 +7,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
 
   const script = `
   if(!window) window = {};
-  window._ibmAnalytics = {
-    settings: {
-      isSPA: true
-    }
-  };
+  window.idaPageIsSPA = true;
   window.digitalData = {
     page: {
       category: {
