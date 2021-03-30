@@ -22,8 +22,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
         },
       },
     },
-  }
-  `;
+  }`;
 
   return setHeadComponents([
     <script key="digital-data" dangerouslySetInnerHTML={{ __html: script }} />,
