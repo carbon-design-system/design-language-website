@@ -106,7 +106,7 @@ const IconLibrary = () => {
           allIconResults={filteredPictograms.length}
           pageName="pictogram"
           repoUrl="https://github.ibm.com/brand/pictograms/issues/new"
-          pageUrl="https://github.com/carbon-design-system/carbon/blob/master/packages/pictograms/master/pictogram-master.ai"
+          pageUrl="https://github.com/carbon-design-system/carbon/tree/main/packages/pictograms/master"
         />
       ) : (
         <div className={svgLibrary}>
