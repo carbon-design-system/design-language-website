@@ -1,1 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><linearGradient id="Capture_svg__a" x1="-2271.655" y1="1098.665" x2="-2271.655" y2="1083.665" gradientTransform="rotate(-90 -1669.649 -588.087)" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-color="#fff" stop-opacity="0"/><stop offset=".6" stop-color="#fff"/></linearGradient><linearGradient id="Capture_svg__b" x1="-2281.655" y1="1107.665" x2="-2281.655" y2="1092.665" gradientTransform="rotate(-90 -1670.672 -592.903)" gradientUnits="userSpaceOnUse"><stop offset=".4" stop-color="#fff"/><stop offset=".9" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="Capture_svg__c" x1="-813.655" y1="1220.665" x2="-813.655" y2="1205.665" gradientTransform="translate(828.258 -1203.745)" xlink:href="#Capture_svg__a"/><linearGradient id="Capture_svg__d" x1="-823.655" y1="1229.665" x2="-823.655" y2="1214.665" gradientTransform="translate(841.052 -1199.585)" xlink:href="#Capture_svg__b"/><linearGradient id="Capture_svg__e" x1="21" y1="19" x2="21" y2="4" xlink:href="#Capture_svg__a"/><linearGradient id="Capture_svg__f" x1="11" y1="28" x2="11" y2="13" xlink:href="#Capture_svg__b"/><linearGradient id="Capture_svg__h" y1="32" x2="32" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-color="#be95ff"/><stop offset=".9" stop-color="#4589ff"/></linearGradient><mask id="Capture_svg__g" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse"><path transform="rotate(-30 9.602 13.919)" fill="url(#Capture_svg__a)" d="M2.103 12.92h15v2h-15z"/><path transform="rotate(-30 22.398 18.08)" fill="url(#Capture_svg__b)" d="M14.897 17.08h15v2h-15z"/><path transform="rotate(-60 14.603 9.42)" fill="url(#Capture_svg__c)" d="M13.603 1.92h2v15h-2z"/><path transform="rotate(-60 17.397 22.58)" fill="url(#Capture_svg__d)" d="M16.397 15.08h2v15h-2z"/><path fill="url(#Capture_svg__e)" d="M20 4h2v15h-2z"/><path fill="url(#Capture_svg__f)" d="M10 13h2v15h-2z"/><path d="M16 30a14 14 0 1114-14 14.015 14.015 0 01-14 14zm0-26a12 12 0 1012 12A12.013 12.013 0 0016 4z" fill="#fff"/></mask></defs><g data-name="Layer 2"><g data-name="Dark theme icons"><g mask="url(#Capture_svg__g)"><path fill="url(#Capture_svg__h)" d="M0 0h32v32H0z"/></g><circle cx="16" cy="16" r="2" fill="#f4f4f4"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="ba51f3bf-f0a4-4d40-b861-086b4ebae973" x1="-2834.155" y1="1423.425" x2="-2834.155" y2="1408.425" gradientTransform="translate(-1406.322 -2820.235) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="adb7cb97-2804-4d14-87ba-22b204f8c9f3" x1="-2844.155" y1="1432.425" x2="-2844.155" y2="1417.425" gradientTransform="translate(-1402.527 -2826.075) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4" stop-color="#fff"/>
+      <stop offset="0.9" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="eecf7ab1-16e3-44e1-bfc0-6fae4dbe1b20" x1="-1001.155" y1="1545.425" x2="-1001.155" y2="1530.425" gradientTransform="translate(1015.758 -1528.505)" xlink:href="#ba51f3bf-f0a4-4d40-b861-086b4ebae973"/>
+    <linearGradient id="ae365ec4-b57c-4f5f-9672-16d42adbc45c" x1="-1011.155" y1="1554.425" x2="-1011.155" y2="1539.425" gradientTransform="translate(1028.552 -1524.344)" xlink:href="#adb7cb97-2804-4d14-87ba-22b204f8c9f3"/>
+    <linearGradient id="b578a5bb-0701-4608-8f04-d53728ff01a6" x1="21" y1="19" x2="21" y2="4" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#ba51f3bf-f0a4-4d40-b861-086b4ebae973"/>
+    <linearGradient id="eb300e9b-3af7-4384-a05e-62cf66dc5b20" x1="11" y1="28" x2="11" y2="13" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#adb7cb97-2804-4d14-87ba-22b204f8c9f3"/>
+    <mask id="f087e57e-02f7-4365-8616-b9267dead06a" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <g>
+            <rect x="2.103" y="12.92" width="15" height="2" transform="translate(-5.673 6.666) rotate(-30)" fill="url(#ba51f3bf-f0a4-4d40-b861-086b4ebae973)"/>
+            <rect x="14.897" y="17.08" width="15" height="2" transform="translate(-6.039 13.621) rotate(-30)" fill="url(#adb7cb97-2804-4d14-87ba-22b204f8c9f3)"/>
+          </g>
+          <g>
+            <rect x="13.603" y="1.92" width="2" height="15" transform="translate(-0.856 17.356) rotate(-60)" fill="url(#eecf7ab1-16e3-44e1-bfc0-6fae4dbe1b20)"/>
+            <rect x="16.397" y="15.08" width="2" height="15" transform="translate(-10.856 26.356) rotate(-60)" fill="url(#ae365ec4-b57c-4f5f-9672-16d42adbc45c)"/>
+          </g>
+          <g>
+            <rect x="20" y="4" width="2" height="15" fill="url(#b578a5bb-0701-4608-8f04-d53728ff01a6)"/>
+            <rect x="10" y="13" width="2" height="15" fill="url(#eb300e9b-3af7-4384-a05e-62cf66dc5b20)"/>
+          </g>
+        </g>
+        <path d="M16,30A14,14,0,1,1,30,16,14.015,14.015,0,0,1,16,30ZM16,4A12,12,0,1,0,28,16,12.013,12.013,0,0,0,16,4Z" fill="#fff"/>
+      </g>
+    </mask>
+    <linearGradient id="fcd0fcbe-be54-4b11-a37b-b367c1dabee3" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="b5f24b64-491d-4844-a404-0069a9cc6350" data-name="Layer 2">
+    <g id="b554c529-66b8-446c-83f4-e4fbff4b59dd" data-name="Dark theme icons">
+      <g>
+        <g mask="url(#f087e57e-02f7-4365-8616-b9267dead06a)">
+          <rect width="32" height="32" fill="url(#fcd0fcbe-be54-4b11-a37b-b367c1dabee3)"/>
+        </g>
+        <circle cx="16" cy="16" r="2" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>
