@@ -1143,7 +1143,7 @@
     "@carbon/import-once" "^10.3.0"
     "@carbon/layout" "^10.13.0"
 
-"@carbon/icon-helpers@^10.14.0", "@carbon/icon-helpers@^10.15.0":
+"@carbon/icon-helpers@^10.15.0":
   version "10.15.0"
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.15.0.tgz#3a358bdf6b6743a44a39d0f8302bebc98a96562e"
   integrity sha512-TpCvRARVI1XnyuhxM8BgHl3m+HRlUkkef32SC6NGhz2cF99/3EsWAzcPz98JNCojAYYXHjGiEfO6K61z53u+lg==
@@ -1186,9 +1186,9 @@
     prop-types "^15.7.2"
 
 "@carbon/pictograms@^11.4.0":
-  version "11.6.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.6.0.tgz#9c266150d1900f9a2c83f5f4c2b8adb97d0c8855"
-  integrity sha512-HThqFX7vwhHmFxx21ixWV/R9iJ7ItZymbgnkYbORhu16n/Ez6Heb5ajBPapZLcC1isszYmXQESjJh6BfgzZDiA==
+  version "11.7.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.7.0.tgz#039e96c32f6ca89a4451588b43e3e6e849de296f"
+  integrity sha512-j9q9XVUHlQtoypJkSmXZtKZr9r5TAeZGDjIjW+TO8ygVCFEOBfedGw3KFToN5BFIWLkDCjTQ5YXFyYDMQeDamA==
 
 "@carbon/telemetry@0.0.0-alpha.6":
   version "0.0.0-alpha.6"
