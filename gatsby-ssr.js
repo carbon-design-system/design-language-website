@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const onRenderBody = ({ setHeadComponents }) => {
+export const onRenderBody = ({ setPostBodyComponents }) => {
   if (process.env.NODE_ENV !== `production`) {
     return null;
   }
@@ -24,9 +24,10 @@ export const onRenderBody = ({ setHeadComponents }) => {
     },
   }`;
 
-  return setHeadComponents([
+  return setPostBodyComponents([
     <script key="digital-data" dangerouslySetInnerHTML={{ __html: script }} />,
     <script
+      defer
       async="async"
       key="core-metrics"
       src="https://1.www.s81c.com/common/stats/ibm-common.js"
