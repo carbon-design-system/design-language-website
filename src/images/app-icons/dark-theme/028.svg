@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b99e2707-d40c-48d0-bd32-b5ffdd400393" y1="24" x2="8" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0.35"/>
+      <stop offset="0.75" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fdcf2a3e-2b61-4861-867f-ad2038ebe914" x1="10" y1="19.499" x2="18" y2="19.499" gradientTransform="matrix(1, 0, 0, -1, -1.501, 37.499)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.38"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="b1458fdf-15c0-4815-88bb-3292ecc3adb5" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M16,22a6,6,0,1,1,6-6A6.006,6.006,0,0,1,16,22Zm0-10a4,4,0,1,0,4,4A4,4,0,0,0,16,12Z" fill="#fff"/>
+      <g>
+        <path d="M26.962,16.757c.017-.251.038-.5.038-.757s-.01-.513-.028-.766l1.921-1.688a2,2,0,0,0,.412-2.5L26.944,6.956a2,2,0,0,0-1.732-1,2.041,2.041,0,0,0-.641.106l-2.434.824a11.074,11.074,0,0,0-1.312-.759l-.5-2.518A2,2,0,0,0,18.36,2H13.64a2,2,0,0,0-1.962,1.608l-.5,2.518a11.017,11.017,0,0,0-1.327.754L7.429,6.061a2,2,0,0,0-2.373.9L2.7,11.044a2,2,0,0,0,.412,2.5l1.931,1.7C5.021,15.5,5,15.745,5,16s.01.513.028.766L0,21.184l1.075,1.327,6.078-4.95a8.908,8.908,0,0,1-.007-3.128L4.427,12.044,6.789,7.956l3.426,1.159a9.04,9.04,0,0,1,2.714-1.564L13.64,4h4.72l.711,3.551a9.1,9.1,0,0,1,2.694,1.571l3.447-1.166,2.36,4.088-2.725,2.395a8.908,8.908,0,0,1,.007,3.128l2.718,2.389-2.36,4.088-3.427-1.159a9.028,9.028,0,0,1-2.714,1.564L18.36,28H16v2h2.36a2,2,0,0,0,1.962-1.608l.5-2.518a11.1,11.1,0,0,0,1.327-.754l2.419.819a2,2,0,0,0,2.373-.895l2.361-4.088a2,2,0,0,0-.412-2.5Z" fill="#fff"/>
+        <rect y="16" width="8" height="8" fill="url(#b99e2707-d40c-48d0-bd32-b5ffdd400393)"/>
+      </g>
+      <rect x="8.499" y="14.501" width="8" height="6.998" transform="translate(-5.501 30.499) rotate(-90)" fill="url(#fdcf2a3e-2b61-4861-867f-ad2038ebe914)"/>
+    </mask>
+    <linearGradient id="a03a9867-b78a-41e7-925f-a07fee704449" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="b0e1009c-9e14-4763-9b7e-7bfef86d4d64" data-name="Layer 2">
+    <g id="bdf3535c-8524-4d10-893f-15f784db5d07" data-name="Dark theme icons">
+      <g>
+        <g mask="url(#b1458fdf-15c0-4815-88bb-3292ecc3adb5)">
+          <rect width="32" height="32" fill="url(#a03a9867-b78a-41e7-925f-a07fee704449)"/>
+        </g>
+        <rect x="5" y="22" width="3" height="3" fill="#f4f4f4"/>
+        <rect x="10" y="22" width="3" height="3" fill="#f4f4f4"/>
+        <rect x="5" y="27" width="3" height="3" fill="#f4f4f4"/>
+        <rect x="10" y="27" width="3" height="3" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>
