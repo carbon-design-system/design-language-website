@@ -1,0 +1,26 @@
+<svg id="Build_icon_here" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1523.772" y1="226.639" x2="1536.772" y2="226.639" gradientTransform="translate(-1565.313 -167.477) scale(1.03 0.848)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-opacity="0"/>
+      <stop offset="0.9"/>
+    </linearGradient>
+    <mask id="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M14.486,30.864,2.5,23.876a1,1,0,0,1-.5-.864V9H4V22.438l11.494,6.7Z" style="fill: #fff"/>
+        <path d="M11.992,13.017l-2,0L10,4.337a1,1,0,0,1,.5-.866l4.02-2.313a1,1,0,0,1,1,0L27.5,8.136A1,1,0,0,1,28,9v4H26V9.575L15.017,3.18,12,4.917Z" style="fill: #fff"/>
+        <rect x="6" y="6" width="2" height="10" style="fill: #fff"/>
+      </g>
+      <rect x="4.442" y="20.519" width="13.392" height="8.482" transform="translate(13.872 -2.252) rotate(30)" style="fill: url(#linear-gradient)"/>
+    </mask>
+    <linearGradient id="linear-gradient-2" x1="-4352" y1="4384" x2="-4384" y2="4416" gradientTransform="matrix(1, 0, 0, -1, 4384, 4416)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g style="mask: url(#mask)">
+      <rect width="32" height="32" transform="translate(32 0) rotate(90)" style="fill: url(#linear-gradient-2)"/>
+    </g>
+    <path d="M27,25a3,3,0,0,0-2.818,2.006l-2.1.016A.394.394,0,0,1,22,26.75v-7.5c0-.151.058-.249,0-.25h2.181a3,3,0,1,0,0-2H22a2.138,2.138,0,0,0-2,2.25V22H17.816a3,3,0,1,0,0,2H20v2.75A2.139,2.139,0,0,0,22,29h2.184A2.995,2.995,0,1,0,27,25Zm0-8a1,1,0,1,1-1,1A1,1,0,0,1,27,17ZM15,24a1,1,0,1,1,1-1A1,1,0,0,1,15,24Zm12,5a1,1,0,1,1,1-1A1,1,0,0,1,27,29Z" style="fill: #f4f4f4"/>
+  </g>
+</svg>
