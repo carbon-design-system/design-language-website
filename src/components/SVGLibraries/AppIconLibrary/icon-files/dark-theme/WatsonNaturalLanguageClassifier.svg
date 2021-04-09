@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="e0d07498-020f-4f53-96d1-bed544965654" x1="-155" y1="-1724" x2="-155" y2="-1729" gradientTransform="translate(161 1740)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a787bdea-9e51-49fd-a903-36fe732e098a" x1="-84" y1="7" x2="-84" y2="2" gradientTransform="translate(100 16)" xlink:href="#e0d07498-020f-4f53-96d1-bed544965654"/>
+    <mask id="abdb2507-9c8a-4756-9f76-4f9ba5d56df8" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <polygon points="7 12 5 12 5 16 2 16 2 18 10 18 10 16 7 16 7 12" fill="#fff"/>
+          <path d="M28,12a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H24a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h1v4H22v2h8V16H27V12ZM24,4h4v6H24Z" fill="#fff"/>
+          <polygon points="12 18 15 18 15 22 17 22 17 18 20 18 20 16 12 16 12 18" fill="#fff"/>
+        </g>
+        <g>
+          <rect x="4" y="11" width="4" height="5" transform="translate(12 27) rotate(-180)" fill="url(#e0d07498-020f-4f53-96d1-bed544965654)"/>
+          <rect x="14" y="18" width="4" height="5" fill="url(#a787bdea-9e51-49fd-a903-36fe732e098a)"/>
+        </g>
+        <polygon points="21 22.414 19.586 21 16 24.586 12.414 21 11 22.414 14.586 26 11 29.586 12.414 31 16 27.414 19.586 31 21 29.586 17.414 26 21 22.414" fill="#f4f4f4"/>
+      </g>
+    </mask>
+    <linearGradient id="f97557d4-2bf0-450a-b819-5e4940ae6b34" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="e229079e-00f8-4dea-bac3-1ed048622899" data-name="Layer 2">
+    <g id="a421d0f0-466b-4505-8e04-70f630b89ff7" data-name="Layer 1">
+      <g>
+        <g mask="url(#abdb2507-9c8a-4756-9f76-4f9ba5d56df8)">
+          <rect width="32" height="32" fill="url(#f97557d4-2bf0-450a-b819-5e4940ae6b34)"/>
+        </g>
+        <path d="M10,12H4a2,2,0,0,1-2-2V8A2,2,0,0,1,4,6H8V4H3V2H8a2,2,0,0,1,2,2ZM4,8v2H8V8Z" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>

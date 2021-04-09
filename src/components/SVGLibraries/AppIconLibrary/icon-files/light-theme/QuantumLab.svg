@@ -1,0 +1,26 @@
+<svg id="Build_icon_here" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-1188.729" y1="1081.082" x2="-1188.729" y2="1098.082" gradientTransform="translate(1112.082 1217.229) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M30,29H5a2,2,0,0,1-2-2V5A2,2,0,0,1,5,3H27a2,2,0,0,1,2,2v5H5V27H30ZM5,8H27V5H5Z" style="fill: #fff"/>
+        <rect x="14" y="26" width="17" height="5" style="fill: url(#linear-gradient)"/>
+        <polygon points="26 14 24.586 15.414 28.172 19 24.586 22.586 26 24 31 19 26 14 26 14" style="fill: #fff"/>
+        <rect x="4.328" y="18" width="9.817" height="2" transform="translate(-11.507 23.004) rotate(-75)" style="fill: #f4f4f4"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-2" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g style="mask: url(#mask)">
+      <rect width="32" height="32" style="fill: url(#linear-gradient-2)"/>
+    </g>
+    <path d="M21,16v4H19V13H17v7H15V16H13v3a2.5,2.5,0,0,0,2.5,2.5H17V24h2V21.5h1.5A2.5,2.5,0,0,0,23,19V16Z" style="fill: #001d6c"/>
+  </g>
+</svg>

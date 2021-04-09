@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="ef0d1dea-b847-4729-ac13-1ca26d71b074" x1="22.248" y1="30.864" x2="22.248" y2="9" gradientUnits="userSpaceOnUse">
+      <stop offset="0.48" stop-color="#fff"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a608c0b1-c240-4731-ac1d-ec4b323396a2" x1="12.249" y1="203.999" x2="12.249" y2="225.863" gradientTransform="translate(22.001 227) rotate(180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.25" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.52" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="f52b59bd-d76d-447b-a89b-014a2f338dcb" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M16.5,30.864,15.5,29.136,27,22.426V9h2V23a1,1,0,0,1-.5.864Z" fill="url(#ef0d1dea-b847-4729-ac13-1ca26d71b074)"/>
+      <path d="M5,23H3V9a1,1,0,0,1,.5-.864l12-7L16.5,2.864,5,9.574Z" fill="url(#a608c0b1-c240-4731-ac1d-ec4b323396a2)"/>
+      <rect x="3" y="18" width="2" height="2" fill="#fff"/>
+      <rect x="7" y="14" width="2" height="2" fill="#fff"/>
+      <rect x="23" y="16" width="2" height="2" fill="#fff"/>
+      <rect x="27" y="12" width="2" height="2" fill="#fff"/>
+      <rect x="23" y="8" width="2" height="2" fill="#fff"/>
+      <rect x="27" y="4" width="2" height="2" fill="#fff"/>
+      <rect x="19" y="4" width="2" height="2" fill="#fff"/>
+      <rect x="7" y="22" width="2" height="2" fill="#fff"/>
+      <rect x="11" y="26" width="2" height="2" fill="#fff"/>
+      <rect x="3" y="26" width="2" height="2" fill="#fff"/>
+    </mask>
+    <linearGradient id="f87dcd2a-9a89-46d4-a8f1-1de7c015979e" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#a56eff"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g id="aefff5e9-10f2-4530-aadc-601b248c9a81" data-name="Layer 2">
+    <g id="bd2d91ef-ec36-4ece-8bf1-106d261713d7" data-name="Light theme icons">
+      <g>
+        <g mask="url(#f52b59bd-d76d-447b-a89b-014a2f338dcb)">
+          <rect width="32" height="32" fill="url(#f87dcd2a-9a89-46d4-a8f1-1de7c015979e)"/>
+        </g>
+        <path d="M19,9H13a2,2,0,0,0-2,2V21a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2V11A2,2,0,0,0,19,9Zm0,2v2H13V11Zm0,4v2H13V15Zm-6,6V19h6v2Z" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>

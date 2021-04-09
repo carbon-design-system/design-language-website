@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="e46cf42d-4087-4d79-9749-b290a4608fe7" x1="14.157" y1="26.817" x2="30.839" y2="17.185" gradientUnits="userSpaceOnUse">
+      <stop offset="0.28" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="e58b1d90-2e52-4117-b46d-fbb5117d21a3" x1="452.157" y1="-387.183" x2="468.839" y2="-396.815" gradientTransform="translate(470 -382) rotate(180)" xlink:href="#e46cf42d-4087-4d79-9749-b290a4608fe7"/>
+    <mask id="a14ba280-36c5-4c4a-baf1-a3f4861a517d" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M16.5,30.864,15.5,29.136,27,22.426V14h2v9a1,1,0,0,1-.5.864Z" fill="url(#e46cf42d-4087-4d79-9749-b290a4608fe7)"/>
+      <path d="M5,18H3V9a1,1,0,0,1,.5-.864l12-7L16.5,2.864,5,9.574Z" fill="url(#e58b1d90-2e52-4117-b46d-fbb5117d21a3)"/>
+      <path d="M28,6a3,3,0,0,0-3,3,2.943,2.943,0,0,0,.057.559L5.926,20.719A2.972,2.972,0,0,0,4,20a3,3,0,1,0,3,3,2.943,2.943,0,0,0-.057-.559l19.131-11.16A2.972,2.972,0,0,0,28,12a3,3,0,0,0,0-6ZM4,24a1,1,0,1,1,1-1A1,1,0,0,1,4,24ZM28,10a1,1,0,1,1,1-1A1,1,0,0,1,28,10Z" fill="#fff"/>
+    </mask>
+    <linearGradient id="bf6deddc-dec4-4507-8d4f-4c5f7b226076" x1="975" y1="855" x2="943" y2="823" gradientTransform="translate(-943 -823)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#8a3ffc"/>
+    </linearGradient>
+  </defs>
+  <g id="a3c58814-e509-4450-b095-5ab78c27e60c" data-name="Layer 2">
+    <g id="bdf868d5-2937-4315-8314-05f7f2a5b4fe" data-name="Light theme icons">
+      <g>
+        <g mask="url(#a14ba280-36c5-4c4a-baf1-a3f4861a517d)">
+          <rect width="32" height="32" transform="translate(32 0) rotate(90)" fill="url(#bf6deddc-dec4-4507-8d4f-4c5f7b226076)"/>
+        </g>
+        <path d="M16,10.011a1.009,1.009,0,0,1-.5-.136l-3-1.75a1,1,0,0,1-.5-.864v-3.5a1,1,0,0,1,.5-.864l3-1.75a1,1,0,0,1,1.008,0l3,1.75a1,1,0,0,1,.5.864v3.5a1,1,0,0,1-.5.864l-3,1.75A1.009,1.009,0,0,1,16,10.011ZM14,6.687l2,1.166,2-1.166V4.335L16,3.169,14,4.335Z" fill="#001d6c"/>
+        <path d="M16,31.011a1.009,1.009,0,0,1-.5-.136l-3-1.75a1,1,0,0,1-.5-.864v-3.5a1,1,0,0,1,.5-.864l3-1.75a1,1,0,0,1,1.008,0l3,1.75a1,1,0,0,1,.5.864v3.5a1,1,0,0,1-.5.864l-3,1.75A1.009,1.009,0,0,1,16,31.011Zm-2-3.324,2,1.166,2-1.166V25.335l-2-1.166-2,1.166Z" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="f6895e2e-ec70-4482-9495-bd46aedd5f13" x1="15" y1="16" x2="15" y2="9" gradientUnits="userSpaceOnUse">
+      <stop offset="0.3"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b0de30f7-c6e5-42f6-b503-d33790bb8f63" x1="27" y1="27" x2="27" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.7"/>
+    </linearGradient>
+    <mask id="af2b5ffd-df1d-4d74-a9d7-a6924cc86934" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M12,30a4,4,0,0,1-4-4V20h2v6a2,2,0,0,0,4,0V6a4,4,0,0,1,8,0v9H20V6a2,2,0,0,0-4,0V26A4,4,0,0,1,12,30Z" fill="#fff"/>
+      <path d="M10,15H8V6A2,2,0,0,0,4,6v6H2V6a4,4,0,0,1,8,0Z" fill="#fff"/>
+      <path d="M24,30a4,4,0,0,1-4-4V20h2v6a2,2,0,0,0,4,0V21h2v5A4,4,0,0,1,24,30Z" fill="#fff"/>
+      <path d="M11,16H7V9h4ZM23,9H19v7h4Z" fill="url(#f6895e2e-ec70-4482-9495-bd46aedd5f13)"/>
+      <rect x="25" y="20" width="4" height="7" fill="url(#b0de30f7-c6e5-42f6-b503-d33790bb8f63)"/>
+    </mask>
+    <linearGradient id="bf0b8fd1-d97e-4aee-b663-64dd16a6ff52" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g id="a58bf307-7b4b-4cdc-8865-518a5f70a82d" data-name="Layer 2">
+    <g id="fa868e72-756d-413e-8f45-bd421bcb2d37" data-name="Build icon here">
+      <g>
+        <g mask="url(#af2b5ffd-df1d-4d74-a9d7-a6924cc86934)">
+          <rect width="32" height="32" fill="url(#bf0b8fd1-d97e-4aee-b663-64dd16a6ff52)"/>
+        </g>
+        <polygon points="27.17 15 19 15 19 17 27.17 17 24.59 19.59 26 21 31 16 26 11 24.59 12.41 27.17 15" fill="#001d6c"/>
+        <rect x="2" y="15" width="9" height="2" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>

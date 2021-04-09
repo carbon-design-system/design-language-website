@@ -1,0 +1,18 @@
+<svg id="Build_icon_here" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="16" y1="26" x2="16" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161616" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#161616" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="2" y1="30" x2="30" y2="2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#33b1ff"/>
+      <stop offset="1" stop-color="#8a3ffc"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="6" y="6" width="20" height="20" style="fill: url(#linear-gradient)"/>
+    <rect x="10" y="10" width="12" height="12" style="fill: #001d6c"/>
+    <path d="M10,10H2V2h8ZM30,2H22v8h8ZM10,22H2v8h8Zm20,0H22v8h8Z" style="fill: url(#linear-gradient-2)"/>
+    <rect width="32" height="32" style="fill: none"/>
+  </g>
+</svg>

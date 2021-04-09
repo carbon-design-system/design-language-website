@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="28.019" y1="23.025" x2="15.981" y2="29.975" gradientTransform="translate(16.351 -7.476) rotate(30.258)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="3.981" y1="8.975" x2="16.019" y2="2.025" gradientTransform="translate(4.134 -4.29) rotate(30.258)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="16.019" y1="29.975" x2="3.981" y2="23.025" gradientTransform="translate(27.851 4.51) rotate(59.744)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="14.096" y1="5.288" x2="26.997" y2="12.737" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.57" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="15.998" y1="28" x2="15.998" y2="19" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-opacity="0"/>
+      <stop offset="0.7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="27.391" y1="9.676" x2="17.609" y2="15.324" gradientUnits="userSpaceOnUse">
+      <stop offset="0.24" stop-opacity="0"/>
+      <stop offset="0.67"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="28" y1="9" x2="28" y2="23" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="4" y1="9" x2="4" y2="23" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#linear-gradient"/>
+    <mask id="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <rect x="15.054" y="25.5" width="13.892" height="2" transform="translate(-10.356 14.696) rotate(-30.258)" style="fill: url(#linear-gradient)"/>
+      <rect x="3.054" y="4.5" width="13.892" height="2" transform="translate(-1.409 5.788) rotate(-30.258)" style="fill: url(#linear-gradient-2)"/>
+      <rect x="9" y="19.554" width="2" height="13.892" transform="translate(-17.929 21.785) rotate(-59.744)" style="fill: url(#linear-gradient-3)"/>
+      <line x1="16" y1="30" x2="16" y2="20.667" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+      <path d="M20.5,14.53l8-4.666a1,1,0,0,0,.36-1.368A.975.975,0,0,0,28.5,8.15l.008-.014-12-7L15.5,2.864,26.015,9,19.5,12.8Z" style="fill: url(#linear-gradient-4)"/>
+      <rect x="13.998" y="19" width="4" height="9" style="fill: url(#linear-gradient-5)"/>
+      <rect x="18" y="9" width="9" height="7" style="fill: url(#linear-gradient-6)"/>
+      <rect x="27" y="9" width="2" height="14" style="fill: url(#linear-gradient-7)"/>
+      <rect x="3" y="9" width="2" height="14" transform="translate(8 32) rotate(180)" style="fill: url(#linear-gradient-8)"/>
+    </mask>
+    <linearGradient id="linear-gradient-9" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="dark_theme" data-name="dark theme">
+      <g>
+        <g style="mask: url(#mask)">
+          <rect width="32" height="32" style="fill: url(#linear-gradient-9)"/>
+        </g>
+        <path d="M16,21.667a1,1,0,0,1-.5-.137l-4-2.333a1,1,0,0,1-.5-.864V13.667a1,1,0,0,1,.5-.864l4-2.333a1,1,0,0,1,1.008,0l4,2.333a1,1,0,0,1,.5.864v4.666a1,1,0,0,1-.5.864l-4,2.333A1,1,0,0,1,16,21.667Zm-3-3.908,3,1.75,3-1.75V14.241l-3-1.75-3,1.75Z" style="fill: #f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>

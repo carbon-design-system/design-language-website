@@ -1,0 +1,13 @@
+<svg id="Build_icon_here" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="7" y1="16" x2="31" y2="16" gradientTransform="translate(16.878 -8.749) rotate(44.999)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a56eff"/>
+      <stop offset="1" stop-color="#82cfff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="2.757" y="11.757" width="8.485" height="8.485" transform="translate(13.364 -0.263) rotate(45)" style="fill: #f4f4f4"/>
+    <rect x="6.273" y="11.757" width="25.455" height="8.485" transform="translate(-5.748 18.121) rotate(-44.999)" style="fill: url(#linear-gradient)"/>
+    <rect width="32" height="32" style="fill: none"/>
+  </g>
+</svg>

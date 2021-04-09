@@ -1,0 +1,22 @@
+<svg id="Build_icon_here" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="22" y1="14" x2="22" y2="5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M16.013,26H7.5A7.5,7.5,0,0,1,6.178,11.124,10,10,0,0,1,26,13H24a8,8,0,0,0-15.951-.87l-.09.833-.836.057A5.5,5.5,0,0,0,7.5,24h8.513Z" style="fill: #fff"/>
+      <rect x="14.5" y="5" width="15" height="9" style="fill: url(#linear-gradient)"/>
+    </mask>
+    <linearGradient id="linear-gradient-2" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#a56eff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g style="mask: url(#mask)">
+      <rect width="32" height="32" style="fill: url(#linear-gradient-2)"/>
+    </g>
+    <path d="M27,19v3c-1,0-2-1.5-2-4V15c-4,5-5,7-5,9a5,5,0,0,0,3.046,4.6A7.527,7.527,0,0,1,25,25a7.527,7.527,0,0,1,1.954,3.6A5,5,0,0,0,30,24C30,22,28.875,20.429,27,19Z" style="fill: #001d6c"/>
+  </g>
+</svg>

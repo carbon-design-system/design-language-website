@@ -1,1 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="a" x1="6" y1="25.5" x2="27" y2="25.5" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-opacity="0"/><stop offset=".75"/></linearGradient><linearGradient id="c" y1="32" x2="32" gradientUnits="userSpaceOnUse"><stop offset=".2" stop-color="#8a3ffc"/><stop offset=".8" stop-color="#30b0ff"/></linearGradient><mask id="b" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse"><path d="M15 29a9.011 9.011 0 01-9-9V7.618l9-4.5 11 5.5V6.382l-11-5.5-11 5.5V20a11 11 0 0022 0h-2a9.011 9.011 0 01-9 9z" fill="#fff"/><path fill="url(#a)" d="M6 19h21v13H6z"/></mask></defs><g data-name="Layer 2"><g data-name="Light theme icons"><g mask="url(#b)"><path fill="url(#c)" d="M0 0h32v32H0z"/></g><path d="M27 25H14a1 1 0 01-1-1V13a1 1 0 011-1h4a1 1 0 01.707.293L20.414 14H27a1 1 0 011 1v9a1 1 0 01-1 1zm-12-2h11v-7h-6a1 1 0 01-.707-.293L17.586 14H15z" fill="#001d6c"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="be1701f6-1925-4429-a648-912615f2cfee" x1="6" y1="25.5" x2="27" y2="25.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-opacity="0"/>
+      <stop offset="0.75"/>
+    </linearGradient>
+    <mask id="a142b0cb-ea2e-410d-92f1-54be9a1c8b5e" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M15,29a9.011,9.011,0,0,1-9-9V7.618l9-4.5,11,5.5V6.382L15,.882,4,6.382V20a11,11,0,0,0,22,0H24A9.011,9.011,0,0,1,15,29Z" fill="#fff"/>
+        <rect x="6" y="19" width="21" height="13" fill="url(#be1701f6-1925-4429-a648-912615f2cfee)"/>
+      </g>
+    </mask>
+    <linearGradient id="fbabdaf1-d00f-46fd-8fe7-107dc7ba7732" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#8a3ffc"/>
+      <stop offset="0.8" stop-color="#30b0ff"/>
+    </linearGradient>
+  </defs>
+  <g id="a2756e60-0744-4a57-8f30-576863c71474" data-name="Layer 2">
+    <g id="b26d9b84-fad1-4e28-b66c-0ae169ac29ad" data-name="Light theme icons">
+      <g>
+        <g mask="url(#a142b0cb-ea2e-410d-92f1-54be9a1c8b5e)">
+          <rect width="32" height="32" fill="url(#fbabdaf1-d00f-46fd-8fe7-107dc7ba7732)"/>
+        </g>
+        <path d="M28,25H15a1,1,0,0,1-1-1V13a1,1,0,0,1,1-1h4a1,1,0,0,1,.707.293L21.414,14H28a1,1,0,0,1,1,1v9A1,1,0,0,1,28,25ZM16,23H27V16H21a1,1,0,0,1-.707-.293L18.586,14H16Z" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>

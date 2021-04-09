@@ -1,0 +1,27 @@
+<svg id="Build_icon_here" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="634.67" y1="-155" x2="634.67" y2="-163" gradientTransform="translate(-614.67 187)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M12,4A5,5,0,1,1,7,9a5,5,0,0,1,5-5m0-2a7,7,0,1,0,7,7A7,7,0,0,0,12,2Z" style="fill: #fff"/>
+        <path d="M22,31H20V25a5.006,5.006,0,0,0-5-5H9a5.006,5.006,0,0,0-5,5v5H2V25a7.009,7.009,0,0,1,7-7h6a7.009,7.009,0,0,1,7,7Z" style="fill: #fff"/>
+      </g>
+      <rect x="17" y="24" width="6" height="8" style="fill: url(#linear-gradient)"/>
+    </mask>
+    <linearGradient id="linear-gradient-2" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g style="mask: url(#mask)">
+      <rect width="32" height="32" style="fill: url(#linear-gradient-2)"/>
+    </g>
+    <rect x="22" y="4" width="10" height="2" style="fill: #f4f4f4"/>
+    <rect x="22" y="9" width="10" height="2" style="fill: #f4f4f4"/>
+    <rect x="22" y="14" width="7" height="2" style="fill: #f4f4f4"/>
+  </g>
+</svg>

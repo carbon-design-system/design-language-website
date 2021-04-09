@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="ea066f26-ff04-4ab4-a5c5-7f7712a8f8e2" x1="-4845.903" y1="-4718.5" x2="-4837.903" y2="-4718.5" gradientTransform="matrix(1, 0, 0, -1, 4862.903, -4697.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.001" stop-opacity="0"/>
+      <stop offset="0.83"/>
+    </linearGradient>
+    <mask id="be2de58f-60d4-4b25-9a56-1f9ad2b9cee1" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <circle cx="8.5" cy="17.5" r="1.5" fill="#fff"/>
+        <circle cx="15.5" cy="17.5" r="1.5" fill="#fff"/>
+        <path d="M15.446,20.359a4.439,4.439,0,0,1-6.892,0L7,21.648a6.491,6.491,0,0,0,10,0Z" fill="#fff"/>
+        <path d="M10.113,26H5a1,1,0,0,1-1-1V14a1,1,0,0,1,1-1h5V11H5a3,3,0,0,0-3,3V25a3,3,0,0,0,3,3H8.958l2.31,4L13,31Z" fill="#fff"/>
+        <path d="M20,18v7a1,1,0,0,1-1,1H14v2h5a3,3,0,0,0,3-3V18Z" fill="#fff"/>
+        <rect x="17" y="19" width="8" height="4" transform="translate(0 42) rotate(-90)" fill="url(#ea066f26-ff04-4ab4-a5c5-7f7712a8f8e2)"/>
+      </g>
+    </mask>
+    <linearGradient id="a91becaa-2906-40e8-8c90-96b0c1586f4f" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g id="bb725219-f9c3-4a2c-a575-bb22cc241a92" data-name="Layer 2">
+    <g id="ef1fd39d-ecb6-40be-97a3-88dd9a340c68" data-name="Layer 1">
+      <g>
+        <g mask="url(#be2de58f-60d4-4b25-9a56-1f9ad2b9cee1)">
+          <rect width="32" height="32" fill="url(#a91becaa-2906-40e8-8c90-96b0c1586f4f)"/>
+        </g>
+        <g>
+          <circle cx="23.992" cy="5" r="1" fill="#f4f4f4"/>
+          <circle cx="18.992" cy="5" r="1" fill="#f4f4f4"/>
+          <path d="M23.947,10a3.494,3.494,0,0,0-4.894,0l-1.4-1.429a5.491,5.491,0,0,1,7.69,0Z" fill="#f4f4f4"/>
+          <path d="M15,0H28a2,2,0,0,1,2,2V12a2,2,0,0,1-2,2H24.464l-1.732,3L21,16l2.31-4H28V2H15V12h5v2H15a2,2,0,0,1-2-2V2A2,2,0,0,1,15,0Z" fill="#f4f4f4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

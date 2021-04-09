@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b88195d3-321a-4595-94e1-3b224d2a7eb0" x1="22.248" y1="30.864" x2="22.248" y2="9" gradientUnits="userSpaceOnUse">
+      <stop offset="0.55" stop-color="#fff"/>
+      <stop offset="0.85" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b95b144c-bfa8-42a0-a62e-8dc1c83c014a" x1="0.078" y1="14.06" x2="18.926" y2="24.942" gradientUnits="userSpaceOnUse">
+      <stop offset="0.61" stop-color="#fff"/>
+      <stop offset="0.9" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="e0ff48e5-40a0-4a01-95e7-9756ba082364" x1="5.761" y1="12.059" x2="22.352" y2="2.48" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="fff83483-0972-485e-ad2e-fd8b4b89b6b3" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M16.5,30.864,15.5,29.136,27,22.426V9h2V23a1,1,0,0,1-.5.864Z" fill="url(#b88195d3-321a-4595-94e1-3b224d2a7eb0)"/>
+      <path d="M15.5,30.864l-12-7A1,1,0,0,1,3,23V9H5V22.426l11.5,6.71Z" fill="url(#b95b144c-bfa8-42a0-a62e-8dc1c83c014a)"/>
+      <path d="M24.152,5.6,16.5,1.136a1,1,0,0,0-1.008,0l-12,7L4.5,9.864,16,3.158l7.144,4.167Z" fill="url(#e0ff48e5-40a0-4a01-95e7-9756ba082364)"/>
+    </mask>
+    <linearGradient id="b32ba58a-4cb6-483f-be83-a39f66b4d2ad" x1="2462" y1="422" x2="2494" y2="390" gradientTransform="matrix(1, 0, 0, -1, -2462, 422)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#33b1ff"/>
+      <stop offset="0.9" stop-color="#8a3ffc"/>
+    </linearGradient>
+  </defs>
+  <g id="a609baae-c939-46f4-b46e-54664f80ce0f" data-name="Layer 2">
+    <g id="f6e1beb3-851d-4452-a8db-acbdd8ee96c8" data-name="Light theme icons">
+      <g>
+        <g mask="url(#fff83483-0972-485e-ad2e-fd8b4b89b6b3)">
+          <rect width="32" height="32" transform="translate(0 32) rotate(-90)" fill="url(#b32ba58a-4cb6-483f-be83-a39f66b4d2ad)"/>
+        </g>
+        <path d="M28,6a3,3,0,0,0-3,3,2.943,2.943,0,0,0,.057.559L20,12.509,16.5,10.47a1,1,0,0,0-1.008,0l-4,2.333a1,1,0,0,0-.5.864v4.666a1,1,0,0,0,.5.864l4,2.333a1,1,0,0,0,1.008,0l4-2.333a1,1,0,0,0,.5-.864V14.241l5.074-2.96A2.972,2.972,0,0,0,28,12a3,3,0,0,0,0-6ZM19,17.759l-3,1.75-3-1.75V14.241l3-1.75,3,1.75ZM28,10a1,1,0,1,1,1-1A1,1,0,0,1,28,10Z" fill="#001d6c"/>
+      </g>
+    </g>
+  </g>
+</svg>

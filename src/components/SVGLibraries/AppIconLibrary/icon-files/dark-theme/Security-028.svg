@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a4ae5a71-6185-44a5-9dc6-b78ad8c24483" x1="6" y1="25.5" x2="27" y2="25.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-opacity="0"/>
+      <stop offset="0.75"/>
+    </linearGradient>
+    <mask id="acc131b5-533c-406d-83f0-61c86d4a16f2" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M15,29a9.011,9.011,0,0,1-9-9V7.618l9-4.5,11,5.5V6.382L15,.882,4,6.382V20a11,11,0,0,0,22,0H24A9.011,9.011,0,0,1,15,29Z" fill="#fff"/>
+        <rect x="6" y="19" width="21" height="13" fill="url(#a4ae5a71-6185-44a5-9dc6-b78ad8c24483)"/>
+      </g>
+    </mask>
+    <linearGradient id="a1481e91-61c6-4929-b09a-0f86a2081b89" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#8a3ffc"/>
+      <stop offset="0.8" stop-color="#30b0ff"/>
+    </linearGradient>
+  </defs>
+  <g id="b67a6af2-cafe-4778-a9b4-2ac0e8be7bc0" data-name="Layer 2">
+    <g id="ea9e9e3f-506f-4f52-a3a7-c7068e814f7f" data-name="Dark theme icons">
+      <g>
+        <g mask="url(#acc131b5-533c-406d-83f0-61c86d4a16f2)">
+          <rect width="32" height="32" fill="url(#a1481e91-61c6-4929-b09a-0f86a2081b89)"/>
+        </g>
+        <g>
+          <rect x="16" y="14" width="2" height="2" fill="#f4f4f4"/>
+          <rect x="16" y="19" width="2" height="2" fill="#f4f4f4"/>
+          <rect x="16" y="24" width="2" height="2" fill="#f4f4f4"/>
+          <rect x="20" y="14" width="8" height="2" fill="#f4f4f4"/>
+          <rect x="20" y="19" width="8" height="2" fill="#f4f4f4"/>
+          <rect x="20" y="24" width="8" height="2" fill="#f4f4f4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

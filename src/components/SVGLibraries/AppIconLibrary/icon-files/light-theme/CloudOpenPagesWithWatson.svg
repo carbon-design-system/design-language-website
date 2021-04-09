@@ -1,0 +1,35 @@
+<svg id="Build_icon_here" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="15.993" y1="28.257" x2="29.007" y2="20.743" gradientUnits="userSpaceOnUse">
+      <stop offset="0.15" stop-opacity="0"/>
+      <stop offset="0.5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1176.5" y1="-6316.501" x2="1188.5" y2="-6316.501" gradientTransform="translate(-1178.5 6331.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.9"/>
+    </linearGradient>
+    <mask id="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M17,30l-5-2.887a8.023,8.023,0,0,1-4-6.928V10a2,2,0,0,1,2-2H25v2H10V20.185a6.016,6.016,0,0,0,3,5.2l4,2.309,7.5-4.33,1,1.733Z" style="fill: #fff"/>
+        <rect x="17" y="19" width="11" height="11" style="fill: url(#linear-gradient)"/>
+        <path d="M5,20H3V5A2,2,0,0,1,5,3H19V5H5Z" style="fill: #fff"/>
+        <rect x="-2" y="13" width="12" height="4" transform="translate(19 11) rotate(90)" style="fill: url(#linear-gradient-2)"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-3" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#a56eff"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g style="mask: url(#mask)">
+      <rect width="32" height="32" style="fill: url(#linear-gradient-3)"/>
+    </g>
+    <rect x="20" y="21" width="8" height="2" style="fill: #001d6c"/>
+    <rect x="20" y="17" width="8" height="2" style="fill: #001d6c"/>
+    <rect x="20" y="13" width="8" height="2" style="fill: #001d6c"/>
+    <rect x="15" y="21" width="2" height="2" style="fill: #001d6c"/>
+    <rect x="15" y="17" width="2" height="2" style="fill: #001d6c"/>
+    <rect x="15" y="13" width="2" height="2" style="fill: #001d6c"/>
+  </g>
+</svg>

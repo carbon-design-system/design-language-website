@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b779bdc2-1b89-4326-8ca6-e08cdeabd1c3" x1="6" y1="24.5" x2="27" y2="24.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-opacity="0"/>
+      <stop offset="0.6"/>
+    </linearGradient>
+    <linearGradient id="a4b3cf73-180c-41a1-a70e-68088bb1df8c" x1="12.72" y1="27.967" x2="12.72" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="0.8" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="b3b37740-32c5-46dc-9dde-e7797e8b08c1" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M16,2a14,14,0,1,0,9.9,23.9l-1.414-1.414A11.992,11.992,0,0,1,4.049,17H30V16A14,14,0,0,0,16,2ZM4.051,15A12.011,12.011,0,0,1,12.79,4.449,24.336,24.336,0,0,0,10.037,15Zm7.982,0a21.788,21.788,0,0,1,3.3-10.956,5.11,5.11,0,0,1,1.342,0A21.788,21.788,0,0,1,19.967,15Zm9.93,0A24.322,24.322,0,0,0,19.21,4.449,12.011,12.011,0,0,1,27.949,15Z" fill="#fff"/>
+      <rect x="6" y="18" width="21" height="13" fill="url(#b779bdc2-1b89-4326-8ca6-e08cdeabd1c3)"/>
+      <path d="M15.441,27.967A21.7,21.7,0,0,1,12,16H10a24.135,24.135,0,0,0,2.824,11.56A11.994,11.994,0,0,0,15.441,27.967Z" fill="url(#a4b3cf73-180c-41a1-a70e-68088bb1df8c)"/>
+    </mask>
+    <linearGradient id="a2cdd53d-a3e4-4018-b9d1-0e834c97bc24" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g id="b7f3a5b0-36af-45ef-8e7a-4a607664a176" data-name="Layer 2">
+    <g id="ec5ca769-17a9-4cda-9569-35fea084ec6b" data-name="Light theme">
+      <g>
+        <g mask="url(#b3b37740-32c5-46dc-9dde-e7797e8b08c1)">
+          <rect width="32" height="32" fill="url(#a2cdd53d-a3e4-4018-b9d1-0e834c97bc24)"/>
+        </g>
+        <path d="M25,25l5,2V25l-5-2.5V20a1,1,0,0,0-2,0v2.5L18,25v2l5-2v3.5L21,30v1l3-1,3,1V30l-2-1.5Z" fill="#001d6c" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

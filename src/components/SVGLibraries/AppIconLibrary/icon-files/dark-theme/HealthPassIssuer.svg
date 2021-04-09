@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bd1441f7-86e0-46bf-bfc6-9923c4f94546" x1="2044.5" y1="-5069.5" x2="2057.5" y2="-5069.5" gradientTransform="translate(-2026 5093)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.8"/>
+    </linearGradient>
+    <mask id="aad75765-ac2f-408c-b8ba-b47d5680f192" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <rect x="14" y="6" width="4" height="2" fill="#fff"/>
+      <path d="M17,28H8V4H24V29h2V4a2,2,0,0,0-2-2H8A2,2,0,0,0,6,4V28a2,2,0,0,0,2,2h9l1-1Z" fill="#fff"/>
+      <rect x="18.5" y="21.5" width="13" height="4" transform="translate(48.5 -1.5) rotate(90)" fill="url(#bd1441f7-86e0-46bf-bfc6-9923c4f94546)"/>
+      <rect x="17" y="28" width="8" height="2" fill="#fff"/>
+    </mask>
+    <linearGradient id="e5161169-2084-4f75-872e-d788f4109f7a" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#be95ff"/>
+    </linearGradient>
+  </defs>
+  <g id="af4fe426-152a-4fc6-ad37-3fa6da38c87b" data-name="Layer 2">
+    <g id="b7f8d689-b652-443e-8b23-48658c2fd343" data-name="Build icon here">
+      <g>
+        <g mask="url(#aad75765-ac2f-408c-b8ba-b47d5680f192)">
+          <rect width="32" height="32" fill="url(#e5161169-2084-4f75-872e-d788f4109f7a)"/>
+        </g>
+        <path d="M19,21H13a3,3,0,0,0-3,3v2h2V24a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v2h2V24A3,3,0,0,0,19,21Z" fill="#f4f4f4"/>
+        <path d="M16,12a4,4,0,1,0,4,4A4,4,0,0,0,16,12Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,16,18Z" fill="#f4f4f4"/>
+      </g>
+    </g>
+  </g>
+</svg>
