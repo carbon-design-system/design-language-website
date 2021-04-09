@@ -11,15 +11,21 @@ import { Bee32 } from '@carbon/icons-react';
 <PageDescription>
 
 IBM’s pictograms are visual symbols used to represent ideas, objects or
-narratives. They can communicate messages at a glance, afford interactivity and
+narratives. They can communicate messages at a glance, afford interactivity, and
 simplify complex ideas. Pictograms draw from details found in the IBM Plex®
 typeface and work well in presentations and marketing communications.
 
 </PageDescription>
 
 <AnchorLinks>
-  <AnchorLink>The foundation</AnchorLink>
+  <AnchorLink>Pictogram types</AnchorLink>
+  <AnchorLink>Foundation</AnchorLink>
   <AnchorLink>Style</AnchorLink>
+  <AnchorLink>Strokes</AnchorLink>
+  <AnchorLink>Perspective</AnchorLink>
+  <AnchorLink>Corners</AnchorLink>
+  <AnchorLink>Angles</AnchorLink>
+  <AnchorLink>Details</AnchorLink>
   <AnchorLink>Color</AnchorLink>
 </AnchorLinks>
 
@@ -29,23 +35,10 @@ typeface and work well in presentations and marketing communications.
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
       subTitle="IBM Design Language library"
-      aspectRatio="2:1"
       href="sketch://add-library/cloud/nwqmk"
       >
 
 ![Sketch icon](../../../images/resource-cards/sketch.png)
-
-  </ResourceCard>
-</Column>
-<Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="IBM pictograms master"
-      aspectRatio="2:1"
-      href="https://github.com/carbon-design-system/carbon/raw/master/packages/pictograms/master/pictogram-master.ai"
-      actionIcon="download"
-      >
-
-![Adobe Illustrator logo](../../../images/resource-cards/illustrator.png)
 
   </ResourceCard>
 </Column>
@@ -59,9 +52,52 @@ typeface and work well in presentations and marketing communications.
 
 </ResourceCard>
 </Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM productive pictogram master"
+      href="https://github.com/carbon-design-system/carbon/raw/main/packages/pictograms/master/productive-pictogram-master.ai"
+      actionIcon="download"
+      >
+
+![Adobe Illustrator logo](../../../images/resource-cards/illustrator.png)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM expressive pictogram master"
+      href="https://github.com/carbon-design-system/carbon/raw/main/packages/pictograms/master/expressive-pictogram-master.ai"
+      actionIcon="download"
+      >
+
+![Adobe Illustrator logo](../../../images/resource-cards/illustrator.png)
+
+  </ResourceCard>
+</Column>
 </Row>
 
-## The foundation
+## Pictogram types
+
+IBM pictograms are offered in two different types: productive and expressive. The standard productive pictograms feature simple linework and are the go-to pictogram type for most contexts, while the more dynamic expressive pictograms work best for select use cases where more visual impact is needed. Both types share much of the same design guidance with the exception of stroke specifications and color application.
+
+<Row>
+<Column colMd={4} colLg={6}>
+
+![Productive pictogram](/images/Types_productive.svg)
+
+<Caption>Productive pictogram</Caption>
+
+</Column>
+<Column colMd={4} colLg={6}>
+
+![Expressive pictogram](/images/Types_expressive.svg)
+
+<Caption>Expressive pictogram</Caption>
+
+</Column>
+</Row>
+
+## Foundation
 
 Draw pictograms on the 32 x 32 master grid to maintain consistent positioning
 and proportions across the IBM icon set. Please see the [contribute page](/iconography/pictograms/contribute/) to
@@ -74,7 +110,7 @@ contribute your pictogram to the IBM library and/or to receive design feedback.
 
 ### Base grid
 
-IBM pictograms are drawn on a 32px x 32px base grid. Use the the grid lines as
+Pictograms are drawn on a 32px x 32px base grid. Use the the grid lines as
 your basic guideline to snap the stroked line-work of your design elements. We
 recommend making adjustments along the way to make sure to have the right amount
 of details that work at every size.
@@ -87,7 +123,7 @@ of details that work at every size.
 </ArtDirection>
 
 <DoDontRow>
-<DoDont caption="Do align center point of stroke to fall on the line of the grid.">
+<DoDont caption="Align center point of stroke to fall on the line of the grid.">
 
 ![align center stroke on grid](images/01_Grid_2_do.svg)
 
@@ -105,19 +141,15 @@ The grid contains 1px padding. This ensures pictograms will retain their desired
 appearance when exported. Only extend artwork into the padding for additional
 visual weight when necessary.
 
-<Row>
-<Column colLg={12}>
 <ArtDirection>
 
 ![padding base grid example](/images/02_Padding_1_base_grid-mobile.svg)
 ![padding base grid example](/images/02_Padding_1_base_grid.svg)
 
 </ArtDirection>
-</Column>
-</Row>
 
 <DoDontRow>
-<DoDont caption="Do treat padding as a safe zone for overflowing strokes.">
+<DoDont caption="Treat padding as a safe zone for overflowing strokes.">
 
 ![padding base grid example safe zone](images/02_Padding_2_do.svg)
 
@@ -218,25 +250,21 @@ curves and sharp angles is central to IBM Design.
 </Column>
 </Row>
 
-### Strokes
+## Strokes
 
 One pictogram should not look heavier or lighter than other pictograms of the
 same size. Maintain the same visual weight by using a 0.72px stroke when
 designing all pictograms.
 
-<Row>
-<Column colLg={12}>
 <ArtDirection>
 
 ![Stroke example](images/04_Strokes_1-mobile.svg)
 ![Stroke example](images/04_Strokes_1.svg)
 
 </ArtDirection>
-</Column>
-</Row>
 
 <DoDontRow>
-<DoDont caption="Do use 0.72px for all stroke weights.">
+<DoDont caption="Use 0.72px for all stroke weights.">
 
 ![stroke example](images/04_Strokes_2_do.svg)
 
@@ -248,14 +276,35 @@ designing all pictograms.
 </DoDont>
 </DoDontRow>
 
-### Perspective
+### Expressive pictogram strokes
+
+Expressive strokes differ from productive strokes by stroke weight and use of gradient. When making a productive pictogram into an expressive pictogram, productive strokes remain at 0.72px, while expressive strokes increase to 1.44px.
+
+<Row>
+<Column colMd={4} colLg={6}>
+
+![Pictogam stroke](/images/expressivePictograms_stroke1.svg)
+
+<Caption>Productive pictogram</Caption>
+
+</Column>
+<Column colMd={4} colLg={6}>
+
+![Expressive pictogam stroke](/images/expressivePictograms_stroke2.svg)
+
+<Caption>Expressive pictogram</Caption>
+
+</Column>
+</Row>
+
+## Perspective
 
 IBM Design pictograms are designed and ready to use. Never distort pictograms
 and be sure to avoid dimensional representations. Use more objective vantage
 points that are straight-on or profile views.
 
 <DoDontRow>
-<DoDont caption="Do depict objects straight on.">
+<DoDont caption="Depict objects straight on.">
 
 ![depict objects straight on example](images/05_Perspective_1_do.svg)
 
@@ -267,26 +316,22 @@ points that are straight-on or profile views.
 </DoDont>
 </DoDontRow>
 
-### Corners
+## Corners
 
 Use the default rounded corner setting for all shapes and a consistent corner
 radius of 2px for round shapes. The 2px radius can be increased by a multiple of
 two when necessary to make the pictogram’s metaphor clear. Use an additional
 radius to make the metaphor reflect the real form of the object.
 
-<Row>
-<Column colLg={12}>
 <ArtDirection>
 
 ![Examples of corners in pictograms](images/06_Corners_1-mobile_1.svg)
 ![Examples of corners in pictograms](images/06_Corners_2.svg)
 
 </ArtDirection>
-</Column>
-</Row>
 
 <DoDontRow>
-<DoDont caption="Do always use rounded corners as a default stroke style.">
+<DoDont caption="Always use rounded corners as a default stroke style.">
 
 ![rounded corner stroke](images/06_Corners_2_do.svg)
 
@@ -299,7 +344,7 @@ radius to make the metaphor reflect the real form of the object.
 </DoDontRow>
 
 <DoDontRow>
-<DoDont caption="Do square the tips of arrows.">
+<DoDont caption="Square the tips of arrows.">
 
 ![square tips on arrows](images/06_Corners_4_do.svg)
 
@@ -311,36 +356,28 @@ radius to make the metaphor reflect the real form of the object.
 </DoDont>
 </DoDontRow>
 
-### Angles
+## Angles
 
 Use 45° angles for even anti-aliasing whenever that angle is logical or use
 increments of 15° for all other angles. You can create harmony across the
 pictogram set by making angles sit on the same increments.
 
-<Row>
-<Column colLg={12}>
 <ArtDirection>
 
 ![Angles example](images/07_Angles_1-mobile.svg)
 ![Angles example](images/07_Angles_1.svg)
 
 </ArtDirection>
-</Column>
-</Row>
 
-<Row>
-<Column colLg={12}>
 <ArtDirection>
 
 ![Angles example](images/07_Angles_2-mobile_1.svg)
 ![Angles example](images/07_Angles_2.svg)
 
 </ArtDirection>
-</Column>
-</Row>
 
 <DoDontRow>
-<DoDont caption="Do use multiple of 15° or an angle that best represents the metaphor when necessary.">
+<DoDont caption="Use multiple of 15° or an angle that best represents the metaphor when necessary.">
 
 ![correct angle example 15 degrees](images/07_Angles_3_do.svg)
 
@@ -352,29 +389,21 @@ pictogram set by making angles sit on the same increments.
 </DoDont>
 </DoDontRow>
 
-### Details
+## Details
 
 Pictograms are more illustrative than UI icons but should not be overly
 detailed. Communicate your ideas with only the most essential elements. Avoid
 using perspective and unnecessary visual metaphors.
 
 <DoDontRow>
-<DoDont caption="Do use thoughtful metaphors. Create depth through flat layers and essential details.">
+<DoDont caption="Use thoughtful metaphors. Create depth through flat layers and essential details.">
 
 ![Depth through flat layers and essential details](images/08_Details_1_do.svg)
 
 </DoDont>
-</DoDontRow>
-
-<DoDontRow>
 <DoDont type="dont" caption="Don’t use cliches or perspective views. Small details will not scale down well.">
 
 ![Don’t use cliches or perspective views. Small details will not scale down well.](images/08_Details_2_dont.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t combine pictograms or elements unless contributing a new pictogram">
-
-![Don’t combine pictograms or elements unless contributing a new pictogram](images/08_Details_3_dont.svg)
 
 </DoDont>
 </DoDontRow>
@@ -401,34 +430,15 @@ monochromatic color, tinted or shaded color, and gradient. Regardless of style,
 pictograms need to pass the same color contrast ratio as typography (4.5:1). For
 more information on color, see [IBM Design Color Usage](/color/).
 
-<Row>
-<Column colLg={12}>
-<ArtDirection>
-
-![pictogram grid example](images/09_Color_1-mobile.svg)
-![pictogram grid example](images/09_Color_1.svg)
-
-</ArtDirection>
-<Caption>The grid system and guidance allows for diverse solutions.</Caption>
-
-</Column>
-</Row>
-
-<Row>
-<Column colLg={12}>
 <ArtDirection>
 
 ![pictogram style examples](images/09_Color_2-mobile.svg)
 ![pictogram style examples](images/09_Color_2.svg)
 
 </ArtDirection>
+
 <Caption>Pictograms can be treated in four distinct styles.</Caption>
 
-</Column>
-</Row>
-<Row>
-
-<Column colLg={12}>
 <ArtDirection>
 
 ![pictogram background example](images/09_Color_3-mobile.svg)
@@ -438,163 +448,10 @@ more information on color, see [IBM Design Color Usage](/color/).
 
 <Caption>Use background color values of 70–100 to achieve luminosity.</Caption>
 
-</Column>
-</Row>
 
 <Row>
   <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard subTitle="Color" aspectRatio="2:1" href="/color/" actionIcon="arrowRight">
-      <Bee32 />
-    </ResourceCard>
-  </Column>
-</Row>
-
-### Backgrounds
-
-Pictograms on backgrounds must always pass color contrast requirements. When
-pairing pictograms with backgrounds, follow color family rules to ensure that
-the pictogram does not clash with or blend into the background. Dark background
-colors should range between values 70–100 while light backgrounds should not
-exceed values 10–20.
-
-<Row>
-<Column colLg={12}>
-<ArtDirection>
-
-![pictogram with color contrast example](/images/10_Backgrounds-mobile_1.svg)
-![pictogram with color contrast example](/images/10_Backgrounds_1.svg)
-
-</ArtDirection>
-</Column>
-</Row>
-
-<DoDontRow>
-<DoDont caption="Do follow the 5-step color rule and only match tones from the same color family or use grayscale backgrounds.">
-
-![pictogram background example](/images/10_Backgrounds_2_do.svg)
-
-</DoDont>
-<DoDont caption="Do follow gradient rules when placing them on backgrounds.">
-
-![pictogram background example](/images/10_Backgrounds_3_do.svg)
-
-</DoDont>
-</DoDontRow>
-
-<DoDontRow>
-<DoDont type="dont" caption="Don’t place dark tones on dark backgrounds.">
-
-![pictogram background example](/images/10_Backgrounds_4_dont.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t place light tones on light backgrounds.">
-
-![pictogram background example](/images/10_Backgrounds_5_dont.svg)
-
-</DoDont>
-</DoDontRow>
-
-<DoDontRow>
-<DoDont type="dont" caption="Don’t use gradient picto’s on backgrounds that are not 70 and above or 20 and below.">
-
-![pictogram background example](/images/10_Backgrounds_6_dont.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t place gradient picto’s on gradient backgrounds.">
-
-![pictogram background example](/images/10_Backgrounds_7_dont.svg)
-
-</DoDont>
-</DoDontRow>
-
-### Gradients
-
-Use combinations within any of the acceptable 2-Color families when blending
-gradients. Values between 30 and 60 are used to create vibrant gradients that
-work well against both dark and light backgrounds. For more contrast or
-subtlety, blend between darker or lighter colors. Do not blend between colors
-that are more than two steps away from each other. For more information on
-color, see the gradient sections on IBM Design Color Usage.
-
-<Row>
-<Column colLg={12}>
-
-![pictogram gradient example](/images/gradients-main.gif)
-
-</Column>
-</Row>
-<Row>
-<Column colLg={12}>
-<ArtDirection>
-
-![pictogram gradient example](/images/11_Gradients_1-mobile-1.svg)
-![pictogram gradient example](/images/11_Gradients_1.svg)
-
-</ArtDirection>
-</Column>
-</Row>
-<Row>
-<Column colLg={12}>
-<ArtDirection>
-
-![pictogram gradient example](/images/11_Gradients_2-mobile-1.svg)
-![pictogram gradient example](/images/11_Gradients_2.svg)
-
-</ArtDirection>
-</Column>
-</Row>
-
-<DoDontRow>
-<DoDont caption="Do follow color gradient usage and only use accepted gradient color families.">
-
-![pictogram gradient example](images/11_Gradients_3_do.svg)
-
-</DoDont>
-<DoDont caption="Do use 45 degree angle when applying gradients.">
-
-![pictogram gradient example](images/11_Gradients_4_do.svg)
-
-</DoDont>
-</DoDontRow>
-
-<DoDontRow>
-<DoDont type="dont" caption="Don’t mix colors that are outside of the accepted 2-color families.">
-
-![pictogram gradient example](images/11_Gradients_5_dont.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t blend between colors that are more than 2 steps away, i.e. Blue 60 to Teal 20.">
-
-![pictogram gradient example](images/11_Gradients_6_dont.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t create gradients with more than two colors.">
-
-![pictogram gradient example](images/11_Gradients_7_dont.svg)
-
-</DoDont>
-</DoDontRow>
-
-<DoDontRow>
-<DoDont type="dont" caption="Don’t use radial gradients.">
-
-![pictogram gradient example](images/11_Gradients_8_dont.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t add glow effects to pictograms">
-
-![pictogram gradient example](images/11_Gradients_9_dont.svg)
-
-</DoDont>
-</DoDontRow>
-
-<Row>
-  <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Color: Gradients"
-      aspectRatio="2:1"
-      href="/color#gradients"
-      actionIcon="arrowRight">
       <Bee32 />
     </ResourceCard>
   </Column>
@@ -610,41 +467,34 @@ in pictograms. On dark backgrounds (black or value 100) use shades 1 to 2 steps
 down from the background color. Be sure to follow color contrast rules for
 pictogram strokes so the original metaphor can communicate properly.
 
-<Row>
-<Column colLg={12}>
+
 <ArtDirection>
 
 ![tint and shade example](/images/12_TintsShades_1-mobile_1.svg)
 ![tint and shade example](/images/12_TintsShades_1.svg)
 
 </ArtDirection>
-</Column>
-</Row>
-<Row>
-<Column colLg={12}>
 <ArtDirection>
 
 ![tint and shade example](images/12_TintsShades_2-mobile_1.svg)
 ![tint and shade example](/images/12_TintsShades_2.svg)
 
 </ArtDirection>
-</Column>
-</Row>
 
 <DoDontRow>
-<DoDont caption="Do follow the 5 step rule when using 1, 2, or 3-color families to color and shade pictograms.">
+<DoDont caption="Follow the 5 step rule when using 1, 2, or 3-color families to color and shade pictograms.">
 
 ![tint and shade example](images/12_TintsShades_3_do.svg)
+
+</DoDont>
+<DoDont type="dont" caption="Don’t use tones that are not accessible or alert colors.">
+
+![tint and shade example](images/12_TintsShades_4_dont.svg)
 
 </DoDont>
 </DoDontRow>
 
 <DoDontRow>
-<DoDont type="dont" caption="Don’t use tones that are not accessibleor alert colors.">
-
-![tint and shade example](images/12_TintsShades_4_dont.svg)
-
-</DoDont>
 <DoDont type="dont" caption="Don’t use colors outside approved color families or tones outside the 5 step rule.">
 
 ![tint and shade example](images/12_TintsShades_5_dont.svg)
@@ -670,14 +520,129 @@ pictogram strokes so the original metaphor can communicate properly.
 </DoDont>
 </DoDontRow>
 
+### Gradients
+
+Use combinations within any of the acceptable 2-color families when blending
+gradients. Values between 30 and 60 are used to create vibrant gradients that
+work well against both dark and light backgrounds. For more contrast or
+subtlety, blend between darker or lighter colors. Do not blend between colors
+that are more than two steps away from each other. For more information on
+color, see the [gradient section](/color/#gradients/) on IBM Design Color Usage.
+
+<ArtDirection>
+
+![pictogram gradient example](/images/11_Gradients_1-mobile-1.svg)
+![pictogram gradient example](/images/11_Gradients_1.svg)
+
+</ArtDirection>
+<ArtDirection>
+
+![pictogram gradient example](/images/11_Gradients_2-mobile-1.svg)
+![pictogram gradient example](/images/11_Gradients_2.svg)
+
+</ArtDirection>
+
+<DoDontRow>
+<DoDont caption="Follow color gradient usage and only use accepted gradient color families.">
+
+![pictogram gradient example](images/11_Gradients_3_do.svg)
+
+</DoDont>
+<DoDont caption="Use a 45º angle when applying gradients.">
+
+![pictogram gradient example](images/11_Gradients_4_do.svg)
+
+</DoDont>
+</DoDontRow>
+
+<DoDontRow>
+<DoDont type="dont" caption="Don’t mix colors that are outside of the accepted 2-color families.">
+
+![pictogram gradient example](images/11_Gradients_5_dont.svg)
+
+</DoDont>
+<DoDont type="dont" caption="Don’t blend between colors that are more than 2 steps away, e.g. Blue 60 to Teal 20.">
+
+![pictogram gradient example](images/11_Gradients_6_dont.svg)
+
+</DoDont>
+</DoDontRow>
+
+<DoDontRow>
+<DoDont type="dont" caption="Don’t create gradients with more than two colors.">
+
+![pictogram gradient example](images/11_Gradients_7_dont.svg)
+
+</DoDont>
+<DoDont type="dont" caption="Don’t use radial gradients.">
+
+![pictogram gradient example](images/11_Gradients_8_dont.svg)
+
+</DoDont>
+</DoDontRow>
+
+### Expressive pictogram color
+
+Expressive pictograms have two elements where color is applied—the productive strokes and the color gradient. Create each expressive pictogram for use on both light and dark backgrounds to ensure sufficient contrast for color applications. Limit productive strokes to white for dark theme, and black for light theme.
+
+<ArtDirection>
+
+![Expressive pictogam example](/images/expressivePictograms_light_mobile.svg)
+![Expressive pictogam example](/images/expressivePictograms_light.svg)
+
+</ArtDirection>
+<ArtDirection>
+
+![Expressive pictogam example](/images/expressivePictograms_dark_mobile.svg)
+![Expressive pictogam example](/images/expressivePictograms_dark.svg)
+
+</ArtDirection>
+
+#### Expressive pictogram color gradient
+
+The color gradient provides color to the gradient strokes of the expressive pictogram. Use the same color gradient guidance as you would for a productive pictogram. This layer remains stationary on the icon grid at 45º and is masked by the gradient strokes for consistent color across each pictogram.
+
 <Row>
-  <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Color: Families"
-      aspectRatio="2:1"
-      actionIcon="arrowRight"
-      href="/color/#color-families">
-      <Bee32 />
-    </ResourceCard>
-  </Column>
+<Column colMd={4} colLg={4}>
+
+![Color gradient with icon grid](/images/expressivePictograms_colorGradientGrid2.svg)
+
+<Caption>
+  The color gradient layer remains stationary on the icon grid and is masked by
+  the gradient stroke.
+</Caption>
+
+</Column>
+<Column colMd={4} colLg={4}>
+
+![45° color gradient](/images/expressivePictograms_colorGradient45.svg)
+
+<Caption>The color gradient is always at 45°.</Caption>
+
+</Column>
 </Row>
+
+<DoDontRow>
+<DoDont type="dont" caption="Don’t alter the angle or scale of the color gradient.">
+
+![App icon with incorrect gradient specs](/images/expressivePictograms_colorDont-1.svg)
+
+</DoDont>
+<DoDont type="dont" caption="Don’t mix colors that are outside of the accepted 2-color families.">
+
+![App icon with incorrect gradient colors](/images/expressivePictograms_colorDont-2.svg)
+
+</DoDont>
+</DoDontRow>
+<DoDontRow>
+<DoDont type="dont" caption="Don’t create gradients with more than two colors.">
+
+![App icon with incorrect gradient specs](/images/expressivePictograms_colorDont-3.svg)
+
+</DoDont>
+<DoDont type="dont" caption="Don’t change the color of productive strokes.">
+
+![App icon with incorrect gradient colors](/images/expressivePictograms_colorDont-4.svg)
+
+</DoDont>
+</DoDontRow>
