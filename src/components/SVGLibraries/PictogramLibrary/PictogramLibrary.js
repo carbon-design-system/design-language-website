@@ -4,6 +4,9 @@ import loadable from '@loadable/component';
 
 import { groupBy, debounce } from 'lodash-es';
 
+import useMedia from 'use-media';
+import { breakpoints } from '@carbon/layout';
+
 import {
   icons as pictogramMetaData,
   categories as pictogramCatagoryMetadata,
@@ -21,6 +24,9 @@ const IconLibrary = () => {
   const [searchInputValue, setSearchInputValue] = useState('');
   const [categoryList, setCategoryList] = useState([]);
   const [categoriesLoaded, setCategoriesLoaded] = useState(false);
+
+  const isTwoCol = useMedia({ maxWidth: breakpoints.lg.width });
+  const columnCount = isTwoCol ? 2 : 4;
 
   const debouncedSetSearchInputValue = debounce(setSearchInputValue, 200);
 
@@ -112,6 +118,7 @@ const IconLibrary = () => {
         <div className={svgLibrary}>
           {filteredCategories.map(([category, pictograms]) => (
             <PictogramCategory
+              columnCount={columnCount}
               key={category}
               category={category}
               pictograms={pictograms}

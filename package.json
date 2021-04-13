@@ -61,6 +61,7 @@
     "@carbon/colors": "^10.21.0",
     "@carbon/icons": "^10.26.0",
     "@carbon/icons-react": "^10.26.0",
+    "@carbon/layout": "^10.22.0",
     "@carbon/pictograms": "^11.4.0",
     "@carbon/pictograms-react": "^11.4.0",
     "@ibm/plex": "^5.1.0",
