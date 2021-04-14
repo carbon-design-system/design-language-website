@@ -4,8 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { groupBy, debounce } from 'lodash-es';
 import loadable from '@loadable/component';
 
-import useMedia from 'use-media';
-import { breakpoints } from '@carbon/layout';
+import useColumnCount from '../shared/useColumnCount';
 
 import {
   icons as iconMetaData,
@@ -26,13 +25,7 @@ const IconLibrary = () => {
 
   const debouncedSetSearchInputValue = debounce(setSearchInputValue, 200);
 
-  const isTwoCol = useMedia({ maxWidth: breakpoints.md.width });
-  const isFourCol = useMedia({
-    minWidth: breakpoints.md.width,
-    maxWidth: breakpoints.lg.width,
-  });
-
-  const columnCount = isTwoCol ? 2 : isFourCol ? 4 : 6;
+  const columnCount = useColumnCount({ assetType: 'icons' });
 
   useEffect(() => {
     const iconArray = iconMetaData.reduce((accumulator, icon) => {

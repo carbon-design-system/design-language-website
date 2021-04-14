@@ -4,8 +4,7 @@ import loadable from '@loadable/component';
 
 import { groupBy, debounce } from 'lodash-es';
 
-import useMedia from 'use-media';
-import { breakpoints } from '@carbon/layout';
+import useColumnCount from '../shared/useColumnCount';
 
 import {
   icons as pictogramMetaData,
@@ -25,8 +24,7 @@ const IconLibrary = () => {
   const [categoryList, setCategoryList] = useState([]);
   const [categoriesLoaded, setCategoriesLoaded] = useState(false);
 
-  const isTwoCol = useMedia({ maxWidth: breakpoints.lg.width });
-  const columnCount = isTwoCol ? 2 : 4;
+  const columnCount = useColumnCount({ assetType: 'pictograms' });
 
   const debouncedSetSearchInputValue = debounce(setSearchInputValue, 200);
 
