@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react';
 import { groupBy, debounce } from 'lodash-es';
 import loadable from '@loadable/component';
 
+import useColumnCount from '../shared/useColumnCount';
+
 import {
   icons as iconMetaData,
   categories as iconCategoryMetadata,
@@ -22,6 +24,8 @@ const IconLibrary = () => {
   const [categoriesLoaded, setCategoriesLoaded] = useState(false);
 
   const debouncedSetSearchInputValue = debounce(setSearchInputValue, 200);
+
+  const columnCount = useColumnCount({ assetType: 'icons' });
 
   useEffect(() => {
     const iconArray = iconMetaData.reduce((accumulator, icon) => {
@@ -114,7 +118,12 @@ const IconLibrary = () => {
       ) : (
         <div className={svgLibrary}>
           {filteredCategories.map(([category, icons]) => (
-            <IconCategory key={category} category={category} icons={icons} />
+            <IconCategory
+              columnCount={columnCount}
+              key={category}
+              category={category}
+              icons={icons}
+            />
           ))}
         </div>
       )}

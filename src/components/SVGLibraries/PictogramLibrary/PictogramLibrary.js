@@ -4,6 +4,8 @@ import loadable from '@loadable/component';
 
 import { groupBy, debounce } from 'lodash-es';
 
+import useColumnCount from '../shared/useColumnCount';
+
 import {
   icons as pictogramMetaData,
   categories as pictogramCatagoryMetadata,
@@ -21,6 +23,8 @@ const IconLibrary = () => {
   const [searchInputValue, setSearchInputValue] = useState('');
   const [categoryList, setCategoryList] = useState([]);
   const [categoriesLoaded, setCategoriesLoaded] = useState(false);
+
+  const columnCount = useColumnCount({ assetType: 'pictograms' });
 
   const debouncedSetSearchInputValue = debounce(setSearchInputValue, 200);
 
@@ -112,6 +116,7 @@ const IconLibrary = () => {
         <div className={svgLibrary}>
           {filteredCategories.map(([category, pictograms]) => (
             <PictogramCategory
+              columnCount={columnCount}
               key={category}
               category={category}
               pictograms={pictograms}

@@ -1984,6 +1984,11 @@
   resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-10.13.0.tgz#fd7ecaf1502f4d4ef1598816d9316dd6c84be5da"
   integrity sha512-OgLe9/27zffC019rOGjWd4lavZO7BAkgUyKG+0Mg8IpzqqmGt7v8k4viMH5ThMt8y7Qk1LQfno/4ZzBItWi5Ow==
 
+"@carbon/layout@^10.22.0":
+  version "10.22.0"
+  resolved "https://registry.npmjs.org/@carbon/layout/-/layout-10.22.0.tgz#470833b5862be984213658c7f06f83e4c8713959"
+  integrity sha512-XJ7FZzNbRtGrgC4WK7G5RF9NvlscHoW3xg0DAZZxxumqcR3t7E9ARF78aNVjsATUA7+dEN54yQ0TM7WRSTTXlg==
+
 "@carbon/motion@^10.9.0":
   version "10.9.0"
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-10.9.0.tgz#39cdfe2f9fc7ecc85479413a5b4eadb36e0e366d"
