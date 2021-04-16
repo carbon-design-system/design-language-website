@@ -7,7 +7,7 @@ import {
   paragraph,
 } from 'gatsby-theme-carbon/src/components/markdown/Markdown.module.scss';
 
-import { Illustrator, Github } from './Icons';
+import { Github } from './Icons';
 import { noResult, allSvgs, searchLabel } from './SvgLibrary.module.scss';
 import '../../../styles/Grid.module.scss';
 
@@ -59,7 +59,7 @@ const NoResult = ({
               actionIcon="download"
               href={pageUrl}
               subTitle={`Download the ${pageName} master`}>
-              <Illustrator />
+              <img src='/images/illustrator.png' alt="Adobe Illustrator"/>
             </ResourceCard>
           </Column>
         </Row>
