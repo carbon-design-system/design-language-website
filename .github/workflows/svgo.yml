@@ -1,0 +1,14 @@
+name: SVG Processing
+on:
+  pull_request:
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: ericcornelissen/svgo-action@v1
+      with:
+        svgo-version: 2
+        comment: true
+        svgo-options: svgo.config.js
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
