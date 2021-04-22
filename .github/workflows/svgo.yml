@@ -3,10 +3,11 @@ on:
   pull_request:
 
 jobs:
-  triage:
+  run:
     runs-on: ubuntu-latest
     steps:
-    - uses: ericcornelissen/svgo-action@v1
+    - name: svgo-action
+      uses: ericcornelissen/svgo-action@v1.3.3
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         svgo-version: 2
