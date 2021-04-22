@@ -5892,3 +5892,303 @@
     - Native
     - Blue
     - Teal
+- name: 134
+  friendly_name: {}
+  category: # style
+  aliases: 
+    []
+- name: 135
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: 136
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: 137
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: 138
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: 139
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: 140
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: 141
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: 142
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: 143
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-010
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-011
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-012
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-013
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-014
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-015
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-016
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-017
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-018
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-019
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-020
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-021
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-022
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-023
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-024
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-025
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-026
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-027
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Security-028
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: MaaS360Admin
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: AgroPad
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: TouchToken
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: DownloadDirector
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CommunityHealthCoach
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CommunityHealthMemeber
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CallHomeConnectMobile
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: WatsonTalentFrameworks
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudPakWatsonAIOps
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: GlobalFinancingConcierge
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudLogAnalysisMonitoring
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudLogAnalysisLogging
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudLogAnalysisAuditing
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: QuantumComposer
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: QuantumLab
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: ZDevOpsWaziAnalyze
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudEventEndpointManagement
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudPakNetworkManagment
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: Beekeeper
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: PartnerEcosystemHub
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudVLAN
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudBigComputeCluster
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudOpenPagesWithWatson
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: RoboticProcessAutomation
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: DigitalServicesPlatformFinancial
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: OpenDSP
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: NetezzaPerformanceServer
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudVPCBlockStorageSnapshots
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudVPCFileStorage
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: CloudQuantumServices
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
+- name: MacNotifications
+  friendly_name: {}
+  category: # style
+  aliases:
+    []
