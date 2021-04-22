@@ -597,17 +597,6 @@
     - global
     - circle
     - earth
-- name: LocationTracker
-  friendly_name: IBM Location Tracker
-  category: Fill style
-  aliases:
-    - GBS
-    - User movement tracking
-    - User movement mapping
-    - Tracker
-    - Mapper
-    - blue
-    - heart
 - name: Developer
   category: Stroke style
   friendly_name: IBM Developer
@@ -771,7 +760,7 @@
     - Food network
     - Food delivery
     - Food delivery system
-- name: Capture
+- name: MobileCapture
   friendly_name: IBM Mobile Capture
   category: Stroke style
   aliases:
@@ -1015,8 +1004,8 @@
     - Agile cloud scaling
     - Automatic cloud scaling
     - On-demand cloud scaling
-- name: CloudColigo
-  friendly_name: IBM Cloud® Project Coligo
+- name: CloudCodeEngine
+  friendly_name: IBM Cloud® Code Engine
   category: Stroke style
   aliases:
     - Hybrid
@@ -1132,8 +1121,8 @@
     - Multiuse single platform
     - Multiuse single cloud platform
     - Mobile app development
-- name: CloudPakAutomation
-  friendly_name: IBM Cloud Pak® for Automation
+- name: AutomationPlatform
+  friendly_name: IBM Automation Platform
   category: Stroke style
   aliases:
     - Hybrid
@@ -1141,8 +1130,7 @@
     - Business
     - Blue
     - Teal
-    - Hexagon
-    - Gear
+    - Arrow
     - Automation software
     - Cloud automation
     - Cloud automation software
@@ -1941,24 +1929,6 @@
     - Watson IoT Platform
     - Device data ingestion
     - Device data insights
-- name: IoTTRIRIGABuildingInsights
-  friendly_name: IBM TRIRIGA® Building Insights
-  category: Stroke style
-  aliases:
-    - Watson
-    - IoT
-    - Blue
-    - Purple
-    - Building
-    - House
-    - City
-    - Sensor
-    - Cloud service solution
-    - Sensor data collection
-    - Analytics
-    - Analytics performance
-    - IoT building performance
-    - IoT management
 - name: IzODA
   friendly_name: IBM Open Data Analytics for z/OS® (IzODA)
   category: Stroke style
@@ -2739,23 +2709,15 @@
     - Circle
     - Video
     - Streaming
-- name: VisualInspector
-  friendly_name: IBM Visual Inspector
+- name: 133
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
-    - GBS
-    - Global
-    - Business
-    - Services
     - Magenta
     - Purple
     - Magnifier
     - Magnifying glass
     - Data
-    - Visual
-    - Inspector
-    - QA
-    - Manufacturing
 - name: WatsonAssistant
   friendly_name: IBM Watson® Assistant
   category: Stroke style
@@ -2926,8 +2888,8 @@
     - Connect
     - Data
     - Outcomes
-- name: WatsonProjectZeno
-  friendly_name: IBM Watson® Project Zeno
+- name: WatsonAIOps
+  friendly_name: IBM Watson® AI Ops
   category: Stroke style
   aliases:
     - Watson
@@ -3481,21 +3443,6 @@
     - Performance
     - Report
     - Statistics
-- name: '015'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Blue
-    - Teal
-    - Person
-    - Human
-    - Text
-    - Document
-    - List
-    - Inventory
-    - File
-    - Personnel
-    - Employee
 - name: '016'
   friendly_name: Unassigned
   category: Stroke style
@@ -3550,17 +3497,6 @@
     - Quarter
     - Section
     - Segment
-- name: '020'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Blue
-    - Teal
-    - Cloud
-    - Share
-    - Connect
-    - Connectivity
-    - Hybrid
 - name: '021'
   friendly_name: Unassigned
   category: Stroke style
@@ -3737,16 +3673,6 @@
     - Directory
     - Group
     - Grouping
-- name: '033'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Blue
-    - Teal
-    - Responsive
-    - Mobile
-    - Device
-    - Device independent
 - name: '034'
   friendly_name: Unassigned
   category: Stroke style
@@ -3904,18 +3830,6 @@
     - Ranking
     - Growth
     - Status
-- name: '045'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Magenta
-    - Purple
-    - Speed
-    - Recycle
-    - Cycle
-    - Update
-    - Outbound
-    - Directions
 - name: '048'
   friendly_name: Unassigned
   category: Stroke style
@@ -3979,30 +3893,6 @@
     - Generosity
     - Charity
     - Concern
-- name: '052'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Magenta
-    - Purple
-    - Rocket
-    - Plane
-    - Fly
-    - Spaceship
-    - Lift off
-    - Launch
-    - Start
-    - Projectile
-    - Projection
-    - Exploration
-    - Discovery
-    - Discover
-    - Propel
-    - Boost
-    - Mission
-    - Explore
-    - Take off
-    - Future state
 - name: '054'
   friendly_name: Unassigned
   category: Stroke style
@@ -4344,8 +4234,8 @@
     - Blue
     - Teal
     - Circle
-- name: '091'
-  friendly_name: Unassigned
+- name: 'EnterpriseVideoStreaming'
+  friendly_name: IBM Enterprise Video Streaming
   category: Fill style
   aliases:
     - Blue
@@ -4354,6 +4244,15 @@
     - Video
     - Stream
     - Start
+    - Hybrid
+    - Triangle
+    - Cloud
+    - Business
+    - Cognitive
+    - Software
+    - Watson
+    - Media
+    - Streaming
 - name: '092'
   friendly_name: Unassigned
   category: Fill style
@@ -4416,17 +4315,6 @@
     - Restore
     - Refresh
     - Convert
-- name: '100'
-  friendly_name: Unassigned
-  category: Fill style
-  aliases:
-    - Blue
-    - Teal
-    - Triangle
-    - Play
-    - Video
-    - Start
-    - Go
 - name: '101'
   friendly_name: Unassigned
   category: Stroke style
@@ -4997,3 +4885,898 @@
     - Badge
     - Files
     - Data
+- name: CloudImageKeySync
+  friendly_name: IBM Cloud® Image Key Synchronizer
+  category: Stroke style
+  aliases:
+    - Sync
+    - IBM Cloud®
+    - Cloud
+    - Key
+    - Teal
+    - Blue
+    - Image
+- name: CloudDataVirtualization
+  friendly_name: IBM Cloud® Data Virtualization
+  category: Stroke style
+  aliases:
+    - Virtualization
+    - IBM Cloud®
+    - Cloud
+    - Data
+    - Teal
+    - Blue
+- name: DataPrivacyPassports
+  friendly_name: IBM Data Privacy Passports
+  category: Stroke style
+  aliases:
+    - Privacy
+    - IBM Cloud®
+    - Cloud
+    - Key
+    - Teal
+    - Blue
+    - Image
+    - Lock
+    - Identity
+    - ID
+- name: YourLearningBoost
+  friendly_name: IBM Your Learning Boost
+  category: Stroke style
+  aliases:
+    - Learning
+    - Boost
+    - Rocket
+    - Accelerate
+    - Education
+    - Training
+    - Instruction
+    - Purple
+    - Magenta
+    - Blue
+- name: TRIRIGA
+  friendly_name: IBM TRIRIGA®
+  category: Stroke style
+  aliases:
+    - IoT
+    - Insights
+    - Automation
+    - Building
+    - Architecture
+    - Facility
+    - IBM Trigiga®
+    - Blue
+    - Purple
+    - Magenta
+- name: SiteAccess
+  friendly_name: IBM Site Access
+  category: Stroke style
+  aliases:
+    - Security
+    - Access
+    - Identity
+    - ID
+    - key
+    - Checked
+    - Approved
+    - Blue
+    - Teal
+- name: LocationTracker
+  friendly_name: IBM Location Tracker
+  category: Stroke style
+  aliases:
+    - Location
+    - Tracking
+    - Tracker
+    - map
+    - GPS
+    - Blue
+    - Teal
+- name: ExposureNotification
+  friendly_name: IBM Exposure Notification for Enterprise
+  category: Stroke style
+  aliases:
+    - Exposure
+    - Group messaging
+    - Messaging
+    - Virus
+    - Emergency
+    - Alert
+    - Notice
+    - spread
+    - Blue
+    - Teal
+- name: CloudClassicInfra
+  friendly_name: IBM Cloud® Classic Infrastructure
+  category: Stroke style
+  aliases:
+   - IBM Cloud®
+   - Infrastructure
+   - Blue
+   - Purple
+   - White
+- name: CloudFunctions
+  friendly_name: IBM Cloud® Functions
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - Functions
+    - Blue
+    - Teal
+- name: CloudFoundry
+  friendly_name: IBM® Cloud Foundry
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - foundry
+    - cloud
+    - Blue
+    - Teal
+- name: PowerVSI
+  friendly_name: IBM® Power® Systems Virtual Server integration
+  category: Stroke style
+  aliases:
+    - Power systems
+    - virtual
+    - Integration
+    - Server
+    - VSI
+    - cloud
+    - Blue
+    - Teal
+- name: CloudDBaaSSelectorTool
+  friendly_name: IBM Cloud® HyperSecure DBaaS Selector Tool
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - Hyper
+    - Secure
+    - DBaaS
+    - Database
+    - Data
+    - Purple
+    - Blue
+- name: CloudBareMetal
+  friendly_name: IBM Cloud® Bare Metal Server
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - bare metal
+    - server
+    - Magenta
+    - Purple
+    - Blue
+- name: CloudContainers
+  friendly_name: IBM Cloud® Containers
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - Container
+    - Magenta
+    - Purple
+    - Blue
+- name: CloudVirtualServerVPC
+  friendly_name: IBM Cloud® Virtual Server for VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - virtual
+    - Magenta
+    - Purple
+    - Blue
+    - server
+    - VPC
+    - private
+- name: SupportSearchWatson
+  friendly_name: IBM Support Search with Watson®
+  category: Stroke style
+  aliases:
+    - IBM Watson®
+    - support
+    - search
+    - magnifying glass
+    - Purple
+    - Blue
+- name: MaximoInspectionWorkbench
+  friendly_name: IBM Inspection Workbench
+  category: Stroke style
+  aliases:
+    - inspection
+    - workbench
+    - IBM® Maximo®
+    - eye
+    - wrench
+    - Purple
+    - Blue
+- name: MaximoVisualInspection
+  friendly_name: IBM® Maximo® Visual Inspection
+  category: Stroke style
+  aliases:
+    - IBM® Maximo®
+    - visual
+    - inspection
+    - eye
+    - magnifying glass
+    - Purple
+    - Blue
+- name: MaximoInspectorPortable
+  friendly_name: IBM Inspector Portable
+  category: Stroke style
+  aliases:
+    - inspect
+    - portable
+    - inspector
+    - checkmark
+    - Purple
+    - Blue
+- name: MaximoMobile
+  friendly_name: IBM® Maximo® Mobile
+  category: Stroke style
+  aliases:
+    - IBM® Maximo®
+    - mobile
+    - hardhat
+    - safety glasses
+    - Purple
+    - Blue
+- name: TTIPassengerCare
+  friendly_name: Passenger Care
+  category: Stroke style
+  aliases:
+    - passenger
+    - care
+    - customer
+    - traveler
+    - customer service
+    - travel
+    - transportation
+    - heart
+    - agent
+    - Blue
+    - Teal
+- name: TTIDigitalGate
+  friendly_name: Digital Gate
+  category: Stroke style
+  aliases:
+    - digital
+    - gate
+    - travel
+    - airline
+    - transportation
+    - traveler
+    - agent
+    - plane
+    - Blue
+    - Teal
+- name: TTICabinCare
+  friendly_name: Cabin Care
+  category: Stroke style
+  aliases:
+    - travel
+    - airline
+    - transportation
+    - airplane
+    - customer
+    - traveler
+    - cabin
+    - seat
+    - Blue
+    - Teal
+- name: TTIRapidBoard
+  friendly_name: Rapid Board
+  category: Stroke style
+  aliases:
+    - travel
+    - airline
+    - transportation
+    - airplane
+    - customer
+    - traveler
+    - boarding pass
+    - pass
+    - ticket
+    - QR code
+    - agent
+    - Blue
+    - Teal
+- name: TTIAssignTech
+  friendly_name: Assign Tech
+  category: Stroke style
+  aliases:
+    - schedule
+    - technician
+    - service
+    - wrench
+    - mechanic
+    - Blue
+    - Teal
+- name: TTIInspectTurn
+  friendly_name: Inspect and Turn
+  category: Stroke style
+  aliases:
+    - inspect
+    - turn
+    - service
+    - maintain
+    - maintenance
+    - gear
+    - checkmark
+    - Blue
+    - Teal
+- name: TTITurnManager
+  friendly_name: Turn Manager
+  category: Stroke style
+  aliases:
+    - turn
+    - service
+    - maintain
+    - maintenance
+    - manager
+    - luggage
+    - baggage
+    - Blue
+    - Teal
+- name: TTIAircraft360
+  friendly_name: Aircraft 360
+  category: Stroke style
+  aliases:
+    - transportation
+    - travel
+    - aircraft
+    - airline
+    - flight
+    - plane
+    - 360
+    - full view
+    - Blue
+    - Teal
+- name: TTIRoster
+  friendly_name: Roster
+  category: Stroke style
+  aliases:
+    - roster
+    - list
+    - passenger list
+    - seating assignment
+    - travelers
+    - transportation
+    - Blue
+    - Teal
+- name: TTIFlyNow
+  friendly_name: Fly Now
+  category: Stroke style
+  aliases:
+    - transportation
+    - travel
+    - aircraft
+    - airline
+    - flight
+    - plane
+    - schedule
+    - flexible
+    - calendar
+    - Blue
+    - Teal
+- name: TTIPlanFlight
+  friendly_name: IBM MobileFirst® for iOS Plan Flight
+  category: Stroke style
+  aliases:
+    - transportation
+    - travel
+    - aircraft
+    - airline
+    - flight
+    - plan
+    - route
+    - map
+    - globe
+    - Blue
+    - Teal
+- name: TTIPassengerPlus
+  friendly_name: Passenger +
+  category: Stroke style
+  aliases:
+    - transportation
+    - travel
+    - passenger
+    - traveler
+    - customer care
+    - seat
+    - service
+    - Blue
+    - Teal
+- name: TTIAncillarySales
+  friendly_name: Ancillary Sales
+  category: Stroke style
+  aliases:
+    - transportation
+    - travel
+    - passenger
+    - traveler
+    - customer care
+    - seat
+    - service
+    - extras
+    - ancillary
+    - add-on
+    - beverage
+    - Blue
+    - Teal
+- name: TTIManageGates
+  friendly_name: Manage Gates
+  category: Stroke style
+  aliases:
+    - gates
+    - transportation
+    - travel
+    - agent
+    - customer
+    - passenger
+    - attendee
+    - launch
+    - Blue
+    - Teal
+- name: TTITrainTickets
+  friendly_name: IBM Train Tickets
+  category: Stroke style
+  aliases:
+    - transportation
+    - travel
+    - transport
+    - ticket
+    - pass
+    - fare
+    - train
+    - Blue
+    - Teal
+- name: TTITravelerCare
+  friendly_name: IBM Traveler Care
+  category: Stroke style
+  aliases:
+    - transportation
+    - travel
+    - traveler
+    - customer service
+    - passenger
+    - train
+    - heart
+    - Blue
+    - Teal
+- name: TTITodaysTrain
+  friendly_name: IBM MobileFirst® for iOS Today's Train
+  category: Stroke style
+  aliases:
+    - transportation
+    - travel
+    - train
+    - schedule
+    - timetable
+    - clock
+    - Blue
+    - Teal
+- name: CloudLoadBalancerClassic
+  friendly_name: IBM Cloud® Load Balancer (Classic)
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - load
+    - balancer
+    - Blue
+    - Teal
+- name: CloudLoadBalancer
+  friendly_name: IBM Cloud® Load Balancer for VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - load
+    - balancer
+    - VPC
+    - virtual
+    - private
+    - cloud
+    - Purple
+    - Magenta
+    - Blue
+- name: CloudBlockStorage
+  friendly_name: IBM Cloud® Block Storage for VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - block
+    - storage
+    - VPC
+    - virtual
+    - private
+    - cloud
+    - Purple
+    - Magenta
+    - Blue
+- name: DigitalHealthPassholder
+  friendly_name: IBM Digital Health Pass
+  category: Fill style
+  aliases:
+    - digital
+    - health
+    - pass
+    - passport
+    - ID
+    - identifier
+    - passholder
+    - Blue
+    - Teal
+    - Gray
+- name: DigitalHealthTester
+  friendly_name: IBM Digital Health Tester
+  category: Fill style
+  aliases:
+    - digital
+    - health
+    - tester
+    - Blue
+    - Teal
+    - Gray
+- name: DigitalHealthVerifier
+  friendly_name: IBM Digital Health Verifier
+  category: Fill style
+  aliases:
+    - digital
+    - health
+    - tester
+    - Blue
+    - Teal
+- name: SpectrumStorage
+  friendly_name: IBM Spectrum® Storage
+  category: Stroke style
+  aliases:
+    - storage
+    - IBM Spectrum®
+    - Blue
+    - Teal
+- name: SpectrumScale
+  friendly_name: IBM Spectrum® Scale
+  category: Stroke style
+  aliases:
+    - scale
+    - IBM Spectrum®
+    - Green
+    - Blue
+- name: SpectrumProtect
+  friendly_name: IBM Spectrum® Protect
+  category: Stroke style
+  aliases:
+    - protect
+    - IBM Spectrum®
+    - Blue
+    - Teal
+- name: SpectrumProtectPlus
+  friendly_name: IBM Spectrum® Protect Plus
+  category: Stroke style
+  aliases:
+    - protect plus
+    - IBM Spectrum®
+    - Blue
+    - Teal
+- name: SpectrumProtectTools
+  friendly_name: IBM Spectrum® Protect Tools for Administrators
+  category: Stroke style
+  aliases:
+    - protect
+    - tools
+    - administrators
+    - IBM Spectrum®
+    - Blue
+    - Teal
+- name: SpectrumVirtualize
+  friendly_name: IBM Spectrum® Virtualize
+  category: Stroke style
+  aliases:
+    - virtualize
+    - IBM Spectrum®
+    - virtual
+    - Purple
+    - Blue
+- name: SpectrumDiscover
+  friendly_name: IBM Spectrum® Discover
+  category: Stroke style
+  aliases:
+    - discover
+    - IBM Spectrum®
+    - Magenta
+    - Blue
+- name: SpectrumStorageInsights
+  friendly_name: IBM Spectrum® Storage Insights
+  category: Stroke style
+  aliases:
+    - storage
+    - insights
+    - IBM Spectrum®
+    - Purple
+    - Blue
+- name: SpectrumControl
+  friendly_name: IBM Spectrum® Control
+  category: Stroke style
+  aliases:
+    - control
+    - IBM Spectrum®
+    - Magenta
+    - Blue
+- name: SpectrumArchive
+  friendly_name: IBM Spectrum® Archive
+  category: Stroke style
+  aliases:
+    - archive
+    - IBM Spectrum®
+    - Magenta
+    - Purple
+    - Blue
+- name: SpectrumCopyDataManagement
+  friendly_name: IBM Spectrum® Copy Data Management
+  category: Stroke style
+  aliases:
+    - copy
+    - data
+    - management
+    - IBM Spectrum®
+    - Magenta
+    - Purple
+    - Blue
+- name: SpectrumCloudObjectStorage
+  friendly_name: IBM Cloud® Object Storage
+  category: Stroke style
+  aliases:
+    - object storage
+    - IBM Cloud®
+    - IBM Spectrum®
+    - Purple
+    - Blue
+- name: SpectrumComputing
+  friendly_name: IBM Spectrum® Computing
+  category: Stroke style
+  aliases:
+    - computing
+    - IBM Spectrum®
+    - Magenta
+    - Purple
+    - Blue
+- name: SpectrumSymphony
+  friendly_name: IBM Spectrum Symphony®
+  category: Stroke style
+  aliases:
+    - symphony
+    - IBM Spectrum®
+    - Magenta
+    - Purple
+    - Blue
+- name: SpectrumConductor
+  friendly_name: IBM Spectrum Conductor®
+  category: Stroke style
+  aliases:
+    - conductor
+    - IBM Spectrum®
+    - Magenta
+    - Purple
+    - Blue
+- name: SpectrumComputingHighPerfAnalytics
+  friendly_name: IBM Spectrum® Computing Suite for High Performance Analytics
+  category: Stroke style
+  aliases:
+    - suite
+    - IBM Spectrum®
+    - computing
+    - high performance
+    - analytics
+    - Purple
+    - Blue
+- name: SpectrumMPI
+  friendly_name: IBM Spectrum® MPI
+  category: Stroke style
+  aliases:
+    - MPI
+    - message
+    - passing
+    - interface
+    - IBM Spectrum®
+    - Magenta
+    - Red
+    - Blue
+- name: SpectrumLSF
+  friendly_name: IBM Spectrum® LSF
+  category: Stroke style
+  aliases:
+    - LSF
+    - workload
+    - management
+    - IBM Spectrum®
+    - Green
+    - Blue
+- name: OneView
+  friendly_name: OneView Mobile
+  category: Stroke style
+  aliases:
+    - OneView
+    - mobile
+    - eye
+    - Purple
+    - Blue
+- name: SecurityQRadarUserBehaviorAnalytics
+  friendly_name: IBM® QRadar® User Behavior Analytics
+  category: Stroke style
+  aliases:
+    - IBM® QRadar®
+    - user
+    - behavior
+    - analytics
+    - security
+    - Blue
+    - Purple
+- name: SecurityQRadarUseCaseManager
+  friendly_name: IBM® QRadar® Use Case Manager
+  category: Stroke style
+  aliases:
+    - IBM® QRadar®
+    - use
+    - case
+    - manager
+    - security
+    - Blue
+    - Purple
+- name: SecurityQRadarAnalystWorkflow
+  friendly_name: IBM Security™ QRadar® Analyst Workflow
+  category: Stroke style
+  aliases:
+    - IBM® QRadar®
+    - analyst
+    - workflow
+    - security
+    - Purple
+    - Blue
+- name: HealthPassWallet
+  friendly_name: IBM Health Pass Wallet
+  category: Stroke style
+  aliases:
+    - health
+    - pass
+    - wallet
+    - ID
+    - identity
+    - Teal
+    - Purple
+    - Blue
+- name: HealthPassIssuer
+  friendly_name: IBM Health Pass Issuer
+  category: Stroke style
+  aliases:
+    - health
+    - pass
+    - issuer
+    - ID
+    - idenity
+    - Teal
+    - Purple
+    - Blue
+- name: HealthPassVerifier
+  friendly_name: IBM Health Pass Verifier
+  category: Stroke style
+  aliases:
+    - health
+    - pass
+    - verifier
+    - ID
+    - identity
+    - Teal
+    - Purple
+    - Blue
+- name: AutomationPlatform
+  friendly_name: IBM Automation Platform
+  category: Stroke style
+  aliases:
+    - automation
+    - platform
+    - process
+    - improvement
+    - Green
+    - Teal
+- name: WatsonKnowledgeStudio
+  friendly_name: IBM Watson® Knowledge Studio
+  category: Stroke style
+  aliases:
+    - IBM Watson®
+    - knowledge
+    - studio
+    - Purple
+    - Blue
+- name: WatsonToneAnalyzer
+  friendly_name: IBM Watson® Tone Analyzer Service
+  category: Stroke style
+  aliases:
+    - IBM Watson®
+    - tone
+    - analyzer
+    - service
+    - Purple
+    - Blue
+- name: WatsonVisualRecognition
+  friendly_name: IBM Watson® Visual Recognition
+  category: Stroke style
+  aliases:
+    - IBM Watson®
+    - visual
+    - recognition
+    - Purple
+    - Blue
+- name: WatsonNaturalLanguageClassifier
+  Friendly_name: IBM Watson® Natural Language Classifier Service
+  category: Stroke style
+  aliases:
+    - IBM Watson®
+    - natural language
+    - classifer
+    - service
+    - Purple
+    - Blue
+- name: WatsonNaturalLanguageUnderstanding
+  friendly_name: IBM Watson® Natural Language Understanding Service
+  category: Stroke style
+  aliases:
+    - IBM Watson®
+    - natural language
+    - understanding
+    - service
+    - Purple
+    - Blue
+- name: CloudGatewayAppliances
+  friendly_name: IBM Cloud® Gateway Appliances
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - gateway
+    - appliance
+    - Teal
+    - Blue
+- name: CloudDataStageEdition
+  friendly_name: IBM® InfoSphere® DataStage® Edition
+  category: Stroke style
+  aliases:
+    - IBM® InfoSphere®
+    - DataStage®
+    - Teal
+    - Blue
+- name: CloudOpenShiftContainerStorage
+  friendly_name: Red Hat® OpenShift® on IBM Cloud® - Container Storage
+  category: Stroke style
+  aliases:
+    - Red Hat®
+    - OpenShift®
+    - IBM Cloud®
+    - Container
+    - Storage
+    - Purple
+    - Blue
+- name: CloudHPCSRouterOperator
+  friendly_name: IBM Cloud® HPCS Router Operator
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - Router
+    - Operator
+    - HPCS
+    - Purple
+    - Blue
+- name: CloudRegistry
+  friendly_name: IBM Cloud® Container Registry
+  category: Stroke style
+  aliases:
+    - IBM Cloud®
+    - Container
+    - Registry
+    - Teal
+    - Blue
+- name: CarbonReactNative
+  friendly_name: Carbon React Native
+  category: Stroke style
+  aliases:
+    - Carbon
+    - React
+    - Native
+    - Blue
+    - Teal

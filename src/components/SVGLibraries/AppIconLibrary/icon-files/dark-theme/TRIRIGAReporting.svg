@@ -1,0 +1,31 @@
+<svg id="Build_icon_here" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="2067.5" y1="-5248.5" x2="2073.5" y2="-5248.5" gradientTransform="translate(-2053.5 5274.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="-5255.5" y2="-5255.5" gradientTransform="translate(-2046.5 5281.5)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y1="-5241.5" y2="-5241.5" gradientTransform="translate(-2060.5 5267.5)" xlink:href="#linear-gradient"/>
+    <mask id="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <rect x="16" y="18" width="2" height="10" style="fill: #fff"/>
+        <rect x="23" y="15" width="2" height="13" style="fill: #fff"/>
+        <rect x="9" y="21" width="2" height="7" style="fill: #fff"/>
+        <rect x="14" y="24" width="6" height="4" transform="translate(43 9) rotate(90)" style="fill: url(#linear-gradient)"/>
+        <rect x="21" y="24" width="6" height="4" transform="translate(50 2) rotate(90)" style="fill: url(#linear-gradient-2)"/>
+        <rect x="7" y="24" width="6" height="4" transform="translate(36 16) rotate(90)" style="fill: url(#linear-gradient-3)"/>
+        <path d="M4,2H2V28a2,2,0,0,0,2,2H30V28H4Z" style="fill: #fff"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-4" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g style="mask: url(#mask)">
+      <rect width="32" height="32" style="fill: url(#linear-gradient-4)"/>
+    </g>
+    <polygon points="28 2 22 2 22 4 26.586 4 19 11.586 15 7.586 6.293 16.293 7.707 17.707 15 10.414 19 14.414 28 5.414 28 10 30 10 30 4 30 2 28 2" style="fill: #f4f4f4"/>
+  </g>
+</svg>
