@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: ericcornelissen/svgo-action@v1
       with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         svgo-version: 2
         comment: true
         svgo-options: svgo.config.js
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
