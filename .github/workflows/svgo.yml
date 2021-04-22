@@ -1,8 +1,6 @@
 name: SVG Processing
 on:
-  push:
-    branches:
-      - master
+  pull_request:
 
 jobs:
   triage:
@@ -11,5 +9,6 @@ jobs:
     - uses: ericcornelissen/svgo-action@v1
       with:
         svgo-version: 2
+        comment: true
         svgo-options: svgo.config.js
         repo-token: ${{ secrets.GITHUB_TOKEN }}
