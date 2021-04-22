@@ -5,7 +5,7 @@ import {
   green50,
   orange40,
   red60,
-  white,
+  white0,
   yellow20,
 } from '@carbon/elements';
 import PropTypes from 'prop-types';
@@ -45,7 +45,7 @@ export default function ColorGrid({ colorFamily, ...rest }) {
         .map((hex, i) => (
           <ColorSwatch key={i} hex={hex} />
         ))}
-      <ColorSwatch hex={white} />
+      <ColorSwatch hex={white0} />
     </div>
   );
 }
