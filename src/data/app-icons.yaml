@@ -2711,6 +2711,20 @@
     - Graduate
     - Education
     - TechU
+- name: Test
+  friendly_name: Test
+  category: Stroke style
+  aliases:
+    - Digital
+    - Business
+    - Group
+    - Blue
+    - Teal
+    - Shopping
+    - Basket
+    - Buy
+    - OK
+    - Checkmark
 - name: TLConnect
   friendly_name: TLConnect
   category: Stroke style
