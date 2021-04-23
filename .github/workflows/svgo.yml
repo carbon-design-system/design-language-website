@@ -3,7 +3,7 @@ on:
   pull_request:
 
 jobs:
-  run:
+  process:
     runs-on: ubuntu-latest
     steps:
     - name: svgo-action
