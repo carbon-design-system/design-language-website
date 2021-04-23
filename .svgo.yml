@@ -1,0 +1,4 @@
+plugins:
+  - inlineStyles:
+        onlyMatchedOnce: false
+  - prefixIds: true
