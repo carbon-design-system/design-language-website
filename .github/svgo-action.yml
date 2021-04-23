@@ -1,0 +1,3 @@
+svgo-version: 2
+comment: true
+svgo-options: svgo.config.js

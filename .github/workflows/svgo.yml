@@ -3,13 +3,10 @@ on:
   pull_request:
 
 jobs:
-  run:
+  process:
     runs-on: ubuntu-latest
     steps:
     - name: svgo-action
       uses: ericcornelissen/svgo-action@v1.3.3
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        svgo-version: 2
-        comment: true
-        svgo-options: svgo.config.js
