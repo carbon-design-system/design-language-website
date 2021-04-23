@@ -10,3 +10,4 @@ jobs:
       uses: ericcornelissen/svgo-action@v1.3.3
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        svgo-options: svgo.config.js
