@@ -9,8 +9,8 @@ jobs:
     name: ericcornelissen/svgo-action
     runs-on: ubuntu-latest
     steps:
-    - name: Optimize SVGs
-      uses: ericcornelissen/svgo-action@master
+    - uses: actions/checkout@v2
+    - uses: ericcornelissen/svgo-action@v1.3.3
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         configuration-path: .github/svgo-action-config.yml
