@@ -1,13 +1,16 @@
-name: SVG Processing
+name: Optimize SVGs
 on:
   pull_request:
+    paths:
+      - "**.svg"
 
 jobs:
-  process:
+  build:
+    name: ericcornelissen/svgo-action
     runs-on: ubuntu-latest
     steps:
-    - name: svgo-action
-      uses: ericcornelissen/svgo-action@v1.3.3
+    - name: Optimize SVGs
+      uses: ericcornelissen/svgo-action@master
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        configuration-path: .github/svgo-action.yml
+        configuration-path: .github/svgo-action-config.yml
