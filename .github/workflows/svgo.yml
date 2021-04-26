@@ -12,3 +12,4 @@ jobs:
     - uses: ericcornelissen/svgo-action@next
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        svgo-options: ".github/svgo.config.js"
