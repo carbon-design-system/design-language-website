@@ -1,5 +1,0 @@
-svgo-options: .github/svgo-options.yml
-comment: true
-commit:
-  title: "chore: process svgs"
-  body: performed by SVGO GitHub Action
