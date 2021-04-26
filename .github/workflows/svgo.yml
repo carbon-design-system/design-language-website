@@ -5,12 +5,10 @@ on:
       - "**.svg"
 
 jobs:
-  build:
-    name: Process SVGs
+  triage:
     runs-on: ubuntu-latest
     steps:
-    - uses: ericcornelissen/svgo-action@v1.0.1
+    - uses: ericcornelissen/svgo-action@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         svgo-options: .github/svgo-options.yml
-        comment: true
