@@ -13,9 +13,6 @@ jobs:
       with:
         node-version: '14'
     - run: yarn install
-    - uses: ericcornelissen/svgo-action@v1.3.3
+    - uses: ericcornelissen/svgo-action@next
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
         svgo-options: ".github/svgo.config.js"
-        comment: true
-        svgo-version: 1
