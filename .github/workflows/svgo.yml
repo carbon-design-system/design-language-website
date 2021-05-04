@@ -11,5 +11,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: ericcornelissen/svgo-action@next
       with:
-        repo-token: ${{ secrets.SVGO }}
         svgo-options: ".github/svgo.config.js"
