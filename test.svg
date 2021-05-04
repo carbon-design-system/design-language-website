@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
     <defs>
-        <linearGradient id="abc" x1="-2883" y1="3431" x2="-2875" y2="3431" gradientTransform="translate(2906 -3414)"
-            gradientUnits="userSpaceOnUse">
-            <stop offset=".001" stop-opacity="0" />
-            <stop offset=".7" />
+        <linearGradient id="013_svg__a" x1="-3363.5" y1="3831.5" x2="-3354.5" y2="3831.5"
+            gradientTransform="translate(3365 -3810)" gradientUnits="userSpaceOnUse">
+            <stop offset=".2" />
+            <stop offset="1" stop-opacity="0" />
         </linearGradient>
-        <linearGradient id="YourProcure_svg__c" y1="32" x2="32" gradientUnits="userSpaceOnUse">
-            <stop offset=".1" stop-color="#3ddbd9" />
-            <stop offset=".9" stop-color="#4589ff" />
+        <linearGradient id="013_svg__c" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+            <stop offset=".1" stop-color="#a56eff" />
+            <stop offset=".9" stop-color="#0f62fe" />
         </linearGradient>
-        <mask id="YourProcure_svg__b" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+        <mask id="013_svg__b" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
             <path
-                d="M28.759 11.349A1 1 0 0028 11h-6V7a3 3 0 00-3-3h-6a3 3 0 00-3 3v4H4a1 1 0 00-.988 1.152l1.869 12.153A1.99 1.99 0 006.858 26h18.284a1.989 1.989 0 001.977-1.7l1.869-12.153a1 1 0 00-.229-.798zM12 7a1 1 0 011-1h6a1 1 0 011 1v4h-8zm13.142 17H6.858L5.166 13h21.668z"
+                d="M27 8H6.828l3.586-3.586L9 3 3 9l6 6 1.414-1.414L6.828 10H27v16H7v-7.964H5V26a2 2 0 002 2h20a2 2 0 002-2V10a2 2 0 00-2-2z"
                 fill="#fff" />
-            <path transform="rotate(90 27 17)" fill="url(#abc)" d="M23 14h8v6h-8z" data-name="Gradients (black)" />
-            <path d="M16 20h14v8H16z" />
+            <path data-name="&lt;Transparent Rectangle&gt;" fill="none" d="M0 0h32v32H0z" />
+            <path transform="rotate(90 6 21.5)" fill="url(#013_svg__a)" d="M1.5 17.5h9v8h-9z" />
         </mask>
     </defs>
     <g data-name="Layer 2">
-        <g data-name="Dark theme icons">
-            <g mask="url(#YourProcure_svg__b)">
-                <path fill="url(#YourProcure_svg__c)" d="M0 0h32v32H0z" />
+        <g data-name="Light theme icons">
+            <g mask="url(#013_svg__b)">
+                <path fill="url(#013_svg__c)" d="M0 0h32v32H0z" />
             </g>
-            <path fill="#f4f4f4" d="M23.142 25.178l-2.59-2.59L19.142 24l4 4 7-7-1.41-1.412-5.59 5.59z" />
+            <path fill="#001d6c" d="M21 17h-3v-3h-2v3h-3v2h3v3h2v-3h3v-2z" />
         </g>
     </g>
 </svg>
