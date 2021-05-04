@@ -14,4 +14,4 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         svgo-options: ".github/svgo.config.js"
         comment: true
-        svgo-version: 1
+        svgo-version: 2
