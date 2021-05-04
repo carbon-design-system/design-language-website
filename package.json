@@ -105,6 +105,7 @@
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-scss": "^3.18.0",
     "svgo": "^2.3.0",
+    "uuid": "^8.3.2",
     "webpack": "^4.43.0"
   }
 }
