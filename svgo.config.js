@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    'prefixIds'
+    'prefixIds',
     {
       name: 'cleanupIDs',
       active: false,
