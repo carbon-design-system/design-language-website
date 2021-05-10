@@ -1,15 +1,6 @@
-const { v4: uuid } = require('uuid');
-
 module.exports = {
   plugins: [
-    {
-      name: 'prefixIds',
-      params: {
-        prefix: () => {
-          return uuid();
-        },
-      },
-    },
+    'prefixIds'
     {
       name: 'cleanupIDs',
       active: false,
