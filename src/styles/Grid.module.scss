@@ -2,6 +2,10 @@
   @include carbon--breakpoint-down('md') {
     padding-right: 0px;
   }
+
+  a {
+    display: block;
+  }
 }
 
 // gallery clusters
