@@ -1761,7 +1761,7 @@
     - Hybrid cloud deployment
     - Hybrid cloud management
 - name: iAccessClientSolution
-  friendly_name: IBM iAccess Client Solutions
+  friendly_name: IBM i Access Client Solutions
   category: Fill style
   aliases:
     - Systems
@@ -4934,20 +4934,6 @@
     - Purple
     - Magenta
     - Blue
-- name: TRIRIGA
-  friendly_name: IBM TRIRIGA®
-  category: Stroke style
-  aliases:
-    - IoT
-    - Insights
-    - Automation
-    - Building
-    - Architecture
-    - Facility
-    - IBM Trigiga®
-    - Blue
-    - Purple
-    - Magenta
 - name: SiteAccess
   friendly_name: IBM Site Access
   category: Stroke style
@@ -5780,3 +5766,858 @@
     - Native
     - Blue
     - Teal
+- name: 134
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - Cloud
+- name: 135
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - server
+- name: 136
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - action
+- name: 137
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - server
+    - security
+- name: 138
+  friendly_name: Unassigned
+  category: Fill style
+  aliases:
+    - Purple
+    - Magenta
+    - Blue
+    - dots
+    - circles
+- name: 139
+  friendly_name: Unassigned
+  category: Fill style
+  aliases:
+    - Purple
+    - Blue
+    - Gray
+    - lock
+- name: 140
+  friendly_name: Unassigned
+  category: Fill style
+  aliases:
+    - Teal
+    - Blue
+    - Gray
+    - hexagon
+- name: 141
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - circle
+- name: 142
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - bar chart
+    - chart
+    - trend
+    - up
+    - positive
+    - growth
+- name: 143
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - Server
+    - care
+    - technician
+    - service
+    - maintanance
+- name: Security-010
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Security
+    - Purple
+    - Blue
+    - bug
+    - cyberattack
+    - attack
+- name: Security-011
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - monitoring
+    - pulse
+    - status
+    - signal
+- name: Security-012
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - reset
+    - restart
+- name: Security-013
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    -  Blue
+    - Purple
+    - dots
+- name: Security-014
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - reset
+- name: Security-015
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+- name: Security-016
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+- name: Security-017
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - warning
+    - caution
+    - alert
+- name: Security-018
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    ¬- Blue
+    - Purple
+    - expand
+    - open
+    - zoom
+- name: Security-019
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - edit
+- name: Security-020
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - open
+- name: Security-021
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - network
+    - node
+- name: Security-022
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - message
+    - chat
+- name: Security-023
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - code
+- name: Security-024
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - wrench
+    - maintenance
+- name: Security-025
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - code
+    - console
+- name: Security-026
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - chart
+    - status
+    - monitor
+    - performance
+- name: Security-027
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - star
+    - note
+- name: Security-028
+  friendly_name: Unassigned Security
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - bullets
+    - list
+- name: MaaS360Admin
+  friendly_name: IBM® MaaS360® Admin
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - person
+    - administrator
+- name: AgroPad
+  friendly_name: IBM AgroPad
+  category: Stroke style
+  aliases:
+    - Green
+    - agriculture
+    - soil
+    - test
+- name: TouchToken
+  friendly_name: IBM TouchToken
+  category: Stroke style
+  aliases:
+    - Green
+    - Teal
+    - check
+    - checkmark
+    - verify
+    - verification
+    - biometric
+    - fingerprint
+- name: DownloadDirector
+  friendly_name: IBM Download Director
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - download
+- name: CommunityHealthCoach
+  friendly_name: IBM Community Health Coach
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - person
+    - heart
+- name: CommunityHealthMemeber
+  friendly_name: IBM Community Health Member
+  category: Stroke style
+  aliases:
+    - Blue
+    - Magenta
+    - heart
+    - EKG
+    - pulse
+    - heartbeat
+- name: CallHomeConnectMobile
+  friendly_name: IBM Call Home Connect Anywhere
+  category: Stroke style
+  aliases:
+    - Magenta
+    - Purple
+    - EKG
+    - cardiogram
+    - cardiograph
+    - heartbeat
+    - pulse
+- name: WatsonTalentFrameworks
+  friendly_name: IBM Watson® Talent Frameworks
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - diagram
+- name: CloudPakWatsonAIOps
+  friendly_name: IBM Cloud Pak® for Watson AIOps
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - hexagon
+    - EKG
+    - cardiogram
+    - cardiograph
+    - heartbeat
+    - pulse
+- name: GlobalFinancingConcierge
+  friendly_name: IBM Global Financing Concierge
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - person
+    - information
+    - data
+- name: CloudMonitoring
+  friendly_name: IBM Cloud® Monitoring
+  category: Stroke style
+  aliases:
+    - Magenta
+    - Purple
+    - EKG
+    - cardiogram
+    - cardiograph
+    - heartbeat
+- name: CloudLogAnalysis
+  friendly_name: IBM Cloud® Log Analysis
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - text
+- name: CloudActivityTracker
+  friendly_name: IBM Cloud® Activity Tracker
+  category: Stroke style
+  aliases:
+    - Green
+    - Teal
+    - check
+    - checkmark
+- name: QuantumComposer
+  friendly_name: IBM Quantum Composer
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - qubit
+    - computer
+    - computing
+- name: QuantumLab
+  friendly_name: IBM Quantum Lab
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - Q
+    - CLI
+    - developer
+    - qubit
+    - computer
+    - computing
+- name: ZDevOpsWaziAnalyze
+  friendly_name: IBM Wazi Analyze
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - Systems
+    - IT
+    - Infrastructure
+    - Z
+    - Hexagon
+    - DevOps
+- name: CloudPakNetworkAutomation
+  friendly_name: IBM Cloud Pak® for Network Automation
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - EKG
+    - cardiogram
+    - cardiograph
+    - pulse
+    - heartbeat
+- name: CloudVLAN
+  friendly_name: IBM Cloud® VLAN
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - diagram
+- name: CloudOpenPagesWithWatson
+  friendly_name: IBM® OpenPages® with Watson® on Cloud
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - Watson
+    - shield
+    - list
+    - document
+- name: CloudVPCBlockStorageSnapshots
+  friendly_name: IBM Cloud® Block Storage Snapshots for VPC
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - rays
+- name: CloudVPCFileStorage
+  friendly_name: IBM Cloud® Block Storage for VPC
+  category: Stroke style
+  aliases:
+    - Magenta
+    - Purple
+    - file
+- name: CloudQuantumServices
+  friendly_name: IBM Quantum Services
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - qubit
+    - bloch
+    - sphere
+    - Q
+- name: Notifier
+  friendly_name: IBM Notifier
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - bell
+    - notification
+    - alert
+    - Mac
+- name: CloudEventEndpointManagement
+  friendly_name: IBM Cloud® Event Endpoint Management
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - connection
+- name: PartnerEcosystemHub
+  friendly_name: IBM® Partner Ecosystem Hub
+  category: Stroke style
+  aliases:
+    - Magenta
+    - Purple
+    - spiral
+    - orchestrate
+- name: CloudHPCCluster
+  friendly_name: IBM Cloud® HPC Cluster
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - high
+    - performance
+    - computing
+    - orbit
+- name: DigitalServicesPlatformFinancial
+  friendly_name: IBM Digital Services Platform for Financial Services
+  category: Stroke style
+  aliases:
+    - DSP
+    - Teal
+    - Blue
+- name: OpenDSP
+  friendly_name: Open DSP
+  category: Stroke style
+  aliases:
+    - DSP
+    - digital
+    - services
+    - platform
+    - Teal
+    - Blue
+- name: NetezzaPerformanceServer
+  friendly_name: IBM® Netezza® Performance Server
+  category: Stroke style
+  aliases:
+    - Green
+    - Teal
+    - N
+- name: CognitiveEnterpriseDataPlatform
+  friendly_name: IBM Cognitive Enterprise Data Platform
+  category: Fill
+  aliases:
+    - Teal
+    - Blue
+    - enterprise
+    - third-party data
+    - data
+- name: CloudAPIGateway
+  friendly_name: IBM Cloud® API Gateway
+  category: Stroke
+  aliases:
+    - Blue
+    - Teal
+    - arrow
+    - gateway
+    - API
+    - shield
+- name: zOSMFCFRMPolicyEditor
+- friendly_name: IBM® z/OSMF CFRM Policy Editor
+- category: Stroke
+- aliases:
+    - Blue
+    - Teal
+    - Z system
+    - OS
+    - coupling facilities
+    - mainframe sysplex
+    - pencil
+- name: zOSMFSoftwareUpdate
+- friendly_name: IBM® z/OSMF Software Update
+- category: Stroke
+- aliases:
+    - Blue
+    - Teal
+    - Z system
+    - OS
+    - software
+    - mainframe sysplex
+    - check
+    - update
+    - software
+- name: zOSManagementServicesCatalog
+- friendly_name: IBM® z/OS® Management Services Catalog
+- category: Stroke
+- aliases:
+    - Blue
+    - Teal
+    - catalog
+    - services
+    - mainframe
+    - Z system
+- name: GSRisk
+- friendly_name: IBM GS Risk
+- category: Stroke
+- aliases:
+    - Teal
+    - Blue
+    - assessment
+    - checklist
+    - plan
+    - project management
+    - GTS
+- name: RPA
+- friendly_name: IBM® RPA
+- category: Stroke
+- aliases:
+    - Blue
+    - Teal
+    - process
+    - automation
+    - IT
+    - robot
+    - bot
+- name: RPALauncher
+- friendly_name: IBM® RPA Launcher
+- category: Stroke
+- aliases:
+    - Blue
+    - Purple
+    - process
+    - automation
+    - IT
+    - launch
+    - robot
+    - bot
+- name: RPAStudio
+- friendly_name: IBM® RPA Studio
+- category: Stroke
+- aliases:
+    - Green
+    - Teal
+    - process
+    - automation
+    - IT
+    - create
+    - edit
+    - robot
+    - bot
+- name: RPAVault
+- friendly_name: IBM® RPA Vault
+- category: Stroke
+- aliases:
+    - Magenta
+    - Red
+    - process
+    - automation
+    - IT
+    - secure
+    - lock
+    - robot
+    - bot
+- name: TRIRIGA
+  friendly_name: IBM® TRIRIGA®
+  category: Stroke style
+  aliases:
+    - IoT
+    - Insights
+    - Automation
+    - Building
+    - Architecture
+    - Facility
+    - IBM Trigiga®
+    - Blue
+    - Purple
+- name: TRIRIGAAssistant
+- friendly_name: IBM® TRIRIGA® Assistant
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - AI
+    - chatbot
+- name: TRIRIGAConfigure
+- friendly_name: IBM® TRIRIGA® Configure
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - customize
+    - build
+    - modify
+    - queries
+    - navigation
+    - objects
+    - workflow
+    - flow
+- name: TRIRIGAFacilityCondition
+- friendly_name: IBM® TRIRIGA® Facility Condition
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - facilities
+    - facility
+    - building
+    - condition
+    - asset
+- name: TRIRIGAFacilitySustainability
+- friendly_name: IBM® TRIRIGA® Facility Sustainability
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - facilities
+    - facility
+    - sustainability
+    - sustainable
+    - metrics
+    - carbon
+    - footprint
+    - energy use
+- name: TRIRIGAIndoorMaps
+- friendly_name: IBM® TRIRIGA® Indoor Maps
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - ESRI
+    - ArcGIS
+    - floor plan
+    - mapping
+    - map
+- name: TRIRIGAInsights
+- friendly_name: IBM® TRIRIGA® Insights
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - space management
+    - IoT
+    - sensors
+    - Cisco DNA Spaces
+- name: TRIRIGALeaseAccounting
+- friendly_name: IBM® TRIRIGA® Lease Accounting
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - lease
+    - compliance
+    - standards
+    - US
+    - international
+    - reporting
+- name: TRIRIGALeaseAdministration
+- friendly_name: IBM® TRIRIGA® Lease Administration
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - property
+    - management
+    - penalties
+    - overpayments
+- name: TRIRIGAMaintenance
+- friendly_name: IBM® TRIRIGA® Maintenance
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - efficiency
+    - break-fix
+    - preventive
+    - maintenance
+- name: TRIRIGAMetrics
+- friendly_name: IBM® TRIRIGA® Metrics
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - workplace
+    - assets
+    - KPIs
+    - operations
+- name: TRIRIGAProjects
+- friendly_name: IBM® TRIRIGA® Projects
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - Cycle time
+    - budget
+    - over-runs
+    - risk
+    - planning
+- name: TRIRIGAProjectsHub
+- friendly_name: IBM® TRIRIGA® Projects Hub
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - cost reduction
+    - returns
+    - data
+    - capital projects
+- name: TRIRIGAReporting
+- friendly_name: IBM® TRIRIGA® Reporting
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - graphs
+    - models
+    - real-time
+    - data
+TRIRIGAReserve
+- name: TRIRIGAReserve
+- friendly_name: IBM® TRIRIGA® Reserve
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - resource
+    - scheduling
+    - coordinate
+    - optimization
+    - reservation
+TRIRIGAServices
+- name: TRIRIGAServices
+- friendly_name: IBM® TRIRIGA® Services
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - service
+    - automation
+    - request management
+- name: TRIRIGATransactions
+- friendly_name: IBM® TRIRIGA® Transactions
+- category: Stroke
+- aliases:
+    - Purple
+    - Blue
+    - decision support
+    - renewals
+    - lease
+    - purchase
+    - disposal
+- name: SpectrumFusion
+- friendly_name: IBM Spectrum® Fusion
+- category: Stroke
+- aliases:
+    - Purple
+    - Magenta
+    - storage
+    - software storage
+    - monitor remote cloud
+    - manage remote cloud
+    - remote cloud
+    - monitor storage
+    - hybrid cloud
+    - storage management
+- name: MySQL
+- friendly_name: MySQL
+- category: Stroke
+- aliases:
+    - Purple
+    - Magenta
+    - my
+    - SQL
+    - database
+    - auto-scaling
+    - cloud
+- name: CognitiveEnterpriseDataPlatform
+- friendly_name: IBM Cognitive Enterprise Data Platform
+- category: Fill
+- aliases:
+    - Teal
+    - Blue
+    - enterprise
+    - third-party
+    - data
+- name: AIX
+- friendly_name: AIX®
+- category: Plex
+- aliases:
+    - Green
+    - Teal
+    - power systems
+    - Power10
+    - OS
+    - operating system
+- name: IBMi
+- friendly_name: IBM i
+- category: Plex
+- aliases:
+    - OS
+    - power systems
+    - operating system
+    - i
+- name: Linux
+- friendly_name: Linux®
+- category: Plex
+- aliases:
+    - OS
+    - power systems
+    - operating system
