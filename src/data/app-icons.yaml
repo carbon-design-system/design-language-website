@@ -2709,7 +2709,7 @@
     - Circle
     - Video
     - Streaming
-- name: 133
+- name: '133'
   friendly_name: Unassigned
   category: Stroke style
   aliases:
@@ -5916,7 +5916,12 @@
 - name: Security-018
   friendly_name: Unassigned Security
   category: Stroke style
-  aliases: ¬- Blue - Purple - expand - open - zoom
+  aliases:
+    - Blue
+    - Purple
+    - expand
+    - open
+    - zoom
 - name: Security-019
   friendly_name: Unassigned Security
   category: Stroke style
