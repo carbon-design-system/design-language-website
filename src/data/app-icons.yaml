@@ -6281,7 +6281,7 @@
     - Cisco DNA Spaces
 - name: TRIRIGALeaseAccounting
   friendly_name: IBM® TRIRIGA® Lease Accounting
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -6399,7 +6399,7 @@
     - storage management
 - name: MySQL
   friendly_name: MySQL
-  category: Stroke style
+  category: IBM Plex® style
   aliases:
     - Purple
     - Magenta
