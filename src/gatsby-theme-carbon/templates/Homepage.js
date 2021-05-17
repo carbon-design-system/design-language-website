@@ -29,7 +29,11 @@ const customProps = {
     />
   ),
   FirstCallout: (
-    <HomepageCallout leftText={FirstLeftText} rightText={FirstRightText} />
+    <HomepageCallout
+      backgroundColor="#030303" // not quite black, but not in color pallete
+      leftText={FirstLeftText}
+      rightText={FirstRightText}
+    />
   ),
   SecondCallout: null,
 };
