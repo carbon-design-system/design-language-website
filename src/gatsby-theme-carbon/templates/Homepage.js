@@ -2,6 +2,7 @@ import React from 'react';
 import { HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import HomepageVideo from '../../components/HomepageVideo';
+import { gray100 } from '@carbon/colors';
 
 // Component to be shadowed
 
@@ -29,7 +30,11 @@ const customProps = {
     />
   ),
   FirstCallout: (
-    <HomepageCallout leftText={FirstLeftText} rightText={FirstRightText} />
+    <HomepageCallout
+      backgroundColor={gray100}
+      leftText={FirstLeftText}
+      rightText={FirstRightText}
+    />
   ),
   SecondCallout: null,
 };
