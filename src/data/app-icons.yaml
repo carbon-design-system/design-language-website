@@ -845,7 +845,7 @@
     - Multiplatform mobile app
     - Multiplatform app
     - Client Vantage
-- name: Cloud-APIConnect
+- name: CloudAPIConnect
   friendly_name: IBM API Connect®
   category: Stroke style
   aliases:
@@ -863,7 +863,7 @@
     - API management
     - API monetization
     - API creation
-- name: Cloud-AppConnect
+- name: CloudAppConnect
   friendly_name: IBM App Connect Enterprise
   category: Stroke style
   aliases:
@@ -885,7 +885,7 @@
     - Workflows
     - Integration workflows
     - Integration tool
-- name: Cloud-Aspera
+- name: CloudAspera
   friendly_name: IBM Aspera®
   category: Stroke style
   aliases:
@@ -905,22 +905,7 @@
     - Data movement
     - File sharing
     - Data migration
-- name: Cloud-CloudPakIntegration
-  friendly_name: IBM Cloud Pak® for Integration
-  category: Stroke style
-  aliases:
-    - Cloud
-    - Blue
-    - Teal
-    - Connect
-    - Network
-    - Cloud integration
-    - IBM Cloud Pak
-    - Integration tool
-    - Data integration
-    - Agile data integration
-    - Workload deployment
-- name: Cloud-DataPower
+- name: CloudDataPower
   friendly_name: IBM DataPower®
   category: Stroke style
   aliases:
@@ -944,7 +929,7 @@
     - API gateway
     - SOA gateway
     - Cloud gateway
-- name: Cloud-EventStreams
+- name: CloudEventStreams
   friendly_name: IBM Event Streams
   category: Stroke style
   aliases:
@@ -963,7 +948,7 @@
     - Real-time event streaming
     - Real-time data streams
     - Data streaming
-- name: Cloud-MQ
+- name: CloudMQ
   friendly_name: IBM MQ
   category: Stroke style
   aliases:
@@ -3252,20 +3237,6 @@
     - Verification
     - Approved
     - LinuxONE
-- name: '001'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Magenta
-    - Purple
-    - Calendar
-    - Date
-    - Event
-    - Schedule
-    - Time
-    - Clock
-    - Stopwatch
-    - Alarm
 - name: '002'
   friendly_name: Unassigned
   category: Stroke style
@@ -3324,24 +3295,6 @@
     - Return
     - Refresh
     - Update
-- name: '006'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Green
-    - Teal
-    - Card
-    - Bank
-    - Credit
-    - Debit
-    - Pay
-    - Buy
-    - Money
-    - OK
-    - Checkmark
-    - Confirmed
-    - Approved
-    - Selected
 - name: '009'
   friendly_name: Unassigned
   category: Stroke style
@@ -3421,25 +3374,6 @@
     - Cycle
     - Plus
     - Add
-- name: '014'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Blue
-    - Purple
-    - Computer
-    - Desktop
-    - Screen
-    - Bar
-    - Graph
-    - Chart
-    - Analytics
-    - Rank
-    - Ranking
-    - Results
-    - Performance
-    - Report
-    - Statistics
 - name: '016'
   friendly_name: Unassigned
   category: Stroke style
@@ -3597,21 +3531,6 @@
     - Farm
     - Farming
     - Harvest
-- name: '028'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Blue
-    - Teal
-    - Gear
-    - Tech
-    - Settings
-    - Database
-    - Repository
-    - Inventory
-    - Preferences
-    - Works
-    - Selections
 - name: '029'
   friendly_name: Unassigned
   category: Stroke style
@@ -3656,20 +3575,6 @@
     - Update
     - Refresh
     - Reset
-- name: '032'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Magenta
-    - Purple
-    - Folder
-    - Text
-    - Document
-    - List
-    - Inventory
-    - Directory
-    - Group
-    - Grouping
 - name: '034'
   friendly_name: Unassigned
   category: Stroke style
@@ -3913,23 +3818,6 @@
     - Rank
     - Rankings
     - Statistics
-- name: '056'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Purple
-    - Blue
-    - Hive
-    - Hexagon
-    - Bee
-    - Connected
-    - Interconnected
-    - Chain
-    - Interlocking
-    - Lock
-    - Dependence
-    - Interdependence
-    - Link
 - name: '057'
   friendly_name: Unassigned
   category: Stroke style
@@ -4356,36 +4244,6 @@
     - Money
     - Budget
     - Monetary
-- name: '104'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Purple
-    - Blue
-    - Calculator
-    - Keypad
-    - Accounting
-    - Calculate
-- name: '106'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Teal
-    - Green
-    - Person
-    - Human
-    - Connect
-    - Relationship
-    - People
-    - Group
-    - Document
-    - Text
-    - List
-    - Inventory
-    - Transcript
-    - Record
-    - Meeting
-    - Interview
 - name: '107'
   friendly_name: Unassigned
   category: Stroke style
@@ -5648,16 +5506,6 @@
     - Teal
     - Purple
     - Blue
-- name: AutomationPlatform
-  friendly_name: IBM Automation Platform
-  category: Stroke style
-  aliases:
-    - automation
-    - platform
-    - process
-    - improvement
-    - Green
-    - Teal
 - name: WatsonKnowledgeStudio
   friendly_name: IBM Watson® Knowledge Studio
   category: Stroke style
@@ -5687,7 +5535,7 @@
     - Purple
     - Blue
 - name: WatsonNaturalLanguageClassifier
-  Friendly_name: IBM Watson® Natural Language Classifier Service
+  friendly_name: IBM Watson® Natural Language Classifier Service
   category: Stroke style
   aliases:
     - IBM Watson®
@@ -5823,18 +5671,6 @@
     - Purple
     - Blue
     - circle
-- name: '142'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Teal
-    - Blue
-    - bar chart
-    - chart
-    - trend
-    - up
-    - positive
-    - growth
 - name: '143'
   friendly_name: Unassigned
   category: Stroke style
@@ -6040,7 +5876,7 @@
     - Purple
     - person
     - heart
-- name: CommunityHealthMemeber
+- name: CommunityHealthMember
   friendly_name: IBM Community Health Member
   category: Stroke style
   aliases:
