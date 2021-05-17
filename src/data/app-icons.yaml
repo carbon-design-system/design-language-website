@@ -4976,11 +4976,11 @@
   friendly_name: IBM Cloud® Classic Infrastructure
   category: Stroke style
   aliases:
-   - IBM Cloud®
-   - Infrastructure
-   - Blue
-   - Purple
-   - White
+    - IBM Cloud®
+    - Infrastructure
+    - Blue
+    - Purple
+    - White
 - name: CloudFunctions
   friendly_name: IBM Cloud® Functions
   category: Stroke style
@@ -5882,7 +5882,7 @@
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
-    -  Blue
+    - Blue
     - Purple
     - dots
 - name: Security-014
@@ -5916,12 +5916,7 @@
 - name: Security-018
   friendly_name: Unassigned Security
   category: Stroke style
-  aliases:
-    ¬- Blue
-    - Purple
-    - expand
-    - open
-    - zoom
+  aliases: ¬- Blue - Purple - expand - open - zoom
 - name: Security-019
   friendly_name: Unassigned Security
   category: Stroke style
@@ -6529,7 +6524,6 @@
     - models
     - real-time
     - data
-TRIRIGAReserve
 - name: TRIRIGAReserve
 - friendly_name: IBM® TRIRIGA® Reserve
 - category: Stroke
@@ -6541,7 +6535,6 @@ TRIRIGAReserve
     - coordinate
     - optimization
     - reservation
-TRIRIGAServices
 - name: TRIRIGAServices
 - friendly_name: IBM® TRIRIGA® Services
 - category: Stroke
