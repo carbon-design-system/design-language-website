@@ -21,8 +21,7 @@
     - Help
     - Customer service
     - Assistance
-    - Information desk
-    - Help desk
+    - Information
 - name: EnterprisePerformanceManagement
   friendly_name: IBM Enterprise Performance Management
   category: Fill style
@@ -250,8 +249,6 @@
     - purple
 - name: CloudDatabasesRabbit
   friendly_name: IBM Cloud® Databases for Rabbit
-  # from Peggy: I can’t find this solution name. I did find Messages for RabbitMQ, though.
-  # See: https://www.ibm.com/blogs/cloud-archive/tag/messages-for-rabbit-mq/
   category: IBM Plex® style
   aliases:
     - IBM Cloud
@@ -5212,7 +5209,6 @@
     - airline
     - flight
     - plane
-    - 360
     - full view
     - Blue
     - Teal
@@ -5766,28 +5762,28 @@
     - Native
     - Blue
     - Teal
-- name: 134
+- name: '134'
   friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Teal
     - Cloud
-- name: 135
+- name: '135'
   friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Purple
     - Blue
     - server
-- name: 136
+- name: '136'
   friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Teal
     - action
-- name: 137
+- name: '137'
   friendly_name: Unassigned
   category: Stroke style
   aliases:
@@ -5795,7 +5791,7 @@
     - Teal
     - server
     - security
-- name: 138
+- name: '138'
   friendly_name: Unassigned
   category: Fill style
   aliases:
@@ -5812,7 +5808,7 @@
     - Blue
     - Gray
     - lock
-- name: 140
+- name: '140'
   friendly_name: Unassigned
   category: Fill style
   aliases:
@@ -5820,14 +5816,14 @@
     - Blue
     - Gray
     - hexagon
-- name: 141
+- name: '141'
   friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Purple
     - Blue
     - circle
-- name: 142
+- name: '142'
   friendly_name: Unassigned
   category: Stroke style
   aliases:
@@ -5839,7 +5835,7 @@
     - up
     - positive
     - growth
-- name: 143
+- name: '143'
   friendly_name: Unassigned
   category: Stroke style
   aliases:
