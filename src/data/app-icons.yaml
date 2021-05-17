@@ -4580,25 +4580,16 @@
     - Add
     - New
     - Create
-- name: '131'
+- name: '132'
   friendly_name: Unassigned
-  category: Stroke style
+  category: Fill style
   aliases:
-    - Blue
-    - Teal
-    - Key
-    - Password
-    - Repository
-    - List
-    - Database
-    - Passkey
-    - Access
-    - Permissions
-    - Permission
-    - Privileges
-    - Allow
-    - Permit
-    - Approvals
+    - Cyan
+    - Purple
+    - Magenta
+    - radar
+    - radial
+    - detect
 - name: Security-001
   friendly_name: Unassigned
   category: Stroke style
@@ -4854,7 +4845,7 @@
     - Blue
     - Teal
 - name: PowerVSI
-  friendly_name: IBM® Power® Systems Virtual Server integration
+  friendly_name: IBM® Power® Systems Virtual Server Integration
   category: Stroke style
   aliases:
     - Power systems
@@ -6096,16 +6087,16 @@
     - N
 - name: CognitiveEnterpriseDataPlatform
   friendly_name: IBM Cognitive Enterprise Data Platform
-  category: Fill
+  category: Fill style
   aliases:
     - Teal
     - Blue
     - enterprise
-    - third-party data
+    - third-party
     - data
 - name: CloudAPIGateway
   friendly_name: IBM Cloud® API Gateway
-  category: Stroke
+  category: Stroke style
   aliases:
     - Blue
     - Teal
@@ -6114,9 +6105,9 @@
     - API
     - shield
 - name: zOSMFCFRMPolicyEditor
-- friendly_name: IBM® z/OSMF CFRM Policy Editor
-- category: Stroke
-- aliases:
+  friendly_name: IBM® z/OSMF CFRM Policy Editor
+  category: Stroke style
+  aliases:
     - Blue
     - Teal
     - Z system
@@ -6125,9 +6116,9 @@
     - mainframe sysplex
     - pencil
 - name: zOSMFSoftwareUpdate
-- friendly_name: IBM® z/OSMF Software Update
-- category: Stroke
-- aliases:
+  friendly_name: IBM® z/OSMF Software Update
+  category: Stroke style
+  aliases:
     - Blue
     - Teal
     - Z system
@@ -6138,9 +6129,9 @@
     - update
     - software
 - name: zOSManagementServicesCatalog
-- friendly_name: IBM® z/OS® Management Services Catalog
-- category: Stroke
-- aliases:
+  friendly_name: IBM® z/OS® Management Services Catalog
+  category: Stroke style
+  aliases:
     - Blue
     - Teal
     - catalog
@@ -6148,9 +6139,9 @@
     - mainframe
     - Z system
 - name: GSRisk
-- friendly_name: IBM GS Risk
-- category: Stroke
-- aliases:
+  friendly_name: IBM GS Risk
+  category: Stroke style
+  aliases:
     - Teal
     - Blue
     - assessment
@@ -6159,9 +6150,9 @@
     - project management
     - GTS
 - name: RPA
-- friendly_name: IBM® RPA
-- category: Stroke
-- aliases:
+  friendly_name: IBM® RPA
+  category: Stroke style
+  aliases:
     - Blue
     - Teal
     - process
@@ -6170,9 +6161,9 @@
     - robot
     - bot
 - name: RPALauncher
-- friendly_name: IBM® RPA Launcher
-- category: Stroke
-- aliases:
+  friendly_name: IBM® RPA Launcher
+  category: Stroke style
+  aliases:
     - Blue
     - Purple
     - process
@@ -6182,9 +6173,9 @@
     - robot
     - bot
 - name: RPAStudio
-- friendly_name: IBM® RPA Studio
-- category: Stroke
-- aliases:
+  friendly_name: IBM® RPA Studio
+  category: Stroke style
+  aliases:
     - Green
     - Teal
     - process
@@ -6195,9 +6186,9 @@
     - robot
     - bot
 - name: RPAVault
-- friendly_name: IBM® RPA Vault
-- category: Stroke
-- aliases:
+  friendly_name: IBM® RPA Vault
+  category: Stroke style
+  aliases:
     - Magenta
     - Red
     - process
@@ -6221,17 +6212,17 @@
     - Blue
     - Purple
 - name: TRIRIGAAssistant
-- friendly_name: IBM® TRIRIGA® Assistant
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Assistant
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - AI
     - chatbot
 - name: TRIRIGAConfigure
-- friendly_name: IBM® TRIRIGA® Configure
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Configure
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - customize
@@ -6243,9 +6234,9 @@
     - workflow
     - flow
 - name: TRIRIGAFacilityCondition
-- friendly_name: IBM® TRIRIGA® Facility Condition
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Facility Condition
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - facilities
@@ -6254,9 +6245,9 @@
     - condition
     - asset
 - name: TRIRIGAFacilitySustainability
-- friendly_name: IBM® TRIRIGA® Facility Sustainability
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Facility Sustainability
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - facilities
@@ -6268,9 +6259,9 @@
     - footprint
     - energy use
 - name: TRIRIGAIndoorMaps
-- friendly_name: IBM® TRIRIGA® Indoor Maps
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Indoor Maps
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - ESRI
@@ -6279,9 +6270,9 @@
     - mapping
     - map
 - name: TRIRIGAInsights
-- friendly_name: IBM® TRIRIGA® Insights
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Insights
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - space management
@@ -6289,9 +6280,9 @@
     - sensors
     - Cisco DNA Spaces
 - name: TRIRIGALeaseAccounting
-- friendly_name: IBM® TRIRIGA® Lease Accounting
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Lease Accounting
+  category: Stroke
+  aliases:
     - Purple
     - Blue
     - lease
@@ -6301,9 +6292,9 @@
     - international
     - reporting
 - name: TRIRIGALeaseAdministration
-- friendly_name: IBM® TRIRIGA® Lease Administration
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Lease Administration
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - property
@@ -6311,9 +6302,9 @@
     - penalties
     - overpayments
 - name: TRIRIGAMaintenance
-- friendly_name: IBM® TRIRIGA® Maintenance
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Maintenance
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - efficiency
@@ -6321,9 +6312,9 @@
     - preventive
     - maintenance
 - name: TRIRIGAMetrics
-- friendly_name: IBM® TRIRIGA® Metrics
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Metrics
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - workplace
@@ -6331,9 +6322,9 @@
     - KPIs
     - operations
 - name: TRIRIGAProjects
-- friendly_name: IBM® TRIRIGA® Projects
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Projects
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - Cycle time
@@ -6342,9 +6333,9 @@
     - risk
     - planning
 - name: TRIRIGAProjectsHub
-- friendly_name: IBM® TRIRIGA® Projects Hub
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Projects Hub
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - cost reduction
@@ -6352,9 +6343,9 @@
     - data
     - capital projects
 - name: TRIRIGAReporting
-- friendly_name: IBM® TRIRIGA® Reporting
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Reporting
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - graphs
@@ -6362,9 +6353,9 @@
     - real-time
     - data
 - name: TRIRIGAReserve
-- friendly_name: IBM® TRIRIGA® Reserve
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Reserve
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - resource
@@ -6373,18 +6364,18 @@
     - optimization
     - reservation
 - name: TRIRIGAServices
-- friendly_name: IBM® TRIRIGA® Services
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Services
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - service
     - automation
     - request management
 - name: TRIRIGATransactions
-- friendly_name: IBM® TRIRIGA® Transactions
-- category: Stroke
-- aliases:
+  friendly_name: IBM® TRIRIGA® Transactions
+  category: Stroke style
+  aliases:
     - Purple
     - Blue
     - decision support
@@ -6393,9 +6384,9 @@
     - purchase
     - disposal
 - name: SpectrumFusion
-- friendly_name: IBM Spectrum® Fusion
-- category: Stroke
-- aliases:
+  friendly_name: IBM Spectrum® Fusion
+  category: Stroke style
+  aliases:
     - Purple
     - Magenta
     - storage
@@ -6407,9 +6398,9 @@
     - hybrid cloud
     - storage management
 - name: MySQL
-- friendly_name: MySQL
-- category: Stroke
-- aliases:
+  friendly_name: MySQL
+  category: Stroke style
+  aliases:
     - Purple
     - Magenta
     - my
@@ -6417,19 +6408,10 @@
     - database
     - auto-scaling
     - cloud
-- name: CognitiveEnterpriseDataPlatform
-- friendly_name: IBM Cognitive Enterprise Data Platform
-- category: Fill
-- aliases:
-    - Teal
-    - Blue
-    - enterprise
-    - third-party
-    - data
 - name: AIX
-- friendly_name: AIX®
-- category: Plex
-- aliases:
+  friendly_name: AIX®
+  category: IBM Plex® style
+  aliases:
     - Green
     - Teal
     - power systems
@@ -6437,17 +6419,17 @@
     - OS
     - operating system
 - name: IBMi
-- friendly_name: IBM i
-- category: Plex
-- aliases:
+  friendly_name: IBM i
+  category: IBM Plex® style
+  aliases:
     - OS
     - power systems
     - operating system
     - i
 - name: Linux
-- friendly_name: Linux®
-- category: Plex
-- aliases:
+  friendly_name: Linux®
+  category: IBM Plex® style
+  aliases:
     - OS
     - power systems
     - operating system
