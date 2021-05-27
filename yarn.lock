@@ -2005,9 +2005,9 @@
     prop-types "^15.7.2"
 
 "@carbon/pictograms@^11.4.0":
-  version "11.10.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.10.0.tgz#d8ac6dd7e4616dc8fcbe95509811ec151f1cb362"
-  integrity sha512-/vVOEol/3RfQ/qVB6RpsNfCnInh55neQXmZOYVWVBSswE64lAo8bWfpytHoSk2c2HbClJGEUjWNyj/4wO+Sc3Q==
+  version "11.11.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.11.0.tgz#a1138fff9afc937d3eb2f2f9de77972cf4e6c772"
+  integrity sha512-o9N77JyhnjfA3WGFJ39mJAYbrJhi7xNfTRdY0N3s6gP1XgUVRd/9mUeC0tcX6053WNHG2F2PSUFfbwqCec1+Tw==
 
 "@carbon/telemetry@0.0.0-alpha.6":
   version "0.0.0-alpha.6"
