@@ -5,32 +5,12 @@ import Helmet from '../components/Helmet';
 
 export default HomepageTemplate;
 
-import divers from '../images/homepage/divers.jpg';
-import diversMobile from '../images/homepage/divers-2-1.png';
-
-import windmills from '../images/homepage/windmills.jpg';
-import windmillsMobile from '../images/homepage/windmills-2-1.png';
-
 import { noGutterSm } from '../styles/Grid.module.scss';
 
 <Helmet />
 
 <Row classname='homepage-row'>
   <Column colLg={4} colMd={4} noGutterSm>
-    <ImageCard
-      title="Carbon components"
-      href="https://www.carbondesignsystem.com/components/overview"
-      actionIcon="launch"
-      titleColor="dark"
-      iconColor="dark"
-      hoverColor="dark"
-      className="card-background"
-      >
-
-
-![carbon components icons](../images/homepage/carbon_tile.png)
-
-   </ImageCard>
     <ImageCard
       title="Typeface"
       href="/typography/typeface"
@@ -40,104 +20,11 @@ import { noGutterSm } from '../styles/Grid.module.scss';
       className="card-background"
       >
 
-
 ![presentational animation of plex font](../images/homepage/landing-plex-animation.gif)
 
-   </ImageCard>
+  </ImageCard>
   </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <ImageCard
-      title="2x Grid"
-      href="/2x-grid"
-      actionIcon="arrowRight"
-      titleColor="light"
-      iconColor="light"
-      className="card-background"
-      >
 
-
-![IBM 2x grid](../images/homepage/grid-temp.png)
-
-   </ImageCard>
-    <HomepageTile
-      ratio="1:1"
-      theme="dark"
-      title="Carbon repo"
-      actionIcon="resources"
-      identityIcon="images/GitHubIcon.svg"
-      link="https://github.com/carbon-design-system/carbon"
-    />
-
-
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <ImageCard
-        title="UI icons"
-        aspectRatio="1:2"
-        href="/iconography/ui-icons/design"
-        actionIcon="arrowRight"
-        iconColor="light"
-        >
-
-
-![IBM user interface icons](../images/homepage/ui-icons.png)
-
-   </ImageCard>
-  </Column>
-  <Column colLg={4} colMd={4} noGutterSm>
-    <ImageCard
-        title="Type specs UI"
-        aspectRatio="1:1"
-        href="/typography/type-specs-ui"
-        actionIcon="arrowRight"
-        iconColor="light"
-        className="card-background"
-        >
-
-
-![IBM plex typespec diagram](../images/homepage/plex-type-specs.png)
-
-   </ImageCard>
-    <HomepageTile
-      ratio="2:1"
-      theme="dark"
-      title="Sketch design kits"
-      actionIcon="resources"
-      identityIcon="images/SketchIcon.svg"
-      link="https://www.carbondesignsystem.com/designing/kits/sketch"
-    />
-  </Column>
-  <Column colLg={8} noGutterSm>
-  <HomepageTile
-    ratio="1:1"
-    image="images/product-gallery.jpg"
-    actionIcon="no-icon">
-    <HomepageTile
-      ratio={{ default: '2:1', md: '4:1', }}
-      theme="dark"
-      title="Gallery"
-      actionIcon="article"
-      link="/gallery"
-    />
-    </HomepageTile>
-  </Column>
-  <Column colLg={8} noGutterSm>
-    <ImageCard
-        title="Color"
-        aspectRatio="1:1"
-        href="/color"
-        actionIcon="arrowRight"
-        iconColor="light"
-        className="card-background"
-        >
-
-
-![grid of ibm colors](../images/homepage/landing-color-grid.svg)
-
-   </ImageCard>
-
-
-  </Column>
   <Column colLg={4} colMd={4} noGutterSm>
     <ImageCard
         title="Philosophy"
@@ -149,39 +36,70 @@ import { noGutterSm } from '../styles/Grid.module.scss';
         className="card-background"
         >
 
-
 ![IBM rebus logo](../images/homepage/philosophy-rebus.png)
 
-   </ImageCard>
-
-
+  </ImageCard>
   </Column>
-  <Column colLg={12} colMd={12} noGutterSm>
-    <HomepageTile
-      ratio={{ default: '1:2', md: '16:9' }}
-      actionIcon="no-icon">
-      <Carousel id="c1" count="1 2" nav={false} fade={true} autoPlay>
-        <img
-          srcSet={`${diversMobile} 1216w, ${divers} 1920w`}
-          sizes="(max-width: 600px) 100vw, 1920px"
-          alt="Divers on a beach with surfboards"
-        />
-        <img
-          srcSet={`${windmillsMobile} 1216w, ${windmills} 1920w`}
-          sizes="(max-width: 600px) 100vw, 1920px"
-          alt="Windmills peeking up above clouds"
-        />
-      </Carousel>
-      <HomepageTile
-        ratio={{ default: '2:1', md: '4:1', lg: '6:1' }}
-        theme="dark"
+
+  <Column colLg={4} colMd={4} noGutterSm>
+    <ImageCard
+        title="Color"
+        aspectRatio="1:1"
+        href="/color"
+        actionIcon="arrowRight"
+        iconColor="light"
+        titleColor="light"
+        className="card-background"
+        >
+
+![IBM rebus logo](../images/homepage/landing-color-grid.svg)
+
+  </ImageCard>
+  </Column>
+
+  <Column colLg={8} noGutterSm>
+    <ImageCard
         title="Photography"
-        actionIcon="article"
-        link="/photography/overview"
-      />
-    </HomepageTile>
+        aspectRatio="1:1"
+        href="/photography/overview"
+        actionIcon="arrowRight"
+        iconColor="light"
+        titleColor="dark"
+        className="card-background"
+        >
+
+![grid of ibm colors](../images/homepage/photography_divers.jpg)
+
+  </ImageCard>
   </Column>
 
+  <Column colLg={4} colMd={4} noGutterSm>
+    <ImageCard
+        title="Illustration"
+        aspectRatio="1:1"
+        href="/illustration/overview"
+        actionIcon="arrowRight"
+        iconColor="light"
+        titleColor="light"
+        className="card-background"
+        >
 
+![grid of ibm colors](../images/homepage/illustration_isometric.png)
+
+  </ImageCard>
+  
+  <ImageCard
+    title="2x Grid"
+    href="/2x-grid"
+    actionIcon="arrowRight"
+    titleColor="light"
+    iconColor="light"
+    className="card-background"
+    >
+
+![IBM 2x grid](../images/homepage/grid-temp.png)
+
+</ImageCard>
+</Column>
+  
 </Row>
-
