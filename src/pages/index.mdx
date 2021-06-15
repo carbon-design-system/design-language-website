@@ -1,11 +1,12 @@
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
+import { h3 } from "gatsby-theme-carbon/src/components/markdown/Markdown.module.scss";
 import HomepageTile from '../components/HomepageTile';
 import Carousel from '../components/Carousel';
 import Helmet from '../components/Helmet';
+import { noGutterSm } from '../styles/Grid.module.scss';
+import "../styles/index.scss";
 
 export default HomepageTemplate;
-
-import { noGutterSm } from '../styles/Grid.module.scss';
 
 <Helmet />
 
@@ -102,4 +103,91 @@ import { noGutterSm } from '../styles/Grid.module.scss';
 </ImageCard>
 </Column>
   
+</Row>
+
+<h2 classname={h3}>Tools, templates and assets</h2>
+
+<Row className="homepage-cards resource-card-group">
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      href="/typography/typeface#resources"
+      title="IBM Plex® typeface latest release"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      color="dark"
+    />
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      href="/color#specifications"
+      title="IBM color specifications"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      color="dark"
+    />
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      href="/2x-grid#2x-grid-for-video"
+      title="2x Grid for video"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      color="dark"
+    />
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      href="/iconography/ui-icons/design#resources"
+      title="UI icon resources"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      color="dark"
+    />
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      href="/pictograms/design#resources"
+      title="Pictogram resources"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      color="dark"
+    />
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      href="/resources#illustration"
+      title="Illustration starter kits"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      color="dark"
+    />
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      href="https://www.sketch.com/s/4f1cbe6c-6626-405e-8c46-a9ae41a30cba"
+      title="IDL Sketch design kit"
+      actionIcon="launch"
+      aspectRatio="2:1"
+      color="dark"
+    />
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      href="https://www.carbondesignsystem.com/designing/kits/sketch"
+      title="Carbon design kits"
+      actionIcon="launch"
+      aspectRatio="2:1"
+      color="dark"
+    />
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      href="/help/support#questions"
+      title="Questions?"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      color="dark"
+    />
+  </Column>
+
 </Row>
