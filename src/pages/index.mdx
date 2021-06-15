@@ -3,14 +3,14 @@ import { h3 } from "gatsby-theme-carbon/src/components/markdown/Markdown.module.
 import HomepageTile from '../components/HomepageTile';
 import Carousel from '../components/Carousel';
 import Helmet from '../components/Helmet';
-import { noGutterSm } from '../styles/Grid.module.scss';
+import { noGutterSm, noGutterMdLeft } from '../styles/Grid.module.scss';
 import "../styles/index.scss";
 
 export default HomepageTemplate;
 
 <Helmet />
 
-<Row classname='homepage-row'>
+<Row>
   <Column colLg={4} colMd={4} noGutterSm>
     <ImageCard
       title="Typeface"
@@ -190,4 +190,48 @@ export default HomepageTemplate;
     />
   </Column>
 
+</Row>
+
+<h2 classname={h3}>What’s new</h2>
+
+<Row>
+  <Column colMd={4} colLg={4} noGutterMdLeft>
+    <ArticleCard
+      title="IBM and Red Hat Experience Guide"
+      date="May 2021"
+      href="/whatsnew/#ibm-and-red-hat-experience-guide"
+      actionIcon="arrowRight"
+      color="dark"
+    >
+
+![IBM and Red Hat Experience Guide](../images/homepage/whatsnew_ibm_redhat.jpg)
+
+  </ArticleCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterMdLeft>
+    <ArticleCard
+      title="Expressive pictograms"
+      date="May 2021"
+      href="/whats-new#expressive-pictograms"
+      actionIcon="arrowRight"
+      color="dark"
+    >
+
+![Expressive pictograms](../images/homepage/whatsnew_pictogram.png)
+
+  </ArticleCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterMdLeft>
+    <ArticleCard
+      title="Imagery"
+      date="April 2021"
+      href="/whatsnew/#imagery"
+      actionIcon="arrowRight"
+      color="dark"
+    >
+
+![Imagery](../images/homepage/whatsnew_imagery.jpg)
+
+  </ArticleCard>
+  </Column>
 </Row>
