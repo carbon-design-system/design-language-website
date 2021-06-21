@@ -30,7 +30,7 @@
     "build": "gatsby build",
     "build:prefix": "gatsby clean && gatsby build --prefix-paths && yarn move-public",
     "build:analyze": "gatsby clean && ANALYZE=true yarn build",
-    "build:svgs": "npx svgo -r -f ./src/images/app-icons --config=.svgo.yml",
+    "build:svgs": "svgo -r -f ./src/images/app-icons",
     "move-public": "mv public language && mkdir public && mkdir public/design && cp -R language public/design && rm -rf language",
     "serve": "gatsby serve -H 0.0.0.0",
     "ci-check": "yarn format:diff",
@@ -104,6 +104,8 @@
     "stylelint": "^13.6.1",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-scss": "^3.18.0",
-    "webpack": "^5.34.0"
+    "webpack": "^5.34.0",
+    "svgo": "^2.3.0",
+    "uuid": "^8.3.2"
   }
 }
