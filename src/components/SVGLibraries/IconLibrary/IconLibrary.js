@@ -6,15 +6,14 @@ import loadable from '@loadable/component';
 
 import useColumnCount from '../shared/useColumnCount';
 
-import {
-  icons as iconMetaData,
-  categories as iconCategoryMetadata,
-} from './metadata.json';
+import * as metadata from './metadata.json';
 import { svgPage, svgLibrary } from '../shared/SvgLibrary.module.scss';
 
 import FilterRow from '../shared/FilterRow';
 import IconCategory from './IconCategory';
 import NoResult from '../shared/NoResult';
+
+const { icons: iconMetaData, categories: iconCategoryMetadata } = metadata;
 
 const IconLibrary = () => {
   const [iconComponents, setIconComponents] = useState([]);
