@@ -5,7 +5,7 @@
   "version": "1.0.1",
   "main": "src",
   "engines": {
-    "node": "^12 || ^13 || ^14"
+    "node": "^14"
   },
   "browserslist": [
     "last 2 edge version",
