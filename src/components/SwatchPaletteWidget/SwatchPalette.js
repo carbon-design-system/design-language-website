@@ -343,7 +343,7 @@ const PALETTES = {
   orange: {
     40: {
       hex: orange,
-      pms: '2655',
+      pms: '1575',
       cmyk: 'c42 m54 y0 k0',
     },
   },
@@ -565,7 +565,7 @@ const PALETTES = {
   yellow: {
     30: {
       hex: yellow,
-      pms: '2645',
+      pms: '116',
       cmyk: 'c34 m44 y0 k0',
     },
   },
