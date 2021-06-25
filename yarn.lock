@@ -1962,11 +1962,11 @@
   integrity sha512-2eIecDuoEEx+nORHtTBmj5lV/N4Q1kP7XCZUkF15WfXxZHx2RI6KhS4HnMPDoylguhavnRjSIK1gl6oG3Z3wSQ==
 
 "@carbon/icons-react@^10.26.0", "@carbon/icons-react@^10.30.0":
-  version "10.33.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.33.0.tgz#ff3272bfb0d5b75cdf745696ccd8b699eaff8679"
-  integrity sha512-VuAs9X2Ldnv5bSgBT1RqMTJWfKbVDFv/Xy9ICJLvbmzs8LG54YG4RHci4SFF9bpcUZ23+src535XLEDNOo/3Ng==
+  version "10.34.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.34.0.tgz#6c9b8f9def1713077e8a8307d1f380274f9d06cc"
+  integrity sha512-lHkTT8tSWOO441eCXD6STUEeUCLNHrVU4WR/sfkzr0InWdNuaBKvXb/DhYa18SRljC1XbfQ0fjTHrACHQQCmSg==
   dependencies:
-    "@carbon/icon-helpers" "^10.18.0"
+    "@carbon/icon-helpers" "^10.19.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
     prop-types "^15.7.2"
 
