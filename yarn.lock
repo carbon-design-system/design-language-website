@@ -1971,9 +1971,9 @@
     prop-types "^15.7.2"
 
 "@carbon/icons@^10.26.0", "@carbon/icons@^10.30.0":
-  version "10.35.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.35.0.tgz#1222c5ac1cd739e819c71d1c4a088381e78d123f"
-  integrity sha512-pWhh69Y7QlpHWBMt0kh9Gz7+2y2tByU8rHBUpAMr4FeT9p2rLjrLfMSZdCQC3+bs2hJ092v9MRh6JO7TTqIBBw==
+  version "10.36.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.36.0.tgz#255de337aafe50c5507e223b92deaaa464b51ef0"
+  integrity sha512-5p/62+zZRdg21GIFk0+BtDiDqC2rfdqM4fjstW/nhugob/zjZMNUXwNYH001bhEuOLvewzENgF3EQwGYb1NFfg==
   dependencies:
     svgson "^5.2.1"
 
