@@ -2397,10 +2397,10 @@
   resolved "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
-"@ibm/plex@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.npmjs.org/@ibm/plex/-/plex-5.2.0.tgz#4918c8f173513e88efe6f97a588edf57a8b2abf2"
-  integrity sha512-nv+NaneJBI0fJcqIEtQKQX94HPxdHMm9TAHqQ6ukoBqwLKJRBIjUsODGrjTRhs5SzRqysjQikpNnBQmWhIVwyA==
+"@ibm/plex@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.npmjs.org/@ibm/plex/-/plex-5.2.1.tgz#c454506b38f69bd97bcb71f1810e5c007593a3d2"
+  integrity sha512-ASrHZCl+ts1ysXN8kknv7iuTO1s6Dz0FCPDo0tFzFkvP3XSgKbZ4ml7zgGdlXKR6uEbMr/nt4dQVLrOQn6j2Ug==
 
 "@jest/types@^25.5.0":
   version "25.5.0"
