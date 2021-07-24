@@ -1956,24 +1956,24 @@
     "@carbon/import-once" "^10.6.0"
     "@carbon/layout" "^10.23.0"
 
-"@carbon/icon-helpers@^10.19.0":
-  version "10.19.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.19.0.tgz#f6b608b181b4ca4aeeadac72ec11b7cf530b4d1c"
-  integrity sha512-2eIecDuoEEx+nORHtTBmj5lV/N4Q1kP7XCZUkF15WfXxZHx2RI6KhS4HnMPDoylguhavnRjSIK1gl6oG3Z3wSQ==
+"@carbon/icon-helpers@^10.20.0":
+  version "10.20.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.20.0.tgz#4e6752b984fcbfd5851af5c4dfdab5031bb4aa1d"
+  integrity sha512-Qe/xHnMDwji541+2ibn90eFI5xWh51SQ6ehmHncagNrPIJb3a+x1DMhQcAMUF6YKwGzSbb5VQfay5wFoxcaf+A==
 
 "@carbon/icons-react@^10.26.0", "@carbon/icons-react@^10.30.0":
-  version "10.34.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.34.0.tgz#6c9b8f9def1713077e8a8307d1f380274f9d06cc"
-  integrity sha512-lHkTT8tSWOO441eCXD6STUEeUCLNHrVU4WR/sfkzr0InWdNuaBKvXb/DhYa18SRljC1XbfQ0fjTHrACHQQCmSg==
+  version "10.36.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.36.0.tgz#a09dc6b4bcda2f43063014af38e112081a2a91fb"
+  integrity sha512-lWmG8v09XTVKPsGd0kbZgYAwvQ99XB3Szt0y91W3b2zKXiSilyFuSbG9Vd6fwrfaP84QG48MnCFdct0Aww57Xg==
   dependencies:
-    "@carbon/icon-helpers" "^10.19.0"
+    "@carbon/icon-helpers" "^10.20.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
     prop-types "^15.7.2"
 
 "@carbon/icons@^10.26.0", "@carbon/icons@^10.30.0":
-  version "10.34.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.34.0.tgz#8f746af52f6771dc7a47ce2c6d5463a5ab81402b"
-  integrity sha512-7H/L2o4Lo8S8cml0D5KVHnqK8RQum4B4z9uUYFI89/dj4+et+7alV+C5WFcrcKFN22vL7Eq2dwJjlTp+uJMiOw==
+  version "10.36.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.36.0.tgz#255de337aafe50c5507e223b92deaaa464b51ef0"
+  integrity sha512-5p/62+zZRdg21GIFk0+BtDiDqC2rfdqM4fjstW/nhugob/zjZMNUXwNYH001bhEuOLvewzENgF3EQwGYb1NFfg==
   dependencies:
     svgson "^5.2.1"
 
@@ -1998,18 +1998,18 @@
   integrity sha512-j0/9QtPhLRyZge0x9gr7u0vRF5rr0KU+kppwBEXwm2UJGHJjGdcecdW8NcfZQY5iUD/7YgzR2X2fZwjmcGlUUg==
 
 "@carbon/pictograms-react@^11.4.0":
-  version "11.12.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.12.0.tgz#a679dcbb5c59c66860d6ab646a1bce4352188c9e"
-  integrity sha512-rp29qjLNItMDSOgnUPASSmDudVDXmrKINtTYI6yrWjIFf9whedXAPuWbC/nkyaXh19PxsIawqirGAvvDaakbyA==
+  version "11.14.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.14.0.tgz#3e06637235456e35b7f372d22d756e9b25cacba9"
+  integrity sha512-sc2Ciw4UTnbTpn1MnFpiXonZ5LHZVfFywa9PgAFgfGlZPwLiY3iZBlVMenY7vIAWPxUZA2qfQlk3tjeMcJiN/Q==
   dependencies:
-    "@carbon/icon-helpers" "^10.19.0"
+    "@carbon/icon-helpers" "^10.20.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
     prop-types "^15.7.2"
 
 "@carbon/pictograms@^11.4.0":
-  version "11.12.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.12.0.tgz#06be37e3a16ddd02eae408273ae8c3641ca502cf"
-  integrity sha512-CZ2xY+WkS+FF0zC8czUXQuh57cjyMWlsBYireYsknPhxQGuR7NsOI1oYy4LcEL8KbsS1Lpzh9jzQJFuveP5s3A==
+  version "11.14.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.14.0.tgz#658f6759e8faaa04ddafb61e694912e2b48956cc"
+  integrity sha512-Wjb7OGiWPLpZCCEnjkbTRaLEt0dNlX9QY5cyVTDmn3grd7pDtE/ROM4n6h08wpPApuMmeEt7cjSIAzsIr7q5ZA==
 
 "@carbon/telemetry@0.0.0-alpha.6":
   version "0.0.0-alpha.6"
@@ -8559,9 +8559,9 @@ gatsby-telemetry@^1.10.1:
     uuid "3.4.0"
 
 gatsby-theme-carbon@^1.29.2:
-  version "1.30.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.30.1.tgz#ef25966f4c7d644a665047e2087153451220e020"
-  integrity sha512-+6zpZGdfMkI4uJIx72U0HIc7PYXAKCQfDk5ldffi0+26k2QW75ckjRIl3zd4wV8/Gxs4sTcxVBrtQT+GSX8fdQ==
+  version "1.30.2"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.30.2.tgz#1ffe2ee67778c154c9ee0576e7fd2af23c4d059b"
+  integrity sha512-KjCGCLwPQsxWlQDeTAF+2peR5LVCukdbkqurGVWKt7+HyBfMuguiOR8L/1iJSX3QpOjZOA//jexxCuVKPR8mgQ==
   dependencies:
     "@babel/core" "^7.10.4"
     "@carbon/elements" "^10.32.0"

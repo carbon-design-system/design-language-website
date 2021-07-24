@@ -5674,7 +5674,7 @@
     - service
     - maintanance
 - name: Security-010
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Security
@@ -5684,7 +5684,7 @@
     - cyberattack
     - attack
 - name: Security-011
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5694,7 +5694,7 @@
     - status
     - signal
 - name: Security-012
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5702,33 +5702,33 @@
     - reset
     - restart
 - name: Security-013
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - dots
 - name: Security-014
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - reset
 - name: Security-015
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
 - name: Security-016
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
 - name: Security-017
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5737,7 +5737,7 @@
     - caution
     - alert
 - name: Security-018
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5746,21 +5746,21 @@
     - open
     - zoom
 - name: Security-019
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - edit
 - name: Security-020
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - open
 - name: Security-021
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5768,7 +5768,7 @@
     - network
     - node
 - name: Security-022
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5776,14 +5776,14 @@
     - message
     - chat
 - name: Security-023
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - code
 - name: Security-024
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5791,7 +5791,7 @@
     - wrench
     - maintenance
 - name: Security-025
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5809,7 +5809,7 @@
     - monitor
     - performance
 - name: Security-027
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5817,7 +5817,7 @@
     - star
     - note
 - name: Security-028
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
