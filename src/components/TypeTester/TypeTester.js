@@ -87,6 +87,12 @@ const languageDropdownContent = [
     weights: commonFontWeights,
   },
   {
+    label: 'IBM Plex Sans JP',
+    language: 'japanese',
+    className: [`${prefix}--type-japanese`],
+    weights: commonFontWeights,
+  },
+  {
     label: 'IBM Plex Sans KR',
     language: 'korean',
     className: [`${prefix}--type-korean`],

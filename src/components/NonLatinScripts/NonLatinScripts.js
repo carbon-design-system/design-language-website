@@ -44,6 +44,11 @@ const NonLatinScripts = () => (
       value="לחשׁוֹב"
     />
     <NonLatinScript
+     typefaceName="IBM Plex Sans JP"
+     className={`${prefix}--type-japanese`}
+     value="設計された"
+    />
+    <NonLatinScript
       typefaceName="IBM Plex Sans KR"
       className={`${prefix}--type-korean`}
       value="혁신하다"

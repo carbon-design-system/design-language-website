@@ -1354,12 +1354,21 @@
     "@carbon/import-once" "^10.6.0"
     "@carbon/layout" "^10.25.0"
 
-"@carbon/icon-helpers@^10.18.0":
-  version "10.18.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.18.0.tgz#afdc469948c3be34450b49d826169b9df7479255"
-  integrity sha512-tgnUIT0WliaVipk1SjxpcdsaHLOnGIFz3KP+OCE4nZAErufGDQe5EAACrcvXA/DlRc7XIIcAzC5uV2HK78UICg==
+"@carbon/icon-helpers@^10.21.0", "@carbon/icon-helpers@^10.22.0":
+  version "10.22.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.22.0.tgz#5992c75850ace09f9cf5015ebec652ccce96c23e"
+  integrity sha512-00HRYbb0P1v1L3XI+KuBqHoSzbeTZTYMiBWqMvITGm6y2bdE6++Xbp4eIQbZZypEYzuiJ0UmJf+VMx+ypBOjiw==
 
-"@carbon/icons-react@^10.26.0", "@carbon/icons-react@^10.33.0":
+"@carbon/icons-react@^10.26.0":
+  version "10.37.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.37.0.tgz#3d4355eb03c2165ddd7705ce977df03d6beaea78"
+  integrity sha512-13wHwN9BikOj9RhT/m8jeJQ61l5yNXiXQ0KR//9rFnz27gWO0huWb8qiBnHsicbQdl4oe+TVcm/WKF3PcJwUJA==
+  dependencies:
+    "@carbon/icon-helpers" "^10.21.0"
+    "@carbon/telemetry" "0.0.0-alpha.6"
+    prop-types "^15.7.2"
+
+"@carbon/icons-react@^10.33.0":
   version "10.33.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.33.0.tgz#ff3272bfb0d5b75cdf745696ccd8b699eaff8679"
   integrity sha512-VuAs9X2Ldnv5bSgBT1RqMTJWfKbVDFv/Xy9ICJLvbmzs8LG54YG4RHci4SFF9bpcUZ23+src535XLEDNOo/3Ng==
@@ -1368,7 +1377,14 @@
     "@carbon/telemetry" "0.0.0-alpha.6"
     prop-types "^15.7.2"
 
-"@carbon/icons@^10.26.0", "@carbon/icons@^10.33.0":
+"@carbon/icons@^10.26.0":
+  version "10.37.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.37.0.tgz#017c6cee1a6c108d3ccc7a00e64261530df72292"
+  integrity sha512-9dLevNsei6SL0RG5k5P0niOYwFVp3iNSwQ+4MFRitOGSsHUo9Vvxv/fib0ATgK7vu/Wpyiyyn+f6wJYhhzf9Qw==
+  dependencies:
+    svgson "^5.2.1"
+
+"@carbon/icons@^10.33.0":
   version "10.33.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.33.0.tgz#316131e4a95377ddd23df1d44aef7156ad3d29c6"
   integrity sha512-EKzNi6h6xQid1y4uLAkjc+FVsDA0eFHFum+uqT6QWdqK8ZapXt+qQmVuy8Aedf8UhLbmyc+VnxvdJW8nA9Lt7Q==
@@ -1389,18 +1405,18 @@
   integrity sha512-xAV6wFKvUGEO1vCDa2fZsPmF4slotJDB0bwvy7HgSGm9Ss++eBirADrZ6XH9CLw90dI60j/COvu2P2gu1XY0/A==
 
 "@carbon/pictograms-react@^11.4.0":
-  version "11.11.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.11.0.tgz#85a507ad92d6dee70b50bd1b1461b23b1a8aa791"
-  integrity sha512-Q32Gd6XN39JG9eBJIKESPtwStmOOHUp3gKW0OAQ1yAMMXOXPjs5gMCx1ApPm8j2VGmaSKryxVa3yJvnM1wkHlg==
+  version "11.17.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.17.0.tgz#e58eda847caf1b7841f5d28bf691780f0f52578c"
+  integrity sha512-VtvB/auCYrGjljQhX52fonnecTKYwJh92csD9aEkDwMqmHrUmGX3bQbbTKqvOWAJfYbTp8M+gU4vQ3eL4qio5A==
   dependencies:
-    "@carbon/icon-helpers" "^10.18.0"
+    "@carbon/icon-helpers" "^10.22.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
     prop-types "^15.7.2"
 
 "@carbon/pictograms@^11.4.0":
-  version "11.11.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.11.0.tgz#a1138fff9afc937d3eb2f2f9de77972cf4e6c772"
-  integrity sha512-o9N77JyhnjfA3WGFJ39mJAYbrJhi7xNfTRdY0N3s6gP1XgUVRd/9mUeC0tcX6053WNHG2F2PSUFfbwqCec1+Tw==
+  version "11.15.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.15.0.tgz#fc3f19e632e281c441527b47c89e0a66d308edc5"
+  integrity sha512-v3lGMf3KFyoljatNVKMixWzK+Oh7dVArKQsTbirQCJxtZ4bEbu24Ve6liJtmr8y7dBYYNpXpad7zsj62QayqvA==
 
 "@carbon/telemetry@0.0.0-alpha.6":
   version "0.0.0-alpha.6"
@@ -1670,10 +1686,10 @@
   resolved "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
-"@ibm/plex@^5.1.0":
-  version "5.1.3"
-  resolved "https://registry.npmjs.org/@ibm/plex/-/plex-5.1.3.tgz#10b0d72448527d9b8b487165037ad38605c4bf29"
-  integrity sha512-Wgful5xAKIzUFngMyEnZ6nc7IKMyKMRVk4qCIAgjRCI76w1uCGGgImWSEunay+j5mPrEWQKwz1ht8Xk6rcumEw==
+"@ibm/plex@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.npmjs.org/@ibm/plex/-/plex-5.2.1.tgz#c454506b38f69bd97bcb71f1810e5c007593a3d2"
+  integrity sha512-ASrHZCl+ts1ysXN8kknv7iuTO1s6Dz0FCPDo0tFzFkvP3XSgKbZ4ml7zgGdlXKR6uEbMr/nt4dQVLrOQn6j2Ug==
 
 "@jest/types@^25.5.0":
   version "25.5.0"
@@ -5559,6 +5575,14 @@ deep-is@^0.1.3:
   resolved "https://registry.npmjs.org/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
 
+deep-rename-keys@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/deep-rename-keys/-/deep-rename-keys-0.2.1.tgz#ede78537d7a66a2be61517e2af956d7f58a3f1d8"
+  integrity sha1-7eeFN9emaivmFRfir5Vtf1ij8dg=
+  dependencies:
+    kind-of "^3.0.2"
+    rename-keys "^1.1.2"
+
 deepmerge@^4.0.0:
   version "4.2.2"
   resolved "https://registry.npmjs.org/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
@@ -6579,9 +6603,14 @@ event-emitter@^0.3.5:
     es5-ext "~0.10.14"
 
 event-source-polyfill@^1.0.15:
-  version "1.0.22"
-  resolved "https://registry.npmjs.org/event-source-polyfill/-/event-source-polyfill-1.0.22.tgz#cb381d6c4409097095da53e01852c1a8fbb6d7fc"
-  integrity sha512-Fnk9E2p4rkZ3eJGBn2HDeZoBTpyjPxj8RX/whdr4Pm5622xYgYo1k48SUD649Xlo6nnoKRr2WwcUlneil/AZ8g==
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/event-source-polyfill/-/event-source-polyfill-1.0.20.tgz#cd40856d79bd402fe3ed6a6c07cb4bb50600d7b2"
+  integrity sha512-+uOWalBp4xnbtSwKsRfqkVMnx1jPHNjC0PISYBjGJqV8N3YVxnkdm5ZqzO0RCRQvrQy0TFC32+nFcEcA+dZ+gA==
+
+eventemitter3@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-2.0.3.tgz#b5e1079b59fb5e1ba2771c0a993be060a58c99ba"
+  integrity sha1-teEHm1n7XhuidxwKmTvgYKWMmbo=
 
 eventemitter3@^4.0.0, eventemitter3@^4.0.4:
   version "4.0.7"
@@ -9622,7 +9651,7 @@ is-plain-obj@^2.0.0:
   resolved "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-2.1.0.tgz#45e42e37fccf1f40da8e5f76ee21515840c09287"
   integrity sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==
 
-is-plain-object@^2.0.3, is-plain-object@^2.0.4:
+is-plain-object@^2.0.1, is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
   integrity sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==
@@ -11842,6 +11871,14 @@ omggif@^1.0.10, omggif@^1.0.9:
   resolved "https://registry.npmjs.org/omggif/-/omggif-1.0.10.tgz#ddaaf90d4a42f532e9e7cb3a95ecdd47f17c7b19"
   integrity sha512-LMJTtvgc/nugXj0Vcrrs68Mn2D1r0zf630VNtqtpI1FEO7e+O9FP4gqs9AcnBaSEeoHIPm28u6qgPR0oyEpGSw==
 
+omit-deep@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/omit-deep/-/omit-deep-0.3.0.tgz#21c8af3499bcadd29651a232cbcacbc52445ebec"
+  integrity sha1-IcivNJm8rdKWUaIyy8rLxSRF6+w=
+  dependencies:
+    is-plain-object "^2.0.1"
+    unset-value "^0.1.1"
+
 on-finished@^2.3.0, on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -13933,6 +13970,11 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.npmjs.org/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
+rename-keys@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/rename-keys/-/rename-keys-1.2.0.tgz#be602fb0b750476b513ebe85ba4465d03254f0a3"
+  integrity sha512-U7XpAktpbSgHTRSNRrjKSrjYkZKuhUukfoBlXWXUExCAqhzh1TU3BDRAfJmarcl5voKS+pbKU9MvyLWKZ4UEEg==
+
 renderkid@^2.0.4:
   version "2.0.5"
   resolved "https://registry.npmjs.org/renderkid/-/renderkid-2.0.5.tgz#483b1ac59c6601ab30a7a596a5965cabccfdd0a5"
@@ -15620,6 +15662,15 @@ svgo@^2.3.0:
     csso "^4.2.0"
     stable "^0.1.8"
 
+svgson@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/svgson/-/svgson-5.2.1.tgz#7481fb1af4a58be542a6bd2020c168c6b71381cb"
+  integrity sha512-nbM6QuyZiKzQ0Uo51VDta93YJAr96ikyT40PsgJRrzynOGsOlnmJ6zAK5hUFyE5gnxcg7yuOPUWbUlmV9K0+Dg==
+  dependencies:
+    deep-rename-keys "^0.2.1"
+    omit-deep "0.3.0"
+    xml-reader "2.4.3"
+
 swap-case@^1.1.0:
   version "1.1.2"
   resolved "https://registry.npmjs.org/swap-case/-/swap-case-1.1.2.tgz#c39203a4587385fad3c850a0bd1bcafa081974e3"
@@ -16514,6 +16565,14 @@ unquote@~1.1.1:
   resolved "https://registry.npmjs.org/unquote/-/unquote-1.1.1.tgz#8fded7324ec6e88a0ff8b905e7c098cdc086d544"
   integrity sha1-j97XMk7G6IoP+LkF58CYzcCG1UQ=
 
+unset-value@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/unset-value/-/unset-value-0.1.2.tgz#506810b867f27c2a5a6e9b04833631f6de58d310"
+  integrity sha1-UGgQuGfyfCpabpsEgzYx9t5Y0xA=
+  dependencies:
+    has-value "^0.3.1"
+    isobject "^3.0.0"
+
 unset-value@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/unset-value/-/unset-value-1.0.0.tgz#8376873f7d2335179ffb1e6fc3a8ed0dfc8ab559"
@@ -17360,10 +17419,25 @@ xhr@^2.0.1:
     parse-headers "^2.0.0"
     xtend "^4.0.0"
 
+xml-lexer@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/xml-lexer/-/xml-lexer-0.2.2.tgz#518193a4aa334d58fc7d248b549079b89907e046"
+  integrity sha1-UYGTpKozTVj8fSSLVJB5uJkH4EY=
+  dependencies:
+    eventemitter3 "^2.0.0"
+
 xml-parse-from-string@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/xml-parse-from-string/-/xml-parse-from-string-1.0.1.tgz#a9029e929d3dbcded169f3c6e28238d95a5d5a28"
   integrity sha1-qQKekp09vN7RafPG4oI42VpdWig=
+
+xml-reader@2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/xml-reader/-/xml-reader-2.4.3.tgz#9f810caf7c425a5aafb848b1c45103c9e71d7530"
+  integrity sha1-n4EMr3xCWlqvuEixxFEDyecddTA=
+  dependencies:
+    eventemitter3 "^2.0.0"
+    xml-lexer "^0.2.2"
 
 xml2js@^0.4.19, xml2js@^0.4.5:
   version "0.4.23"

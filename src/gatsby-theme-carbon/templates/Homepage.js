@@ -14,11 +14,11 @@ const FirstLeftText = () => (
 
 const FirstRightText = () => (
   <p>
-    <strong>Build Bonds</strong>
+    Build Bonds
     <br />
     This is the guiding ethos behind IBM’s design philosophy and principles.
-    This helps us distinguish every element and every experience{' '}
-    <em>Designed by IBM.</em>
+    This helps us distinguish every element and every experience Designed&nbsp;by&nbsp;IBM.
+    <div style={{ paddingTop: "1.25rem" }}>↓</div>
   </p>
 );
 
