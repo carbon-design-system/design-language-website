@@ -1956,24 +1956,24 @@
     "@carbon/import-once" "^10.6.0"
     "@carbon/layout" "^10.23.0"
 
-"@carbon/icon-helpers@^10.19.0":
-  version "10.19.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.19.0.tgz#f6b608b181b4ca4aeeadac72ec11b7cf530b4d1c"
-  integrity sha512-2eIecDuoEEx+nORHtTBmj5lV/N4Q1kP7XCZUkF15WfXxZHx2RI6KhS4HnMPDoylguhavnRjSIK1gl6oG3Z3wSQ==
+"@carbon/icon-helpers@^10.21.0", "@carbon/icon-helpers@^10.22.0":
+  version "10.22.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.22.0.tgz#5992c75850ace09f9cf5015ebec652ccce96c23e"
+  integrity sha512-00HRYbb0P1v1L3XI+KuBqHoSzbeTZTYMiBWqMvITGm6y2bdE6++Xbp4eIQbZZypEYzuiJ0UmJf+VMx+ypBOjiw==
 
 "@carbon/icons-react@^10.26.0", "@carbon/icons-react@^10.30.0":
-  version "10.35.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.35.0.tgz#dd1e7b9bc233d8d69cb293d01c24c456f7a01eb0"
-  integrity sha512-FkyY648pyqNeg3MlXuwH6Zf+OTOkCoKQym/qdvvfmkNrqDrM1xWZlJNNFTNpy0RBrjJYptmkN2vLSoffUuZDaQ==
+  version "10.37.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.37.0.tgz#3d4355eb03c2165ddd7705ce977df03d6beaea78"
+  integrity sha512-13wHwN9BikOj9RhT/m8jeJQ61l5yNXiXQ0KR//9rFnz27gWO0huWb8qiBnHsicbQdl4oe+TVcm/WKF3PcJwUJA==
   dependencies:
-    "@carbon/icon-helpers" "^10.19.0"
+    "@carbon/icon-helpers" "^10.21.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
     prop-types "^15.7.2"
 
 "@carbon/icons@^10.26.0", "@carbon/icons@^10.30.0":
-  version "10.35.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.35.0.tgz#1222c5ac1cd739e819c71d1c4a088381e78d123f"
-  integrity sha512-pWhh69Y7QlpHWBMt0kh9Gz7+2y2tByU8rHBUpAMr4FeT9p2rLjrLfMSZdCQC3+bs2hJ092v9MRh6JO7TTqIBBw==
+  version "10.37.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.37.0.tgz#017c6cee1a6c108d3ccc7a00e64261530df72292"
+  integrity sha512-9dLevNsei6SL0RG5k5P0niOYwFVp3iNSwQ+4MFRitOGSsHUo9Vvxv/fib0ATgK7vu/Wpyiyyn+f6wJYhhzf9Qw==
   dependencies:
     svgson "^5.2.1"
 
@@ -1998,18 +1998,18 @@
   integrity sha512-j0/9QtPhLRyZge0x9gr7u0vRF5rr0KU+kppwBEXwm2UJGHJjGdcecdW8NcfZQY5iUD/7YgzR2X2fZwjmcGlUUg==
 
 "@carbon/pictograms-react@^11.4.0":
-  version "11.13.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.13.0.tgz#b5876262e824cb39bdc21a0dba0af12e5fb3acd0"
-  integrity sha512-bw5hV6dI5KurBKQpac9Dd+cbulUkE7Hwl35h2HkkDZc75RYr6Mnr2t4y2xyUXczApsR8plXmr8vQSxpucHZ7cQ==
+  version "11.17.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.17.0.tgz#e58eda847caf1b7841f5d28bf691780f0f52578c"
+  integrity sha512-VtvB/auCYrGjljQhX52fonnecTKYwJh92csD9aEkDwMqmHrUmGX3bQbbTKqvOWAJfYbTp8M+gU4vQ3eL4qio5A==
   dependencies:
-    "@carbon/icon-helpers" "^10.19.0"
+    "@carbon/icon-helpers" "^10.22.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
     prop-types "^15.7.2"
 
 "@carbon/pictograms@^11.4.0":
-  version "11.13.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.13.0.tgz#3cab25a6124a3d2f23316f90efe0af05c7e8de4b"
-  integrity sha512-repOM7iV9m0LRbr0kyobBvoBk+z9jkoAyl7e5xWIVwrongHQq63L3eTo4E1Z3Fg6xino5w3lVfjNJzFbeONJLQ==
+  version "11.15.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-11.15.0.tgz#fc3f19e632e281c441527b47c89e0a66d308edc5"
+  integrity sha512-v3lGMf3KFyoljatNVKMixWzK+Oh7dVArKQsTbirQCJxtZ4bEbu24Ve6liJtmr8y7dBYYNpXpad7zsj62QayqvA==
 
 "@carbon/telemetry@0.0.0-alpha.6":
   version "0.0.0-alpha.6"
@@ -2397,10 +2397,10 @@
   resolved "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
-"@ibm/plex@^5.1.0":
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/@ibm/plex/-/plex-5.1.3.tgz#10b0d72448527d9b8b487165037ad38605c4bf29"
-  integrity sha512-Wgful5xAKIzUFngMyEnZ6nc7IKMyKMRVk4qCIAgjRCI76w1uCGGgImWSEunay+j5mPrEWQKwz1ht8Xk6rcumEw==
+"@ibm/plex@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.npmjs.org/@ibm/plex/-/plex-5.2.1.tgz#c454506b38f69bd97bcb71f1810e5c007593a3d2"
+  integrity sha512-ASrHZCl+ts1ysXN8kknv7iuTO1s6Dz0FCPDo0tFzFkvP3XSgKbZ4ml7zgGdlXKR6uEbMr/nt4dQVLrOQn6j2Ug==
 
 "@jest/types@^25.5.0":
   version "25.5.0"
