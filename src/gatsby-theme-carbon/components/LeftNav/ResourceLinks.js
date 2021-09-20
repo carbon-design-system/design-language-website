@@ -3,7 +3,7 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'IDL library',
+    title: 'IDL Sketch library',
     href: 'sketch://add-library/cloud/4f1cbe6c-6626-405e-8c46-a9ae41a30cba',
   },
   {
