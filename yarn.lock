@@ -1956,7 +1956,7 @@
     "@carbon/import-once" "^10.6.0"
     "@carbon/layout" "^10.23.0"
 
-"@carbon/icon-helpers@^10.22.0", "@carbon/icon-helpers@^10.23.0":
+"@carbon/icon-helpers@^10.23.0":
   version "10.23.0"
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.23.0.tgz#9811b44baead9422bb809f082ff6da27db8be1fa"
   integrity sha512-nx2QoHMz9AoNWPwowsdgw2PfFhOR2sFw5G0DyuwuY1ZNUFkevKZ+qfK86XXB25L1h6gHn9dw1F1F1yvQHw/C8A==
@@ -1998,11 +1998,11 @@
   integrity sha512-j0/9QtPhLRyZge0x9gr7u0vRF5rr0KU+kppwBEXwm2UJGHJjGdcecdW8NcfZQY5iUD/7YgzR2X2fZwjmcGlUUg==
 
 "@carbon/pictograms-react@^11.4.0":
-  version "11.17.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.17.0.tgz#e58eda847caf1b7841f5d28bf691780f0f52578c"
-  integrity sha512-VtvB/auCYrGjljQhX52fonnecTKYwJh92csD9aEkDwMqmHrUmGX3bQbbTKqvOWAJfYbTp8M+gU4vQ3eL4qio5A==
+  version "11.18.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.18.0.tgz#08e76855a3430339902ea25ae84b2a3827c39763"
+  integrity sha512-39E/fj4vqgnGafgxpiIs7HeG1cfNY3PmbPL1rEzeIFdZkCaYbVlga5hLUxDiEoj3MoUxEMTWUjuRglpjvOUE0g==
   dependencies:
-    "@carbon/icon-helpers" "^10.22.0"
+    "@carbon/icon-helpers" "^10.23.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
     prop-types "^15.7.2"
 
