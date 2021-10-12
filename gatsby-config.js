@@ -6,11 +6,6 @@ module.exports = {
     description:
       'The IBM Design Language provides the guidance and assets used to express the IBM brand in products, communications, marketing, events and digital experiences.',
   },
-  flags: {
-    FAST_DEV: true,
-    FAST_REFRESH: true,
-    PARALLEL_SOURCING: true,
-  },
   pathPrefix: '/design/language',
   plugins: [
     {
