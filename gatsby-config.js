@@ -43,8 +43,6 @@ module.exports = {
         short_name: 'IDL',
         start_url: 'https://www.ibm.com/design/language/',
         icon: 'src/images/favicon.svg',
-        background_color: '#f4f4f4',
-        theme_color: '#0f62fe',
       },
     },
     `gatsby-plugin-sitemap`,
