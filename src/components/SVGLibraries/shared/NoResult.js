@@ -9,7 +9,6 @@ import {
 
 import { Github } from './Icons';
 import { noResult, allSvgs, searchLabel } from './SvgLibrary.module.scss';
-import '../../../styles/Grid.module.scss';
 
 const NoResult = ({
   allIconResults,
