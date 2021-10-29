@@ -7183,9 +7183,9 @@ gatsby-telemetry@^2.14.0:
     uuid "3.4.0"
 
 gatsby-theme-carbon@^2.1.3:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-2.1.4.tgz#e31193db2e904dc80dc8aabc1b9b699751e592e3"
-  integrity sha512-zD3R1eJgIYisD/XqFIWnuY+NWVSU+YrQSY3n7JXGuaW4egtl/FM5wS6ioPS0AVD/KZG1HAsjUoUBqdgzaNEA6g==
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-2.1.5.tgz#92a5855d3fbabf8a420f72eea4830e3350c06dbc"
+  integrity sha512-8KRHvmEcIJTE9r5pmVUbp7na5mjNA5z6KaqD0ndQDSId3mZxXDP2VW2a6Dg+OYaGX7nLuf0pr5CcYnblIgMPQg==
   dependencies:
     "@babel/core" "^7.14.6"
     "@carbon/elements" "^10.38.0"
