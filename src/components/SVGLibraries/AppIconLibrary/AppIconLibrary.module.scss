@@ -76,7 +76,7 @@
   grid-gap: 1px;
   position: sticky;
   z-index: z('dropdown');
-  top: 7rem;
+  top: 6.95rem;
   transition: box-shadow $duration--fast-02 ease;
   @include carbon--breakpoint-down('md') {
     grid-template-columns: 1fr 1fr;
