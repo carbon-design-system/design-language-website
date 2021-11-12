@@ -6,16 +6,15 @@ import { groupBy, debounce } from 'lodash-es';
 
 import useColumnCount from '../shared/useColumnCount';
 
-import {
-  icons as pictogramMetaData,
-  categories as pictogramCatagoryMetadata,
-} from './metadata.json';
+import * as metadata from './metadata.json';
 
 import FilterRow from '../shared/FilterRow';
 import { svgPage, svgLibrary } from '../shared/SvgLibrary.module.scss';
 
 import PictogramCategory from './PictogramCategory';
 import NoResult from '../shared/NoResult';
+
+const { icons: pictogramMetaData, categories: pictogramCategoryMetadata } = metadata;
 
 const IconLibrary = () => {
   const [pictogramComponents, setPictogramComponents] = useState([]);
@@ -48,7 +47,7 @@ const IconLibrary = () => {
       []
     );
 
-    setCategoryList(pictogramCatagoryMetadata.map(({ name }) => name).sort());
+    setCategoryList(pictogramCategoryMetadata.map(({ name }) => name).sort());
     setCategoriesLoaded(true);
 
     setPictogramComponents(pictogramArray);

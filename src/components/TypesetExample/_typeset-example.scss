@@ -45,4 +45,11 @@
 .#{$prefix}--typeset-example-code-style {
   display: block;
   margin-top: $spacing-03;
+  // GTC is using gray10 theme for the main content pages. In g10 theme, codesnippet is white
+  // But that doesn't work for typespec component bc it's a white snippet on white bg
+  // this adds zoned theming to just the inline snippet so it uses white theme tokens (gray bg)
+  @include carbon--theme(
+    $theme: $carbon--theme--white,
+    $emit-custom-properties: true
+  );
 }
