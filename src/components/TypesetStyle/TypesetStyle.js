@@ -327,7 +327,7 @@ const typeScale = {
   'quotation-02': {
     sm: {
       step: 8,
-      font: 'IBM Plex Sans',
+      font: 'IBM Plex Serif',
       'font-weight': '300',
       'font-size': 2,
       'line-height': 2.5,
@@ -335,7 +335,7 @@ const typeScale = {
     },
     md: {
       step: 9,
-      font: 'IBM Plex Sans',
+      font: 'IBM Plex Serif',
       'font-weight': '300',
       'font-size': 2.25,
       'line-height': 2.75,
