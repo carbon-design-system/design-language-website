@@ -60,7 +60,7 @@
   "dependencies": {
     "@carbon/colors": "^10.35.0",
     "@carbon/icons": "^10.45.0",
-    "@carbon/icons-react": "^10.26.0",
+    "@carbon/icons-react": "^10.45.0",
     "@carbon/layout": "^10.35.0",
     "@carbon/pictograms": "^11.21.0",
     "@carbon/pictograms-react": "^11.21.0",
