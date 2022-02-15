@@ -1148,9 +1148,9 @@
     prop-types "^15.7.2"
 
 "@carbon/icons@^10.45.0":
-  version "10.45.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.45.0.tgz#a49cdbbaf56377853d9a18a6ba60881575c6625d"
-  integrity sha512-eDeggzHB+OCgPmpQMT+aa9/+dkWWBNqUn3Rp/PtZuixCCWPBBvI9g0q3VH8D9Al9cHiKRVbh/hVmUd2Mhw7NTw==
+  version "10.46.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.46.0.tgz#8b5bbc7bcc3523c3ed7201fa514ff7bcd14669a1"
+  integrity sha512-RumYN9VjNqKzHnXpyXKgGszipsshAJKraswCcNTfBSdWJTpGYv52fSg+MK5mvZ4tulShp6p7APsiqf2A2VG+4A==
   dependencies:
     svgson "^5.2.1"
 
