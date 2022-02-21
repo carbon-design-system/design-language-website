@@ -33,7 +33,7 @@
   padding: $spacing-05;
 
   @include carbon--breakpoint('md') {
-    width: 33.3%;
+    width: 25%;
     border-left: 1px solid $carbon--gray-20;
   }
 }

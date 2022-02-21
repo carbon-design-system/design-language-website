@@ -19,25 +19,24 @@ const defaultTypeValues = {
   'letter-spacing': 0,
 };
 
-const TypesetExample = props => (
+const TypesetExample = (props) => (
   <div className={`${prefix}--typeset-example-container`}>
-    {(props.typeSet || []).map(type => {
+    {(props.typeSet || []).map((type) => {
       const indexOfClosestLargerBreakpoint = Math.max(
         0,
         values(breakpoints).findIndex(
-          width => props.simulatedScreenWidth <= width
+          (width) => props.simulatedScreenWidth <= width
         )
       );
 
-      const currentBreakpointPx = values(breakpoints)[
-        indexOfClosestLargerBreakpoint
-      ];
+      const currentBreakpointPx =
+        values(breakpoints)[indexOfClosestLargerBreakpoint];
 
       const currentBreakpointName = findKey(
         breakpoints,
-        val => val === currentBreakpointPx
+        (val) => val === currentBreakpointPx
       );
-      const getCurrentCompoundStylesForBreakpoint = breakpointName => {
+      const getCurrentCompoundStylesForBreakpoint = (breakpointName) => {
         const typeKeys = Object.keys(breakpoints);
         const typeStylesUntilCurrentBreakpoint = [];
         for (const item of typeKeys) {
@@ -57,10 +56,10 @@ const TypesetExample = props => (
         currentBreakpointName
       );
 
-      const calculateFluidTypeSize = attribute =>
+      const calculateFluidTypeSize = (attribute) =>
         currentBreakpointSpecs[attribute] * baseFontSize;
 
-      const calculateFluidLineHeight = attribute =>
+      const calculateFluidLineHeight = (attribute) =>
         currentBreakpointSpecs[attribute] * baseFontSize;
 
       const displayWeight = (weight, style) => {
@@ -124,7 +123,7 @@ const TypesetExample = props => (
           className={`${prefix}--typeset-example`}>
           <div className={`${prefix}--typeset-example-row ${prefix}--row`}>
             <div
-              className={`${prefix}--typeset-example-description ${prefix}--col-md-5`}>
+              className={`${prefix}--typeset-example-description ${prefix}--col-md-6`}>
               <p className={versionClassNames} style={specs}>
                 {type.description}
               </p>
