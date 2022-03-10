@@ -20,7 +20,17 @@ exports.onPreBootstrap = async ({ reporter }) => {
   reporter.log(`Processing SVG metadata`);
 
   const essentialIconData = iconData.map(removeUnusedData);
-  const essentialPictogramData = pictogramData.map(removeUnusedData);
+  const essentialPictogramData = pictogramData
+    .map(removeUnusedData)
+    .filter((pictogram) => {
+      if (
+        pictogram.name === 'ibm--z' ||
+        pictogram.name === 'ibm--z--partition'
+      ) {
+        return false;
+      }
+      return true;
+    });
 
   fs.writeFileSync(
     path.join(outDir, 'IconLibrary/metadata.json'),
