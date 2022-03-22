@@ -4,6 +4,8 @@ description: IBM serves a global audience of businesses, as well as social good 
 tabs: [Design]
 ---
 
+import SwatchPaletteWidget from '../../../components/SwatchPaletteWidget';
+
 <PageDescription>
 
 IBM serves a global audience of businesses, as well as social good through sustainability, ethical AI and racial equity initiatives. Our technology sits at the heart of our brand purpose—to be the catalyst that makes the world work better. Humanity is integral to our work, bringing together people and technologies to create outcomes larger than we could accomplish alone. We celebrate the vast diversity of personalities, cultures and abilities in an inclusive way through illustration guidance with an established aesthetic that’s identifiably IBM.
@@ -305,7 +307,9 @@ As for props, be judicious in their use. Bags, laptop satchels, smart devices, h
 
 Our palette is engineered by blending red and green to create two general hues—Rose and Almond. The gradation from light to dark follows the same structure as the IBM Design Language color palette so that the same contrast ratios apply for accessibility purposes. This palette is intended to represent a wide variety of ethnic and geographic diversity and should be reserved specifically for skin, hair and nails. It shouldn’t be considered as an extension of the main IBM color palette.
 
-[Color pallete tabs - Hard]
+[Wrong PMS an CYMK values]
+
+<SwatchPaletteWidget palettes={[['rose', 'almond']]} />
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>

@@ -503,6 +503,110 @@ const PALETTES = {
       cmyk: 'c82 m65 y64 k77',
     },
   },
+  rose: {
+    10: {
+      hex: '#fcf2ed',
+      pms: '657',
+      cmyk: 'c5 m2 y0 k0',
+    },
+    20: {
+      hex: '#f9d9d1',
+      pms: '2707',
+      cmyk: 'c18 m7 y0 k0',
+    },
+    30: {
+      hex: '#f0b8a7',
+      pms: '2128',
+      cmyk: 'c36 m16 y0 k0',
+    },
+    40: {
+      hex: '#e99179',
+      pms: '2381',
+      cmyk: 'c52 m29 y0 k0',
+    },
+    50: {
+      hex: '#d37258',
+      pms: '2727',
+      cmyk: 'c64 m39 y0 k0',
+    },
+    60: {
+      hex: '#ab5638',
+      pms: '2132',
+      cmyk: 'c80 m60 y0 k0',
+    },
+    70: {
+      hex: '#853c27',
+      pms: 'rename',
+      cmyk: 'c91 m76 y1 k0',
+    },
+    80: {
+      hex: '#622517',
+      pms: 'rename',
+      cmyk: 'c100 m91 y9 k1',
+    },
+    90: {
+      hex: '#46170c',
+      pms: '280',
+      cmyk: 'c100 m93 y31 k29',
+    },
+    100: {
+      hex: '#2a0d09',
+      pms: '282',
+      cmyk: 'c100 m95 y37 k49',
+    },
+  },
+  almond: {
+    10: {
+      hex: '#f8f3ea',
+      pms: '657',
+      cmyk: 'c5 m2 y0 k0',
+    },
+    20: {
+      hex: '#efdcc8',
+      pms: '2707',
+      cmyk: 'c18 m7 y0 k0',
+    },
+    30: {
+      hex: '#e1bd9f',
+      pms: '2128',
+      cmyk: 'c36 m16 y0 k0',
+    },
+    40: {
+      hex: '#d1a080',
+      pms: '2381',
+      cmyk: 'c52 m29 y0 k0',
+    },
+    50: {
+      hex: '#b88361',
+      pms: '2727',
+      cmyk: 'c64 m39 y0 k0',
+    },
+    60: {
+      hex: '#97633f',
+      pms: '2132',
+      cmyk: 'c80 m60 y0 k0',
+    },
+    70: {
+      hex: '#76472b',
+      pms: 'rename',
+      cmyk: 'c91 m76 y1 k0',
+    },
+    80: {
+      hex: '#55301e',
+      pms: 'rename',
+      cmyk: 'c100 m91 y9 k1',
+    },
+    90: {
+      hex: '#3a1e12',
+      pms: '280',
+      cmyk: 'c100 m93 y31 k29',
+    },
+    100: {
+      hex: '#27120a',
+      pms: '282',
+      cmyk: 'c100 m95 y37 k49',
+    },
+  },
   'warm gray': {
     10: {
       hex: warmGray[10],
