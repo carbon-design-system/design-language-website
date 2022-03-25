@@ -1168,12 +1168,12 @@
   integrity sha512-E9UmtVojjTGoeVME7DtguFodCm697EkNBZifq8tHwczBLSpU+j02vQjH1l1K8wrpEr5CGxTs6CaD4RQsoXuYLA==
 
 "@carbon/pictograms-react@^11.14.0", "@carbon/pictograms-react@^11.21.0":
-  version "11.24.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.24.0.tgz#ee0ce4c5db4083a53554b903ad198b2aba2d356a"
-  integrity sha512-mQYWcPSXNjUQC2R7icUM5ZYvirwI9d6tRS1wwfqxpD2ouM6UgtfbQX9g6zuRumPiRIpl3efvQgKTAF5fuoI5zA==
+  version "11.25.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.25.0.tgz#816b43452f259bfa706f22bbeb15941447688ddc"
+  integrity sha512-ueKBVgjRoiM0x1wWeoBuFd6l201uiXQOgAUfPytjXq1I9NIhgsjjKsjavbT1LZFs0wUtn8Xp7eJEh4/VprJBgQ==
   dependencies:
     "@carbon/icon-helpers" "^10.28.0"
-    "@carbon/telemetry" "0.0.0-alpha.6"
+    "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
 "@carbon/pictograms@^11.21.0":
@@ -1196,6 +1196,11 @@
     semver "^7.3.2"
     winston "^3.3.3"
     yargs "^16.1.1"
+
+"@carbon/telemetry@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@carbon/telemetry/-/telemetry-0.1.0.tgz#57b331cd5a855b4abbf55457456da8211624d879"
+  integrity sha512-kNWt0bkgPwGW0i5h7HFuljbKRXPvIhsKbB+1tEURAYLXoJg9iJLF1eGvWN5iVoFCS2zje4GR3OGOsvvKVe7Hlg==
 
 "@carbon/themes@^10.38.0", "@carbon/themes@^10.49.0":
   version "10.49.0"
