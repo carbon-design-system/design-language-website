@@ -192,17 +192,56 @@ needs and how type works across various screen sizes. The IBM type set includes
 a Productive set designed primarily for product use and an Expressive set which
 adds a series scales and fluid behavior.
 
-<TypesetStyle
-  title="Productive"
-  breakpointControls={false}
-  typesets="supportingStyle,body,fixedHeading"
-/>
+## Utility styles
 
-<TypesetStyle
-  title="Expressive"
-  breakpointControls={true}
-  typesets="fluidHeadings,FluidParagraphsAndQuotes,fluidDisplay"
-/>
+The utility styles are for use with productive and expressive moments and
+include styles for code snippets, labels for captions and helper text, as well
+as legal copy. Productive styles have a suffix of `-01` and expressive styles
+have a suffix of `-02`.
+
+<TypesetStyle typesets="smallStyle" />
+
+## Body styles
+
+There are two body styles for productive and expressive moments. Productive
+styles have a suffix of `-01` and expressive styles have a suffix of `-02`.
+
+<TypesetStyle typesets="body" />
+
+## Fixed heading styles
+
+The fixed heading styles are used for product pages where multiple containers
+are used and space efficiency is key. Fixed means they are not responsive. The
+type size remains constant regardless of break point.
+
+Creators of web pages also use the fixed headings `-01` and `-02` where smaller
+headings are needed.
+
+<TypesetStyle typesets="fixedHeadings" />
+
+## Fluid heading styles
+
+The fluid heading styles are primarily used in web pages, and are therefore part
+of the expressive set of type styles. These headings are responsive and the type
+styles change size at different breakpoints.
+
+Do not use these styles inside a container. They may be used in product pages
+where text sits outside of a container, and a blend of expressive and productive
+type styles is desired for hierarchy and distinction. For more information, see
+[Type usage](/guidelines/typography/type-usage).
+
+<br />
+
+<TypesetStyle typesets="fluidHeadings" breakpointControls={true} />
+
+## Fluid display styles
+
+The callout and display styles are part of the expressive set and being fluid,
+they will adjust at different breakpoints. Do not use these styles inside a
+container. For guidance about using display styles, see
+[Type usage](/guidelines/typography/type-usage#expressive-use-cases/).
+
+<TypesetStyle typesets="fluidCallouts,fluidDisplay" breakpointControls={true} />
 
 ## Type color
 

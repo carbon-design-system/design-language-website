@@ -84,6 +84,7 @@ const TypesetExample = (props) => (
         fontStyle: currentBreakpointSpecs['font-style'],
         lineHeight: `${calculateFluidLineHeight('line-height')}px`,
         letterSpacing: currentBreakpointSpecs['letter-spacing'],
+        typeSet: currentBreakpointSpecs['type-set'],
       };
       const displaySpecs = {
         step: currentBreakpointSpecs.step,
@@ -136,14 +137,16 @@ const TypesetExample = (props) => (
                 <br />
                 Size: {displaySpecs.fontSize}
                 <br />
-                Line-height: {displaySpecs.lineHeight}
+                Line height: {displaySpecs.lineHeight}
                 <br />
                 Weight:{' '}
                 <span style={{ textTransform: 'capitalize' }}>
                   {displaySpecs.fontWeight}
                 </span>
                 <br />
-                Letter-spacing: {displaySpecs.letterSpacing}px
+                Letter spacing: {displaySpecs.letterSpacing}px
+                <br />
+                Type set: {displaySpecs.typeSet}
                 {displaySpecs.warning != null ? (
                   <span>
                     <br />
@@ -157,7 +160,9 @@ const TypesetExample = (props) => (
                   <br />
                 )}
                 <div className={`${prefix}--typeset-example-code-style`}>
-                  <CodeSnippet type="inline">${type.name}</CodeSnippet>
+                  <CodeSnippet type="inline" feedback="Copied!" light>
+                    ${type.name}
+                  </CodeSnippet>
                 </div>
               </span>
             </div>
