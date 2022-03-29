@@ -81,6 +81,7 @@ class TypesetStyle extends React.Component {
 
     return (
       <div className={`${prefix}--typeset-style-container`}>
+        <div className="typestyle-title__container bx--row"></div>
         {breakpointControls && (
           <div className={typesetStyleStickyClassnames}>
             <div className={`${prefix}--typeset-style-breakpoint-controls`}>

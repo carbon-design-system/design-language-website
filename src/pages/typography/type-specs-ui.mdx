@@ -192,6 +192,34 @@ needs and how type works across various screen sizes. The IBM type set includes
 a Productive set designed primarily for product use and an Expressive set which
 adds a series scales and fluid behavior.
 
+#### Base type sizes
+
+The productive type set uses a base type size of 14px, while the expressive type
+set uses a base type size of 16px.
+
+#### Style naming conventions
+
+Within **Body styles** and **Supporting styles**, the same set of styles are
+offered, and an easy way to spot which type set they belong to is to look at the
+suffix. Productive styles are named with a suffix of `-01` and expressive style
+names have a suffix of `-02`.
+
+#### Two heading sets
+
+There are two heading sets, one for productive and one for expressive. The major
+difference between them is in how they are implemented in code because of the
+nature of the pages.
+
+- The productive type set uses _fixed_ headings. Product pages have a higher
+  density of information housed inside containers for space efficiency, and in
+  these situations fixed type styles are a must.
+
+- The expressive type set has two fixed headings, for use where smaller headings
+  are needed. The remaining headings are _fluid_. Web pages need to be able to
+  flex and work at different breakpoints, and the fluid heading styles change
+  size at different breakpoints, and can extrapolate/stretch in between sizes
+  for smooth transitions.
+
 ## Utility styles
 
 The utility styles are for use with productive and expressive moments and

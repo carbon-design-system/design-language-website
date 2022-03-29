@@ -84,12 +84,12 @@ const TypesetExample = (props) => (
         fontStyle: currentBreakpointSpecs['font-style'],
         lineHeight: `${calculateFluidLineHeight('line-height')}px`,
         letterSpacing: currentBreakpointSpecs['letter-spacing'],
-        typeSet: currentBreakpointSpecs['type-set'],
       };
       const displaySpecs = {
         step: currentBreakpointSpecs.step,
         font: currentBreakpointSpecs.font,
         style: currentBreakpointSpecs['font-style'],
+        typeSet: currentBreakpointSpecs['type-set'],
         fontWeight: displayWeight(
           currentBreakpointSpecs['font-weight'],
           currentBreakpointSpecs['font-style']
