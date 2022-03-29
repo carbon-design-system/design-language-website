@@ -48,6 +48,8 @@
       path: /illustration/flat-style/design
     - title: Isometric style
       path: /illustration/isometric-style/design
+    - title: People
+      path: /illustration/people
 - title: Photography
   pages:
     - title: Overview
