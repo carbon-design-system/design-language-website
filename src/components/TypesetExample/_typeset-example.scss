@@ -1,3 +1,13 @@
+@import '~carbon-components/scss/components/copy-button/copy-button';
+
+.bx--copy {
+  background-color: var(--cds-layer);
+}
+
+.bx--copy:hover {
+  background-color: var(--cds-layer-hover);
+}
+
 .#{$prefix}--typeset-example-container {
   margin-top: $spacing-05;
 }
