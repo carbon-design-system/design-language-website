@@ -64,6 +64,12 @@
       path: /data-visualization/charts
     - title: Design
       path: /data-visualization/design/basics
+- title: Infographics
+  pages:
+    - title: Technical diagrams
+      path: /infographics/technical-diagrams/design
+    - title: Infograms
+      path: /infographics/infograms
 - title: Layout
   pages:
     - title: Overview
