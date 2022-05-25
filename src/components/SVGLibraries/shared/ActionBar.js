@@ -66,6 +66,7 @@ const ActionBar = ({
         tooltipAlignment={tooltipAlignment}
         tooltipPosition="top"
         iconDescription="Download SVG"
+        data-attribute1={`Download ${name}.svg file`}
         renderIcon={Download16}
         onFocus={() => setIsActionBarVisible(true)}
         onClick={handleDownload}
