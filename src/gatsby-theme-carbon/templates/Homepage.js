@@ -18,7 +18,7 @@ const FirstRightText = () => (
     <br />
     This is the guiding ethos behind IBM’s design philosophy and principles.
     This helps us distinguish every element and every experience Designed&nbsp;by&nbsp;IBM.
-    <div style={{ paddingTop: "1.25rem" }}>↓</div>
+    <span style={{ paddingTop: "1.25rem", display : "flex" }}>↓</span>
   </p>
 );
 
