@@ -6433,3 +6433,25 @@
     - OS
     - power systems
     - operating system
+- name: PalmettoDark
+  friendly_name: Palmetto
+  category: Fill style
+  aliases:
+    - Dark
+- name: PalmettoLight
+  friendly_name: Palmetto
+  category: Fill style
+  aliases:
+    - Light
+- name: PalmettoMonoDark
+  friendly_name: Palmetto
+  category: Fill style
+  aliases:
+    - Dark
+    - Mono
+- name: PalmettoMonoLight
+  friendly_name: Palmetto
+  category: Fill style
+  aliases:
+    - Light
+    - Mono
