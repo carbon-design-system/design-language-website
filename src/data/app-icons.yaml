@@ -6186,7 +6186,7 @@
     - bot
 - name: RPAControlCenter
   friendly_name: IBM® RPA Control Center
-  category: Stroke Style
+  category: Stroke style
   aliases:
     - Red
     - Purple
@@ -6523,7 +6523,7 @@
     - data
 - name: CloudBackupServiceVPC
   friendly_name: IBM Cloud® Backup Service for VPC
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Magenta
@@ -6535,7 +6535,7 @@
     - volumes
 - name: CloudMassDataMigration
   friendly_name: IBM Cloud® Mass Data Migration
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -6546,7 +6546,7 @@
     - migration service
 - name: CloudVPCBareMetal
   friendly_name: IBM Cloud® Bare Metal Servers for VPC
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Magenta
@@ -6605,7 +6605,7 @@
     - FIPS
 - name: SaferPayments
   friendly_name: IBM Safer Payments
-  category: Stroke
+  category: Stroke style
   aliases:
     - Purple
     - Blue
@@ -6723,7 +6723,7 @@
     - services
 - name: TaskMiningAgent
   friendly_name: IBM Task Mining Agent
-  category: Stroke Style
+  category: Stroke style
   aliases:
     - Teal
     - Blue
@@ -6734,7 +6734,7 @@
     - cloud
 - name: InformationManagementSystem
   friendly_name: IBM Information Management System
-  category: Fill Style
+  category: Fill style
   aliases:
     - Teal
     - Blue
@@ -6746,7 +6746,7 @@
     - data integrity
 - name: CloudEventEndpointManagement
   friendly_name: IBM Cloud Pak® Event Endpoint Management
-  category: Fill Style
+  category: Fill style
   aliases:
     - Teal
     - Blue
