@@ -6514,7 +6514,7 @@
     - contraindication
 - name: CognitiveEnterpriseDataPlatform
   friendly_name: IBM Cognitive Enterprise Data Platform
-  category: Fill
+  category: Fill style
   aliases:
     - Teal
     - Blue
