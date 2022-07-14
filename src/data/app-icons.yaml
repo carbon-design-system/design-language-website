@@ -5337,15 +5337,6 @@
     - Magenta
     - Purple
     - Blue
-- name: CloudObjectStorage
-  friendly_name: IBM Cloud® Object Storage
-  category: Stroke style
-  aliases:
-    - object storage
-    - IBM Cloud®
-    - IBM Spectrum®
-    - Purple
-    - Blue
 - name: SpectrumComputing
   friendly_name: IBM Spectrum® Computing
   category: Stroke style
