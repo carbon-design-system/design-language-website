@@ -4938,7 +4938,7 @@
     - Purple
     - Blue
 - name: PassengerCare
-  friendly_name: Passenger Care
+  friendly_name: IBM MobileFirst® for iOS Passenger Care
   category: Stroke style
   aliases:
     - passenger
@@ -4953,7 +4953,7 @@
     - Blue
     - Teal
 - name: DigitalGate
-  friendly_name: Digital Gate
+  friendly_name: IBM MobileFirst® for iOS Digital Gate
   category: Stroke style
   aliases:
     - digital
@@ -4967,7 +4967,7 @@
     - Blue
     - Teal
 - name: CabinCare
-  friendly_name: Cabin Care
+  friendly_name: IBM MobileFirst® for iOS Cabin Care
   category: Stroke style
   aliases:
     - travel
@@ -4981,7 +4981,7 @@
     - Blue
     - Teal
 - name: RapidBoard
-  friendly_name: Rapid Board
+  friendly_name: IBM MobileFirst® for iOS Rapid Board
   category: Stroke style
   aliases:
     - travel
@@ -4998,7 +4998,7 @@
     - Blue
     - Teal
 - name: AssignTech
-  friendly_name: Assign Tech
+  friendly_name: IBM MobileFirst® for iOS Assign Tech
   category: Stroke style
   aliases:
     - schedule
@@ -5009,7 +5009,7 @@
     - Blue
     - Teal
 - name: InspectTurn
-  friendly_name: Inspect and Turn
+  friendly_name: IBM MobileFirst® for iOS Inspect and Turn
   category: Stroke style
   aliases:
     - inspect
@@ -5022,7 +5022,7 @@
     - Blue
     - Teal
 - name: TurnManager
-  friendly_name: Turn Manager
+  friendly_name: IBM MobileFirst® for iOS Turn Manager
   category: Stroke style
   aliases:
     - turn
@@ -5035,7 +5035,7 @@
     - Blue
     - Teal
 - name: Aircraft360
-  friendly_name: Aircraft 360
+  friendly_name: IBM MobileFirst® for iOS Aircraft 360
   category: Stroke style
   aliases:
     - transportation
@@ -5048,7 +5048,7 @@
     - Blue
     - Teal
 - name: Roster
-  friendly_name: Roster
+  friendly_name: IBM MobileFirst® for iOS Roster
   category: Stroke style
   aliases:
     - roster
@@ -5060,7 +5060,7 @@
     - Blue
     - Teal
 - name: FlyNow
-  friendly_name: Fly Now
+  friendly_name: IBM MobileFirst® for iOS Fly Now
   category: Stroke style
   aliases:
     - transportation
@@ -5090,7 +5090,7 @@
     - Blue
     - Teal
 - name: PassengerPlus
-  friendly_name: Passenger +
+  friendly_name: IBM MobileFirst® for iOS Passenger +
   category: Stroke style
   aliases:
     - transportation
@@ -5103,7 +5103,7 @@
     - Blue
     - Teal
 - name: AncillarySales
-  friendly_name: Ancillary Sales
+  friendly_name: IBM MobileFirst® for iOS Ancillary Sales
   category: Stroke style
   aliases:
     - transportation
@@ -5120,7 +5120,7 @@
     - Blue
     - Teal
 - name: ManageGates
-  friendly_name: Manage Gates
+  friendly_name: IBM MobileFirst® for iOS Manage Gates
   category: Stroke style
   aliases:
     - gates
@@ -5134,7 +5134,7 @@
     - Blue
     - Teal
 - name: TrainTickets
-  friendly_name: IBM Train Tickets
+  friendly_name: IBM MobileFirst® for iOS IBM Train Tickets
   category: Stroke style
   aliases:
     - transportation
@@ -5147,7 +5147,7 @@
     - Blue
     - Teal
 - name: TravelerCare
-  friendly_name: IBM Traveler Care
+  friendly_name: IBM MobileFirst® for iOS IBM Traveler Care
   category: Stroke style
   aliases:
     - transportation
@@ -5160,7 +5160,7 @@
     - Blue
     - Teal
 - name: TodaysTrain
-  friendly_name: IBM MobileFirst® for iOS Today's Train
+  friendly_name: IBM MobileFirst® for iOS Today’s Train
   category: Stroke style
   aliases:
     - transportation
