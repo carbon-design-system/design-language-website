@@ -59,10 +59,10 @@
   },
   "dependencies": {
     "@carbon/colors": "^10.35.0",
-    "@carbon/icons": "^10.45.0",
-    "@carbon/icons-react": "^10.45.0",
+    "@carbon/icons": "^11.6.0",
+    "@carbon/icons-react": "^11.6.0",
     "@carbon/layout": "^10.35.0",
-    "@carbon/pictograms": "^11.21.0",
+    "@carbon/pictograms": "^12.2.0",
     "@carbon/pictograms-react": "^11.21.0",
     "@ibm/plex": "^5.2.1",
     "@loadable/babel-plugin": "^5.12.0",
