@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import { Tag, TooltipIcon } from 'carbon-components-react';
 import './overview-card.scss';
 import './overview-card-group.scss';
-import { Launch16 } from '@carbon/icons-react';
+import { Launch } from '@carbon/icons-react';
 
 export default class OverviewCard extends React.Component {
   static propTypes = {
@@ -91,7 +91,7 @@ export default class OverviewCard extends React.Component {
               direction="top"
               align="end"
               tooltipText={tooltipText}>
-              <Launch16 />
+              <Launch />
             </TooltipIcon>
           </a>
         )}

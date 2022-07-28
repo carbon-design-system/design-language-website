@@ -35,7 +35,7 @@ const SvgCard = ({ icon, containerIsVisible, isLastCard, ...rest }) => {
           <ErrorBoundry>
             <div className={flexContainer}>
               {Component && (
-                <Component {...rest}>
+                <Component size={32} {...rest}>
                   <title>{friendlyName}</title>
                 </Component>
               )}

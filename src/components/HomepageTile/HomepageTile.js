@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useState } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
-import { Launch20, ArrowRight20, Error20 } from '@carbon/icons-react';
+import { Launch, ArrowRight, Error } from '@carbon/icons-react';
 import { baseFontSize, breakpoints as carbonBreakpoints } from '@carbon/layout';
 
 const { prefix } = settings;
@@ -103,15 +103,15 @@ const HomepageTile = ({
   const getActionIcon = type => {
     switch (type) {
       case 'resources':
-        return <Launch20 aria-label="Open resource" />;
+        return <Launch size={20} aria-label="Open resource" />;
       case 'disabled':
-        return <Error20 aria-label="disabled" />;
+        return <Error size={20} aria-label="disabled" />;
       case 'article':
-        return <ArrowRight20 aria-label="Go to content" />;
+        return <ArrowRight size={20} aria-label="Go to content" />;
       case 'no-icon':
         return null;
       default:
-        return <ArrowRight20 aria-label="Go to content" />;
+        return <ArrowRight size={20} aria-label="Go to content" />;
     }
   };
 

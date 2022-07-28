@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import React, { useRef, useContext, useState } from 'react';
 import { pascalCase } from 'change-case';
-import { Code16, Download16 } from '@carbon/icons-react';
+import { Code, Download } from '@carbon/icons-react';
 import { Button } from 'carbon-components-react';
 import copy from 'copy-to-clipboard';
 import cx from 'classnames';
@@ -67,7 +67,7 @@ const ActionBar = ({
         tooltipPosition="top"
         iconDescription="Download SVG"
         data-attribute1={`Download ${name}.svg file`}
-        renderIcon={Download16}
+        renderIcon={Download}
         onFocus={() => setIsActionBarVisible(true)}
         onClick={handleDownload}
         className={tooltip}
@@ -81,7 +81,7 @@ const ActionBar = ({
           tooltipAlignment={tooltipAlignment}
           tooltipPosition="top"
           iconDescription={copyText}
-          renderIcon={Code16}
+          renderIcon={Code}
           onClick={handleCopy}
           onFocus={() => setIsActionBarVisible(true)}
           className={tooltip}
