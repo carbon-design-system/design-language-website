@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox20, CheckboxCheckedFilled20 } from '@carbon/icons-react';
+import { Checkbox as CheckboxIcon, CheckboxCheckedFilled } from '@carbon/icons-react';
 
 class Checkbox extends React.Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class Checkbox extends React.Component {
         aria-checked={this.state.checked}
         onClick={this.handleOnClick}
         className="motion-checklist__checkbox">
-        {this.state.checked ? <CheckboxCheckedFilled20 /> : <Checkbox20 />}
+        {this.state.checked ? <CheckboxCheckedFilled size={20} /> : <CheckboxIcon size={20} />}
       </div>
     );
   }

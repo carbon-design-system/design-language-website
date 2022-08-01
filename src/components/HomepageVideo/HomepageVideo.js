@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { settings } from 'carbon-components';
 import { breakpoints } from '@carbon/layout/es';
-import { ArrowRight20 } from '@carbon/icons-react';
+import { ArrowRight } from '@carbon/icons-react';
 import VideoInternal from '../VideoInternal';
 
 import '../../styles/Grid.module.scss';
@@ -68,9 +68,7 @@ class HomepageVideo extends Component {
                     Philosophy
                   </p>
                   <div className={`${prefix}--homepage-video-arrow-container`}>
-                    <ArrowRight20
-                      className={`${prefix}--homepage-video-cta-icon`}
-                    />
+                    <ArrowRight size={20} className={`${prefix}--homepage-video-cta-icon`} />
                   </div>
                 </Link>
                 <Link
@@ -80,9 +78,7 @@ class HomepageVideo extends Component {
                     Gallery
                   </p>
                   <div className={`${prefix}--homepage-video-arrow-container`}>
-                    <ArrowRight20
-                      className={`${prefix}--homepage-video-cta-icon`}
-                    />
+                    <ArrowRight size={20} className={`${prefix}--homepage-video-cta-icon`} />
                   </div>
                 </Link>
               </div>

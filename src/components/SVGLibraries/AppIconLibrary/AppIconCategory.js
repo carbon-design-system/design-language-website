@@ -15,7 +15,7 @@ import {
 
 import { categoryTitle, svgCategory } from '../shared/SvgLibrary.module.scss';
 
-import { Launch16 } from '@carbon/icons-react';
+import { Launch } from '@carbon/icons-react';
 import TooltipIcon from 'carbon-components-react/lib/components/TooltipIcon';
 
 const IconCategory = ({ category, icons, isDarkTheme }) => {
@@ -52,7 +52,7 @@ const IconCategory = ({ category, icons, isDarkTheme }) => {
                     href="https://github.ibm.com/brand/App-icons/issues/new?template=existing-app-icon-request.md" rel="noreferrer">
                     <TooltipIcon
                       tooltipText="Request icon"
-                      renderIcon={Launch16}
+                      renderIcon={Launch}
                       direction="top"
                     />
                   </a>
