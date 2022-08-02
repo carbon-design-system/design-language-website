@@ -4,12 +4,12 @@ import classnames from 'classnames';
 import { settings } from 'carbon-components';
 
 import {
-  PlayOutline24,
-  PlayOutlineFilled24,
-  PauseOutline24,
-  PauseOutlineFilled24,
-  Play24 as Play32,
-  Pause24 as Pause32,
+  PlayOutline,
+  PlayOutlineFilled,
+  PauseOutline,
+  PauseOutlineFilled,
+  Play,
+  Pause,
 } from '@carbon/icons-react';
 
 const { prefix } = settings;
@@ -48,53 +48,57 @@ class PlayPauseButton extends React.Component {
         onFocus={this.onOver}
         onBlur={this.onOut}
         onClick={onClick}>
-        {// corner play button - ex homepage player
-        cornerPlayButton && (
-          <>
-            <span
-              className={classnames(`${prefix}--play-pause-icon`, {
-                active: playing && hover,
-              })}>
-              <PauseOutlineFilled24 />
-            </span>
-            <span
-              className={classnames(`${prefix}--play-pause-icon`, {
-                active: playing && !hover,
-              })}>
-              <PauseOutline24 />
-            </span>
-            <span
-              className={classnames(`${prefix}--play-pause-icon`, {
-                active: !playing && hover,
-              })}>
-              <PlayOutlineFilled24 />
-            </span>
-            <span
-              className={classnames(`${prefix}--play-pause-icon`, {
-                active: !playing && !hover,
-              })}>
-              <PlayOutline24 />
-            </span>
-          </>
-        )}
-        {// standard center play button - use by default
-        !cornerPlayButton && (
-          <>
-            <span className={`${prefix}--play-pause-background`} />
-            <span
-              className={classnames(`${prefix}--play-pause-icon`, {
-                active: playing,
-              })}>
-              <Pause32 />
-            </span>
-            <span
-              className={classnames(`${prefix}--play-pause-icon`, {
-                active: !playing,
-              })}>
-              <Play32 />
-            </span>
-          </>
-        )}
+        {
+          // corner play button - ex homepage player
+          cornerPlayButton && (
+            <>
+              <span
+                className={classnames(`${prefix}--play-pause-icon`, {
+                  active: playing && hover,
+                })}>
+                <PauseOutlineFilled size={24} />
+              </span>
+              <span
+                className={classnames(`${prefix}--play-pause-icon`, {
+                  active: playing && !hover,
+                })}>
+                <PauseOutline size={24} />
+              </span>
+              <span
+                className={classnames(`${prefix}--play-pause-icon`, {
+                  active: !playing && hover,
+                })}>
+                <PlayOutlineFilled size={24} />
+              </span>
+              <span
+                className={classnames(`${prefix}--play-pause-icon`, {
+                  active: !playing && !hover,
+                })}>
+                <PlayOutline size={24} />
+              </span>
+            </>
+          )
+        }
+        {
+          // standard center play button - use by default
+          !cornerPlayButton && (
+            <>
+              <span className={`${prefix}--play-pause-background`} />
+              <span
+                className={classnames(`${prefix}--play-pause-icon`, {
+                  active: playing,
+                })}>
+                <Pause size={24} />
+              </span>
+              <span
+                className={classnames(`${prefix}--play-pause-icon`, {
+                  active: !playing,
+                })}>
+                <Play size={24} />
+              </span>
+            </>
+          )
+        }
       </button>
     );
   }

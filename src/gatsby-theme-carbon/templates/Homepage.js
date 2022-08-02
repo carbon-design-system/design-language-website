@@ -2,6 +2,7 @@ import React from 'react';
 import { HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import HomepageVideo from '../../components/HomepageVideo';
+import { gray100 } from '@carbon/colors';
 
 // Component to be shadowed
 
@@ -13,11 +14,11 @@ const FirstLeftText = () => (
 
 const FirstRightText = () => (
   <p>
-    <strong>Build Bonds</strong>
+    Build Bonds
     <br />
     This is the guiding ethos behind IBM’s design philosophy and principles.
-    This helps us distinguish every element and every experience{' '}
-    <em>Designed by IBM.</em>
+    This helps us distinguish every element and every experience Designed&nbsp;by&nbsp;IBM.
+    <span style={{ paddingTop: "1.25rem", display : "flex" }}>↓</span>
   </p>
 );
 
@@ -29,7 +30,11 @@ const customProps = {
     />
   ),
   FirstCallout: (
-    <HomepageCallout leftText={FirstLeftText} rightText={FirstRightText} />
+    <HomepageCallout
+      backgroundColor={gray100}
+      leftText={FirstLeftText}
+      rightText={FirstRightText}
+    />
   ),
   SecondCallout: null,
 };

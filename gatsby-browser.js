@@ -8,3 +8,10 @@ if (process.env.NODE_ENV !== 'production') {
   // import with "$font-prefix: /design/language/fonts"
   require('./src/styles/plex-variants-production.scss');
 }
+
+export const onRouteUpdate = ({ location }) => {
+  if (window && window.digitalData && window.createPageviewTagForSPA) {
+    window.digitalData.page.pageInfo.pageID = location.pathname;
+    window.createPageviewTagForSPA();
+  }
+}

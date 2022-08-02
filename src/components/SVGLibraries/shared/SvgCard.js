@@ -10,7 +10,7 @@ import {
   triggerText,
 } from './SvgLibrary.module.scss';
 
-const SvgCard = ({ icon, containerIsVisible, ...rest }) => {
+const SvgCard = ({ icon, containerIsVisible, isLastCard, ...rest }) => {
   const { name, Component, friendlyName, assets } = icon;
   const [isActionBarVisible, setIsActionBarVisible] = useState(false);
 
@@ -35,12 +35,13 @@ const SvgCard = ({ icon, containerIsVisible, ...rest }) => {
           <ErrorBoundry>
             <div className={flexContainer}>
               {Component && (
-                <Component {...rest}>
+                <Component size={32} {...rest}>
                   <title>{friendlyName}</title>
                 </Component>
               )}
             </div>
             <ActionBar
+              isLastCard={isLastCard}
               name={name}
               source={source}
               friendlyName={friendlyName}

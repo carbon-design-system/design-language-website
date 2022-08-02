@@ -5,9 +5,18 @@ import remove from 'lodash-es/remove';
 import { h2 } from 'gatsby-theme-carbon/src/components/markdown/Markdown.module.scss';
 import cx from 'classnames';
 
-import { container, card, dark } from './AppIconLibrary.module.scss';
+import {
+  container,
+  card,
+  dark,
+  requestIcon,
+  name,
+} from './AppIconLibrary.module.scss';
 
 import { categoryTitle, svgCategory } from '../shared/SvgLibrary.module.scss';
+
+import { Launch } from '@carbon/icons-react';
+import TooltipIcon from 'carbon-components-react/lib/components/TooltipIcon';
 
 const IconCategory = ({ category, icons, isDarkTheme }) => {
   const sortedIcons = sortBy(icons, 'name');
@@ -31,8 +40,24 @@ const IconCategory = ({ category, icons, isDarkTheme }) => {
             <div
               key={`${themeFolder}-${icon.name}-${i}`}
               className={cx(card, isDarkTheme && dark)}>
-              <span aria-hidden="true">{icon.friendly_name}</span>
+              <span className={name} aria-hidden="true">
+                {icon.friendly_name}
+              </span>
               <Icon name={icon.name} themeFolder={themeFolder} />
+
+              {icon.friendly_name === 'Unassigned' ? (
+                <span className={requestIcon}>
+                  <a
+                    target="_blank"
+                    href="https://github.ibm.com/brand/App-icons/issues/new?template=existing-app-icon-request.md" rel="noreferrer">
+                    <TooltipIcon
+                      tooltipText="Request icon"
+                      renderIcon={Launch}
+                      direction="top"
+                    />
+                  </a>
+                </span>
+              ) : null}
             </div>
           );
         })}

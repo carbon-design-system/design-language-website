@@ -7,6 +7,7 @@ export const onRenderBody = ({ setPostBodyComponents }) => {
 
   const script = `
   if(!window) window = {};
+  window.idaPageIsSPA = true;
   window.digitalData = {
     page: {
       category: {
@@ -21,15 +22,14 @@ export const onRenderBody = ({ setPostBodyComponents }) => {
         },
       },
     },
-  }
-`;
+  }`;
 
   return setPostBodyComponents([
     <script key="digital-data" dangerouslySetInnerHTML={{ __html: script }} />,
     <script
       defer
       key="core-metrics"
-      src="https://1.www.s81c.com/common/stats/ida_stats.js"
+      src="https://1.www.s81c.com/common/stats/ibm-common.js"
       type="text/javascript"
     />,
   ]);

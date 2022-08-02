@@ -4,10 +4,9 @@ import loadable from '@loadable/component';
 
 import { groupBy, debounce } from 'lodash-es';
 
-import {
-  icons as pictogramMetaData,
-  categories as pictogramCatagoryMetadata,
-} from './metadata.json';
+import useColumnCount from '../shared/useColumnCount';
+
+import * as metadata from './metadata.json';
 
 import FilterRow from '../shared/FilterRow';
 import { svgPage, svgLibrary } from '../shared/SvgLibrary.module.scss';
@@ -15,12 +14,16 @@ import { svgPage, svgLibrary } from '../shared/SvgLibrary.module.scss';
 import PictogramCategory from './PictogramCategory';
 import NoResult from '../shared/NoResult';
 
+const { icons: pictogramMetaData, categories: pictogramCategoryMetadata } = metadata;
+
 const IconLibrary = () => {
   const [pictogramComponents, setPictogramComponents] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('All pictograms');
   const [searchInputValue, setSearchInputValue] = useState('');
   const [categoryList, setCategoryList] = useState([]);
   const [categoriesLoaded, setCategoriesLoaded] = useState(false);
+
+  const columnCount = useColumnCount({ assetType: 'pictograms' });
 
   const debouncedSetSearchInputValue = debounce(setSearchInputValue, 200);
 
@@ -44,7 +47,7 @@ const IconLibrary = () => {
       []
     );
 
-    setCategoryList(pictogramCatagoryMetadata.map(({ name }) => name).sort());
+    setCategoryList(pictogramCategoryMetadata.map(({ name }) => name).sort());
     setCategoriesLoaded(true);
 
     setPictogramComponents(pictogramArray);
@@ -106,12 +109,13 @@ const IconLibrary = () => {
           allIconResults={filteredPictograms.length}
           pageName="pictogram"
           repoUrl="https://github.ibm.com/brand/pictograms/issues/new"
-          pageUrl="https://github.com/carbon-design-system/carbon/blob/master/packages/pictograms/master/pictogram-master.ai"
+          pageUrl="https://github.com/carbon-design-system/carbon/raw/main/packages/pictograms/master/productive-pictogram-master.ai"
         />
       ) : (
         <div className={svgLibrary}>
           {filteredCategories.map(([category, pictograms]) => (
             <PictogramCategory
+              columnCount={columnCount}
               key={category}
               category={category}
               pictograms={pictograms}

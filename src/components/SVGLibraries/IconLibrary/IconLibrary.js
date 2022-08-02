@@ -4,15 +4,16 @@ import React, { useEffect, useState } from 'react';
 import { groupBy, debounce } from 'lodash-es';
 import loadable from '@loadable/component';
 
-import {
-  icons as iconMetaData,
-  categories as iconCategoryMetadata,
-} from './metadata.json';
+import useColumnCount from '../shared/useColumnCount';
+
+import * as metadata from './metadata.json';
 import { svgPage, svgLibrary } from '../shared/SvgLibrary.module.scss';
 
 import FilterRow from '../shared/FilterRow';
 import IconCategory from './IconCategory';
 import NoResult from '../shared/NoResult';
+
+const { icons: iconMetaData, categories: iconCategoryMetadata } = metadata;
 
 const IconLibrary = () => {
   const [iconComponents, setIconComponents] = useState([]);
@@ -23,18 +24,20 @@ const IconLibrary = () => {
 
   const debouncedSetSearchInputValue = debounce(setSearchInputValue, 200);
 
+  const columnCount = useColumnCount({ assetType: 'icons' });
+
   useEffect(() => {
     const iconArray = iconMetaData.reduce((accumulator, icon) => {
       if (icon.deprecated) return accumulator;
 
-      const path = [...icon.namespace, icon.name].join('/');
+      const path = icon.moduleInfo.filepath;
 
       return [
         ...accumulator,
         {
           ...icon,
           Component: loadable(() =>
-            import(`@carbon/icons-react/es/${path}/32`).catch((error) => {
+            import(`@carbon/icons-react/es/${path}`).catch((error) => {
               console.error(error, icon);
               return null;
             })
@@ -114,7 +117,12 @@ const IconLibrary = () => {
       ) : (
         <div className={svgLibrary}>
           {filteredCategories.map(([category, icons]) => (
-            <IconCategory key={category} category={category} icons={icons} />
+            <IconCategory
+              columnCount={columnCount}
+              key={category}
+              category={category}
+              icons={icons}
+            />
           ))}
         </div>
       )}

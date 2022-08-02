@@ -95,7 +95,6 @@ export default class TypefaceSubFamilies extends React.Component {
                 );
               }}
               selectedItem={this.state.selectedItem}
-              light
             />
           </div>
         </div>

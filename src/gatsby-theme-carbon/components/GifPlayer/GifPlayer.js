@@ -7,18 +7,27 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import {
-  PlayOutline24,
-  PlayOutlineFilled24,
-  PauseOutline24,
-  PauseOutlineFilled24,
+  PlayOutline,
+  PlayOutlineFilled,
+  PauseOutline,
+  PauseOutlineFilled,
 } from '@carbon/icons-react';
-import styles from 'gatsby-theme-carbon/src/components/GifPlayer/GifPlayer.module.scss';
+import {
+  controls,
+  dark,
+  container,
+  gifInDialog,
+  imgHidden,
+  imgDisplayed,
+  gifDisplayed,
+  gifHidden,
+} from 'gatsby-theme-carbon/src/components/GifPlayer/GifPlayer.module.scss';
 
 const Pause = ({ hovering }) =>
-  hovering ? <PauseOutlineFilled24 /> : <PauseOutline24 />;
+  hovering ? <PauseOutlineFilled size={24} /> : <PauseOutline size={24} />;
 
 const Play = ({ hovering }) =>
-  hovering ? <PlayOutlineFilled24 /> : <PlayOutline24 />;
+  hovering ? <PlayOutlineFilled size={24} /> : <PlayOutline size={24} />;
 
 const ToggleIcon = ({ paused, hovering }) =>
   paused ? <Play hovering={hovering} /> : <Pause hovering={hovering} />;
@@ -68,24 +77,24 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
   };
 
   const controlsClassNames = classnames({
-    [styles.controls]: true,
-    [styles.dark]: color === 'dark',
+    [controls]: true,
+    [dark]: color === 'dark',
   });
 
   const containerClassNames = classnames({
-    [styles.container]: true,
+    [container]: true,
     [className]: className,
-    [styles.gifInDialog]: isInDialog,
+    [gifInDialog]: isInDialog,
   });
 
   const staticImageClassNames = classnames({
-    [styles.imgHidden]: true,
-    [styles.imgDisplayed]: paused,
+    [imgHidden]: true,
+    [imgDisplayed]: paused,
   });
 
   const gifClassNames = classnames({
-    [styles.gifDisplayed]: true,
-    [styles.gifHidden]: paused,
+    [gifDisplayed]: true,
+    [gifHidden]: paused,
   });
 
   const childrenArray = React.Children.toArray(children);

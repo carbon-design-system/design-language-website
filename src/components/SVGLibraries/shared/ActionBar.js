@@ -1,12 +1,12 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import React, { useRef, useContext, useState } from 'react';
 import { pascalCase } from 'change-case';
-import { Code16, Download16 } from '@carbon/icons-react';
+import { Code, Download } from '@carbon/icons-react';
 import { Button } from 'carbon-components-react';
 import copy from 'copy-to-clipboard';
 import cx from 'classnames';
 import { LibraryContext } from './LibraryProvider';
-import styles from './ActionBar.module.scss';
+import {container, trigger, hidden, tooltip} from './ActionBar.module.scss';
 
 const ActionBar = ({
   name,
@@ -14,6 +14,7 @@ const ActionBar = ({
   source,
   setIsActionBarVisible,
   isActionBarVisible,
+  isLastCard,
 }) => {
   const { site, type } = useContext(LibraryContext);
   const component = `<${
@@ -48,40 +49,43 @@ const ActionBar = ({
     copy(component, { format: 'text/plain' });
   };
 
+  const tooltipAlignment = isLastCard ? 'end' : 'center';
+
   return (
     <div
       ref={actionBarRef}
       onBlur={handleBlurEvent}
       aria-hidden={!isActionBarVisible}
-      className={cx(styles.container, {
-        [styles.hidden]: !isActionBarVisible,
+      className={cx(container, {
+        [hidden]: !isActionBarVisible,
       })}>
       <Button
         kind="ghost"
         size="small"
         hasIconOnly
-        tooltipAlignment="center"
+        tooltipAlignment={tooltipAlignment}
         tooltipPosition="top"
         iconDescription="Download SVG"
-        renderIcon={Download16}
+        data-attribute1={`Download ${name}.svg file`}
+        renderIcon={Download}
         onFocus={() => setIsActionBarVisible(true)}
         onClick={handleDownload}
-        className={styles.tooltip}
-        triggerClassName={styles.trigger}
+        className={tooltip}
+        triggerClassName={trigger}
       />
       {shouldShowCopyButton && (
         <Button
           kind="ghost"
           size="small"
           hasIconOnly
-          tooltipAlignment="center"
+          tooltipAlignment={tooltipAlignment}
           tooltipPosition="top"
           iconDescription={copyText}
-          renderIcon={Code16}
+          renderIcon={Code}
           onClick={handleCopy}
           onFocus={() => setIsActionBarVisible(true)}
-          className={styles.tooltip}
-          triggerClassName={styles.trigger}
+          className={tooltip}
+          triggerClassName={trigger}
         />
       )}
     </div>

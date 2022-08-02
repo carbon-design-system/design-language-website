@@ -11,8 +11,6 @@
 
   @include carbon--breakpoint('lg') {
     margin-top: 0;
-    left: 0.5rem;
-    margin-right: $spacing-03;
   }
 }
 
@@ -68,7 +66,7 @@
   z-index: 2;
   box-sizing: content-box;
   position: sticky;
-  top: 120px;
+  top: 64px;
 }
 
 .#{$prefix}--typeset-style-nav-shiv {

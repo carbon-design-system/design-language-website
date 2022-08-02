@@ -19,25 +19,24 @@ const defaultTypeValues = {
   'letter-spacing': 0,
 };
 
-const TypesetExample = props => (
+const TypesetExample = (props) => (
   <div className={`${prefix}--typeset-example-container`}>
-    {(props.typeSet || []).map(type => {
+    {(props.typeSet || []).map((type) => {
       const indexOfClosestLargerBreakpoint = Math.max(
         0,
         values(breakpoints).findIndex(
-          width => props.simulatedScreenWidth <= width
+          (width) => props.simulatedScreenWidth <= width
         )
       );
 
-      const currentBreakpointPx = values(breakpoints)[
-        indexOfClosestLargerBreakpoint
-      ];
+      const currentBreakpointPx =
+        values(breakpoints)[indexOfClosestLargerBreakpoint];
 
       const currentBreakpointName = findKey(
         breakpoints,
-        val => val === currentBreakpointPx
+        (val) => val === currentBreakpointPx
       );
-      const getCurrentCompoundStylesForBreakpoint = breakpointName => {
+      const getCurrentCompoundStylesForBreakpoint = (breakpointName) => {
         const typeKeys = Object.keys(breakpoints);
         const typeStylesUntilCurrentBreakpoint = [];
         for (const item of typeKeys) {
@@ -57,10 +56,10 @@ const TypesetExample = props => (
         currentBreakpointName
       );
 
-      const calculateFluidTypeSize = attribute =>
+      const calculateFluidTypeSize = (attribute) =>
         currentBreakpointSpecs[attribute] * baseFontSize;
 
-      const calculateFluidLineHeight = attribute =>
+      const calculateFluidLineHeight = (attribute) =>
         currentBreakpointSpecs[attribute] * baseFontSize;
 
       const displayWeight = (weight, style) => {
@@ -90,6 +89,7 @@ const TypesetExample = props => (
         step: currentBreakpointSpecs.step,
         font: currentBreakpointSpecs.font,
         style: currentBreakpointSpecs['font-style'],
+        typeSet: currentBreakpointSpecs['type-set'],
         fontWeight: displayWeight(
           currentBreakpointSpecs['font-weight'],
           currentBreakpointSpecs['font-style']
@@ -124,7 +124,7 @@ const TypesetExample = props => (
           className={`${prefix}--typeset-example`}>
           <div className={`${prefix}--typeset-example-row ${prefix}--row`}>
             <div
-              className={`${prefix}--typeset-example-description ${prefix}--col-md-5`}>
+              className={`${prefix}--typeset-example-description ${prefix}--col-md-6`}>
               <p className={versionClassNames} style={specs}>
                 {type.description}
               </p>
@@ -137,14 +137,16 @@ const TypesetExample = props => (
                 <br />
                 Size: {displaySpecs.fontSize}
                 <br />
-                Line-height: {displaySpecs.lineHeight}
+                Line height: {displaySpecs.lineHeight}
                 <br />
                 Weight:{' '}
                 <span style={{ textTransform: 'capitalize' }}>
                   {displaySpecs.fontWeight}
                 </span>
                 <br />
-                Letter-spacing: {displaySpecs.letterSpacing}px
+                Letter spacing: {displaySpecs.letterSpacing}px
+                <br />
+                Type set: {displaySpecs.typeSet}
                 {displaySpecs.warning != null ? (
                   <span>
                     <br />
@@ -158,7 +160,9 @@ const TypesetExample = props => (
                   <br />
                 )}
                 <div className={`${prefix}--typeset-example-code-style`}>
-                  <CodeSnippet type="inline">${type.name}</CodeSnippet>
+                  <CodeSnippet type="inline" feedback="Copied!" light>
+                    ${type.name}
+                  </CodeSnippet>
                 </div>
               </span>
             </div>

@@ -25,3 +25,35 @@
     transition: transform 700ms cubic-bezier(0.5, 0, 0.1, 1);
   }
 }
+
+// Custom Homepage Resource Card Styles
+.resource-card-group.homepage-cards {
+  div[class*='--col'] {
+    margin-right: 0 !important;
+  }
+
+  .bx--resource-card--dark {
+    border-color: transparent !important;
+    border-top-width: 0;
+  }
+
+  .bx--col-lg-4:nth-child(2n) .bx--resource-card--dark {
+    border-left-color: transparent !important;
+  }
+
+  .bx--col-lg-4:nth-child(n + 4) .bx--resource-card--dark {
+    border-top-width: 1px !important;
+  }
+
+  @include carbon--breakpoint-down('lg') {
+    .bx--col-lg-4:nth-child(n + 3) .bx--resource-card--dark {
+      border-top-width: 1px !important;
+    }
+  }
+
+  @include carbon--breakpoint-down('lg') {
+    .bx--col-lg-4:nth-child(n + 1) .bx--resource-card--dark {
+      border-top-width: 1px !important;
+    }
+  }
+}

@@ -51,7 +51,7 @@
   padding-bottom: 100%;
 }
 
-.card span {
+.name {
   @include carbon--type-style('label-01');
   position: absolute;
   top: 0;
@@ -76,7 +76,7 @@
   grid-gap: 1px;
   position: sticky;
   z-index: z('dropdown');
-  top: 7rem;
+  top: 6.95rem;
   transition: box-shadow $duration--fast-02 ease;
   @include carbon--breakpoint-down('md') {
     grid-template-columns: 1fr 1fr;
@@ -107,4 +107,43 @@
   width: 100%;
   top: -1rem;
   background: #f3f3f3;
+}
+
+.request-icon {
+  display: block;
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  padding: 8px;
+
+  svg {
+    width: 16px;
+    height: 16px;
+    fill: $carbon--gray-70;
+    cursor: pointer;
+  }
+
+  &:hover {
+    background: $carbon--gray-10;
+  }
+}
+
+.dark .request-icon {
+  svg {
+    fill: $carbon--gray-30;
+  }
+
+  &:hover {
+    background: $carbon--gray-100;
+
+    svg {
+      fill: $carbon--white-0;
+    }
+  }
 }
