@@ -290,7 +290,7 @@ export default {
     max: {
       step: 8,
       font: 'IBM Plex Sans',
-      'font-weight': 300',
+      'font-weight': '300',
       'font-size': 2,
       'line-height': 2.5,
       'letter-spacing': 0,
