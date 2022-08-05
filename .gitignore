@@ -35,3 +35,6 @@ metadata.json
 /docs
 /src
 /static
+
+# .env
+.env
