@@ -27,3 +27,11 @@ package-lock.json
 
 # Icon metadata
 metadata.json
+
+# src files
+/.github
+/.vscode
+/conf.d
+/docs
+/src
+/static
