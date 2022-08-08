@@ -1340,10 +1340,10 @@
     "@carbon/import-once" "^10.7.0"
     "@carbon/layout" "^10.37.1"
 
-"@carbon/icon-helpers@^10.28.0", "@carbon/icon-helpers@^10.31.0":
-  version "10.31.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.31.0.tgz#6b53d67164ddc8fa6770194821c4082e66de557e"
-  integrity sha512-1H7J+mapu1mWS8exIsHuwDMGg0QfCQpz3ho9g/vTGJAhB/s3aPAVBx0yfswB92SLzznriDflSaIHZAi6vshpUg==
+"@carbon/icon-helpers@^10.28.0", "@carbon/icon-helpers@^10.31.0", "@carbon/icon-helpers@^10.32.0":
+  version "10.32.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.32.0.tgz#700c3ffbe6350cf481f174c0fb06c9a4269a5248"
+  integrity sha512-t5kAnx0STZhUo6F0cLnnecKHYg2I7w84i53XiKZz3FGqiEZLFMpljKnQDe6/I7VNwzgBq0PN1dlDhZ8qqKXj5Q==
 
 "@carbon/icons-react@^10.35.0", "@carbon/icons-react@^10.45.0", "@carbon/icons-react@^10.49.0":
   version "10.49.0"
@@ -1355,11 +1355,11 @@
     prop-types "^15.7.2"
 
 "@carbon/icons-react@^11.6.0":
-  version "11.6.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.6.0.tgz#9fafc1fd23f589bacdfc11a6c09680380961bc25"
-  integrity sha512-kZ0l2xHEVKbVQC71V5lcN+XBAzyYSQd/tV5rR+Pa2kFgYPjOKLjVGUTqbxSTTq09os10QGC1+yk5N3IFk+2/hQ==
+  version "11.7.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.7.0.tgz#02063d4bf5ebccef7994a94297ed5a070463e19e"
+  integrity sha512-bSYatbW+xEx5e2QZ0WFgbVXrVgfRQpiYk3p/X+c007zcboxsG/3eq/GU6GEliFlQWZ02z0f0tUOG3sdD5jHurQ==
   dependencies:
-    "@carbon/icon-helpers" "^10.31.0"
+    "@carbon/icon-helpers" "^10.32.0"
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
@@ -10678,7 +10678,7 @@ minimatch@3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^3.0.4, minimatch@^3.1.1:
+minimatch@^3.0.4:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
