@@ -5799,7 +5799,7 @@
     - code
     - console
 - name: Security-026
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
