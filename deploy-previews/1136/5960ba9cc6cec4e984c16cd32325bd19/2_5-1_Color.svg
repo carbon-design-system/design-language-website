@@ -1,0 +1,114 @@
+<svg id="bfb5cb23-5ccc-4020-845e-744f295d92a0" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 928 522">
+  <defs>
+    <linearGradient id="a9a57e5f-544f-4a18-b338-434d5765588c" x1="-74.047" y1="241.071" x2="-41.19" y2="241.071" gradientTransform="translate(153.903 49.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.001" stop-opacity="0"/>
+      <stop offset="0.83"/>
+    </linearGradient>
+    <linearGradient id="fa68d8a7-990b-4ecc-ab6b-c76a7230c6ef" x1="1412.786" y1="3236.245" x2="1445.643" y2="3236.245" gradientTransform="translate(-1283.47 -2971.959)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.6"/>
+    </linearGradient>
+    <linearGradient id="e944faac-391b-4c97-af6b-9abce2a727b6" x1="621.953" y1="241.071" x2="654.81" y2="241.071" xlink:href="#a9a57e5f-544f-4a18-b338-434d5765588c"/>
+    <linearGradient id="afb01f7e-32cb-42da-a27f-1b4546178681" x1="1412.786" y1="3932.245" x2="1445.643" y2="3932.245" gradientTransform="translate(-587.47 -3667.959)" xlink:href="#fa68d8a7-990b-4ecc-ab6b-c76a7230c6ef"/>
+    <linearGradient id="a1cac981-4f77-4318-a4b9-de9038e24a26" x1="389.953" y1="241.071" x2="422.81" y2="241.071" xlink:href="#a9a57e5f-544f-4a18-b338-434d5765588c"/>
+    <linearGradient id="f47c55cf-4739-4203-94c4-a1b96ef770c8" x1="1412.786" y1="3700.245" x2="1445.643" y2="3700.245" gradientTransform="translate(-819.47 -3435.959)" xlink:href="#fa68d8a7-990b-4ecc-ab6b-c76a7230c6ef"/>
+    <linearGradient id="f176ae2a-472f-4520-a254-197130d24dbf" x1="157.953" y1="241.071" x2="190.81" y2="241.071" xlink:href="#a9a57e5f-544f-4a18-b338-434d5765588c"/>
+    <linearGradient id="f60be554-61db-4089-883d-03d91a80f049" x1="1412.786" y1="3468.245" x2="1445.643" y2="3468.245" gradientTransform="translate(-1051.47 -3203.959)" xlink:href="#fa68d8a7-990b-4ecc-ab6b-c76a7230c6ef"/>
+    <mask id="edf09856-f427-4e85-8f99-fb08a50ee139" x="63.429" y="208.429" width="105.143" height="105.143" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <path d="M109.429,293.857H83.161A13.176,13.176,0,0,1,70,280.7V247.862a13.163,13.163,0,0,1,13.148-13.148h26.281v6.572H83.148a6.583,6.583,0,0,0-6.576,6.576V280.7a6.6,6.6,0,0,0,6.589,6.589h26.268Z" fill="#fff"/>
+          <g id="bb640a93-43f9-4ab8-ab35-01026f4cf4ec" data-name="Gradients (black)">
+            <rect x="79.856" y="284" width="32.857" height="13.143" fill="url(#a9a57e5f-544f-4a18-b338-434d5765588c)"/>
+          </g>
+          <path d="M111.7,310.287,106.005,307l11.384-19.715H135.7a6.6,6.6,0,0,0,6.589-6.589V251.153h6.571V280.7a13.175,13.175,0,0,1-13.16,13.16H121.182Z" fill="#fff"/>
+        </g>
+        <rect x="129.316" y="257.714" width="32.857" height="13.143" transform="translate(-118.541 410.03) rotate(-90)" fill="url(#fa68d8a7-990b-4ecc-ab6b-c76a7230c6ef)"/>
+      </g>
+    </mask>
+    <linearGradient id="b747c13c-ce8d-4484-9a53-b826e94cc7d1" x1="63.429" y1="313.571" x2="168.571" y2="208.429" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+    <mask id="e765b274-4a54-4d55-867f-ce864f34cdeb" x="759.429" y="208.429" width="105.143" height="105.143" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <path d="M805.429,293.857H779.161A13.176,13.176,0,0,1,766,280.7V247.862a13.163,13.163,0,0,1,13.148-13.148h26.281v6.572H779.148a6.583,6.583,0,0,0-6.576,6.576V280.7a6.6,6.6,0,0,0,6.589,6.589h26.268Z" fill="#fff"/>
+          <g id="bfba7ba9-d988-4399-b491-a4c91cd5fcba" data-name="Gradients (black)">
+            <rect x="775.856" y="284" width="32.857" height="13.143" fill="url(#e944faac-391b-4c97-af6b-9abce2a727b6)"/>
+          </g>
+          <path d="M807.7,310.287,802.005,307l11.384-19.715H831.7a6.6,6.6,0,0,0,6.589-6.589V251.153h6.571V280.7a13.175,13.175,0,0,1-13.16,13.16H817.182Z" fill="#fff"/>
+        </g>
+        <rect x="825.316" y="257.714" width="32.857" height="13.143" transform="translate(577.459 1106.03) rotate(-90)" fill="url(#afb01f7e-32cb-42da-a27f-1b4546178681)"/>
+      </g>
+    </mask>
+    <linearGradient id="a39b9115-c0d6-4a52-8943-310b5f7d572b" x1="759.429" y1="313.571" x2="864.571" y2="208.429" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#a56eff"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+    <mask id="aae37252-c7b2-47c9-83ff-749d6b2b91fd" x="527.429" y="208.429" width="105.143" height="105.143" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <path d="M573.429,293.857H547.161A13.176,13.176,0,0,1,534,280.7V247.862a13.163,13.163,0,0,1,13.148-13.148h26.281v6.572H547.148a6.583,6.583,0,0,0-6.576,6.576V280.7a6.6,6.6,0,0,0,6.589,6.589h26.268Z" fill="#fff"/>
+          <g id="a12d67e8-29cb-49c9-b3c5-fb1d4701d6c5" data-name="Gradients (black)">
+            <rect x="543.856" y="284" width="32.857" height="13.143" fill="url(#a1cac981-4f77-4318-a4b9-de9038e24a26)"/>
+          </g>
+          <path d="M575.7,310.287,570.005,307l11.384-19.715H599.7a6.6,6.6,0,0,0,6.589-6.589V251.153h6.571V280.7a13.175,13.175,0,0,1-13.16,13.16H585.182Z" fill="#fff"/>
+        </g>
+        <rect x="593.316" y="257.714" width="32.857" height="13.143" transform="translate(345.459 874.03) rotate(-90)" fill="url(#f47c55cf-4739-4203-94c4-a1b96ef770c8)"/>
+      </g>
+    </mask>
+    <mask id="a70b1582-45df-4f5b-a8dc-f25aaf8160ad" x="295.429" y="208.429" width="105.143" height="105.143" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <path d="M341.429,293.857H315.161A13.176,13.176,0,0,1,302,280.7V247.862a13.163,13.163,0,0,1,13.148-13.148h26.281v6.572H315.148a6.583,6.583,0,0,0-6.576,6.576V280.7a6.6,6.6,0,0,0,6.589,6.589h26.268Z" fill="#fff"/>
+          <g id="ae339049-4b05-4a67-8f99-34706b9aaeb8" data-name="Gradients (black)">
+            <rect x="311.856" y="284" width="32.857" height="13.143" fill="url(#f176ae2a-472f-4520-a254-197130d24dbf)"/>
+          </g>
+          <path d="M343.7,310.287,338.005,307l11.384-19.715H367.7a6.6,6.6,0,0,0,6.589-6.589V251.153h6.571V280.7a13.175,13.175,0,0,1-13.16,13.16H353.182Z" fill="#fff"/>
+        </g>
+        <rect x="361.316" y="257.714" width="32.857" height="13.143" transform="translate(113.459 642.03) rotate(-90)" fill="url(#f60be554-61db-4089-883d-03d91a80f049)"/>
+      </g>
+    </mask>
+  </defs>
+  <polygon id="e551e9d0-b3e7-4823-8fca-c6f69c5b89c0" data-name="Fill-1-Copy-6" points="232 0 0 0 0 522 232 522 232 0" fill-rule="evenodd"/>
+  <polygon id="f19f630d-b266-410a-b750-220bbb109e9c" data-name="Fill-1-Copy-6" points="464 0 232 0 232 522 464 522 464 0" fill="#6929c4" fill-rule="evenodd"/>
+  <polygon id="b82d741e-6617-4b35-a68f-e40d4d92a57b" data-name="Fill-1-Copy-6" points="928 0 696 0 696 522 928 522 928 0" fill="#fff" fill-rule="evenodd"/>
+  <polygon id="e0e0a2eb-d2db-45f4-a713-9038043dbce0" data-name="Fill-1-Copy-6" points="696 0 464 0 464 522 696 522 696 0" fill="#be95ff" fill-rule="evenodd"/>
+  <g>
+    <g mask="url(#edf09856-f427-4e85-8f99-fb08a50ee139)">
+      <rect x="63.429" y="208.429" width="105.143" height="105.143" fill="url(#b747c13c-ce8d-4484-9a53-b826e94cc7d1)"/>
+    </g>
+    <circle cx="96.286" cy="264.286" r="3.286" fill="#f4f4f4"/>
+    <circle cx="109.429" cy="264.286" r="3.286" fill="#f4f4f4"/>
+    <circle cx="122.571" cy="264.286" r="3.286" fill="#f4f4f4"/>
+    <path d="M155.425,215h-32.85A6.582,6.582,0,0,0,116,221.575v19.708a6.582,6.582,0,0,0,6.575,6.574h7.957l5.689,9.857,5.692-3.285-7.588-13.143H122.571V221.572h32.857v19.714h-9.857v6.571h9.854A6.582,6.582,0,0,0,162,241.283V221.575A6.582,6.582,0,0,0,155.425,215Z" fill="#f4f4f4"/>
+  </g>
+  <g>
+    <g mask="url(#e765b274-4a54-4d55-867f-ce864f34cdeb)">
+      <rect x="759.429" y="208.429" width="105.143" height="105.143" fill="url(#a39b9115-c0d6-4a52-8943-310b5f7d572b)"/>
+    </g>
+    <circle cx="792.286" cy="264.286" r="3.286" fill="#001141"/>
+    <circle cx="805.429" cy="264.286" r="3.286" fill="#001141"/>
+    <circle cx="818.571" cy="264.286" r="3.286" fill="#001141"/>
+    <path d="M851.425,215h-32.85A6.582,6.582,0,0,0,812,221.575v19.708a6.582,6.582,0,0,0,6.575,6.574h7.957l5.689,9.857,5.692-3.285-7.588-13.143H818.571V221.572h32.857v19.714h-9.857v6.571h9.854A6.582,6.582,0,0,0,858,241.283V221.575A6.582,6.582,0,0,0,851.425,215Z" fill="#001141"/>
+  </g>
+  <g>
+    <g mask="url(#aae37252-c7b2-47c9-83ff-749d6b2b91fd)">
+      <rect x="527.429" y="208.429" width="105.143" height="105.143"/>
+    </g>
+    <circle cx="560.286" cy="264.286" r="3.286"/>
+    <circle cx="573.429" cy="264.286" r="3.286"/>
+    <circle cx="586.571" cy="264.286" r="3.286"/>
+    <path d="M619.425,215h-32.85A6.582,6.582,0,0,0,580,221.575v19.708a6.582,6.582,0,0,0,6.575,6.574h7.957l5.689,9.857,5.692-3.285-7.588-13.143H586.571V221.572h32.857v19.714h-9.857v6.571h9.854A6.582,6.582,0,0,0,626,241.283V221.575A6.582,6.582,0,0,0,619.425,215Z"/>
+  </g>
+  <g>
+    <g mask="url(#a70b1582-45df-4f5b-a8dc-f25aaf8160ad)">
+      <rect x="295.429" y="208.429" width="105.143" height="105.143" fill="#fff"/>
+    </g>
+    <circle cx="328.286" cy="264.286" r="3.286" fill="#fff"/>
+    <circle cx="341.429" cy="264.286" r="3.286" fill="#fff"/>
+    <circle cx="354.571" cy="264.286" r="3.286" fill="#fff"/>
+    <path d="M387.425,215h-32.85A6.582,6.582,0,0,0,348,221.575v19.708a6.582,6.582,0,0,0,6.575,6.574h7.957l5.689,9.857,5.692-3.285-7.588-13.143H354.571V221.572h32.857v19.714h-9.857v6.571h9.854A6.582,6.582,0,0,0,394,241.283V221.575A6.582,6.582,0,0,0,387.425,215Z" fill="#fff"/>
+  </g>
+</svg>
