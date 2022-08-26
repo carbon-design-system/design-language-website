@@ -20,6 +20,8 @@ jobs:
         run: yarn install --frozen-lockfile --network-timeout 300000
 
       - name: Build site
+        env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
         run: yarn build:prefix
 
       - name: Install IBM Cloud CLI
