@@ -1,0 +1,27 @@
+<svg id="efd1b164-2a9c-44a8-9bc6-b86a297ad1c5" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 288">
+  <defs>
+    <linearGradient id="aad9afcd-6bb2-4ad6-a829-682ea2ce88fe" x1="91.4" y1="156.594" x2="170.225" y2="156.594" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161616" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#161616" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="a71d2200-5686-4de7-af99-8873617b6fd1" x1="111.106" y1="136.946" x2="176.794" y2="136.946" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#418bff"/>
+      <stop offset="0.9" stop-color="#43d1cf"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0H288V288H0Z" fill="#fff" fill-rule="evenodd"/>
+  <g>
+    <path id="ba469e3a-6c87-4862-b054-1b81c8079c37" data-name="Path" d="M196.55,196.064h6.2a78.744,78.744,0,0,0,0-105.1h-6.2v-6.2a78.744,78.744,0,0,0-105.1,0v6.2h-6.2a78.744,78.744,0,0,0,0,105.1h6.2v6.2a78.744,78.744,0,0,0,105.1,0Z" fill="#ddd"/>
+    <rect x="78.25" y="77.764" width="131.4" height="131.4" fill="none" stroke="#0062ff"/>
+    <line x1="78.25" y1="90.864" x2="209.65" y2="90.864" fill="none" stroke="#0062ff"/>
+    <line x1="78.25" y1="196.064" x2="209.65" y2="196.064" fill="none" stroke="#0062ff"/>
+    <line x1="91.35" y1="77.764" x2="91.35" y2="209.164" fill="none" stroke="#0062ff"/>
+    <line x1="196.55" y1="77.764" x2="196.55" y2="209.164" fill="none" stroke="#0062ff"/>
+  </g>
+  <g>
+    <rect x="91.4" y="90.964" width="105.1" height="105.1" fill="none"/>
+    <path d="M114.449,133.545h55.776a0,0,0,0,1,0,0v46.1a0,0,0,0,1,0,0H114.449A23.049,23.049,0,0,1,91.4,156.594v0A23.049,23.049,0,0,1,114.449,133.545Z" fill="url(#aad9afcd-6bb2-4ad6-a829-682ea2ce88fe)"/>
+    <circle cx="143.95" cy="136.946" r="32.844" fill="url(#a71d2200-5686-4de7-af99-8873617b6fd1)"/>
+    <circle cx="170.225" cy="153.368" r="26.275" fill="#001d6c"/>
+  </g>
+</svg>
