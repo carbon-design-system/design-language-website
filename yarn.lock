@@ -1218,7 +1218,7 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.16.7", "@babel/runtime@^7.17.8", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.3", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.1":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.17.8", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.3", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
   version "7.18.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.9.tgz#b4fcfce55db3d2e5e080d2490f608a3b9f407f4a"
   integrity sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==
@@ -1229,6 +1229,13 @@
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.16.7.tgz#03ff99f64106588c9c403c6ecb8c3bafbbdff1fa"
   integrity sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.16.7", "@babel/runtime@^7.9.1":
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.19.0.tgz#22b11c037b094d27a8a2504ea4dcff00f50e2259"
+  integrity sha512-eR8Lo9hnDS7tqkO7NsV+mKvCmv5boaXFSZ70DnfhcgiEne8hv9oCEd36Klw74EtizEqLsy4YnW8UWwpBVolHZA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1383,7 +1390,7 @@
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-10.29.0.tgz#1e78c70d396ad3b9363f7a0c7e36ce9bac3d5702"
   integrity sha512-b8Cc9vgMlkQfLQAwq9Zt1/UfsrtGcWQpf0kK5gCamAuSmNSFWYJSwqbY9MeodxM2xNfXrxFcEFwqwy/E7egxUw==
 
-"@carbon/pictograms-react@^11.14.0", "@carbon/pictograms-react@^11.30.0":
+"@carbon/pictograms-react@^11.14.0", "@carbon/pictograms-react@^11.31.0":
   version "11.31.0"
   resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.31.0.tgz#8f68045555532a81c39519a4685b133862b5d5b0"
   integrity sha512-fzO+bSuWcHGOxsHFvJ/SIQHkLCwmGtmelWmpRDH59H49xi3ujA2ZiCqsWiMohs/rFmTPYiSZ5eE9ApJgLalgVw==
@@ -1392,7 +1399,7 @@
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
-"@carbon/pictograms@^12.4.0":
+"@carbon/pictograms@^12.5.0":
   version "12.5.0"
   resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-12.5.0.tgz#5d116786f15088c20b80e25c2c48978c618f226e"
   integrity sha512-6wuXX34XdozYZq+JFpmaW03thRCzfU3YVzTy/RRj6pdmSxxpaX1lcp9m0TFHP5ePqVbHSPeNLu7MeG8jLe0fwQ==
@@ -4131,9 +4138,9 @@ carbon-components-react@^7.39.0:
     window-or-global "^1.0.1"
 
 carbon-components-react@^7.59.0:
-  version "7.59.0"
-  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.59.0.tgz#f4978d2860ec7a80f96f6ed453fcb24bb3f04240"
-  integrity sha512-wulSKpbqAhG+1wUawy1uPHnfXRyZ0HIOc3hH6tGRoTIN73gkPPnbWYSv3BP9DaXwQH1u/RSAP+Og3AOaktyGMA==
+  version "7.59.1"
+  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.59.1.tgz#f25b1a7797d62fcf3650e0ca0540a6aa000af98a"
+  integrity sha512-RdBv2WlMWLh8DtMDAE/LAX2bZtOXwL26T2WmMmEEYJ1QtTjen2UElfZhSUMQkrqupOo+7b/8XdbMqqrI5tQfAQ==
   dependencies:
     "@babel/runtime" "^7.16.7"
     "@carbon/feature-flags" "^0.7.0"
@@ -4167,9 +4174,9 @@ carbon-components@^10.39.0:
     warning "^3.0.0"
 
 carbon-components@^10.58.0:
-  version "10.58.0"
-  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.58.0.tgz#d4e69279816e17df25ed2df2cb87535323fee16e"
-  integrity sha512-PlEyUBEtpNGdfw0IvJsmpCzUEXbZ8m24ab9dX9cv3JiY4KyeawmGb2dIA5WP7izsbPhc/8dqgmvtT81nTGC26w==
+  version "10.58.1"
+  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.58.1.tgz#10fb2d047dfac3c6889755b82be86e6029dacbdf"
+  integrity sha512-Jg120cPC1k2LqpAb8GrcLj8uobCr0cVzxyqQnTS5YqR+JqQx1Q0HyqrzW/kraBKip08cb956VM9aMcJTlHgO+Q==
   dependencies:
     "@carbon/telemetry" "0.1.0"
     flatpickr "4.6.1"
@@ -4794,10 +4801,17 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha512-XgZ0pFcakEUlbwQEVNg3+QAis1FyTL3Qel9FYy8pSkQqoG3PNoT0bOCQtOXcOkur21r2Eq2kI+IE+gsmAEVlYw==
 
-copy-to-clipboard@^3.2.0, copy-to-clipboard@^3.2.1, copy-to-clipboard@^3.3.1:
+copy-to-clipboard@^3.2.0, copy-to-clipboard@^3.2.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.3.1.tgz#115aa1a9998ffab6196f93076ad6da3b913662ae"
   integrity sha512-i13qo6kIHTTpCm8/Wup+0b1mVWETvu2kIMzKoK8FpkLkFxlt0znUAHcMzox+T8sPlqtZXq3CulEjQHsYiGFJUw==
+  dependencies:
+    toggle-selection "^1.0.6"
+
+copy-to-clipboard@^3.3.1:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.3.2.tgz#5b263ec2366224b100181dded7ce0579b340c107"
+  integrity sha512-Vme1Z6RUDzrb6xAI7EZlVZ5uvOk2F//GaxKUxajDqm9LhOVM1inxNAD2vy+UZDYsd0uyA9s7b3/FVZPSxqrCfg==
   dependencies:
     toggle-selection "^1.0.6"
 
