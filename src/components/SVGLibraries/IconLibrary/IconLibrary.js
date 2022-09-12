@@ -30,14 +30,14 @@ const IconLibrary = () => {
     const iconArray = iconMetaData.reduce((accumulator, icon) => {
       if (icon.deprecated) return accumulator;
 
-      const path = [...icon.namespace, icon.name].join('/');
+      const path = icon.moduleInfo.filepath;
 
       return [
         ...accumulator,
         {
           ...icon,
           Component: loadable(() =>
-            import(`@carbon/icons-react/es/${path}/32`).catch((error) => {
+            import(`@carbon/icons-react/es/${path}`).catch((error) => {
               console.error(error, icon);
               return null;
             })
