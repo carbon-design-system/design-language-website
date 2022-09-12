@@ -1,0 +1,58 @@
+<svg id="ff3fe584-fff3-4c87-b213-b7b94a120cb8" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 288">
+  <defs>
+    <linearGradient id="aa88e0d8-d539-4ce9-b2dd-1e26b5745dfb" x1="99.555" y1="156.444" x2="99.555" y2="133.334" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b72f4ec7-6762-41df-9774-a81fa2a7f6cc" x1="10142.668" y1="-7322.551" x2="10142.668" y2="-7345.662" gradientTransform="translate(-10025.336 7477.218)" xlink:href="#aa88e0d8-d539-4ce9-b2dd-1e26b5745dfb"/>
+    <linearGradient id="b6aac73c-8222-43d6-bd90-ae027f0c44d2" x1="3983.671" y1="-5132.774" x2="4015.67" y2="-5132.774" gradientTransform="translate(-3818.342 5254.552)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2"/>
+      <stop offset="0.8" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="e00d1e2b-1908-4a78-960e-01d932a1beec" x="80" y="115.556" width="56.887" height="56.887" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M126.22,154.666H90.666a3.556,3.556,0,0,0-3.556,3.556v7.111a3.556,3.556,0,0,0,3.556,3.555H126.22a3.556,3.556,0,0,0,3.556-3.555v-7.111A3.556,3.556,0,0,0,126.22,154.666Zm0,10.667H90.666v-7.111H126.22Z" fill="#fff"/>
+        <path d="M126.22,119.112H90.666a3.556,3.556,0,0,0-3.556,3.555v7.111a3.556,3.556,0,0,0,3.556,3.556H126.22a3.556,3.556,0,0,0,3.556-3.556v-7.111A3.556,3.556,0,0,0,126.22,119.112Zm0,10.666H90.666v-7.111H126.22Z" fill="#fff"/>
+        <rect x="97.777" y="133.334" width="3.555" height="23.11" fill="url(#aa88e0d8-d539-4ce9-b2dd-1e26b5745dfb)"/>
+        <rect x="115.554" y="131.556" width="3.555" height="23.11" transform="translate(234.664 286.222) rotate(180)" fill="url(#b72f4ec7-6762-41df-9774-a81fa2a7f6cc)"/>
+      </g>
+    </mask>
+    <linearGradient id="a8cd55af-b977-4ab1-add1-c1298fa19853" x1="80" y1="172.444" x2="136.887" y2="115.556" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#42be65"/>
+      <stop offset="0.9" stop-color="#007d79"/>
+    </linearGradient>
+    <mask id="a59fa44d-e49e-4807-82ac-a8082dd11326" x="151.108" y="115.556" width="56.887" height="56.887" maskUnits="userSpaceOnUse">
+      <path d="M195.551,119.112h-32A3.555,3.555,0,0,0,160,122.667v42.665a3.556,3.556,0,0,0,3.555,3.556h32a3.556,3.556,0,0,0,3.555-3.556V122.667A3.555,3.555,0,0,0,195.551,119.112Zm0,46.22h-32V122.667h32Z" fill="#fff"/>
+      <rect x="165.33" y="117.334" width="31.999" height="8.889" transform="translate(362.658 243.557) rotate(180)" fill="url(#b6aac73c-8222-43d6-bd90-ae027f0c44d2)"/>
+      <rect x="193.773" y="117.334" width="7.111" height="35.554"/>
+      <g>
+        <rect x="175.996" y="135.111" width="8.889" height="3.555" fill="#fff"/>
+        <rect x="168.885" y="128" width="8.889" height="3.555" fill="#fff"/>
+        <rect x="168.885" y="135.111" width="3.555" height="3.555" fill="#fff"/>
+        <rect x="168.885" y="142.222" width="8.889" height="3.555" fill="#fff"/>
+        <rect x="181.329" y="142.222" width="3.555" height="3.555" fill="#fff"/>
+        <rect x="168.885" y="149.333" width="8.889" height="3.555" fill="#fff"/>
+      </g>
+    </mask>
+    <linearGradient id="b70c264b-1119-4a6d-87d5-3bc898c71c72" x1="151.108" y1="172.443" x2="207.995" y2="115.556" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0H288V288H0Z" fill="#fff" fill-rule="evenodd"/>
+  <path d="M65.778,101.334v85.332h85.331V101.334Zm71.108,71.109H80V115.557h56.886Z" fill="#c9deff" fill-rule="evenodd"/>
+  <path d="M136.886,101.334v85.332h85.331V101.334ZM208,172.443H151.109V115.557H208Z" fill="#ffa0c2" fill-opacity="0.5" fill-rule="evenodd"/>
+  <g>
+    <circle cx="120.887" cy="161.777" r="1.778" fill="#001d6c"/>
+    <circle cx="95.999" cy="126.223" r="1.778" fill="#001d6c"/>
+    <g mask="url(#e00d1e2b-1908-4a78-960e-01d932a1beec)">
+      <rect x="80" y="115.556" width="56.887" height="56.887" fill="url(#a8cd55af-b977-4ab1-add1-c1298fa19853)"/>
+    </g>
+  </g>
+  <g>
+    <g mask="url(#a59fa44d-e49e-4807-82ac-a8082dd11326)">
+      <rect x="151.108" y="115.556" width="56.887" height="56.887" fill="url(#b70c264b-1119-4a6d-87d5-3bc898c71c72)"/>
+    </g>
+    <polygon points="199.106 145.777 199.106 124.139 203.703 128.736 206.217 126.223 197.329 117.334 188.44 126.223 190.954 128.736 195.551 124.139 195.551 145.777 199.106 145.777" fill="#001d6c"/>
+  </g>
+</svg>
