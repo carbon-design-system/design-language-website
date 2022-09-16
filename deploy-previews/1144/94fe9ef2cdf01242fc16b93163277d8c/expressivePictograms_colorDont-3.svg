@@ -1,0 +1,39 @@
+<svg id="b51b7067-81d6-461d-a863-f4bb325a1a57" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 288">
+  <defs>
+    <linearGradient id="f1b14b39-ec2f-4f1a-bb8c-630c4e088791" x1="98.805" y1="234.391" x2="98.805" y2="53.609" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#c6c6c6"/>
+      <stop offset="0.6" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="e4bf025c-a557-45f2-93b3-671b8c68aac2" x1="187.125" y1="234.391" x2="187.125" y2="78.872" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#c6c6c6"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <mask id="a54f2a41-4f00-4572-a0d1-b5806ae79a38" x="52" y="52" width="183.999" height="183.999" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M144,234.391a90.391,90.391,0,0,1,0-180.782v8.282a82.109,82.109,0,0,0,0,164.217Z" fill="url(#f1b14b39-ec2f-4f1a-bb8c-630c4e088791)"/>
+        <path d="M144,234.391a4.142,4.142,0,0,1,0-8.283A82.108,82.108,0,0,0,202.059,85.941a4.141,4.141,0,0,1,5.856-5.856A90.389,90.389,0,0,1,144,234.391Z" fill="url(#e4bf025c-a557-45f2-93b3-671b8c68aac2)"/>
+        <path d="M202.059,85.941A81.564,81.564,0,0,0,144,61.891V53.609a89.786,89.786,0,0,1,63.915,26.476Z" fill="#fff"/>
+      </g>
+    </mask>
+    <linearGradient id="acb96c4a-8f93-4a13-947c-05087546f7dc" x1="52" y1="235.999" x2="236" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#33b1ff"/>
+      <stop offset="0.5" stop-color="#ff7eb6"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="288" height="288" fill="#fff"/>
+  <g>
+    <g mask="url(#a54f2a41-4f00-4572-a0d1-b5806ae79a38)">
+      <rect x="52" y="52" width="183.999" height="183.999" fill="url(#acb96c4a-8f93-4a13-947c-05087546f7dc)"/>
+    </g>
+    <g>
+      <rect x="103.75" y="141.929" width="80.5" height="4.141"/>
+      <rect x="103.75" y="124.679" width="63.25" height="4.141"/>
+      <rect x="103.75" y="107.429" width="34.5" height="4.141"/>
+      <rect x="103.75" y="90.179" width="63.25" height="4.141"/>
+      <rect x="103.75" y="193.679" width="51.75" height="4.141"/>
+      <rect x="103.75" y="176.429" width="74.75" height="4.141"/>
+      <rect x="103.75" y="159.179" width="51.75" height="4.141"/>
+    </g>
+  </g>
+</svg>
