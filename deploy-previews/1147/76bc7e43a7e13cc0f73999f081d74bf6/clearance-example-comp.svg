@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1297.8px" height="730px" viewBox="0 0 1297.8 730" style="enable-background:new 0 0 1297.8 730;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#95C0FF;}
+	.st2{fill:#6F6F6F;}
+	.st3{opacity:0.6;fill:#87B6FF;enable-background:new    ;}
+	.st4{filter:url(#Adobe_OpacityMaskFilter);}
+	.st5{mask:url(#mask-2);}
+	.st6{fill:none;}
+	.st7{opacity:0.4;fill:#DCDCDC;enable-background:new    ;}
+	.st8{fill:#DCDCDC;}
+</style>
+<g>
+	<path id="path-3" class="st0" d="M779.6,293.5c16.3,0,29.5,13.2,29.5,29.5c0,16.3-13.2,29.5-29.5,29.5s-29.5-13.2-29.5-29.5
+		C750.2,306.7,763.4,293.5,779.6,293.5z M779.6,281.7c-22.8,0-41.3,18.5-41.3,41.3c0,22.8,18.5,41.3,41.3,41.3
+		c22.8,0,41.3-18.5,41.3-41.3C820.9,300.2,802.5,281.7,779.6,281.7z M838.6,446.9h-11.8v-29.5c0-16.3-13.2-29.5-29.5-29.5h-35.4
+		c-16.3,0-29.5,13.2-29.5,29.5v29.5h-11.8v-29.5c0-22.8,18.5-41.3,41.3-41.3h35.4c22.8,0,41.3,18.5,41.3,41.3V446.9z"/>
+</g>
+<title>Clearance example comp</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Icons-Copy" transform="translate(-352.000000, -20087.000000)">
+		<g id="Clearance-example-comp" transform="translate(352.000000, 20087.000000)">
+			<rect id="Rectangle-3" class="st0" width="1297.8" height="730"/>
+			<g id="Group-14" transform="translate(278.000000, 167.000000)">
+				<path id="Combined-Shape" class="st1" d="M112.2,351.1v4.9h-1.4v-11.2h1.4v4.9h257.3v-4.9h1.4V356h-1.4v-4.9H112.2z"/>
+				<path id="_x34_4px" class="st2" d="M227.5,384h-1.6v-2.7h-6.6v-1.4l5.7-9.5h2.4v9.6h2v1.4h-2V384z M225.8,371.6l-5,8.3h5.1
+					L225.8,371.6L225.8,371.6z M239.2,384h-1.6v-2.7h-6.6v-1.4l5.7-9.5h2.4v9.6h2v1.4h-2V384z M237.6,371.6l-5,8.3h5.1L237.6,371.6
+					L237.6,371.6z M243.7,387.9v-14h1.6v1.6h0.1c0.5-1.3,1.6-1.9,3-1.9c2.5,0,4.1,2.1,4.1,5.3c0,3.2-1.6,5.3-4.1,5.3
+					c-1.4,0-2.3-0.6-3-1.9h-0.1v5.6H243.7z M247.9,382.8c1.8,0,2.9-1.2,2.9-3v-1.7c0-1.8-1.1-3-2.9-3c-1.4,0-2.6,0.8-2.6,1.9v3.8
+					C245.3,382.1,246.5,382.8,247.9,382.8z M253.6,384l3.7-5.1l-3.6-5h1.8l2.6,3.8h0.1l2.7-3.8h1.7l-3.6,4.9l3.6,5.2h-1.8l-2.6-4
+					h-0.1l-2.8,4H253.6z"/>
+				<g id="icon-01">
+					<path id="Combined-Shape_1_" class="st3" d="M110.8,66.5h260.1v260.1H110.8V66.5z M147.1,291.7h188.8V102.9H147.1V291.7z"/>
+					<g id="icon_x2F_navigation_x2F_menu_x2F_24" transform="translate(26.000000, 26.000000)">
+						<g id="menu" transform="translate(16.875000, 25.312500)">
+							<g id="Mask">
+								<path id="path-1_1_" d="M127.9,87h141.6v11.8H127.9V87z M127.9,193.2h141.6V205H127.9V193.2z M127.9,140.1h141.6v11.8H127.9
+									V140.1z"/>
+							</g>
+							<defs>
+								<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse">
+									<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+								</filter>
+							</defs>
+							<mask maskUnits="userSpaceOnUse" id="mask-2">
+								<g class="st4">
+									<path id="path-1" class="st0" d="M127.9,87h141.6v11.8H127.9V87z M127.9,193.2h141.6V205H127.9V193.2z M127.9,140.1h141.6
+										v11.8H127.9V140.1z"/>
+								</g>
+							</mask>
+							<g id="color_x2F_black" class="st5">
+								<g transform="translate(-16.875000, -25.312500)">
+								</g>
+							</g>
+						</g>
+						<rect id="transparent-rectangle" x="121.1" y="76.9" class="st6" width="188.8" height="188.8"/>
+					</g>
+				</g>
+				<g id="icon-01_1_" transform="translate(186.000000, 0.000000)">
+					<path id="Combined-Shape_2_" class="st7" d="M184.9,66.5H445v260.1H184.9V66.5z M221.2,291.7H410V102.9H221.2V291.7z"/>
+					<g id="Group" transform="translate(26.000000, 26.000000)">
+						<g id="user" transform="translate(25.312500, 8.437500)">
+							<g id="Mask_1_">
+								<path id="path-3_1_" class="st8" d="M264.3,92.1c16.3,0,29.5,13.2,29.5,29.5s-13.2,29.5-29.5,29.5s-29.5-13.2-29.5-29.5
+									C234.9,105.3,248,92.1,264.3,92.1z M264.3,80.3c-22.8,0-41.3,18.5-41.3,41.3s18.5,41.3,41.3,41.3s41.3-18.5,41.3-41.3
+									S287.1,80.3,264.3,80.3z M323.3,245.5h-11.8V216c0-16.3-13.2-29.5-29.5-29.5h-35.4c-16.3,0-29.5,13.2-29.5,29.5v29.5h-11.8
+									V216c0-22.8,18.5-41.3,41.3-41.3H282c22.8,0,41.3,18.5,41.3,41.3V245.5z"/>
+							</g>
+						</g>
+						<rect id="transparent-rectangle_1_" x="195.2" y="76.9" class="st6" width="188.8" height="188.8"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
