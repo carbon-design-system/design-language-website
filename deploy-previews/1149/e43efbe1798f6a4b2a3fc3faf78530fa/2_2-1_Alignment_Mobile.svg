@@ -1,0 +1,73 @@
+<svg id="b06bf36d-ba67-4412-adca-7e4f9b5cbc42" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 704">
+  <defs>
+    <linearGradient id="be9aaea3-2523-456a-971d-378e0b892e50" x1="110.252" y1="427.998" x2="200.25" y2="427.998" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#6fdc8c"/>
+      <stop offset="0.9" stop-color="#009d9a"/>
+    </linearGradient>
+    <linearGradient id="b80bf110-b01f-413e-b14d-7817120a0394" x1="133.129" y1="625.935" x2="182.107" y2="541.102" gradientUnits="userSpaceOnUse">
+      <stop offset="0.159" stop-color="#161616" stop-opacity="0.05"/>
+      <stop offset="0.649" stop-color="#161616" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="fc9cc1fa-a8d1-41d0-88d1-8c704d62a530" x1="118.25" y1="632.5" x2="118.25" y2="527.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161616" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#161616" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="a0f1cee8-a73c-485a-8d54-5c96c70903e9" x1="144.5" y1="580" x2="197" y2="527.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+    <linearGradient id="a3432944-ca46-4947-9da2-83814059223d" x1="190.875" y1="170.875" x2="172.125" y2="152.125" gradientTransform="translate(167.358 -81.038) rotate(45)" xlink:href="#fc9cc1fa-a8d1-41d0-88d1-8c704d62a530"/>
+    <linearGradient id="e1e3c807-78ad-427e-a118-f6ac56da5135" x1="4274.875" y1="4028.875" x2="4256.125" y2="4010.125" gradientTransform="translate(280.448 5944.88) rotate(-135)" xlink:href="#fc9cc1fa-a8d1-41d0-88d1-8c704d62a530"/>
+    <linearGradient id="a8cb9462-d541-4ed8-bd9f-a52d839f927d" x1="96.143" y1="171.858" x2="165.747" y2="102.255" gradientTransform="translate(-45.505 138.143) rotate(-45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#ba8dff"/>
+      <stop offset="0.9" stop-color="#418bff"/>
+    </linearGradient>
+    <linearGradient id="a950e4eb-d0bd-4d28-88f7-56fdca09bea0" x1="170.25" y1="328.5" x2="170.25" y2="223.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161616" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#161616" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="fee497bb-716c-420c-b95a-72277c7da7ad" x1="4260.25" y1="3746.5" x2="4260.25" y2="3641.5" gradientTransform="translate(4378 3970) rotate(180)" xlink:href="#a950e4eb-d0bd-4d28-88f7-56fdca09bea0"/>
+    <linearGradient id="a5d84631-51ee-4aa0-9624-d58d3843106e" x1="110.25" y1="276" x2="177.75" y2="276" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#a870ff"/>
+      <stop offset="0.9" stop-color="#f975a5"/>
+    </linearGradient>
+  </defs>
+  <rect id="fa585272-2b71-46db-96f9-fae66f6e0369" data-name="Rectangle-3-Copy-81" width="288" height="704" fill="#fff"/>
+  <polygon id="e6189d99-9cf1-4604-b4be-dd1b1fec9e4d" data-name="Fill-1" points="84 184 204 184 204 64 84 64 84 184" fill="#c9deff" fill-rule="evenodd"/>
+  <line id="a7300012-6dfa-434e-8977-2fdc7f233a1b" data-name="Path-3-Copy-29" x1="272.5" y1="124" x2="16.5" y2="124" fill="none" stroke="#95c0ff"/>
+  <polygon id="a49239c9-4c98-47e1-9d04-6d558f29f6fb" data-name="Fill-1" points="84 336 204 336 204 216 84 216 84 336" fill="#c9deff" fill-rule="evenodd"/>
+  <polygon id="b14c767b-1e29-4c95-8bf0-2035b0c01105" data-name="Fill-1" points="84 488 204 488 204 368 84 368 84 488" fill="#c9deff" fill-rule="evenodd"/>
+  <polygon id="bb23e31a-8eb8-4800-9be0-5a88e69dfd08" data-name="Fill-1" points="84 640 204 640 204 520 84 520 84 640" fill="#c9deff" fill-rule="evenodd"/>
+  <line id="be4bee43-ac67-491d-b360-ea249d82a0d2" data-name="Path-3-Copy-30" x1="272.5" y1="276" x2="16.5" y2="276" fill="none" stroke="#95c0ff"/>
+  <line id="e5f8f805-6dde-4dfc-baa8-a7fa4fb4c197" data-name="Path-3-Copy-31" x1="272.5" y1="428" x2="16.5" y2="428" fill="none" stroke="#95c0ff"/>
+  <line id="aefcc5f3-c583-4a15-a207-9427b46699bc" data-name="Path-3-Copy-32" x1="272.5" y1="580" x2="16.5" y2="580" fill="none" stroke="#95c0ff"/>
+  <line id="ac1e9460-34ba-4eb6-a3d8-a155bb55bf60" data-name="Path-3-Copy-28" x1="144" y1="24" x2="144" y2="680" fill="none" stroke="#95c0ff"/>
+  <g>
+    <rect x="94.34" y="412.09" width="31.82" height="31.82" transform="translate(334.933 47.4) rotate(45)" fill="#001d6c"/>
+    <polygon points="177.75 383 155.25 405.5 132.753 427.997 132.752 427.996 110.252 450.496 132.752 472.996 155.249 450.499 155.25 450.5 177.75 428 200.25 405.5 177.75 383" fill="url(#be9aaea3-2523-456a-971d-378e0b892e50)"/>
+    <rect x="84" y="368" width="120" height="120" fill="none"/>
+  </g>
+  <g>
+    <path d="M144.5,632.5V610a30,30,0,0,0,0-60V527.5a52.5,52.5,0,0,1,0,105Z" fill="url(#b80bf110-b01f-413e-b14d-7817120a0394)"/>
+    <rect x="84.5" y="520" width="120" height="120" fill="none"/>
+    <path d="M144.5,632.5a52.5,52.5,0,0,1,0-105V550a30,30,0,0,0,0,60Z" fill="url(#fc9cc1fa-a8d1-41d0-88d1-8c704d62a530)"/>
+    <rect x="144.5" y="527.5" width="52.5" height="52.5" fill="url(#a0f1cee8-a73c-485a-8d54-5c96c70903e9)"/>
+    <rect x="114.5" y="580" width="30" height="30" fill="#001d6c"/>
+  </g>
+  <g>
+    <g>
+      <rect x="173.545" y="148.242" width="15.91" height="26.517" transform="translate(-61.038 175.642) rotate(-45)" fill="url(#a3432944-ca46-4947-9da2-83814059223d)"/>
+      <rect x="98.545" y="73.242" width="15.91" height="26.517" transform="translate(-29.972 100.642) rotate(-45)" fill="url(#e1e3c807-78ad-427e-a118-f6ac56da5135)"/>
+    </g>
+    <rect x="104.226" y="84.226" width="79.55" height="79.55" rx="7.515" transform="translate(129.859 -65.505) rotate(45)" fill="url(#a8cb9462-d541-4ed8-bd9f-a52d839f927d)"/>
+    <circle cx="144.001" cy="124.001" r="26.25" fill="#001d6c"/>
+    <rect x="84" y="64" width="120" height="120" fill="none"/>
+  </g>
+  <g>
+    <path d="M144,328.5a52.5,52.5,0,0,0,0-105Z" fill="url(#a950e4eb-d0bd-4d28-88f7-56fdca09bea0)"/>
+    <path d="M144,223.5a52.5,52.5,0,0,0,0,105Z" fill="url(#fee497bb-716c-420c-b95a-72277c7da7ad)"/>
+    <circle cx="144" cy="276" r="33.75" fill="url(#a5d84631-51ee-4aa0-9624-d58d3843106e)"/>
+    <circle cx="144" cy="276" r="11.25" fill="#001d6c"/>
+    <rect x="84" y="216" width="120" height="120" fill="none"/>
+  </g>
+</svg>
