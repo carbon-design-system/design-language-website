@@ -1,3 +1,7 @@
+require('dotenv').config();
+
+const { PATH_PREFIX = '/design/language' } = process.env;
+
 module.exports = {
   siteMetadata: {
     title: 'IBM Design Language',
@@ -6,7 +10,7 @@ module.exports = {
     description:
       'The IBM Design Language provides the guidance and assets used to express the IBM brand in products, communications, marketing, events and digital experiences.',
   },
-  pathPrefix: '/design/language',
+  pathPrefix: PATH_PREFIX,
   plugins: [
     {
       resolve: 'gatsby-theme-carbon',

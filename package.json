@@ -91,6 +91,7 @@
     "@babel/core": "^7.14.6",
     "babel-eslint": "^10.1.0",
     "carbon-icons": "^7.0.7",
+    "dotenv": "^16.0.1",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.16.0",
