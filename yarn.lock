@@ -1357,9 +1357,9 @@
     prop-types "^15.7.2"
 
 "@carbon/icons-react@^11.7.0":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.9.0.tgz#9f74e041f3d5c0382ce35c43fa8b86d71db71484"
-  integrity sha512-T8itc4VMRPWeDjt48WXME63INhYswixMTFiJ+9qN95o2k/+L3/RCJeg1E5zUS2RXJXeZ+vqpEhNqhZ3uTmwB5g==
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.10.0.tgz#2508768cd2ebf6ff64a713d19b52de6ee4cd060c"
+  integrity sha512-807RWTfbvVzmsDg2DJ4FjwYNbJSgkrEd1Ui8I07YheJVb3sbYGGZMG7aCS0qXVlrQOhB2hggtxSW1w9NksUXNA==
   dependencies:
     "@carbon/icon-helpers" "^10.34.0"
     "@carbon/telemetry" "0.1.0"
