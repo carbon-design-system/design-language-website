@@ -51,7 +51,7 @@ jobs:
         run: ibmcloud cf v3-zdt-push design-language-website-carbon -b https://github.com/cloudfoundry/nginx-buildpack.git
 
   gh-pages:
-    if: github.repository == 'jeffchew/design-language-website'
+    if: github.repository == 'carbon-design-system/design-language-website'
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v3
@@ -79,7 +79,7 @@ jobs:
             ${{ runner.os }}-public-gatsby
       - name: Set env vars
         run: |
-          echo "PATH_PREFIX=/design-language-website/design/language" >> .env
+          echo "PATH_PREFIX=/design/language" >> .env
       - name: Build site
         run: yarn build:prefix
         env:
