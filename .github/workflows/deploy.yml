@@ -3,8 +3,14 @@ on:
   push:
     branches:
       - master
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
+    if: github.repository == 'carbon-design-system/design-language-website'
     runs-on: macOS-latest
     steps:
       - uses: fkirc/skip-duplicate-actions@v1.4.0
@@ -43,3 +49,47 @@ jobs:
         run: ibmcloud login -a https://api.eu-de.bluemix.net --apikey $API_KEY -o IBMDesignOrg -s idl
       - name: Deploy to EU
         run: ibmcloud cf v3-zdt-push design-language-website-carbon -b https://github.com/cloudfoundry/nginx-buildpack.git
+
+  gh-pages:
+    if: github.repository == 'carbon-design-system/design-language-website'
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      - name: Install packages
+        run: yarn install --frozen-lockfile --network-timeout 300000
+      - name: Gatsby Cache Folder
+        uses: actions/cache@v3
+        id: gatsby-cache-folder
+        with:
+          path: .cache
+          key: ${{ runner.os }}-cache-gatsby
+          restore-keys: |
+            ${{ runner.os }}-cache-gatsby
+      - name: Gatsby Public Folder
+        uses: actions/cache@v3
+        id: gatsby-public-folder
+        with:
+          path: public/
+          key: ${{ runner.os }}-public-gatsby
+          restore-keys: |
+            ${{ runner.os }}-public-gatsby
+      - name: Set env vars
+        run: |
+          echo "PATH_PREFIX=/design/language" >> .env
+      - name: Build site
+        run: yarn build:prefix
+        env:
+          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+          NODE_OPTIONS: "--max_old_space_size=4096"
+          NODE_ENV: production
+          CI: true
+      - name: Deploy
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npx gh-pages -d public -u "github-actions <github-actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
