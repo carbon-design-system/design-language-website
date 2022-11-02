@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdesign_language_website=self.webpackChunkdesign_language_website||[]).push([[18883],{59616:function(e,t,s){s.r(t);var a=s(67294),l=s(87426);const n=[{href:"/philosophy/pov",text:"Philosophy"},{href:"/gallery",text:"Gallery"},{href:"/updates/whats-new",text:"What’s new"}];t.default=()=>a.createElement(l.e9,{links:n})}}]);
