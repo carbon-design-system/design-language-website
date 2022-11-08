@@ -6764,3 +6764,265 @@
     - AR
     - computer vision
     - head piece
+- name: CloudHyperProtectDataController
+  friendly_name: IBM Hyper Protect Data Controller
+  category: Stroke style
+  aliases:
+    - Blue 
+    - enterprise
+    - data security
+    - hybrid cloud
+    - controller
+    - security
+    - access control
+    - Zero Trust
+    - z14
+    - z15
+    - LinuxONE
+    - scroll
+    - shield
+    - document
+- name: WebsphereLiberty
+  friendly_name: IBM® WebSphere® Liberty
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - Java
+    - runtime
+    - environment
+    - open source
+    - cloud native
+    - IBM Cloud®
+    - apps
+    - microservices
+    - application server
+    - Kubernetes
+    - integration
+    - productivity
+    - globe
+    - earth
+    - fire
+    - torch
+- name: UnstructuredDataPrivacy
+  friendly_name: IBM Unstructured Data Privacy
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - unstructured data
+    - PDFs
+    - images
+    - flat files
+    - emails
+    - medical records
+    - log files
+    - privacy
+    - security
+    - lock
+    - connection
+- name: EngineeringLifecycleManagement
+  friendly_name: IBM® Engineering Lifecycle Management
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - engineering
+    - lifecycle
+    - collaboration
+    - productivity
+    - transparency
+    - ELM
+    - AI
+    - IBM Cloud®
+    - IBM Software
+    - cog wheel
+- name: EngineeringRequirementsDOORSNext
+  friendly_name: IBM® Engineering Requirements DOORS Next
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - engineering
+    - requirements
+    - DOORS
+    - Next
+    - ELM
+    - AI
+    - IBM Cloud®
+    - IBM Software
+    - door
+    - entry
+    - entrance
+- name: EngineeringWorkflowManagement
+  friendly_name: IBM® Engineering Workflow Management
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - engineering
+    - management
+    - workflow
+    - ELM
+    - AI
+    - IBM Cloud®
+    - IBM Software
+    - venn
+- name: EngineeringTestManagement
+  friendly_name: IBM® Engineering Test Management
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - management
+    - engineering
+    - test
+    - ELM
+    - AI
+    - IBM Cloud®
+    - IBM Software
+    - circle
+    - arrow
+- name: EngineeringSystemsDesignRhapsody
+  friendly_name: IBM® Engineering Systems Design Rhapsody
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - systems design
+    - rhapsody
+    - engineering
+    - ELM
+    - AI
+    - IBM Cloud®
+    - IBM Software
+    - connection
+    - arrows
+- name: EngineeringSystemsDesignRhapsodyModelManager
+  friendly_name: IBM® Engineering Systems Design Rhapsody Model Manager
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - systems design
+    - rhapsody
+    - engineering
+    - model manager
+    - ELM
+    - AI
+    - IBM Cloud®
+    - IBM Software
+    - cube
+    - 3d
+- name: HourOfZ
+  friendly_name: Hour of Z
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - Z
+    - app
+    - game
+    - enterprise
+    - computing
+    - technology
+    - operations
+    - learn
+    - clock
+    - watch
+    - time
+- name: VulnerabilityManagement
+  friendly_name: Vulnerability Management
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - CIO
+    - internal
+    - shield
+    - bug
+- name: ControlTower
+  friendly_name: IBM Supply Chain Control Tower
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - natural language processing
+    - intelligent workflows
+    - supply chain visibility
+    - supply chain orchestration
+    - three
+    - tree
+- name: TransparentSupply
+  friendly_name: IBM Blockchain Transparent Supply
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - supply chain visibility
+    - blockchain platform
+    - supply chain ecosystem
+    - data ecosystem
+    - manage supply
+    - person
+    - connection
+- name: CloudVirtualServerClassic
+  friendly_name: IBM Cloud® Virtual Server Classic
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - virtual machine
+    - server
+    - IBM Cloud®
+    - IBM Software
+- name: DevSecOps
+  friendly_name: IBM® DevSecOps
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - DevSecOps
+    - IBM Cloud®
+    - IBM Software
+    - development
+    - security
+    - operations
+    - hexagon
+    - shield
+- name: CloudTraining
+  friendly_name: IBM Center for Cloud Training
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - cloud training
+    - education
+    - virtual training
+    - IBM Cloud®
+    - student
+    - graduate
+- name: TravelIBM
+  friendly_name: Travel@IBM
+  category: Stroke style
+  aliases:
+    - Green
+    - Blue
+    - business travel
+    - business expense
+    - expense management
+    - SAP
+    - reporting
+    - plane
+    - airplane
+    - dollar
+    - circle
+- name: CloudPakBusinessAutomation
+  friendly_name: IBM Cloud Pak® for Business Automation
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - business automation
+    - IBM Cloud Pak® for Business Automation
+    - hexagon
