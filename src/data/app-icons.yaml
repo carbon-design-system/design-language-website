@@ -5776,7 +5776,7 @@
     - code
     - console
 - name: Security-026
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -6748,3 +6748,19 @@
     - integration
     - catalog
     - APIs
+- name: InspectorWearable
+  friendly_name: IBM Inspector Wearable
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - wearable
+    - inspection
+    - inspector
+    - remote
+    - hands-free
+    - visual
+    - assisted reality
+    - AR
+    - computer vision
+    - head piece
