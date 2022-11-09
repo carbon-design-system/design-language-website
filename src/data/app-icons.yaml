@@ -7026,3 +7026,183 @@
     - business automation
     - IBM Cloud Pak® for Business Automation
     - hexagon
+- name: FileNetContentManager
+  friendly_name: IBM FileNet® Content Manager
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - business automation
+    - IBM Cloud Pak® for Business Automation
+    - Business object management
+    - Events and subscriptions
+    - Lifecycles
+    - Property search
+    - Bulk processing
+    - Versioning
+    - Classification
+    - Entry template
+    - XML content
+    - Content storage
+    - Import and export
+    - Retention and holds
+    - Customizable user interface
+    - folder 
+    - file
+    - document
+- name: ContentCollectorForSAP
+  friendly_name: IBM® Content Collector for SAP
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - archive
+    - search
+    - restore
+    - IBM Cloud Pak® for Business Automation
+    - Business process management
+    - folder
+    - arrow
+- name: BusinessAutomationWorkflow
+  friendly_name: IBM® Business Automation Workflow
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - business automation
+    - IBM Cloud Pak® for Business Automation
+    - enterprise workflow
+    - virtual machine
+    - VM
+    - on-premise
+    - arrow
+    - circles
+    - flow
+- name: OperationalDecisionManager
+  friendly_name: IBM® Operational Decision Manager
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - business policy
+    - business rules
+    - IBM Cloud Pak® for Business Automation
+    - diamond
+    - arrows
+- name: EnterpriseRecords
+  friendly_name: IBM® Enterprise Records
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - government records
+    - corporate records
+    - record management
+    - metadata
+    - IBM Cloud Pak® for Business Automation
+    - folder
+    - lock
+- name: ProcessMining
+  friendly_name: IBM® Process Mining
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - business process
+    - process improvement
+    - process automation
+    - IBM Cloud Pak® for Business Automation
+    - pickaxe
+    - server
+- name: AutomationDocumentProcessing
+  friendly_name: IBM® Automation Document Processing
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - extract data
+    - machine learning
+    - ML
+    - document processing
+    - IBM Cloud Pak® for Business Automation
+    - file
+    - document
+- name: AutomationDecisionServices
+  friendly_name: IBM® Automation Decision Services
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - decision automation
+    - business decision
+    - cog wheel
+    - arrows
+- name: BusinessAutomationInsights
+  friendly_name: IBM® Business Automation Insights
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - visual insights
+    - AI
+    - data lake
+    - data visualization
+    - event processing
+    - ML
+    - machine learning
+    - IBM Cloud Pak® for Business Automation
+    - ui
+    - dashboard
+- name: Dashboards
+  friendly_name: IBM Dashboards
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - business intelligence
+    - analytics
+    - scorecard
+    - monitoring
+    - reporting
+    - Cognos®
+    - IBM Cloud®
+    - circles
+    - bubbles
+    - square
+    - ui
+    - container
+- name: CarbonIBMDotCom
+  friendly_name: Carbon for IBM.com
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - open source design system
+    - ui
+    - broweser
+    - hexagon
+- name: WatsonOrders
+  friendly_name: IBM Watson® Orders
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - automated ordering
+    - customer experience
+    - order accuracy
+    - process automation
+    - business automation
+    - AI
+    - artificial intelligence
+    - retail
+    - hospitality
+    - natural language processing
+    - order taker
+    - customer care
+    - customer service
+    - conversational AI
+    - drive-thru
+    - scroll
+    - chat
+    - document
+    - speech bubble
