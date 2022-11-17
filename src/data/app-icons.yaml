@@ -7206,3 +7206,319 @@
     - chat
     - document
     - speech bubble
+- name: Telehealth
+  friendly_name: IBM® Telehealth
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - telemedicine
+    - telehealth
+    - mobile
+    - health
+    - medicine
+    - consultation
+    - medical
+    - physician
+    - doctor
+    - patient
+    - video camera
+    - person
+    - medic
+    - medical
+    - film
+- name: CICSVSAMRecovery
+  friendly_name: IBM® CICS® VSAM Recovery for z/OS®
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - data
+    - recovery
+    - CICS
+    - z/OS
+    - circle
+- name: CICSVSAMTransparency
+  friendly_name: IBM® CICS® VSAM Transparency for z/OS®
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - data
+    - migration
+    - CICS
+    - z/OS
+    - speed
+- name: CICSPerformanceAnalyzer
+  friendly_name: IBM® CICS® Performance Analyzer for z/OS®
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - monitor
+    - system application
+    - performance
+    - CICS
+    - z/OS
+    - bar chart
+- name: CICSInterdependencyAnalyzer
+  friendly_name: IBM® CICS® Interdependency Analyzer for z/OS®
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - relationship
+    - dependency
+    - CICS
+    - z/OS
+    - insight
+    - tree diagram
+- name: CICSConfigurationManager
+  friendly_name: IBM® CICS® Configuration Manager for z/OS®
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - operations
+    - operational efficiency
+    - service agility
+    - CICS
+    - z/OS
+    - cogwheel
+- name: IBMZOpenAutomationUtilities
+  friendly_name: IBM Z® Open Automation Utilities
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - Linux
+    - UNIX
+    - automation
+    - environment
+    - utilities
+    - code
+    - circle
+- name: DataEngine
+  friendly_name: IBM® Data Engine
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - read data
+    - analyze data
+    - store data
+    - ANSI SQL
+    - Cloud Object Storage
+- name: VirtualDevAndTestForZOS
+  friendly_name: IBM® Virtual Dev and Test for z/OS®
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - z/OS
+    - virtual test
+    - code
+    - test environment
+    - devops
+    - hexagon
+- name: HyperProtectContainerRuntime
+  friendly_name: IBM® Hyper Protect Container Runtime
+  category: Stroke style
+  aliases:
+    - Blue
+    - container
+    - cloud
+    - security
+    - shield
+    - Z
+    - virtual private cloud
+    - VPC
+    - provisioning
+    - IaaS
+    - compute
+    - encryption
+    - shield
+    - dashboard
+- name: MulticloudMesh
+  friendly_name: IBM® Multicloud Mesh
+  category: Fill style
+  aliases:
+    - Teal
+    - Blue
+    - scalable
+    - secure
+    - hybrid multicloud
+    - enterprise
+    - dashboard
+    - networking
+    - agility
+    - cloud
+- name: IBMWatsonOrchestrate
+  friendly_name: IBM Watson Orchestrate™
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - digital assistant
+    - digital employee
+    - digey
+    - IBM Automation
+    - skill automation
+    - repetitive
+    - yin yang
+    - circle
+    - circuit
+- name: CloudPrivilegedAccessGateway
+  friendly_name: IBM Cloud® Privileged Access Gateway
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - managed service
+    - remote administration
+    - bastion gateway
+    - single point of entry
+    - server
+    - cluster
+    - secure
+    - arrow
+- name: Cloudant
+  friendly_name: IBM® Cloudant®
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Cloud
+    - database as a service
+    - NoSQL
+    - document
+    - DBaaS
+    - cloud
+    - server
+    - database
+    - relationship
+- name: MaximoManage
+  friendly_name: IBM® Maximo® Manage
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - rocket
+    - growth
+    - asset management
+    - work order flows
+    - maintenance schedule
+    - space ship
+    - chart
+    - graph
+    - bar chart
+- name: MaximoMonitor
+  friendly_name: IBM® Maximo® Monitor
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - visualize asset data
+    - asset maintenance
+    - AI
+    - monitoring
+    - eye
+    - pulse
+    - heart rate
+- name: MaximoHealth
+  friendly_name: IBM® Maximo® Health
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - health
+    - asset
+    - replacement planning
+    - pulse
+    - heart rate
+- name: MaximoPredict
+  friendly_name: IBM® Maximo® Predict
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - predict
+    - manage
+    - failure
+    - ML
+    - machine learning
+    - data analytics
+    - pulse
+    - heart rate
+    - light bulb
+- name: MaximoSafety
+  friendly_name: IBM® Maximo® Safety
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - safe environment
+    - safety
+    - risk assessment
+    - workplace hazards
+    - sparkle
+    - diamond
+    - head gear
+    - protection
+    - safety helmet
+    - construction
+- name: MaximoAssist
+  friendly_name: IBM® Maximo® Assist
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - AI
+    - AR
+    - augmented reality
+    - artificial intelligence
+    - troubleshoot
+    - repair
+    - efficiency
+    - gears
+    - transmission
+    - bar chart
+    - graph
+- name: DigitalTwinExchange
+  friendly_name: IBM® Digital Twin Exchange
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - digital twin
+    - exchange
+    - purchase
+    - download
+    - manage
+    - OEM
+    - manufacturer
+    - third-party
+    - server
+    - data base
+    - communication
+    - network
+- name: MaximoInventoryOptimization
+  friendly_name: IBM® Maximo® MRO Inventory Optimization
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - inventory
+    - optimization
+    - statistical analysis
+    - prescriptive analytics
+    - margins
+    - service levels
+    - downtime
+    - monitor
+    - desktop
+    - chart
+    - graph
+    - arrow
+    - progress
+    - growth
