@@ -6019,7 +6019,13 @@
   aliases:
     - Teal
     - Blue
-    - connection
+    - cloud
+    - event
+    - endpoint
+    - IBM Cloud Pak®
+    - integration
+    - catalog
+    - APIs
 - name: PartnerEcosystemHub
   friendly_name: IBM® Partner Ecosystem Hub
   category: Stroke style
@@ -6503,15 +6509,6 @@
     - compatibility
     - pharmaceutical
     - contraindication
-- name: CognitiveEnterpriseDataPlatform
-  friendly_name: IBM Cognitive Enterprise Data Platform
-  category: Fill style
-  aliases:
-    - Teal
-    - Blue
-    - enterprise
-    - third-party data
-    - data
 - name: CloudBackupServiceVPC
   friendly_name: IBM Cloud® Backup Service for VPC
   category: Stroke style
@@ -6735,19 +6732,6 @@
     - environment
     - continuous availability
     - data integrity
-- name: CloudEventEndpointManagement
-  friendly_name: IBM Cloud Pak® Event Endpoint Management
-  category: Fill style
-  aliases:
-    - Teal
-    - Blue
-    - cloud
-    - event
-    - endpoint
-    - IBM Cloud Pak®
-    - integration
-    - catalog
-    - APIs
 - name: InspectorWearable
   friendly_name: IBM Inspector Wearable
   category: Stroke style
