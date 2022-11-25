@@ -2,7 +2,8 @@
   friendly_name: IBM Cloud® Professional Services for Government
   category: Stroke style
   aliases:
-    - IBM Cloud
+    - IBM Cloud 
+    - IBM Cloud Professional Services for Government
     - Government
     - Municipal
     - Federal
@@ -38,6 +39,7 @@
   aliases:
     - Cloud
     - IBM Cloud
+    - IBM Cloud Static Route
     - Magenta
     - Purple
     - Network
@@ -52,6 +54,7 @@
   category: Stroke style
   aliases:
     - IBM Cloud
+    - IBM Cloud Kubernetes Service Diagnostics and Debug Tool add-on
     - Cloud
     - Diagnostics tool
     - Debug tool
@@ -75,6 +78,7 @@
   category: Stroke style
   aliases:
     - IBM Cloud
+    - IBM Cloud Managed OAuth Proxy add-on
     - Cloud
     - OAuth proxy
     - Purple
@@ -89,6 +93,7 @@
   category: Stroke style
   aliases:
     - Cloud
+    - IBM Cloud Kubernetes Terminal
     - IBM Cloud
     - Blue
     - Purple
@@ -102,7 +107,7 @@
   aliases:
     - Cloud
     - IBM DataOps
-    - Green
+    - Blue
     - Teal
     - Magnifier
     - Magnifying glass
@@ -137,6 +142,7 @@
   aliases:
     - Cloud
     - IBM Cloud
+    - IBM Cloud cluster Autoscaler add-on
     - Cluster autoscaler
     - Autoscaler
     - blue
@@ -147,6 +153,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Language Translator
     - Language translator
     - Translator
     - Language
@@ -161,6 +168,7 @@
   category: Stroke style
   aliases:
     - IBM Watson
+    - IBM Watson Compare and Comply
     - Data
     - Data extraction
     - Natural language processing
@@ -176,6 +184,7 @@
   category: Stroke style
   aliases:
     - IBM Watson
+    - IBM Watson Personality Insights
     - Watson
     - Personality insights
     - Watson Personality Insights
@@ -191,6 +200,7 @@
   category: Stroke style
   aliases:
     - IBM Watson
+    - IBM Watson Speech to Text
     - Watson speech to text
     - Speech to text
     - purple
@@ -202,6 +212,7 @@
   category: Stroke style
   aliases:
     - IBM Watson
+    - IBM Watson Text to Speech
     - Watson test to speech
     - Text to speech
     - purple
@@ -213,6 +224,7 @@
   category: IBM Plex® style
   aliases:
     - IBM Cloud
+    - IBM Cloud Databases for MongoDB
     - Databases
     - Databases for MongoDB
     - green
@@ -222,6 +234,7 @@
   category: IBM Plex® style
   aliases:
     - IBM Cloud
+    - IBM Cloud Databases for etcd
     - etcd
     - Key-value store
     - Databases for etcd
@@ -233,6 +246,7 @@
   category: IBM Plex® style
   aliases:
     - IBM Cloud
+    - IBM Cloud Databases for DataStax
     - NoSQL database
     - Databases for DataStax
     - blue
@@ -241,6 +255,7 @@
   category: IBM Plex® style
   aliases:
     - IBM Cloud
+    - IBM Cloud Databases for Elasticsearch
     - Cloud
     - Databases for Elasticsearch
     - Elasticsearch
@@ -253,6 +268,7 @@
   aliases:
     - IBM Cloud
     - Cloud
+    - IBM Cloud Databases for Rabbit
     - Databases for Rabbit
     - Rabbit
     - Databases
@@ -263,6 +279,7 @@
   category: IBM Plex® style
   aliases:
     - IBM Cloud
+    - IBM Cloud Databases for PostgreSQL
     - Cloud
     - Databases for PostgreSQL
     - Databases
@@ -275,6 +292,7 @@
   category: IBM Plex® style
   aliases:
     - IBM Cloud
+    - IBM Cloud Databases for EnterpriseDB
     - Cloud
     - Databases for EnterpriseDB
     - Databases
@@ -286,6 +304,7 @@
   category: IBM Plex® style
   aliases:
     - IBM Cloud
+    - IBM Cloud Databases for Redis
     - Cloud
     - Databases for Redis
     - In-memory key value store
@@ -295,8 +314,8 @@
   category: Fill style
   aliases:
     - IBM Cloud
+    - IBM Cloud App Service
     - Cloud
-    - Cloud app service
     - App service
     - magenta
     - purple
@@ -307,6 +326,7 @@
   aliases:
     - Hybrid cloud
     - IBM Cognos
+    - IBM Cognos Analytics for Mobile
     - Cognos
     - Mobile analytics
     - Analytics
@@ -320,6 +340,7 @@
   category: Stroke style
   aliases:
     - IBM Cloud
+    - IBM Cloud Content Delivery Network
     - Cloud
     - Edge servers
     - Edge
@@ -335,6 +356,7 @@
   category: Stroke style
   aliases:
     - IBM Cloud
+    - IBM Cloud DNS services
     - Cloud
     - Connectivity
     - Domain Name System
@@ -351,7 +373,7 @@
   aliases:
     - Cloud
     - Edge computing
-    - Edge application manager
+    - IBM Edge application manager
     - circle
     - data
     - blue
@@ -362,6 +384,7 @@
   aliases:
     - Cloud
     - IBM Cloud
+    - IBM Cloud Internet Services
     - Internet services
     - Edge network
     - Edge network services
@@ -373,6 +396,7 @@
   category: Stroke style
   aliases:
     - Cloud
+    - IBM Cloud Direct Link 2.0
     - IBM Cloud
     - Cloud security
     - Data security
@@ -386,6 +410,7 @@
   category: Stroke style
   aliases:
     - Cloud
+    - IBM Cloud Kubernetes Service
     - IBM Cloud
     - Container orchestration
     - Kubernetes containers
@@ -397,6 +422,7 @@
   category: Stroke style
   aliases:
     - Db2
+    - IBM Db2 for z/OS Data Gate
     - IBM Db2
     - Data management
     - IBM z/OS data management
@@ -412,6 +438,7 @@
   aliases:
     - Cloud
     - IBM Cloud
+    - IBM Cloud Citrix Virtual Apps and Desktops
     - Virtual apps and desktops
     - Virtual desktops
     - Citrix Cloud
@@ -472,6 +499,7 @@
   aliases:
     - Cloud
     - IBM Cloud
+    - IBM Cloud Object Storage
     - Data storage
     - Object Storage
     - magenta
@@ -496,6 +524,7 @@
   aliases:
     - Watson
     - IBM Watson
+    - IBM Maximo Voice Assistant
     - Maximo
     - Voice assistant
     - IoT
@@ -532,7 +561,8 @@
   friendly_name: IBM InfoSphere® Optim Test Data Management and Data Privacy
   category: Stroke style
   aliases:
-    - Cloud
+    - IBM Cloud
+    - IBM InfoSphere Optim Test Data Management and Data Privacy
     - Test data management
     - Data privacy
     - IBM InfoSphere Optim
@@ -559,6 +589,7 @@
   aliases:
     - Cloud
     - IBM Cloud
+    - IBM Cloud Hardware Firewall
     - Hardware firewall
     - Security
     - Firewall
@@ -572,6 +603,7 @@
   category: Stroke style
   aliases:
     - Systems
+    - IBM Db2 ZDevTools extension
     - IBM Z
     - Db2
     - ZDevTools
@@ -610,6 +642,7 @@
   category: Stroke style
   aliases:
     - Hybrid cloud
+    - IBM Cognos Analytics Reporting
     - Web-based report authoring tool
     - Report authoring tool
     - Report authoring
@@ -668,6 +701,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM API Connect Test and Monitor
     - Business
     - Blue
     - Teal
@@ -742,6 +776,7 @@
   category: Stroke style
   aliases:
     - Blockchain
+    - IBM Food Trust Blockchain
     - Magenta
     - Purple
     - Fruit
@@ -799,6 +834,7 @@
   category: Stroke style
   aliases:
     - Systems
+    - IBM CICS
     - IT
     - Infrastructure
     - Blue
@@ -810,12 +846,12 @@
     - Transaction processing
     - Transaction processing and management
     - CICS
-    - IBM CICS
 - name: CICSTXonCloud
   friendly_name: IBM CICS® TX on Cloud
   category: Stroke style
   aliases:
     - Systems
+    - IBM CICS TX on Cloud
     - IT
     - Infrastructure
     - Blue
@@ -973,6 +1009,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud autoscaling
     - Business
     - Blue
     - Teal
@@ -981,7 +1018,6 @@
     - Transform
     - Autoscaling
     - Cloud autoscaling
-    - IBM Cloud autoscaling
     - Cloud environment scaling
     - Agile cloud scaling
     - Automatic cloud scaling
@@ -992,6 +1028,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Code Engine
     - Business
     - Data
     - AI
@@ -1013,6 +1050,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Dedicated Host
     - Business
     - Blue
     - Teal
@@ -1030,6 +1068,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud email delivery service
     - Business
     - Blue
     - Teal
@@ -1048,6 +1087,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Event Management
     - Business
     - Blue
     - Teal
@@ -1070,6 +1110,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Hybrid Link
     - Business
     - Blue
     - Teal
@@ -1095,6 +1136,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Pak for Applications
     - Business
     - Blue
     - Teal
@@ -1123,6 +1165,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Pak for Data
     - Business
     - Blue
     - Teal
@@ -1149,6 +1192,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Pak for Integration
     - Business
     - Blue
     - Teal
@@ -1168,6 +1212,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Pak for Multicloud Management
     - Business
     - Blue
     - Teal
@@ -1194,6 +1239,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Pak for Security
     - Business
     - Blue
     - Teal
@@ -1212,6 +1258,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Pak System
     - Business
     - Blue
     - Teal
@@ -1237,6 +1284,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - Regulatory Accelerator on IBM Cloud Pak for Data
     - Business
     - Purple
     - Blue
@@ -1259,6 +1307,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Schematics
     - Business
     - Blue
     - Teal
@@ -1284,6 +1333,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Transit Gateway
     - Business
     - Blue
     - Teal
@@ -1308,6 +1358,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud VPC
     - Business
     - Magenta
     - Purple
@@ -1324,6 +1375,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IIBM Cloud Virtual Private Cloud (VPC) endpoints
     - Business
     - Magenta
     - Purple
@@ -1348,6 +1400,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Flow Logs for VPC
     - Business
     - Magenta
     - Purple
@@ -1379,6 +1432,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cognos Analytics
     - Business
     - Blue
     - Teal
@@ -1449,6 +1503,7 @@
   category: Stroke style
   aliases:
     - GTS
+    - IBM Db2 Big SQL
     - Global
     - Technology
     - Services
@@ -1879,6 +1934,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Watson IoT Platform Connection Service
     - Line
     - Blue
     - Purple
@@ -1896,6 +1952,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Watson IoT Platform
     - Line
     - Blue
     - Purple
@@ -2052,6 +2109,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Asset Audit
     - Blue
     - Purple
     - Pulley
@@ -2069,6 +2127,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Asset Data Manager
     - Blue
     - Purple
     - Pulley
@@ -2091,6 +2150,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Cycle Counts
     - Blue
     - Purple
     - Briefcase
@@ -2112,6 +2172,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Inspector
     - Purple
     - Blue
     - Data
@@ -2128,6 +2189,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Issues and Returns
     - Purple
     - Blue
     - Briefcase
@@ -2143,6 +2205,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Service Requestor
     - Blue
     - Purple
     - Loud
@@ -2160,6 +2223,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Supervisor
     - Blue
     - Purple
     - Clipboard
@@ -2178,6 +2242,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Technician
     - Purple
     - Blue
     - Wrench
@@ -2197,6 +2262,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Transfers Receipts
     - Blue
     - Purple
     - Briefcase
@@ -2215,6 +2281,7 @@
   aliases:
     - Watson
     - IoT
+    - IBM Maximo Worker Insights
     - Blue
     - Purple
     - Connect
@@ -2263,6 +2330,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Migration Services
     - Business
     - Blue
     - Purple
@@ -2350,6 +2418,7 @@
   aliases:
     - Global
     - Markets
+    - IBM POWER Quick Reference
     - Industries
     - Blue
     - Teal
@@ -2371,6 +2440,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Cloud Private
     - Business
     - Blue
     - Teal
@@ -2421,6 +2491,7 @@
     - Systems
     - IT
     - Infrastructure
+    - IBM Rational Developer for i
     - Blue
     - purple
     - Hexagon
@@ -2446,6 +2517,7 @@
   category: Stroke style
   aliases:
     - Security
+    - IBM Security Access Request
     - Blue
     - Purple
     - Shield
@@ -2457,6 +2529,7 @@
   category: Stroke style
   aliases:
     - Security
+    - IBM Security cases
     - Blue
     - Purple
     - Shield
@@ -2466,6 +2539,7 @@
   category: Stroke style
   aliases:
     - Security
+    - IBM Security Data Explorer
     - Blue
     - Purple
     - Shield
@@ -2479,6 +2553,7 @@
   category: Stroke style
   aliases:
     - Security
+    - IBM Security Services
     - Blue
     - Purple
     - Shield
@@ -2503,6 +2578,7 @@
   category: Stroke style
   aliases:
     - Security
+    - IBM Security Verify
     - Blue
     - Purple
     - Shield
@@ -2517,6 +2593,7 @@
   category: Stroke style
   aliases:
     - Research
+    - IBM Research Self Guidance Tool
     - Blue
     - Teal
     - Person
@@ -2530,6 +2607,7 @@
   category: Stroke style
   aliases:
     - Data
+    - IBM SPSS Modeler Subscription
     - AI
     - Watson
     - Blue
@@ -2543,6 +2621,7 @@
   category: Fill style
   aliases:
     - Data
+    - IBM SPSS Statistics
     - AI
     - Watson
     - Purple
@@ -2591,6 +2670,7 @@
   category: Stroke style
   aliases:
     - Sterling
+    - IBM Sterling Supply Chain
     - Watson
     - Supply
     - Chain
@@ -2606,6 +2686,7 @@
   aliases:
     - Hybrid
     - Cloud
+    - IBM Watson Knowledge Catalog InstaScan
     - Business
     - Cognitive
     - Software
@@ -2620,6 +2701,7 @@
   category: Stroke style
   aliases:
     - Sterling
+    - IBM Sterling Store Engagement 
     - Watson
     - Supply
     - Chain
@@ -2705,6 +2787,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Assistant
     - Data
     - AI
     - Blue
@@ -2720,6 +2803,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Recruitment Adverse Impact Analysis
     - Talent
     - Blue
     - Purple
@@ -2733,6 +2817,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson BrassRing
     - Talent
     - Purple
     - Blue
@@ -2746,6 +2831,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Candidate Assistant
     - Talent
     - Purple
     - Blue
@@ -2762,6 +2848,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Career Coach
     - Talent
     - Purple
     - Blue
@@ -2777,6 +2864,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Db2 Data Management Console
     - Analytics
     - Data
     - AI
@@ -2794,6 +2882,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Discovery
     - Data
     - AI
     - Purple
@@ -2807,6 +2896,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Knowledge Catalog
     - Data
     - AI
     - Blue
@@ -2824,6 +2914,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Kenexa Lead Manager
     - Talent
     - Blue
     - Purple
@@ -2835,6 +2926,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Machine Learning
     - Data
     - AI
     - Blue
@@ -2849,6 +2941,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Kenexa Onboard
     - Talent
     - Blue
     - Purple
@@ -2862,6 +2955,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson OpenScale
     - Data
     - AI
     - Blue
@@ -2875,6 +2969,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson AI Ops
     - Data
     - AI
     - Blue
@@ -2889,6 +2984,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Recruitment
     - Talent
     - Blue
     - Purple
@@ -2901,6 +2997,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Studio
     - Data
     - AI
     - Blue
@@ -2914,6 +3011,7 @@
   category: Stroke style
   aliases:
     - Watson
+    - IBM Watson Talent
     - Talent
     - Blue
     - Purple
@@ -2927,6 +3025,7 @@
   aliases:
     - Watson
     - Talent
+    - IBM Watson Recruitment API
     - Purple
     - Blue
     - Hexagon
@@ -2940,6 +3039,7 @@
   aliases:
     - Watson
     - Talent
+    - IBM Watson Talent Assessment
     - Blue
     - Purple
     - File
@@ -2955,6 +3055,7 @@
   aliases:
     - Watson
     - Talent
+    - IBM Watson Talent Match API
     - Blue
     - Purple
     - Code
@@ -2967,6 +3068,7 @@
   aliases:
     - Watson
     - Talent
+    - IBM Watson Talent Suite
     - Blue
     - Purple
     - Person
@@ -2980,6 +3082,7 @@
   aliases:
     - Watson
     - Talent
+    - IBM Watson Workbench
     - Purple
     - Blue
     - Wrench
@@ -3024,7 +3127,7 @@
     - Systems
     - IT
     - Infrastructure
-    - Z
+    - IBM Z
 - name: DevOpsAnalyze
   friendly_name: IBM DevOps Analyze
   category: Stroke style
@@ -4722,7 +4825,8 @@
   category: Stroke style
   aliases:
     - Sync
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud Image Key Synchronizer
     - Cloud
     - Key
     - Teal
@@ -4733,7 +4837,8 @@
   category: Stroke style
   aliases:
     - Virtualization
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud Data Virtualization
     - Cloud
     - Data
     - Teal
@@ -4808,7 +4913,8 @@
   friendly_name: IBM Cloud® Classic Infrastructure
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud Classic Infrastructure
     - Infrastructure
     - Blue
     - Purple
@@ -4817,7 +4923,8 @@
   friendly_name: IBM Cloud® Functions
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud Functions
     - Functions
     - Blue
     - Teal
@@ -4825,7 +4932,8 @@
   friendly_name: IBM® Cloud Foundry
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud Foundry
     - foundry
     - cloud
     - Blue
@@ -4835,6 +4943,7 @@
   category: Stroke style
   aliases:
     - Power systems
+    - IBM Power Systems Virtual Server Integration
     - virtual
     - Integration
     - Server
@@ -4846,7 +4955,8 @@
   friendly_name: IBM Cloud® HyperSecure DBaaS Selector Tool
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud HyperSecure DBaaS Selector Tool
     - Hyper
     - Secure
     - DBaaS
@@ -4858,7 +4968,7 @@
   friendly_name: IBM Cloud® Bare Metal Server
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud Bare Metal Server
     - bare metal
     - server
     - Magenta
@@ -4868,20 +4978,18 @@
   friendly_name: IBM Cloud® Containers
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud Containers
     - Container
     - Magenta
     - Purple
-    - Blue
 - name: CloudVirtualServerVPC
   friendly_name: IBM Cloud® Virtual Server for VPC
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud Virtual Server for VPC
     - virtual
     - Magenta
     - Purple
-    - Blue
     - server
     - VPC
     - private
@@ -4889,7 +4997,7 @@
   friendly_name: IBM Support Search with Watson®
   category: Stroke style
   aliases:
-    - IBM Watson®
+    - IBM Watson
     - support
     - search
     - magnifying glass
@@ -4901,7 +5009,7 @@
   aliases:
     - inspection
     - workbench
-    - IBM® Maximo®
+    - IBM Maximo
     - eye
     - wrench
     - Purple
@@ -4910,7 +5018,8 @@
   friendly_name: IBM® Maximo® Visual Inspection
   category: Stroke style
   aliases:
-    - IBM® Maximo®
+    - IBM Maximo
+    - IBM Maximo Visual Inspection
     - visual
     - inspection
     - eye
@@ -4931,7 +5040,8 @@
   friendly_name: IBM® Maximo® Mobile
   category: Stroke style
   aliases:
-    - IBM® Maximo®
+    - IBM Maximo
+    - IBM Maximo Mobile
     - mobile
     - hardhat
     - safety glasses
@@ -4942,6 +5052,7 @@
   category: Stroke style
   aliases:
     - passenger
+    - IBM MobileFirst for iOS Passenger Care
     - care
     - customer
     - traveler
@@ -4957,6 +5068,7 @@
   category: Stroke style
   aliases:
     - digital
+    - IBM MobileFirst for iOS Digital Gate
     - gate
     - travel
     - airline
@@ -4971,6 +5083,7 @@
   category: Stroke style
   aliases:
     - travel
+    - IBM MobileFirst for iOS Cabin Care
     - airline
     - transportation
     - airplane
@@ -4985,6 +5098,7 @@
   category: Stroke style
   aliases:
     - travel
+    - IBM MobileFirst for iOS Rapid Board
     - airline
     - transportation
     - airplane
@@ -5002,6 +5116,7 @@
   category: Stroke style
   aliases:
     - schedule
+    - IBM MobileFirst for iOS Assign Tech
     - technician
     - service
     - wrench
@@ -5013,6 +5128,7 @@
   category: Stroke style
   aliases:
     - inspect
+    - IBM MobileFirst for iOS Inspect and Turn
     - turn
     - service
     - maintain
@@ -5026,6 +5142,7 @@
   category: Stroke style
   aliases:
     - turn
+    - IBM MobileFirst for iOS Turn Manager
     - service
     - maintain
     - maintenance
@@ -5039,6 +5156,7 @@
   category: Stroke style
   aliases:
     - transportation
+    - IBM MobileFirst for iOS Aircraft 360
     - travel
     - aircraft
     - airline
@@ -5052,6 +5170,7 @@
   category: Stroke style
   aliases:
     - roster
+    - IBM MobileFirst for iOS Roster
     - list
     - passenger list
     - seating assignment
@@ -5064,6 +5183,7 @@
   category: Stroke style
   aliases:
     - transportation
+    - IBM MobileFirst for iOS Fly Now
     - travel
     - aircraft
     - airline
@@ -5079,6 +5199,7 @@
   category: Stroke style
   aliases:
     - transportation
+    - IBM MobileFirst for iOS Plan Flight
     - travel
     - aircraft
     - airline
@@ -5094,6 +5215,7 @@
   category: Stroke style
   aliases:
     - transportation
+    - IBM MobileFirst for iOS Passenger plus
     - travel
     - passenger
     - traveler
@@ -5107,6 +5229,7 @@
   category: Stroke style
   aliases:
     - transportation
+    - IBM MobileFirst for iOS Ancillary Sales
     - travel
     - passenger
     - traveler
@@ -5124,6 +5247,7 @@
   category: Stroke style
   aliases:
     - gates
+    - IBM MobileFirst for iOS Manage Gates
     - transportation
     - travel
     - agent
@@ -5138,6 +5262,7 @@
   category: Stroke style
   aliases:
     - transportation
+    - IBM MobileFirst for iOS IBM Train Tickets
     - travel
     - transport
     - ticket
@@ -5151,6 +5276,7 @@
   category: Stroke style
   aliases:
     - transportation
+    - IBM MobileFirst for iOS IBM Traveler Care
     - travel
     - traveler
     - customer service
@@ -5164,6 +5290,7 @@
   category: Stroke style
   aliases:
     - transportation
+    - IBM MobileFirst for iOS Today’s Train
     - travel
     - train
     - schedule
@@ -5175,16 +5302,18 @@
   friendly_name: IBM Cloud® Load Balancer (Classic)
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud Load Balancer Classic
     - load
     - balancer
     - Blue
     - Teal
+    - tree
+    - chart
 - name: CloudLoadBalancerVPC
   friendly_name: IBM Cloud® Load Balancer for VPC
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud Load Balancer for VPC
     - load
     - balancer
     - VPC
@@ -5193,12 +5322,14 @@
     - cloud
     - Purple
     - Magenta
-    - Blue
+    - tree
+    - chart
 - name: CloudBlockStorageVPC
   friendly_name: IBM Cloud® Block Storage for VPC
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud Block Storage for VPC
     - block
     - storage
     - VPC
@@ -5207,7 +5338,6 @@
     - cloud
     - Purple
     - Magenta
-    - Blue
 - name: DigitalHealthPassholder
   friendly_name: IBM Digital Health Pass
   category: Fill style
@@ -5246,7 +5376,9 @@
   category: Stroke style
   aliases:
     - storage
-    - IBM Spectrum®
+    - IBM Spectrum storage
+    - cube
+    - hexagon
     - Blue
     - Teal
 - name: SpectrumScale
@@ -5254,7 +5386,7 @@
   category: Stroke style
   aliases:
     - scale
-    - IBM Spectrum®
+    - IBM Spectrum Scale
     - Green
     - Blue
 - name: SpectrumProtect
@@ -5262,7 +5394,7 @@
   category: Stroke style
   aliases:
     - protect
-    - IBM Spectrum®
+    - IBM Spectrum Protect
     - Blue
     - Teal
 - name: SpectrumProtectPlus
@@ -5270,7 +5402,7 @@
   category: Stroke style
   aliases:
     - protect plus
-    - IBM Spectrum®
+    - IBM Spectrum Protect Plus
     - Blue
     - Teal
 - name: SpectrumProtectTools
@@ -5280,7 +5412,9 @@
     - protect
     - tools
     - administrators
-    - IBM Spectrum®
+    - IBM Spectrum Protect Tools for Administrators
+    - hexagon
+    - cogwheel
     - Blue
     - Teal
 - name: SpectrumVirtualize
@@ -5288,8 +5422,12 @@
   category: Stroke style
   aliases:
     - virtualize
-    - IBM Spectrum®
+    - IBM Spectrum Virtualize
     - virtual
+    - server
+    - data base
+    - hexagon
+    - dots
     - Purple
     - Blue
 - name: SpectrumDiscover
@@ -5297,16 +5435,17 @@
   category: Stroke style
   aliases:
     - discover
-    - IBM Spectrum®
-    - Magenta
-    - Blue
+    - IBM Spectrum Discover
+    - hexagon
+    - Purple
 - name: SpectrumStorageInsights
   friendly_name: IBM Spectrum® Storage Insights
   category: Stroke style
   aliases:
     - storage
     - insights
-    - IBM Spectrum®
+    - IBM Spectrum Storage Insights
+    - hexagon
     - Purple
     - Blue
 - name: SpectrumControl
@@ -5314,18 +5453,18 @@
   category: Stroke style
   aliases:
     - control
-    - IBM Spectrum®
-    - Magenta
-    - Blue
+    - IBM Spectrum Control
+    - Purple
+    - hexagon
 - name: SpectrumArchive
   friendly_name: IBM Spectrum® Archive
   category: Stroke style
   aliases:
     - archive
-    - IBM Spectrum®
+    - IBM Spectrum Archive
+    - hexagon
     - Magenta
     - Purple
-    - Blue
 - name: SpectrumCopyDataManagement
   friendly_name: IBM Spectrum® Copy Data Management
   category: Stroke style
@@ -5333,48 +5472,45 @@
     - copy
     - data
     - management
-    - IBM Spectrum®
+    - IBM Spectrum copy data management
+    - hexagon
     - Magenta
-    - Purple
     - Blue
 - name: SpectrumComputing
   friendly_name: IBM Spectrum® Computing
   category: Stroke style
   aliases:
     - computing
-    - IBM Spectrum®
+    - IBM Spectrum computing
     - Magenta
     - Purple
-    - Blue
 - name: SpectrumSymphony
   friendly_name: IBM Spectrum Symphony®
   category: Stroke style
   aliases:
     - symphony
-    - IBM Spectrum®
+    - IBM Spectrum symphony
     - Magenta
-    - Purple
     - Blue
 - name: SpectrumConductor
   friendly_name: IBM Spectrum Conductor®
   category: Stroke style
   aliases:
     - conductor
-    - IBM Spectrum®
+    - IBM Spectrum conductor
+    - hexagon
     - Magenta
-    - Purple
     - Blue
 - name: SpectrumComputingHighPerfAnalytics
   friendly_name: IBM Spectrum® Computing Suite for High Performance Analytics
   category: Stroke style
   aliases:
     - suite
-    - IBM Spectrum®
+    - IBM Spectrum Computing Suite for High Performance Analytics
     - computing
     - high performance
     - analytics
     - Purple
-    - Blue
 - name: SpectrumMPI
   friendly_name: IBM Spectrum® MPI
   category: Stroke style
@@ -5383,10 +5519,10 @@
     - message
     - passing
     - interface
-    - IBM Spectrum®
-    - Magenta
+    - IBM Spectrum MPI
+    - hexagon
+    - Purple
     - Red
-    - Blue
 - name: SpectrumLSF
   friendly_name: IBM Spectrum® LSF
   category: Stroke style
@@ -5394,9 +5530,9 @@
     - LSF
     - workload
     - management
-    - IBM Spectrum®
+    - IBM Spectrum LSF
     - Green
-    - Blue
+    - Teal
 - name: OneView
   friendly_name: OneView Mobile
   category: Stroke style
@@ -5410,7 +5546,8 @@
   friendly_name: IBM® QRadar® User Behavior Analytics
   category: Stroke style
   aliases:
-    - IBM® QRadar®
+    - IBM QRadar
+    - IBM QRadar User Behavior Analytics
     - user
     - behavior
     - analytics
@@ -5421,7 +5558,7 @@
   friendly_name: IBM® QRadar® Use Case Manager
   category: Stroke style
   aliases:
-    - IBM® QRadar®
+    - IBM QRadar Use Case Manager
     - use
     - case
     - manager
@@ -5432,7 +5569,8 @@
   friendly_name: IBM Security™ QRadar® Analyst Workflow
   category: Stroke style
   aliases:
-    - IBM® QRadar®
+    - IBM QRadar
+    - IBM Security QRadar Analyst Workflow
     - analyst
     - workflow
     - security
@@ -5478,7 +5616,8 @@
   friendly_name: IBM Watson® Knowledge Studio
   category: Stroke style
   aliases:
-    - IBM Watson®
+    - IBM Watson
+    - IBM Watson Knowledge Studio
     - knowledge
     - studio
     - Purple
@@ -5487,7 +5626,8 @@
   friendly_name: IBM Watson® Tone Analyzer Service
   category: Stroke style
   aliases:
-    - IBM Watson®
+    - IBM Watson
+    - IBM Watson Tone Analyzer Service
     - tone
     - analyzer
     - service
@@ -5497,7 +5637,8 @@
   friendly_name: IBM Watson® Visual Recognition
   category: Stroke style
   aliases:
-    - IBM Watson®
+    - IBM Watson
+    - IBM Watson Visual Recognition
     - visual
     - recognition
     - Purple
@@ -5506,7 +5647,8 @@
   friendly_name: IBM Watson® Natural Language Classifier Service
   category: Stroke style
   aliases:
-    - IBM Watson®
+    - IBM Watson
+    - IBM Watson Natural Language Classifier Service
     - natural language
     - classifer
     - service
@@ -5516,7 +5658,8 @@
   friendly_name: IBM Watson® Natural Language Understanding Service
   category: Stroke style
   aliases:
-    - IBM Watson®
+    - IBM Watson
+    - IBM Watson Natural Language Understanding Service
     - natural language
     - understanding
     - service
@@ -5526,7 +5669,8 @@
   friendly_name: IBM Cloud® Gateway Appliances
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud Gateway Appliances
     - gateway
     - appliance
     - Teal
@@ -5535,17 +5679,19 @@
   friendly_name: IBM® InfoSphere® DataStage® Edition
   category: Stroke style
   aliases:
-    - IBM® InfoSphere®
-    - DataStage®
+    - IBM InfoSphere
+    - DataStage
+    - IBM InfoSphere DataStage Edition
     - Teal
     - Blue
 - name: CloudOpenShiftContainerStorage
   friendly_name: Red Hat® OpenShift® on IBM Cloud® - Container Storage
   category: Stroke style
   aliases:
-    - Red Hat®
-    - OpenShift®
-    - IBM Cloud®
+    - Red Hat
+    - OpenShift
+    - IBM Cloud
+    - Red Hat OpenShift on IBM Cloud Container Storage
     - Container
     - Storage
     - Purple
@@ -5554,7 +5700,8 @@
   friendly_name: IBM Cloud® HPCS Router Operator
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud HPCS Router Operator
     - Router
     - Operator
     - HPCS
@@ -5564,7 +5711,8 @@
   friendly_name: IBM Cloud® Container Registry
   category: Stroke style
   aliases:
-    - IBM Cloud®
+    - IBM Cloud
+    - IBM Cloud Container Registry
     - Container
     - Registry
     - Teal
@@ -5807,6 +5955,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM MaaS360 Admin
     - person
     - administrator
 - name: AgroPad
@@ -5871,6 +6020,7 @@
   aliases:
     - Blue
     - Purple
+    - IBM Watson Talent Frameworks
     - diagram
 - name: CloudPakWatsonAIOps
   friendly_name: IBM Cloud Pak® for Watson AIOps
@@ -5878,6 +6028,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM Cloud Pak for Watson AIOps
     - hexagon
     - EKG
     - cardiogram
@@ -5899,6 +6050,7 @@
   aliases:
     - Magenta
     - Purple
+    - IBM Cloud Monitoring
     - EKG
     - cardiogram
     - cardiograph
@@ -5909,6 +6061,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM Cloud Log Analysis
     - text
 - name: CloudActivityTracker
   friendly_name: IBM Cloud® Activity Tracker
@@ -5916,6 +6069,7 @@
   aliases:
     - Green
     - Teal
+    - IBM Cloud Activity Tracker
     - check
     - checkmark
 - name: QuantumComposer
@@ -5957,6 +6111,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Pak for Network Automation
     - EKG
     - cardiogram
     - cardiograph
@@ -5975,6 +6130,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM OpenPages with Watson on Cloud
     - Watson
     - shield
     - list
@@ -5983,8 +6139,10 @@
   friendly_name: IBM Cloud® Block Storage Snapshots for VPC
   category: Stroke style
   aliases:
-    - Teal
-    - Blue
+    - Magenta
+    - Purple
+    - IBM Cloud Block Storage Snapshots for VPC
+    - cube
     - rays
 - name: CloudVPCFileStorage
   friendly_name: IBM Cloud® Block Storage for VPC
@@ -5992,6 +6150,7 @@
   aliases:
     - Magenta
     - Purple
+    - IBM Cloud Block Storage for VPC
     - file
 - name: CloudQuantumServices
   friendly_name: IBM Quantum Services
@@ -6019,10 +6178,11 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Event Endpoint Management
     - cloud
     - event
     - endpoint
-    - IBM Cloud Pak®
+    - IBM Cloud Pak
     - integration
     - catalog
     - APIs
@@ -6032,6 +6192,7 @@
   aliases:
     - Magenta
     - Purple
+    - IBM Partner Ecosystem Hub
     - spiral
     - orchestrate
 - name: CloudHPCCluster
@@ -6040,6 +6201,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud HPC Cluster
     - high
     - performance
     - computing
@@ -6067,7 +6229,7 @@
   aliases:
     - Green
     - Teal
-    - N
+    - IBM Netezza Performance Server
 - name: CognitiveEnterpriseDataPlatform
   friendly_name: IBM Cognitive Enterprise Data Platform
   category: Fill style
@@ -6083,6 +6245,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM Cloud API Gateway
     - arrow
     - gateway
     - API
@@ -6093,6 +6256,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM z/OSMF CFRM Policy Editor
     - Z system
     - OS
     - coupling facilities
@@ -6104,6 +6268,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM z/OSMF Software Update
     - Z system
     - OS
     - software
@@ -6117,6 +6282,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM z/OS Management Services Catalog
     - catalog
     - services
     - mainframe
@@ -6138,6 +6304,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM RPA
     - process
     - automation
     - IT
@@ -6149,6 +6316,7 @@
   aliases:
     - Blue
     - Purple
+    - IBM RPA Launcher
     - process
     - automation
     - IT
@@ -6161,6 +6329,7 @@
   aliases:
     - Green
     - Teal
+    - IBM RPA Studio
     - process
     - automation
     - IT
@@ -6174,6 +6343,7 @@
   aliases:
     - Magenta
     - Red
+    - IBM RPA Vault
     - process
     - automation
     - IT
@@ -6187,6 +6357,7 @@
   aliases:
     - Red
     - Purple
+    - IBM RPA Control Center
     - process
     - automation
     - IT
@@ -6197,12 +6368,12 @@
   category: Stroke style
   aliases:
     - IoT
+    - IBM TRIRIGA
     - Insights
     - Automation
     - Building
     - Architecture
     - Facility
-    - IBM Trigiga®
     - Blue
     - Purple
 - name: TRIRIGAAssistant
@@ -6211,6 +6382,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Assistant
     - AI
     - chatbot
 - name: TRIRIGAConfigure
@@ -6219,6 +6391,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Configure
     - customize
     - build
     - modify
@@ -6233,6 +6406,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Facility Condition
     - facilities
     - facility
     - building
@@ -6244,6 +6418,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Facility Sustainability
     - facilities
     - facility
     - sustainability
@@ -6258,6 +6433,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Indoor Maps
     - ESRI
     - ArcGIS
     - floor plan
@@ -6269,6 +6445,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Insights
     - space management
     - IoT
     - sensors
@@ -6279,6 +6456,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Lease Accounting
     - lease
     - compliance
     - standards
@@ -6291,6 +6469,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Lease Administration
     - property
     - management
     - penalties
@@ -6301,6 +6480,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Maintenance
     - efficiency
     - break-fix
     - preventive
@@ -6311,6 +6491,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Metrics
     - workplace
     - assets
     - KPIs
@@ -6321,6 +6502,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Projects
     - Cycle time
     - budget
     - over-runs
@@ -6332,6 +6514,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Projects Hub
     - cost reduction
     - returns
     - data
@@ -6342,6 +6525,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Reporting
     - graphs
     - models
     - real-time
@@ -6352,6 +6536,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Reserve
     - resource
     - scheduling
     - coordinate
@@ -6363,6 +6548,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Services
     - service
     - automation
     - request management
@@ -6372,6 +6558,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM TRIRIGA Transactions
     - decision support
     - renewals
     - lease
@@ -6383,6 +6570,7 @@
   aliases:
     - Purple
     - Magenta
+    - IBM Spectrum Fusion
     - storage
     - software storage
     - monitor remote cloud
@@ -6433,6 +6621,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Cloud Infrastructure Center
     - IaaS
     - automation
     - IBM Z®
@@ -6458,6 +6647,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Micromedex Drug Interactions
     - contraindication
     - prescription
     - drug therapy
@@ -6469,6 +6659,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Micromedex Drug Ref
     - medication
     - prescription
     - interactions
@@ -6480,6 +6671,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Micromedex Pediatrics
     - pediatric
     - drug therapy
     - drug management
@@ -6491,6 +6683,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Micromedex NeoFax
     - neonatal
     - drug therapy
     - vulnerable patient
@@ -6500,6 +6693,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Micromedex IV Comp
     - IV medication
     - interaction
     - patient safety
@@ -6515,6 +6709,7 @@
   aliases:
     - Purple
     - Magenta
+    - IBM Cloud Backup Service for VPC
     - managed services
     - backup
     - virtual private cloud
@@ -6527,6 +6722,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Cloud Mass Data Migration
     - data transfer
     - data storage
     - data security
@@ -6538,6 +6734,7 @@
   aliases:
     - Purple
     - Magenta
+    - IBM Cloud Bare Metal Servers for VPC
     - virtual private cloud
     - bare metal
     - performance
@@ -6552,6 +6749,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Kubernetes Service with Hyper Protect
     - cloud
     - container
     - security
@@ -6561,6 +6759,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Hyper Protect Virtual Servers
     - mission-critical
     - protection
     - security
@@ -6573,6 +6772,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Hyper Protect DBaaS
     - enterprise
     - database
     - maintain
@@ -6586,6 +6786,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Hyper Protect Crypto Services
     - key management
     - encryption
     - hardware security module
@@ -6629,6 +6830,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Multicloud Key Orchestrator
     - key management
     - orchestration
     - enterprise
@@ -6643,6 +6845,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Security Groups
     - IP filter
     - incoming
     - outgoing
@@ -6655,6 +6858,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Db2 Administration Foundation for z/OS
     - DevOps
     - cloud
     - cognitive
@@ -6678,6 +6882,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Gate Keeper
     - fraud analysis
     - analyst
     - fraud detection
@@ -6701,12 +6906,13 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Event Notifications
     - event
     - routing
     - centralized
     - event source
     - event destination
-    - IBM Cloud®
+    - IBM Cloud
     - integration
     - services
 - name: TaskMiningAgent
@@ -6772,6 +6978,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM WebSphere Liberty
     - Java
     - runtime
     - environment
@@ -6811,6 +7018,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Engineering Lifecycle Management
     - engineering
     - lifecycle
     - collaboration
@@ -6827,6 +7035,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Engineering Requirements DOORS Next
     - engineering
     - requirements
     - DOORS
@@ -6844,6 +7053,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Engineering Workflow Management
     - engineering
     - management
     - workflow
@@ -6858,6 +7068,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Engineering Test Management
     - management
     - engineering
     - test
@@ -6873,6 +7084,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Engineering Systems Design Rhapsody
     - systems design
     - rhapsody
     - engineering
@@ -6888,6 +7100,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Engineering Systems Design Rhapsody Model Manager
     - systems design
     - rhapsody
     - engineering
@@ -6955,10 +7168,10 @@
   category: Stroke style
   aliases:
     - Purple
-    - Blue
+    - Magenta
+    - IBM Cloud Virtual Server Classic
     - virtual machine
     - server
-    - IBM Cloud®
     - IBM Software
 - name: DevSecOps
   friendly_name: IBM® DevSecOps
@@ -6966,8 +7179,8 @@
   aliases:
     - Purple
     - Blue
-    - DevSecOps
-    - IBM Cloud®
+    - IBM DevSecOps
+    - IBM Cloud
     - IBM Software
     - development
     - security
@@ -7008,7 +7221,7 @@
     - Blue
     - Teal
     - business automation
-    - IBM Cloud Pak® for Business Automation
+    - IBM Cloud Pak for Business Automation
     - hexagon
 - name: FileNetContentManager
   friendly_name: IBM FileNet® Content Manager
@@ -7017,7 +7230,8 @@
     - Blue
     - Teal
     - business automation
-    - IBM Cloud Pak® for Business Automation
+    - IBM Cloud Pak for Business Automation
+    - IBM FileNet Content Manager
     - Business object management
     - Events and subscriptions
     - Lifecycles
@@ -7043,7 +7257,8 @@
     - archive
     - search
     - restore
-    - IBM Cloud Pak® for Business Automation
+    - IBM Cloud Pak for Business Automation
+    - IBM Content Collector for SAP
     - Business process management
     - folder
     - arrow
@@ -7054,7 +7269,8 @@
     - Blue
     - Teal
     - business automation
-    - IBM Cloud Pak® for Business Automation
+    - IBM Cloud Pak for Business Automation
+    - IBM Business Automation Workflow
     - enterprise workflow
     - virtual machine
     - VM
@@ -7068,9 +7284,10 @@
   aliases:
     - Blue
     - Teal
+    - IBM Operational Decision Manager
     - business policy
     - business rules
-    - IBM Cloud Pak® for Business Automation
+    - IBM Cloud Pak for Business Automation
     - diamond
     - arrows
 - name: EnterpriseRecords
@@ -7079,11 +7296,12 @@
   aliases:
     - Blue
     - Teal
+    - IBM Enterprise Records
     - government records
     - corporate records
     - record management
     - metadata
-    - IBM Cloud Pak® for Business Automation
+    - IBM Cloud Pak for Business Automation
     - folder
     - lock
 - name: ProcessMining
@@ -7092,10 +7310,11 @@
   aliases:
     - Blue
     - Teal
+    - IBM Process Mining
     - business process
     - process improvement
     - process automation
-    - IBM Cloud Pak® for Business Automation
+    - IBM Cloud Pak for Business Automation
     - pickaxe
     - server
 - name: AutomationDocumentProcessing
@@ -7104,11 +7323,12 @@
   aliases:
     - Blue
     - Teal
+    - IBM Automation Document Processing
     - extract data
     - machine learning
     - ML
     - document processing
-    - IBM Cloud Pak® for Business Automation
+    - IBM Cloud Pak for Business Automation
     - file
     - document
 - name: AutomationDecisionServices
@@ -7117,6 +7337,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM Automation Decision Services
     - decision automation
     - business decision
     - cog wheel
@@ -7127,6 +7348,7 @@
   aliases:
     - Blue
     - Teal
+    - IBM Business Automation Insights
     - visual insights
     - AI
     - data lake
@@ -7134,7 +7356,7 @@
     - event processing
     - ML
     - machine learning
-    - IBM Cloud Pak® for Business Automation
+    - IBM Cloud Pak for Business Automation
     - ui
     - dashboard
 - name: Dashboards
@@ -7160,6 +7382,8 @@
   category: Stroke style
   aliases:
     - Blue
+    - Carbon for IBMdotcom
+    - Carbon for IBM dot com
     - Teal
     - open source design system
     - ui
@@ -7171,6 +7395,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Watson Orders
     - automated ordering
     - customer experience
     - order accuracy
@@ -7196,6 +7421,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Telehealth
     - telemedicine
     - telehealth
     - mobile
@@ -7217,6 +7443,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM CICS VSAM Recovery for z/OS
     - data
     - recovery
     - CICS
@@ -7228,6 +7455,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM CICS VSAM Transparency for z/OS
     - data
     - migration
     - CICS
@@ -7239,6 +7467,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM CICS Performance Analyzer for z/OS
     - monitor
     - system application
     - performance
@@ -7251,6 +7480,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM CICS Interdependency Analyzer for z/OS
     - relationship
     - dependency
     - CICS
@@ -7263,6 +7493,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM CICS Configuration Manager for z/OS
     - operations
     - operational efficiency
     - service agility
@@ -7275,6 +7506,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Z Open Automation Utilities
     - Linux
     - UNIX
     - automation
@@ -7288,6 +7520,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Data Engine
     - read data
     - analyze data
     - store data
@@ -7299,6 +7532,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Virtual Dev and Test for z/OS
     - z/OS
     - virtual test
     - code
@@ -7310,6 +7544,7 @@
   category: Stroke style
   aliases:
     - Blue
+    - IBM Hyper Protect Container Runtime
     - container
     - cloud
     - security
@@ -7329,6 +7564,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Multicloud Mesh
     - scalable
     - secure
     - hybrid multicloud
@@ -7358,6 +7594,7 @@
   aliases:
     - Teal
     - Blue
+    - IBM Cloud Privileged Access Gateway
     - managed service
     - remote administration
     - bastion gateway
@@ -7373,6 +7610,7 @@
     - Teal
     - Blue
     - IBM Cloud
+    - IBM Cloudant
     - database as a service
     - NoSQL
     - document
@@ -7387,6 +7625,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Maximo Manage
     - rocket
     - growth
     - asset management
@@ -7402,6 +7641,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Maximo Monitor
     - visualize asset data
     - asset maintenance
     - AI
@@ -7415,6 +7655,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Maximo Health
     - health
     - asset
     - replacement planning
@@ -7426,6 +7667,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Maximo Predict
     - predict
     - manage
     - failure
@@ -7441,6 +7683,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Maximo Safety
     - safe environment
     - safety
     - risk assessment
@@ -7457,6 +7700,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Maximo Assist
     - AI
     - AR
     - augmented reality
@@ -7474,6 +7718,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Digital Twin Exchange
     - digital twin
     - exchange
     - purchase
@@ -7492,6 +7737,7 @@
   aliases:
     - Purple
     - Blue
+    - IBM Maximo MRO Inventory Optimization
     - inventory
     - optimization
     - statistical analysis
