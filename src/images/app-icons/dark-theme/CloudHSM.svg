@@ -1,0 +1,32 @@
+<svg id="ed03f247-e582-4b3c-9de2-1eac4009c369" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a6883689-f0cf-4ce0-a5b1-a29a41869f35" x1="-646.955" y1="-7088.359" x2="-639.955" y2="-7088.359" gradientTransform="translate(654.455 7102.859)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.137"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="aa2148e7-c2da-416b-a3c8-ab2ebc2df9d1" x1="-652.07" y1="-7100.219" x2="-641.07" y2="-7100.219" gradientTransform="translate(664.07 7111.219)" xlink:href="#a6883689-f0cf-4ce0-a5b1-a29a41869f35"/>
+    <mask id="ab29531f-155f-473a-aba0-43580e814582" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <path d="M20,22V20H12V12H10v8H6a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2H20V26H6V22Z" fill="#fff"/>
+          <rect x="7.5" y="12.5" width="7" height="4" transform="translate(25.5 3.5) rotate(90)" fill="url(#a6883689-f0cf-4ce0-a5b1-a29a41869f35)"/>
+          <path d="M6,10V6H26V8h2V6a2,2,0,0,0-2-2H6A2,2,0,0,0,4,6v4a2,2,0,0,0,2,2H22V10Z" fill="#fff"/>
+        </g>
+        <rect x="12" y="9" width="11" height="4" transform="translate(35 22) rotate(180)" fill="url(#aa2148e7-c2da-416b-a3c8-ab2ebc2df9d1)"/>
+      </g>
+    </mask>
+    <linearGradient id="fa650bfa-e375-4955-abc6-fcd217da200c" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" fill="none"/>
+  <g>
+    <g mask="url(#ab29531f-155f-473a-aba0-43580e814582)">
+      <rect width="32" height="32" fill="url(#fa650bfa-e375-4955-abc6-fcd217da200c)"/>
+    </g>
+    <circle cx="9" cy="24" r="1" fill="#f4f4f4"/>
+    <circle cx="9" cy="8" r="1" fill="#f4f4f4"/>
+    <path d="M28,21.142V10H23v2h3v2H23v2h3v5.142a4,4,0,1,0,2,0ZM27,27a2,2,0,1,1,2-2A2,2,0,0,1,27,27Z" fill="#f4f4f4"/>
+  </g>
+</svg>
