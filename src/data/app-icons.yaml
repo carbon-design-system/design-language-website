@@ -4482,7 +4482,7 @@
     - Message
     - Messaging
 - name: '119'
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Purple
@@ -4680,7 +4680,7 @@
     - radial
     - detect
 - name: Security-001
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Security
@@ -4696,7 +4696,7 @@
     - Badge
     - Partner
 - name: Security-002
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Security
@@ -4714,7 +4714,7 @@
     - Approvals
     - Password
 - name: Security-003
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Security
@@ -4733,7 +4733,7 @@
     - Network
     - Directory
 - name: Security-004
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Security
@@ -4746,7 +4746,7 @@
     - New
     - Create
 - name: Security-005
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Security
@@ -4764,7 +4764,7 @@
     - Closed
     - Slider
 - name: Security-006
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Security
@@ -4777,7 +4777,7 @@
     - Favorite
     - Like
 - name: Security-007
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Security
@@ -4795,7 +4795,7 @@
     - Refresh
     - Convert
 - name: Security-008
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Security
@@ -4808,7 +4808,7 @@
     - Open
     - Search
 - name: Security-009
-  friendly_name: Unassigned
+  friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Security
