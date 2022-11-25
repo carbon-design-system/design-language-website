@@ -610,6 +610,7 @@
     - purple
     - blue
     - hexagon
+    - DevOps
     - server
     - data base
 - name: WCG
@@ -3159,6 +3160,7 @@
     - Purple
     - Hexagon
     - Developer
+    - DevOps
     - Build
 - name: ZOpenEditor
   friendly_name: IBM Z® Open Editor
