@@ -599,11 +599,11 @@
     - bricks
     - wall
 - name: DevOpsDb2DevTools
-  friendly_name: IBM Db2® ZDevTools extension
+  friendly_name: IBM Db2® for z/OS® Developer Extension
   category: Stroke style
   aliases:
     - Systems
-    - IBM Db2 ZDevTools extension
+    - IBM Db2 for z/OS Developer Extension
     - IBM Z
     - Db2
     - ZDevTools
@@ -3129,11 +3129,12 @@
     - Infrastructure
     - IBM Z
 - name: DevOpsAnalyze
-  friendly_name: IBM DevOps Analyze
+  friendly_name: IBM® Application Discovery and Delivery Intelligence
   category: Stroke style
   aliases:
     - Systems
     - IT
+    - IBM Application Discovery and Delivery Intelligence
     - Infrastructure
     - Z
     - Blue
@@ -3145,26 +3146,13 @@
     - Analytics
     - Graph
     - Bar
-- name: DevOpsBuild
-  friendly_name: IBM DevOps Build
-  category: Stroke style
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - Z
-    - Blue
-    - Purple
-    - Hexagon
-    - DevOps
-    - Developer
-    - Build
 - name: DevOpsCICDPipeline
-  friendly_name: IBM DevOps CI/CD Pipeline
+  friendly_name: IBM Wazi Developer for Red Hat® CodeReady Workspaces
   category: Stroke style
   aliases:
     - Systems
     - IT
+    - IBM Wazi Developer for Red Hat CodeReady Workspaces
     - Infrastructure
     - Z
     - Blue
@@ -3173,11 +3161,12 @@
     - Developer
     - Build
 - name: DevOpsCode
-  friendly_name: IBM DevOps Code
+  friendly_name: IBM Z® Open Editor
   category: Stroke style
   aliases:
     - Systems
     - IT
+    - IBM Z Open Editor
     - Infrastructure
     - Z
     - Blue
@@ -3188,11 +3177,12 @@
     - Build
     - Code
 - name: DevOpsDebug
-  friendly_name: IBM DevOps Debug
+  friendly_name: IBM Z® Open Debug
   category: Stroke style
   aliases:
     - Systems
     - IT
+    - IBM Z Open Debug
     - Infrastructure
     - Z
     - Blue
@@ -3203,27 +3193,13 @@
     - Build
     - Bug
     - Insect
-- name: DevOpsDeploy
-  friendly_name: IBM DevOps Deploy
-  category: Stroke style
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - Z
-    - Blue
-    - Purple
-    - Hexagon
-    - DevOps
-    - Developer
-    - Build
-    - Arrow
 - name: DevOpsDeveloperForZOS
-  friendly_name: IBM DevOps Developer for z/OS®
+  friendly_name: IBM® Developer for z/OS®
   category: Stroke style
   aliases:
     - Systems
     - IT
+    - IBM Developer for z/OS
     - Infrastructure
     - Z
     - Blue
@@ -3232,39 +3208,8 @@
     - DevOps
     - Developer
     - Build
-- name: DevOpsMonitor
-  friendly_name: IBM DevOps Monitor
-  category: Stroke style
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - Z
-    - Blue
-    - Purple
-    - Hexagon
-    - DevOps
-    - Developer
-    - Build
-    - Pulse
-- name: DevOpsPlan
-  friendly_name: IBM DevOps Plan
-  category: Stroke style
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - Z
-    - Blue
-    - Purple
-    - Hexagon
-    - DevOps
-    - Developer
-    - Build
-    - Time
-    - Clock
 - name: DevOpsProvision
-  friendly_name: IBM DevOps Provision
+  friendly_name: IBM Z® Development and Test Environment
   category: Stroke style
   aliases:
     - Systems
@@ -3277,28 +3222,13 @@
     - Developer
     - DevOps
     - Build
-- name: DevOpsRelease
-  friendly_name: IBM DevOps Release
-  category: Stroke style
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - Z
-    - Blue
-    - Purple
-    - Hexagon
-    - Developer
-    - DevOps
-    - Build
-    - Upload
-    - Arrow
 - name: DevOpsTest
-  friendly_name: IBM DevOps Test
+  friendly_name: IBM Z® Open Test
   category: Stroke style
   aliases:
     - Systems
     - IT
+    - IBM Z Open Test
     - Infrastructure
     - Z
     - Blue
@@ -6094,7 +6024,7 @@
     - computer
     - computing
 - name: DevOpsWaziAnalyze
-  friendly_name: IBM Wazi Analyze
+  friendly_name: IBM® Wazi Analyze
   category: Stroke style
   aliases:
     - Purple
