@@ -598,7 +598,7 @@
     - lock
     - bricks
     - wall
-- name: DevOpsDb2DevTools
+- name: Db2ForZOSDeveloperExtension
   friendly_name: IBM Db2® for z/OS® Developer Extension
   category: Stroke style
   aliases:
@@ -3128,7 +3128,7 @@
     - IT
     - Infrastructure
     - IBM Z
-- name: DevOpsAnalyze
+- name: ApplicationDiscoveryAndDeliveryIntelligence
   friendly_name: IBM® Application Discovery and Delivery Intelligence
   category: Stroke style
   aliases:
@@ -3146,7 +3146,7 @@
     - Analytics
     - Graph
     - Bar
-- name: DevOpsCICDPipeline
+- name: WaziDeveloperForRedHatCodeReadyWorkspaces
   friendly_name: IBM Wazi Developer for Red Hat® CodeReady Workspaces
   category: Stroke style
   aliases:
@@ -3160,7 +3160,7 @@
     - Hexagon
     - Developer
     - Build
-- name: DevOpsCode
+- name: ZOpenEditor
   friendly_name: IBM Z® Open Editor
   category: Stroke style
   aliases:
@@ -3176,7 +3176,7 @@
     - Developer
     - Build
     - Code
-- name: DevOpsDebug
+- name: ZOpenDebug
   friendly_name: IBM Z® Open Debug
   category: Stroke style
   aliases:
@@ -3193,7 +3193,7 @@
     - Build
     - Bug
     - Insect
-- name: DevOpsDeveloperForZOS
+- name: DeveloperForZOS
   friendly_name: IBM® Developer for z/OS®
   category: Stroke style
   aliases:
@@ -3208,7 +3208,7 @@
     - DevOps
     - Developer
     - Build
-- name: DevOpsProvision
+- name: ZDevelopmentAndTestEnvironment
   friendly_name: IBM Z® Development and Test Environment
   category: Stroke style
   aliases:
@@ -3222,7 +3222,7 @@
     - Developer
     - DevOps
     - Build
-- name: DevOpsTest
+- name: ZOpenTest
   friendly_name: IBM Z® Open Test
   category: Stroke style
   aliases:
@@ -6023,7 +6023,7 @@
     - qubit
     - computer
     - computing
-- name: DevOpsWaziAnalyze
+- name: WaziAnalyze
   friendly_name: IBM® Wazi Analyze
   category: Stroke style
   aliases:
