@@ -847,11 +847,11 @@
     - Transaction processing and management
     - CICS
 - name: CICSTXonCloud
-  friendly_name: IBM CICS® TX on Cloud
+  friendly_name: IBM® CICS® TX
   category: Stroke style
   aliases:
     - Systems
-    - IBM CICS TX on Cloud
+    - IBM CICS TX
     - IT
     - Infrastructure
     - Blue
@@ -7187,18 +7187,6 @@
     - operations
     - hexagon
     - shield
-- name: CloudTraining
-  friendly_name: IBM Center for Cloud Training
-  category: Stroke style
-  aliases:
-    - Teal
-    - Blue
-    - cloud training
-    - education
-    - virtual training
-    - IBM Cloud®
-    - student
-    - graduate
 - name: TravelIBM
   friendly_name: Travel@IBM
   category: Stroke style
@@ -7752,3 +7740,232 @@
     - arrow
     - progress
     - growth
+- name: CloudDataSecurityBroker
+  friendly_name: IBM Cloud® Data Security Broker
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Cloud Data Security Broker
+    - lock
+    - server
+    - cloud
+    - data security
+    - enterprise workloads
+    - field-level encryption
+    - masking
+    - audit
+- name: Db2Mirrorfori
+  friendly_name: IBM® Db2® Mirror for 1
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Db2 Mirror for 1
+    - IBM Db2 Mirror for one
+    - RTO
+    - recovery time objective
+    - RPO
+    - recovery point objective
+    - continuous availability
+    - hexagon
+    - Db2
+    - database
+    - mirror
+    - replicate
+- name: Db2Warehouse
+  friendly_name: IBM® Db2® Warehouse
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Db2 Warehouse
+    - cloud
+    - hexagon
+    - enterprise AI
+    - data warehouse
+    - machine learning
+    - analytics
+    - operational analytics
+    - hybrid cloud
+- name: ContinuousDelivery
+  friendly_name: IBM Cloud® Continuous Delivery
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Cloud Continuous Delivery
+    - cloud
+    - open 
+    - toolchain
+    - develop 
+    - automate
+    - deploy
+    - application
+- name: AnalyticsEngine
+  friendly_name: IBM Cloud® Analytics Engine
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Cloud Analytics Engine
+    - analytics at scale
+    - gear
+    - Apache Hadoop
+    - Apache Spark
+- name: CICSTransactionGateway
+  friendly_name: IBM® CICS® Transaction Gateway
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM CICS Transaction Gateway
+    - systems
+    - connector
+    - enterprise
+    - modernize
+    - application
+    - Windows
+    - Linux
+    - UNIX
+- name: CloudAppID
+  friendly_name: IBM Cloud® App ID
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Cloud App ID
+    - authentication
+    - authenticate
+    - web app
+    - mobile app
+    - social
+    - user ID
+    - identification
+    - service
+    - SaaS
+- name: ContentServices
+  friendly_name: IBM® Content Services
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Content Services
+    - business automation
+    - content management
+    - SaaS
+    - integration
+    - governance
+    - retention
+    - compliance
+    - data privacy
+    - AWS
+- name: CloudForEducation
+  friendly_name: IBM Cloud® for Education
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Cloud for Education
+    - infrastructure
+    - compute
+    - research
+    - student
+    - graduate
+    - mortar board
+    - cloud
+    - academic
+- name: IPSecVPN
+  friendly_name: IPSec VPN
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - cloud
+    - security
+    - VPN
+    - virtual private network
+    - IaaS
+    - connectivity
+    - encryption
+    - SSL
+    - PPTP
+- name: Omegamon
+  friendly_name: IBM Z® OMEGAMON®
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Z OMEGAMON
+    - zAIOps
+    - outage
+    - alert
+    - operations
+    - fix
+- name: CloudSecretsManager
+  friendly_name: IBM Cloud® Secrets Manager
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Cloud Secrets Manager
+    - cloud
+    - security
+    - secrets
+    - vault
+    - safe
+    - enterprise
+    - lease
+    - open source
+- name: Toolchain
+  friendly_name: IBM® Toolchain
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - IBM Toolchain
+    - DevOps
+    - applications
+    - build
+    - test
+    - deploy
+    - tool
+    - wrench
+    - chain
+    - cloud
+    - software
+- name: DevOpsUnassigned1
+  friendly_name: Unassigned DevOps
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - DevOps
+- name: DevOpsUnassigned2
+  friendly_name: Unassigned DevOps
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - DevOps
+- name: DevOpsUnassigned3
+  friendly_name: Unassigned DevOps
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - DevOps
+- name: DevOpsUnassigned4
+  friendly_name: Unassigned DevOps
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - DevOps
+- name: DevOpsUnassigned5
+  friendly_name: Unassigned DevOps
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - DevOps
