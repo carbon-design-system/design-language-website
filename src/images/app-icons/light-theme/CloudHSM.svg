@@ -1,0 +1,31 @@
+<svg id="a9e79b4b-df4c-41f9-bf87-98a6430cd131" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a94afa18-a54c-4343-8954-e765a2538777" x1="-706.955" y1="-7148.359" x2="-699.955" y2="-7148.359" gradientTransform="translate(714.455 7162.859)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.137"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="f52bb8d5-e9d0-4986-9369-f12d63bc2e8b" x1="-772.07" y1="-7100.219" x2="-761.07" y2="-7100.219" gradientTransform="translate(784.07 7111.219)" xlink:href="#a94afa18-a54c-4343-8954-e765a2538777"/>
+    <mask id="abcc1ea0-a989-4de6-9aef-1c3ceebbeea7" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <path d="M20,22V20H12V12H10v8H6a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2H20V26H6V22Z" fill="#fff"/>
+          <rect x="7.5" y="12.5" width="7" height="4" transform="translate(25.5 3.5) rotate(90)" fill="url(#a94afa18-a54c-4343-8954-e765a2538777)"/>
+          <path d="M6,10V6H26V8h2V6a2,2,0,0,0-2-2H6A2,2,0,0,0,4,6v4a2,2,0,0,0,2,2H22V10Z" fill="#fff"/>
+        </g>
+        <rect x="12" y="9" width="11" height="4" transform="translate(35 22) rotate(180)" fill="url(#f52bb8d5-e9d0-4986-9369-f12d63bc2e8b)"/>
+      </g>
+    </mask>
+    <linearGradient id="f1e5a495-5ed5-4e32-a912-b4440a39b260" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#abcc1ea0-a989-4de6-9aef-1c3ceebbeea7)">
+      <rect width="32" height="32" fill="url(#f1e5a495-5ed5-4e32-a912-b4440a39b260)"/>
+    </g>
+    <circle cx="9" cy="24" r="1" fill="#001d6c"/>
+    <circle cx="9" cy="8" r="1" fill="#001d6c"/>
+    <path d="M28,21.142V10H23v2h3v2H23v2h3v5.142a4,4,0,1,0,2,0ZM27,27a2,2,0,1,1,2-2A2,2,0,0,1,27,27Z" fill="#001d6c"/>
+  </g>
+</svg>

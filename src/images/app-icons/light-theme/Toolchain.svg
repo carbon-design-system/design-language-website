@@ -1,0 +1,28 @@
+<svg id="ac516e1d-e6e2-4f00-b1ec-6b015a2c4fbc" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b8b0aa29-5db3-44cb-8b51-363f035d3bd8" x1="-542.439" y1="-6284.37" x2="-539.439" y2="-6287.37" gradientTransform="translate(4082.28 -4815.283) rotate(-135)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.8"/>
+    </linearGradient>
+    <mask id="b911db60-e50c-4cd5-8d7e-ccd2497ef329" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M26,3a3,3,0,0,0-3,3,2.969,2.969,0,0,0,.3,1.286l-6.007,6.007,1.414,1.414L24.714,8.7A2.969,2.969,0,0,0,26,9a3,3,0,0,0,0-6Zm0,4a1,1,0,1,1,1-1A1,1,0,0,1,26,7Z" fill="#fff"/>
+        <rect x="17.879" y="9.879" width="4.243" height="4.243" transform="translate(-2.627 17.657) rotate(-45)" fill="url(#b8b0aa29-5db3-44cb-8b51-363f035d3bd8)"/>
+        <path d="M16,12a4,4,0,0,0-4,4,3.96,3.96,0,0,0,.566,2.02L7.286,23.3A2.969,2.969,0,0,0,6,23a3,3,0,1,0,3,3,2.969,2.969,0,0,0-.3-1.286l5.28-5.28A3.96,3.96,0,0,0,16,20a4,4,0,0,0,0-8ZM6,27a1,1,0,1,1,1-1A1,1,0,0,1,6,27Zm10-9a2,2,0,1,1,2-2A2,2,0,0,1,16,18Z" fill="#fff"/>
+      </g>
+    </mask>
+    <linearGradient id="a5f37012-1b4d-411d-b3d5-58fb2735e0db" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#a56eff"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#b911db60-e50c-4cd5-8d7e-ccd2497ef329)">
+      <rect width="32" height="32" fill="url(#a5f37012-1b4d-411d-b3d5-58fb2735e0db)"/>
+    </g>
+    <g>
+      <path d="M10.433,9.019A3.947,3.947,0,0,0,11,7,3.948,3.948,0,0,0,5.977,3.149L8.414,5.586h0A2,2,0,1,1,5.586,8.414h0L3.149,5.977a3.968,3.968,0,0,0,5.87,4.456l2.031,2.031,1.414-1.414Z" fill="#001d6c"/>
+      <path d="M21.567,22.981A3.947,3.947,0,0,0,21,25a3.948,3.948,0,0,0,5.023,3.851l-2.437-2.437h0a2,2,0,1,1,2.828-2.828h0l2.437,2.437a3.968,3.968,0,0,0-5.87-4.456L20.95,19.535,19.535,20.95Z" fill="#001d6c"/>
+    </g>
+  </g>
+</svg>
