@@ -13,7 +13,7 @@ import { svgPage } from '../shared/SvgLibrary.module.scss';
 const CATEGORY_LIST = ['Stroke style', 'Fill style', 'IBM Plex® style'];
 
 const IconLibrary = () => {
-  const [isDarkTheme, setIsDarkTheme] = useState(true);
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('All app icons');
   const [searchValue, setSearchValue] = useState('');
   const { allAppIconsYaml } = useStaticQuery(graphql`
