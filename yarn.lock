@@ -1400,9 +1400,9 @@
     prop-types "^15.7.2"
 
 "@carbon/pictograms@^12.5.0":
-  version "12.10.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-12.10.0.tgz#b453cab49d61b75165644a8a6adcafa3ceb72995"
-  integrity sha512-vutelA3lMtlk6ZNifADQWev4pLmQWccYmdHjsyxQt3qTBrbbvZ651T1PcIho3Oo0YCTTJOlFxt3NdOStaHP6bg==
+  version "12.11.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-12.11.0.tgz#62fb5f7d195baf80445f639ea62cb2859467eb5f"
+  integrity sha512-6u2jG7/6d5Dc0WHZ1zi/rFIsW4w0Rb/e/bhgDYaJpr9MqWY4ibNkYBb9XDPpe+0ZDp+5pOL2jE7TxR9/jEWNwA==
 
 "@carbon/telemetry@0.1.0":
   version "0.1.0"
