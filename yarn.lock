@@ -1342,7 +1342,12 @@
     "@carbon/import-once" "^10.7.0"
     "@carbon/layout" "^10.37.1"
 
-"@carbon/icon-helpers@^10.28.0", "@carbon/icon-helpers@^10.37.0", "@carbon/icon-helpers@^10.38.0":
+"@carbon/icon-helpers@^10.28.0", "@carbon/icon-helpers@^10.37.0":
+  version "10.37.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.37.0.tgz#354f50f4269b1a455fb4d848508c5e7f7adc6ea8"
+  integrity sha512-YXed2JUSCGddp3UnY5OffR3W8Pl+dy9a+vfUtYhSLH9TbIEBR6EvYIfvruFMhA8JIVMCUClUqgyMQXM5oMFQ0g==
+
+"@carbon/icon-helpers@^10.38.0":
   version "10.38.0"
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.38.0.tgz#9e4e8f79fdd20327c9f31a7a7e916f51c8c44617"
   integrity sha512-m3v05nKXQvxDZLFEZPYDHt94WiBwOraIHk3dHmdoTpQbYPVd2zTggpJiUOYbm+4vot7nLcsUkClQfna85BlWKA==
@@ -1371,9 +1376,9 @@
   integrity sha512-wLvTfQy4k/vF8oVH2T/esISogdyjWJ34KdlfD//A0bKa6YViJStnvyoJA8Pmi7XolVyKm5Cw1ho7CjV1TFBJSg==
 
 "@carbon/icons@^11.7.0":
-  version "11.14.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-11.14.0.tgz#7a21ff71efc32f461c9ce66f955b8281bff2a3ca"
-  integrity sha512-6XaySbscz1ubJ/3GtyXB8qJpcAL8kcIzBA6JZpFCcha43tuB1Kps87ADj/v3yx0sLPxyIzRWgkw2n1bnkAcsNA==
+  version "11.15.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-11.15.0.tgz#794e23c0f6b1dcd22c9a4ad8d4159134e88b2dcd"
+  integrity sha512-KkhfKSO5A+tyQcEjg/5RmxoCmwx2aLL5Q5H8LSoBjFhB39ZE0lQnaRnxjluMs4kFM6djsxVUowsusTKmQKDZuw==
 
 "@carbon/import-once@^10.7.0":
   version "10.7.0"
@@ -1400,9 +1405,9 @@
     prop-types "^15.7.2"
 
 "@carbon/pictograms@^12.5.0":
-  version "12.11.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-12.11.0.tgz#62fb5f7d195baf80445f639ea62cb2859467eb5f"
-  integrity sha512-6u2jG7/6d5Dc0WHZ1zi/rFIsW4w0Rb/e/bhgDYaJpr9MqWY4ibNkYBb9XDPpe+0ZDp+5pOL2jE7TxR9/jEWNwA==
+  version "12.12.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-12.12.0.tgz#f7809871f50eb7332b6a10dee41987538f6af03f"
+  integrity sha512-gy8CLOo74T4W3UPUwp3aMHkId5Ji5J/lROFGqiYWcibu4AGsnEbnG7Rd20Q2vJTXX8v15YzLnLZNUTsdziz1lg==
 
 "@carbon/telemetry@0.1.0":
   version "0.1.0"
