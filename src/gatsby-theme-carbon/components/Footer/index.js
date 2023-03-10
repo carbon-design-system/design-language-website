@@ -154,12 +154,16 @@ const currentYear = new Date().getFullYear();
 const Content = ({ buildTime }) => (
   <>
     <p>
-      Have questions? <a href="mailto:branding@us.ibm.com">Email</a> us or Slack{' '}
-      <br />
+      Have questions?<br />
+      Slack us{' '}
       <a href="https://ibm-studios.slack.com/archives/CK6LZR3PZ">
         #ibm-brand
       </a>{' '}
-      (internal IBM users only)
+      (internal IBM users only) or{' '}
+      submit an{' '}
+      <a href="https://airtable.com/shry0TE1BWCj3omPO">
+        inquiry form
+      </a>.
     </p>
     <p>
       Last updated {buildTime}
