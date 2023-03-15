@@ -3121,14 +3121,6 @@
     - Buy
     - OK
     - Checkmark
-- name: Z
-  friendly_name: IBM Z®
-  category: IBM Plex® style
-  aliases:
-    - Systems
-    - IT
-    - Infrastructure
-    - IBM Z
 - name: ApplicationDiscoveryAndDeliveryIntelligence
   friendly_name: IBM® Application Discovery and Delivery Intelligence
   category: Stroke style
@@ -7043,23 +7035,6 @@
     - IBM Software
     - cube
     - 3d
-- name: HourOfZ
-  friendly_name: Hour of Z
-  category: Stroke style
-  aliases:
-    - Teal
-    - Blue
-    - Z
-    - app
-    - game
-    - enterprise
-    - computing
-    - technology
-    - operations
-    - learn
-    - clock
-    - watch
-    - time
 - name: VulnerabilityManagement
   friendly_name: Vulnerability Management
   category: Stroke style
