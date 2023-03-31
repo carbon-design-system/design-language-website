@@ -5500,20 +5500,8 @@
     - security
     - Purple
     - Blue
-- name: HealthPassWallet
-  friendly_name: IBM Health Pass Wallet
-  category: Stroke style
-  aliases:
-    - health
-    - pass
-    - wallet
-    - ID
-    - identity
-    - Teal
-    - Purple
-    - Blue
 - name: HealthPassIssuer
-  friendly_name: IBM Health Pass Issuer
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - health
@@ -5525,7 +5513,7 @@
     - Purple
     - Blue
 - name: HealthPassVerifier
-  friendly_name: IBM Health Pass Verifier
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - health
