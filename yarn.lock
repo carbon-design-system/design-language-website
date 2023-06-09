@@ -1357,11 +1357,11 @@
     prop-types "^15.7.2"
 
 "@carbon/icons-react@^11.20.0":
-  version "11.20.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.20.0.tgz#ec934fbf24e96daa35a0fb3158ee48f5dd3c4d32"
-  integrity sha512-k4MT68MpuoFDOEM0ecp1YkL6mbsI4/17By0ZP6xQhlnyKQgGb7k6cTrkVsYSAgWc3NgTBAyMjuoYDvuv6WdFJw==
+  version "11.21.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.21.0.tgz#f8e02cd64e0f4ddda4afe2df32aa94b0d2d5aade"
+  integrity sha512-74Og3ZE23HgXbJIdjH8HmmxnhvAh5JTlQFMJIYaF82xDDmpcFYKrwkQ1qyzZuLfftmgtITkVGpGMELkIq8AuuA==
   dependencies:
-    "@carbon/icon-helpers" "^10.40.0"
+    "@carbon/icon-helpers" "^10.41.0"
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
