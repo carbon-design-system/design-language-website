@@ -45,21 +45,23 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
       const image = containerRef.current.querySelector('img');
 
       const onSuspend = () => {
-        suspendedRef.current = true;
         setSuspended(true);
+        suspendedRef.current = true;
       };
 
       const onPlay = () => {
-        suspendedRef.current = false;
         setSuspended(false);
+        suspendedRef.current = false;
       };
 
+      // Seems that in edge cases the suspend event is not cancelled by play event resulting in playing video without pause/play button.
+      // In this case, fail safe on playing is triggered 
       const onPlaying = () => {
 
         if (suspendedRef.current) {
 
-          suspendedRef.current = false;
           setSuspended(false);
+          suspendedRef.current = false;
         }
       }
 
@@ -88,6 +90,7 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
     }
   }, []);
 
+  // If the element within GifPlayer is video, instead of displaying static image on play we simple toggle play / pause on the element
   useEffect(() => {
 
     if (videoElement) {
