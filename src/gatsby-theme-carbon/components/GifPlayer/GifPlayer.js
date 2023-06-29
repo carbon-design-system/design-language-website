@@ -45,23 +45,23 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
       const image = containerRef.current.querySelector('img');
 
       const onSuspend = () => {
-        setSuspended(true);
         suspendedRef.current = true;
+        setSuspended(true);
       };
 
       const onPlay = () => {
-        setSuspended(false);
         suspendedRef.current = false;
+        setSuspended(false);
       };
 
       // Seems that in edge cases the suspend event is not cancelled by play event resulting in playing video without pause/play button.
-      // In this case, fail safe on playing is triggered 
-      const onPlaying = () => {
+      // In this case, fail safe on timeupdate is triggered 
+      const onTimeupdate = () => {
 
         if (suspendedRef.current) {
 
-          setSuspended(false);
           suspendedRef.current = false;
+          setSuspended(false);
         }
       }
 
@@ -80,11 +80,11 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
         // we can hide ours
         video.addEventListener('suspend', onSuspend);
         video.addEventListener('play', onPlay);
-        video.addEventListener('playing', onPlaying);
+        video.addEventListener('timeupdate', onTimeupdate);
         return () => {
           video.removeEventListener('suspend', onSuspend);
           video.removeEventListener('play', onPlay);
-          video.removeEventListener('playing', onPlaying);
+          video.removeEventListener('timeupdate', onTimeupdate);
         };
       }
     }
