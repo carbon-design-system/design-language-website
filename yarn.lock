@@ -1342,15 +1342,10 @@
     "@carbon/import-once" "^10.7.0"
     "@carbon/layout" "^10.37.1"
 
-"@carbon/icon-helpers@^10.28.0", "@carbon/icon-helpers@^10.41.0":
-  version "10.41.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.41.0.tgz#5a54ee962989405ab863ec4595b40b22bb78eef7"
-  integrity sha512-bKMTigt0/WzlNRgQArHO2WF21bVP7Pur/8QQ9pwhIyYkKCdqEbB9b719iPZTOe5qBZAo4rS5+2pGvePf2E3cWQ==
-
-"@carbon/icon-helpers@^10.42.0":
-  version "10.42.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.42.0.tgz#6ce94c8e62371bd0efed52b09cbdf462137a211e"
-  integrity sha512-cxYPFaRPC8a1JvzyOJqngGae2On61z64/S7t6YUFdG9RnxJN96+87B3YM5uTZM2GUBA/fYk4/7vVilNDxlZo7Q==
+"@carbon/icon-helpers@^10.28.0", "@carbon/icon-helpers@^10.41.0", "@carbon/icon-helpers@^10.42.0", "@carbon/icon-helpers@^10.42.1":
+  version "10.42.1"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.42.1.tgz#066fbf6e282ed710305009ee38bfdc8b292f0685"
+  integrity sha512-LsXHvoi/RAxYQz1GC7Ae7WOwJE4HKOXYmSOWuDEtSEW94Adz/1w968pje/7Gfr7nsJ/GcP6lNcQoSpYq9iDSpQ==
 
 "@carbon/icons-react@^10.35.0", "@carbon/icons-react@^10.49.0":
   version "10.49.0"
@@ -1362,11 +1357,11 @@
     prop-types "^15.7.2"
 
 "@carbon/icons-react@^11.22.0":
-  version "11.22.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.22.0.tgz#9db71bc06c7dbc70537f259c1c812831bedd20bb"
-  integrity sha512-ABUVBh/QFjs2K8xt2TzLeu6If5JCLwAzRTRCUbYPj0U2kkHtnApjyXOlCG3U6lkahbW55QzwHwC+D7Wzl0Fp/w==
+  version "11.22.1"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.22.1.tgz#bc3e88d202219336fc60f50d8f45ea0647988644"
+  integrity sha512-yBbx6pAzo78V/6Z004KXNoC1w6kW/ttm/FF02s9LnOwTDYcOP7tn97YlgO+hyeMsk4Xld5GrjJ5lZI/ss8qaug==
   dependencies:
-    "@carbon/icon-helpers" "^10.42.0"
+    "@carbon/icon-helpers" "^10.42.1"
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
