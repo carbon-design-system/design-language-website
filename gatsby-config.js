@@ -23,6 +23,10 @@ module.exports = {
             'https://github.com/carbon-design-system/design-language-website',
           branch: 'master',
         },
+        theme: {
+          homepage: 'g10',
+          interior: 'g10',
+        },
       },
     },
     `gatsby-transformer-yaml`,
