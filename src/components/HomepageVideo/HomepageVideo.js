@@ -55,6 +55,7 @@ class HomepageVideo extends Component {
             loop={loop}
             poster={poster}
             src={src}
+            overlay
             cornerPlayButton>
             <div
               className={`${prefix}--homepage-video-overlay-content ${prefix}--grid`}>
