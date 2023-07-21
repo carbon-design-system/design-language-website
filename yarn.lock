@@ -1371,9 +1371,9 @@
   integrity sha512-wLvTfQy4k/vF8oVH2T/esISogdyjWJ34KdlfD//A0bKa6YViJStnvyoJA8Pmi7XolVyKm5Cw1ho7CjV1TFBJSg==
 
 "@carbon/icons@^11.23.0-rc.0":
-  version "11.23.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-11.23.0-rc.0.tgz#b90e7c4fedc42d6859b526fa81ee0b1664e247fc"
-  integrity sha512-vbVLl8v7+1EWriG4q6bmNdQY5UlNUdzyKAYUm46trxgHtUKAHCBYzsVjH/PpC+LDxMcaJnSPTKNW80szTuXhQg==
+  version "11.23.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-11.23.0.tgz#9b82ef1c1d03c5d5d9de57beeec2308252876363"
+  integrity sha512-h+Gue/xDYa+ETXc0le6peb7q6z6sSKvsR8U0PkVPTZ8RVTRwJ/oC0E/ncsVNlz+7FExlGk3dDcBthKOH4RGM3w==
 
 "@carbon/import-once@^10.7.0":
   version "10.7.0"
