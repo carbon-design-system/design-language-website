@@ -1342,7 +1342,7 @@
     "@carbon/import-once" "^10.7.0"
     "@carbon/layout" "^10.37.1"
 
-"@carbon/icon-helpers@^10.28.0", "@carbon/icon-helpers@^10.42.1", "@carbon/icon-helpers@^10.43.0", "@carbon/icon-helpers@^10.43.0-rc.0":
+"@carbon/icon-helpers@^10.28.0", "@carbon/icon-helpers@^10.43.0":
   version "10.43.0"
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.43.0.tgz#f7c603cf6f076c4261a9f6b1824c9ee9e337396e"
   integrity sha512-4suJAup+1IMQtQDZR/vUfnMy4Lvz1DiD+qmhNoqeBzBlNCXg43VBNy01lUA3bTvsCx2eRJ/2vhOUlqEE6EQO4g==
@@ -1390,21 +1390,12 @@
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-10.29.0.tgz#1e78c70d396ad3b9363f7a0c7e36ce9bac3d5702"
   integrity sha512-b8Cc9vgMlkQfLQAwq9Zt1/UfsrtGcWQpf0kK5gCamAuSmNSFWYJSwqbY9MeodxM2xNfXrxFcEFwqwy/E7egxUw==
 
-"@carbon/pictograms-react@^11.14.0":
-  version "11.45.1"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.45.1.tgz#519a2dc4a74ba83b27518bde4225ec45bda71b2e"
-  integrity sha512-rBvGrXmX+s4fiQqKmlyFSZfO0gQjdnRPGHFWqAdcgHRgEis01vldaPatseIRSodcO3vEaOFr4psP7IH9u1upqw==
+"@carbon/pictograms-react@^11.14.0", "@carbon/pictograms-react@^11.46.0-rc.0":
+  version "11.46.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.46.0.tgz#9a6547cbe2c19219f444412cdbbd7b233534ef0c"
+  integrity sha512-2bCARl8CbHzUY/D5OHeBX0IBU6n6RDGTDfrZ1mWnrU6A8rsP5iLWykfCUHZkO47LOEhOwpg+BD9fBKMq9wFzBQ==
   dependencies:
-    "@carbon/icon-helpers" "^10.42.1"
-    "@carbon/telemetry" "0.1.0"
-    prop-types "^15.7.2"
-
-"@carbon/pictograms-react@^11.46.0-rc.0":
-  version "11.46.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.46.0-rc.0.tgz#878a0c89f314194249e2e83e89e292f3e3a2901b"
-  integrity sha512-f5YLkOQlACZCz0dHwhZfSX4Cv516e2nhm1ZtDVc2rikOm70uTKX0qU8Tx0p/FAImsceLQPZmo+o1ezOhejZeDg==
-  dependencies:
-    "@carbon/icon-helpers" "^10.43.0-rc.0"
+    "@carbon/icon-helpers" "^10.43.0"
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
