@@ -35,7 +35,9 @@ const ToggleIcon = ({ paused, hovering }) =>
 const GifPlayer = ({ children, color, className, isInDialog }) => {
   const [paused, setPaused] = useState(false);
   const [suspended, setSuspended] = useState(false);
+  const suspendedRef = useRef(suspended);
   const containerRef = useRef();
+  const [videoElement, setVideoElement] = useState(false);
 
   useEffect(() => {
     if (containerRef.current) {
@@ -43,12 +45,25 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
       const image = containerRef.current.querySelector('img');
 
       const onSuspend = () => {
+        suspendedRef.current = true;
         setSuspended(true);
       };
 
       const onPlay = () => {
+        suspendedRef.current = false;
         setSuspended(false);
       };
+
+      // Seems that in edge cases the suspend event is not cancelled by play event resulting in playing video without pause/play button.
+      // In this case, fail safe on timeupdate is triggered 
+      const onTimeupdate = () => {
+
+        if (suspendedRef.current) {
+
+          suspendedRef.current = false;
+          setSuspended(false);
+        }
+      }
 
       if (video) {
         // For videos, we want the fallaback image to also be the poster
@@ -58,17 +73,31 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
           video.setAttribute('poster', image.src);
         }
 
+        video.setAttribute('muted', "");
+        setVideoElement(video);
+
         // when suspended, videos will show the browser's play button, so
         // we can hide ours
         video.addEventListener('suspend', onSuspend);
         video.addEventListener('play', onPlay);
+        video.addEventListener('timeupdate', onTimeupdate);
         return () => {
           video.removeEventListener('suspend', onSuspend);
           video.removeEventListener('play', onPlay);
+          video.removeEventListener('timeupdate', onTimeupdate);
         };
       }
     }
   }, []);
+
+  // If the element within GifPlayer is video, instead of displaying static image on play we simple toggle play / pause on the element
+  useEffect(() => {
+
+    if (videoElement) {
+
+      videoElement[paused ? "pause" : "play"]();
+    }
+  }, [videoElement, paused]);
 
   const [hovering, setHovering] = useState(false);
   const onClick = (e) => {
@@ -89,12 +118,12 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
 
   const staticImageClassNames = classnames({
     [imgHidden]: true,
-    [imgDisplayed]: paused,
+    [imgDisplayed]: videoElement ? false : paused,
   });
 
   const gifClassNames = classnames({
     [gifDisplayed]: true,
-    [gifHidden]: paused,
+    [gifHidden]: videoElement ? false: paused,
   });
 
   const childrenArray = React.Children.toArray(children);
@@ -105,12 +134,12 @@ const GifPlayer = ({ children, color, className, isInDialog }) => {
 
   return (
     <div ref={containerRef} className={containerClassNames}>
-      <div className={gifClassNames} aria-hidden={paused ? 'true' : false}>
+      <div className={gifClassNames} aria-hidden={videoElement ? false : (paused ? 'true' : false)}>
         {childrenArray[0]}
       </div>
       <div
         className={staticImageClassNames}
-        aria-hidden={paused ? false : 'true'}>
+        aria-hidden={videoElement ? 'true' : (paused ? false : 'true')}>
         {childrenArray[1]}
       </div>
       {!suspended && (
