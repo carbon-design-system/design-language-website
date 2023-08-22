@@ -8249,9 +8249,9 @@
     - global data
     - cloud
 - name: OpenEnterpriseFoundationzOS
-   friendly_name: IBM® Open Enterprise Foundation for z/OS®
-   category: Stroke style
-   aliases:
+  friendly_name: IBM® Open Enterprise Foundation for z/OS®
+  category: Stroke style
+  aliases:
      - Blue
      - Teal
      - hexagon
