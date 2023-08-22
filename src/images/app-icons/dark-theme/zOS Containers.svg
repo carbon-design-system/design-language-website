@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-19ed3708-ea53-4d2e-a997-77b5a9685d11" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .uuid-b5a57b9b-ebfc-4db2-96ba-5fc5bfdf6c33 {
+        fill: url(#uuid-d75e3427-dfda-41fb-998f-b3ae5856f1d6);
+      }
+
+      .uuid-7199034d-ab4d-439a-b735-6354c39df72e {
+        fill: #f4f4f4;
+      }
+
+      .uuid-d3015c81-52e4-4ac0-b904-1594931e2477 {
+        mask: url(#uuid-dd9e4a27-16b6-4fcb-a2e6-c683ca634232);
+      }
+
+      .uuid-123237b8-5420-40b3-b92d-5bd083f4c624 {
+        fill: url(#uuid-95482f1c-bbc8-42ba-806f-d11e0a2000e4);
+      }
+    </style>
+    <linearGradient id="uuid-95482f1c-bbc8-42ba-806f-d11e0a2000e4" x1="-709.035" y1="-5854.364" x2="-709.035" y2="-5864.364" gradientTransform="translate(730.035 5875.364)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".9" stop-color="#000"/>
+    </linearGradient>
+    <mask id="uuid-dd9e4a27-16b6-4fcb-a2e6-c683ca634232" data-name="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path class="uuid-7199034d-ab4d-439a-b735-6354c39df72e" d="m17,15V3H5c-1.105,0-2,.895-2,2v22c0,1.105.895,2,2,2h22c1.105,0,2-.895,2-2v-12h-12Zm-3.414-10L5,13.586V5h8.586Zm-8.586,13.414l8.586,8.586H5v-8.586Zm22,8.586h-10.586L5.414,16,15,6.414v10.586h12v10Z"/>
+        <rect class="uuid-123237b8-5420-40b3-b92d-5bd083f4c624" x="19" y="11" width="4" height="10" transform="translate(5 37) rotate(-90)"/>
+        <polygon class="uuid-7199034d-ab4d-439a-b735-6354c39df72e" points="15 6 15 15 5 15 5 17 15 17 15 27 17 27 17 6 15 6"/>
+      </g>
+    </mask>
+    <linearGradient id="uuid-d75e3427-dfda-41fb-998f-b3ae5856f1d6" x1="-684" y1="-852" x2="-652" y2="-884" gradientTransform="translate(684 -852) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#3ddbd9"/>
+      <stop offset=".9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g class="uuid-d3015c81-52e4-4ac0-b904-1594931e2477">
+    <rect class="uuid-b5a57b9b-ebfc-4db2-96ba-5fc5bfdf6c33" x="0" y="0" width="32" height="32" transform="translate(0 32) rotate(-90)"/>
+  </g>
+  <path class="uuid-7199034d-ab4d-439a-b735-6354c39df72e" d="m27,5v5h-5v-5h5m2-2h-9v9h9V3h0Z"/>
+</svg>
