@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-4f662e91-ce16-4fcd-84d3-ccaed276cfae" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .uuid-cfe826dd-2cf4-4235-8b5e-3e0546b10e8d {
+        fill: url(#uuid-fc1f554a-ff97-4b91-ae3c-7c7215a7482c);
+      }
+
+      .uuid-9502da16-5230-4f23-9472-8a3ea02a67a7 {
+        fill: url(#uuid-315148ff-7a66-4764-a45e-630114757253);
+      }
+
+      .uuid-8b1c7fd7-2e15-48eb-9823-792f2df1b456 {
+        fill: #001d6c;
+      }
+
+      .uuid-25fccc98-7b3c-48ca-b810-94045ec61ffb {
+        fill: #f4f4f4;
+      }
+
+      .uuid-60dd1e94-3875-4b90-9e5a-c5e118985192 {
+        mask: url(#uuid-fd9772a1-3e64-4cc0-8d0a-3b743cce117e);
+      }
+    </style>
+    <linearGradient id="uuid-315148ff-7a66-4764-a45e-630114757253" x1="-769.035" y1="-5794.364" x2="-769.035" y2="-5804.364" gradientTransform="translate(790.035 5815.364)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".9" stop-color="#000"/>
+    </linearGradient>
+    <mask id="uuid-fd9772a1-3e64-4cc0-8d0a-3b743cce117e" data-name="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path class="uuid-25fccc98-7b3c-48ca-b810-94045ec61ffb" d="m17,15V3H5c-1.105,0-2,.895-2,2v22c0,1.105.895,2,2,2h22c1.105,0,2-.895,2-2v-12h-12Zm-3.414-10L5,13.586V5h8.586Zm-8.586,13.414l8.586,8.586H5v-8.586Zm22,8.586h-10.586l-11-11L15,6.414v10.586h12v10Z"/>
+        <rect class="uuid-9502da16-5230-4f23-9472-8a3ea02a67a7" x="19" y="11" width="4" height="10" transform="translate(5 37) rotate(-90)"/>
+        <polygon class="uuid-25fccc98-7b3c-48ca-b810-94045ec61ffb" points="15 6 15 15 5 15 5 17 15 17 15 27 17 27 17 6 15 6"/>
+      </g>
+    </mask>
+    <linearGradient id="uuid-fc1f554a-ff97-4b91-ae3c-7c7215a7482c" x1="-744" y1="-912" x2="-712" y2="-944" gradientTransform="translate(744 -912) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#08bdba"/>
+      <stop offset=".9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g class="uuid-60dd1e94-3875-4b90-9e5a-c5e118985192">
+    <rect class="uuid-cfe826dd-2cf4-4235-8b5e-3e0546b10e8d" x="0" y="0" width="32" height="32" transform="translate(0 32) rotate(-90)"/>
+  </g>
+  <path class="uuid-8b1c7fd7-2e15-48eb-9823-792f2df1b456" d="m27,5v5h-5v-5h5m2-2h-9v9h9V3h0Z"/>
+</svg>
