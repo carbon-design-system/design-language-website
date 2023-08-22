@@ -7876,3 +7876,651 @@
     - Purple
     - Blue
     - DevOps
+- name: AIControlInterfaceforz_OS
+  friendly_name: AI Control Interface for IBM® z/OS®
+  category: Stroke style
+  aliases:
+    - z/OSMF
+    - Teal
+    - Blue
+    - systems
+    - system management
+    - monitoring
+    - data management
+    - enterprise
+    - performance
+    - browser interface
+    - mainframe
+    - automation
+    - AI
+    - control
+    - interface
+- name: CICSDeploymentAssistant
+  friendly_name: IBM® CICS® Deployment Assistant
+  category: Stroke style
+  aliases:
+    - CICS DA
+    - Blue
+    - Cyan
+    - discover
+    - model
+    - visualize
+    - deploy
+    - CICS regions
+    - CICSplex
+    - sysplex
+    - z/OS
+    - ZOS
+    - Z OS
+- name: Websphere
+  friendly_name: IBM® WebSphere® Application Server
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - circle
+    - automation
+    - Java server
+    - runtime environment
+    - deploy
+    - manage
+    - services
+    - security
+    - multicloud
+    - deploy
+    - continuous delivery
+- name: GlobalStorageArchitectureClient
+  friendly_name: Global Storage Architecture Client
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - globe
+    - cloud
+    - data
+    - store
+    - architecture
+    - share
+    - modify
+- name: ModelBuilderforVision
+  friendly_name: IBM® Model Builder for macOS
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - cube
+    - eye
+    - AI training
+    - IBM Cloud
+    - GPUs
+    - computer vision
+    - applications
+    - mobile
+    - UI label
+    - train
+    - platform
+- name: CognosDashboard
+  friendly_name: IBM® Cognos® Dashboard
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - dashboard
+    - arrow
+    - data visualization
+    - developer
+    - applications
+    - insights
+- name: CloudSecurityComplianceCenter
+  friendly_name: IBM Cloud® Security and Compliance Center
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - cloud
+    - shield
+    - compliance
+    - audit
+    - monitor
+    - analyze
+    - automation
+    - scale
+    - management
+    - configuration
+    - governance
+    - security
+    - threats
+    - remediation
+    - insights
+    - development
+    - dashboard
+- name: ZCloudModernizationStack
+  friendly_name: IBM Z® and Cloud Modernization Stack
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM Z and Cloud Modernization Stack
+    - hexagon
+    - dots
+    - IT automation
+    - modernization
+    - enterprise
+    - develop
+    - deploy
+    - configure
+    - open source
+    - zSystems
+    - z/OS
+    - Red Hat OpenShift
+    - fix
+- name: PowerVMRecoveryManager
+  friendly_name: Reserved
+  category: Stroke style
+  aliases:
+    - IBM Power Systems VM Recovery Manager
+    - Teal
+    - Blue
+    - circle
+    - arrow
+    - dot
+    - restart technology
+    - out of band monitoring
+    - out of band management
+    - virtual machines
+    - relocate
+    - restart
+    - near-real time
+    - system failure
+    - infrastructure
+    - redundant
+    - hardware
+    - software
+- name: PowerHardwareManagementConsole
+  friendly_name: IBM® Power® Systems HMC
+  category: Stroke style
+  aliases:
+    - IBM Power Systems HMC
+    - IBM Power Systems Hardware Management Console
+    - Teal
+    - Blue
+    - system
+    - admins
+    - hardware
+    - web application
+    - command line interface
+    - power
+    - appliance
+    - monitor
+    - screen
+    - interface
+    - dot
+    - circle
+    - HMC
+- name: CloudManagementConsole
+  friendly_name: Reserved
+  category: Stroke style
+  aliases:
+    - IBM Cloud Management Console
+    - Teal
+    - Blue
+    - circle
+    - dot
+    - status
+    - monitor
+    - performance
+    - capacity
+    - usage
+    - fix
+    - HMC
+    - power systems
+    - enterprise
+    - performance
+    - inventory
+    - logging
+    - monitor
+    - infrastructure
+    - insight
+- name: PowerHighAvailability
+  friendly_name: IBM® PowerHA®
+  category: Stroke style
+  aliases:
+    - IBM Power High Availability
+    - Teal
+    - Blue
+    - circle
+    - dot
+    - alert
+    - operations
+    - fix
+    - virtual machines
+    - system failure
+    - infrastructure failure
+    - redundant software
+    - near real time
+    - relocate
+    - restart
+    - replication
+    - failover
+- name: PowerSecurityCompliance
+  friendly_name: IBM® PowerSC
+  category: Stroke style
+  aliases:
+    - IBM PowerSC
+    - IBM Power Security Compliance
+    - Teal
+    - Blue
+    - security
+    - circle
+    - dot
+    - shield
+    - system admin
+    - virtual machine
+    - partitions
+- name: PowerVirtualizationCenter
+  friendly_name: IBM® PowerVC
+  category: Stroke style
+  aliases:
+    - IBM PowerVC
+    - IBM Power Virtualization Center
+    - Teal
+    - Blue
+    - circle
+    - dot
+    - create
+    - manage
+    - virtual machines
+    - system admins
+    - partitions
+    - on-premises
+    - on premises
+    - off-premises
+    - off premises
+- name: PowerVirtualizationManager
+  friendly_name: IBM® PowerVM®
+  category: Stroke style
+  aliases:
+    - IBM PowerVM
+    - IBM Power Virtualization Manager
+    - Teal
+    - Blue
+    - circle
+    - dot
+    - create
+    - manage
+    - virtual machines
+    - system admins
+    - partitions
+    - AIX
+    - Linux
+    - IBM I clients
+    - virtualization
+    - server
+- name: PowerVMNovaLink
+  friendly_name: IBM® PowerVM® Novalink
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - IBM PowerVM Novalink
+    - circle
+    - dot
+    - link
+    - interface
+    - software
+    - virtualization management
+    - virtual machine
+    - REST API
+    - OpenStack
+    - command line interface
+    - CLI
+- name: CICSExplorer
+  friendly_name: IBM® CICS Explorer®
+  category: Fill style
+  aliases:
+    - Teal
+    - Blue
+    - IBM CICS Explorer
+    - Eclipse 
+    - desktop 
+    - IDE
+    - compass
+    - access
+    - manage
+    - transaction
+    - server
+    - z/OS
+    - Z OS
+- name: CloudPAL
+  friendly_name: Cloud PAL
+  category: Stroke style
+  aliases:
+    - IBM Cloud pal
+    - pattern asset library
+    - cloud pal
+- name: CloudLogs
+  friendly_name: IBM Cloud® Logs
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - cloud
+    - logs
+    - aggregation
+    - query
+- name: CarbonUIBuilder
+  friendly_name: Carbon UI Builder
+  category: Stroke style
+  aliases:
+    - Carbon
+    - UI
+    - User interface
+- name: zOSContainers
+  friendly_name: IBM® z/OS® containers
+  category: Stroke style
+  aliases:
+    - z/OS
+    - Z OS
+    - Teal
+    - Blue
+    - systems
+    - build
+    - deploy
+    - applications
+    - enterprise
+    - hybrid cloud
+    - orchestrate
+    - Kubernetes
+- name: StorageCeph
+  friendly_name: IBM® Storage Ceph
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - hexagon
+    - storage
+    - scalable
+    - workload
+    - systems
+    - software
+    - object
+    - consolidate
+    - global data
+    - cloud
+ - name: OpenEnterpriseFoundationzOS
+   friendly_name: IBM® Open Enterprise Foundation for z/OS®
+   category: Stroke style
+   aliases:
+     - Blue
+     - Teal
+     - hexagon
+     - IBM Z
+     - cloud
+     - modernize
+     - z/OS
+     - operating system
+     - GNU make
+     - compilation
+     - management
+     - linking
+     - build
+     - parallel
+     - develop
+     - deploy
+     - productivity
+- name: ImagesVPC
+  friendly_name: Images for VPC
+  category: Stroke style
+  aliases:
+    - Green
+    - Blue
+    - virtual servers
+    - settings
+    - configuration
+    - images
+    - camera
+- name: OpenShiftContainerPlatformVPC
+  friendly_name: RedHat® OpenShift® Container Platform on VPC landing zone
+  category: Stroke style
+  aliases:
+    - Blue
+    - Teal
+    - VSI
+    - VPC
+    - infrastructure
+    - regulated
+    - industry
+    - compliance
+    - virtual server
+    - workload
+    - cloud
+    - financial services
+    - secure
+- name: VSIonVPC
+  friendly_name: IBM® VSI on VPC landing zone
+  category: Stroke style
+  aliases:
+    - Magenta
+    - Purple
+    - VSI
+    - VPC
+    - infrastructure
+    - regulated
+    - enterprise
+    - virtual server
+    - workload
+    - cloud
+    - secure
+- name: SecureInfrastructureVPC
+  friendly_name: IBM® VPC landing zone
+  category: Stroke style
+  aliases:
+    - magenta
+    - purple
+    - vpc
+    - infrastructure
+    - regulated
+    - enterprise
+    - virtual server
+    - workload
+    - cloud
+    - secure
+- name: IBMZEnvironmentsforDevSecOps
+  friendly_name: IBM Z® Environments for DevSecOps Development
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - hexagon
+    - dial
+    - component
+    - extraction
+    - orchestration
+    - instance
+    - cloud
+    - development
+    - integration
+    - deployment
+    - security
+- name: AIOpsInsights
+  friendly_name: IBM® AIOps Insights
+  category: Stroke style
+  aliases:
+    - Blue
+    - Purple
+    - wavelength
+    - ITOps
+    - incident resolution
+    - enterprise
+    - status
+    - triage
+    - IT estate
+    - consolidate
+    - aggregate
+- name: StepZenGraphServer
+  friendly_name: IBM® StepZen Graph Server
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - server
+    - GraphQL
+    - API
+    - secure
+    - Kubernetes
+    - data
+    - federate
+    - scale
+    - optimize
+    - build
+- name: WaziDeploy
+  friendly_name: IBM® Wazi Deploy
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - hexagon
+    - arrow
+    - server
+    - z/OS application deployment
+    - z os application deployment
+    - zos application deployment
+    - Python
+    - Ansible
+    - open source
+    - enterprise
+    - cloud
+    - DevOps
+    - Z devops
+    - Iterate
+    - modernization
+    - orchestration
+    - productivity
+- name: ApplicationDeliveryFoundationForZOS
+  friendly_name: IBM® Application Delivery Foundation for z/OS®
+  category: Stroke style
+  aliases:
+    - DevOps
+    - Z OS
+    - Z DevOps
+    - ZOS
+- name: DependencyBasedBuild
+  friendly_name: IBM® Dependency Based Build
+  category: Stroke style
+  aliases:
+    - DevOps
+    - Z OS
+    - Z DevOps
+    - ZOS
+- name: WaziCode
+  friendly_name: IBM® Wazi Code
+  category: Stroke style
+  aliases:
+    - DevOps
+    - Z OS
+    - Z DevOps
+    - ZOS
+- name: ApplicationPerformanceAnalyzerForZOS
+  friendly_name: IBM® Application Performance Analyzer for z/OS®
+  category: Stroke style
+  aliases:
+    - DevOps
+    - Z OS
+    - Z DevOps
+    - ZOS
+- name: WaziAsAService
+  friendly_name: IBM® Wazi as a Service
+  category: Stroke style
+  aliases:
+    - DevOps
+    - Z OS
+    - Z DevOps
+    - ZOS
+- name: FileManagerForZOS
+  friendly_name: IBM® File Manager for z/OS®
+  category: Stroke style
+  aliases:
+    - DevOps
+    - Z OS
+    - Z DevOps
+    - ZOS
+- name: FaultAnalyzerForZOS
+  friendly_name: IBM® Fault Analyzer for z/OS®
+  category: Stroke style
+  aliases:
+    - DevOps
+    - Z OS
+    - Z DevOps
+    - ZOS
+- name: WaziSandbox
+  friendly_name: IBM® Wazi Sandbox
+  category: Stroke style
+  aliases:
+    - DevOps
+    - Z OS
+    - Z DevOps
+    - ZOS
+- name: ZVirtualTestPlatform
+  friendly_name: IBM® Z® Virtual Test Platform
+  category: Stroke style
+  aliases:
+    - DevOps
+    - Z OS
+    - Z DevOps
+    - ZOS
+- name: Db2_02
+  friendly_name: IBM Db2®
+  category: Stroke style
+  aliases:
+    - Hybrid
+    - Cloud
+    - Business
+    - Analytics
+    - Data
+    - AI
+    - Watson
+    - Data management software
+    - Data management
+    - Database servers
+    - Hybrid data management
+    - AI data management
+    - Structured data management
+    - Unstructured data management
+    - AI-powered relational database
+    - Relational database
+    - Analytics
+    - Advanced data management
+    - Operational database
+    - In-memory technology
+    - Development tools
+    - Storage optimization
+    - Workload management
+    - Data availability
+- name: Db2_03
+  friendly_name: Unassigned IBM Db2®
+  category: Stroke style
+  aliases:
+    - Hybrid
+    - Cloud
+    - Business
+    - Analytics
+    - Data
+    - AI
+    - Watson
+    - Data management software
+    - Data management
+    - Database servers
+    - Hybrid data management
+    - AI data management
+    - Structured data management
+    - Unstructured data management
+    - AI-powered relational database
+    - Relational database
+    - Analytics
+    - Advanced data management
+    - Operational database
+    - In-memory technology
+    - Development tools
+    - Storage optimization
+    - Workload management
+    - Data availability
