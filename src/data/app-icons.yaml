@@ -1472,7 +1472,7 @@
     - System control
     - System control center
 - name: Db2
-  friendly_name: IBM Db2®
+  friendly_name: Unassigned IBM Db2®
   category: IBM Plex® style
   aliases:
     - Hybrid
@@ -7071,12 +7071,12 @@
     - person
     - connection
 - name: CloudVirtualServerClassic
-  friendly_name: IBM Cloud® Virtual Server Classic
+  friendly_name: IBM Cloud® Virtual Servers for Classic
   category: Stroke style
   aliases:
     - Purple
     - Magenta
-    - IBM Cloud Virtual Server Classic
+    - IBM Cloud Virtual Servers for Classic
     - virtual machine
     - server
     - IBM Software
@@ -7663,12 +7663,12 @@
     - masking
     - audit
 - name: Db2Mirrorfori
-  friendly_name: IBM® Db2® Mirror for 1
+  friendly_name: IBM® Db2® Mirror for i
   category: Stroke style
   aliases:
     - Teal
     - Blue
-    - IBM Db2 Mirror for 1
+    - IBM Db2 Mirror for i
     - IBM Db2 Mirror for one
     - RTO
     - recovery time objective
@@ -7842,35 +7842,35 @@
     - cloud
     - software
 - name: DevOpsUnassigned1
-  friendly_name: Unassigned DevOps
+  friendly_name: Unassigned Z DevOps
   category: Stroke style
   aliases:
     - Purple
     - Blue
     - DevOps
 - name: DevOpsUnassigned2
-  friendly_name: Unassigned DevOps
+  friendly_name: Unassigned Z DevOps
   category: Stroke style
   aliases:
     - Purple
     - Blue
     - DevOps
 - name: DevOpsUnassigned3
-  friendly_name: Unassigned DevOps
+  friendly_name: Unassigned Z DevOps
   category: Stroke style
   aliases:
     - Purple
     - Blue
     - DevOps
 - name: DevOpsUnassigned4
-  friendly_name: Unassigned DevOps
+  friendly_name: Unassigned Z DevOps
   category: Stroke style
   aliases:
     - Purple
     - Blue
     - DevOps
 - name: DevOpsUnassigned5
-  friendly_name: Unassigned DevOps
+  friendly_name: Unassigned Z DevOps
   category: Stroke style
   aliases:
     - Purple
