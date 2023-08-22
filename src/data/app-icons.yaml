@@ -8175,6 +8175,13 @@
     - OpenStack
     - command line interface
     - CLI
+- name: RedHatAnsibleAutomationPlatform
+  friendly_name: Red Hat® Ansible® Automation Platform
+  category: Stroke style
+  aliases:
+    - red
+    - circle
+    - Red Hat Ansible Automation Platform
 - name: CICSExplorer
   friendly_name: IBM® CICS Explorer®
   category: Fill style
