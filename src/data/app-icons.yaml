@@ -1472,7 +1472,7 @@
     - System control
     - System control center
 - name: Db2
-  friendly_name: IBM Db2®
+  friendly_name: Unassigned IBM Db2®
   category: IBM Plex® style
   aliases:
     - Hybrid
@@ -2436,12 +2436,13 @@
     - Mobile app reference guide
     - POWER reference guide
 - name: CloudPrivate
-  friendly_name: IBM Cloud® Private
+  friendly_name: IBM z/OS® Cloud Broker
   category: Stroke style
   aliases:
     - Hybrid
     - Cloud
     - IBM Cloud Private
+    - IBM zos cloud broker
     - Business
     - Blue
     - Teal
@@ -7071,12 +7072,12 @@
     - person
     - connection
 - name: CloudVirtualServerClassic
-  friendly_name: IBM Cloud® Virtual Server Classic
+  friendly_name: IBM Cloud® Virtual Servers for Classic
   category: Stroke style
   aliases:
     - Purple
     - Magenta
-    - IBM Cloud Virtual Server Classic
+    - IBM Cloud Virtual Servers for Classic
     - virtual machine
     - server
     - IBM Software
@@ -7663,12 +7664,12 @@
     - masking
     - audit
 - name: Db2Mirrorfori
-  friendly_name: IBM® Db2® Mirror for 1
+  friendly_name: IBM® Db2® Mirror for i
   category: Stroke style
   aliases:
     - Teal
     - Blue
-    - IBM Db2 Mirror for 1
+    - IBM Db2 Mirror for i
     - IBM Db2 Mirror for one
     - RTO
     - recovery time objective
@@ -8468,3 +8469,59 @@
     - Z OS
     - Z DevOps
     - ZOS
+- name: Db2_02
+  friendly_name: IBM Db2®
+  category: Stroke style
+  aliases:
+    - Hybrid
+    - Cloud
+    - Business
+    - Analytics
+    - Data
+    - AI
+    - Watson
+    - Data management software
+    - Data management
+    - Database servers
+    - Hybrid data management
+    - AI data management
+    - Structured data management
+    - Unstructured data management
+    - AI-powered relational database
+    - Relational database
+    - Analytics
+    - Advanced data management
+    - Operational database
+    - In-memory technology
+    - Development tools
+    - Storage optimization
+    - Workload management
+    - Data availability
+- name: Db2_03
+  friendly_name: Unassigned IBM Db2®
+  category: Stroke style
+  aliases:
+    - Hybrid
+    - Cloud
+    - Business
+    - Analytics
+    - Data
+    - AI
+    - Watson
+    - Data management software
+    - Data management
+    - Database servers
+    - Hybrid data management
+    - AI data management
+    - Structured data management
+    - Unstructured data management
+    - AI-powered relational database
+    - Relational database
+    - Analytics
+    - Advanced data management
+    - Operational database
+    - In-memory technology
+    - Development tools
+    - Storage optimization
+    - Workload management
+    - Data availability
