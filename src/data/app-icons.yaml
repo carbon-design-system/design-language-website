@@ -2784,12 +2784,12 @@
     - Magnifier
     - Magnifying glass
     - Data
-- name: WatsonAssistant
-  friendly_name: IBM Watson® Assistant
+- name: watsonxAssistant
+  friendly_name: watsonx Assistant
   category: Stroke style
   aliases:
-    - Watson
-    - IBM Watson Assistant
+    - watsonx
+    - IBM watsonx Assistant
     - Data
     - AI
     - Blue
@@ -7469,8 +7469,8 @@
     - networking
     - agility
     - cloud
-- name: IBMWatsonOrchestrate
-  friendly_name: IBM Watson Orchestrate™
+- name: watsonxOrchestrate
+  friendly_name: watsonx Orchestrate™
   category: Stroke style
   aliases:
     - Purple
