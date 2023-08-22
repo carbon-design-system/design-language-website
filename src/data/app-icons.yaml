@@ -8216,7 +8216,7 @@
     - Carbon
     - UI
     - User interface
-- name: zOS Containers
+- name: zOSContainers
   friendly_name: IBM® z/OS® containers
   category: Stroke style
   aliases:
@@ -8268,7 +8268,7 @@
      - parallel
      - develop
      - deploy
-     - productivity   
+     - productivity
 - name: ImagesVPC
   friendly_name: Images for VPC
   category: Stroke style
