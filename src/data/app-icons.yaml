@@ -2435,7 +2435,7 @@
     - Mobile app
     - Mobile app reference guide
     - POWER reference guide
-- name: CloudPrivate
+- name: zOSCloudBroker
   friendly_name: IBM z/OS® Cloud Broker
   category: Stroke style
   aliases:
