@@ -8107,17 +8107,17 @@
   friendly_name: IBM® PowerSC
   category: Stroke style
   aliases:
-  - IBM PowerSC
-  - IBM Power Security Compliance
-  - Teal
-  - Blue
-  - security
-  - circle
-  - dot
-  - shield
-  - system admin
-  - virtual machine
-  - partitions
+    - IBM PowerSC
+    - IBM Power Security Compliance
+    - Teal
+    - Blue
+    - security
+    - circle
+    - dot
+    - shield
+    - system admin
+    - virtual machine
+    - partitions
 - name: PowerVirtualizationCenter
   friendly_name: IBM® PowerVC
   category: Stroke style
