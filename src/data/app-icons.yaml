@@ -8532,3 +8532,81 @@
     - Storage optimization
     - Workload management
     - Data availability
+- name: IBMCloudHPC
+  friendly_name: IBM Cloud® HPC
+  category: Stroke style
+  aliases:
+  - Magenta
+  - Purple
+  - Blue
+  - Cloud
+  - Square
+  - Node
+  - Data
+  - process
+  - clusters
+  - calculations
+  - simulations
+  - compute
+  - resources
+  - high performance
+  - complex
+  - infrastructure
+- name: watsonx
+  friendly_name: IBM® watsonx™
+  category: Stroke style
+  aliases:
+  - purple
+  - blue
+  - data
+  - AI
+  - platform
+  - generative AI
+  - foundation models
+  - machine learning
+  - enterprise
+- name: watsonxai
+  friendly_name: IBM® watsonx.ai™
+  category: Stroke style
+  aliases:
+  - purple
+  - blue
+  - data
+  - AI
+  - studio
+  - generative AI
+  - foundation models
+  - machine learning
+  - enterprise
+- name: watsonxdata
+  friendly_name: IBM® watsonx.data™
+  category: Stroke style
+  aliases:
+  - purple
+  - blue
+  - data
+  - AI
+  - open
+  - data store
+  - lakehouse
+  - generative AI
+  - workloads
+  - analytics
+  - insight
+  - containers
+  - scalable
+  - enterprise
+- name: watsonxgovernance
+  friendly_name: IBM® watsonx.governance™
+  category: Stroke style
+  aliases:
+  - purple
+  - blue
+  - data
+  - AI
+  - ethical AI
+  - risk mitigation
+  - automation
+  - regulation
+  - generative AI
+  - enterprise
