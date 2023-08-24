@@ -638,6 +638,8 @@
     - Developer network
     - code
     - green
+    - angle brackets
+    - slash
 - name: CognosAnalyticsReporting
   friendly_name: IBM Cognos® Analytics Reporting
   category: Stroke style
@@ -1602,7 +1604,6 @@
     - Africa
     - Continent
     - Share
-    - Africa
     - African
     - African map
     - African continent
@@ -1753,6 +1754,7 @@
   category: IBM Plex® style
   aliases:
     - Unassigned
+    - go
     - Hybrid
     - Cloud
     - Business
@@ -2390,6 +2392,7 @@
   category: IBM Plex® style
   aliases:
     - Unassigned
+    - php
     - Hybrid
     - Cloud
     - Business
@@ -2507,6 +2510,7 @@
   category: IBM Plex® style
   aliases:
     - Unassigned
+    - rb
     - Hybrid
     - Cloud
     - Business
@@ -3105,6 +3109,7 @@
   category: IBM Plex® style
   aliases:
     - Unassigned
+    - xsp
     - Hybrid
     - Cloud
     - Business
@@ -4773,7 +4778,7 @@
   category: Stroke style
   aliases:
     - Privacy
-    - IBM Cloud®
+    - IBM Cloud
     - Cloud
     - Key
     - Teal
@@ -5314,6 +5319,7 @@
     - IBM Spectrum Scale
     - Green
     - Blue
+    - hexagon
 - name: SpectrumProtect
   friendly_name: IBM Spectrum® Protect
   category: Stroke style
@@ -5330,6 +5336,8 @@
     - IBM Spectrum Protect Plus
     - Blue
     - Teal
+    - hexagon
+    - plus
 - name: SpectrumProtectTools
   friendly_name: IBM Spectrum® Protect Tools for Administrators
   category: Stroke style
@@ -5342,6 +5350,7 @@
     - cogwheel
     - Blue
     - Teal
+    - settings
 - name: SpectrumVirtualize
   friendly_name: IBM Spectrum® Virtualize
   category: Stroke style
@@ -5409,6 +5418,8 @@
     - IBM Spectrum computing
     - Magenta
     - Purple
+    - hexagon
+    - dots
 - name: SpectrumSymphony
   friendly_name: IBM Spectrum Symphony®
   category: Stroke style
@@ -5417,6 +5428,8 @@
     - IBM Spectrum symphony
     - Magenta
     - Blue
+    - hexagon
+    - dots
 - name: SpectrumConductor
   friendly_name: IBM Spectrum Conductor®
   category: Stroke style
@@ -5424,6 +5437,7 @@
     - conductor
     - IBM Spectrum conductor
     - hexagon
+    - dots
     - Magenta
     - Blue
 - name: SpectrumComputingHighPerfAnalytics
@@ -5436,6 +5450,8 @@
     - high performance
     - analytics
     - Purple
+    - hexagon
+    - dots
 - name: SpectrumMPI
   friendly_name: IBM Spectrum® MPI
   category: Stroke style
@@ -5446,6 +5462,7 @@
     - interface
     - IBM Spectrum MPI
     - hexagon
+    - dot
     - Purple
     - Red
 - name: SpectrumLSF
@@ -5458,6 +5475,8 @@
     - IBM Spectrum LSF
     - Green
     - Teal
+    - hexagon
+    - dots
 - name: OneView
   friendly_name: OneView Mobile
   category: Stroke style
@@ -5479,6 +5498,7 @@
     - security
     - Blue
     - Purple
+    - shield
 - name: SecurityQRadarUseCaseManager
   friendly_name: IBM® QRadar® Use Case Manager
   category: Stroke style
@@ -5490,6 +5510,7 @@
     - security
     - Blue
     - Purple
+    - shield
 - name: SecurityQRadarAnalystWorkflow
   friendly_name: IBM Security™ QRadar® Analyst Workflow
   category: Stroke style
@@ -5501,20 +5522,8 @@
     - security
     - Purple
     - Blue
-- name: HealthPassWallet
-  friendly_name: IBM Health Pass Wallet
-  category: Stroke style
-  aliases:
-    - health
-    - pass
-    - wallet
-    - ID
-    - identity
-    - Teal
-    - Purple
-    - Blue
 - name: HealthPassIssuer
-  friendly_name: IBM Health Pass Issuer
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - health
@@ -5527,7 +5536,7 @@
     - Blue
 - name: HealthPassVerifier
   friendly_name: IBM Health Pass Verifier
-  category: Stroke style
+  category: Unassigned
   aliases:
     - health
     - pass
@@ -5547,6 +5556,7 @@
     - studio
     - Purple
     - Blue
+    - lightbulb
 - name: WatsonToneAnalyzer
   friendly_name: IBM Watson® Tone Analyzer Service
   category: Stroke style
@@ -5558,6 +5568,9 @@
     - service
     - Purple
     - Blue
+    - chat emoji
+    - happy
+    - sad
 - name: WatsonVisualRecognition
   friendly_name: IBM Watson® Visual Recognition
   category: Stroke style
@@ -5568,6 +5581,12 @@
     - recognition
     - Purple
     - Blue
+    - mountain
+    - magnifying glass
+    - view
+    - image
+    - picture
+    - photograph
 - name: WatsonNaturalLanguageClassifier
   friendly_name: IBM Watson® Natural Language Classifier Service
   category: Stroke style
@@ -5579,6 +5598,9 @@
     - service
     - Purple
     - Blue
+    - a
+    - o
+    - x
 - name: WatsonNaturalLanguageUnderstanding
   friendly_name: IBM Watson® Natural Language Understanding Service
   category: Stroke style
@@ -5590,6 +5612,7 @@
     - service
     - Purple
     - Blue
+    - interpret
 - name: CloudGatewayAppliances
   friendly_name: IBM Cloud® Gateway Appliances
   category: Stroke style
@@ -5600,6 +5623,9 @@
     - appliance
     - Teal
     - Blue
+    - cloud
+    - arrow
+    - dots
 - name: CloudDataStageEdition
   friendly_name: IBM® InfoSphere® DataStage® Edition
   category: Stroke style
@@ -5609,6 +5635,8 @@
     - IBM InfoSphere DataStage Edition
     - Teal
     - Blue
+    - square
+    - arrow
 - name: CloudOpenShiftContainerStorage
   friendly_name: Red Hat® OpenShift® on IBM Cloud® - Container Storage
   category: Stroke style
@@ -5621,6 +5649,7 @@
     - Storage
     - Purple
     - Blue
+    - file
 - name: CloudHPCSRouterOperator
   friendly_name: IBM Cloud® HPCS Router Operator
   category: Stroke style
@@ -5632,6 +5661,8 @@
     - HPCS
     - Purple
     - Blue
+    - hexagon
+    - shield
 - name: CloudRegistry
   friendly_name: IBM Cloud® Container Registry
   category: Stroke style
@@ -5642,6 +5673,7 @@
     - Registry
     - Teal
     - Blue
+    - squares
 - name: CarbonReactNative
   friendly_name: Carbon React Native
   category: Stroke style
@@ -5651,6 +5683,8 @@
     - Native
     - Blue
     - Teal
+    - mobile device
+    - hexagon
 - name: '134'
   friendly_name: Unassigned
   category: Stroke style
@@ -5910,6 +5944,9 @@
     - Teal
     - Blue
     - download
+    - monitor
+    - computer
+    - desktop
 - name: CommunityHealthCoach
   friendly_name: IBM Community Health Coach
   category: Stroke style
@@ -6148,6 +6185,8 @@
     - platform
     - Teal
     - Blue
+    - circle
+    - line
 - name: NetezzaPerformanceServer
   friendly_name: IBM® Netezza® Performance Server
   category: Stroke style
@@ -6155,6 +6194,7 @@
     - Green
     - Teal
     - IBM Netezza Performance Server
+    - circle
 - name: CognitiveEnterpriseDataPlatform
   friendly_name: IBM Cognitive Enterprise Data Platform
   category: Fill style
@@ -6538,6 +6578,7 @@
   category: IBM Plex® style
   aliases:
     - OS
+    - Linux
     - power systems
     - operating system
 - name: CloudInfrastructureCenter
@@ -6549,7 +6590,7 @@
     - IBM Cloud Infrastructure Center
     - IaaS
     - automation
-    - IBM Z®
+    - IBM Z
     - LinuxONE
     - resource
     - utilization
@@ -6678,6 +6719,8 @@
     - cloud
     - container
     - security
+    - hexagon
+    - shield
 - name: CloudHyperProtectVirtualServers
   friendly_name: IBM Cloud® Hyper Protect Virtual Servers
   category: Stroke style
@@ -6688,9 +6731,11 @@
     - mission-critical
     - protection
     - security
-    - Linux®
-    - IBM Z®
+    - Linux
+    - IBM Z
     - LinuxONE
+    - server
+    - shield
 - name: CloudHyperProtectDBaaS
   friendly_name: IBM Cloud® Hyper Protect DBaaS
   category: Stroke style
@@ -6705,6 +6750,8 @@
     - provision
     - LinuxONE
     - scalability
+    - server
+    - shield
 - name: CloudHyperProtectCryptoServices
   friendly_name: IBM Cloud® Hyper Protect Crypto Services
   category: Stroke style
@@ -6717,6 +6764,8 @@
     - hardware security module
     - HSM
     - FIPS
+    - key
+    - shield
 - name: SaferPayments
   friendly_name: IBM Safer Payments
   category: Stroke style
@@ -6731,6 +6780,9 @@
     - payment analytics
     - fraud patterns
     - fraud threats
+    - credit card
+    - checkmark
+    - check
 - name: CloudKeyProtect
   friendly_name: IBM Key Protect
   category: Stroke style
@@ -6749,6 +6801,8 @@
     - roots of trust
     - HSM
     - hardware security module
+    - shield 
+    - key
 - name: CloudMulticloudKeyOrchestrator
   friendly_name: IBM Cloud® Multicloud Key Orchestrator
   category: Stroke style
@@ -6764,6 +6818,8 @@
     - HSM
     - hardware security module
     - HPCS
+    - cloud
+    - key
 - name: CloudSecurityGroups
   friendly_name: IBM Cloud® Security Groups
   category: Stroke style
@@ -6777,6 +6833,7 @@
     - traffic
     - virtual server
     - rules
+    - shield
 - name: CloudDb2DevOps
   friendly_name: IBM® Db2® Administration Foundation for z/OS®
   category: Stroke style
@@ -6812,6 +6869,9 @@
     - analyst
     - fraud detection
     - fraud investigation
+    - shield
+    - check
+    - checkmark
 - name: CRUISE
   friendly_name: IBM CRUISE
   category: Stroke style
@@ -6825,6 +6885,10 @@
     - reusable code
     - search
     - code exclusion
+    - magnifying glass
+    - code
+    - angle bracket
+    - slash
 - name: EventNotification
   friendly_name: IBM Cloud® Event Notifications
   category: Stroke style
@@ -6883,7 +6947,7 @@
   friendly_name: IBM Hyper Protect Data Controller
   category: Stroke style
   aliases:
-    - Blue 
+    - Blue
     - enterprise
     - data security
     - hybrid cloud
@@ -6909,7 +6973,7 @@
     - environment
     - open source
     - cloud native
-    - IBM Cloud®
+    - IBM Cloud
     - apps
     - microservices
     - application server
@@ -6951,7 +7015,7 @@
     - transparency
     - ELM
     - AI
-    - IBM Cloud®
+    - IBM Cloud
     - IBM Software
     - cog wheel
 - name: EngineeringRequirementsDOORSNext
@@ -6967,7 +7031,7 @@
     - Next
     - ELM
     - AI
-    - IBM Cloud®
+    - IBM Cloud
     - IBM Software
     - door
     - entry
@@ -6984,7 +7048,7 @@
     - workflow
     - ELM
     - AI
-    - IBM Cloud®
+    - IBM Cloud
     - IBM Software
     - venn
 - name: EngineeringTestManagement
@@ -6999,7 +7063,7 @@
     - test
     - ELM
     - AI
-    - IBM Cloud®
+    - IBM Cloud
     - IBM Software
     - circle
     - arrow
@@ -7015,7 +7079,7 @@
     - engineering
     - ELM
     - AI
-    - IBM Cloud®
+    - IBM Cloud
     - IBM Software
     - connection
     - arrows
@@ -7032,7 +7096,7 @@
     - model manager
     - ELM
     - AI
-    - IBM Cloud®
+    - IBM Cloud
     - IBM Software
     - cube
     - 3d
@@ -7141,7 +7205,7 @@
     - Import and export
     - Retention and holds
     - Customizable user interface
-    - folder 
+    - folder
     - file
     - document
 - name: ContentCollectorForSAP
@@ -7266,8 +7330,8 @@
     - scorecard
     - monitoring
     - reporting
-    - Cognos®
-    - IBM Cloud®
+    - Cognos
+    - IBM Cloud
     - circles
     - bubbles
     - square
@@ -7283,7 +7347,7 @@
     - Teal
     - open source design system
     - ui
-    - broweser
+    - browser
     - hexagon
 - name: WatsonOrders
   friendly_name: IBM Watson® Orders
