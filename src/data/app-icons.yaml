@@ -2785,7 +2785,7 @@
     - Magnifying glass
     - Data
 - name: watsonxAssistant
-  friendly_name: watsonx Assistant
+  friendly_name: IBM® watsonx™ Assistant
   category: Stroke style
   aliases:
     - watsonx
@@ -7470,7 +7470,7 @@
     - agility
     - cloud
 - name: watsonxOrchestrate
-  friendly_name: watsonx Orchestrate™
+  friendly_name: IBM® watsonx™ Orchestrate™
   category: Stroke style
   aliases:
     - Purple
@@ -8571,6 +8571,7 @@
   aliases:
   - purple
   - blue
+  - IBM watsonx ai
   - data
   - AI
   - studio
@@ -8584,6 +8585,7 @@
   aliases:
   - purple
   - blue
+  - IBM watsonx data
   - data
   - AI
   - open
@@ -8602,6 +8604,7 @@
   aliases:
   - purple
   - blue
+  - IBM watsonx governance
   - data
   - AI
   - ethical AI
@@ -8610,3 +8613,14 @@
   - regulation
   - generative AI
   - enterprise
+- name: watsonxCodeAssistant
+  friendly_name: IBM® watsonx™ Code Assistant
+  category: Stroke style
+  aliases:
+  - purple
+  - blue
+  - data
+  - AI
+  - IBM watsonx code assistant
+  - code
+  - developer
