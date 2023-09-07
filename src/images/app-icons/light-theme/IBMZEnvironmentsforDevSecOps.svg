@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-79048ec3-4544-4b67-90ac-525ccb4cb347" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .uuid-909047a8-78a1-4ed5-80f2-be9ea72a6b28 {
+        fill: url(#uuid-9d424655-5390-4ce3-bde0-4b35de13b71a);
+      }
+
+      .uuid-5993156d-4c29-4317-aa6b-5b285809a604 {
+        fill: #001d6c;
+      }
+
+      .uuid-73a8d407-e808-4590-8da2-5ace5dc0d462 {
+        fill: #fff;
+      }
+
+      .uuid-00b09852-a91d-4a33-aced-2c15d65dbe1d {
+        mask: url(#uuid-6c012010-c2ef-4607-a3dc-56a0ea2a3b83);
+      }
+
+      .uuid-c9419742-9321-45d7-8f70-26704be3612f {
+        fill: url(#uuid-52e4b351-b1d0-4b3c-b07b-ea5cbce6b2a5);
+      }
+    </style>
+    <linearGradient id="uuid-9d424655-5390-4ce3-bde0-4b35de13b71a" x1="1526.843" y1="-1076.344" x2="1539.843" y2="-1076.344" gradientTransform="translate(-1568.731 399.79) scale(1.03 .346)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".9" stop-color="#000"/>
+    </linearGradient>
+    <mask id="uuid-6c012010-c2ef-4607-a3dc-56a0ea2a3b83" data-name="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <rect class="uuid-73a8d407-e808-4590-8da2-5ace5dc0d462" x="7" y="6" width="2" height="10"/>
+          <path class="uuid-73a8d407-e808-4590-8da2-5ace5dc0d462" d="m29,8.928c0-.357-.191-.688-.5-.866L16.5,1.134c-.309-.179-.691-.179-1,0l-4,2.309c-.309.179-.5.509-.5.866v8.69h2V4.886l3-1.732,11,6.351v3.495h2v-4.072Z"/>
+          <path class="uuid-73a8d407-e808-4590-8da2-5ace5dc0d462" d="m5.786,22.948l-.786-.454v-13.495h-2v14.072c0,.357.191.687.5.866h0s0,0,0,0l12,6.928h0s.5-.866.5-.866l.5-.866-10.714-6.185Z"/>
+        </g>
+        <rect class="uuid-909047a8-78a1-4ed5-80f2-be9ea72a6b28" x="4.188" y="25.201" width="13.392" height="3.464" transform="translate(14.925 -1.834) rotate(30)"/>
+      </g>
+    </mask>
+    <linearGradient id="uuid-52e4b351-b1d0-4b3c-b07b-ea5cbce6b2a5" x1="-4270" y1="4272" x2="-4238" y2="4304" gradientTransform="translate(4270 4304) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#a56eff"/>
+      <stop offset=".9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g class="uuid-00b09852-a91d-4a33-aced-2c15d65dbe1d">
+    <rect class="uuid-c9419742-9321-45d7-8f70-26704be3612f" x="0" y="0" width="32" height="32"/>
+  </g>
+  <g>
+    <path class="uuid-5993156d-4c29-4317-aa6b-5b285809a604" d="m21,23.5c0,1.381,1.119,2.5,2.5,2.5s2.5-1.119,2.5-2.5-1.119-2.5-2.5-2.5c-.322,0-.627.066-.909.177l-4.884-4.884-1.414,1.414,4.884,4.884c-.111.282-.177.588-.177.909Z"/>
+    <path class="uuid-5993156d-4c29-4317-aa6b-5b285809a604" d="m23.5,16v2c3.033,0,5.5,2.467,5.5,5.5s-2.467,5.5-5.5,5.5-5.5-2.467-5.5-5.5h-2c0,4.142,3.358,7.5,7.5,7.5s7.5-3.358,7.5-7.5-3.358-7.5-7.5-7.5Z"/>
+  </g>
+</svg>
