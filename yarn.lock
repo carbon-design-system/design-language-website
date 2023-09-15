@@ -1391,9 +1391,9 @@
   integrity sha512-b8Cc9vgMlkQfLQAwq9Zt1/UfsrtGcWQpf0kK5gCamAuSmNSFWYJSwqbY9MeodxM2xNfXrxFcEFwqwy/E7egxUw==
 
 "@carbon/pictograms-react@^11.14.0", "@carbon/pictograms-react@^11.46.1":
-  version "11.48.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.48.0.tgz#0cb6d7ad779ecc21b56b95cf4f881a732bd3915e"
-  integrity sha512-BhNdCBOfhG9jD+quwryjA9oNojULyf4ZQHGJcbZ8VDoh6XHK+6zvRiy9R8VbE8lm8PBOzN9RgtdTTwzIoEUuWg==
+  version "11.49.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.49.0.tgz#8a6e71856713524e9841b457a9e1fe9b375142ac"
+  integrity sha512-9Kn7/Jx4j9DD4P5+A2FTVKi1tN17ZgLfR9y5OXVbkqBjvNwJdX5BvvJpDV+CjQ3dsDI5RXyLajE76aTuac4/hQ==
   dependencies:
     "@carbon/icon-helpers" "^10.44.0"
     "@carbon/telemetry" "0.1.0"
