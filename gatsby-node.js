@@ -28,7 +28,7 @@ exports.onPreBootstrap = async ({ reporter }) => {
         pictogram.name === 'ibm--z--partition' ||
         pictogram.name === 'watsonx--ai' ||
         pictogram.name === 'watsonx--data' ||
-        pictogram.name === 'watsonx--governance' ||
+        pictogram.name === 'watsonx--governance'
       ) {
         return false;
       }
