@@ -6,7 +6,7 @@
     - IBM Cloud Professional Services for Government
     - Government
     - Municipal
-    - Federal
+    - Federalƒ
     - Professional
     - Services
     - Blue
@@ -2898,11 +2898,12 @@
     - Data
     - Discovery
 - name: WatsonKnowledgeCatalog
-  friendly_name: IBM Watson® Knowledge Catalog
+  friendly_name: IBM® Knowledge Catalog
   category: Stroke style
   aliases:
     - Watson
-    - IBM Watson Knowledge Catalog
+    - IBM Knowledge Catalog
+    - watsonx
     - Data
     - AI
     - Blue
@@ -2928,11 +2929,12 @@
     - Magnifier
     - Magnifying glass
 - name: WatsonMachineLearning
-  friendly_name: IBM Watson® Machine Learning
+  friendly_name: IBM® Machine Learning
   category: Stroke style
   aliases:
     - Watson
-    - IBM Watson Machine Learning
+    - IBM Machine Learning
+    - watsonx
     - Data
     - AI
     - Blue
@@ -2957,12 +2959,13 @@
     - Plus
     - Add
 - name: WatsonOpenScale
-  friendly_name: IBM Watson® OpenScale™
+  friendly_name: IBM® OpenScale™
   category: Stroke style
   aliases:
     - Watson
-    - IBM Watson OpenScale
+    - IBM OpenScale
     - Data
+    - watsonx
     - AI
     - Blue
     - Purple
@@ -3005,6 +3008,7 @@
     - Watson
     - IBM Watson Studio
     - Data
+    - watsonx
     - AI
     - Blue
     - Purple
@@ -3012,6 +3016,22 @@
     - Curly brackets
     - Studio
     - Model
+    - watsonx
+    - AI
+    - cloud
+    - AI on cloud building
+    - AI on cloud scaling
+    - AI model building
+    - AI model management
+    - AI model running
+    - AI lifecycle automation
+    - ModelOps
+    - lifecycle management
+    - lifecycle governance
+    - MLOps
+    - AI algorithms
+    - outcome predictions
+    - natural language interface
 - name: WatsonTalent
   friendly_name: IBM Watson® Talent
   category: Stroke style
@@ -5543,11 +5563,12 @@
     - Purple
     - Blue
 - name: WatsonKnowledgeStudio
-  friendly_name: IBM Watson® Knowledge Studio
+  friendly_name: IBM® Knowledge Studio
   category: Stroke style
   aliases:
     - IBM Watson
-    - IBM Watson Knowledge Studio
+    - IBM Knowledge Studio
+    - watsonx
     - knowledge
     - studio
     - Purple
@@ -5981,12 +6002,14 @@
     - IBM Watson Talent Frameworks
     - diagram
 - name: CloudPakWatsonAIOps
-  friendly_name: IBM Cloud Pak® for Watson AIOps
+  friendly_name: IBM Cloud Pak® for AIOps
   category: Stroke style
   aliases:
     - Blue
     - Teal
-    - IBM Cloud Pak for Watson AIOps
+    - IBM Cloud Pak for AIOps
+    - watsonx
+    - AI
     - hexagon
     - EKG
     - cardiogram
@@ -6083,12 +6106,14 @@
     - Teal
     - diagram
 - name: CloudOpenPagesWithWatson
-  friendly_name: IBM® OpenPages® with Watson® on Cloud
+  friendly_name: IBM® OpenPages®
   category: Stroke style
   aliases:
     - Purple
     - Blue
-    - IBM OpenPages with Watson on Cloud
+    - IBM OpenPages
+    - watsonx
+    - AI
     - Watson
     - shield
     - list
@@ -7346,12 +7371,13 @@
     - browser
     - hexagon
 - name: WatsonOrders
-  friendly_name: IBM Watson® Orders
+  friendly_name: IBM® watsonx™ Orders
   category: Stroke style
   aliases:
     - Purple
     - Blue
-    - IBM Watson Orders
+    - IBM watsonx Orders
+    - watsonx
     - automated ordering
     - customer experience
     - order accuracy
@@ -7371,6 +7397,73 @@
     - chat
     - document
     - speech bubble
+- name: ibm-watsonx--assistant
+  friendly_name: IBM® watsonx™ Assistant
+  aliases:
+    - AI
+    - watsonx
+    - chatbot
+    - virtual agent
+    - conversational AI
+    - LLM
+    - large language model
+  sizes:
+    - 32
+- name: ibm-watsonx--code-assistant
+  friendly_name: IBM® watsonx™ Code Assistant
+  aliases:
+    - AI
+    - watsonx
+    - developer
+    - code
+    - code generation
+    - generative AI
+    - application modernization
+    - foundation models
+    - automation
+    - productivity
+    - AI code recommendation
+    - enterprise
+    - application
+  sizes:
+    - 32
+- name: ibm-watsonx--code-assistant-for-z
+  friendly_name: IBM® watsonx™ Code Assistant for Z
+  aliases:
+    - AI
+    - watsonx
+    - developer
+    - code
+    - code generation
+    - generative AI
+    - application modernization
+    - automation
+    - productivity
+    - modernization
+    - code recommendation
+    - application
+    - Z
+    - mainframe
+    - COBOL
+    - Java
+    - zSystems
+  sizes:
+    - 32
+- name: ibm-watsonx--orchestrate
+  friendly_name: IBM® watsonx™ Orchestrate
+  aliases:
+    - efficiency
+    - productivity
+    - automation
+    - digital worker
+    - integration
+    - efficiency
+    - complex
+    - natural language processing
+    - watsonx
+    - AI
+  sizes:
+    - 32
 - name: Telehealth
   friendly_name: IBM® Telehealth
   category: Stroke style
