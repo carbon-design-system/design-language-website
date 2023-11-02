@@ -685,7 +685,7 @@
     - Notification
     - Caution
 - name: API
-  friendly_name: 
+  friendly_name: Unassigned
   category: IBM Plex® style
   aliases:
     - Hybrid
