@@ -750,7 +750,7 @@
   friendly_name: Bee, generic
   category: Stroke style
   aliases:
-    - 
+    - Unassigned
     - Generic
     - IBM
     - brand
@@ -765,7 +765,7 @@
   friendly_name: Bee, generic
   category: Fill style
   aliases:
-    - 
+    - Unassigned
     - Generic
     - IBM
     - brand
@@ -969,7 +969,7 @@
     - SOA gateway
     - Cloud gateway
 - name: CloudEventStreams
-  friendly_name: 
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Hybrid
