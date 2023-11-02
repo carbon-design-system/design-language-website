@@ -969,7 +969,7 @@
     - SOA gateway
     - Cloud gateway
 - name: CloudEventStreams
-  friendly_name: IBM Event Streams
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Hybrid
@@ -3348,22 +3348,18 @@
     - Architect
     - Structure
     - Enclose
-- name: '011'
-  friendly_name: Unassigned
+- name: SoftwareSupport
+  friendly_name: IBM® Software Support
   category: Stroke style
   aliases:
-    - Blue
-    - Purple
-    - Person
-    - Human
-    - Connect
-    - Mobile
-    - Phone
-    - Interface
-    - HCI
-    - Human Computer Interface
-    - User
-    - Audience
+    - blue
+    - purple
+    - mobile app
+    - application
+    - customer support
+    - client support
+    - escalation
+    - support cases
 - name: '012'
   friendly_name: Unassigned
   category: Stroke style
@@ -7537,17 +7533,17 @@
   friendly_name: IBM® watsonx™ Orchestrate™
   category: Stroke style
   aliases:
-    - Purple
+    - efficiency
+    - productivity
+    - automation
+    - digital worker
+    - integration
+    - efficiency
+    - complex
+    - natural language processing
+    - AI
     - Blue
-    - digital assistant
-    - digital employee
-    - digey
-    - IBM Automation
-    - skill automation
-    - repetitive
-    - yin yang
-    - circle
-    - circuit
+    - Teal
 - name: CloudPrivilegedAccessGateway
   friendly_name: IBM Cloud® Privileged Access Gateway
   category: Stroke style
@@ -8568,6 +8564,9 @@
     - Storage optimization
     - Workload management
     - Data availability
+    - database
+    - RDBMS
+    - relational database management system
 - name: Db2_03
   friendly_name: Unassigned
   category: Stroke style
@@ -8681,10 +8680,239 @@
   friendly_name: IBM® watsonx™ Code Assistant
   category: Stroke style
   aliases:
-  - purple
-  - blue
-  - data
   - AI
-  - IBM watsonx code assistant
-  - code
   - developer
+  - code
+  - code generation
+  - generative AI
+  - application modernization
+  - automation
+  - productivity
+- name: Instana
+  friendly_name: IBM Instana™
+  category: Stroke style
+  aliases:
+  - Windows
+  - Linux
+  - AIX
+  - Solaris
+  - macOS
+  - blue
+  - teal
+  - automation
+  - monitoring
+  - website
+  - applications
+  - test
+  - synthetic testing
+  - API calls
+- name: Turbonomic
+  friendly_name: IBM® Turbonomic®
+  category: Stroke style
+  aliases:
+  - automation
+  - AI
+  - insights
+  - visualization
+  - dashboard
+  - cost optimization
+  - hybrid cloud
+  - resources
+  - teal
+  - blue
+- name: zPricer
+  friendly_name: IBM® zPricer
+  category: Stroke style
+  aliases:
+  - blue
+  - teal
+  - pricing tool
+  - zSystems
+  - Z
+  - zSW
+  - configuration
+  - proposal
+  - application
+- name: IBM zOS
+  friendly_name: IBM® z/OS®
+  category: Stroke style
+  aliases:
+  - z/OS
+  - operating system
+  - teal
+  - blue
+  - secure
+  - scalable
+  - mission critical
+  - mainframe
+  - Z
+  - platform
+  - transformation
+  - resilence
+  - modernize
+  - hybrid
+  - cloud
+- name: DataProductExchange
+  friendly_name: IBM® Data Product Exchange
+  category: Stroke style
+  aliases:
+  - blue
+  - purple
+  - orchestration
+  - data
+  - batch
+  - real-time
+  - ETL
+  - extract
+  - transform
+  - load
+- name: watsonxCodeAssistantforZ
+  friendly_name: IBM® watsonx™ Code Assistant for Z
+  category: Stroke style
+  aliases:
+  - AI
+  - developer
+  - code
+  - code generation
+  - generative AI
+  - application modernization
+  - automation
+  - productivity
+  - Z
+  - mainframe
+  - COBOL
+  - Java
+- name: MedicalMeetup
+  friendly_name: Medical Meetup
+  category: Stroke style
+  aliases:
+  - blue
+  - purple
+  - medical
+  - meeting
+  - telecommunications
+  - application
+- name: zXplore
+  friendly_name: IBM Z® Xplore
+  category: Stroke style
+  aliases:
+  - Purple
+  - Blue
+  - IBM Z Xplore
+  - learning
+  - enablement
+  - skills
+  - digital badges
+  - experience
+  - technologies
+  - platform
+  - certificate
+- name: SkillsBuild
+  friendly_name: IBM® SkillsBuild
+  category: Stroke style
+  aliases:
+  - learning
+  - enterprise
+  - education
+  - skills
+  - training
+  - course
+  - certificate
+  - professional
+- name: AIonzSystems
+  friendly_name: AI on Z
+  category: Stroke style
+  aliases:
+  - infrastructure
+  - optimization
+  - optimize
+  - zSystem
+  - Z
+  - open source
+  - data
+  - z16
+  - library
+  - compiler
+  - mainframe
+  - AI
+  - analyze
+  - data
+  - resolve
+  - incidents
+- name: SaaSConsole
+  friendly_name: IBM® SaaS Console
+  category: Stroke style
+  aliases:
+  - saas
+  - software as a service
+  - console
+  - cloud
+- name: EventAutomation
+  friendly_name: IBM® Event Automation
+  category: Stroke style
+  aliases:
+  - automation
+  - trends
+  - composable
+  - streams
+  - endpoint management
+  - event processing
+  - authoring
+  - control
+  - governance
+  - Kafka
+  - Apache
+  - enterprise
+  - Teal
+  - Blue
+- name: EventEndpointManagement
+  friendly_name: IBM® Event Endpoint Management
+  category: Stroke style
+  aliases:
+  - automation
+  - catalog
+  - composable
+  - sources
+  - endpoint management
+  - event processing
+  - authoring
+  - control
+  - governance
+  - Kafka
+  - Apache
+  - enterprise
+  - Teal
+  - Blue
+- name: EventProcessing
+  friendly_name: IBM® Event Processing
+  category: Stroke style
+  aliases:
+  - automation
+  - event processing
+  - authoring
+  - detection
+  - Kafka
+  - Apache
+  - enterprise
+  - Teal
+  - Blue
+- name: EventStreams
+  friendly_name: IBM® Event Streams
+  category: Stroke style
+  aliases:
+  - automation
+  - streams
+  - event streams
+  - monitor
+  - workloads
+  - Kafka
+  - Apache
+  - enterprise
+  - metrics
+  - hybrid
+  - cloud
+  - business
+  - Blue
+  - Teal
+  - real-time data streams
+  - data streaming
