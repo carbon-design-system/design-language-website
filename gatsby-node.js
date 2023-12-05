@@ -25,10 +25,7 @@ exports.onPreBootstrap = async ({ reporter }) => {
     .filter((pictogram) => {
       if (
         pictogram.name === 'ibm--z' ||
-        pictogram.name === 'ibm--z--partition' ||
-        pictogram.name === 'watsonx--ai' ||
-        pictogram.name === 'watsonx--data' ||
-        pictogram.name === 'watsonx--governance'
+        pictogram.name === 'ibm--z--partition'
       ) {
         return false;
       }
