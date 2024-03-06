@@ -4387,21 +4387,6 @@
     - Check
     - Approval
     - Approved
-- name: '116'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Magenta
-    - Purple
-    - Chain
-    - Link
-    - Intersection
-    - Interface
-    - Interlocking
-    - Links
-    - Joint
-    - Together
-    - Interdependence
 - name: '117'
   friendly_name: Unassigned
   category: Stroke style
