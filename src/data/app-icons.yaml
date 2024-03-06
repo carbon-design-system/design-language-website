@@ -833,7 +833,7 @@
     - Design tool
     - Open-source design tool
 - name: CICS
-  friendly_name: IBM CICS®
+  friendly_name: IBM® CICS® Transaction Server for z/OS®
   category: Stroke style
   aliases:
     - Systems
@@ -3291,7 +3291,7 @@
     - Approved
     - LinuxONE
 - name: '002'
-  friendly_name: Unassigned
+  friendly_name: IBM TechXchange
   category: Stroke style
   aliases:
     - Blue
@@ -5270,7 +5270,7 @@
     - Purple
     - Magenta
 - name: DigitalHealthPassholder
-  friendly_name: IBM Digital Health Pass
+  friendly_name: Unassigned
   category: Fill style
   aliases:
     - digital
@@ -5284,7 +5284,7 @@
     - Teal
     - Gray
 - name: DigitalHealthTester
-  friendly_name: IBM Digital Health Tester
+  friendly_name: Unassigned
   category: Fill style
   aliases:
     - digital
@@ -5294,7 +5294,7 @@
     - Teal
     - Gray
 - name: DigitalHealthVerifier
-  friendly_name: IBM Digital Health Verifier
+  friendly_name: Unassigned
   category: Fill style
   aliases:
     - digital
@@ -5677,7 +5677,7 @@
     - Blue
     - squares
 - name: CarbonReactNative
-  friendly_name: Carbon React Native
+  friendly_name: Carbon for Mobile
   category: Stroke style
   aliases:
     - Carbon
@@ -5802,11 +5802,28 @@
     - Purple
     - reset
 - name: Security-015
-  friendly_name: Unassigned Security
+  friendly_name: IBM Security® Guardium® Insights
   category: Stroke style
   aliases:
-    - Blue
-    - Purple
+    - product
+    - software
+    - web
+    - compliance
+    - automate
+    - centralize
+    - multi-cloud
+    - enforce
+    - protect
+    - deploy
+    - monitor
+    - secure
+    - private
+    - hybrid
+    - purple
+    - blue
+    - shield
+    - security
+    - data
 - name: Security-016
   friendly_name: Unassigned Security
   category: Stroke style
@@ -6022,7 +6039,7 @@
     - cardiograph
     - heartbeat
 - name: CloudLogAnalysis
-  friendly_name: IBM Cloud® Log Analysis
+  friendly_name: IBM® Log Analysis
   category: Stroke style
   aliases:
     - Blue
@@ -8250,9 +8267,18 @@
   friendly_name: Red Hat® Ansible® Automation Platform
   category: Stroke style
   aliases:
-    - red
-    - circle
     - Red Hat Ansible Automation Platform
+    - Red
+    - Black
+    - system admin
+    - automation
+    - code snippet
+    - operations
+    - tasks
+    - power systems
+    - hardware
+    - virtual machines
+    - partitions
 - name: CICSExplorer
   friendly_name: IBM® CICS Explorer®
   category: Fill style
@@ -8295,7 +8321,7 @@
     - UI
     - User interface
 - name: zOSContainers
-  friendly_name: IBM® z/OS® containers
+  friendly_name: IBM® z/OS Container® Platform
   category: Stroke style
   aliases:
     - z/OS
@@ -8820,7 +8846,7 @@
     - certificate
 - name: SkillsBuild
   friendly_name: IBM® SkillsBuild
-  category: Stroke style
+  category: IBM Plex® style
   aliases:
     - learning
     - enterprise
@@ -8927,3 +8953,102 @@
     - Teal
     - real-time data streams
     - data streaming
+- name: Telemetry
+  friendly_name: IBM® Telemetry
+  category: Stroke style
+  aliases:
+    - web
+    - metrics
+    - measure
+    - analytics
+    - maintain
+    - strategy
+    - data
+    - optics
+    - carbon
+    - collect
+    - view
+    - see
+    - blue
+    - purple
+    - reuse
+    - open source
+    - usage
+    - data
+- name: ePricer
+  friendly_name: ePricer
+  category: Stroke style
+  aliases:
+    - quote
+    - pricing tool
+    - consulting
+    - partner
+    - budget
+    - cost
+    - CIO
+    - finance
+    - operations
+- name: CloudHSM
+  friendly_name: IBM Cloud® Hardware Security Module
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - public cloud
+    - security
+    - IaaS
+    - infrastructure
+    - cryptographic
+    - storage
+    - data sovereignty
+    - cloud
+    - software
+- name: Dynamicrouteserver
+  friendly name: IBM Cloud® Dynamic Route Server for VPC
+  category: Stroke style
+  aliases:
+    - cloud
+    - infrastructure
+    - routing
+    - server
+    - gateway
+    - protocol
+    - VPC
+    - bgp
+    - IaaS
+    - network
+    - send
+    - points
+    - magenta
+- name: PrivatePathsService
+  friendly_name: IBM Cloud® Private Path Service
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - IaaS
+    - connectivity
+    - access
+    - control
+    - host
+    - private
+    - network
+    - secure
+    - service
+- name: watsonxCodeAssistantforZRefactoringAssistant
+  friendly_name: IBM® watsonx™ Code Assistant for Z Refactoring Assitant
+  category: Stroke style
+  aliases:
+    - Cloud
+    - AI
+    - developer
+    - code
+    - code generation
+    - generative AI
+    - mainframe
+    - application modernization
+    - automation
+    - productivity
+    - Z
+    - COBOL
+    - Java
