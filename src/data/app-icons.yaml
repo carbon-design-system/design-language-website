@@ -9389,7 +9389,7 @@
     - R
 - name: EngineeringSystemsDesignRhapsodySN2
   friendly_name: IBM® Engineering Systems Design Rhapsody SN2
-  category: stroke style
+  category: Stroke style
   aliases:
     - automation
     - software
@@ -9742,32 +9742,6 @@
     - single environment
     - data center
     - blue
-- name: AIControlInterfaceforz/OS
-  friendly_name: AI Control Interface for IBM® z/OS®
-  category: Stroke style
-  aliases:
-    - z/OSMF
-    - Teal
-    - Blue
-    - systems
-    - system management
-    - monitoring
-    - data management
-    - enterprise
-    - performance
-    - browser interface
-    - mainframe
-    - automation
-    - AI
-    - control
-    - interface 
-    - plugin
-    - service
-    - management
-    - optimize
-    - intelligence
-    - infused
-    - service class
 - name: SpectrumSentinel
   friendly_name: IBM Spectrum® Sentinel
   category: Stroke style
@@ -10486,7 +10460,7 @@
     - blue
     - teal
 - name: ApplicationFlow
-  friendly name: IBM® Application Flow
+  friendly_name: IBM® Application Flow
   category: Stroke style
   aliases:
     - automation
