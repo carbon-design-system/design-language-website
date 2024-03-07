@@ -392,7 +392,7 @@
     - teal
     - share
 - name: CloudDirectLink
-  friendly_name: IBM Cloud® Direct Link 2.0
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Cloud
@@ -6868,7 +6868,7 @@
     - database administrator
     - application administrator
 - name: Launchpad
-  friendly_name: IBM Launchpad
+  friendly_name: IBM® Launchpad
   category: Stroke style
   aliases:
     - Teal
@@ -9013,8 +9013,8 @@
     - data sovereignty
     - cloud
     - software
-- name: Dynamicrouteserver
-  friendly name: IBM Cloud® Dynamic Route Server for VPC
+- name: routeserver
+  friendly_name: IBM Cloud® Dynamic Route Server for VPC
   category: Stroke style
   aliases:
     - cloud
@@ -9046,7 +9046,7 @@
     - secure
     - service
 - name: watsonxCodeAssistantforZRefactoringAssistant
-  friendly_name: IBM® watsonx™ Code Assistant for Z Refactoring Assitant
+  friendly_name: IBM® watsonx™ Code Assistant for Z Refactoring Assistant
   category: Stroke style
   aliases:
     - Cloud
@@ -9093,7 +9093,7 @@
     - IBM
     - automation
 - name: LaunchpadS4
-  friendly_name: IBM® Launchpad
+  friendly_name: IBM® Launchpad S4
   category: Stroke style
   aliases:
     - Teal
@@ -10497,7 +10497,7 @@
     - blue
     - teal
 - name: OperatorCollectionSDK
-  friendly name: IBM® Operator Collection SDK
+  friendly_name: IBM® Operator Collection SDK
   category: Stroke style
   aliases:
     - websoftware
