@@ -9829,7 +9829,7 @@
     - manage
     - workload
 - name: MerlinCICD
-  friendly_ name: IBM® i Modernization Engine for Lifecycle Integration® CICD
+  friendly_name: IBM® i Modernization Engine for Lifecycle Integration® CICD
   category: Stroke style
   aliases:
     - cloud
@@ -9851,7 +9851,7 @@
     - RedHat
     - OpenShift
 - name: MerlinIDE
-  friendly_ name: IBM® i Modernization Engine for Lifecycle Integration® IDE
+  friendly_name: IBM® i Modernization Engine for Lifecycle Integration® IDE
   category: Stroke style
   aliases:
     - cloud
@@ -9873,7 +9873,7 @@
     - RedHat
     - OpenShift
 - name: MerlinMain
-  friendly_ name: IBM® i Modernization Engine for Lifecycle Integration® Main
+  friendly_name: IBM® i Modernization Engine for Lifecycle Integration® Main
   category: Stroke style
   aliases:
     - cloud
@@ -10516,3 +10516,18 @@
     - redeploy
     - z/OS
     - IBM Z
+- name: VPCSitetoSiteVPN
+  friendly_name: IBM Cloud® VPC Site-to-site VPN
+  category: Stroke style
+  aliases:
+    - product
+    - web
+    - cloud
+    - service
+    - client
+    - gateways connect
+    - network
+    - connectivity
+    - security
+    - secure
+    - magenta
