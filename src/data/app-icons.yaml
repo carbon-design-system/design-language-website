@@ -392,7 +392,7 @@
     - teal
     - share
 - name: CloudDirectLink
-  friendly_name: IBM Cloud® Direct Link 2.0
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Cloud
@@ -833,7 +833,7 @@
     - Design tool
     - Open-source design tool
 - name: CICS
-  friendly_name: IBM CICS®
+  friendly_name: IBM® CICS® Transaction Server for z/OS®
   category: Stroke style
   aliases:
     - Systems
@@ -3272,26 +3272,24 @@
     - Hexagon
     - Build
     - Developer
-- name: ZHMCMobile
-  friendly_name: IBM HMC Mobile
+- name: HMCMobile
+  friendly_name: IBM® HMC Mobile
   category: Stroke style
   aliases:
-    - Systems
-    - IT
-    - Infrastructure
+    - monitor
+    - status
+    - alerts
+    - security
     - Z
-    - Blue
-    - Purple
-    - Server
-    - Checkmark
-    - OK
-    - Mobile
-    - Verified
-    - Verification
-    - Approved
     - LinuxONE
+    - encryption
+    - multifactor authentication
+    - SSL
+    - hardware
+    - memory
+    - processors
 - name: '002'
-  friendly_name: Unassigned
+  friendly_name: IBM TechXchange
   category: Stroke style
   aliases:
     - Blue
@@ -4387,21 +4385,6 @@
     - Check
     - Approval
     - Approved
-- name: '116'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Magenta
-    - Purple
-    - Chain
-    - Link
-    - Intersection
-    - Interface
-    - Interlocking
-    - Links
-    - Joint
-    - Together
-    - Interdependence
 - name: '117'
   friendly_name: Unassigned
   category: Stroke style
@@ -5285,7 +5268,7 @@
     - Purple
     - Magenta
 - name: DigitalHealthPassholder
-  friendly_name: IBM Digital Health Pass
+  friendly_name: Unassigned
   category: Fill style
   aliases:
     - digital
@@ -5299,7 +5282,7 @@
     - Teal
     - Gray
 - name: DigitalHealthTester
-  friendly_name: IBM Digital Health Tester
+  friendly_name: Unassigned
   category: Fill style
   aliases:
     - digital
@@ -5309,7 +5292,7 @@
     - Teal
     - Gray
 - name: DigitalHealthVerifier
-  friendly_name: IBM Digital Health Verifier
+  friendly_name: Unassigned
   category: Fill style
   aliases:
     - digital
@@ -5692,7 +5675,7 @@
     - Blue
     - squares
 - name: CarbonReactNative
-  friendly_name: Carbon React Native
+  friendly_name: Carbon for Mobile
   category: Stroke style
   aliases:
     - Carbon
@@ -5817,11 +5800,28 @@
     - Purple
     - reset
 - name: Security-015
-  friendly_name: Unassigned Security
+  friendly_name: IBM Security® Guardium® Insights
   category: Stroke style
   aliases:
-    - Blue
-    - Purple
+    - product
+    - software
+    - web
+    - compliance
+    - automate
+    - centralize
+    - multi-cloud
+    - enforce
+    - protect
+    - deploy
+    - monitor
+    - secure
+    - private
+    - hybrid
+    - purple
+    - blue
+    - shield
+    - security
+    - data
 - name: Security-016
   friendly_name: Unassigned Security
   category: Stroke style
@@ -6037,7 +6037,7 @@
     - cardiograph
     - heartbeat
 - name: CloudLogAnalysis
-  friendly_name: IBM Cloud® Log Analysis
+  friendly_name: IBM® Log Analysis
   category: Stroke style
   aliases:
     - Blue
@@ -6742,21 +6742,21 @@
     - security
     - hexagon
     - shield
-- name: CloudHyperProtectVirtualServers
+- name: HyperProtectVirtualServers
   friendly_name: IBM Cloud® Hyper Protect Virtual Servers
   category: Stroke style
   aliases:
-    - Teal
-    - Blue
-    - IBM Cloud Hyper Protect Virtual Servers
-    - mission-critical
-    - protection
+    - systems
+    - infrastructure
+    - cloud
     - security
-    - Linux
-    - IBM Z
-    - LinuxONE
-    - server
-    - shield
+    - virtual
+    - servers
+    - LinuxOne
+    - service
+    - private
+    - application
+    - workloads
 - name: CloudHyperProtectDBaaS
   friendly_name: IBM Cloud® Hyper Protect DBaaS
   category: Stroke style
@@ -6868,7 +6868,7 @@
     - database administrator
     - application administrator
 - name: Launchpad
-  friendly_name: IBM Launchpad
+  friendly_name: IBM® Launchpad
   category: Stroke style
   aliases:
     - Teal
@@ -8265,9 +8265,18 @@
   friendly_name: Red Hat® Ansible® Automation Platform
   category: Stroke style
   aliases:
-    - red
-    - circle
     - Red Hat Ansible Automation Platform
+    - Red
+    - Black
+    - system admin
+    - automation
+    - code snippet
+    - operations
+    - tasks
+    - power systems
+    - hardware
+    - virtual machines
+    - partitions
 - name: CICSExplorer
   friendly_name: IBM® CICS Explorer®
   category: Fill style
@@ -8286,12 +8295,24 @@
     - z/OS
     - Z OS
 - name: CloudPAL
-  friendly_name: Cloud PAL
+  friendly_name: Carbon for Cloud
   category: Stroke style
-  aliases:
-    - IBM Cloud pal
-    - pattern asset library
-    - cloud pal
+  aliases: 
+    - IT Infrastructure
+    - public cloud
+    - PAL
+    - software
+    - product
+    - assets
+    - patterns
+    - library
+    - code
+    - guidance
+    - UI
+    - UX
+    - design system
+    - blue
+    - teal
 - name: CloudLogs
   friendly_name: IBM Cloud® Logs
   category: Stroke style
@@ -8310,7 +8331,7 @@
     - UI
     - User interface
 - name: zOSContainers
-  friendly_name: IBM® z/OS® containers
+  friendly_name: IBM® z/OS Container® Platform
   category: Stroke style
   aliases:
     - z/OS
@@ -8835,7 +8856,7 @@
     - certificate
 - name: SkillsBuild
   friendly_name: IBM® SkillsBuild
-  category: Stroke style
+  category: IBM Plex® style
   aliases:
     - learning
     - enterprise
@@ -8942,3 +8963,1571 @@
     - Teal
     - real-time data streams
     - data streaming
+- name: Telemetry
+  friendly_name: IBM® Telemetry
+  category: Stroke style
+  aliases:
+    - web
+    - metrics
+    - measure
+    - analytics
+    - maintain
+    - strategy
+    - data
+    - optics
+    - carbon
+    - collect
+    - view
+    - see
+    - blue
+    - purple
+    - reuse
+    - open source
+    - usage
+    - data
+- name: ePricer
+  friendly_name: ePricer
+  category: Stroke style
+  aliases:
+    - quote
+    - pricing tool
+    - consulting
+    - partner
+    - budget
+    - cost
+    - CIO
+    - finance
+    - operations
+- name: CloudHSM
+  friendly_name: IBM Cloud® Hardware Security Module
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - public cloud
+    - security
+    - IaaS
+    - infrastructure
+    - cryptographic
+    - storage
+    - data sovereignty
+    - cloud
+    - software
+- name: routeserver
+  friendly_name: IBM Cloud® Dynamic Route Server for VPC
+  category: Stroke style
+  aliases:
+    - cloud
+    - infrastructure
+    - routing
+    - server
+    - gateway
+    - protocol
+    - VPC
+    - bgp
+    - IaaS
+    - network
+    - send
+    - points
+    - magenta
+- name: PrivatePathsService
+  friendly_name: IBM Cloud® Private Path Service
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - IaaS
+    - connectivity
+    - access
+    - control
+    - host
+    - private
+    - network
+    - secure
+    - service
+- name: watsonxCodeAssistantforZRefactoringAssistant
+  friendly_name: IBM® watsonx™ Code Assistant for Z Refactoring Assistant
+  category: Stroke style
+  aliases:
+    - Cloud
+    - AI
+    - developer
+    - code
+    - code generation
+    - generative AI
+    - mainframe
+    - application modernization
+    - automation
+    - productivity
+    - Z
+    - COBOL
+    - Java
+- name: CarbonforIBMProducts
+  friendly_name: Carbon for IBM Products
+  category: Stroke style
+  aliases:
+    - carbon for ibm products
+    - carbon
+    - carbon design system
+    - hexagon
+    - hex
+    - IBM software
+    - automation
+    - cloud
+    - security
+    - data and AI
+    - sustainability
+    - infrastructure
+    - design system
+    - pal
+    - pals
+    - blue
+    - teal
+    - systems
+    - UI design
+    - components
+    - patterns
+    - design
+    - UX design
+    - assets
+    - IBM
+    - automation
+- name: LaunchpadS4
+  friendly_name: IBM® Launchpad S4
+  category: Stroke style
+  aliases:
+    - Teal
+    - Blue
+    - web front end
+    - browser
+    - SAP
+    - SAP S4
+    - Fiori
+    - financial
+    - fulfillment
+    - SAP data
+    - SAP applications
+    - online
+- name: AskAccessHub
+  friendly_name: Ask Access Hub
+  category: Stroke style
+  aliases:
+    - CIO
+    - finance
+    - operations
+    - macOS
+    - Windows
+    - web
+    - chatbot
+    - tool
+    - hub
+    - access
+    - chat
+    - self-service
+    - service
+    - blue
+    - purple
+- name: NavigatorMobile
+  friendly_name: IBM® Navigator Mobile
+  category: Fill style
+  aliases:
+    - iOS
+    - Android
+    - software
+    - IBM FileNet P8
+    - library
+    - teamspace
+    - data service
+    - content manager
+    - efficiency
+    - airwatch
+    - MaaS360
+- name: LifecycleProjectAdministrator
+  friendly_name: IBM® Engineering Lifecycle Management Lifecycle Project Administrator
+  category: Stroke style
+  aliases:
+    - software
+    - sustainability
+    - SSW
+    - web
+    - engineering
+    - ELM
+    - product
+    - LPA
+    - lifecycle
+    - project
+    - manage
+    - admin
+    - schedule
+    - plan
+    - requirements
+    - builds
+    - dashboard
+    - administrator
+    - clipboard
+    - user
+    - person
+    - avatar
+    - tasks
+    - list
+    - purple
+- name: JazzReportingService
+  friendly_name: IBM® Engineering Lifecycle Management Reporting
+  category: Stroke style
+  aliases:
+    - software
+    - sustainability
+    - SSW
+    - web
+    - engineering
+    - product
+    - ELM
+    - reporting
+    - reports
+    - jazz
+    - builder
+    - LQE
+    - DCC
+    - lifecycle
+    - analytics
+    - export
+    - data
+    - dashboard
+    - integrate
+    - bar chart
+    - graph
+    - arrow
+    - purple
+- name: GlobalConfigurationManagement
+  friendly_name: IBM® Engineering Lifecycle Management Global Configuration Management
+  category: Stroke style
+  aliases:
+    - software
+    - sustainability
+    - SSW
+    - web
+    - engineering
+    - GCM
+    - ELM
+    - product
+    - global
+    - configure
+    - variations
+    - branches
+    - management
+    - requirements
+    - artifacts
+    - lifecycle
+    - hexagon
+    - arrow
+    - purple
+- name: EngineeringLifecycleOptimizationPublishing
+  friendly_name: IBM® Engineering Lifecycle Management Publishing
+  category: Stroke style
+  aliases:
+    - software
+    - sustainability software
+    - SSW
+    - Web
+    - engineering
+    - ELM
+    - PUB
+    - ELO
+    - product
+    - publish
+    - automation
+    - review
+    - contract
+    - regulatory
+    - requirements
+    - format
+    - template
+    - document
+    - page
+    - paper
+    - file
+    - arrow
+    - purple
+- name: EngineeringLifecycleOptimizationMethodComposer
+  friendly_name: IBM® Engineering Lifecycle Management Method Composer
+  category: Stroke style
+  aliases:
+    - software
+    - sustainability software
+    - SSW
+    - web
+    - engineering
+    - ELM
+    - MEC
+    - ELO
+    - product
+    - process
+    - authoring
+    - create
+    - platform
+    - manage
+    - workflow
+    - edit
+    - manage
+    - publish
+    - processes
+    - documentation
+    - versioning
+    - cycle
+    - write
+    - pen
+    - pencil
+    - purple
+- name: EngineeringLifecycleOptimizationEngineeringInsights
+  friendly_name: IBM® Engineering Lifecycle Management Engineering Insights
+  category: Stroke style
+  aliases:
+    - software
+    - sustainability software
+    - SSW
+    - web
+    - engineering
+    - ELM
+    - ELO
+    - ENI
+    - product
+    - manage
+    - insights
+    - lifecycle
+    - agile
+    - analytics
+    - optimization
+    - compliance
+    - regulatory
+    - share
+    - connect
+    - hexagon
+    - purple
+    - traceability
+    - trace
+- name: EngineeringLifecycleManagementAutomotiveCompliance
+  friendly_name: IBM® Engineering Lifecycle Management Automotive Compliance
+  category: Stroke style
+  aliases:
+    - software
+    - sustainability
+    - SSW
+    - web
+    - engineering
+    - ELM
+    - product
+    - automotive
+    - automobile
+    - vehicles
+    - transportation
+    - compliance
+    - agile
+    - car
+    - check
+    - checkmark
+    - vehicle
+    - purple
+- name: DataCollectionComponent
+  friendly_name: IBM® Engineering Lifecycle Management Data Collection Component
+  category: Stroke style
+  aliases:
+    - software
+    - sustainability
+    - SSW
+    - web
+    - engineering
+    - ELM
+    - DCC
+    - product
+    - lifecycle
+    - management
+    - CLM
+    - data
+    - collection
+    - warehouse
+    - server
+    - purple
+- name: EngineeringSystemsDesignRhapsody-ModelManage
+  friendly_name: IBM® Engineering Systems Design Rhapsody-Model Manage
+  category: Stroke style
+  aliases:
+    - communication
+    - compliance
+    - specifications
+    - reporting
+    - collaborate
+    - web client
+    - design
+    - model
+    - repository
+    - automation
+    - engineering
+    - manage
+    - cloud
+    - blue
+    - purple
+    - R
+- name: EngineeringSystemsDesignRhapsodySN1
+  friendly_name: IBM® Engineering Systems Design Rhapsody SN1
+  category: Stroke style
+  aliases:
+    - automation
+    - software
+    - systems
+    - specifications
+    - interface design
+    - documents
+    - test cases
+    - SysML
+    - UML
+    - UAF
+    - AUTOSAR
+    - import
+    - export
+    - blue
+    - purple
+    - R
+- name: EngineeringSystemsDesignRhapsodySN2
+  friendly_name: IBM® Engineering Systems Design Rhapsody SN2
+  category: Stroke style
+  aliases:
+    - automation
+    - software
+    - systems
+    - specifications
+    - interface design
+    - documents
+    - test cases
+    - SysML
+    - UML
+    - UAF
+    - AUTOSAR
+    - import
+    - export
+    - blue
+    - purple
+    - R
+- name: Paymonitor
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - Paymonitor
+- name: Lakehouse
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - Lakehouse
+- name: HyperProtectServicesPortfolio
+  friendly_name: Hyper Protect Services Portfolio
+  category: Stroke style
+  aliases:
+    - systems
+    - infrastructure
+    - cloud
+    - security
+    - LinuxOne
+    - private
+    - confidential computing
+    - secure execution
+- name: PowerVSPrivateCloud
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - PowerVSPrivateCloud
+- name: TruataCalibrate
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - TruataCalibrate
+- name: WatsonStudio
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - WatsonStudio
+- name: QuantumSafeAdvisor
+  friendly_name: IBM Quantum® Safe Advisor
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - macOS
+    - windows
+    - research
+    - scan
+    - source
+    - generate
+    - code
+    - network
+    - cryptography
+    - inventory
+    - security
+    - post-quantum
+    - quantum-safe
+    - artifact
+    - library
+    - function
+    - protocol
+    - algorithm
+    - encryption
+    - CBOM
+    - automation
+    - scalable
+    - compliance
+    - remediation
+    - analysis
+    - risk
+    - prioritization
+    - posture
+- name: QuantumSafeRemediator
+  friendly_name: IBM Quantum® Safe Remediator
+  category: Stroke style
+  aliases:
+    - Purple
+    - Blue
+    - macOS
+    - windows
+    - research
+    - scan
+    - source
+    - generate
+    - code
+    - network
+    - cryptography
+    - inventory
+    - security
+    - post-quantum
+    - quantum-safe
+    - artifact
+    - library
+    - function
+    - protocol
+    - algorithm
+    - encryption
+    - CBOM
+    - automation
+    - scalable
+    - compliance
+    - remediation
+- name: QuantumSafeExplorer
+  friendly_name: IBM Quantum Safe™ Explorer
+  category: Stroke style
+  aliases:
+    - macOS
+    - windows
+    - research
+    - scan
+    - source
+    - generate
+    - code
+    - network
+    - cryptography
+    - inventory
+    - security
+    - post-quantum
+    - quantum-safe
+    - artifact
+    - library
+    - function
+    - protocol
+    - algorithm
+    - encryption
+    - CBOM
+    - purple
+    - blue
+- name: SAPNetWeaverwithAnyDB
+  friendly_name: IBM® Power® Virtual Server for SAP NetWeaver with AnyDB on AIX
+  category: Stroke style
+  aliases:
+    - cloud
+    - infrastructure
+    - automation
+    - PowerVS
+    - SAP
+    - AIX
+    - Oracle
+    - database
+    - deploy
+    - accelerate
+- name: DirectLink2.0DirectHosting
+  friendly_name: IBM Cloud® Direct Link 2.0 Dedicated Hosting
+  category: Stroke style
+  aliases:
+    - dedicated
+    - interconnection
+    - interconnectivity
+    - interconnect
+    - on-premise
+    - connection
+    - hub and spoke
+    - cross connect
+    - multi cloud
+    - linkcloud
+    - software
+    - product
+    - service
+    - infrastructure
+    - private
+    - network
+    - local
+    - routing
+    - global
+    - connectivity
+    - single environment
+    - data center
+    - blue
+    - hosting
+- name: DirectLink2.0Connect
+  friendly_name: IBM Cloud® Direct Link 2.0 Connect
+  category: Stroke style
+  aliases:
+    - direct link
+    - connect
+    - interconnection
+    - interconnectivity
+    - interconnect
+    - on-premise
+    - connection
+    - hub and spoke
+    - cross connect
+    - multicloud
+    - linkcloud
+    - software
+    - product
+    - service
+    - infrastructure
+    - private
+    - network
+    - local
+    - multicloud
+    - routing
+    - global
+    - connectivity
+    - single environment
+    - data center
+    - blue
+- name: DirectLink2.0Dedicated
+  friendly_name: IBM Cloud® Direct Link 2.0 Dedicated
+  category: Stroke style
+  aliases:
+    - dedicated
+    - interconnection
+    - interconnectivity
+    - interconnect
+    - on-premise
+    - connection
+    - hub and spoke
+    - cross connect
+    - multicloud
+    - linkcloud
+    - software
+    - product
+    - service
+    - infrastructure
+    - private
+    - network
+    - local
+    - routing
+    - global
+    - connectivity
+    - single environment
+    - data center
+    - blue
+- name: DirectLink1.0DedicatedHosting
+  friendly_name: IBM Cloud® Direct Link 1.0 Dedicated Hosting
+  category: Stroke style
+  aliases:
+    - dedicated
+    - interconnection
+    - interconnectivity
+    - interconnect
+    - on-premise
+    - connection
+    - hub and spoke
+    - cross connect
+    - multicloud
+    - linkcloud
+    - software
+    - product
+    - serviceinfrastructure
+    - private
+    - network
+    - local
+    - routing
+    - global
+    - connectivity
+    - single environment
+    - data center
+    - blue
+    - hosting
+- name: DirectLink1.0Connect
+  friendly_name: IBM Cloud® Direct Link 1.0 Connect
+  category: Stroke style
+  aliases:
+    - direct link
+    - connect
+    - interconnection
+    - interconnectivity
+    - interconnect
+    - on-premise
+    - connection
+    - hub and spoke
+    - cross connect
+    - multicloud
+    - linkcloud
+    - software
+    - product
+    - service
+    - infrastructure
+    - private
+    - network
+    - local
+    - routing
+    - global
+    - connectivity
+    - single environment
+    - data center
+    - blue
+- name: DirectLink1.0Exchange
+  friendly_name: IBM Cloud® Direct Link 1.0 Exchange Link
+  category: Stroke style
+  aliases:
+    - direct link
+    - interconnection
+    - interconnectivity
+    - interconnect
+    - on-premise
+    - connection
+    - hub and spoke
+    - cross connect
+    - multicloud
+    - linkcloud
+    - software
+    - product
+    - service
+    - infrastructure
+    - private
+    - network
+    - local
+    - routing
+    - global
+    - connectivity
+    - single environment
+    - data center
+    - blue
+    - exchange
+- name: DirectLink1.0Dedicated
+  friendly_name: IBM Cloud® Direct Link 1.0 Dedicated
+  category: Stroke style
+  aliases:
+    - dedicated
+    - interconnection
+    - interconnectivity
+    - interconnect
+    - on-premise
+    - connection
+    - hub and spoke
+    - cross connect
+    - multicloud
+    - linkcloud
+    - software
+    - product
+    - service
+    - infrastructure
+    - private
+    - network
+    - local
+    - routing
+    - global
+    - connectivity
+    - single environment
+    - data center
+    - blue
+- name: SpectrumSentinel
+  friendly_name: IBM Spectrum® Sentinel
+  category: Stroke style
+  aliases:
+    - recovery
+    - cyber incident
+    - malware
+    - corruption
+    - attack
+    - ransomware
+    - resiliency
+    - SAP
+    - Epic
+    - detection
+    - recovery
+    - backup
+    - machine learning
+    - corruption
+    - detection
+- name: OperationsDashboard
+  friendly_name: IBM® Dashboard Visualization
+  category: Stroke style
+  aliases:
+    - iOS
+    - android
+    - software
+    - tool
+    - weather
+    - global
+    - safety
+    - meteorology
+    - notifications
+    - efficiency
+    - blue
+    - purple
+    - environmental
+    - intelligence
+    - suite
+    - operations
+    - dashboard
+    - forecast
+    - lightning
+    - earthquake
+    - aviation
+    - vegetation
+- name: ResourceMeasurementFacility
+  friendly_name: z/OS® Resource Measurement Facility
+  category: Stroke style
+  aliases:
+    - z/OS
+    - windows
+    - software
+    - systems
+    - infrastructure
+    - cloud
+    - service class
+    - post-processor
+    - sysplex
+    - data collection
+    - workload
+    - manage
+    - reports
+    - monitor
+    - display
+    - analytics
+    - purple
+- name: CloudC2SVPN
+  friendly_name: IBM Cloud® Client VPN for VPC
+  category: Stroke style
+  aliases:
+    - cloud
+    - networking
+    - network
+    - connect
+    - infrastructure
+    - web
+    - remote
+    - secure
+    - magenta
+    - purple
+    - VPC
+    - VPN
+    - client to site
+    - access
+    - manage
+    - workload
+- name: MerlinCICD
+  friendly_name: IBM® i Modernization Engine for Lifecycle Integration® CICD
+  category: Stroke style
+  aliases:
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - web
+    - Windows
+    - IBM-i
+    - Merlin
+    - Modernization
+    - integration
+    - lifecycle
+    - DevOps
+    - VsCode
+    - Application
+    - Development
+    - AppDev
+    - RedHat
+    - OpenShift
+- name: MerlinIDE
+  friendly_name: IBM® i Modernization Engine for Lifecycle Integration® IDE
+  category: Stroke style
+  aliases:
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - web
+    - Windows
+    - IBM-i
+    - Merlin
+    - Modernization
+    - integration
+    - lifecycle
+    - DevOps
+    - VsCode
+    - Application
+    - Development
+    - AppDev
+    - RedHat
+    - OpenShift
+- name: MerlinMain
+  friendly_name: IBM® i Modernization Engine for Lifecycle Integration® Main
+  category: Stroke style
+  aliases:
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - web
+    - Windows
+    - IBM-i
+    - Merlin
+    - Modernization
+    - integration
+    - lifecycle
+    - DevOps
+    - VsCode
+    - Application
+    - Development
+    - AppDev
+    - RedHat
+    - OpenShift
+- name: zOSPackageManager
+  friendly_name: IBM® z/OS® Package Manager
+  category: Stroke style
+  aliases:
+    - z/OS package manager
+    - package manager
+    - z modernization stack
+    - z mod stack
+    - stack
+    - IBM Z
+    - Ansible
+    - cloud broker
+    - operator
+    - operator collection
+- name: ZProvisioning
+  friendly_name: IBM Z® Provisioning
+  category: Stroke style
+  aliases:
+    - Z provisioning
+    - provisioning
+    - z modernization stack
+    - z mod stack
+    - stack
+    - IBM Z
+    - Ansible
+    - cloud broker
+    - operator
+    - operator collection
+- name: ZOpenEnterpriseLanguages
+  friendly_name: IBM Z® Open Enterprise Languages
+  category: Stroke style
+  aliases:
+    - z open enterprise languages
+    - z modernization stack
+    - z mod stack
+    - stack
+    - IBM Z
+    - Ansible
+    - cloud broker
+    - operator
+    - operator collection
+    - compiler
+    - SDK
+- name: AutomatedDataLineage
+  friendly_name: IBM® Automated Data Lineage
+  category: Stroke style
+  aliases:
+    - product
+    - web
+    - software
+    - data and ai
+    - DevOps
+    - offering
+    - visualize
+    - graphical
+    - origin
+    - transformation
+    - trust
+    - secure
+    - security
+    - blue
+    - node
+    - edge
+    - canvas
+    - path
+    - source
+    - target
+    - mapping
+- name: SemeruRuntimes
+  friendly_name: IBM® Semeru Runtime
+  category: Stroke style
+  aliases:
+    - IBM Automation
+    - product
+    - Web
+    - Windows
+    - Linux
+    - Mac
+    - AIX
+    - z/OS
+    - Java
+    - applications
+    - OpenJDKEclipse
+    - OpenJ9 JVM
+    - develop
+    - performance
+    - build
+    - magenta 
+- name: DocsOffline
+  friendly_name: IBM® Docs Offline
+  category: Stroke style
+  aliases:
+    - CIO
+    - Finance
+    - operations
+    - windows
+    - Linux
+    - macOS
+    - documentation
+    - dark
+    - deploy
+    - Electron
+    - intranet
+    - blue
+    - teal
+- name: CertificateUpdater
+  friendly_name: IBM Cloud® Certificate Updater
+  category: IBM Plex® style
+  aliases:
+    - certificate
+    - certificates
+    - updater
+    - cu
+    - secret
+    - secrets
+    - manager
+    - tls
+    - kubernetes
+    - openshift
+    - cluster
+    - clusters
+    - renew
+    - renewal
+    - letsencrypt
+    - akamai
+    - cis
+    - internet
+    - services
+    - scan
+    - cloud
+    - software
+    - product
+    - tool
+    - synchronize
+    - jenkins
+    - tekton
+    - helm
+    - bastion
+    - servicenow
+    - change
+    - request
+    - requests
+- name: IBMQRadarASM
+  friendly_name: IBM Security® QRadar+® ASM
+  category: Stroke style
+  alias names:
+    - security
+    - software
+    - cloud pak
+    - suite
+    - detect
+    - threats
+    - automation
+    - visibility
+    - insights
+    - incidents
+    - endpoint
+    - response
+    - workflow
+    - XDR
+    - SOAR
+    - SIEM
+    - Randori
+    - EDR
+    - ASM
+    - log
+    - analize
+    - manage
+    - surface
+    - attacks
+    - magnifying
+    - purple
+    - cyan
+- name: IBMQRadarEDR
+  friendly_name: IBM Security® QRadar+® EDR
+  category: Stroke style
+  alias names:
+    - security
+    - software
+    - cloud pak
+    - suite
+    - detect
+    - threats
+    - automation
+    - visibility
+    - insights
+    - incidents
+    - endpoint
+    - response
+    - workflow
+    - XDR
+    - SOAR
+    - SIEM
+    - Randori
+    - EDR
+    - ASM
+    - log
+    - analize
+    - manage
+    - surface
+    - attacks
+    - magnifying
+    - purple
+    - cyan
+- name: IBMQRadarSIEM
+  friendly_name: IBM Security® QRadar+® SIEM
+  category: Stroke style
+  alias names:
+    - security
+    - software
+    - cloud pak
+    - suite
+    - detect
+    - threats
+    - automation
+    - visibility
+    - insights
+    - incidents
+    - endpoint
+    - response
+    - workflow
+    - XDR
+    - SOAR
+    - SIEM
+    - Randori
+    - EDR
+    - ASM
+    - log
+    - analize
+    - manage
+    - surface
+    - attacks
+    - magnifying
+    - purple
+    - cyan
+- name: IBMQRadarSOAR
+  friendly_name: IBM Security® QRadar+® SOAR
+  category: Stroke style
+  alias names:
+    - security
+    - software
+    - cloud pak
+    - suite
+    - detect
+    - threats
+    - automation
+    - visibility
+    - insights
+    - incidents
+    - endpoint
+    - response
+    - workflow
+    - XDR
+    - SOAR
+    - SIEM
+    - Randori
+    - EDR
+    - ASM
+    - log
+    - analize
+    - manage
+    - surface
+    - attacks
+    - magnifying
+    - purple
+    - cyan
+- name: IBMQRadarLogInsights
+  friendly_name: IBM Security® QRadar+® Log Insights
+  category: Stroke style
+  alias names:
+    - security
+    - software
+    - cloud pak
+    - suite
+    - detect
+    - threats
+    - automation
+    - visibility
+    - insights
+    - incidents
+    - endpoint
+    - response
+    - workflow
+    - XDR
+    - SOAR
+    - SIEM
+    - Randori
+    - EDR
+    - ASM
+    - log
+    - analize
+    - manage
+    - surface
+    - attacks
+    - magnifying
+    - purple
+    - cyan
+- name: IBMZProcessorcapacity
+  friendly_name: IBM Z® Processor Capacity Reference
+  category: Stroke style
+  aliases:
+    - IBM Zz/OS
+    - z/VM
+    - z/VSE
+    - tool
+    - capacity
+    - planning
+    - insights
+    - Linux
+    - LinuxONE
+    - SSC
+    - CFCC
+    - KVM
+    - LSPR
+    - CPS Tools
+    - blue
+    - purple
+- name: PowerwithVPClandingzone
+  friendly_name: IBM® Power® Virtual Server with VPC Landing Zone
+  category: Stroke style
+  aliases:
+    - cloud
+    - infrastructure
+    - automation
+    - PowerVS
+    - PowerVSI
+    - VPC
+    - build
+    - integrated
+    - secure
+    - deploy
+- name: SAPonPower
+  friendly_name: IBM® Power® Virtual Server for SAP HANA
+  category: Stroke style
+  aliases:
+    - cloud
+    - infrastructure
+    - automation
+    - SAP
+    - PowerVS
+    - build
+    - integrated
+    - secure
+    - deplo
+- name: StorageServiceForNetAppONTAP
+  friendly_name: IBM Cloud® Storage Service for NetApp ONTAP
+  category: Stroke style
+  aliases:
+    - product
+    - web
+    - software
+    - cloud
+    - catalog
+    - infrastructure
+    - NetApp
+    - storage
+    - on-prem
+    - scale
+    - uncoupling
+    - SMB
+    - NFS
+    - windows
+    - unix
+    - data
+    - magenta
+    - purple
+- name: zOSChangeTracker
+  friendly_name: IBM® z/OS® Change Tracker
+  category: Stroke style
+  aliases:
+    - cloud
+    - infrastructure
+    - systems
+    - plugin
+    - management
+    - services
+    - track
+    - configuration
+    - report
+    - blue
+    - teal
+    - analytics
+    - data
+    - monitor
+    - service class
+    - backup
+    - recovery
+    - audit
+    - data sets
+    - zosmf
+    - snapshot
+    - compare
+    - change
+    - version
+- name: AccessibleWorkplace
+  friendly_name: IBM® Accessible Workplace
+  category: Stroke style
+  aliases:
+    - HR
+    - A11y
+    - equitable
+    - disability
+    - tool
+    - application
+    - web
+- name: ClientDeliveryNetworkDirect
+  friendly_name: IBM® Client Delivery Network Direct
+  category: Stroke style
+  aliases:
+    - product
+    - web
+    - CIO
+    - Consulting
+    - service
+    - connect
+    - global
+    - CICsnetwork
+    - green
+    - direct
+    - ICDN
+    - securehub
+    - primary
+- name: ClientDeliveryNetworkPrimary
+  friendly_name: IBM® Client Delivery Network Primary
+  category: Stroke style
+  aliases:
+    - product
+    - web
+    - CIO
+    - Consulting
+    - service
+    - connect
+    - global
+    - CICs
+    - network
+    - green
+    - direct
+    - remote
+    - ICDN
+    - secure
+    - hub
+    - primary
+- name: ClientDeliveryNetworkRemote
+  friendly_name: IBM® Client Delivery Network Remote
+  category: Stroke style
+  aliases:
+    - product
+    - web
+    - CIO
+    - Consulting
+    - service
+    - connect
+    - global
+    - CICs
+    - network
+    - green
+    - remote
+    - ICDN
+    - secure
+    - hub
+    - primary
+- name: ClientDeliveryNetworkHub
+  friendly_name: IBM® Client Delivery Network Hub
+  category: Stroke style
+  aliases:
+    - product
+    - web
+    - CIO
+    - Consulting
+    - service
+    - connect
+    - global
+    - CICs
+    - network
+    - green
+    - direct
+    - remote
+    - ICDN
+    - secure
+    - hub
+    - primary
+- name: WorkloadManagerPolicyAdvisor
+  friendly_name: z/OS® Workload Manager (WLM) Policy Advisor
+  category: Stroke style
+  aliases:
+    - product
+    - service
+    - web
+    - zOS
+    - Systems
+    - Infrastructure
+    - Cloud
+    - plugin
+    - manage
+    - analyze
+    - performance
+    - blue
+    - teal
+    - scheduler
+    - rules
+    - goals
+    - prioritize
+    - resource
+    - capacity
+    - service class
+- name: SecurityandComplianceCenter
+  friendly_name: IBM Cloud® Security and Compliance Center Workload Protection™
+  category: Stroke style
+  aliases:
+    - cloud
+    - web
+    - platform
+    - offering
+    - Sysdig Secure
+    - container
+    - intellegence
+    - security
+    - protection
+    - monitor
+    - manage
+    - configure
+    - permissions
+    - visibility
+    - forensics
+    - microservices
+    - Docker
+    - Kubernetes
+    - workloads
+    - unified
+    - blue
+    - teal
+- name: CloudProjects
+  friendly_name: IBM Cloud® Projects
+  category: Stroke style
+  aliases:
+    - cloud
+    - security
+    - automation
+    - compliance
+    - platform
+    - optimize
+    - manage
+    - terraform
+    - infrastructure
+    - code
+    - scan
+    - magenta
+    - purple
+    - shield
+- name: SevOneNetworkPerformanceManagement
+  friendly_name: IBM® SevOne® Network Performance Management (NPM)
+  category: Fill style
+  aliases:
+    - web
+    - service
+    - software
+    - insights
+    - networking
+    - networks
+    - performance
+    - machine learning
+    - monitor
+    - proactive
+    - blue
+    - teal
+- name: ApplicationFlow
+  friendly_name: IBM® Application Flow
+  category: Stroke style
+  aliases:
+    - automation
+    - cloud
+    - native
+    - software
+    - SaaS
+    - end-to-end
+    - lifecycle
+    - delivery
+    - solution
+    - code
+    - flow
+    - application
+    - web
+    - blue
+    - teal
+    - arrows
+- name: IBMInstituteforBusinessValue
+  friendly_name: IBM® Institute for Business Value
+  category: Stroke style
+  aliases:
+    - IBV
+    - institute
+    - business value
+    - insights
+    - reports
+    - thought leadership
+    - consulting
+    - technology industry
+    - research
+    - think tank
+    - benchmarking
+    - blue
+    - teal
+- name: OperatorCollectionSDK
+  friendly_name: IBM® Operator Collection SDK
+  category: Stroke style
+  aliases:
+    - websoftware
+    - pro
+    - duct
+    - systems
+    - infrastructure
+    - product
+    - web
+    - Ansible
+    - automation
+    - namespace
+    - Kubernetes
+    - cloud broker
+    - deploy
+    - redeploy
+    - z/OS
+    - IBM Z
+- name: VPCSitetoSiteVPN
+  friendly_name: IBM Cloud® VPC Site-to-site VPN
+  category: Stroke style
+  aliases:
+    - product
+    - web
+    - cloud
+    - service
+    - client
+    - gateways connect
+    - network
+    - connectivity
+    - security
+    - secure
+    - magenta
