@@ -1,1 +1,18 @@
-<svg id="CertificateUpdater" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="zchm4cdvib" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-color="#a56eff"/><stop offset=".9" stop-color="#0f62fe"/></linearGradient><mask id="qjta86lqwa" width="32" height="32" maskUnits="userSpaceOnUse"><path d="M1.007 16.123c0-5.792 2.97-8.982 7.583-8.982 3.141 0 5.154 1.276 6.405 4.025l-3.215 1.668c-.442-1.423-1.35-2.38-3.191-2.38-2.184 0-3.632 1.472-3.632 4.172v2.749c0 2.7 1.448 4.172 3.632 4.172 1.841 0 2.896-1.154 3.411-2.553l3.043 1.767c-1.276 2.601-3.313 4.098-6.455 4.098-4.614 0-7.583-2.945-7.583-8.736zM21.183 7.435v10.504c0 2.405.884 3.608 3.092 3.608s3.092-1.202 3.092-3.608V7.435h3.632v10.111c0 5.056-1.816 7.313-6.724 7.313s-6.724-2.258-6.724-7.313V7.435h3.632z" style="fill:#fff"/></mask></defs><g style="mask:url(#qjta86lqwa)"><path style="fill:url(#zchm4cdvib)" d="M0 0h32v32H0z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-0e9efb13-7849-401e-9769-41242641b04f" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <mask id="uuid-4406cd25-f844-4305-a6a2-345438f06371" data-name="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M1.007,16.123c0-5.792,2.97-8.982,7.583-8.982,3.141,0,5.154,1.276,6.405,4.025l-3.215,1.668c-.442-1.423-1.35-2.38-3.191-2.38-2.184,0-3.632,1.472-3.632,4.172v2.749c0,2.7,1.448,4.172,3.632,4.172,1.841,0,2.896-1.154,3.411-2.553l3.043,1.767c-1.276,2.601-3.313,4.098-6.455,4.098-4.614,0-7.583-2.945-7.583-8.736Z" fill="#fff" stroke-width="0"/>
+        <path d="M21.183,7.435v10.504c0,2.405.884,3.608,3.092,3.608s3.092-1.202,3.092-3.608V7.435h3.632v10.111c0,5.056-1.816,7.313-6.724,7.313s-6.724-2.258-6.724-7.313V7.435h3.632Z" fill="#fff" stroke-width="0"/>
+      </g>
+    </mask>
+    <linearGradient id="uuid-7eae7697-f129-4b99-a1eb-f87234d43267" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#a56eff"/>
+      <stop offset=".9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g mask="url(#uuid-4406cd25-f844-4305-a6a2-345438f06371)">
+    <rect width="32" height="32" fill="url(#uuid-7eae7697-f129-4b99-a1eb-f87234d43267)" stroke-width="0"/>
+  </g>
+</svg>
