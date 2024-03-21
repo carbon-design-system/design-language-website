@@ -391,20 +391,6 @@
     - blue
     - teal
     - share
-- name: CloudDirectLink
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Cloud
-    - IBM Cloud Direct Link 2.0
-    - IBM Cloud
-    - Cloud security
-    - Data security
-    - Security
-    - blue
-    - teal
-    - chain
-    - link
 - name: CloudKubernetesService
   friendly_name: IBM Cloud® Kubernetes Service
   category: Stroke style
@@ -3001,37 +2987,6 @@
     - Arrow
     - Goal
     - Recruitment
-- name: WatsonStudio
-  friendly_name: IBM Watson® Studio
-  category: Stroke style
-  aliases:
-    - Watson
-    - IBM Watson Studio
-    - Data
-    - watsonx
-    - AI
-    - Blue
-    - Purple
-    - Group
-    - Curly brackets
-    - Studio
-    - Model
-    - watsonx
-    - AI
-    - cloud
-    - AI on cloud building
-    - AI on cloud scaling
-    - AI model building
-    - AI model management
-    - AI model running
-    - AI lifecycle automation
-    - ModelOps
-    - lifecycle management
-    - lifecycle governance
-    - MLOps
-    - AI algorithms
-    - outcome predictions
-    - natural language interface
 - name: WatsonTalent
   friendly_name: IBM Watson® Talent
   category: Stroke style
@@ -9013,7 +8968,7 @@
     - data sovereignty
     - cloud
     - software
-- name: routeserver
+- name: Dynamicrouteserver
   friendly_name: IBM Cloud® Dynamic Route Server for VPC
   category: Stroke style
   aliases:
@@ -9444,6 +9399,9 @@
   category: Stroke style
   aliases:
     - WatsonStudio
+    - brain
+    - connection
+    - network
 - name: QuantumSafeAdvisor
   friendly_name: IBM Quantum® Safe Advisor
   category: Stroke style
