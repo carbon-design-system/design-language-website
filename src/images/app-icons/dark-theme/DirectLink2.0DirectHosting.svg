@@ -1,1 +1,30 @@
-<svg id="DirectLink2.0DirectHosting" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="linear-gradient" x1="12" y1="9.721" x2="12" y2="5.252" gradientUnits="userSpaceOnUse"><stop offset=".2"/><stop offset="1" stop-opacity="0"/></linearGradient><linearGradient id="linear-gradient-2" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-color="#ff7eb6"/><stop offset=".9" stop-color="#a56eff"/></linearGradient><style></style><mask id="mask" x="0" width="32" height="32" maskUnits="userSpaceOnUse"><path style="fill:#fff" d="M11 19h10v2H11z"/><path d="M29 11V4.911A1.913 1.913 0 0 0 27.089 3H12.911A1.913 1.913 0 0 0 11 4.911V9h2V5h14v14h-4v2h4.089A1.913 1.913 0 0 0 29 19.089V13h3v-2h-3z" style="fill:#fff"/><path style="fill:url(#linear-gradient)" d="M10 5h4v5h-4z"/></mask></defs><g style="mask:url(#mask)"><path style="fill:url(#linear-gradient-2)" d="M0 0h32v32H0z"/></g><path d="M19 27H5V13h4v-2H4.911A1.913 1.913 0 0 0 3 12.911V19H0v2h3v6.089C3 28.143 3.857 29 4.911 29h14.178A1.913 1.913 0 0 0 21 27.089V23h-2v4z" style="fill:#f4f4f4"/><path style="fill:#f4f4f4" d="M11 15h10v2H11zM11 11h10v2H11z"/><path style="fill:none;stroke:#f4f4f4;stroke-miterlimit:10;stroke-width:2px" d="M8 12h1"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-003d0fce-43a6-44a1-82b0-e4c3003002bb" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="uuid-62f1b031-26d7-4156-9854-a5bf4619c98b" x1="12" y1="9.721" x2="12" y2="5.252" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#000"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="uuid-50f22f6e-eacc-4614-9c40-1a2c7806fe9a" data-name="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <g>
+          <rect x="11" y="19" width="10" height="2" fill="#fff" stroke-width="0"/>
+          <path d="M29,11v-6.089c0-1.054-.857-1.911-1.911-1.911h-14.178c-1.054,0-1.911.857-1.911,1.911v4.089h2v-4h14v14h-4v2h4.089c1.054,0,1.911-.857,1.911-1.911v-6.089h3v-2h-3Z" fill="#fff" stroke-width="0"/>
+        </g>
+        <rect x="10" y="5" width="4" height="5" fill="url(#uuid-62f1b031-26d7-4156-9854-a5bf4619c98b)" stroke-width="0"/>
+      </g>
+    </mask>
+    <linearGradient id="uuid-dddf90ab-c7e2-42ae-8c6e-348d19e860d9" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#ff7eb6"/>
+      <stop offset=".9" stop-color="#a56eff"/>
+    </linearGradient>
+  </defs>
+  <g mask="url(#uuid-50f22f6e-eacc-4614-9c40-1a2c7806fe9a)">
+    <rect x="0" width="32" height="32" fill="url(#uuid-dddf90ab-c7e2-42ae-8c6e-348d19e860d9)" stroke-width="0"/>
+  </g>
+  <g>
+    <path d="M19,27H5v-14h4v-2h-4.089c-1.054,0-1.911.857-1.911,1.911v6.089H0v2h3v6.089c0,1.054.857,1.911,1.911,1.911h14.178c1.054,0,1.911-.857,1.911-1.911v-4.089h-2v4Z" fill="#f4f4f4" stroke-width="0"/>
+    <rect x="11" y="15" width="10" height="2" fill="#f4f4f4" stroke-width="0"/>
+    <rect x="11" y="11" width="10" height="2" fill="#f4f4f4" stroke-width="0"/>
+  </g>
+</svg>
