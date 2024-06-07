@@ -10406,6 +10406,7 @@
   category: Fill style
   aliases:
     - web
+    - IBM SevOne Network Performance Management (NPM)
     - service
     - software
     - insights
@@ -10422,6 +10423,7 @@
   category: Stroke style
   aliases:
     - automation
+    - IBM Application Flow
     - cloud
     - native
     - software
@@ -10442,6 +10444,7 @@
   category: Stroke style
   aliases:
     - IBV
+    - IBM Institute for Business Value
     - institute
     - business value
     - insights
@@ -10459,6 +10462,7 @@
   category: Stroke style
   aliases:
     - websoftware
+    - IBM Operator Collection SDK
     - pro
     - duct
     - systems
@@ -10479,6 +10483,7 @@
   category: Stroke style
   aliases:
     - product
+    - IBM Cloud VPC Site-to-site VPN
     - web
     - cloud
     - service
@@ -10494,6 +10499,7 @@
   category: Stroke style
   aliases:
     - platform
+    - IBM cloud stack
     - stack
     - stacks
     - deployable
@@ -10515,7 +10521,7 @@
     - Cyan
     - Teal
     - AEM
-    - Carbon
+    - Carbon for AEM
     - library
     - components
     - design
@@ -10530,6 +10536,7 @@
   aliases:
     - Cyan
     - Teal
+    - IBM Hybrid Cloud Mesh
     - creation flow
     - gateway
     - connection
@@ -10590,7 +10597,7 @@
   category: Stroke style
   aliases:
     - watsonx
-    - watsonx code assistant
+    - watsonx code assistant for Z Validation Assistant
     - code assistant
     - AI assistant
     - AI
@@ -10606,6 +10613,7 @@
   category: Stroke style
   aliases:
     - asset management
+    - IBM Maximo Application Suite
     - asset lifecycle
     - remote monitoring
     - sustainability
