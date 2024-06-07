@@ -3243,7 +3243,7 @@
     - hardware
     - memory
     - processors
-- name: '002'
+- name: TechXchangeMobile
   friendly_name: IBM TechXchange
   category: Stroke style
   aliases:
@@ -5274,8 +5274,8 @@
     - Green
     - Blue
     - hexagon
-- name: SpectrumProtect
-  friendly_name: IBM Spectrum® Protect
+- name: StorageProtect
+  friendly_name: IBM Storage Protect
   category: Stroke style
   aliases:
     - protect
@@ -5489,7 +5489,7 @@
     - Purple
     - Blue
 - name: HealthPassVerifier
-  friendly_name: IBM Health Pass Verifier
+  friendly_name: IBM Digital Health Pass Verify
   category: Stroke style
   aliases:
     - health
@@ -7496,7 +7496,7 @@
     - shield
     - dashboard
 - name: MulticloudMesh
-  friendly_name: IBM® Multicloud Mesh
+  friendly_name: IBM® Hybrid Cloud Mesh
   category: Fill style
   aliases:
     - Teal
@@ -10489,3 +10489,183 @@
     - security
     - secure
     - magenta
+- name: CloudStack
+  friendly_name: IBM Cloud® stack
+  category: Stroke style
+  aliases:
+    - platform
+    - stack
+    - stacks
+    - deployable
+    - service
+    - DA
+    - terraform
+    - IaC
+    - infrastructure as code
+    - template
+    - architecture
+    - configuration
+    - purple
+    - magenta
+    - diamond
+- name: CarbonAEM
+  friendly_name: Carbon for AEM
+  category: Stroke style
+  aliases:
+    - Cyan
+    - Teal
+    - AEM
+    - Carbon
+    - library
+    - components
+    - design
+    - UI
+    - UX
+    - software
+    - digital
+    - developer
+- name: HybridCloudMesh
+  friendly_name: IBM® Hybrid Cloud Mesh
+  category: Stroke style
+  aliases:
+    - Cyan
+    - Teal
+    - creation flow
+    - gateway
+    - connection
+    - deployment
+    - multicloud
+    - networking
+    - alignment
+    - DevOps
+    - SaaS
+    - private cloud
+    - public cloud
+    - edge
+    - on-premises
+    - CloudOps
+    - connectivity
+- name: IBMConcert
+  friendly_name: IBM Concert®
+  category: Stroke style
+  aliases:
+    - Cyan
+    - Teal
+    - circle
+    - insights
+    - platform
+    - application management
+    - AI
+    - developer
+    - code
+    - automation
+    - Concert
+    - application manager
+    - application lifecycle
+    - automation
+    - application
+    - risk
+- name: w3
+  friendly_name: w3 Experience
+  category: IBM Plex® style
+  aliases:
+    - w3
+    - mobile
+    - publisher
+    - web
+    - iOS
+    - Android
+    - Carbon
+    - CIO
+    - native
+    - React
+    - intranet
+    - IBMer
+    - internal
+    - experience
+    - finance and operations
+    - app
+- name: watsonxCodeAssistantforZValidationAssistant
+  friendly_name: watsonx™ Code Assistant for Z Validation Assistant
+  category: Stroke style
+  aliases:
+    - watsonx
+    - watsonx code assistant
+    - code assistant
+    - AI assistant
+    - AI
+    - code
+    - COBOL
+    - Java
+    - z
+    - validation
+    - blue
+    - purple
+- name: MaximoApplicationSuite
+  friendly_name: IBM Maximo® Application Suite
+  category: Stroke style
+  aliases:
+    - asset management
+    - asset lifecycle
+    - remote monitoring
+    - sustainability
+    - maximo
+    - cycle
+    - nut
+    - hexagon
+    - asset monitoring
+    - management
+    - predictive maintenance
+    - rapid deployment
+    - configuration
+    - reliability planning
+    - AI
+    - IoT
+    - analytics
+    - cloud
+    - CMMS
+    - EAM
+    - APM
+    - RCM
+    - shared data
+    - workflows
+- name: zOSConnect
+  friendly_name: IBM® z/OS® Connect
+  category: Stroke style
+  aliases:
+    - infrastructure
+    - hybrid cloud
+    - OpenAPI
+    - mainframe
+    - applications
+    - data
+    - IBM Z
+    - RESTful
+    - API
+    - z/OS
+    - teal
+    - blue
+- name: SysdigSecure
+  friendly_name: Sysdig Secure on IBM Cloud®
+  category: Stroke style
+  aliases: 
+    - cloud
+    - IBM Cloud
+    - scanning
+    - image scanning
+    - automated scanning
+    - analysis
+    - container analysis
+    - compliance
+    - container compliance
+    - containers
+    - Kubernetes
+    - CICD pipelines
+    - security
+    - incident response
+    - security tool
+    - monitor
+    - computer monitor
+    - shield
+
+
