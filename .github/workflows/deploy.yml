@@ -17,10 +17,10 @@ jobs:
         with:
           github_token: ${{ github.token }}
       - uses: actions/checkout@v2
-      - name: Use Node.js 18.x
+      - name: Use Node.js 20.x
         uses: actions/setup-node@v2-beta
         with:
-          node-version: 18.x
+          node-version: 20.x
 
       - name: Install packages
         run: yarn install --frozen-lockfile --network-timeout 300000
@@ -39,5 +39,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.COS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.COS_REGION }}
           AWS_S3_ENDPOINT: https://${{ secrets.COS_ENDPOINT }}
-          SOURCE_DIR: 'public/design/language'
-          DEST_DIR: 'design/language'
+          SOURCE_DIR: "public/design/language"
+          DEST_DIR: "design/language"
