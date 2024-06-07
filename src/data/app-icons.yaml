@@ -10643,6 +10643,7 @@
     - RESTful
     - API
     - z/OS
+    - zOS connect
     - teal
     - blue
 - name: SysdigSecure
