@@ -5,7 +5,7 @@
   "version": "1.0.1",
   "main": "src",
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "browserslist": [
     "last 2 edge version",
@@ -37,25 +37,16 @@
     "format": "prettier --write \"**/*.{css,scss,json,html,yaml}\"",
     "test:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths"
   },
-  "eslintIgnore": [
-    "public/",
-    ".cache/"
-  ],
+  "eslintIgnore": ["public/", ".cache/"],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix"
-    ],
-    "*.{css,scss,json,html,yaml}": [
-      "prettier --write"
-    ],
-    "*.{css,scss}": [
-      "stylelint --fix"
-    ]
+    "*.js": ["eslint --fix"],
+    "*.{css,scss,json,html,yaml}": ["prettier --write"],
+    "*.{css,scss}": ["stylelint --fix"]
   },
   "dependencies": {
     "@carbon/colors": "^10.37.1",
