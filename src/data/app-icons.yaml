@@ -10835,28 +10835,8 @@
     - applications
     - teal
     - blue
-- name: OperatorCollectionSDK
-  friendly name: IBM® Operator Collection SDK
-  category: Stroke style
-  aliases:
-    - web
-    - software
-    - product
-    - systems
-    - infrastructure
-    - product
-    - web
-    - Ansible
-    - automation
-    - namespace
-    - Kubernetes
-    - cloud broker
-    - deploy
-    - redeploy
-    - z/OS
-    - IBM Z
 - name: Dynamicrouteserver
-  friendly name: IBM Cloud® Dynamic Route Server for VPC
+  friendly_name: IBM Cloud® Dynamic Route Server for VPC
   category: Stroke style
   aliases: 
     - IBM Cloud Dynamic Route Server for VPC
@@ -10884,7 +10864,7 @@
     - IBM Systems
     - learning
 - name: CarbonUIBuilder
-  friendly name: Carbon UI Builder
+  friendly_name: Carbon UI Builder
   category: Stroke style
   aliases:
     - software
