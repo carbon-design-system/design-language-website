@@ -3135,6 +3135,7 @@
     - Developer
     - DevOps
     - Build
+    - hexagon
 - name: ZOpenEditor
   friendly_name: IBM Z® Open Editor
   category: Stroke style
@@ -8471,17 +8472,44 @@
   category: Stroke style
   aliases:
     - DevOps
+    - IBM Application Delivery Foundation for zOS
     - Z OS
     - Z DevOps
     - ZOS
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - DevOps
+    - IDE
+    - Eclipse
+    - Tools
+    - Z/OS
+    - Application
+    - Blue
+    - Purple
+    - Mainframe
 - name: DependencyBasedBuild
   friendly_name: IBM® Dependency Based Build
   category: Stroke style
   aliases:
     - DevOps
+    - IBM Dependency Based Build
     - Z OS
     - Z DevOps
     - ZOS
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - DevOps
+    - Tools
+    - Z/OS
+    - Application
+    - Blue
+    - Purple
+    - Mainframe
+    - Build
 - name: WaziCode
   friendly_name: IBM® Wazi Code
   category: Stroke style
@@ -8490,6 +8518,22 @@
     - Z OS
     - Z DevOps
     - ZOS
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - DevOps
+    - Tools
+    - Z/OS
+    - Application
+    - Blue
+    - Purple
+    - Mainframe
+    - Code
+    - Developer
+    - IBM Wazi Code
+    - IDE
+    - hexagon
 - name: ApplicationPerformanceAnalyzerForZOS
   friendly_name: IBM® Application Performance Analyzer for z/OS®
   category: Stroke style
@@ -8498,14 +8542,52 @@
     - Z OS
     - Z DevOps
     - ZOS
+    - Performance
+    - Analyze
+    - ZOS
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - DevOps
+    - Tools
+    - Z/OS
+    - Application
+    - Blue
+    - Purple
+    - Mainframe
 - name: WaziAsAService
   friendly_name: IBM® Wazi as a Service
   category: Stroke style
   aliases:
     - DevOps
+    - IBM Wazi as a Service
     - Z OS
     - Z DevOps
     - ZOS
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - DevOps
+    - Tools
+    - Z/OS
+    - Application
+    - Blue
+    - Purple
+    - Mainframe
+    - Service
+    - IDE
+    - cloud native
+    - testing
+    - development
+    - auditability
+    - productivity
+    - flexibility
+    - scalability
+    - blue
+    - purple
+    - hexagon
 - name: FileManagerForZOS
   friendly_name: IBM® File Manager for z/OS®
   category: Stroke style
@@ -8514,14 +8596,41 @@
     - Z OS
     - Z DevOps
     - ZOS
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - DevOps
+    - Tools
+    - Z/OS
+    - Application
+    - Blue
+    - Purple
+    - Mainframe
+    - File
+    - Manager
 - name: FaultAnalyzerForZOS
   friendly_name: IBM® Fault Analyzer for z/OS®
   category: Stroke style
   aliases:
     - DevOps
+    - IBM Fault Analyzer for zOS
     - Z OS
     - Z DevOps
     - ZOS
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - DevOps
+    - Tools
+    - Z/OS
+    - Application
+    - Blue
+    - Purple
+    - Mainframe
+    - Fault
+    - Analyze
 - name: WaziSandbox
   friendly_name: IBM® Wazi Sandbox
   category: Stroke style
@@ -8530,14 +8639,45 @@
     - Z OS
     - Z DevOps
     - ZOS
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - DevOps
+    - Tools
+    - Z/OS
+    - Application
+    - Blue
+    - Purple
+    - Mainframe
+    - Waze
+    - Sandbox
+    - IDE
+    - hexagon
 - name: ZVirtualTestPlatform
   friendly_name: IBM® Z® Virtual Test Platform
   category: Stroke style
   aliases:
     - DevOps
+    - IBM Z Virtual Test Platform
     - Z OS
     - Z DevOps
     - ZOS
+    - cloud
+    - infrastructure
+    - software
+    - product
+    - DevOps
+    - Tools
+    - Z/OS
+    - Application
+    - Blue
+    - Purple
+    - Mainframe
+    - Test
+    - Virtual
+    - Platform
+    - Integration
 - name: Db2_02
   friendly_name: IBM Db2®
   category: Stroke style
@@ -10676,5 +10816,292 @@
     - monitor
     - computer monitor
     - shield
-
+- name: HyperProtectOfflineSigningOrchestrator
+  friendly_name: IBM® Hyper Protect Offline Signing Orchestrator
+  category: Stroke style
+  aliases: 
+    - code storage
+    - digital assets
+    - cold wallet
+    - hyper protect
+    - security
+    - virtual Servers
+    - IBM Z
+    - LinuxONE
+    - services
+    - blue
+    - diagonal
+    - shield 
+- name: MacAtIBM
+  friendly_name: Mac@IBM
+  category: Stroke style 
+  aliases:
+    - CIO
+    - mac at IBM
+    - mac @ ibm
+    - download
+    - install
+    - uninstall
+    - updates
+    - security
+    - compliance
+    - automation
+    - internal software
+    - IT
+    - arrow
+    - applications
+    - teal
+    - blue
+- name: OperatorCollectionSDK
+  friendly name: IBM® Operator Collection SDK
+  category: Stroke style
+  aliases:
+    - web
+    - software
+    - product
+    - systems
+    - infrastructure
+    - product
+    - web
+    - Ansible
+    - automation
+    - namespace
+    - Kubernetes
+    - cloud broker
+    - deploy
+    - redeploy
+    - z/OS
+    - IBM Z
+- name: Dynamicrouteserver
+  friendly name: IBM Cloud® Dynamic Route Server for VPC
+  category: Stroke style
+  aliases: 
+    - IBM Cloud Dynamic Route Server for VPC
+    - cloud
+    - infrastructure
+    - routing 
+    - server
+    - gateway
+    - protocol
+    - VPC
+    - bgp
+    - IaaS
+    - networks 
+    - endpoints 
+    - magenta
+    - purple
+    - bezier
+- name: Unassigned443
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases: 
+    - cross
+    - purple
+    - zinfluencer
+    - IBM Systems
+    - learning
+- name: CarbonUIBuilder
+  friendly name: Carbon UI Builder
+  category: Stroke style
+  aliases:
+    - software
+    - tool
+    - React
+    - design system
+    - developer
+    - code
+    - layout
+    - pattern
+    - UX
+    - prototype
+    - information
+    - technology
+- name: LogForwardingService
+  friendly_name: VMware Aria® Operations™ and VMware Aria Operations™ for Logs Enterprise Edition
+  category: Stroke style
+  aliases:
+    - performance
+    - vmware environment
+    - log files
+    - troubleshoot
+    - cursor
+    - click
+    - Log Forwarding Service
+    - blue
+    - teal
+- name: TechnologyExpertLabs
+  friendly_name: Partner with IBM® Technology Expert Labs
+  category: Stroke style
+  aliases: 
+    - professional services organization
+    - Partner with IBM Technology Expert Labs
+    - IBM Consulting
+    - IBM Garage
+    - cloud
+    - person
+    - user
+    - expert
+    - blue
+    - teal
+    - co-create
+    - cocreate
+    - services
+- name: CarbonReactMobile
+  friendly_name: Carbon React Mobile
+  category: Stroke style
+  aliases:
+    - react
+    -  native
+    - ios
+    - android
+- name: Db2QReplication
+  friendly_name: IBM Db2® Q Replication
+  category: Stroke style
+  aliases: 
+    - data and AI
+    - IBM Db2 Q Replication
+    - cloud
+    - software
+    - solution
+    - CP4D
+    - cloud pak for data
+    - MQ
+    - server
+    - database
+    - subsystem
+    - configure
+    - log
+    - transaction
+    - arrows
+    - cyan
+    - purple
+- name: InfoSecSE
+  friendly_name: CIO InfoSec SE
+  category: Stroke style
+  aliases: 
+    - CIO
+    - information security
+    - security
+    - search engine
+    - intelligence
+    - protect
+    - secure
+    - shield
+    - magnify
+    - open source
+    - purple
+    - blue
+- name: SecurityAgileScriptedStories
+  friendly_name: CIO Scripted Stories
+  category: Stroke style
+  aliases:
+    - agile
+    - security
+    - user
+    - stories
+    - scripted
+    - ruler
+    - reusable
+    - blue
+    - purple
+    - pencil
+    - network
+- name: DevSecOpsContinuousDelivery
+  friendly_name: IBM Cloud® DevSecOps Continuous Delivery
+  category: Stroke style
+  aliases: 
+    - IBM Cloud DevSecOps Continuous Delivery
+    - cloud
+    - Infrastructure
+    - DevOps
+    - tool
+    - develop
+    - automate
+    - security
+    - compliance
+    - blue
+    - purple
+    - shield
+    - protect
+    - operations
+    - manage
+    - delivery
+    - shield
+    - arrow
+- name: ContinuousIntegration
+  friendly_name: IBM Cloud® DevSecOps Continuous Integration
+  category: Stroke style
+  aliases: 
+    - IBM Cloud DevSecOps Continuous Integration
+    - cloud
+    - Infrastructure
+    - DevOps
+    - tool
+    - develop
+    - automate
+    - security
+    - compliance
+    - blue
+    - purple
+    - protect
+    - operations
+    - manage
+    - delivery
+    - shield
+    - squares
+- name: ContinuousCompliance
+  friendly_name: IBM Cloud® DevSecOps Continuous Compliance
+  category: Stroke style
+  aliases: 
+    - IBM Cloud DevSecOps Continuous Compliance
+    - cloud
+    - infrastructure
+    - software
+    - DevOps
+    - monitor
+    - tool
+    - develop
+    - blue
+    - purple
+    - shield
+    - checkmark
+- name: Recorder
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases: 
+    - circle
+    - recorder
+    - concentric
+    - analyze
+- name: Unassigned165
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases: 
+    - Manager
+    - Case
+    - Briefcase
+    - blue
+    - teal
+    - cogwheel
+    - settings
+- name: Unassigned339
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases: 
+    - Cloud
+    - Developer
+    - DevEx
+    - Environment
+    - Continuous Delivery
+    - DevOps
+    - Toolchain
+    - Tool
+    - cloud
+    - web
+    - product
+    - staging
+    - service
+    - developer
+    - testing
+    - green
 
