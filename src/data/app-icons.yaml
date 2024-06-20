@@ -9108,23 +9108,6 @@
     - data sovereignty
     - cloud
     - software
-- name: Dynamicrouteserver
-  friendly_name: IBM Cloud® Dynamic Route Server for VPC
-  category: Stroke style
-  aliases:
-    - cloud
-    - infrastructure
-    - routing
-    - server
-    - gateway
-    - protocol
-    - VPC
-    - bgp
-    - IaaS
-    - network
-    - send
-    - points
-    - magenta
 - name: PrivatePathsService
   friendly_name: IBM Cloud® Private Path Service
   category: Stroke style
