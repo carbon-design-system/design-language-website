@@ -37,24 +37,33 @@
     "format": "prettier --write \"**/*.{css,scss,json,html,yaml}\"",
     "test:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths"
   },
-  "eslintIgnore": ["public/", ".cache/"],
+  "eslintIgnore": [
+    "public/",
+    ".cache/"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.js": ["eslint --fix"],
-    "*.{css,scss,json,html,yaml}": ["prettier --write"],
-    "*.{css,scss}": ["stylelint --fix"]
+    "*.js": [
+      "eslint --fix"
+    ],
+    "*.{css,scss,json,html,yaml}": [
+      "prettier --write"
+    ],
+    "*.{css,scss}": [
+      "stylelint --fix"
+    ]
   },
   "dependencies": {
     "@carbon/colors": "^10.37.1",
-    "@carbon/icons": "^11.23.1",
-    "@carbon/icons-react": "^11.23.1",
+    "@carbon/icons": "^11.44.1",
+    "@carbon/icons-react": "^11.44.1",
     "@carbon/layout": "^10.37.1",
-    "@carbon/pictograms": "^12.20.1",
-    "@carbon/pictograms-react": "^11.46.1",
+    "@carbon/pictograms": "^12.37.1",
+    "@carbon/pictograms-react": "^11.63.1",
     "@ibm/plex": "^5.2.1",
     "@loadable/babel-plugin": "^5.12.0",
     "@loadable/component": "^5.15.0",
