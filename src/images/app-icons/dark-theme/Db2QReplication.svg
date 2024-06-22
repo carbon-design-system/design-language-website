@@ -1,0 +1,34 @@
+<svg id="f51a192c-904f-45b4-a1ba-9def2631bebb" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="f000883b-4550-44ea-92e4-f60c25bf3556" x1="6879" y1="-615.008" x2="6890" y2="-615.008" gradientTransform="translate(-6879.492 630.508)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.137"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a8d47529-af7e-4bb7-a39e-579b53cd3eaa" x1="6887.243" y1="-1059.004" x2="6898.243" y2="-1059.004" gradientTransform="translate(-6865.746 1075.503)" xlink:href="#f000883b-4550-44ea-92e4-f60c25bf3556"/>
+    <mask id="a47e02ea-3a2d-45da-a715-9d03ee7d7f71" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M9.758,21.758,8.344,23.172,10.172,25H6l0-1.75V11H4v12.2H4V25H4v0H4a2.006,2.006,0,0,0,2,2h4.169L8.344,28.829l1.414,1.414L14,26Z" fill="#fff"/>
+        <path d="M28,7V7h0a2,2,0,0,0-2-2h-4.17l1.829-1.829L22.243,1.757,18,6l4.243,4.242,1.414-1.414L21.828,7H26l0,1.75V21h2V8.8h0V7Z" fill="#fff"/>
+      </g>
+      <g>
+        <rect x="-0.492" y="13.508" width="11" height="3.985" transform="translate(20.508 10.492) rotate(90)" fill="url(#f000883b-4550-44ea-92e4-f60c25bf3556)"/>
+        <rect x="21.496" y="14.504" width="11" height="3.992" transform="translate(10.497 43.496) rotate(-90)" fill="url(#a8d47529-af7e-4bb7-a39e-579b53cd3eaa)"/>
+      </g>
+    </mask>
+    <linearGradient id="f4110ca5-54d9-4d51-9c76-0fde61ed2beb" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#a47e02ea-3a2d-45da-a715-9d03ee7d7f71)">
+      <rect width="32" height="32" fill="url(#f4110ca5-54d9-4d51-9c76-0fde61ed2beb)"/>
+    </g>
+    <g>
+      <path d="M14,4V8H4V4H14m0-2H4A2,2,0,0,0,2,4V8a2,2,0,0,0,2,2H14a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2Z" fill="#f2f2f2"/>
+      <path d="M28,24v4H18V24H28m0-2H18a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V24a2,2,0,0,0-2-2Z" fill="#f2f2f2"/>
+    </g>
+    <circle cx="7" cy="6" r="1" fill="#f2f2f2"/>
+    <circle cx="21" cy="26" r="1" fill="#f2f2f2"/>
+  </g>
+</svg>

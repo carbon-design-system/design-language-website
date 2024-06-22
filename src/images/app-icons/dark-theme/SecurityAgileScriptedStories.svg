@@ -1,0 +1,37 @@
+<svg id="f7650a57-61f1-41fd-aed3-c1102bc39398" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="ec833941-785b-4278-916d-1661cdb6985f" x1="-4353.849" y1="-8008.162" x2="-4347.849" y2="-8008.162" gradientTransform="matrix(1, 0, 0, -1, 4358.356, -7989.337)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.001" stop-opacity="0"/>
+      <stop offset="0.83"/>
+    </linearGradient>
+    <linearGradient id="e89d76f9-bf05-45c5-aa34-63b34f53bb11" x1="2441.291" y1="-3608.802" x2="2447.313" y2="-3608.802" gradientTransform="matrix(1, 0, 0, -2.959, -2422.651, -10666.828)" xlink:href="#ec833941-785b-4278-916d-1661cdb6985f"/>
+    <linearGradient id="b100d140-7ca9-4c94-a15a-1828316c3939" x1="20.213" y1="14.56" x2="25.892" y2="20.239" gradientTransform="translate(19.056 -11.204) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.088" stop-opacity="0"/>
+      <stop offset="0.597"/>
+    </linearGradient>
+    <mask id="ff83b040-1138-4d81-8ac0-89385b5c4888" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path d="M29.414,6.828,25.172,2.586a2,2,0,0,0-2.829,0L16,8.929,9.657,2.586a2,2,0,0,0-2.828,0L2.586,6.828a2,2,0,0,0,0,2.829L8.929,16,2,22.929V30H9.071l8.343-8.343L16,20.243l-12-12L8.243,4l3.515,3.515L9.636,9.636l1.415,1.414,2.121-2.121,4.243,4.243-2.122,2.121,1.414,1.414,2.122-2.121,5.657,5.657L25.9,18.829,23.071,16l6.343-6.343A2,2,0,0,0,29.414,6.828ZM14.586,21.657,8.243,28H4V23.758l6.343-6.344Zm7.071-7.071-4.243-4.243L23.758,4,28,8.243Z" fill="#fff"/>
+      <g>
+        <g>
+          <g id="a18e8856-9dce-418a-965f-3332d311efe3" data-name="Gradients (black)">
+            <rect x="4.507" y="16.825" width="6" height="4" transform="translate(-11.113 10.822) rotate(-45)" fill="url(#ec833941-785b-4278-916d-1661cdb6985f)"/>
+          </g>
+          <g id="b13ee1ea-1c19-42fb-9e68-af597c97093f" data-name="Gradients (black)">
+            <rect x="18.641" y="4.32" width="6.022" height="12.014" transform="translate(44.265 2.319) rotate(135)" fill="url(#e89d76f9-bf05-45c5-aa34-63b34f53bb11)"/>
+          </g>
+        </g>
+        <rect x="21.053" y="13.384" width="3.998" height="8.031" transform="translate(-5.552 21.397) rotate(-45)" fill="url(#b100d140-7ca9-4c94-a15a-1828316c3939)"/>
+      </g>
+    </mask>
+    <linearGradient id="bd9b7ca6-bcd8-48b6-9525-e72e982a3aa1" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#be95ff"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#ff83b040-1138-4d81-8ac0-89385b5c4888)">
+      <rect width="32" height="32" fill="url(#bd9b7ca6-bcd8-48b6-9525-e72e982a3aa1)"/>
+    </g>
+    <path d="M29,27a1.978,1.978,0,0,0-.849.2l-2.338-1.618a3.195,3.195,0,0,0,0-2.154L28.151,21.8A1.979,1.979,0,0,0,29,22a2,2,0,1,0-2-2c0,.054.012.1.016.157l-2.342,1.622A3.464,3.464,0,0,0,22.5,21a3.5,3.5,0,0,0,0,7,3.464,3.464,0,0,0,2.174-.779l2.342,1.622c0,.052-.016.1-.016.157a2,2,0,1,0,2-2Zm-6.5-1A1.5,1.5,0,1,1,24,24.5,1.5,1.5,0,0,1,22.5,26Z" fill="#f4f4f4"/>
+  </g>
+</svg>
