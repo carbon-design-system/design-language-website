@@ -14,8 +14,8 @@
       path: /typography/typeface
     - title: Type basics
       path: /typography/type-basics
-    - title: Type specs UI
-      path: /typography/type-specs-ui
+    - title: Type scale
+      path: /typography/type-scale
 - title: Color
   pages:
     - path: /color
