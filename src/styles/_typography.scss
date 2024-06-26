@@ -179,3 +179,40 @@ $type-scale: 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem, 1.5rem, 1.75rem, 2rem,
     padding-bottom: $spacing-07;
   }
 }
+
+//---------------------------------------
+// Adjusted scale table
+//---------------------------------------
+
+.table-container {
+  margin-top: 0 !important;
+  height: 25rem;
+  overflow: scroll;
+
+  table tbody tr {
+    background-color: #fff;
+  }
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.aligment-adjuster {
+  @media (min-width: 768px) and (max-width: 1280px) {
+    flex-grow: 0.9 !important;
+  }
+}
+
+.itens {
+  flex: 1 1 0;
+
+  p {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+}
