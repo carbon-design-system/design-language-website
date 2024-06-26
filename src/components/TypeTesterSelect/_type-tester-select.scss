@@ -1,0 +1,158 @@
+.#{$prefix}--type-korean {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.#{$prefix}--type-japanese {
+  font-family: 'IBM Plex Sans JP', sans-serif;
+}
+
+.#{$prefix}--type-hebrew {
+  font-family: 'IBM Plex Sans Hebrew', sans-serif;
+}
+
+.#{$prefix}--type-thai {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.#{$prefix}--type-thai-looped {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif !important;
+}
+
+.#{$prefix}--type-devanagari {
+  font-family: 'IBM Plex Sans Devanagari', sans-serif;
+}
+
+.#{$prefix}--type-arabic {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.#{$prefix}--type-default,
+.#{$prefix}--type-default * {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.#{$prefix}--type-condensed,
+.#{$prefix}--type-condensed * {
+  font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.#{$prefix}--type-serif,
+.#{$prefix}--type-serif * {
+  font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
+}
+
+.#{$prefix}--type-mono,
+.#{$prefix}--type-mono * {
+  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono',
+    'Bitstream Vera Sans Mono', Courier, monospace;
+}
+
+.#{$prefix}--mobile-column {
+  @include carbon--breakpoint('sm') {
+    margin-top: 0;
+  }
+}
+
+.#{$prefix}--type-italic {
+  font-style: italic;
+}
+
+.#{$prefix}--type-tester-select-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .dropdown_wrapper {
+    width: 100%;
+    height: 3rem;
+
+    .#{$prefix}--list-box {
+      float: left;
+      width: calc(100% / 3);
+      height: 3rem;
+      border-bottom: transparent;
+
+      .#{$prefix}--list-box__field {
+        background: $ui-01;
+        height: 3rem;
+        border-bottom: 1px solid $carbon--gray-20;
+
+        &:hover {
+          background: $hover-ui;
+        }
+
+        .#{$prefix}--list-box__label {
+          font-weight: 400;
+          line-height: 1rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      &:first-of-type {
+        .#{$prefix}--list-box__field {
+          border-right: 1px solid $carbon--gray-20;
+        }
+      }
+
+      .#{$prefix}--list-box__menu {
+        top: 3rem;
+        background: $ui-01;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+
+        .#{$prefix}--list-box__menu-item {
+          height: auto;
+
+          .#{$prefix}--list-box__menu-item__option {
+            height: auto;
+            padding: 0.875rem 0;
+          }
+        }
+      }
+    }
+  }
+
+  @include carbon--breakpoint('md') {
+    flex-direction: row;
+    .dropdown_wrapper {
+      width: 75%;
+
+      .#{$prefix}--dropdown:last-of-type {
+        .#{$prefix}--list-box__field {
+          border-right: 1px solid $carbon--gray-20;
+        }
+      }
+    }
+    .#{$prefix}--input-range-wrapper {
+      width: 50%;
+    }
+  }
+
+  @include carbon--breakpoint('lg') {
+    .#{$prefix}--input-range-wrapper {
+      width: 25%;
+    }
+  }
+}
+
+.#{$prefix}--type-tester-select-sample {
+  width: 100%;
+  background: $ui-01;
+
+  .#{$prefix}--custom-textarea {
+    font-size: 48px;
+    resize: none;
+    border: none;
+    width: 100%;
+    height: auto;
+    outline: none;
+    background: $ui-01;
+    padding: $spacing-05;
+    overflow: none;
+
+    &::selection {
+      background: $carbon--purple-20;
+    }
+  }
+}
