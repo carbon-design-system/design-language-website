@@ -5881,13 +5881,13 @@
     - Purple
     - bullets
     - list
-- name: MaaS360Admin
-  friendly_name: IBM® MaaS360® Admin
+- name: 175Unassigned
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Teal
-    - IBM MaaS360 Admin
+    - circle
     - person
     - administrator
 - name: AgroPad
@@ -7496,13 +7496,13 @@
     - encryption
     - shield
     - dashboard
-- name: MulticloudMesh
+- name: HybridCloudMesh
   friendly_name: IBM® Hybrid Cloud Mesh
   category: Fill style
   aliases:
     - Teal
     - Blue
-    - IBM Multicloud Mesh
+    - IBM Hybrid Cloud Mesh
     - scalable
     - secure
     - hybrid multicloud
@@ -8279,15 +8279,8 @@
     - logs
     - aggregation
     - query
-- name: CarbonUIBuilder
-  friendly_name: Carbon UI Builder
-  category: Stroke style
-  aliases:
-    - Carbon
-    - UI
-    - User interface
 - name: zOSContainers
-  friendly_name: IBM® z/OS Container® Platform
+  friendly_name: IBM® z/OS® Container Platform
   category: Stroke style
   aliases:
     - z/OS
@@ -10653,13 +10646,13 @@
     - software
     - digital
     - developer
-- name: HybridCloudMesh
-  friendly_name: IBM® Hybrid Cloud Mesh
+- name: HybridCloudMeshGateway
+  friendly_name: IBM® Hybrid Cloud Mesh Gateway
   category: Stroke style
   aliases:
     - Cyan
     - Teal
-    - IBM Hybrid Cloud Mesh
+    - IBM Hybrid Cloud Mesh Gateway
     - creation flow
     - gateway
     - connection
@@ -10892,8 +10885,8 @@
     - Log Forwarding Service
     - blue
     - teal
-- name: TechnologyExpertLabs
-  friendly_name: Partner with IBM® Technology Expert Labs
+- name: CloudExpertLabs
+  friendly_name: IBM® Technology Expert Labs
   category: Stroke style
   aliases: 
     - professional services organization
@@ -10909,6 +10902,23 @@
     - co-create
     - cocreate
     - services
+    - expertise
+    - software expertise
+    - infrastructure expertise
+    - consulting
+    - consultant
+    - methodology
+    - cloud
+    - person
+    - expert
+    - insights
+    - automation
+    - data analysis
+    - customer care
+    - sustainability
+    - security
+    - deploy
+
 - name: CarbonReactMobile
   friendly_name: Carbon React Mobile
   category: Stroke style
@@ -11036,17 +11046,6 @@
     - recorder
     - concentric
     - analyze
-- name: Unassigned165
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases: 
-    - Manager
-    - Case
-    - Briefcase
-    - blue
-    - teal
-    - cogwheel
-    - settings
 - name: Unassigned339
   friendly_name: Unassigned
   category: Stroke style
@@ -11067,4 +11066,89 @@
     - developer
     - testing
     - green
-
+- name: Python3ForSPSSStatistics
+  friendly_name: IBM® SPSS® Statistics Integration Plug-in for Python
+  category: Fill style
+  aliases: 
+    - IBM SPSS Statistics Integration Plug-in for Python3
+    - IBM SPSS Statistics Integration Plug-in for Python 3
+    - Python for IBM SPSS Statistics
+    - Python3 for IBM SPSS Statistics
+    - Python 3 for IBM SPSS Statistics
+    - Python3 for SPSS Statistics
+    - Python 3 for SPSS Statistics
+    - statistics
+    - programming language
+    - letter
+- name: RForSPSSStatistics
+  friendly_name: R Integration Package for IBM® SPSS® Statistics
+  category: Fill style
+  aliases: 
+    - statistics
+    - R Integration Package for IBM SPSS Statistics
+    - R for IBM SPSS Statistics
+    - R for SPSS Statistics
+    - programming language
+    - R language
+    - letter
+- name: SellerIncentives
+  friendly_name: IBM® Seller Incentives
+  category: Stroke style
+  aliases: 
+    - seller
+    - IBM Global Sales Incentives
+    - IBM Seller Incentives
+    - GSI
+- name: PricingAdvisor
+  friendly_name: Pricing Advisor
+  category: Stroke style
+  aliases: 
+    - GPE 
+    - Gross Profit Estimator
+    - delegated services contracts
+- name: 316Unassigned
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases: 
+    - computer
+    - calculator
+    - pricing
+    - dollars
+- name: ResiliencyCloudSolution
+  friendly_name: Reserved
+  category: Stroke style
+  aliases: 
+    - Resiliency Cloud Solution
+    - Resiliency 
+    - High Availability 
+    - IBM Cloud
+- name: NodeRED
+  friendly_name: Node-RED App on IBM Cloud®
+  category: Stroke style
+  aliases: 
+    - Node RED
+    - IBM Cloud
+    - application
+- name: NodeJS
+  friendly_name: Node.js Express App on IBM Cloud®
+  category: Stroke style
+  aliases: 
+    - Node JS
+    - java script
+    - javascript
+    - IBM Cloud
+    - application
+    - IBM Cloud Object Storage
+- name: DevOpsAutomationModelArchitect
+  friendly_name: IBM® DevOps Model Architect
+  category: Stroke Style
+  aliases: 
+    - IBM DevOps Model Architect
+    - IBM DevOps Automation Model Architect
+    - design tools
+    - development tools 
+    - software architectures
+    - software design
+    - compass
+    - divider
+    - circle
