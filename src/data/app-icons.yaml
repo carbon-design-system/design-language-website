@@ -1070,8 +1070,8 @@
     - Email tracking
     - Newsletter assistance
     - Newsletter authentication
-- name: CloudEventManagement
-  friendly_name: IBM Cloud® Event Management
+- name: OnCallManager
+  friendly_name: IBM On Call Manager
   category: Stroke style
   aliases:
     - Hybrid
@@ -2883,17 +2883,14 @@
     - Magnifying glass
     - Data
     - Discovery
-- name: WatsonKnowledgeCatalog
+- name: KnowledgeCatalog
   friendly_name: IBM® Knowledge Catalog
   category: Stroke style
   aliases:
-    - Watson
     - IBM Knowledge Catalog
     - watsonx
     - Data
     - AI
-    - Blue
-    - Purple
     - Notebook
     - File
     - Inventory
@@ -2902,6 +2899,15 @@
     - OK
     - Checkmark
     - Knowledge
+    - information
+    - repository
+    - book
+    - binder
+    - data
+    - data lineage
+    - ML
+    - SaaS
+    - cloud
 - name: WatsonLeadManager
   friendly_name: IBM Kenexa® Lead Manager
   category: Stroke style
@@ -3600,8 +3606,8 @@
     - Circuit
     - Board
     - Hardware
-- name: '037'
-  friendly_name: Unassigned
+- name: CIOInsightsDataPlatform
+  friendly_name: CIO Insights Data Platform
   category: Stroke style
   aliases:
     - Purple
@@ -3784,8 +3790,8 @@
     - Generosity
     - Charity
     - Concern
-- name: '054'
-  friendly_name: Unassigned
+- name: TechnologyExpertLabsLearn
+  friendly_name: IBM Technology Expert Labs—Learn
   category: Stroke style
   aliases:
     - Purple
@@ -3807,6 +3813,11 @@
     - Rank
     - Rankings
     - Statistics
+    - IBM Technology Expert Labs Learn
+    - student
+    - university
+    - learn
+    - user
 - name: '057'
   friendly_name: Unassigned
   category: Stroke style
@@ -4325,22 +4336,6 @@
     - Entry
     - All-access
     - Access
-- name: '115'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Green
-    - Text
-    - Document
-    - List
-    - Inventory
-    - Checkmark
-    - OK
-    - Selector
-    - Selection
-    - Check
-    - Approval
-    - Approved
 - name: '117'
   friendly_name: Unassigned
   category: Stroke style
@@ -4450,26 +4445,6 @@
   aliases:
     - Green
     - Teal
-    - Server
-    - Hard
-    - Hard drive
-    - Connect
-    - Network
-    - Text
-    - Document
-    - List
-    - Inventory
-    - Repo
-    - Repository
-    - Storage
-    - Store
-    - Directory
-- name: '125'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Blue
-    - Purple
     - Server
     - Hard
     - Hard drive
@@ -10808,8 +10783,8 @@
     - blue
     - diagonal
     - shield 
-- name: MacAtIBM
-  friendly_name: Mac@IBM
+- name: Apps
+  friendly_name: IBM Apps
   category: Stroke style 
   aliases:
     - CIO
@@ -10885,7 +10860,7 @@
     - Log Forwarding Service
     - blue
     - teal
-- name: CloudExpertLabs
+- name: TechnologyExpertLabs
   friendly_name: IBM® Technology Expert Labs
   category: Stroke style
   aliases: 
@@ -11152,3 +11127,1042 @@
     - compass
     - divider
     - circle
+- name: DevOpsAutomationClearCase
+  friendly_name: IBM® DevOps® ClearCase®
+  category: Stroke style
+  aliases: 
+    - IBM DevOps ClearCase
+    - IBM DevOps Automation ClearCase
+    - software assets
+    - development
+    - support
+    - configuration management 
+    - secure storage of assets
+    - asset storage
+    - briefcase
+    - lock
+- name: DevOpsAutomationCode
+  friendly_name: IBM® DevOps Code
+  category: Stroke style
+  aliases: 
+    - IBM DevOps Code
+    - IBM DevOps Automation Code
+    - code management
+    - devops lifecycle 
+    - insights 
+    - architecture 
+    - application
+    - list 
+    - accolade
+    - curly brackets
+- name: DevOpsAutomationModel
+  friendly_name: IBM® DevOps Model
+  category: Stroke style
+  aliases: 
+    - IBM DevOps Model
+    - IBM DevOps Automation Model
+    - software architecture
+    - abstraction
+    - communicate models
+    - audit
+    - auditable evidence
+    - policy compliance
+    - cubes
+    - stack
+- name: DevOpsAutomationRelease
+  friendly_name: IBM® DevOps Release
+  category: Stroke style
+  aliases: 
+    - IBM DevOps Release
+    - IBM DevOps Automation Release
+    - software
+    - development cycle
+    - schedule
+    - releases
+    - key milestones
+    - cube
+    - arrow
+- name: DevOpsAutomationBuild
+  friendly_name: IBM® DevOps Build
+  category: Stroke style
+  aliases: 
+    - IBM DevOps Build
+    - IBM DevOps Automation Build
+    - distributed
+    - multiplatform 
+    - build-management tool 
+    - configuring and running software builds
+    - configure and run software builds
+- name: DevOpsAutomationTest
+  friendly_name: IBM® DevOps Test
+  category: Stroke style
+  aliases: 
+    - IBM DevOps Test
+    - IBM DevOps Automation Test
+    - automated test creation
+    - automated test execution 
+    - automated test analysis
+    - automated testing
+    - checkmark
+- name: DevOpsAutomationDeploy
+  friendly_name: IBM® DevOps® Deploy
+  category: Stroke style
+  aliases: 
+    - IBM DevOps Deploy
+    - IBM DevOps Automation Deploy
+    - deployment automation 
+    - deployment of applications
+    - deployment of databases 
+    - deployment of configurations
+    - development
+    - test 
+    - production environments 
+    - out-of-the box integrations
+    - deployment processes
+    - rocket
+    - speed
+- name: DevOpsAutomationVelocity
+  friendly_name: IBM® DevOps® Velocity
+  category: Stroke style
+  aliases: 
+    - IBM DevOps Velocity 
+    - IBM DevOps Automation Velocity
+    - accelerate
+    - Capture value streams 
+    - AI 
+    - software delivery toolchain
+    - delivery pipelines
+    - reports
+    - governance
+    - audit
+    - DORA metrics
+    - chevron
+- name: DevOpsAutomationPlan
+  friendly_name: IBM® DevOps Plan
+  category: Stroke style
+  aliases: 
+    - IBM DevOps Plan
+    - IBM DevOps Automation Plan
+    - planning
+    - issue management
+    - low-code
+    - no-code
+    - workflow automation
+    - development processes
+    - map
+    - folded
+- name: zBatchNetworkAnalyzer
+  friendly_name: IBM Z Batch Network Analyzer (zBNA)
+  category: Stroke style
+  aliases: 
+    - IBM Z Batch Network Analyzer 
+    - zBNA
+    - productivity
+    - PC
+    - batch window
+    - CPU upgrade effect
+    - what if analyses 
+    - z/OS batch window
+    - zos batch window
+- name: AIFinancialInstrumentSuitabilityCheck
+  friendly_name: IBM AI Financial Instrument Suitability Check
+  category: Stroke style
+  aliases: 
+    - IBM AI Financial Instrument Suitability Check
+    - 金融商品適合性チェック支援AI
+- name: zCP3000
+  friendly_name: zCP3000
+  category: Stroke style
+  aliases: 
+    - Statistics 
+    - Performance Analysis 
+    - Capacity Planning
+- name: 539Unassigned_1
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases: 
+    - data
+    - cogwheel
+    - settings
+- name: 539Unassigned_2
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases: 
+    - data
+    - cogwheel
+    - hand
+- name: 507Unassigned
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases: 
+    - Secure Infrastructure as code
+    - eye
+    - shield
+    - Goldeneye deployable architecture
+- name: GlobalStorageArchitecture
+  friendly_name: Global Storage Architecture
+  category: Stroke style
+  aliases: 
+    - cloud
+    - file system
+    - network storage
+- name: SDSaaS
+  friendly_name: IBM® Storage Ceph as a Service
+  category: Stroke style
+  aliases: 
+    - data storage
+    - on-premises
+    - scalable
+    - Flash system
+    - storage
+    - infrastructure
+    - hand
+    - server
+    - sdsaas
+    - IBM Storage as a Service
+    - IBM Storage Ceph as a Service
+    - CephaaS
+- name: SecretsRotator
+  friendly_name: Secrets Rotator
+  category: Stroke style
+  aliases: 
+    - key
+    - arrow
+    - refresh
+    - CLI
+    - cloud
+    - linux
+    - IBM Cloud IAM API keys
+    - service keys for databases 
+    - third-party credentials 
+    - access tokens
+    - rotation
+    - deployment 
+    - purge events
+    - carousel
+    - automation
+- name: ZResiliencyInsights
+  friendly_name: IBM Z Resiliency Insights
+  category: Stroke style
+  aliases: 
+    - resilient
+    - dashboard
+    - z/OS
+    - zos
+    - z/OSMF
+    - zosmf
+    - system
+    - sysplex
+    - health
+    - HIPERs
+    - data center
+- name: CloudEssentialSecurityandObservabilityServices
+  friendly_name: IBM Cloud® Essential Security and Observability Services
+  category: Stroke style
+  aliases: 
+    - IBM Cloud Essential Security and Observability Services
+    - security
+    - configuration
+    - automation
+    - cloud
+    - compliance
+    - secrets
+    - keys
+    - encryption
+    - secure
+    - workloads
+    - management
+- name: Toolbox
+  friendly_name: IBM® Toolbox
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - toolbox
+    - tool
+- name: ToolboxFile
+  friendly_name: IBM® Toolbox File
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - document
+    - file
+- name: ToolboxVideo
+  friendly_name: IBM® Toolbox Video
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - video
+    - camera
+- name: ToolboxChat
+  friendly_name: IBM® Toolbox Chat
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - chat
+    - message
+    - text
+- name: ToolboxCalendar
+  friendly_name: IBM® Toolbox Calendar
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - calendar
+    - schedule
+    - diary
+- name: ToolboxMail
+  friendly_name: IBM® Toolbox Mail
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - mail
+    - email
+    - envelope
+- name: ToolboxDocuments
+  friendly_name: IBM® Toolbox Documents
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - documents
+    - files
+    - folder
+- name: ToolboxSupport
+  friendly_name: IBM® Toolbox Support
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - support
+    - assistance
+    - help
+    - person
+- name: ToolboxSettings
+  friendly_name: IBM® Toolbox Settings
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - settings
+    - gear
+    - options
+- name: ToolboxQuestion
+  friendly_name: IBM® Toolbox Question
+  category: Stroke style
+  aliases:
+    - briefcase
+    - case
+    - help
+    - support
+    - assistance
+    - answers
+    - question mark
+    - learn
+- name: InfoSphereOptimExtendedDataPrivacy
+  friendly_name: IBM InfoSphere® Optim™ Extended Data Privacy
+  category: Stroke style
+  aliases:
+    - IBM InfoSphere Optim Extended Data Privacy
+    - XDP
+    - Unstructured Data
+    - Masking
+    - Redact
+- name: watsonxBIAssistant
+  friendly_name: IBM watsonx™ BI Assistant
+  category: Stroke style
+  aliases:
+    - IBM watsonx BI Assistant
+    - Assistants
+    - Insights
+    - Metrics
+    - AI
+    - Artificial Intelligence
+- name: MaaS360
+  friendly_name: IBM MaaS360®
+  category: Stroke style
+  aliases:
+    - MaaS360
+    - MaaS
+    - Hexagon
+    - Endpoint
+    - MDM
+    - UEM
+    - Security
+    - mobile
+    - AI insights
+    - iOS
+    - Android
+    - iPadOS
+    - MacOS
+    - Windows
+    - AI analytics
+    - BYOD
+- name: StreamSets
+  friendly_name: IBM StreamSets
+  category: Stroke style
+  aliases:
+    - stream sets
+    - hybrid cloud
+    - data fabric
+    - multicloud
+- name: MaaS360SecureEditor
+  friendly_name: IBM® MaaS360® Secure Editor
+  category: Stroke style
+  aliases:
+    - edit
+    - secure
+    - editor
+    - document
+    - DOC
+    - XLS
+    - PPT
+    - email
+    - attachments
+    - office suite
+    - hexagon
+    - pencil
+    - security
+    - IBM MaaS360 Secure Editor
+- name: MaaS360VPN
+  friendly_name: IBM® MaaS360® VPN
+  category: Stroke style
+  aliases:
+    - VPN
+    - lock
+    - secure
+    - security
+    - hexagon
+    - IBM MaaS360 VPN
+- name: MaaS360Tasks
+  friendly_name: IBM® MaaS360® Tasks
+  category: Stroke style
+  aliases:
+    - checkmark
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Tasks
+- name: MaaS360Settings
+  friendly_name: IBM® MaaS360® Settings
+  category: Stroke style
+  aliases:
+    - settings
+    - cogwheel
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Settings
+- name: MaaS360Security
+  friendly_name: IBM® MaaS360® Security
+  category: Stroke style
+  aliases:
+    - shield
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Security
+- name: MaaS360SecureViewer
+  friendly_name: IBM® MaaS360® Secure Viewer
+  category: Stroke style
+  aliases:
+    - eye
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Secure Viewer
+- name: MaaS360RemoteSupport
+  friendly_name: IBM® MaaS360® Remote Support
+  category: Stroke style
+  aliases:
+    - IBM MaaS360 Remote Support
+    - endpoint management
+    - mobile apps
+    - purpose-built device
+    - risk mitigation
+    - unified endpoint management
+    - UEM
+    - wearables
+    - IoT
+    - remote
+    - hybrid
+    - secure
+    - enterprise
+    - cloud native
+    - endpoint detection
+    - mobile security
+    - analytics
+    - hexagon
+    - MDM
+    - mobile device management
+    - BYOD
+    - support
+    - customer service
+    - tech support
+    - wrench
+    - tool
+- name: MaaS360PIVD
+  friendly_name: IBM® MaaS360® PIV-D
+  category: Stroke style
+  aliases:
+    - key
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 PIV-D
+    - PIV Credential activator
+- name: MaaS360Notes
+  friendly_name: IBM® MaaS360® Notes
+  category: Stroke style
+  aliases:
+    - endpoint management
+    - IBM MaaS360 Notes
+    - laptops
+    - desktops
+    - mobile apps
+    - purpose-built device
+    - risk mitigation
+    - unified endpoint management
+    - UEM
+    - mobile device
+    - app
+    - wearables
+    - IoT
+    - remote
+    - hybrid
+    - secure
+    - enterprise
+    - cloud native
+    - endpoint detection
+    - mobile security
+    - analytics
+    - hexagon
+    - MDM
+    - mobile device management
+    - BYOD
+    - notes
+    - document
+    - text
+- name: MaaS360MTD
+  friendly_name: IBM® MaaS360® Mobile Threat Defense
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Mobile Threat Defense
+    - IBM MaaS360 MTD
+    - shield
+    - target
+- name: MaaS360Messages
+  friendly_name: IBM® MaaS360® Messages
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Messages
+    - chat
+- name: MaaS360Mail
+  friendly_name: IBM® MaaS360® Mail
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Mail
+    - mail
+    - message
+- name: MaaS360Location
+  friendly_name: IBM® MaaS360® Location
+  category: Stroke style
+  aliases:
+    - endpoint management
+    - laptops
+    - desktops
+    - mobile apps
+    - purpose-built device
+    - risk mitigation
+    - unified endpoint management
+    - UEM
+    - mobile device
+    - app
+    - wearables
+    - IoT
+    - remote
+    - hybrid
+    - secure
+    - enterprise
+    - cloud native
+    - endpoint detection
+    - analytics
+    - hexagon
+    - MDM
+    - mobile device management
+    - BYOD
+    - location
+    - map
+    - point
+- name: MaaS360Docs
+  friendly_name: IBM® MaaS360® Docs
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Docs
+    - document
+    - file
+- name: MaaS360DataUsage
+  friendly_name: IBM® MaaS360® Data Usage
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Data Usage
+    - graph
+    - chart
+    - analytics
+- name: MaaS360Contacts
+  friendly_name: IBM® MaaS360® Contacts
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Contacts
+    - people
+    - users
+    - group
+    - agenda
+- name: MaaS360Calendar
+  friendly_name: IBM® MaaS360® Calendar
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Calendar
+    - calendar
+- name: MaaS360Browser
+  friendly_name: IBM® MaaS360® Browser
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Browser
+    - globe 
+    - world
+- name: MaaS360AuxiliaryAPP
+  friendly_name: IBM® MaaS360® Auxiliary App
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Auxiliary App
+    - settings
+    - cogwheel
+- name: MaaS360Assistant
+  friendly_name: IBM® MaaS360® Assistant
+  category: Stroke style
+  aliases:
+    - endpoint management
+    - laptops
+    - desktops
+    - mobile apps
+    - purpose-built device
+    - risk mitigation
+    - unified endpoint management
+    - UEM
+    - mobile device
+    - app
+    - wearables
+    - IoT
+    - remote
+    - hybrid
+    - secure
+    - enterprise
+    - cloud native
+    - endpoint detection
+    - mobile security
+    - analytics
+    - hexagon
+    - MDM
+    - mobile device management
+    - BYOD
+    - notes
+    - support
+    - troubleshoot
+    - help
+- name: MaaS360AppCatalog
+  friendly_name: IBM® MaaS360® Catalog
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Catalog
+- name: MaaS360Admin
+  friendly_name: IBM® MaaS360® Admin
+  category: Stroke style
+  aliases:
+    - secure
+    - hexagon
+    - security
+    - IBM MaaS360 Admin
+    - user
+    - person
+    - administration
+- name: KnowledgeCatalogStandard
+  friendly_name: IBM® Knowledge Catalog Standard
+  category: Stroke style
+  aliases:
+    - catalog
+    - information
+    - repository
+    - book
+    - binder
+    - standard
+    - data
+    - data lineage
+    - ML
+    - data governance
+    - data enrichment
+    - generative AI
+    - automation
+    - semantic
+    - SaaS
+    - cloud
+- name: KnowledgeCatalogPremium
+  friendly_name: IBM® Knowledge Catalog Premium
+  category: Stroke style
+  aliases:
+    - catalog
+    - information
+    - repository
+    - book
+    - binder
+    - standard
+    - data
+    - data lineage
+    - ML
+    - data governance
+    - data enrichment
+    - data privacy
+    - data quality
+    - data lifecycle
+    - generative AI
+    - automation
+    - semantic
+    - AI
+    - SaaS
+    - cloud
+- name: SoftwareDeliveryPlatform
+  friendly_name: IBM® Software Delivery Platform
+  category: Stroke style
+  aliases:
+    - IBM Software Delivery Platform
+    - AI
+    - security patches
+    - cloud portable applications
+    - automation
+    - development
+- name: CarbonDevTool
+  friendly_name: Carbon Devtools
+  category: Stroke style
+  aliases:
+    - extension
+    - development
+    - build 
+    - web pages
+    - browser
+- name: RhapsodySystemsEngineering
+  friendly_name: IBM® Rhapsody Systems Engineering
+  category: Stroke style
+  aliases:
+    - ELM
+    - system engineering
+    - Rhapsody
+    - IBM Rhapsody Systems Engineering
+    - IBM RSE
+    - Rhapsody Systems Engineering
+    - SysML v2
+    - cloud-native
+    - web-based
+    - system modeling
+    - collaboration
+    - development
+    - optimization
+    - cube
+    - R
+- name: ThreatDetectionforZOS
+  friendly_name: IBM® Threat Detection for z/OS®
+  category: Stroke style
+  aliases:
+    - IBM Threat Detection for z/OS
+    - IBM Threat Detection for zOS
+    - secure
+    - AI
+    - intelligence
+    - detect
+    - anomalies
+    - cyberattack
+    - z/OS
+    - z/OSMF
+    - zosmf
+    - dots
+    - wavelength
+    - anomaly
+    - detection
+- name: 574Unassigned
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - globe
+    - world
+    - sphere
+    - list
+- name: watsonxAssistantforZ
+  friendly_name: IBM® watsonx Assistant™ for Z
+  category: Stroke style
+  aliases:
+    - AI
+    - watson
+    - chat
+    - assistant
+    - IBM Z
+    - artificial intelligence
+    - software
+    - watsonx
+    - wxa4z
+    - optimize
+    - optimise
+    - optimization
+    - optimisation
+    - expertise
+    - automate
+    - automation
+    - developers
+    - programmers
+    - operators
+- name: CloudReservations
+  friendly_name: IBM Cloud® Reservations
+  category: Stroke style
+  aliases:
+    - IBM Cloud Reservations
+    - worker nodes
+    - calendar
+    - clock
+    - time
+- name: MLZ
+  friendly_name: IBM® Machine Learning for z/OS®
+  category: Stroke style
+  aliases:
+    - IBM Machine Learning for z/OS
+    - IBM Machine Learning for zOS
+    - server
+    - IBM Z
+    - transactional AI
+    - model development
+    - model deployment
+    - user management
+    - system administration
+    - dashboard
+    - IBM MLZ
+    - IBM z16
+    - Telum
+    - colocation
+    - inferencing
+- name: CloudBackupAndRecovery
+  friendly_name: IBM Cloud® Backup and Recovery
+  category: Stroke style
+  aliases:
+    - IBM Cloud Backup and Recovery
+    - cloud
+    - arrow
+    - storage
+    - infrastructure
+    - application
+    - protection
+    - workload
+    - encryption
+    - compliance
+    - availability
+    - replication
+    - policy
+    - automation
+    - disaster
+    - failover
+- name: DataSetKeyRotationforzOS
+  friendly_name: IBM Data Set Key Rotation for z/OS
+  category: Stroke style
+  aliases:
+    - z/OSMF plugin
+    - zosmf
+    - IBM Data Set Key Rotation for z/OS
+    - IBM Data Set Key Rotation for zOS
+    - security
+    - threat
+    - encryption
+    - operation
+    - data set
+- name: zOSAuthorizedCodeScanner
+  friendly_name: IBM z/OS Authorized Code Scanner
+  category: Stroke style
+  aliases:
+    - IBM z/OS Authorized Code Scanner
+    - IBM zOS Authorized Code Scanner
+    - zACS
+    - circle
+    - security
+    - threat
+    - authorized
+    - diagnostic
+    - investigation
+    - encryption
+- name: CloudSecurity
+  friendly_name: IBM Cloud® Security
+  category: Stroke style
+  aliases:
+    - security
+    - configuration
+    - automation
+    - cloud
+    - compliance
+    - secrets
+    - keys
+    - encryption
+    - secure
+    - workloads
+    - management
+- name: UnifiedKeyOrchestratorforIBMzOS
+  friendly_name: Unified Key Orchestrator for IBM® z/OS®
+  category: Stroke style
+  aliases:
+    - Unified Key Orchestrator for IBM z/OS
+    - Unified Key Orchestrator for IBM zOS
+    - IBM Enterprise Key Management Foundation-Web Edition
+    - UKO for z/OS
+    - UKO for zOS
+    - key management workloads
+    - on-premises 
+    - cloud environments
+    - compliance
+    - security
+- name: DeployableArchitecture
+  friendly_name: Deployable Architecture
+  category: Stroke style
+  aliases:
+    - Deployable Architecture
+    - IBM Cloud Catalog
+    - Catalogue
+- name: ContainersSecurityServices
+  friendly_name: Container Security Services
+  category: Stroke style
+  aliases:
+    - security
+    - ibm cloud catalog
+    - software development lifecycle 
+    - SDLC 
+    - DevSecOps
+    - development
+    - deployment
+- name: HyperProtectConfidentialContainersforRedHatOpenShiftContainerPlatform
+  friendly_name: IBM Hyper Protect Confidential Containers for Red Hat® OpenShift® Container Platform
+  category: Stroke style
+  aliases:
+    - container
+    - IBM Hyper Protect Confidential Containers for Red Hat OpenShift Container Platform
+    - RH OCP
+    - confidential container
+    - confidential computing
+    - ocp
+    - openshift
+    - secure execution
+    - technical assurance
+    - hyper protect
+- name: MobileFoundation
+  friendly_name: IBM Mobile Foundation
+  category: Stroke style
+  aliases:
+    - mobile
+    - foundation
+    - openshift
+    - red hat
+- name: OfferingAccelerator
+  friendly_name: Offering Accelerator
+  category: Stroke style
+  aliases:
+    - circles
+    - concentric
+    - release
+    - automation
+    - product
+    - management
+    - offering
+    - acceleration
+    - continuous
+    - deliver
+- name: 574Unassigned_2
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - globe
+    - world
+    - arrows
+- name: FileStorageForClassic
+  friendly_name: IBM Cloud® File Storage for Classic
+  category: Stroke style
+  aliases:
+    - IBM Cloud File Storage for Classic
+    - shared files 
+    - folder
+    - archive
+    - secure
+- name: BlockStorageForClassic
+  friendly_name: IBM Cloud® Block Storage for Classic
+  category: Stroke style
+  aliases:
+    - IBM Cloud Block Storage for Classic
+    - virtual servers
+    - scalable capacity 
+    - consistent low-latency
+- name: CloudBackupForClassic
+  friendly_name: IBM Cloud® Backup for Classic
+  category: Stroke style
+  aliases:
+    - IBM Cloud Backup for Classic
+    - infrastructure
+    - backup
+    - recovery
+    - server
+- name: ZOSManagementFacility
+  friendly_name: IBM z/OS® Management Facility
+  category: Stroke style
+  aliases:
+    - IBM z/OS Management Facility 
+    - IBM zOS Management Facility 
+    - z/OSMF
+    - zOSMF
+    - automation
+    - management
+    - infrastructure
+    - data
+    - storage
+    - capacity
+    - space
+    - manage data
+    - manage storage
+- name: CIOInsightsDataPlatform
+  friendly_name: CIO Insights Data Platform
+  category: Stroke style
+  aliases:
+    - server
+    - pulse
