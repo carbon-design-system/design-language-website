@@ -1,0 +1,31 @@
+<svg id="be6fe96a-5c64-4c88-985d-b721ee6452d8" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a81e6a72-d7c8-4b40-bc1e-bc2aaf1f97ac" x1="945.959" y1="-8284.697" x2="954.959" y2="-8284.697" gradientTransform="translate(-930.961 8301.197)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.6"/>
+    </linearGradient>
+    <linearGradient id="b728f190-80b4-44ef-9d0f-c3288ce66eef" x1="-7901.041" y1="-2159.697" x2="-7892.041" y2="-2159.697" gradientTransform="translate(7909.041 2176.197)" xlink:href="#a81e6a72-d7c8-4b40-bc1e-bc2aaf1f97ac"/>
+    <mask id="b75efa55-960b-47fd-b1ac-8bee6cc51097" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M6,10a4,4,0,1,1,4-4A4,4,0,0,1,6,10ZM6,4A2,2,0,1,0,8,6,2,2,0,0,0,6,4Z" fill="#fff"/>
+        <path d="M30,30H24V24h6Zm-4-2h2V26H26Z" fill="#fff"/>
+        <path d="M8,30H2V24H8ZM4,28H6V26H4Z" fill="#fff"/>
+        <path d="M26,10a4,4,0,1,1,4-4A4,4,0,0,1,26,10Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,26,4Z" fill="#fff"/>
+        <path d="M26,16H6a2,2,0,0,0-2,2v4H6l0-4h9l11,0v4h2V18A2,2,0,0,0,26,16Z" fill="#fff"/>
+        <rect x="15" y="14" width="9" height="5" transform="translate(39 33) rotate(180)" fill="url(#a81e6a72-d7c8-4b40-bc1e-bc2aaf1f97ac)"/>
+        <rect x="8" y="14" width="9" height="5" fill="url(#b728f190-80b4-44ef-9d0f-c3288ce66eef)"/>
+      </g>
+    </mask>
+    <linearGradient id="a172cf96-97be-46d0-8617-754a49533863" x1="300.001" y1="-268.004" x2="332.001" y2="-300.004" gradientTransform="translate(-300.001 300.004)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#3ddbd9"/>
+      <stop offset="0.9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" fill="none"/>
+  <g>
+    <g mask="url(#b75efa55-960b-47fd-b1ac-8bee6cc51097)">
+      <rect width="32" height="32" fill="url(#a172cf96-97be-46d0-8617-754a49533863)"/>
+    </g>
+    <path d="M17,9.858a4,4,0,1,0-2,0V24H13v6h6V24H17ZM17,28H15V26h2ZM14,6a2,2,0,1,1,2,2A2,2,0,0,1,14,6Z" fill="#f4f4f4"/>
+  </g>
+</svg>

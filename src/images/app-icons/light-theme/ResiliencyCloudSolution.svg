@@ -1,0 +1,30 @@
+<svg id="b036ee0d-3993-4307-be5a-098dd5ef6be2" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="b520b09b-b1e7-495f-b806-8b6df860aa95" x1="825.959" y1="-8284.697" x2="834.959" y2="-8284.697" gradientTransform="translate(-810.961 8301.197)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.6"/>
+    </linearGradient>
+    <linearGradient id="fe638f89-6ff0-42f5-890c-46373e3a84f8" x1="-7901.041" y1="-2159.697" x2="-7892.041" y2="-2159.697" gradientTransform="translate(7909.041 2176.197)" xlink:href="#b520b09b-b1e7-495f-b806-8b6df860aa95"/>
+    <mask id="aaec6334-ba85-43b2-ba6a-8110111fd6a2" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M6,10a4,4,0,1,1,4-4A4,4,0,0,1,6,10ZM6,4A2,2,0,1,0,8,6,2,2,0,0,0,6,4Z" fill="#fff"/>
+        <path d="M30,30H24V24h6Zm-4-2h2V26H26Z" fill="#fff"/>
+        <path d="M8,30H2V24H8ZM4,28H6V26H4Z" fill="#fff"/>
+        <path d="M26,10a4,4,0,1,1,4-4A4,4,0,0,1,26,10Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,26,4Z" fill="#fff"/>
+        <path d="M26,16H6a2,2,0,0,0-2,2v4H6l0-4h9l11,0v4h2V18A2,2,0,0,0,26,16Z" fill="#fff"/>
+        <rect x="15" y="14" width="9" height="5" transform="translate(39 33) rotate(180)" fill="url(#b520b09b-b1e7-495f-b806-8b6df860aa95)"/>
+        <rect x="8" y="14" width="9" height="5" fill="url(#fe638f89-6ff0-42f5-890c-46373e3a84f8)"/>
+      </g>
+    </mask>
+    <linearGradient id="abc50099-7881-4a5a-8ef0-68f114a8a7fd" x1="300.001" y1="-268.004" x2="332.001" y2="-300.004" gradientTransform="translate(-300.001 300.004)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#aaec6334-ba85-43b2-ba6a-8110111fd6a2)">
+      <rect width="32" height="32" fill="url(#abc50099-7881-4a5a-8ef0-68f114a8a7fd)"/>
+    </g>
+    <path d="M17,9.858a4,4,0,1,0-2,0V24H13v6h6V24H17ZM17,28H15V26h2ZM14,6a2,2,0,1,1,2,2A2,2,0,0,1,14,6Z" fill="#001d6c"/>
+  </g>
+</svg>
