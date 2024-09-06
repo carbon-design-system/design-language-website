@@ -5605,7 +5605,7 @@
     - Teal
     - Blue
     - squares
-- name: CarbonReactNative
+- name: CarbonforMobile
   friendly_name: Carbon for Mobile
   category: Stroke style
   aliases:
@@ -5616,13 +5616,6 @@
     - Teal
     - mobile device
     - hexagon
-- name: '134'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Blue
-    - Teal
-    - Cloud
 - name: '135'
   friendly_name: Unassigned
   category: Stroke style
@@ -10893,15 +10886,6 @@
     - sustainability
     - security
     - deploy
-
-- name: CarbonReactMobile
-  friendly_name: Carbon React Mobile
-  category: Stroke style
-  aliases:
-    - react
-    -  native
-    - ios
-    - android
 - name: Db2QReplication
   friendly_name: IBM Db2® Q Replication
   category: Stroke style
@@ -11013,14 +10997,6 @@
     - purple
     - shield
     - checkmark
-- name: Recorder
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases: 
-    - circle
-    - recorder
-    - concentric
-    - analyze
 - name: Unassigned339
   friendly_name: Unassigned
   category: Stroke style
@@ -11116,7 +11092,7 @@
     - IBM Cloud Object Storage
 - name: DevOpsAutomationModelArchitect
   friendly_name: IBM® DevOps Model Architect
-  category: Stroke Style
+  category: Stroke style
   aliases: 
     - IBM DevOps Model Architect
     - IBM DevOps Automation Model Architect
