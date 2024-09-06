@@ -12136,9 +12136,3 @@
     - space
     - manage data
     - manage storage
-- name: CIOInsightsDataPlatform
-  friendly_name: CIO Insights Data Platform
-  category: Stroke style
-  aliases:
-    - server
-    - pulse
