@@ -14,6 +14,12 @@ const NonLatinScripts = () => (
       value="البشرية"
     />
     <NonLatinScript
+      customStyle="--non-latin-type-example-chinese"
+      typefaceName="IBM Plex Sans TC (Traditional Chinese)"
+      className={`${prefix}--type-mono`}
+      value="建立關係"
+    />
+    <NonLatinScript
       customStyle="--non-latin-type-example-cyrillic"
       typefaceName="IBM Plex Mono Cyrillic"
       className={`${prefix}--type-mono`}
