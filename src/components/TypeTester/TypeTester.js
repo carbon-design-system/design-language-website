@@ -60,6 +60,10 @@ const languageSample = [
     language: 'arabic',
     content: 'أبجد هوز حطي كلمن سعفص قرشت ثخذ وضظغ',
   },
+  {
+    language: 'chinese',
+    content: '建立關係',
+  },
 ];
 
 const commonFontWeights = [
@@ -210,6 +214,12 @@ const languageDropdownContent = [
     label: 'IBM Plex Sans Arabic',
     language: 'arabic',
     className: [`${prefix}--type-arabic`],
+    weights: commonFontWeights,
+  },
+  {
+    label: 'IBM Plex Sans TC (Trad. Chinese)',
+    language: 'chinese',
+    className: [`${prefix}--type-chinese`],
     weights: commonFontWeights,
   },
 ].map((variant) => {
