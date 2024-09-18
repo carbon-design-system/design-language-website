@@ -39,19 +39,19 @@ export default class TypefaceSubFamilies extends React.Component {
     const { prefix } = settings;
     const fontVariants = [
       {
-        label: 'IBM Plex Sans',
+        label: 'IBM Plex® Sans',
         value: 'type-sans',
       },
       {
-        label: 'IBM Plex Mono',
+        label: 'IBM Plex® Mono',
         value: 'type-mono',
       },
       {
-        label: 'IBM Plex Serif',
+        label: 'IBM Plex® Serif',
         value: 'type-serif',
       },
       {
-        label: 'IBM Plex Condensed',
+        label: 'IBM Plex® Condensed',
         value: 'type-sans-condensed',
       },
     ];
