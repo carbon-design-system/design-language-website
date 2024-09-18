@@ -26,6 +26,10 @@
   font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
+.#{$prefix}--type-chinese {
+  font-family: 'IBM Plex Sans TC', sans-serif;
+}
+
 .#{$prefix}--type-default,
 .#{$prefix}--type-default * {
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
