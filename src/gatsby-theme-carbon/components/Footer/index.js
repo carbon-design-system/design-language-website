@@ -156,7 +156,7 @@ const Content = ({ buildTime }) => (
     <p>
       Have questions?<br />
       Slack us{' '}
-      <a href="https://ibm-studios.slack.com/archives/CK6LZR3PZ">
+      <a target="_blank" href="https://ibm.enterprise.slack.com/archives/ibm-brand" rel="noreferrer">
         #ibm-brand
       </a>{' '}
       (internal IBM users only) or{' '}
