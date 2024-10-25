@@ -910,7 +910,7 @@
     - Workflows
     - Integration workflows
     - Integration tool
-- name: CloudAspera
+- name: Aspera
   friendly_name: IBM Aspera®
   category: Stroke style
   aliases:
@@ -4244,20 +4244,6 @@
     - Money
     - Budget
     - Monetary
-- name: '107'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Green
-    - Teal
-    - Relationship
-    - Process
-    - Arrow
-    - Document
-    - Text
-    - List
-    - Inventory
-    - Conversion
 - name: '108'
   friendly_name: Unassigned
   category: Stroke style
@@ -4539,7 +4525,7 @@
     - radar
     - radial
     - detect
-- name: Security-001
+- name: unassigned38
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -4555,7 +4541,7 @@
     - Partnership
     - Badge
     - Partner
-- name: Security-002
+- name: unassigned27
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -4573,7 +4559,7 @@
     - Permit
     - Approvals
     - Password
-- name: Security-003
+- name: unassigned28
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -4592,7 +4578,7 @@
     - Interface
     - Network
     - Directory
-- name: Security-004
+- name: unassigned29
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -4605,7 +4591,7 @@
     - Badge
     - New
     - Create
-- name: Security-005
+- name: unassigned30
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -4623,7 +4609,7 @@
     - Open
     - Closed
     - Slider
-- name: Security-006
+- name: unassigned35
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -4636,7 +4622,7 @@
     - Love
     - Favorite
     - Like
-- name: Security-007
+- name: unassigned36
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -4654,7 +4640,7 @@
     - Restore
     - Refresh
     - Convert
-- name: Security-008
+- name: unassigned37
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -4667,7 +4653,7 @@
     - Badge
     - Open
     - Search
-- name: Security-009
+- name: unassigned26
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5569,7 +5555,7 @@
     - square
     - arrow
 - name: CloudOpenShiftContainerStorage
-  friendly_name: Red Hat® OpenShift® on IBM Cloud® - Container Storage
+  friendly_name: Red Hat® OpenShift® on IBM Cloud®—Container Storage
   category: Stroke style
   aliases:
     - Red Hat
@@ -5670,18 +5656,7 @@
     - Purple
     - Blue
     - circle
-- name: '143'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Teal
-    - Blue
-    - Server
-    - care
-    - technician
-    - service
-    - maintanance
-- name: Security-010
+- name: unassigned34
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5691,7 +5666,7 @@
     - bug
     - cyberattack
     - attack
-- name: Security-011
+- name: unassigned32
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5701,7 +5676,7 @@
     - pulse
     - status
     - signal
-- name: Security-012
+- name: unassigned39
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5709,21 +5684,23 @@
     - Purple
     - reset
     - restart
-- name: Security-013
+- name: unassigned40
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - dots
-- name: Security-014
+    - shield
+- name: unassigned21
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - reset
-- name: Security-015
+    - shield
+- name: unassigned15
   friendly_name: IBM Security® Guardium® Insights
   category: Stroke style
   aliases:
@@ -5746,13 +5723,14 @@
     - shield
     - security
     - data
-- name: Security-016
+- name: unassigned19
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Blue
     - Purple
-- name: Security-017
+    - shield
+- name: unassigned18
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5761,7 +5739,7 @@
     - warning
     - caution
     - alert
-- name: Security-018
+- name: unassigned24
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5770,21 +5748,21 @@
     - expand
     - open
     - zoom
-- name: Security-019
+- name: unassigned17
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - edit
-- name: Security-020
+- name: unassigned23
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - open
-- name: Security-021
+- name: unassigned22
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5792,7 +5770,7 @@
     - Purple
     - network
     - node
-- name: Security-022
+- name: unassigned25
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5800,14 +5778,14 @@
     - Purple
     - message
     - chat
-- name: Security-023
+- name: unassigned33
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - code
-- name: Security-024
+- name: unassigned20
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5815,7 +5793,7 @@
     - Purple
     - wrench
     - maintenance
-- name: Security-025
+- name: unassigned14
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5823,7 +5801,7 @@
     - Purple
     - code
     - console
-- name: Security-026
+- name: unassigned16
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5833,7 +5811,7 @@
     - status
     - monitor
     - performance
-- name: Security-027
+- name: unassigned31
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -5841,7 +5819,7 @@
     - Purple
     - star
     - note
-- name: Security-028
+- name: unassigned13
   friendly_name: Unassigned Security
   category: Stroke style
   aliases:
@@ -6215,6 +6193,7 @@
     - Blue
     - Teal
     - IBM RPA
+    - robotic process automation
     - process
     - automation
     - IT
@@ -6228,6 +6207,7 @@
     - Purple
     - IBM RPA Launcher
     - process
+    - robotic process automation
     - automation
     - IT
     - launch
@@ -6241,6 +6221,7 @@
     - Teal
     - IBM RPA Studio
     - process
+    - robotic process automation
     - automation
     - IT
     - create
@@ -6255,6 +6236,7 @@
     - Red
     - IBM RPA Vault
     - process
+    - robotic process automation
     - automation
     - IT
     - secure
@@ -6268,6 +6250,7 @@
     - Red
     - Purple
     - IBM RPA Control Center
+    - robotic process automation
     - process
     - automation
     - IT
@@ -6474,8 +6457,8 @@
     - lease
     - purchase
     - disposal
-- name: SpectrumFusion
-  friendly_name: IBM Spectrum® Fusion
+- name: Fusion
+  friendly_name: IBM Fusion
   category: Stroke style
   aliases:
     - Purple
@@ -8836,7 +8819,7 @@
     - configuration
     - proposal
     - application
-- name: IBM zOS
+- name: IBMzOS
   friendly_name: IBM® z/OS®
   category: Stroke style
   aliases:
@@ -8855,8 +8838,8 @@
     - modernize
     - hybrid
     - cloud
-- name: DataProductExchange
-  friendly_name: IBM® Data Product Exchange
+- name: DataProductHub
+  friendly_name: IBM® Data Product Hub
   category: Stroke style
   aliases:
     - blue
@@ -12038,7 +12021,14 @@
   aliases:
     - Deployable Architecture
     - IBM Cloud Catalog
-    - Catalogue
+    - IBM Cloud Catalogue
+    - cloud automation
+    - architectural pattern
+    - cloud resources
+    - deployment
+    - scalability
+    - modularity
+    - modules
 - name: ContainersSecurityServices
   friendly_name: Container Security Services
   category: Stroke style
@@ -12136,3 +12126,624 @@
     - space
     - manage data
     - manage storage
+- name: CloudPlatformAutomation
+  friendly_name: IBM Cloud® Platform Automation
+  category: Stroke style
+  aliases:
+    - automation
+    - IBM Cloud Platform Automation
+    - platform automation
+    - DevOps
+    - DevSecOps
+    - IaC
+    - infrastructure as code
+    - schematics
+    - toolchains
+    - feature flags
+    - event notifications
+    - Relationship
+    - Process
+    - Arrow
+    - Document
+    - Text
+    - List
+- name: DevOpsControl
+  friendly_name: IBM DevOps® Control
+  category: Stroke style
+  aliases:
+    - DevOps
+    - IBM DevOps Control
+    - control
+    - collaboration
+    - integration
+    - source control
+    - quality assurance
+    - validation
+- name: UnstructuredDataProcessor
+  friendly_name: IBM® Unstructured Data Processor
+  category: Stroke style
+  aliases:
+    - IBM Unstructured Data Processor
+    - filter
+    - unstructured data
+    - data processing
+    - data
+    - funnel
+- name: EnterpriseEncryptionCenter
+  friendly_name: IBM® Enterprise Encryption Center
+  category: Stroke style
+  aliases:
+    - IBM Enterprise Encryption Center
+    - server
+    - data
+    - secure
+    - security
+    - shield
+- name: ApplicationDevelopmentandIntegration
+  friendly_name: Application Development and Integration
+  category: Stroke style
+  aliases:
+    - Application Development and Integration
+    - application
+    - development
+    - develop
+    - developer
+    - integration
+    - integrate
+    - Horizon
+    - connection
+    - modernization
+- name: ContentAssistant
+  friendly_name: IBM Content Assistant
+  category: Stroke style
+  aliases:
+    - IBM Content Assistant 
+    - watsonx 
+    - FileNet 
+    - Large Language Models
+    - LLMs
+    - content
+    - documents
+    - natural language
+    - file
+    - chat
+    - speech bubble
+- name: iManagedonPowerVirtualServer
+  friendly_name: IBM i Managed on Power Virtual Server
+  category: Stroke style
+  aliases:
+    - i Managed on Power Virtual Server
+    - power
+    - virtual server
+    - powervs
+    - ibmi
+    - integrated
+    - operations
+    - enterprise
+    - IBM Cloud
+    - cirlce
+- name: SecurityPatchInsightsforzOS
+  friendly_name: IBM® Security Patch Insights for z/OS®
+  category: Stroke style
+  aliases:
+    - IBM Security Patch Insights for zOS
+    - IBM Security Patch Insights for z/OS
+    - security
+    - compliance
+    - center
+    - secure
+    - safety
+    - fix
+    - threat
+    - vulnerabilities
+- name: WebMethodsInstaller
+  friendly_name: IBM webMethods Installer
+  category: Stroke style
+  aliases:
+    - webMethods Installer
+    - installer
+    - webMethods
+    - data integration
+    - integration
+    - platform
+    - API management tools
+    - SaaS
+    - arrow
+- name: EnterpriseApplicationServiceForJava
+  friendly_name: IBM enterprise application service for Java™
+  category: Stroke style
+  aliases:
+    - Enterprise application service for Java
+    - enterprise
+    - java
+    - application
+    - scalable
+    - application runtime
+    - service
+    - cloud based
+- name: CloudObservability
+  friendly_name: IBM Cloud® Observability
+  category: Stroke style
+  aliases:
+    - cloud
+    - observability
+    - troubleshooting
+    - logging
+    - monitoring
+    - activity tracking
+    - auditing
+    - metrics
+    - logs
+    - audit events
+    - activity tracker events
+- name: CloudDatabases
+  friendly_name: IBM Cloud® Databases
+  category: Stroke style
+  aliases:
+    - IBM Cloud Databases
+    - cloud database
+    - databases
+    - data
+    - sql
+    - non-sql
+    - data centre
+    - data warehouse
+    - database resources
+    - servers
+- name: Granite
+  friendly_name: IBM® Granite™
+  category: Stroke style
+  aliases:
+    - IBM Granite
+    - AI
+    - model
+    - algorithm
+    - Artificial Intelligence
+    - LLM
+    - large language models
+    - foundation models
+- name: watsonx.aiSaaSwithAssistantAndGovernance
+  friendly_name: IBM® watsonx.ai™ SaaS with Assistant and Governance
+  category: Stroke style
+  aliases:
+    - IBM watsonx.ai SaaS with Assistant and Governance
+    - watsonx
+    - software as a service
+    - watsonx.ai
+    - watsonx.data
+    - watsonx.orchestrate
+    - watsonx.governance
+    - watsonx Assistant
+    - watsonx ML
+    - AI ready
+    - deployment
+    - deployable architecture
+    - solutions
+    - assistant
+    - governance
+- name: ZTestAccelerator
+  friendly_name: IBM Z® Test Accelerator
+  category: Stroke style
+  aliases:
+    - Z Test Accelerator
+    - Z
+    - test
+    - accelerator
+    - DevOps
+    - testing
+    - developer
+    - automation
+    - integration
+    - shift-left
+    - stack
+- name: Factsheets
+  friendly_name: IBM AI Factsheets
+  category: Stroke style
+  aliases:
+    - watsonx
+    - AI governance
+    - Artifical Intelligence
+    - monitor 
+    - model metadata
+    - model development lifecycle
+    - validation 
+    - regulation
+- name: GuardiumQuantumSafe
+  friendly_name: IBM® Guardium® Quantum Safe
+  category: Stroke style
+  aliases:
+    - cryptography
+    - cryptographic agility
+    - policies
+    - security regulations
+    - secure
+    - shield
+    - key
+- name: GuardiumDataSecurityPostureManagement
+  friendly_name: IBM® Guardium® Data Security Posture Management
+  category: Stroke style
+  aliases:
+    - IBM Guardium Data Security Posture Management
+    - IBM Guardium DSPM
+    - discover
+    - classify
+    - secure
+    - shield
+    - security
+    - cloud
+- name: GuardiumDataDetectionAndResponse
+  friendly_name: IBM® Guardium® Data Detection and Response
+  category: Stroke style
+  aliases:
+    - IBM Guardium DDR
+    - IBM Guardium Data Detection and Response
+    - shield
+    - security
+    - secure
+    - hybrid cloud
+    - centralized visibility
+    - prioritized threats
+    - automated responses
+    - generative AI
+    - magnifier
+    - graph
+    - chart
+    - data
+    - analytics
+- name: GuardiumDataSecurityCenter
+  friendly_name: IBM® Guardium® Data Security Center
+  category: Stroke style
+  aliases:
+    - IBM Guardium Data Security Center
+    - protect
+    - manage
+    - empower
+    - data security lifecycle
+    - data vulnerabilities
+    - data vulnerability
+    - risks
+    - shield
+    - security
+    - secure
+- name: GuardiumDataCompliance
+  friendly_name: IBM® Guardium® Data Compliance
+  category: Stroke style
+  aliases:
+    - IBM Guardium Data Compliance
+    - shield
+    - security
+    - secure
+    - regulations
+    - monitoring
+    - audit
+    - list
+    - checkmarks
+- name: GuardiumDatabaseHardening
+  friendly_name: IBM® Guardium® Database Hardening
+  category: Stroke style
+  aliases:
+    - IBM Guardium Database Hardening
+    - encryption
+    - shield
+    - security
+    - secure
+    - server
+- name: GuardiumAISecurity
+  friendly_name: IBM® Guardium® AI Security
+  category: Stroke style
+  aliases:
+    - IBM Guardium AI Security
+    - Artificial Intelligence
+    - shield
+    - security
+    - secure
+    - security risk
+    - data governance requirements
+    - AI data
+    - AI models
+    - AI deployments
+    - compliance
+    - IBM watsonx
+    - generative AI SaaS providers
+    - shadow AI models
+    - IBM watsonx.governance
+    - governance
+- name: Lighthouse
+  friendly_name: IBM Lighthouse
+  category: Stroke style
+  aliases:
+    - lighthouse
+    - news
+- name: unassigned01
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - security
+    - secure
+    - lock
+    - key
+- name: unassigned02
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - security
+    - secure
+    - folder
+    - lock
+    - key
+- name: unassigned03
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - security
+    - secure
+    - folder
+    - lock
+    - key
+- name: unassigned04
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - person
+    - user
+    - human
+    - folder
+    - checkmark
+    - approve
+    - OK
+    - connection
+    - relationship
+- name: unassigned05
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - User
+    - Human
+    - Person
+    - Key
+    - Secure
+    - Security
+    - Access
+
+- name: unassigned06
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - User
+    - Human
+    - Person
+    - Checkmark
+    - Approve
+    - OK
+- name: unassigned07
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - user
+    - human
+    - person
+    - checkmark
+    - ok
+    - approve
+    - circle
+- name: unassigned08
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - servers
+    - ibm z
+    - database
+    - storage
+    - infrastructure
+    - key
+    - secure
+    - security
+    - access
+- name: unassigned09
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - servers
+    - database
+    - storage
+    - infrastructure
+    - key
+    - secure
+    - security
+    - access
+- name: unassigned10
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - servers
+    - database
+    - storage
+    - infrastructure
+    - secure
+    - security
+    - shield
+- name: unassigned11
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - servers
+    - database
+    - storage
+    - infrastructure
+    - secure
+    - security
+    - lock
+- name: unassigned12
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - servers
+    - database
+    - storage
+    - infrastructure
+    - key
+    - secure
+    - security
+    - access
+- name: unassigned41
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - server
+    - database
+    - storage
+    - infrastructure
+    - file
+    - document
+- name: unassigned42
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - document
+    - file
+    - data
+    - list
+- name: unassigned43
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - lightbulb
+    - idea
+    - innovation
+    - code
+    - developer
+    - development
+- name: unassigned44
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - circle
+    - key
+    - secure
+    - security
+    - access
+- name: unassigned45
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - circle
+    - wheel
+    - gauge
+    - meter
+    - dial
+    - settings
+    - fine tuning
+- name: unassigned46
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - safe
+    - safety box
+    - safety deposit box
+    - secure
+- name: unassigned48
+  friendly_name: Unassigned
+  category: Fill style
+  aliases:
+    - line
+    - diagonal
+    - speed
+    - progress
+    - circle
+- name: unassigned49
+  friendly_name: Unassigned
+  category: Fill style
+  aliases:
+    - line
+    - diagonal
+    - speed
+    - progress
+    - circle
+    - square
+- name: unassigned50
+  friendly_name: Unassigned
+  category: Fill style
+  aliases:
+    - movement
+    - forward
+    - progress
+- name: unassigned51
+  friendly_name: Unassigned
+  category: Fill style
+  aliases:
+    - movement
+    - progress
+    - transformation
+- name: unassigned52
+  friendly_name: Unassigned
+  category: Fill style
+  aliases:
+    - transformation
+    - inclusion
+    - square
+- name: unassigned53
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - graph
+    - chart
+    - data analytics
+    - magnifyer
+    - magnifying glass
+    - analyze
+- name: unassigned54
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - graph
+    - chart
+    - data analytics
+    - analyze
+    - view
+    - see
+    - observe
+    - eye
+- name: unassigned55
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - gauge
+    - meter
+    - speedometer
+    - analytics
+    - chart
+    - graph
+- name: unassigned56
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - analytics
+    - chart
+    - graph
+    - circle
+    - checkmark
+    - approve
+    - ok
+- name: unassigned57
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - UI
+    - GUI
+    - interface
+    - screen
+    - infinity
+    - loop
+    - design thinking
+    - process
+- name: unassigned58
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - chart
+    - graph
+    - data viz
+    - data visualization
+    - line chart
+    - baseline
+    - target
