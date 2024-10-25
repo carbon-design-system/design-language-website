@@ -910,7 +910,7 @@
     - Workflows
     - Integration workflows
     - Integration tool
-- name: CloudAspera
+- name: Aspera
   friendly_name: IBM Aspera®
   category: Stroke style
   aliases:
@@ -5555,7 +5555,7 @@
     - square
     - arrow
 - name: CloudOpenShiftContainerStorage
-  friendly_name: Red Hat® OpenShift® on IBM Cloud® - Container Storage
+  friendly_name: Red Hat® OpenShift® on IBM Cloud®—Container Storage
   category: Stroke style
   aliases:
     - Red Hat
@@ -12336,7 +12336,7 @@
     - integration
     - shift-left
     - stack
-- name: FactSheets
+- name: Factsheets
   friendly_name: IBM AI Factsheets
   category: Stroke style
   aliases:
