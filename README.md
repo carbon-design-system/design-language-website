@@ -1,4 +1,4 @@
-# IBM Design Language website
+# IBM Design Language website  
 
 ![Deploy website to IBM Cloud](https://github.com/carbon-design-system/design-language-website/workflows/Deploy%20website%20to%20IBM%20Cloud/badge.svg)
 
