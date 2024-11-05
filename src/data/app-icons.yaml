@@ -12747,3 +12747,29 @@
     - line chart
     - baseline
     - target
+- name: ToolboxPhone
+  friendly_name: IBM® Toolbox Phone
+  category: Stroke style
+  aliases:
+    - IBM Toolbox Phone
+    - toolbox
+    - briefcase
+    - case
+    - phone
+    - call
+    - contact
+    - chat
+- name: TKEMobile
+  friendly_name: IBM® TKE Mobile
+  category: Stroke style
+  aliases:
+    - IBM TKE Mobile
+    - Trusted Key Entry
+    - TKE
+    - Hardware Security Module
+    - HSM
+    - Cryptographic Coprocessor
+    - Crypto
+    - IBM Z
+    - Mainframe
+    - Security
