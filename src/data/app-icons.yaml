@@ -12767,3 +12767,52 @@
     - key
     - secure
     - access
+- name: SAPSuccessFactors
+  friendly_name: SAP SuccessFactors
+  category: Stroke style
+  aliases:
+    - SAP SuccessFactors
+    - SuccessFactors
+    - people
+    - heart
+    - person
+    - HR operations
+- name: PowerEnterprisePoolsMeteredCapacityIntegration
+  friendly_name: IBM® Power® Enterprise Pools Metered Capacity Integration
+  category: Stroke style
+  aliases:
+    - IBM Power Enterprise Pools Metered Capacity Integration
+    - cloud
+    - optimization
+    - on-premise service
+- name: PowerVirtualServerDisasterRecoveryAutomation
+  friendly_name: IBM® Power® Virtual Server Disaster Recovery Automation 
+  category: Stroke style
+  aliases:
+    - IBM Power Virtual Server Disaster Recovery Automation
+    - DRA
+    - DRA for Power Virtual Server
+    - DRA for PowerVS
+    - Disaster Recovery for Power Virtual Server
+    - Disaster Recovery for PowerVS
+    - Disaster Recovery Automator for Power Virtual Server
+    - Disaster Recovery Automator for PowerVS
+- name: SoftwareMigrationCapacityPlanningAidforZ
+  friendly_name: IBM® Software Migration Capacity Planning Aid for IBM Z
+  category: Stroke style
+  aliases:
+    - IBM Software Migration Capacity Planning Aid for IBM Z
+    - z/OS
+    - z/VM
+    - z/VSE
+    - tool
+    - capacity
+    - planning
+    - insights
+    - Linux
+    - LinuxONE
+    - SSC
+    - CFCC
+    - KVM
+    - LSPR
+    - CPS Tools
