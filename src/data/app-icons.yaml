@@ -2765,15 +2765,15 @@
     - Circle
     - Video
     - Streaming
-- name: '133'
-  friendly_name: Unassigned
+- name: VerificationCockpit
+  friendly_name: Verification Cockpit
   category: Stroke style
   aliases:
-    - Magenta
-    - Purple
-    - Magnifier
-    - Magnifying glass
-    - Data
+    - Verification Cockpit
+    - verification
+    - data
+    - coverage
+    - magnify
 - name: watsonxAssistant
   friendly_name: IBM® watsonx™ Assistant
   category: Stroke style
