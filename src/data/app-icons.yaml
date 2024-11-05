@@ -12526,19 +12526,6 @@
     - ok
     - approve
     - circle
-- name: unassigned08
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - servers
-    - ibm z
-    - database
-    - storage
-    - infrastructure
-    - key
-    - secure
-    - security
-    - access
 - name: unassigned09
   friendly_name: Unassigned
   category: Stroke style
@@ -12773,3 +12760,10 @@
     - IBM Z
     - Mainframe
     - Security
+    - servers
+    - database
+    - storage
+    - infrastructure
+    - key
+    - secure
+    - access
