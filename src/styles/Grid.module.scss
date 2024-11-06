@@ -68,6 +68,27 @@
   margin: 1rem !important;
 }
 
+.it-architecture-diagrams {
+  position: relative;
+  padding-top: $spacing-06;
+  margin-top: $spacing-05;
+
+  &:before {
+    content: '';
+    display: block;
+    background: $ui-04;
+    height: 1px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+  }
+
+  p span {
+    font-weight: 600;
+  }
+}
+
 //---------------------------------------
 // Principles page
 //---------------------------------------
