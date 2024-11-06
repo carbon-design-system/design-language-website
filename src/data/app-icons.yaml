@@ -2765,15 +2765,15 @@
     - Circle
     - Video
     - Streaming
-- name: '133'
-  friendly_name: Unassigned
+- name: VerificationCockpit
+  friendly_name: Verification Cockpit
   category: Stroke style
   aliases:
-    - Magenta
-    - Purple
-    - Magnifier
-    - Magnifying glass
-    - Data
+    - Verification Cockpit
+    - verification
+    - data
+    - coverage
+    - magnify
 - name: watsonxAssistant
   friendly_name: IBM® watsonx™ Assistant
   category: Stroke style
@@ -12526,19 +12526,6 @@
     - ok
     - approve
     - circle
-- name: unassigned08
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - servers
-    - ibm z
-    - database
-    - storage
-    - infrastructure
-    - key
-    - secure
-    - security
-    - access
 - name: unassigned09
   friendly_name: Unassigned
   category: Stroke style
@@ -12747,3 +12734,85 @@
     - line chart
     - baseline
     - target
+- name: ToolboxPhone
+  friendly_name: IBM® Toolbox Phone
+  category: Stroke style
+  aliases:
+    - IBM Toolbox Phone
+    - toolbox
+    - briefcase
+    - case
+    - phone
+    - call
+    - contact
+    - chat
+- name: TKEMobile
+  friendly_name: IBM® TKE Mobile
+  category: Stroke style
+  aliases:
+    - IBM TKE Mobile
+    - Trusted Key Entry
+    - TKE
+    - Hardware Security Module
+    - HSM
+    - Cryptographic Coprocessor
+    - Crypto
+    - IBM Z
+    - Mainframe
+    - Security
+    - servers
+    - database
+    - storage
+    - infrastructure
+    - key
+    - secure
+    - access
+- name: SAPSuccessFactors
+  friendly_name: SAP SuccessFactors
+  category: Stroke style
+  aliases:
+    - SAP SuccessFactors
+    - SuccessFactors
+    - people
+    - heart
+    - person
+    - HR operations
+- name: PowerEnterprisePoolsMeteredCapacityIntegration
+  friendly_name: IBM® Power® Enterprise Pools Metered Capacity Integration
+  category: Stroke style
+  aliases:
+    - IBM Power Enterprise Pools Metered Capacity Integration
+    - cloud
+    - optimization
+    - on-premise service
+- name: PowerVirtualServerDisasterRecoveryAutomation
+  friendly_name: IBM® Power® Virtual Server Disaster Recovery Automation 
+  category: Stroke style
+  aliases:
+    - IBM Power Virtual Server Disaster Recovery Automation
+    - DRA
+    - DRA for Power Virtual Server
+    - DRA for PowerVS
+    - Disaster Recovery for Power Virtual Server
+    - Disaster Recovery for PowerVS
+    - Disaster Recovery Automator for Power Virtual Server
+    - Disaster Recovery Automator for PowerVS
+- name: SoftwareMigrationCapacityPlanningAidforZ
+  friendly_name: IBM® Software Migration Capacity Planning Aid for IBM Z
+  category: Stroke style
+  aliases:
+    - IBM Software Migration Capacity Planning Aid for IBM Z
+    - z/OS
+    - z/VM
+    - z/VSE
+    - tool
+    - capacity
+    - planning
+    - insights
+    - Linux
+    - LinuxONE
+    - SSC
+    - CFCC
+    - KVM
+    - LSPR
+    - CPS Tools
