@@ -12840,7 +12840,7 @@
     - Government
     - Federal
     - Finance
-- name: ZIntelliMagicVisionforZ/OS
+- name: ZIntelliMagicVisionForZOS
   friendly_name: IBM Z® IntelliMagic Vision for z/OS®
   category: Stroke style
   aliases:
