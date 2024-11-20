@@ -12816,3 +12816,50 @@
     - KVM
     - LSPR
     - CPS Tools
+- name: watsonxCodeAssistantforEnterpriseJavaApplications
+  friendly_name: IBM watsonx™ Code Assistant for Enterprise Java Applications
+  category: Stroke style
+  aliases:
+    - IBM watsonx Code Assistant for Enterprise Java Applications
+    - end-to-end application lifecycle
+    - developer
+    - code
+    - code generation
+    - generative AI
+    - application modernization
+    - automation
+    - productivity
+- name: ToolboxGovernment
+  friendly_name: IBM® Toolbox Government
+  category: Stroke style
+  aliases:
+    - IBM Toolbox Government
+    - toolbox
+    - briefcase
+    - case
+    - Government
+    - Federal
+    - Finance
+- name: ZIntelliMagicVisionforZ/OS
+  friendly_name: IBM Z® IntelliMagic Vision for z/OS®
+  category: Stroke style
+  aliases:
+    - IBM Z IntelliMagic Vision for z/OS
+    - IBM Z IntelliMagic Vision for zOS
+    - ZAIOps
+    - AIOps
+    - Ops
+    - Z
+    - vision
+- name: Beehive
+  friendly_name: Reserved
+  category: Stroke style
+  aliases:
+    - Beehive
+    - reserved
+- name: Beekeeper
+  friendly_name: Beekeeper
+  category: Stroke style
+  aliases:
+    - Beekeeper
+    - reserved

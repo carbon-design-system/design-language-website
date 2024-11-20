@@ -1,1 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="kfrd7hbfba" x1="239.359" y1="-1762.235" x2="225.492" y2="-1776.102" gradientTransform="rotate(45 -2020.73 -1148.749)" gradientUnits="userSpaceOnUse"><stop offset=".05" stop-opacity="0"/><stop offset=".75"/></linearGradient><linearGradient id="qejd5u80zc" y1="32" x2="32" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-color="#ee5396"/><stop offset=".9" stop-color="#8a3ffc"/></linearGradient><mask id="ia1zv9yzxb" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse"><path d="m29.707 28.293-7.259-7.259A11 11 0 1 0 5.2 7.405l1.6 1.2a9 9 0 1 1 0 10.8l-1.6 1.2a10.988 10.988 0 0 0 15.834 1.842l7.259 7.259z" fill="#fff"/><path transform="rotate(-90 11.194 5.77)" fill="url(#kfrd7hbfba)" d="M6.7-4.036h8.99v19.61H6.7z"/></mask></defs><g data-name="Layer 2"><g data-name="Dark theme icons"><g mask="url(#ia1zv9yzxb)"><path data-name="Color" fill="url(#qejd5u80zc)" d="M0 0h32v32H0z"/></g><path d="M14 12a2 2 0 1 1-2 2 2 2 0 0 1 2-2m0-2a4 4 0 1 0 4 4 4 4 0 0 0-4-4zm15 2a2 2 0 1 0 2 2 2 2 0 0 0-2-2zM4 12a2 2 0 1 0 2 2 2 2 0 0 0-2-2z" fill="#001d6c"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="VerificationCockpit" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill:url(#SVGID_1_);}
+	
+		.st3{mask:url(#Color_00000069361276103805152800000004780499690359953820_);fill:url(#Color_00000042718304572610124070000011236601659359252100_);}
+	.st4{fill:#001D6C;}
+</style>
+<path class="st0" d="M30,36H6c-3.3,0-6-2.7-6-6V6c0-3.3,2.7-6,6-6h24c3.3,0,6,2.7,6,6v24C36,33.3,33.3,36,30,36z"/>
+<g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="2" y="2" width="32" height="32">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	
+		<mask maskUnits="userSpaceOnUse" x="2" y="2" width="32" height="32" id="Color_00000173145875006593857740000018370165887480429464_">
+		<g class="st1">
+			<g>
+				<path class="st0" d="M31.7,30.3L24.4,23c1.6-1.9,2.5-4.4,2.5-7c0-6.1-4.9-11-11-11c-3.5,0-6.7,1.6-8.8,4.4l1.6,1.2
+					C10.5,8.3,13.1,7,16,7c5,0,9,4,9,9s-4,9-9,9c-2.9,0-5.5-1.3-7.2-3.6l-1.6,1.2C9.3,25.4,12.5,27,16,27c2.7,0,5.1-1,7-2.6l7.3,7.3
+					L31.7,30.3z"/>
+				
+					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1775.9792" y1="-2971.9497" x2="-1789.8458" y2="-2985.8164" gradientTransform="matrix(0.7071 -0.7071 0.7071 0.7071 3380.2927 853.4485)">
+					<stop  offset="5.000000e-02" style="stop-color:#000000;stop-opacity:0"/>
+					<stop  offset="0.75" style="stop-color:#000000"/>
+				</linearGradient>
+				<polygon class="st2" points="23,3.3 23,12.3 3.4,12.3 3.4,3.3 				"/>
+			</g>
+		</g>
+	</mask>
+	
+		<linearGradient id="Color_00000183219294052154151610000014288227012411123628_" gradientUnits="userSpaceOnUse" x1="2" y1="34" x2="34" y2="2">
+		<stop  offset="0.1" style="stop-color:#EE5396"/>
+		<stop  offset="0.9" style="stop-color:#8A3FFC"/>
+	</linearGradient>
+	
+		<rect id="Color_00000003815649747019489800000016648350269484483981_" x="2" y="2" style="mask:url(#Color_00000173145875006593857740000018370165887480429464_);fill:url(#Color_00000183219294052154151610000014288227012411123628_);" width="32" height="32"/>
+	<g>
+		<path class="st4" d="M16,14c1.1,0,2,0.9,2,2s-0.9,2-2,2s-2-0.9-2-2S14.9,14,16,14 M16,12c-2.2,0-4,1.8-4,4s1.8,4,4,4
+			c2.2,0,4-1.8,4-4S18.2,12,16,12L16,12z"/>
+		<path class="st4" d="M31,14c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S32.1,14,31,14L31,14z"/>
+		<path class="st4" d="M6,14c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S7.1,14,6,14L6,14z"/>
+	</g>
+</g>
+</svg>
