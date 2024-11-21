@@ -5,9 +5,11 @@ keywoords: "IBM technical diagrams, technical architecture diagrams, technical p
 tabs: [Design, Usage]
 ---
 
+import { itArchitectureDiagrams } from '../../../styles/Grid.module.scss';
+
 <PageDescription>
 
-Technical diagrams require thoughtful arrangement and application of a wide variety of elements to deliver information with clarity. Consider the following guidelines when creating technical diagrams. 
+Technical diagrams serve many purposes at IBM. They can be used to describe relationships among the elements of a system, the hierarchy of a certain structure or introduce the idea of an ordering sequence to represent a process flow.
 
 </PageDescription>
 
@@ -57,7 +59,7 @@ When creating a technical diagram, clarity and legibility are paramount. These g
 </DoDont>
 <DoDont type="dont" aspectRatio="1:1" caption="Don’t use icons by themselves to represent essential information—always use words, as well.">
 
-![Don’t use icons by themselves to represent essential information—always use words, as well.](./images/usage/clarity/dodont2.png)
+![Don’t use icons by themselves to represent essential information—always use words, as well.](./images/usage/clarity/dodont2.svg)
 
 </DoDont>
 </DoDontRow>
@@ -76,12 +78,12 @@ When creating a technical diagram, clarity and legibility are paramount. These g
 <DoDontRow>
 <DoDont type="dont" aspectRatio="1:1" caption="Avoid redundancy when using shapes, styles, colors or indicator badges.">
 
-![Avoid redundancy when using shapes, styles, colors or indicator badges.](./images/usage/clarity/dodont5.png)
+![Avoid redundancy when using shapes, styles, colors or indicator badges.](./images/usage/clarity/dodont5.svg)
 
 </DoDont>
 <DoDont type="dont" aspectRatio="1:1" caption="Don’t mix types of nodes unless they have specific semantic differences that can’t be expressed otherwise.">
 
-![Don’t mix types of nodes unless they have specific semantic differences that can’t be expressed otherwise.](./images/usage/clarity/dodont6.png)
+![Don’t mix types of nodes unless they have specific semantic differences that can’t be expressed otherwise.](./images/usage/clarity/dodont6.svg)
 
 </DoDont>
 </DoDontRow>
@@ -128,25 +130,162 @@ The technical diagrams guidance presented here is meant for diagrams that appear
 
 ## Subsystems
 
-Using our technical diagram guidance as a foundation, some teams have expanded on our system. They’ve built a number of discrete extensions, effectively creating subsystems that specifically address their exact use cases. If you work with one of these subsystems, follow our general guidance, as well as the specific adaptations applicable to your use case. If you believe you have an application that requires new elements, reach out to the IBM brand design team with your proposal for approval. It helps ensure that your technical diagram subsystem adheres to our general guidance, and gives us the opportunity to share it here with all teams.
+Using our technical diagram guidance as a foundation, some teams have expanded on our system. They’ve built a number of discrete extensions, effectively creating subsystems that specifically address their exact use cases. If you work with one of these subsystems, do follow our general guidance, as well as the specific adaptations applicable to your use case. If you believe you have an application that requires new elements, reach out to the IBM brand design team with your proposal for approval. It helps ensure that your technical diagram subsystem adheres to our general guidance, and gives us the opportunity to share it here with all teams.
 
 ### IT architecture
 
 [The IBM Unified Method Framework](https://w3.ibm.com/w3publisher/ibm-architect-profession/education#Architectural_Thinking) is the modelling standard used by IBM for IT architecture. When creating an IT architecture diagram, follow the visual guidance developed specifically for this type of diagram. Doing so helps ensure correct interpretation of your architectural model.
 
 The visual vocabulary developed for IT architecture diagrams corresponds to the main elements used in architecture models:
-- Target IT system: The system being modelled and engineered
-- Actor: An external IT system or a user interacting with the target system
-- Component: A modular unit of functionality, which makes this functionality  
-    available through an interface
-- Node: A collection of deployment units in a location
-- Deployment unit: Nonfunctional aspects of a component
-- Subsystem: Any subset of the model elements and element relationships of      a system
-- Location: A group representing a geographical area or position
-- Zone: A group aggregating a number of model elements with a common set of
-    values for a specific nonfunctional requirement
 
-![elements used in IT architecture technical diagrams and operational modelling](./images/usage/IT_elements.svg)
+<Row className={itArchitectureDiagrams}>
+<Column colMd={2} colLg={4}>
+
+<p><span>Target IT system</span><br/> The system being modelled and engineered</p>
+
+</Column>
+<Column colMd={6} colLg={7}>
+
+<ArtDirection>
+
+![Target IT system representations](./images/usage/it-architecture/Targetsystem_mobile.svg)
+
+![Target IT system representations](./images/usage/it-architecture/Targetsystem.svg)
+
+</ArtDirection>
+
+</Column>
+</Row>
+
+<Row className={itArchitectureDiagrams}>
+<Column colMd={2} colLg={4}>
+
+<p><span>Actor</span><br/> An external IT system or a user interacting with the target system</p>
+
+</Column>
+<Column colMd={6} colLg={7}>
+
+<ArtDirection>
+
+![Actor representation](./images/usage/it-architecture/Actor_mobile.svg)
+
+![Actor representation](./images/usage/it-architecture/Actor.svg)
+
+</ArtDirection>
+
+</Column>
+</Row>
+
+<Row className={itArchitectureDiagrams}>
+<Column colMd={2} colLg={4}>
+
+<p><span>Node</span><br/> A collection of deployment units in a location</p>
+
+</Column>
+<Column colMd={6} colLg={7}>
+
+<ArtDirection>
+
+![Logical and prescribed nodes representations](./images/usage/it-architecture/Node_mobile.svg)
+
+![Logical and prescribed nodes representations](./images/usage/it-architecture/Node.svg)
+
+</ArtDirection>
+
+</Column>
+</Row>
+
+<Row className={itArchitectureDiagrams}>
+<Column colMd={2} colLg={4}>
+
+<p><span>Component</span><br/> A modular unit of functionality, which makes this functionality available through an interface</p>
+
+</Column>
+<Column colMd={6} colLg={7}>
+
+![Logical and prescribed components representations](./images/usage/it-architecture/Component.svg)
+
+</Column>
+</Row>
+
+<Row className={itArchitectureDiagrams}>
+<Column colMd={2} colLg={4}>
+
+<p><span>Deployment unit</span><br/> Nonfunctional aspects of a component</p>
+
+</Column>
+<Column colMd={6} colLg={7}>
+
+<ArtDirection>
+
+![Deployment unit representations](./images/usage/it-architecture/DU_mobile.svg)
+
+![Deployment unit representations](./images/usage/it-architecture/DU.svg)
+
+</ArtDirection>
+
+</Column>
+</Row>
+
+<Row className={itArchitectureDiagrams}>
+<Column colMd={2} colLg={4}>
+
+<p><span>Location</span><br/> A group representing a geographical area or position</p>
+
+</Column>
+<Column colMd={6} colLg={7}>
+
+<ArtDirection>
+
+![Logical and prescribed locations representations](./images/usage/it-architecture/Location_mobile.svg)
+
+![Logical and prescribed locations representations](./images/usage/it-architecture/Location.svg)
+
+</ArtDirection>
+
+</Column>
+</Row>
+
+<Row className={itArchitectureDiagrams}>
+<Column colMd={2} colLg={4}>
+
+<p><span>Zone</span><br/> A group aggregating a number of model elements with a common set of values for a specific nonfunctional requirement</p>
+
+</Column>
+<Column colMd={6} colLg={7}>
+
+<ArtDirection>
+
+![Zone representation](./images/usage/it-architecture/Zone_mobile.svg)
+
+![Zone representation](./images/usage/it-architecture/Zone.svg)
+
+</ArtDirection>
+
+</Column>
+</Row>
+
+<Row className={itArchitectureDiagrams}>
+<Column colMd={2} colLg={4}>
+
+<p><span>Subsystem</span><br/> Any subset of the model elements and element relationships of a system</p>
+
+</Column>
+<Column colMd={6} colLg={7}>
+
+<ArtDirection>
+
+![Subsystem representation](./images/usage/it-architecture/Subsystem_mobile.svg)
+
+![Subsystem representation](./images/usage/it-architecture/Subsystem.svg)
+
+</ArtDirection>
+
+</Column>
+</Row>
+
+
+### IT architecture diagrams resources
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
@@ -154,23 +293,33 @@ The visual vocabulary developed for IT architecture diagrams corresponds to the 
   subTitle="IT architecture visualization techniques (w3id required)"
   href="https://w3.ibm.com/w3publisher/it-architecture-visualization-techniques"
   actionIcon="launch"
->
-
-</ResourceCard>
+/>
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
 <ResourceCard
-  subTitle="Cognitive Architect"
-  href="http://ibm.biz/cogarch-app"
+  subTitle="Cognitive Architect (Internal users, w3id required)"
+  href="https://w3.ibm.com/tools/cogarch/pagelogin"
   actionIcon="launch"
->
-
-</ResourceCard>
+/>
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
 <ResourceCard
-  subTitle="diagrams.net desktop build (w3 ID required)"
-  href="https://github.ibm.com/acs-sa/it-architecture-diagrams"
+  subTitle="Cognitive Architect (External users)"
+  href="https://it.architect-assistant.ibm.com/register/"
+  actionIcon="launch"
+/>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+  subTitle="IBM Hybrid Cloud Architecture Center"
+  href="https://www.ibm.com/architectures/hybrid"
+  actionIcon="launch"
+/>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+  subTitle="Diagrams.net library (w3id required)"
+  href="https://github.ibm.com/innersource/ibmdiagrams"
   actionIcon="launch"
 >
 
@@ -181,14 +330,21 @@ The visual vocabulary developed for IT architecture diagrams corresponds to the 
 <Column colMd={4} colLg={4} noGutterSm>
 <ResourceCard
   download
-  subTitle="IT architecture diagrams starter kit"
-  href="/files/IT-architecture-diagrams-kit_v1.ai"
-  actionIcon="download"
+  subTitle="IT architecture diagrams starter kit, PowerPoint (w3id required)"
+  href="https://ibm.box.com/s/z8vmk41w195vehryf64wf7qj10rdg9g8"
+  actionIcon="launch"
 >
 
-![Adobe Illustrator](../../../images/resource-cards/illustrator.png)
+![Box](../../../images/resource-cards/box.png)
 
 </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+  subTitle="Architecture tools and stencils"
+  href="https://www.ibm.com/architectures/diagram-tools"
+  actionIcon="launch"
+/>
 </Column>
 </Row>
 
