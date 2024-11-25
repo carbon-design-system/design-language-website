@@ -505,7 +505,7 @@
     - server
     - data base
 - name: MaximoVoiceAssistant
-  friendly_name: IBM Maximo® Voice Assistant
+  friendly_name: IBM® Maximo® Voice Assistant
   category: Stroke style
   aliases:
     - Watson
@@ -2093,7 +2093,7 @@
     - Data access
     - IBM InfoSphere
 - name: MaximoAssetAuditor
-  friendly_name: IBM Maximo® Asset Audit
+  friendly_name: IBM® Maximo® Asset Audit
   category: Stroke style
   aliases:
     - Watson
@@ -2111,7 +2111,7 @@
     - Asset tracking
     - Asset editing
 - name: MaximoAssetDataManager
-  friendly_name: IBM Maximo® Asset Data Manager
+  friendly_name: IBM® Maximo® Asset Data Manager
   category: Stroke style
   aliases:
     - Watson
@@ -2134,7 +2134,7 @@
     - Asset reporting
     - Asset downtime reports
 - name: MaximoCycleCounts
-  friendly_name: IBM Maximo® Cycle Counts
+  friendly_name: IBM® Maximo® Cycle Counts
   category: Stroke style
   aliases:
     - Watson
@@ -2156,7 +2156,7 @@
     - Inventory validation
     - Inventory accuracy
 - name: MaximoInspector
-  friendly_name: IBM Maximo® Inspector
+  friendly_name: IBM® Maximo® Inspector
   category: Stroke style
   aliases:
     - Watson
@@ -2173,7 +2173,7 @@
     - Asset location list
     - Asset location
 - name: MaximoIssuesReturns
-  friendly_name: IBM Maximo® Issues and Returns
+  friendly_name: IBM® Maximo® Issues and Returns
   category: Stroke style
   aliases:
     - Watson
@@ -2189,7 +2189,7 @@
     - Inventory control
     - Inventory consumption
 - name: MaximoServiceRequestor
-  friendly_name: IBM Maximo® Service Requestor
+  friendly_name: IBM® Maximo® Service Requestor
   category: Stroke style
   aliases:
     - Watson
@@ -2207,7 +2207,7 @@
     - Asset management service platform
     - Asset management platform
 - name: MaximoSupervisor
-  friendly_name: IBM Maximo® Supervisor
+  friendly_name: IBM® Maximo® Supervisor
   category: Stroke style
   aliases:
     - Watson
@@ -2226,7 +2226,7 @@
     - Work order rejection
     - Work order approvals
 - name: MaximoTechnician
-  friendly_name: IBM Maximo® Technician
+  friendly_name: IBM® Maximo® Technician
   category: Stroke style
   aliases:
     - Watson
@@ -2246,7 +2246,7 @@
     - Task detail access
     - Labor actual reports
 - name: MaximoTransfersReceipts
-  friendly_name: IBM Maximo® Transfers Receipts
+  friendly_name: IBM® Maximo® Transfers Receipts
   category: Stroke style
   aliases:
     - Watson
@@ -2265,7 +2265,7 @@
     - Inventory tracking
     - Inventory tracking app
 - name: MaximoWorkerInsights
-  friendly_name: IBM Maximo® Worker Insights
+  friendly_name: IBM® Maximo® Worker Insights
   category: Stroke style
   aliases:
     - Watson
@@ -10676,7 +10676,7 @@
     - blue
     - purple
 - name: MaximoApplicationSuite
-  friendly_name: IBM Maximo® Application Suite
+  friendly_name: IBM® Maximo® Application Suite
   category: Stroke style
   aliases:
     - asset management
@@ -11087,7 +11087,7 @@
     - divider
     - circle
 - name: DevOpsAutomationClearCase
-  friendly_name: IBM® DevOps® ClearCase®
+  friendly_name: IBM® DevOps ClearCase®
   category: Stroke style
   aliases: 
     - IBM DevOps ClearCase
@@ -11164,7 +11164,7 @@
     - automated testing
     - checkmark
 - name: DevOpsAutomationDeploy
-  friendly_name: IBM® DevOps® Deploy
+  friendly_name: IBM® DevOps Deploy
   category: Stroke style
   aliases: 
     - IBM DevOps Deploy
@@ -11181,7 +11181,7 @@
     - rocket
     - speed
 - name: DevOpsAutomationVelocity
-  friendly_name: IBM® DevOps® Velocity
+  friendly_name: IBM® DevOps Velocity
   category: Stroke style
   aliases: 
     - IBM DevOps Velocity 
@@ -11442,7 +11442,7 @@
     - AI
     - Artificial Intelligence
 - name: MaaS360
-  friendly_name: IBM MaaS360®
+  friendly_name: IBM® MaaS360®
   category: Stroke style
   aliases:
     - MaaS360
@@ -12148,7 +12148,7 @@
     - Text
     - List
 - name: DevOpsControl
-  friendly_name: IBM DevOps® Control
+  friendly_name: IBM® DevOps Control
   category: Stroke style
   aliases:
     - DevOps
@@ -12322,9 +12322,10 @@
     - assistant
     - governance
 - name: ZTestAccelerator
-  friendly_name: IBM Z® Test Accelerator
+  friendly_name: IBM® Test Accelerator for Z
   category: Stroke style
   aliases:
+    - IBM Test Accelerator for Z
     - Z Test Accelerator
     - Z
     - test
@@ -12863,3 +12864,68 @@
   aliases:
     - Beekeeper
     - reserved
+- name: RapidNetworkAutomation
+  friendly_name: IBM® Rapid Network Automation
+  category: Stroke style
+  aliases:
+    - IBM Rapid Network Automation
+    - rapid automation
+    - workflow automation
+    - automated workflows
+    - orchestrated workflows
+    - automated processes
+- name: unassigned08
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - eye
+    - data
+    - chart
+    - sight
+    - view
+    - visualisation
+- name: unassigned47
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - data
+    - chart
+    - visualisation
+- name: unassigned59
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - data
+    - chart
+    - visualisation
+    - attention
+- name: unassigned60
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - data
+    - chart
+    - visualisation
+    - attention
+- name: unassigned61
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - data
+    - chart
+    - visualisation
+    - checkmark
+- name: unassigned62
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - data
+    - chart
+    - visualisation
+    - checkmark
