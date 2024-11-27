@@ -12929,3 +12929,90 @@
     - chart
     - visualisation
     - checkmark
+- name: unassigned63
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - data
+    - chart
+    - visualisation
+    - attention
+- name: unassigned64
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned 
+    - leaf
+    - sustainability
+    - settings 
+- name: unassigned65
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - leaf
+    - sustainability
+- name: unassigned66
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - leaf
+    - sustainability
+    - document
+- name: EnvironmentalIntelligence
+  friendly_name: IBM® Environmental Intelligence
+  category: Stroke style
+  aliases:
+    - IBM Environmental Intelligence
+    - environmental data
+    - sustainability
+    - leaf
+    - insight
+    - intelligence
+    - climate resilience
+    - business efficiency
+- name: EnviziESGSuite
+  friendly_name: IBM® Envizi™ ESG Suite
+  category: Stroke style
+  aliases:
+    - IBM Envizi ESG Suite
+    - Environmental Social and Governance data
+    - ESG data
+    - data management
+    - ESG data management
+    - sustainability
+    - decarbonization
+    - sustainability reporting
+- name: Apptio
+  friendly_name: IBM® Apptio®
+  category: Stroke style
+  aliases:
+    - IBM Apptio
+    - enterprise agile planning
+    - financial management
+    - software
+    - finance
+    - data
+- name: Targetprocess
+  friendly_name: IBM® Targetprocess
+  category: Stroke style
+  aliases:
+    - IBM Targetprocess
+    - Apptio
+    - SaaS solution
+    - Agile planning
+    - consolidated financial views
+    - finance
+- name: Cloudability
+  friendly_name: IBM® Cloudability®
+  category: Stroke style
+  aliases:
+    - IBM Cloudability
+    - Apptio
+    - FinOps
+    - finance
+    - cloud application
+    - multi cloud
+    - analytics
