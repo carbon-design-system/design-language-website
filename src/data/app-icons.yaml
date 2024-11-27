@@ -404,7 +404,7 @@
     - teal
     - hexagon
 - name: Db2DataGate
-  friendly_name: IBM Db2® for z/OS® Data Gate
+  friendly_name: IBM® Db2® for z/OS® Data Gate
   category: Stroke style
   aliases:
     - Db2
@@ -585,7 +585,7 @@
     - bricks
     - wall
 - name: Db2ForZOSDeveloperExtension
-  friendly_name: IBM Db2® for z/OS® Developer Extension
+  friendly_name: IBM® Db2® for z/OS® Developer Extension
   category: Stroke style
   aliases:
     - Systems
@@ -8623,7 +8623,7 @@
     - Platform
     - Integration
 - name: Db2_02
-  friendly_name: IBM Db2®
+  friendly_name: IBM® Db2®
   category: Stroke style
   aliases:
     - Hybrid
@@ -10870,7 +10870,7 @@
     - security
     - deploy
 - name: Db2QReplication
-  friendly_name: IBM Db2® Q Replication
+  friendly_name: IBM® Db2® Q Replication
   category: Stroke style
   aliases: 
     - data and AI
@@ -13016,3 +13016,11 @@
     - cloud application
     - multi cloud
     - analytics
+- name: DataShift
+  friendly_name: IBM® Data Shift
+  category: Stroke style
+  aliases:
+    - IBM Data Shift
+    - migration
+    - data migration
+    - device migration
