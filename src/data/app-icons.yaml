@@ -11973,7 +11973,7 @@
     - operation
     - data set
 - name: zOSAuthorizedCodeScanner
-  friendly_name: IBM z/OS Authorized Code Scanner
+  friendly_name: IBM® z/OS® Authorized Code Scanner
   category: Stroke style
   aliases:
     - IBM z/OS Authorized Code Scanner
