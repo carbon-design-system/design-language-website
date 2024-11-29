@@ -2505,7 +2505,7 @@
     - Coding
     - Programming
 - name: SecurityAccessRequest
-  friendly_name: IBM Security™ Access Request
+  friendly_name: IBM Security® Access Request
   category: Stroke style
   aliases:
     - Security
@@ -2517,7 +2517,7 @@
     - Human
     - Access
 - name: SecurityCases
-  friendly_name: IBM Security™ cases
+  friendly_name: IBM Security® cases
   category: Stroke style
   aliases:
     - Security
@@ -2527,7 +2527,7 @@
     - Shield
     - Folder
 - name: SecurityDataExplorer
-  friendly_name: IBM Security™ Data Explorer
+  friendly_name: IBM Security® Data Explorer
   category: Stroke style
   aliases:
     - Security
@@ -2541,7 +2541,7 @@
     - Exploration
     - Data
 - name: SecurityServices
-  friendly_name: IBM Security™ Services
+  friendly_name: IBM Security® Services
   category: Stroke style
   aliases:
     - Security
@@ -2566,7 +2566,7 @@
     - Intelligence
     - Insight
 - name: SecurityVerify
-  friendly_name: IBM Security™ Verify
+  friendly_name: IBM Security® Verify
   category: Stroke style
   aliases:
     - Security
@@ -5704,6 +5704,7 @@
   friendly_name: IBM Security® Guardium® Insights
   category: Stroke style
   aliases:
+    - IBM Security Guardium Insights
     - product
     - software
     - web
@@ -12787,10 +12788,10 @@
     - optimization
     - on-premise service
 - name: PowerVirtualServerDisasterRecoveryAutomation
-  friendly_name: IBM® Power® Virtual Server Disaster Recovery Automation 
+  friendly_name: IBM® Power® Virtual Server DR Automation 
   category: Stroke style
   aliases:
-    - IBM Power Virtual Server Disaster Recovery Automation
+    - IBM Power Virtual Server DR Automation
     - DRA
     - DRA for Power Virtual Server
     - DRA for PowerVS
@@ -13024,3 +13025,20 @@
     - migration
     - data migration
     - device migration
+- name: SecurityVerifyCredentials
+  friendly_name: IBM Verify Credentials
+  category: Stroke style
+  aliases:
+    - Security
+    - IBM Verify Credentials
+    - Blue
+    - Purple
+    - Shield
+    - Checkmark
+    - OK
+    - Badge
+    - Approved
+    - Verify
+    - Verified
+    - Person  
+    - Human 
