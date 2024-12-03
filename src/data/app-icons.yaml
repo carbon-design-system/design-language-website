@@ -13055,3 +13055,17 @@
     - information
     - data observability
     - data management
+- name: StorageDefender
+  friendly_name: IBM Storage Defender
+  category: Stroke style
+  aliases:
+    - IBM Storage Defender
+    - data safe
+    - data resilience
+    - compliance capabilities
+    - threat detection
+    - fast recovery
+    - secure data recovery
+    - shield
+    - software
+    - AI
