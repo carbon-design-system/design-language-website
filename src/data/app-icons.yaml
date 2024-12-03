@@ -13041,4 +13041,17 @@
     - Verify
     - Verified
     - Person  
-    - Human 
+    - Human
+- name: Databand
+  friendly_name: IBM® Databand®
+  category: Stroke style
+  aliases:
+    - IBM Databand
+    - databand
+    - data fabric
+    - DataOps
+    - data
+    - AI
+    - information
+    - data observability
+    - data management
