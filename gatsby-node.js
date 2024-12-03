@@ -26,7 +26,7 @@ exports.onPreBootstrap = async ({ reporter }) => {
       if (
         pictogram.name === 'ibm--z' ||
         pictogram.name === 'ibm--z--partition' ||
-        pictogram.name === 'tokyo--volcano' ||
+        pictogram.name === 'tokyo--volcano'
       ) {
         return false;
       }
