@@ -13080,7 +13080,7 @@
     - energy-efficient storage
     - data protection
     - flash memory
-- name: FlashCoreModule
+- name: FlashSystem
   friendly_name: IBM FlashSystem®
   category: Stroke style
   aliases:
