@@ -13056,7 +13056,7 @@
     - data observability
     - data management
 - name: StorageDefender
-  friendly_name: IBM Storage Defender
+  friendly_name: IBM® Storage Defender
   category: Stroke style
   aliases:
     - IBM Storage Defender
@@ -13069,3 +13069,43 @@
     - shield
     - software
     - AI
+- name: FlashCoreModule
+  friendly_name: IBM FlashCore® Module
+  category: Stroke style
+  aliases:
+    - IBM FlashCore Module
+    - storage
+    - data
+    - scalable storage
+    - energy-efficient storage
+    - data protection
+    - flash memory
+- name: FlashCoreModule
+  friendly_name: IBM FlashSystem®
+  category: Stroke style
+  aliases:
+    - IBM FlashSystem
+    - enterprise storage solutions
+    - high-performance storage
+    - data storage systems
+    - scalable storage systems
+    - storage
+    - AI-driven storage
+- name: StorageDS8000
+  friendly_name: IBM® Storage DS8000®
+  category: Stroke style
+  aliases:
+    - IBM Storage DS8000
+    - storage
+    - DS8000
+    - enterprise storage solutions
+    - IBM Z architecture storage
+- name: Power
+  friendly_name: IBM® Power®
+  category: Stroke style
+  aliases:
+    - IBM Power
+    - servers
+    - advanced server security
+    - enterprise server solutions
+    - hybrid cloud computing
