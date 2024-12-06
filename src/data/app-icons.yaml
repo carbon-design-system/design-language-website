@@ -2517,11 +2517,11 @@
     - Human
     - Access
 - name: SecurityCases
-  friendly_name: IBM Security® cases
+  friendly_name: IBM Security® Cases
   category: Stroke style
   aliases:
     - Security
-    - IBM Security cases
+    - IBM Security Cases
     - Blue
     - Purple
     - Shield
