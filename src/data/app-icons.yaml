@@ -5428,7 +5428,7 @@
     - Purple
     - shield
 - name: SecurityQRadarAnalystWorkflow
-  friendly_name: IBM Security™ QRadar® Analyst Workflow
+  friendly_name: IBM Security® QRadar® Analyst Workflow
   category: Stroke style
   aliases:
     - IBM QRadar
