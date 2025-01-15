@@ -12824,7 +12824,7 @@
     - LSPR
     - CPS Tools
 - name: watsonxCodeAssistantforEnterpriseJavaApplications
-  friendly_name: IBM watsonx™ Code Assistant for Enterprise Java Applications
+  friendly_name: IBM® watsonx™ Code Assistant for Enterprise Java Applications
   category: Stroke style
   aliases:
     - IBM watsonx Code Assistant for Enterprise Java Applications
