@@ -8602,7 +8602,7 @@
     - IDE
     - hexagon
 - name: ZVirtualTestPlatform
-  friendly_name: IBM® Z® Virtual Test Platform
+  friendly_name: IBM Z® Virtual Test Platform
   category: Stroke style
   aliases:
     - DevOps
