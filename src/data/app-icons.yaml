@@ -1460,7 +1460,7 @@
     - System control
     - System control center
 - name: Db2
-  friendly_name: Unassigned IBM Db2®
+  friendly_name: Unassigned IBM® Db2®
   category: IBM Plex® style
   aliases:
     - Hybrid
@@ -1488,7 +1488,7 @@
     - Workload management
     - Data availability
 - name: DB2BigSQL
-  friendly_name: IBM Db2® Big SQL
+  friendly_name: IBM® Db2® Big SQL
   category: Stroke style
   aliases:
     - GTS
@@ -2853,7 +2853,7 @@
     - Coach
     - AI
 - name: WatsonDb2DataManagementConsole
-  friendly_name: IBM Db2® Data Management Console
+  friendly_name: IBM® Db2® Data Management Console
   category: Stroke style
   aliases:
     - Watson
