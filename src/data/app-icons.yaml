@@ -627,7 +627,7 @@
     - angle brackets
     - slash
 - name: CognosAnalyticsReporting
-  friendly_name: IBM Cognos® Analytics Reporting
+  friendly_name: IBM® Cognos® Analytics Reporting
   category: Stroke style
   aliases:
     - Hybrid cloud
@@ -1416,7 +1416,7 @@
     - Cloud network support
     - Cloud network monitoring
 - name: CognosAnalytics
-  friendly_name: IBM Cognos® Analytics
+  friendly_name: IBM® Cognos® Analytics
   category: Stroke style
   aliases:
     - Hybrid
