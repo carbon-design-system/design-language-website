@@ -13183,3 +13183,14 @@
     - monitoring
     - anomaly
     - logging
+- name: Onsite
+  friendly_name: IBM® Onsite
+  category: Stroke style
+  aliases:
+    - IBM Onsite
+    - events
+    - person
+    - human
+    - group
+    - people
+    - live events
