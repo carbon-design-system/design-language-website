@@ -10663,11 +10663,11 @@
     - finance and operations
     - app
 - name: watsonxCodeAssistantforZValidationAssistant
-  friendly_name: watsonx™ Code Assistant for Z Validation Assistant
+  friendly_name: IBM® watsonx™ Code Assistant for Z Validation Assistant
   category: Stroke style
   aliases:
     - watsonx
-    - watsonx code assistant for Z Validation Assistant
+    - IBM watsonx code assistant for Z Validation Assistant
     - code assistant
     - AI assistant
     - AI
@@ -11435,7 +11435,7 @@
     - Masking
     - Redact
 - name: watsonxBIAssistant
-  friendly_name: IBM watsonx™ BI Assistant
+  friendly_name: IBM watsonx BI Assistant™
   category: Stroke style
   aliases:
     - IBM watsonx BI Assistant
