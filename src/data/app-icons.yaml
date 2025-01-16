@@ -13194,3 +13194,30 @@
     - group
     - people
     - live events
+- name: watsonxDataIntegration
+  friendly_name: IBM watsonx™ Data Integration
+  category: Stroke style
+  aliases:
+    - IBM watsonx Data Integration
+    - watsonx
+    - data
+    - AI
+    - data observability
+    - streaming data
+    - data integration
+    - project unite
+
+- name: watsonxDataIntelligence
+  friendly_name: IBM watsonx™ Data Intelligence
+  category: Stroke style
+  aliases:
+    - IBM watsonx Data Intelligence
+    - watsonx
+    - data
+    - AI
+    - data lineage
+    - data sharing
+    - data catalog
+    - data quality
+    - data product sharing
+    - project sage
