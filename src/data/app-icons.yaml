@@ -627,7 +627,7 @@
     - angle brackets
     - slash
 - name: CognosAnalyticsReporting
-  friendly_name: IBM Cognos® Analytics Reporting
+  friendly_name: IBM® Cognos® Analytics Reporting
   category: Stroke style
   aliases:
     - Hybrid cloud
@@ -1359,12 +1359,12 @@
     - Virtual private cloud
     - Virtual private cloud network
 - name: CloudVPCEndpoints
-  friendly_name: IIBM Cloud® Virtual Private Cloud (VPC) endpoints
+  friendly_name: IBM Cloud® Virtual Private Cloud (VPC) endpoints
   category: Stroke style
   aliases:
     - Hybrid
     - Cloud
-    - IIBM Cloud Virtual Private Cloud (VPC) endpoints
+    - IBM Cloud Virtual Private Cloud (VPC) endpoints
     - Business
     - Magenta
     - Purple
@@ -1416,7 +1416,7 @@
     - Cloud network support
     - Cloud network monitoring
 - name: CognosAnalytics
-  friendly_name: IBM Cognos® Analytics
+  friendly_name: IBM® Cognos® Analytics
   category: Stroke style
   aliases:
     - Hybrid
@@ -1460,7 +1460,7 @@
     - System control
     - System control center
 - name: Db2
-  friendly_name: Unassigned IBM Db2®
+  friendly_name: Unassigned IBM® Db2®
   category: IBM Plex® style
   aliases:
     - Hybrid
@@ -1488,7 +1488,7 @@
     - Workload management
     - Data availability
 - name: DB2BigSQL
-  friendly_name: IBM Db2® Big SQL
+  friendly_name: IBM® Db2® Big SQL
   category: Stroke style
   aliases:
     - GTS
@@ -2005,9 +2005,10 @@
     - Phone
     - Connect
 - name: Live-Events
-  friendly_name: IBM Live | IBM Events
+  friendly_name: IBM Events
   category: Stroke style
   aliases:
+    - IBM Events
     - CHQ
     - Marketing
     - Purple
@@ -2852,7 +2853,7 @@
     - Coach
     - AI
 - name: WatsonDb2DataManagementConsole
-  friendly_name: IBM Db2® Data Management Console
+  friendly_name: IBM® Db2® Data Management Console
   category: Stroke style
   aliases:
     - Watson
@@ -7837,9 +7838,10 @@
     - cloud
     - software
 - name: DevOpsUnassigned1
-  friendly_name: Unassigned Z DevOps
+  friendly_name: Reserved Z DevOps
   category: Stroke style
   aliases:
+    - Z Digital Integration Hub
     - Purple
     - Blue
     - DevOps
@@ -8600,7 +8602,7 @@
     - IDE
     - hexagon
 - name: ZVirtualTestPlatform
-  friendly_name: IBM® Z® Virtual Test Platform
+  friendly_name: IBM Z® Virtual Test Platform
   category: Stroke style
   aliases:
     - DevOps
@@ -10661,11 +10663,11 @@
     - finance and operations
     - app
 - name: watsonxCodeAssistantforZValidationAssistant
-  friendly_name: watsonx™ Code Assistant for Z Validation Assistant
+  friendly_name: IBM® watsonx™ Code Assistant for Z Validation Assistant
   category: Stroke style
   aliases:
     - watsonx
-    - watsonx code assistant for Z Validation Assistant
+    - IBM watsonx code assistant for Z Validation Assistant
     - code assistant
     - AI assistant
     - AI
@@ -11433,7 +11435,7 @@
     - Masking
     - Redact
 - name: watsonxBIAssistant
-  friendly_name: IBM watsonx™ BI Assistant
+  friendly_name: IBM watsonx BI Assistant™
   category: Stroke style
   aliases:
     - IBM watsonx BI Assistant
@@ -11463,9 +11465,10 @@
     - AI analytics
     - BYOD
 - name: StreamSets
-  friendly_name: IBM StreamSets
+  friendly_name: IBM® StreamSets
   category: Stroke style
   aliases:
+    - IBM StreamSets
     - stream sets
     - hybrid cloud
     - data fabric
@@ -11961,7 +11964,7 @@
     - disaster
     - failover
 - name: DataSetKeyRotationforzOS
-  friendly_name: IBM Data Set Key Rotation for z/OS
+  friendly_name: IBM Data Set Key Rotation for z/OS®
   category: Stroke style
   aliases:
     - z/OSMF plugin
@@ -12457,9 +12460,10 @@
     - lighthouse
     - news
 - name: unassigned01
-  friendly_name: Unassigned
+  friendly_name: Reserved
   category: Stroke style
   aliases:
+    - Z Security and Compliance Center
     - security
     - secure
     - lock
@@ -12693,9 +12697,10 @@
     - observe
     - eye
 - name: unassigned55
-  friendly_name: Unassigned
+  friendly_name: Reserved
   category: Stroke style
   aliases:
+    - Db2 Analytics Accelerator
     - gauge
     - meter
     - speedometer
@@ -12819,7 +12824,7 @@
     - LSPR
     - CPS Tools
 - name: watsonxCodeAssistantforEnterpriseJavaApplications
-  friendly_name: IBM watsonx™ Code Assistant for Enterprise Java Applications
+  friendly_name: IBM® watsonx™ Code Assistant for Enterprise Java Applications
   category: Stroke style
   aliases:
     - IBM watsonx Code Assistant for Enterprise Java Applications
@@ -13109,3 +13114,120 @@
     - advanced server security
     - enterprise server solutions
     - hybrid cloud computing
+- name: CryptoInsightsAndDiscoveryForZos
+  friendly_name: IBM® Crypto Insights and Discovery for z/OS®
+  category: Stroke style
+  aliases:
+    - IBM Crypto Insights and Discovery for z/OS
+    - Code
+    - API
+    - Security
+    - Algorithms
+    - Cryptography
+    - Vulnerabilities
+    - Systems
+- name: Cloud
+  friendly_name: IBM Cloud®
+  category: Stroke style
+  aliases:
+    - IBM Cloud
+    - Cloud computing
+    - Hybrid cloud
+    - Multicloud
+    - Cloud services
+    - Cloud platform
+    - AI
+    - AI workloads
+    - Data analytics
+    - Containers
+    - Cloud databases
+- name: ZSensitiveDataTagging
+  friendly_name: IBM Z® Sensitive Data Tagging
+  category: Stroke style
+  aliases:
+    - IBM Z Sensitive Data Tagging
+    - Z
+    - security
+    - tag
+    - vulnerabilities
+    - personal
+    - identity
+    - attack
+    - sensitive data
+    - automated scans
+    - data visualization
+- name: ConsultingAdvantage
+  friendly_name: IBM Consulting® Advantage
+  category: Stroke style
+  aliases:
+    - IBM Consulting Advantage
+    - Consulting
+    - assistant
+    - agent
+    - watsonx
+    - AI
+    - AI-powered delivery platform
+    - AI-powered assistants
+    - insights
+- name: AIOpsForIBMZ
+  friendly_name: AIOps for IBM Z®
+  category: Stroke style
+  aliases:
+    - AIOps for IBM Z
+    - zAIOps
+    - Z
+    - AIOps
+    - AI
+    - analytics
+    - operations
+    - monitoring
+    - anomaly
+    - logging
+- name: Onsite
+  friendly_name: IBM® Onsite
+  category: Stroke style
+  aliases:
+    - IBM Onsite
+    - events
+    - person
+    - human
+    - group
+    - people
+    - live events
+- name: watsonxDataIntegration
+  friendly_name: IBM watsonx™ Data Integration
+  category: Stroke style
+  aliases:
+    - IBM watsonx Data Integration
+    - watsonx
+    - data
+    - AI
+    - data observability
+    - streaming data
+    - data integration
+    - project unite
+
+- name: watsonxDataIntelligence
+  friendly_name: IBM watsonx™ Data Intelligence
+  category: Stroke style
+  aliases:
+    - IBM watsonx Data Intelligence
+    - watsonx
+    - data
+    - AI
+    - data lineage
+    - data sharing
+    - data catalog
+    - data quality
+    - data product sharing
+    - project sage
+- name: HybridiPaaS
+  friendly_name: IBM® Hybrid iPaaS
+  category: Stroke style
+  aliases:
+    - IBM Hybrid iPaaS
+    - Integration platform as a service
+    - Cloud integration
+    - Hybrid integration
+    - Multicloud connectivity
+    - Cloud Pak for integration
