@@ -13221,3 +13221,13 @@
     - data quality
     - data product sharing
     - project sage
+- name: HybridiPaaS
+  friendly_name: IBM® Hybrid iPaaS
+  category: Stroke style
+  aliases:
+    - IBM Hybrid iPaaS
+    - Integration platform as a service
+    - Cloud integration
+    - Hybrid integration
+    - Multicloud connectivity
+    - Cloud Pak for integration
