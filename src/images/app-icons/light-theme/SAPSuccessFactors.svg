@@ -1,1 +1,31 @@
-<svg id="SuccessFactors" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><linearGradient id="yzowb84i3a" x1="-3748.5" y1="-2733.502" x2="-3748.5" y2="-2727.502" gradientTransform="translate(3757.498 2745.502)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-opacity="0"/><stop offset=".83"/></linearGradient><linearGradient id="3vp1lus5kb" x1="-3748.5" y1="-3734.498" x2="-3748.5" y2="-3728.498" gradientTransform="matrix(1 0 0 -1 3771.498 -3716.498)" xlink:href="#yzowb84i3a"/><linearGradient id="f0uja3scnc" x1="-3757.539" y1="-2725.456" x2="-3757.539" y2="-2719.456" gradientTransform="translate(3774.584 2746.495)" xlink:href="#yzowb84i3a"/><linearGradient id="ewiyjmdk3e" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-color="#78a9ff"/><stop offset=".9" stop-color="#0f62fe"/></linearGradient><mask id="g3szpy9udd" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse"><path d="M23.998 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6m0-2a5 5 0 1 0 .001 10.001A5 5 0 0 0 23.998 2zM7.998 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6m0-2a5 5 0 1 0 .001 10.001A5 5 0 0 0 7.998 2zM11.998 14h-6a5.006 5.006 0 0 0-5 5v4h2v-4a3.004 3.004 0 0 1 3-3h6v-2zM25.998 14h-6v2h6a3.004 3.004 0 0 1 3 3h2a5.006 5.006 0 0 0-5-5z" style="fill:#fff"/><path transform="rotate(-90 8.998 15)" style="fill:url(#yzowb84i3a)" d="M6.998 12h4v6h-4z"/><path transform="rotate(-90 22.998 15)" style="fill:url(#3vp1lus5kb)" d="M20.998 12h4v6h-4z"/><path d="M22.998 30h-2v-2a3.004 3.004 0 0 0-3-3h-4a3.004 3.004 0 0 0-3 3v2h-2v-2a5.006 5.006 0 0 1 5-5h4a5.006 5.006 0 0 1 5 5v2zM15.998 13a3 3 0 1 1 0 6 3 3 0 0 1 0-6m0-2a5 5 0 1 0 .001 10.001A5 5 0 0 0 15.998 11z" style="fill:#fff"/><path transform="rotate(-90 17.045 24.04)" style="fill:url(#f0uja3scnc)" d="M15.044 21.039h4v6h-4z"/><path transform="rotate(-90 21.67 26.495)" d="M17.17 24.558h9v3.874h-9z"/></mask></defs><g style="mask:url(#g3szpy9udd)"><path style="fill:url(#ewiyjmdk3e)" d="M0 0h32v32H0z"/></g><path d="M27.303 21c-.691 0-1.382.269-1.908.806l-.393.405-.397-.405a2.663 2.663 0 0 0-3.816 0 2.8 2.8 0 0 0 0 3.896L25.002 30l4.209-4.298a2.8 2.8 0 0 0 0-3.896A2.663 2.663 0 0 0 27.303 21z" style="fill:#001d6c"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-9fa86b45-5d2d-46b5-b7ea-b0599b9417fd" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="uuid-57842f74-1046-43c3-bd0f-b487a3ac6de7" x1="-3747.498" y1="-2733.502" x2="-3747.498" y2="-2727.502" gradientTransform="translate(3756.495 2744.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".83" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="uuid-15758755-1c3c-4517-8895-a2df2ddbcee6" x1="-3747.498" y1="-3050.574" x2="-3747.498" y2="-3044.574" gradientTransform="translate(3770.498 -3033.577) scale(1 -1)" xlink:href="#uuid-57842f74-1046-43c3-bd0f-b487a3ac6de7"/>
+    <mask id="uuid-58527642-e31b-401b-8ed3-4424d27e5bc7" data-name="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M11.812,12.998h-4.812c-2.76.003-4.997,2.24-5,5v4h2v-4c.002-1.656,1.344-2.998,3-3h4.812v-2Z" fill="#fff"/>
+        <path d="M20.176,12.998h4.789c2.76.003,4.997,2.24,5,5v4h-2v-4c-.002-1.656-1.344-2.998-3-3h-4.789v-2Z" fill="#fff"/>
+        <path d="M17,18.995h-3.002c-2.76.003-4.997,2.24-5,5v5.005h2v-5.005c.002-1.656,1.344-2.998,3-3h3.002v-2Z" fill="#fff"/>
+        <path d="M15,18.995h3c2.76.003,4.997,2.24,5,5v5.005h-2v-5.005c-.002-1.656-1.344-2.998-3-3h-3v-2Z" fill="#fff"/>
+        <rect x="6.998" y="10.998" width="4" height="6" transform="translate(-5 22.995) rotate(-90)" fill="url(#uuid-57842f74-1046-43c3-bd0f-b487a3ac6de7)"/>
+        <rect x="21" y="10.998" width="4" height="6" transform="translate(9.002 36.998) rotate(-90)" fill="url(#uuid-15758755-1c3c-4517-8895-a2df2ddbcee6)"/>
+        <circle cx="8.998" cy="7" r="3" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <circle cx="23" cy="7" r="3" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <circle cx="15.998" cy="13.998" r="3" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </mask>
+    <linearGradient id="uuid-371138e2-a5d5-44fe-81b9-4d2514146966" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#69aaff"/>
+      <stop offset=".9" stop-color="#0064ff"/>
+    </linearGradient>
+  </defs>
+  <g mask="url(#uuid-58527642-e31b-401b-8ed3-4424d27e5bc7)">
+    <rect width="32" height="32" fill="url(#uuid-371138e2-a5d5-44fe-81b9-4d2514146966)"/>
+  </g>
+  <path d="M17.38,23.6c-.415,0-.829.161-1.145.484l-.236.243-.238-.243c-.316-.322-.73-.484-1.145-.484s-.829.161-1.145.484c-.631.645-.631,1.693,0,2.338l2.528,2.579,2.525-2.579c.631-.645.631-1.693,0-2.338-.316-.322-.73-.484-1.145-.484h0Z" fill="#001e71"/>
+</svg>
