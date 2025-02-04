@@ -1,1 +1,34 @@
-<svg id="SuccessFactors" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><linearGradient id="c7m9la6xea" x1="-3688.5" y1="-2793.497" x2="-3688.5" y2="-2787.497" gradientTransform="translate(3697.503 2805.497)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-opacity="0"/><stop offset=".83"/></linearGradient><linearGradient id="e34fvtx55b" x1="-3688.5" y1="-3674.503" x2="-3688.5" y2="-3668.503" gradientTransform="matrix(1 0 0 -1 3711.503 -3656.503)" xlink:href="#c7m9la6xea"/><linearGradient id="w1hkullxhc" x1="-3697.539" y1="-2785.451" x2="-3697.539" y2="-2779.451" gradientTransform="translate(3714.589 2806.49)" xlink:href="#c7m9la6xea"/><linearGradient id="8k5krmtcxe" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse"><stop offset=".1" stop-color="#a6c8ff"/><stop offset=".9" stop-color="#4589ff"/></linearGradient><mask id="hf7g7b9cod" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse"><path d="M24.003 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6m0-2a5 5 0 1 0 .001 10.001A5 5 0 0 0 24.003 2zM8.003 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6m0-2a5 5 0 1 0 .001 10.001A5 5 0 0 0 8.003 2zM12.003 14h-6a5.006 5.006 0 0 0-5 5v4h2v-4a3.004 3.004 0 0 1 3-3h6v-2zM26.003 14h-6v2h6a3.004 3.004 0 0 1 3 3h2a5.006 5.006 0 0 0-5-5z" style="fill:#fff"/><path transform="rotate(-90 9.003 15)" style="fill:url(#c7m9la6xea)" d="M7.003 12h4v6h-4z"/><path transform="rotate(-90 23.003 15)" style="fill:url(#e34fvtx55b)" d="M21.003 12h4v6h-4z"/><path d="M23.003 30h-2v-2a3.004 3.004 0 0 0-3-3h-4a3.004 3.004 0 0 0-3 3v2h-2v-2a5.006 5.006 0 0 1 5-5h4a5.006 5.006 0 0 1 5 5v2zM16.003 13a3 3 0 1 1 0 6 3 3 0 0 1 0-6m0-2a5 5 0 1 0 .001 10.001A5 5 0 0 0 16.003 11z" style="fill:#fff"/><path transform="rotate(-90 17.05 24.04)" style="fill:url(#w1hkullxhc)" d="M15.049 21.039h4v6h-4z"/><path transform="rotate(-90 21.675 26.495)" d="M17.175 24.558h9v3.874h-9z"/></mask></defs><path style="fill:none" d="M0 0h32v32H0z"/><g style="mask:url(#hf7g7b9cod)"><path style="fill:url(#8k5krmtcxe)" d="M0 0h32v32H0z"/></g><path d="M27.308 21c-.691 0-1.382.269-1.908.806l-.393.405-.397-.405a2.663 2.663 0 0 0-3.816 0 2.8 2.8 0 0 0 0 3.896L25.007 30l4.209-4.298a2.8 2.8 0 0 0 0-3.896A2.663 2.663 0 0 0 27.308 21z" style="fill:#f4f4f4"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-969c611a-297e-449f-a9ec-99051ddf14a3" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="uuid-8d6d34b7-4bc4-44a7-96c9-0c44ffeb1967" x1="-3687.498" y1="-2793.502" x2="-3687.498" y2="-2787.502" gradientTransform="translate(3696.495 2804.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".83" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="uuid-0fef5543-10c0-415b-8a32-134246a704fe" x1="-3687.498" y1="-2990.574" x2="-3687.498" y2="-2984.574" gradientTransform="translate(3710.498 -2973.577) scale(1 -1)" xlink:href="#uuid-8d6d34b7-4bc4-44a7-96c9-0c44ffeb1967"/>
+    <mask id="uuid-6f6038e4-d686-45d2-8a42-95ff322d1e89" data-name="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M11.812,12.998h-4.812c-2.76.003-4.997,2.24-5,5v4h2v-4c.002-1.656,1.344-2.998,3-3h4.812v-2Z" fill="#fff"/>
+        <path d="M20.176,12.998h4.789c2.76.003,4.997,2.24,5,5v4h-2v-4c-.002-1.656-1.344-2.998-3-3h-4.789v-2Z" fill="#fff"/>
+        <path d="M17,18.995h-3.002c-2.76.003-4.997,2.24-5,5v5.005h2v-5.005c.002-1.656,1.344-2.998,3-3h3.002v-2Z" fill="#fff"/>
+        <path d="M15,18.995h3c2.76.003,4.997,2.24,5,5v5.005h-2v-5.005c-.002-1.656-1.344-2.998-3-3h-3v-2Z" fill="#fff"/>
+        <rect x="6.998" y="10.998" width="4" height="6" transform="translate(-5 22.995) rotate(-90)" fill="url(#uuid-8d6d34b7-4bc4-44a7-96c9-0c44ffeb1967)"/>
+        <rect x="21" y="10.998" width="4" height="6" transform="translate(9.002 36.998) rotate(-90)" fill="url(#uuid-0fef5543-10c0-415b-8a32-134246a704fe)"/>
+        <circle cx="8.998" cy="7" r="3" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <circle cx="23" cy="7" r="3" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <circle cx="15.998" cy="13.998" r="3" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </mask>
+    <linearGradient id="uuid-ac04ff29-8382-4470-9b1a-a7914e094747" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#a6c8ff"/>
+      <stop offset=".9" stop-color="#4589ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" width="32" height="32" fill="none"/>
+  <g>
+    <g mask="url(#uuid-6f6038e4-d686-45d2-8a42-95ff322d1e89)">
+      <rect width="32" height="32" fill="url(#uuid-ac04ff29-8382-4470-9b1a-a7914e094747)"/>
+    </g>
+    <path d="M17.38,23.6c-.415,0-.829.161-1.145.484l-.236.243-.238-.243c-.316-.322-.73-.484-1.145-.484s-.829.161-1.145.484c-.631.645-.631,1.693,0,2.338l2.528,2.579,2.525-2.579c.631-.645.631-1.693,0-2.338-.316-.322-.73-.484-1.145-.484h0Z" fill="#f4f4f4"/>
+  </g>
+</svg>

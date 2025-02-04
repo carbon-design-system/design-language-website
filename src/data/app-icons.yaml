@@ -13231,3 +13231,83 @@
     - Hybrid integration
     - Multicloud connectivity
     - Cloud Pak for integration
+- name: ToolboxLearning
+  friendly_name: IBM® Toolbox Learning
+  category: Stroke style
+  aliases:
+    - IBM Toolbox Learning
+    - toolbox
+    - briefcase
+    - case
+    - learning
+    - learn
+    - enablement
+    - training
+- name: ToolboxChampions
+  friendly_name: IBM® Toolbox Champions
+  category: Stroke style
+  aliases:
+    - IBM Toolbox Champions
+    - toolbox
+    - briefcase
+    - case
+    - champions
+    - trophy
+- name: ToolboxProductManagement
+  friendly_name: IBM® Toolbox Product Management
+  category: Stroke style
+  aliases:
+    - IBM Toolbox Product Management
+    - toolbox
+    - briefcase
+    - case
+    - management
+    - cube
+    - pm
+    - solutions
+    - pmsol
+- name: ToolboxStorage
+  friendly_name: IBM® Toolbox Storage
+  category: Stroke style
+  aliases:
+    - IBM Toolbox Storage
+    - toolbox
+    - briefcase
+    - case
+    - storage
+    - archive
+    - server
+- name: ToolboxIdeas
+  friendly_name: IBM® Toolbox Ideas
+  category: Stroke style
+  aliases:
+    - IBM Toolbox Ideas
+    - toolbox
+    - briefcase
+    - case
+    - ideas
+    - lightbulb
+    - create
+    - ideate
+- name: ToolboxDevelopment
+  friendly_name: IBM® Toolbox Development
+  category: Stroke style
+  aliases:
+    - IBM Toolbox Development
+    - toolbox
+    - briefcase
+    - case
+    - development
+    - code
+    - dev
+    - developer
+- name: ToolboxAI
+  friendly_name: IBM® Toolbox AI
+  category: Stroke style
+  aliases:
+    - IBM Toolbox AI
+    - toolbox
+    - briefcase
+    - case
+    - AI
+    - artificial intelligence
