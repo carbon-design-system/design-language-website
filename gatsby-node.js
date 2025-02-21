@@ -24,7 +24,6 @@ exports.onPreBootstrap = async ({ reporter }) => {
     .map(removeUnusedData)
     .filter((pictogram) => {
       if (
-        pictogram.name === 'ibm--z' ||
         pictogram.name === 'ibm--z--partition' ||
         pictogram.name === 'tokyo--volcano'
       ) {
