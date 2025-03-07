@@ -13414,7 +13414,7 @@
   friendly_name: IBM® webMethods API Studio
   category: Stroke style
   aliases:
-IBM webMethods API Studio
+    - IBM webMethods API Studio
     - Cloud
     - iPaaS
     - webMethods
