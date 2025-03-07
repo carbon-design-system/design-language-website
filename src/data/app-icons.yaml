@@ -12228,7 +12228,7 @@
     - threat
     - vulnerabilities
 - name: WebMethodsInstaller
-  friendly_name: IBM webMethods Installer
+  friendly_name: IBM® webMethods Installer
   category: Stroke style
   aliases:
     - webMethods Installer
@@ -13340,7 +13340,6 @@
   aliases:
     - IBM Concert Compliance Assessment Agent
     - AI
-    - Concert
     - Gen AI
     - regulatory compliance
     - Data Privacy
