@@ -4610,19 +4610,6 @@
     - Open
     - Closed
     - Slider
-- name: unassigned35
-  friendly_name: Unassigned Security
-  category: Stroke style
-  aliases:
-    - Security
-    - Purple
-    - Blue
-    - Shield
-    - Heart
-    - Health
-    - Love
-    - Favorite
-    - Like
 - name: unassigned36
   friendly_name: Unassigned Security
   category: Stroke style
@@ -10623,7 +10610,7 @@
     - CloudOps
     - connectivity
 - name: IBMConcert
-  friendly_name: IBM Concert®
+  friendly_name: IBM® Concert®
   category: Stroke style
   aliases:
     - Cyan
@@ -12241,7 +12228,7 @@
     - threat
     - vulnerabilities
 - name: WebMethodsInstaller
-  friendly_name: IBM webMethods Installer
+  friendly_name: IBM® webMethods Installer
   category: Stroke style
   aliases:
     - webMethods Installer
@@ -13195,7 +13182,7 @@
     - people
     - live events
 - name: watsonxDataIntegration
-  friendly_name: IBM watsonx™ Data Integration
+  friendly_name: IBM® watsonx.data™ Integration
   category: Stroke style
   aliases:
     - IBM watsonx Data Integration
@@ -13208,7 +13195,7 @@
     - project unite
 
 - name: watsonxDataIntelligence
-  friendly_name: IBM watsonx™ Data Intelligence
+  friendly_name: IBM® watsonx.data™ Intelligence
   category: Stroke style
   aliases:
     - IBM watsonx Data Intelligence
@@ -13311,3 +13298,140 @@
     - case
     - AI
     - artificial intelligence
+- name: Kubecost
+  friendly_name: IBM® Kubecost
+  category: Stroke style
+  aliases:
+    - IBM Kubecost
+    - Cloud infrastructure optimization
+    - kubernetes
+    - analysis
+    - dashboard
+    - infrastructure optimization
+    - cost monitoring
+- name: WebMethodsDeveloperPortal
+  friendly_name: IBM® webMethods Developer Portal
+  category: Stroke style
+  aliases:
+    - IBM webMethods Developer Portal
+    - Cloud
+    - API
+    - iPaaS
+    - webMethods
+    - Integration
+    - Developer
+    - Portal
+- name: WebMethodsManagedFileTransfer
+  friendly_name: IBM® webMethods Managed File Transfer
+  category: Stroke style
+  aliases:
+    - IBM webMethods Managed File Transfer
+    - Cloud
+    - iPaaS
+    - webMethods
+    - MFT
+    - Hybrid
+    - Integration
+    - File
+    - Transfer
+- name: ConcertComplianceAssessmentAgent
+  friendly_name: IBM® Concert® Compliance Assessment Agent
+  category: Stroke style
+  aliases:
+    - IBM Concert Compliance Assessment Agent
+    - AI
+    - Gen AI
+    - regulatory compliance
+    - Data Privacy
+    - agent
+    - assessment
+- name: SoftwareAgentForCode
+  friendly_name: IBM® Software Agent for Code
+  category: Stroke style
+  aliases:
+    - IBM Software Agent for Code
+    - AI
+    - developer
+    - code
+    - quality
+    - circle
+    - assistant
+    - ISAC
+- name: WebMethodsAPIGateway
+  friendly_name: IBM® webMethods API Gateway
+  category: Stroke style
+  aliases:
+    - IBM webMethods API Gateway
+    - Cloud
+    - iPaaS
+    - webMethods
+    - API
+    - Gateway
+    - Hybrid
+- name: WebMethodsIntegrationServer
+  friendly_name: IBM® webMethods Integration Server
+  category: Stroke style
+  aliases:
+    - IBM webMethods Integration Server
+    - iPaaS
+    - webMethods
+    - Integration
+    - prem
+    - Monitoring
+    - API
+    - Platform
+- name: WebMethodsIntegration
+  friendly_name: IBM® webMethods Integration
+  category: Stroke style
+  aliases:
+    - IBM webMethods Integration
+    - Cloud
+    - API
+    - Hybrid
+    - webMethods
+    - Integration
+- name: WebMethodsAPIControlPlane
+  friendly_name: IBM® webMethods API Control Plane
+  category: Stroke style
+  aliases:
+    - IBM webMethods API Control Plane
+    - Cloud
+    - iPaaS
+    - webMethods
+    - API
+    - Control
+- name: WebMethodsB2B
+  friendly_name: IBM® webMethods B2B
+  category: Stroke style
+  aliases:
+    - IBM webMethods B2B
+    - Cloud
+    - iPaaS
+    - webMethods
+    - B2B
+- name: WebMethodsAPIStudio
+  friendly_name: IBM® webMethods API Studio
+  category: Stroke style
+  aliases:
+    - IBM webMethods API Studio
+    - Cloud
+    - iPaaS
+    - webMethods
+    - API
+    - studio
+    - management
+    - deploy
+    - create
+    - design
+    - test
+    - hybrid
+- name: HEART
+  friendly_name: HEART
+  category: Stroke style
+  aliases:
+    - HEART
+    - Adversarial robustness
+    - Hardened extension
+    - ART
+    - AI
+    - toolkit

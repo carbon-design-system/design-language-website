@@ -1,0 +1,38 @@
+<svg id="a_Concert" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a_maqn1qa6ja" x1="203.343" y1="55.392" x2="208.475" y2="55.392"
+      gradientTransform="rotate(30 106.78 -1046.94) scale(2.707 -1.679)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-opacity="0" />
+      <stop offset=".7" />
+    </linearGradient>
+    <linearGradient id="a_4y6i35joyb" x1="242.689" y1="-54.505" x2="247.821" y2="-54.505"
+      gradientTransform="rotate(-30 563.956 1169.44) scale(2.707 1.679)" xlink:href="#a_maqn1qa6ja" />
+    <linearGradient id="a_8h0vd3r79c" x1="414.558" y1="248.472" x2="418.255" y2="248.264"
+      gradientTransform="rotate(150 626.527 64.099) scale(2.707 1.679)" xlink:href="#a_maqn1qa6ja" />
+    <linearGradient id="a_a1qz1q4uzd" x1="452.611" y1="142.187" x2="456.307" y2="141.978"
+      gradientTransform="rotate(-150 658.413 54.901) scale(2.707 -1.679)" xlink:href="#a_maqn1qa6ja" />
+    <linearGradient id="a_wyc33wlysf" x1="-1210" y1="32" x2="-1242" y2="0" gradientTransform="matrix(1 0 0 -1 1242 32)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#08b9b6" />
+      <stop offset=".9" stop-color="#0f62fa" />
+    </linearGradient>
+    <mask id="a_nieldx50te" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <path
+        d="M16 30C8.28 30 2 23.72 2 16S8.28 2 16 2a13.86 13.86 0 0 1 8.616 2.965L23.384 6.54A11.877 11.877 0 0 0 16 4C9.383 4 4 9.383 4 16s5.383 12 12 12c2.705 0 5.259-.878 7.384-2.54l1.232 1.576A13.868 13.868 0 0 1 16 30z"
+        style="fill:#fff" />
+      <path style="fill:url(#a_maqn1qa6ja)" d="M14 1h12v7H14z" />
+      <path style="fill:url(#a_4y6i35joyb)" d="M14 24h12v7H14z" />
+      <path
+        d="M20 26a10.013 10.013 0 0 1-7.453-3.333l1.49-1.334A8.012 8.012 0 0 0 20 24c4.411 0 8-3.589 8-8s-3.589-8-8-8a8.012 8.012 0 0 0-5.963 2.667l-1.49-1.334A10.013 10.013 0 0 1 20 6c5.514 0 10 4.486 10 10s-4.486 10-10 10z"
+        style="fill:#fff" />
+      <path style="fill:url(#a_8h0vd3r79c)" d="M12 5h8l4 6H12V5z" />
+      <path style="fill:url(#a_a1qz1q4uzd)" d="M12 27h8l4-6H12v6z" />
+    </mask>
+  </defs>
+  <g style="mask:url(#a_nieldx50te)">
+    <path transform="rotate(180 16 16)" style="fill:url(#a_wyc33wlysf)" d="M0 0h32v32H0z" />
+  </g>
+  <path
+    d="M16 22c-3.309 0-6-2.691-6-6s2.691-6 6-6 6 2.691 6 6-2.691 6-6 6zm0-10c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z"
+    style="fill:#001d6c" />
+</svg>
