@@ -27,7 +27,7 @@ jobs:
 
       - name: Build site
         env:
-          NODE_OPTIONS: "--max_old_space_size=4096"
+          NODE_OPTIONS: "--max_old_space_size=7000"
         run: yarn build:prefix
 
       - uses: jakejarvis/s3-sync-action@master
