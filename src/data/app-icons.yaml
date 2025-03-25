@@ -10609,7 +10609,7 @@
     - on-premises
     - CloudOps
     - connectivity
-- name: IBMConcert
+- name: Concert
   friendly_name: IBM® Concert®
   category: Stroke style
   aliases:
@@ -13435,3 +13435,69 @@
     - ART
     - AI
     - toolkit
+- name: WatsonxCodeAssistantForI
+  friendly_name: IBM® watsonx™ Code Assistant for i
+  category: Stroke style
+  aliases:
+    - IBM watsonx Code Assistant for i
+    - AI
+    - developer
+    - code
+    - watsonx
+    - assistant
+- name: CloudFirewallForVPC
+  friendly_name: IBM Cloud® Firewall For VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud Firewall For VPC
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - firewall
+    - security
+- name: CloudVirtualNetworkInterfaceForVPC
+  friendly_name: IBM Cloud® Virtual Network Interface For VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud Virtual Network Interface For VPC
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - interface
+- name: CloudAccessControlListForVPC
+  friendly_name: IBM Cloud® Access Control List For VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud Access Control List For VPC
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - security
+    - group
+    - access
+    - control
+    - list
+- name: CloudSecurityGroupForVPC
+  friendly_name: IBM Cloud® Security Group For VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud Security Group For VPC
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - security
+    - group
+- name: CloudSubnetForVPC
+  friendly_name: IBM Cloud® Subnet For VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud Subnet For VPC
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - subnet
