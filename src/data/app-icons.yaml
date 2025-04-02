@@ -9460,9 +9460,10 @@
     - connection
     - network
 - name: QuantumSafeAdvisor
-  friendly_name: IBM Quantum® Safe Advisor
+  friendly_name: IBM Quantum Safe™ Advisor
   category: Stroke style
   aliases:
+    - IBM Quantum Safe Advisor
     - Purple
     - Blue
     - macOS
@@ -9494,9 +9495,10 @@
     - prioritization
     - posture
 - name: QuantumSafeRemediator
-  friendly_name: IBM Quantum® Safe Remediator
+  friendly_name: IBM Quantum Safe™ Remediator
   category: Stroke style
   aliases:
+    - IBM Quantum Safe Remediator
     - Purple
     - Blue
     - macOS
@@ -9527,6 +9529,7 @@
   friendly_name: IBM Quantum Safe™ Explorer
   category: Stroke style
   aliases:
+    - IBM Quantum Safe Explorer
     - macOS
     - windows
     - research
@@ -13391,13 +13394,12 @@
     - webMethods
     - Integration
 - name: WebMethodsAPIControlPlane
-  friendly_name: IBM® webMethods API Control Plane
+  friendly_name: IBM® Hybrid Control Plane
   category: Stroke style
   aliases:
-    - IBM webMethods API Control Plane
+    - IBM Hybrid Control Plane
     - Cloud
     - iPaaS
-    - webMethods
     - API
     - Control
 - name: WebMethodsB2B
@@ -13501,3 +13503,41 @@
     - network
     - VPC
     - subnet
+- name: CloudClusterNetworkForVPC
+  friendly_name: IBM Cloud® Cluster Network For VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud Cluster Network For VPC
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - cluster
+- name: CloudRoutingTableForVPC
+  friendly_name: IBM Cloud® Routing Table For VPC
+  category: Stroke style
+  aliases:
+    - IBM Cloud Routing Table For VPC
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - routing table
+    - firewall
+    - security
+- name: ZConnectivityMappingTool
+  friendly_name: IBM Z® Connectivity Mapping Tool
+  category: Stroke style
+  aliases:
+    - IBM Z Connectivity Mapping Tool
+    - IBM Z
+    - cmt
+    - channel
+    - mapping
+    - availability
+    - path
+    - function
+    - chpid
+    - fid
+    - pchid
+    - iocp
