@@ -16,7 +16,7 @@ const NonLatinScripts = () => (
     <NonLatinScript
       customStyle="--non-latin-type-example-chinese"
       typefaceName="IBM Plex® Sans TC (Traditional Chinese)"
-      className={`${prefix}--type-mono`}
+      className={`${prefix}--type-chinese`}
       value="建立關係"
     />
     <NonLatinScript
