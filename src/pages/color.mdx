@@ -310,6 +310,10 @@ required to achieve commonly used contrast ratios between any two colors.
 | 10       | 60 through Black (5 steps) | 50 through Black (4 steps) |
 | White    | 60 through Black (6 steps) | 50 through Black (5 steps) |
 
+### Contrast with gradients
+
+When any part of a page's background is made up of a gradient, always confirm sufficient text contrast against the lowest-contrast gradient colors. For instance, if a gradient goes from Blue 50 to Teal 40, white text would be checked against the lighter color (Teal 40) while black text would be checked against the darker color (Blue 50). Such a contrast check should happen regardless of the text's current position relative to the area affected by the gradient space. This is because authors cannot predict where text may appear relative to the gradient background, due to some user preferences. WCAG requires a page to continue to meet accessibility requirements even if a user resizes text or alters text spacing within certain ranges. The text may well end up on top of the lowest-contrast gradient color, so the author must verify that the text contrast minimum is still met. The same is also true of 3:1 non-text contrast requirements.
+
 ### Examples
 
 <DoDontRow>
