@@ -671,7 +671,7 @@
     - Notification
     - Caution
 - name: API
-  friendly_name: Unassigned
+  friendly_name: API
   category: IBM Plex® style
   aliases:
     - Hybrid
@@ -1460,7 +1460,7 @@
     - System control
     - System control center
 - name: Db2
-  friendly_name: Unassigned IBM® Db2®
+  friendly_name: IBM® Db2®
   category: IBM Plex® style
   aliases:
     - Hybrid
@@ -1736,7 +1736,7 @@
     - Vision
     - Sight
 - name: go
-  friendly_name: Unassigned
+  friendly_name: .go
   category: IBM Plex® style
   aliases:
     - Unassigned
@@ -1977,7 +1977,7 @@
     - IBM Z
     - IBM Z data
 - name: js
-  friendly_name: Unassigned
+  friendly_name: .js
   category: IBM Plex® style
   aliases:
     - Unassigned
@@ -2363,7 +2363,7 @@
     - Mobile patient day collection
     - Mobile patient health
 - name: net
-  friendly_name: Unassigned
+  friendly_name: .net
   category: IBM Plex® style
   aliases:
     - Unassigned
@@ -2375,7 +2375,7 @@
     - Developer platform
     - Cross-platform developer platform
 - name: php
-  friendly_name: Unassigned
+  friendly_name: .php
   category: IBM Plex® style
   aliases:
     - Unassigned
@@ -2453,7 +2453,7 @@
     - Middleware
     - Analytics
 - name: py
-  friendly_name: Unassigned
+  friendly_name: .py
   category: IBM Plex® style
   aliases:
     - Unassigned
@@ -2493,7 +2493,7 @@
     - Integrated development environment
     - environment
 - name: rb
-  friendly_name: Unassigned
+  friendly_name: .rb
   category: IBM Plex® style
   aliases:
     - Unassigned
@@ -3087,7 +3087,7 @@
     - Chain
     - Sterling
 - name: xsp
-  friendly_name: Unassigned
+  friendly_name: .xsp
   category: IBM Plex® style
   aliases:
     - Unassigned
