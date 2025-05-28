@@ -27,6 +27,7 @@
   friendly_name: IBM Enterprise Performance Management
   category: Fill style
   aliases:
+    - IBM Enterprise Performance Management
     - Finance and operations
     - Performance management
     - EPM
@@ -130,7 +131,7 @@
     - Institute
     - Business
     - IBV
-    - Institute of Business Value
+    - Institute for Business Value
     - Blue
     - Teal
     - Dial
@@ -373,7 +374,7 @@
   aliases:
     - Cloud
     - Edge computing
-    - IBM Edge application manager
+    - IBM Edge Application Manager
     - circle
     - data
     - blue
@@ -448,6 +449,8 @@
   friendly_name: IBM Release Builder Kit (RBK)
   category: Stroke style
   aliases:
+    - IBM Release Builder Kit
+    - RBK
     - Services
     - GBS
     - Global Business Services
@@ -461,7 +464,7 @@
   category: Stroke style
   aliases:
     - Cloud
-    - Data replication
+    - Data Replication on Cloud
     - Data integration
     - Data synchronization
     - purple
@@ -473,6 +476,7 @@
   friendly_name: IBM New Visual Horizon
   category: Stroke style
   aliases:
+    - IBM New Visual Horizon
     - WeChat app
     - GCG LTV
     - Expansion marketing
@@ -533,6 +537,7 @@
   friendly_name: IBM Return-to-Workplace Advisor
   category: Stroke style
   aliases:
+    - IBM Return-to-Workplace Advisor
     - Watson Health
     - IBM Watson Health
     - Workplace re-opening advisor
@@ -617,6 +622,7 @@
   category: Stroke style
   friendly_name: IBM Developer
   aliases:
+    - IBM Developer
     - DBG
     - Network center
     - Technical resource
@@ -785,6 +791,7 @@
   friendly_name: IBM Mobile Capture
   category: Stroke style
   aliases:
+    - IBM Mobile Capture
     - Hybrid
     - Cloud
     - Business
@@ -805,6 +812,7 @@
   friendly_name: Carbon Design System
   category: Stroke style
   aliases:
+    - Carbon Design System
     - Product
     - Design
     - Carbon
@@ -822,6 +830,7 @@
   friendly_name: IBM® CICS® Transaction Server for z/OS®
   category: Stroke style
   aliases:
+    - IBM CICS Transaction Server for z/OS
     - Systems
     - IBM CICS
     - IT
@@ -901,7 +910,7 @@
     - Circle
     - Connect
     - Share
-    - App Connect
+    - App Connect Enterprise
     - Application connection
     - Data integration
     - Data integration tool
@@ -977,6 +986,7 @@
   friendly_name: IBM MQ
   category: Stroke style
   aliases:
+    - IBM MQ
     - Hybrid
     - Cloud
     - Business
@@ -1074,6 +1084,7 @@
   friendly_name: IBM On Call Manager
   category: Stroke style
   aliases:
+    - IBM On Call Manager
     - Hybrid
     - Cloud
     - IBM Cloud Event Management
@@ -1138,6 +1149,7 @@
   friendly_name: IBM Automation Platform
   category: Stroke style
   aliases:
+    - IBM Automation Platform
     - Hybrid
     - Cloud
     - Business
@@ -1439,6 +1451,7 @@
   friendly_name: IBM Control Desk
   category: Stroke style
   aliases:
+    - IBM Control Desk
     - Hybrid
     - Cloud
     - Business
@@ -1463,6 +1476,7 @@
   friendly_name: IBM® Db2®
   category: IBM Plex® style
   aliases:
+    - IBM Db2
     - Hybrid
     - Cloud
     - Business
@@ -1531,6 +1545,7 @@
   friendly_name: IBM DCConnect Client
   category: Stroke style
   aliases:
+    - IBM DCConnect Client
     - GBS
     - Global
     - Business
@@ -1559,6 +1574,7 @@
   friendly_name: IBM Digital Assistant
   category: Stroke style
   aliases:
+    - IBM Digital Assistant
     - DBG
     - Digital
     - Business
@@ -1640,6 +1656,7 @@
   friendly_name: IBM ePass mobile
   category: Stroke style
   aliases:
+    - IBM ePass mobile
     - GTS
     - Global
     - Technology
@@ -1655,6 +1672,7 @@
   friendly_name: IBM ePricer BP
   category: Stroke style
   aliases:
+    - IBM ePricer BP
     - Finance
     - Operations
     - Blue
@@ -1668,6 +1686,7 @@
   friendly_name: IBM Expert Seller with Box Platform
   category: Stroke style
   aliases:
+    - IBM Expert Seller with Box Platform
     - GBS
     - Global
     - Business
@@ -1692,6 +1711,7 @@
   friendly_name: IBM Explorer for z/OS®
   category: Fill style
   aliases:
+    - IBM Explorer for z/OS
     - Systems
     - IT
     - Infrastructure
@@ -1748,6 +1768,7 @@
   friendly_name: Hello Quantum
   category: Fill style
   aliases:
+    - Hello Quantum
     - Research
     - Blue
     - Purple
@@ -1771,6 +1792,7 @@
   friendly_name: Hybrid DevOps and management
   category: Fill style
   aliases:
+    - Hybrid DevOps and management
     - Hybrid
     - Cloud
     - Business
@@ -1790,6 +1812,7 @@
   friendly_name: IBM i Access Client Solutions
   category: Fill style
   aliases:
+    - IBM i Access Client Solutions
     - Systems
     - IT
     - Infrastructure
@@ -1823,6 +1846,7 @@
   friendly_name: IBM Immersive Data
   category: Fill style
   aliases:
+    - IBM Immersive Data
     - Hybrid
     - Cloud
     - Business
@@ -5416,11 +5440,10 @@
     - Purple
     - shield
 - name: SecurityQRadarAnalystWorkflow
-  friendly_name: IBM Security® QRadar® Analyst Workflow
+  friendly_name: IBM® Guardium® Quantum Safe
   category: Stroke style
   aliases:
-    - IBM QRadar
-    - IBM Security QRadar Analyst Workflow
+    - IBM Guardium Quantum Safe
     - analyst
     - workflow
     - security
@@ -5442,6 +5465,7 @@
   friendly_name: IBM Digital Health Pass Verify
   category: Stroke style
   aliases:
+    - IBM Digital Health Pass Verify
     - health
     - pass
     - verifier
@@ -5454,7 +5478,6 @@
   friendly_name: IBM® Knowledge Studio
   category: Stroke style
   aliases:
-    - IBM Watson
     - IBM Knowledge Studio
     - watsonx
     - knowledge
@@ -5644,10 +5667,11 @@
     - Purple
     - Blue
     - circle
-- name: unassigned34
-  friendly_name: Unassigned Security
+- name: GuardiumVulnerabilityAssessment
+  friendly_name: IBM® Guardium® Vulnerability Assessment
   category: Stroke style
   aliases:
+    - IBM Guardium Vulnerability Assessment
     - Security
     - Purple
     - Blue
@@ -7826,7 +7850,7 @@
     - cloud
     - software
 - name: DevOpsUnassigned1
-  friendly_name: Reserved Z DevOps
+  friendly_name: Z Digital Integration Hub
   category: Stroke style
   aliases:
     - Z Digital Integration Hub
@@ -8000,7 +8024,7 @@
     - Red Hat OpenShift
     - fix
 - name: PowerVMRecoveryManager
-  friendly_name: Reserved
+  friendly_name: IBM® Power® Systems VM Recovery Manager
   category: Stroke style
   aliases:
     - IBM Power Systems VM Recovery Manager
@@ -8043,7 +8067,7 @@
     - circle
     - HMC
 - name: CloudManagementConsole
-  friendly_name: Reserved
+  friendly_name: IBM Cloud® Management Console
   category: Stroke style
   aliases:
     - IBM Cloud Management Console
@@ -11049,7 +11073,7 @@
     - pricing
     - dollars
 - name: ResiliencyCloudSolution
-  friendly_name: Reserved
+  friendly_name: Resiliency Cloud Solution
   category: Stroke style
   aliases: 
     - Resiliency Cloud Solution
@@ -12342,6 +12366,7 @@
   friendly_name: IBM AI Factsheets
   category: Stroke style
   aliases:
+    - IBM AI Factsheets
     - watsonx
     - AI governance
     - Artifical Intelligence
@@ -12351,9 +12376,10 @@
     - validation 
     - regulation
 - name: GuardiumQuantumSafe
-  friendly_name: IBM® Guardium® Quantum Safe
+  friendly_name: IBM® Guardium® Key Lifecycle Manager
   category: Stroke style
   aliases:
+    - IBM Guardium Key Lifecycle Manager
     - cryptography
     - cryptographic agility
     - policies
@@ -12408,10 +12434,10 @@
     - security
     - secure
 - name: GuardiumDataCompliance
-  friendly_name: IBM® Guardium® Data Compliance
+  friendly_name: IBM® Guardium® Data Protection
   category: Stroke style
   aliases:
-    - IBM Guardium Data Compliance
+    - IBM Guardium Data Protection
     - shield
     - security
     - secure
@@ -12457,10 +12483,10 @@
     - lighthouse
     - news
 - name: unassigned01
-  friendly_name: Reserved
+  friendly_name: IBM Z® Security and Compliance Center
   category: Stroke style
   aliases:
-    - Z Security and Compliance Center
+    - IBM Z Security and Compliance Center
     - security
     - secure
     - lock
@@ -12694,10 +12720,10 @@
     - observe
     - eye
 - name: unassigned55
-  friendly_name: Reserved
+  friendly_name: IBM® Db2® Analytics Accelerator
   category: Stroke style
   aliases:
-    - Db2 Analytics Accelerator
+    - IBM Db2 Analytics Accelerator
     - gauge
     - meter
     - speedometer
@@ -12860,13 +12886,11 @@
   category: Stroke style
   aliases:
     - Beehive
-    - reserved
 - name: Beekeeper
   friendly_name: Beekeeper
   category: Stroke style
   aliases:
     - Beekeeper
-    - reserved
 - name: RapidNetworkAutomation
   friendly_name: IBM® Rapid Network Automation
   category: Stroke style
@@ -13575,3 +13599,70 @@
     - upgrade
     - advisor
     - COBOL
+- name: GuardiumEncryption
+  friendly_name: IBM® Guardium® Encryption
+  category: Stroke style
+  aliases:
+    - IBM Guardium Encryption
+    - lock
+    - secure
+    - shield
+    - security
+- name: HyperProtectConfidentialContainerforRedHatVirtualizationSolutions
+  friendly_name: IBM® Hyper Protect Confidential Container for Red Hat® Virtualization Solutions
+  category: Stroke style
+  aliases:
+    - IBM Hyper Protect Confidential Container for Red Hat Virtualization Solutions
+    - confidential
+    - computing
+    - OpenShift
+    - vault
+    - security
+    - zero trust
+- name: HyperProtectContainerRuntimeforRedHatVirtualizationSolutions
+  friendly_name: IBM® Hyper Protect Container Runtime for Red Hat® Virtualization Solutions
+  category: Stroke style
+  aliases:
+    - IBM Hyper Protect Container Runtime for Red Hat Virtualization Solutions
+    - confidential
+    - computing
+    - OpenShift
+    - vault
+    - security
+    - zero trust
+- name: iAccelNav
+  friendly_name: IBM® iAccel Nav
+  category: Stroke style
+  aliases:
+    - IBM iAccel Nav
+    - accelalpha
+    - iAccel
+    - nav
+    - navigation
+- name: iAccelGo
+  friendly_name: IBM® iAccel Go
+  category: Stroke style
+  aliases:
+    - IBM iAccel Go
+    - accelalpha
+    - iAccel
+    - go
+    - transportation
+- name: AskCSR
+  friendly_name: AskCSR
+  category: Stroke style
+  aliases:
+    - AskCSR
+    - AI
+    - assistant
+    - agent
+    - automation
+- name: ZPerformanceAndCapacityAnalytics
+  friendly_name: IBM Z® Performance and Capacity Analytics
+  category: Stroke style
+  aliases:
+    - IBM Z Performance and Capacity Analytics
+    - performance
+    - capacity
+    - cost
+    - AIOps
