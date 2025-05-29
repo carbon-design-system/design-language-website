@@ -2530,11 +2530,11 @@
     - Coding
     - Programming
 - name: SecurityAccessRequest
-  friendly_name: IBM Security® Access Request
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned
     - Security
-    - IBM Security Access Request
     - Blue
     - Purple
     - Shield
@@ -2542,21 +2542,21 @@
     - Human
     - Access
 - name: SecurityCases
-  friendly_name: IBM Security® Cases
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Security
-    - IBM Security Cases
+    - unassigned
     - Blue
     - Purple
     - Shield
     - Folder
 - name: SecurityDataExplorer
-  friendly_name: IBM Security® Data Explorer
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Security
-    - IBM Security Data Explorer
+    - unassigned
     - Blue
     - Purple
     - Shield
@@ -2566,11 +2566,11 @@
     - Exploration
     - Data
 - name: SecurityServices
-  friendly_name: IBM Security® Services
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned
     - Security
-    - IBM Security Services
     - Blue
     - Purple
     - Shield
@@ -2579,7 +2579,7 @@
     - Connect
     - Services
 - name: SecurityThreatIntelligenceInsights
-  friendly_name: IBM Threat Intelligence Insights
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Security
@@ -2587,9 +2587,7 @@
     - Purple
     - Shield
     - Eye
-    - Threat
-    - Intelligence
-    - Insight
+    - unassigned
 - name: SecurityVerify
   friendly_name: IBM Security® Verify
   category: Stroke style
@@ -5415,11 +5413,11 @@
     - Purple
     - Blue
 - name: SecurityQRadarUserBehaviorAnalytics
-  friendly_name: IBM® QRadar® User Behavior Analytics
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - IBM QRadar
-    - IBM QRadar User Behavior Analytics
+    - unassigned
     - user
     - behavior
     - analytics
@@ -5428,10 +5426,10 @@
     - Purple
     - shield
 - name: SecurityQRadarUseCaseManager
-  friendly_name: IBM® QRadar® Use Case Manager
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
-    - IBM QRadar Use Case Manager
+    - unassigned
     - use
     - case
     - manager
@@ -5679,38 +5677,42 @@
     - cyberattack
     - attack
 - name: unassigned32
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
+    - unassigned
     - monitoring
     - pulse
     - status
     - signal
 - name: unassigned39
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
+    - unassigned
     - reset
     - restart
 - name: unassigned40
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
+    - unassigned
     - dots
     - shield
 - name: unassigned21
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - reset
+    - unassigned
     - shield
 - name: unassigned15
   friendly_name: IBM Security® Guardium® Insights
@@ -5737,85 +5739,94 @@
     - security
     - data
 - name: unassigned19
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - shield
 - name: unassigned18
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
+    - unassigned
     - warning
     - caution
     - alert
 - name: unassigned24
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - expand
+    - unassigned
     - open
     - zoom
 - name: unassigned17
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - edit
+    - unassigned
 - name: unassigned23
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - open
+    - unassigned
 - name: unassigned22
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - network
     - node
+    - unassigned
 - name: unassigned25
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - message
     - chat
+    - unassigned
 - name: unassigned33
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - code
+    - unassigned
 - name: unassigned20
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - wrench
     - maintenance
+    - unassigned
 - name: unassigned14
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - code
     - console
+    - unassigned
 - name: unassigned16
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
@@ -5824,22 +5835,25 @@
     - status
     - monitor
     - performance
+    - unassigned
 - name: unassigned31
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - star
     - note
+    - unassigned
 - name: unassigned13
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Blue
     - Purple
     - bullets
     - list
+    - unassigned
 - name: 175Unassigned
   friendly_name: Unassigned
   category: Stroke style
@@ -5849,6 +5863,7 @@
     - circle
     - person
     - administrator
+    - unassigned
 - name: AgroPad
   friendly_name: IBM AgroPad
   category: Stroke style
@@ -10086,9 +10101,10 @@
     - request
     - requests
 - name: IBMQRadarASM
-  friendly_name: IBM Security® QRadar+® ASM
+  friendly_name: Unassigned
   category: Stroke style
   alias names:
+    - unassigned
     - security
     - software
     - cloud pak
@@ -10117,9 +10133,10 @@
     - purple
     - cyan
 - name: IBMQRadarEDR
-  friendly_name: IBM Security® QRadar+® EDR
+  friendly_name: Unassigned
   category: Stroke style
   alias names:
+    - unassigned
     - security
     - software
     - cloud pak
@@ -10148,9 +10165,10 @@
     - purple
     - cyan
 - name: IBMQRadarSIEM
-  friendly_name: IBM Security® QRadar+® SIEM
+  friendly_name: Unassigned
   category: Stroke style
   alias names:
+    - unassigned
     - security
     - software
     - cloud pak
@@ -10179,9 +10197,10 @@
     - purple
     - cyan
 - name: IBMQRadarSOAR
-  friendly_name: IBM Security® QRadar+® SOAR
+  friendly_name: Unassigned
   category: Stroke style
   alias names:
+    - unassigned
     - security
     - software
     - cloud pak
@@ -10210,9 +10229,10 @@
     - purple
     - cyan
 - name: IBMQRadarLogInsights
-  friendly_name: IBM Security® QRadar+® Log Insights
+  friendly_name: Unassigned
   category: Stroke style
   alias names:
+    - unassigned
     - security
     - software
     - cloud pak
@@ -13052,11 +13072,11 @@
     - data migration
     - device migration
 - name: SecurityVerifyCredentials
-  friendly_name: IBM Verify Credentials
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Security
-    - IBM Verify Credentials
+    - unassigned
     - Blue
     - Purple
     - Shield
@@ -13666,3 +13686,11 @@
     - capacity
     - cost
     - AIOps
+- name: RedHatAIInstructLabOnIBMCloud
+  friendly_name: Red Hat AI InstructLab® on IBM Cloud®
+  category: Stroke style
+  aliases:
+    - Red Hat AI InstructLab on IBM Cloud
+    - LLM
+    - machine learning
+    - gen AI application
