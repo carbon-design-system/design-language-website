@@ -4549,12 +4549,12 @@
     - radial
     - detect
 - name: unassigned38
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Security
     - Purple
-    - Blue
+    - unassigned
     - Shield
     - Person
     - Human
@@ -4565,12 +4565,12 @@
     - Badge
     - Partner
 - name: unassigned27
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Security
     - Purple
-    - Blue
+    - unassigned
     - Shield
     - Data
     - Badge
@@ -4583,12 +4583,12 @@
     - Approvals
     - Password
 - name: unassigned28
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - Security
     - Purple
-    - Blue
+    - unassigned
     - Shield
     - Gear
     - Technical
@@ -4602,12 +4602,12 @@
     - Network
     - Directory
 - name: unassigned29
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned
     - Security
     - Purple
-    - Blue
     - Shield
     - Plus
     - Add
@@ -4615,12 +4615,12 @@
     - New
     - Create
 - name: unassigned30
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned
     - Security
     - Purple
-    - Blue
     - Shield
     - Equalizer
     - On
@@ -4633,12 +4633,12 @@
     - Closed
     - Slider
 - name: unassigned36
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned
     - Security
     - Purple
-    - Blue
     - Shield
     - Arrow
     - Exchange
@@ -4651,12 +4651,12 @@
     - Refresh
     - Convert
 - name: unassigned37
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned
     - Security
     - Purple
-    - Blue
     - Shield
     - Connect
     - Share
@@ -4664,9 +4664,10 @@
     - Open
     - Search
 - name: unassigned26
-  friendly_name: Unassigned Security
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned
     - Security
     - Purple
     - Blue
@@ -7856,30 +7857,34 @@
     - Blue
     - DevOps
 - name: DevOpsUnassigned2
-  friendly_name: Unassigned Z DevOps
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned 
     - Purple
     - Blue
     - DevOps
 - name: DevOpsUnassigned3
-  friendly_name: Unassigned Z DevOps
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned 
     - Purple
     - Blue
     - DevOps
 - name: DevOpsUnassigned4
-  friendly_name: Unassigned Z DevOps
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned 
     - Purple
     - Blue
     - DevOps
 - name: DevOpsUnassigned5
-  friendly_name: Unassigned Z DevOps
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned 
     - Purple
     - Blue
     - DevOps
@@ -12069,7 +12074,7 @@
     - development
     - deployment
 - name: HyperProtectConfidentialContainersforRedHatOpenShiftContainerPlatform
-  friendly_name: IBM Hyper Protect Confidential Containers for Red Hat® OpenShift® Container Platform
+  friendly_name: IBM® Hyper Protect Confidential Containers for Red Hat® OpenShift® Container Platform
   category: Stroke style
   aliases:
     - container
@@ -13694,3 +13699,14 @@
     - code
     - angle bracket
     - slash
+- name: CloudDatabasesCache
+  friendly_name: IBM Cloud® Databases Cache
+  category: IBM Plex® style
+  aliases:
+    - Ch
+    - IBM Cloud Databases Cache
+    - cache
+    - Redis
+    - database
+    - memory
+    - database cache
