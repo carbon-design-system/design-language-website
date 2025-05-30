@@ -6828,23 +6828,6 @@
     - shield
     - check
     - checkmark
-- name: CRUISE
-  friendly_name: IBM CRUISE
-  category: Stroke style
-  aliases:
-    - Teal
-    - Blue
-    - Cross Reference Using Internal Symbol Exclusion
-    - exclude
-    - cross reference
-    - code library
-    - reusable code
-    - search
-    - code exclusion
-    - magnifying glass
-    - code
-    - angle bracket
-    - slash
 - name: EventNotification
   friendly_name: IBM Cloud® Event Notifications
   category: Stroke style
@@ -13694,3 +13677,20 @@
     - LLM
     - machine learning
     - gen AI application
+- name: watsonxCodeAssistantforZUnderstand
+  friendly_name: IBM watsonx® Code Assistant™ for Z Understand
+  category: Stroke style
+  aliases:
+    - watsonx Code Assistant for Z Understand
+    - watsonx
+    - Code Assistant
+    - Mainframe
+    - Application modernization
+    - AI
+    - Z
+    - understand
+    - search
+    - magnifying glass
+    - code
+    - angle bracket
+    - slash
