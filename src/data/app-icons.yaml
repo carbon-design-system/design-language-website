@@ -5716,7 +5716,7 @@
     - unassigned
     - shield
 - name: unassigned15
-  friendly_name: IBM Security® Guardium® Insights
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
     - IBM Security Guardium Insights
