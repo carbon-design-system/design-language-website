@@ -300,16 +300,6 @@
     - DBaaS
     - purple
     - red
-- name: CloudDatabasesRedis
-  friendly_name: IBM Cloud® Databases for Redis
-  category: IBM Plex® style
-  aliases:
-    - IBM Cloud
-    - IBM Cloud Databases for Redis
-    - Cloud
-    - Databases for Redis
-    - In-memory key value store
-    - red
 - name: CloudAppService
   friendly_name: IBM Cloud® App Service
   category: Fill style
