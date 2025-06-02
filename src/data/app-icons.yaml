@@ -13628,10 +13628,10 @@
     - security
     - zero trust
 - name: HyperProtectContainerRuntimeforRedHatVirtualizationSolutions
-  friendly_name: IBM® Hyper Protect Container Runtime for Red Hat® Virtualization Solutions
+  friendly_name: IBM® Hyper Protect Confidential Container for Red Hat® OpenShift® Container Platform
   category: Stroke style
   aliases:
-    - IBM Hyper Protect Container Runtime for Red Hat Virtualization Solutions
+    - IBM Hyper Protect Confidential Container for Red Hat OpenShift Container Platform
     - confidential
     - computing
     - OpenShift
