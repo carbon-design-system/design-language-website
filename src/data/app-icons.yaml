@@ -11252,19 +11252,29 @@
     - IBM AI Financial Instrument Suitability Check
     - 金融商品適合性チェック支援AI
 - name: zCP3000
-  friendly_name: zCP3000
+  friendly_name: IBM® zCP3000
   category: Stroke style
   aliases: 
+    - IBM zCP3000
     - Statistics 
     - Performance Analysis 
     - Capacity Planning
-- name: 539Unassigned_1
-  friendly_name: Unassigned
+- name: CloudSandbox
+  friendly_name: IBM Cloud® Sandbox
   category: Stroke style
   aliases: 
     - data
     - cogwheel
     - settings
+    - IBM Cloud Sandbox
+    - sandbox
+    - performance
+    - benchmark
+    - test
+    - application
+    - technology comparison
+    - demo
+    - trial
 - name: 539Unassigned_2
   friendly_name: Unassigned
   category: Stroke style
@@ -12077,6 +12087,10 @@
     - secure execution
     - technical assurance
     - hyper protect
+    - OpenShift
+    - vault
+    - security
+    - zero trust
 - name: MobileFoundation
   friendly_name: IBM Mobile Foundation
   category: Stroke style
@@ -12202,20 +12216,6 @@
     - secure
     - security
     - shield
-- name: ApplicationDevelopmentandIntegration
-  friendly_name: Application Development and Integration
-  category: Stroke style
-  aliases:
-    - Application Development and Integration
-    - application
-    - development
-    - develop
-    - developer
-    - integration
-    - integrate
-    - Horizon
-    - connection
-    - modernization
 - name: ContentAssistant
   friendly_name: IBM Content Assistant
   category: Stroke style
@@ -13606,23 +13606,11 @@
     - secure
     - shield
     - security
-- name: HyperProtectConfidentialContainerforRedHatVirtualizationSolutions
-  friendly_name: IBM® Hyper Protect Confidential Container for Red Hat® Virtualization Solutions
-  category: Stroke style
-  aliases:
-    - IBM Hyper Protect Confidential Container for Red Hat Virtualization Solutions
-    - confidential
-    - computing
-    - OpenShift
-    - vault
-    - security
-    - zero trust
 - name: HyperProtectContainerRuntimeforRedHatVirtualizationSolutions
-  friendly_name: IBM® Hyper Protect Confidential Container for Red Hat® OpenShift® Container Platform
+  friendly_name: IBM® Hyper Protect Container Runtime for Red Hat® Virtualization Solutions
   category: Stroke style
   aliases:
-    - IBM Hyper Protect Confidential Container for Red Hat OpenShift Container Platform
-    - confidential
+    - IBM Hyper Protect Container Runtime for Red Hat® Virtualization Solutions
     - computing
     - OpenShift
     - vault
@@ -13700,3 +13688,90 @@
     - database
     - memory
     - database cache
+- name: CompiledCodeCoverage
+  friendly_name: IBM® Compiled Code Coverage
+  category: Stroke style
+  aliases:
+    - IBM Compiled Code Coverage
+    - percent
+    - COBOL
+    - PL/I
+    - C
+    - IBM i
+    - z/OS
+    - code
+- name: ProductivityAssistant
+  friendly_name: Productivity Assistant
+  category: Stroke style
+  aliases:
+    - Productivity Assistant
+    - PM
+    - AI for Product Teams
+    - product
+    - user
+    - chart
+    - arrow
+- name: UserInsightsHub
+  friendly_name: IBM® User Insights Hub
+  category: Stroke style
+  aliases:
+    - IBM User Insights Hub
+    - UIH
+    - user insights
+    - user research library
+    - magnifying glass
+    - search
+    - lightbulb
+- name: CloudSync
+  friendly_name: IBM Cloud® Sync
+  category: Stroke style
+  aliases:
+    - IBM Cloud Sync
+    - DNS synchronization
+    - network infrastructure
+    - on-prem to cloud sync
+    - SaaS DNS integration
+    - IT automation tools
+- name: Print@IBMInstaller
+  friendly_name: Print@IBM Installer
+  category: Stroke style
+  aliases:
+    - Print@IBM Installer
+    - printer
+    - installation
+    - download
+    - arrow
+- name: Print@IBMDelegate
+  friendly_name: Print@IBM Delegate
+  category: Stroke style
+  aliases:
+    - Print@IBM Delegate
+    - printer
+    - person
+- name: PrintLegacy
+  friendly_name: IBM Print Legacy
+  category: Stroke style
+  aliases:
+    - IBM Print Legacy
+    - printer
+    - paper tray
+- name: unassigned67
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - code
+    - unassigned
+    - interface
+- name: unassigned68
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - code
+    - unassigned
+- name: unassigned69
+  friendly_name: Unassigned
+  category: Stroke style
+  aliases:
+    - unassigned
+    - square
+    - triangle
