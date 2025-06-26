@@ -13770,7 +13770,7 @@
     - unassigned
 - name: unassigned69
   friendly_name: Unassigned
-  category: Stroke style
+  category: Fill style
   aliases:
     - unassigned
     - square
