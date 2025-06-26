@@ -10206,7 +10206,7 @@
     - magnifying
     - purple
     - cyan
-- name: QRadarLogInsights
+- name: QRadar+LogInsights
   friendly_name: Unassigned
   category: Stroke style
   alias names:
