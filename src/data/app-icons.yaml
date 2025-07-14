@@ -3702,26 +3702,19 @@
     - Regulated
     - Compliance
     - Status
-- name: '043'
-  friendly_name: Unassigned
+- name: FinancialTransactionManager
+  friendly_name: IBM® Financial Transaction Manager
   category: Stroke style
   aliases:
-    - Purple
-    - Blue
-    - Government
-    - State
-    - Building
-    - Public
-    - Code
-    - Developer
-    - Coding
-    - Municipal
-    - Bank
-    - Banking
-    - Institution
-    - College
-    - University
-    - Library
+    - IBM Financial Transaction Manager
+    - FTM
+    - finance
+    - financial
+    - transaction
+    - bank
+    - money
+    - payment
+    - building
 - name: '044'
   friendly_name: Unassigned
   category: Stroke style
@@ -11259,14 +11252,14 @@
     - Statistics 
     - Performance Analysis 
     - Capacity Planning
-- name: CloudSandbox
-  friendly_name: IBM Cloud® Sandbox
+- name: CloudSandboxForIntel
+  friendly_name: IBM Cloud® Sandbox for Intel
   category: Stroke style
   aliases: 
     - data
     - cogwheel
     - settings
-    - IBM Cloud Sandbox
+    - IBM Cloud Sandbox for Intel
     - sandbox
     - performance
     - benchmark
@@ -12889,15 +12882,15 @@
   category: Stroke style
   aliases:
     - Beekeeper
-- name: RapidNetworkAutomation
-  friendly_name: IBM® Rapid Network Automation
+- name: ConcertWorkflows
+  friendly_name: IBM® Concert® Workflows
   category: Stroke style
   aliases:
-    - IBM Rapid Network Automation
-    - rapid automation
+    - IBM Concert Workflows
+    - infrastructure automation
     - workflow automation
     - automated workflows
-    - orchestrated workflows
+    - remediate workflows
     - automated processes
 - name: unassigned08
   friendly_name: Unassigned
@@ -13775,3 +13768,78 @@
     - unassigned
     - square
     - triangle
+- name: ApplicationModernizationAccelerator
+  friendly_name: IBM® Application Modernization Accelerator
+  category: Stroke style
+  aliases:
+    - IBM Application Modernization Accelerator
+    - Developer tools
+    - IDE extension
+    - migration
+    - refactor
+    - rehost
+    - replatform
+- name: MaximoRenewables
+  friendly_name: IBM® Maximo® Renewables
+  category: Stroke style
+  aliases:
+    - IBM Maximo Renewables
+    - solar
+    - renewable energy
+    - power
+    - analytics
+    - monitoring
+    - operations
+    - production
+    - maintenance
+    - performance management
+    - monitor
+    - analyze
+    - IoT
+- name: MaaS360Packager
+  friendly_name: IBM® MaaS360® Packager
+  category: Stroke style
+  aliases:
+    - IBM MaaS360 Packager
+    - square
+- name: MaaS360UninstallPackager
+  friendly_name: IBM® MaaS360® Uninstall Packager
+  category: Stroke style
+  aliases:
+    - IBM MaaS360 Uninstall Packager
+    - delete
+    - trash can
+- name: MaaS360Uninstall
+  friendly_name: IBM® MaaS360® Uninstall
+  category: Stroke style
+  aliases:
+    - IBM MaaS360 Uninstall
+    - delete
+    - X
+- name: MaaS360Upgrader
+  friendly_name: IBM® MaaS360® Upgrader
+  category: Stroke style
+  aliases:
+    - IBM MaaS360 Upgrader
+    - arrow
+    - upgrade
+- name: MaaS360VisibilityService
+  friendly_name: IBM® MaaS360® Visibility Service
+  category: Stroke style
+  aliases:
+    - IBM MaaS360 Visibility Service
+    - radar
+- name: MaaS360FileSyncAgent
+  friendly_name: IBM® MaaS360® File Sync Agent
+  category: Stroke style
+  aliases:
+    - IBM MaaS360 File Sync Agent
+    - synchronize
+    - arrows
+- name: MaaS360DiagnosticTool
+  friendly_name: IBM® MaaS360® Diagnostic Tool
+  category: Stroke style
+  aliases:
+    - IBM MaaS360 Diagnostic Tool
+    - magnifier glass
+    - lightning bolt
