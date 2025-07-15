@@ -4301,19 +4301,6 @@
     - Help desk ticket
     - Service ticket
     - Chat
-- name: '113'
-  friendly_name: Unassigned
-  category: Stroke style
-  aliases:
-    - Green
-    - Teal
-    - Money
-    - Banknotes
-    - Dollar
-    - Currency
-    - Euro
-    - Yen
-    - Pound
 - name: '114'
   friendly_name: Unassigned
   category: Stroke style
