@@ -12294,7 +12294,7 @@
     - database resources
     - servers
 - name: Granite
-  friendly_name: IBM® Granite™
+  friendly_name: IBM® Granite®
   category: Stroke style
   aliases:
     - IBM Granite
