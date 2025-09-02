@@ -13399,7 +13399,7 @@
     - Hybrid
     - webMethods
     - Integration
-- name: WebMethodsAPIControlPlane
+- name: HybridControlPlane
   friendly_name: IBM® Hybrid control plane
   category: Stroke style
   aliases:
