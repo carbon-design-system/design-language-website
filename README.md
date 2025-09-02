@@ -45,4 +45,3 @@ yarn build
 
 **Note:** `yaml` files are white-space and case sensitive. Be sure your `category` value matches an existing category exactly. You can copy and paste an existing icon to ensure you're formatting it properly.
 
-
