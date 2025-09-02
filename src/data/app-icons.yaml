@@ -13408,6 +13408,7 @@
     - iPaaS
     - API
     - Control
+    - webMethods
 - name: WebMethodsB2B
   friendly_name: IBM® webMethods B2B Integration
   category: Stroke style
