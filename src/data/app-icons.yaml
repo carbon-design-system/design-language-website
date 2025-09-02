@@ -8271,15 +8271,12 @@
     - develop
     - deploy
     - productivity
-- name: ImagesVPC
-  friendly_name: Images for VPC
+- name: unassigned34
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
+    - unassigned  
     - Green
-    - Blue
-    - virtual servers
-    - settings
-    - configuration
     - images
     - camera
 - name: OpenShiftContainerPlatformVPC
@@ -13402,7 +13399,7 @@
     - Hybrid
     - webMethods
     - Integration
-- name: WebMethodsAPIControlPlane
+- name: HybridControlPlane
   friendly_name: IBM® Hybrid control plane
   category: Stroke style
   aliases:
@@ -13411,6 +13408,7 @@
     - iPaaS
     - API
     - Control
+    - webMethods
 - name: WebMethodsB2B
   friendly_name: IBM® webMethods B2B Integration
   category: Stroke style
@@ -13830,3 +13828,68 @@
     - IBM MaaS360 Diagnostic Tool
     - magnifier glass
     - lightning bolt
+- name: FederatedAPImanagement
+  friendly_name: IBM® Federated API management
+  category: Stroke style
+  aliases:
+    - IBM Federated API management
+    - API
+    - control
+    - webMethods
+    - plane
+    - hybrid
+    - runtime
+- name: DecisionIntelligence
+  friendly_name: IBM® Decision Intelligence
+  category: Stroke style
+  aliases:
+    - IBM Decision Intelligence
+    - AI
+    - data
+    - lightbulb
+- name: NS1Connect
+  friendly_name: IBM® NS1 CONNECT®
+  category: IBM Plex® style
+  aliases:
+    - IBM NS1 Connect
+    - managed DNS provider
+    - NS1
+- name: NetworkIntelligence
+  friendly_name: IBM® Network Intelligence
+  category: Stroke style
+  aliases:
+    - IBM Network Intelligence
+    - AI
+    - SaaS and on-premise deployment
+    - multi-model
+    - agentic automation
+    - flexible data handling
+    - operational performance
+- name: zSecureAdmin
+  friendly_name: IBM® zSecure Admin
+  category: Stroke style
+  aliases:
+    - IBM zSecure Admin
+    - IT security management
+    - automated security workflows
+    - end-to-end monitoring
+    - issue remediation
+    - multi-system support
+- name: ImageTemplateForVPC
+  friendly_name: IBM Cloud® Image Template for VPC
+  category: Stroke style
+  aliases:
+    - Image Template for VPC
+    - gear
+    - cogwheel
+    - VPC
+    - image
+    - template
+    - configuration
+- name: ImageForVPC
+  friendly_name: IBM Cloud® Images for VPC
+  category: Stroke style
+  aliases:
+    - Images for VPC
+    - VPC
+    - image
