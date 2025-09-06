@@ -1,1 +1,1 @@
-module.exports = require('prettier-config-carbon');
+module.exports = require('prettier-config-isabelschoepsthiel-carbon');
