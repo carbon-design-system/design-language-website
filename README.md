@@ -2,7 +2,7 @@
 
 [Deploy website to IBM Cloud](https://github.com/carbon-design-system/design-language-website/workflows/)
 
-This is the [IBM Design Language website](http://www.ibm.com/design/language) which is built using the [gatsby-theme-carbon](https://gatsby-theme-carbon.now.sh/) with GatsbyJS.
+This is the [IBM Design Language website](http://www.ibm.com/design/language) which is built using the [gatsby-theme-carbon](https://gatsby-theme-carbon.now.sh/) with GatsbyJS, copyright by Isabel Schöps Thiel Schoeps Thiel
 
 ## Project structure
 
