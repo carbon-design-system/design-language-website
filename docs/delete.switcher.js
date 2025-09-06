@@ -1,0 +1,234 @@
+diff --git a/src/gatsby-theme-carbon/components/Switcher/Switcher.js b/src/gatsby-theme-carbon/components/Switcher/Switcher.js
+deleted file mode 100644
+index 74c833788..000000000
+--- a/src/gatsby-theme-carbon/components/Switcher/Switcher.js
++++ /dev/null
+@@ -1,140 +0,0 @@
+-import React, { useContext, useRef, useEffect, useState } from 'react';
+-import cx from 'classnames';
+-import useMedia from 'use-media';
+-import { Locked } from '@carbon/icons-react';
+-import NavContext from 'gatsby-theme-carbon/src/util/context/NavContext';
+-import { nav, open, divider, link, linkDisabled } from './Switcher.module.scss';
+-
+-const Switcher = ({ children }) => {
+-  const lgBreakpoint = useMedia('min-width: 1056px');
+-  const { switcherIsOpen, toggleNavState } = useContext(NavContext);
+-  const listRef = useRef(null);
+-  const [height, setHeight] = useState(0);
+-
+-  useEffect(() => {
+-    const collapseOpenNavs = function (e) {
+-      if (e.which === 27) {
+-        toggleNavState('switcherIsOpen', 'close');
+-      }
+-    };
+-
+-    document.addEventListener('keyup', collapseOpenNavs);
+-
+-    return function cleanup() {
+-      document.removeEventListener('keyup', collapseOpenNavs);
+-    };
+-  }, [toggleNavState]);
+-
+-  // calculate and update height
+-  useEffect(() => {
+-    if (switcherIsOpen) {
+-      setHeight(listRef.current.offsetHeight + 40);
+-    } else {
+-      setHeight(0);
+-    }
+-  }, [listRef, switcherIsOpen]);
+-
+-  const maxHeight = !lgBreakpoint && switcherIsOpen ? '100%' : `${height}px`;
+-
+-  return (
+-    <nav
+-      className={cx(nav, { [open]: switcherIsOpen })}
+-      aria-label="IBM Design ecosystem"
+-      tabIndex="-1"
+-      style={{ maxHeight }}>
+-      <ul ref={listRef}>{children}</ul>
+-    </nav>
+-  );
+-};
+-
+-export const SwitcherDivider = (props) => (
+-  <li className={divider}>
+-    <span {...props} />
+-  </li>
+-);
+-
+-export const SwitcherLink = ({
+-  disabled,
+-  children,
+-  isInternal,
+-  href: hrefProp,
+-  ...rest
+-}) => {
+-  const href = disabled || !hrefProp ? undefined : hrefProp;
+-  const className = disabled ? linkDisabled : link;
+-  const { switcherIsOpen } = useContext(NavContext);
+-  const openTabIndex = disabled ? '-1' : 0;
+-
+-  return (
+-    <li>
+-      <a
+-        aria-disabled={disabled}
+-        role="button"
+-        tabIndex={switcherIsOpen ? openTabIndex : '-1'}
+-        className={className}
+-        href={href}
+-        {...rest}>
+-        {children}
+-        {isInternal && <Locked />}
+-      </a>
+-    </li>
+-  );
+-};
+-
+-// https://css-tricks.com/using-css-transitions-auto-dimensions/
+-// Note: if you change this, update the max-height in the switcher stylesheet
+-const DefaultChildren = () => (
+-  <>
+-    <SwitcherDivider>Foundations</SwitcherDivider>
+-    <SwitcherLink href="https://ibm.com/brand" isInternal>
+-      IBM Brand Center
+-    </SwitcherLink>
+-    <SwitcherLink href="https://ibm.com/design/language">
+-      IBM Design Language
+-    </SwitcherLink>
+-    <SwitcherDivider>Implementation</SwitcherDivider>
+-    <SwitcherLink href="https://www.carbondesignsystem.com/">
+-      Carbon Design System
+-    </SwitcherLink>
+-    <SwitcherLink href="http://ibm.biz/carbon4ibmproducts" isInternal>
+-      Carbon for IBM Products
+-    </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/standards/carbon/">
+-      Carbon for IBM.com
+-    </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/design/event/">
+-      IBM Event Design
+-    </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/design/workplace/">
+-      IBM Workplace Design
+-    </SwitcherLink>
+-    <SwitcherDivider>Practices</SwitcherDivider>
+-    <SwitcherLink href="https://www.ibm.com/design/thinking/">
+-      Enterprise Design Thinking
+-    </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/able/">
+-      IBM Accessibility
+-    </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/design/ai">
+-      IBM Design for AI
+-    </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/design/research/">
+-      IBM Design Research
+-    </SwitcherLink>
+-    <SwitcherLink
+-      isInternal
+-      href="https://w3.ibm.com/design/experience-standards/">
+-      IBM Experience Standards
+-    </SwitcherLink>
+-    <SwitcherDivider>Community</SwitcherDivider>
+-    <SwitcherLink href="https://w3.ibm.com/design/" isInternal>
+-      IBM Design
+-    </SwitcherLink>
+-  </>
+-);
+-
+-Switcher.defaultProps = {
+-  children: <DefaultChildren />,
+-};
+-
+-export default Switcher;
+diff --git a/src/gatsby-theme-carbon/components/Switcher/Switcher.module.scss b/src/gatsby-theme-carbon/components/Switcher/Switcher.module.scss
+deleted file mode 100644
+index 42028a3c5..000000000
+--- a/src/gatsby-theme-carbon/components/Switcher/Switcher.module.scss
++++ /dev/null
+@@ -1,75 +0,0 @@
+-.nav {
+-  color: $carbon--white-0;
+-  z-index: 10000;
+-  position: fixed;
+-  right: 0;
+-  top: 48px;
+-  height: 100%;
+-  width: 16rem;
+-  background-color: $carbon--gray-100;
+-  border-left: 1px solid $carbon--gray-80;
+-  transform: translateX(16rem);
+-  overflow-y: hidden;
+-  transition: all $duration--fast-02 carbon--motion('exit');
+-  @include carbon--breakpoint('lg') {
+-    transform: translateX(0);
+-    height: auto;
+-  }
+-}
+-
+-.nav li {
+-  &:first-of-type {
+-    margin-top: $spacing-05;
+-  }
+-  &:last-of-type {
+-    margin-bottom: $spacing-05;
+-  }
+-}
+-
+-.open {
+-  transform: translateX(0);
+-  transition: all $duration--moderate-01 carbon--motion('entrance');
+-  border-bottom: 1px solid $carbon--gray-80;
+-  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+-  @include carbon--breakpoint('lg') {
+-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); // header__menu shadow
+-  }
+-}
+-
+-.divider {
+-  margin: 32px 1rem 8px 1rem;
+-  color: $carbon--gray-70;
+-  padding-bottom: 4px;
+-  border-bottom: 1px solid $carbon--gray-70;
+-}
+-
+-.divider span {
+-  @include carbon--type-style('caption-01');
+-  color: $carbon--gray-30;
+-}
+-
+-.link {
+-  padding: 6px 1rem;
+-  @include carbon--type-style('heading-01');
+-  display: flex;
+-  justify-content: space-between;
+-  text-decoration: none;
+-  color: $carbon--gray-30;
+-
+-  &:hover {
+-    background: #353535;
+-    color: $carbon--gray-10;
+-  }
+-
+-  &:focus {
+-    outline: 2px solid $carbon--white-0;
+-    outline-offset: -2px;
+-  }
+-}
+-
+-.link--disabled {
+-  padding: 6px $spacing-05;
+-  @include carbon--type-style('heading-01');
+-  display: block;
+-  color: $carbon--gray-60;
+-}
+diff --git a/src/gatsby-theme-carbon/components/Switcher/index.js b/src/gatsby-theme-carbon/components/Switcher/index.js
+deleted file mode 100644
+index 55af6aa12..000000000
+--- a/src/gatsby-theme-carbon/components/Switcher/index.js
++++ /dev/null
+@@ -1 +0,0 @@
+-export { default, SwitcherDivider, SwitcherLink } from './Switcher';
