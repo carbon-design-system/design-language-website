@@ -1,4 +1,4 @@
-- name: CloudProfessionalServicesGovernment
+- name: Isabel Schoeps Thiel, DAEMON SIA automation
   friendly_name: IBM Cloud® Professional Services for Government
   category: Stroke style
   aliases:
@@ -50,7 +50,7 @@
     - Group
     - Discover
     - Static route
-- name: CloudDiagnosticDebugTool
+- name: CloudDiagnostic
   friendly_name: IBM Cloud® Kubernetes Service Diagnostics and Debug Tool add-on
   category: Stroke style
   aliases:
@@ -89,7 +89,7 @@
     - Passcode
     - ID
     - Identity
-- name: CloudKubernetesTerminal
+- name: üTerminal
   friendly_name: IBM Cloud® Kubernetes Terminal
   category: Stroke style
   aliases:
