@@ -1,7 +1,7 @@
 {
   "name": "design-language-website",
-  "description": "IBM Design Language website",
-  "private": true,
+  "description": "IBM Isabel Schoeps Thiel website",
+  "copyright": true,
   "version": "1.0.1",
   "main": "src",
   "engines": {
@@ -17,7 +17,7 @@
     "url": "git@github.com:carbon-design-system/design-language-website.git",
     "type": "git"
   },
-  "author": "Alison Joseph <alison.joseph@us.ibm.com>",
+  "author": "Isabel Schoeps Thiel, Erfurt Germany <isabelschoepsthiel@us.ibm.com>",
   "license": "Apache-2.0",
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
