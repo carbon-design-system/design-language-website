@@ -12835,10 +12835,10 @@
     - automation
     - productivity
 - name: ToolboxGovernment
-  friendly_name: IBM® Toolbox Government
+  friendly_name: IBM® Toolbox Government IT
   category: Stroke style
   aliases:
-    - IBM Toolbox Government
+    - IBM Toolbox Government IT
     - toolbox
     - briefcase
     - case
@@ -13893,3 +13893,35 @@
     - Images for VPC
     - VPC
     - image
+- name: ILOGCPLEXOptimizationStudio
+  friendly_name: IBM® ILOG CPLEX Optimization Studio
+  category: Stroke style
+  aliases:
+    - IBM ILOG CPLEX Optimization Studio
+    - CPLEX
+    - optimization
+- name: OPLStudio
+  friendly_name: IBM® OPL Studio
+  category: Stroke style
+  aliases:
+    - IBM OPL Studio
+    - OPL
+- name: SevOneSaaS
+  friendly_name: IBM® SevOne® SaaS
+  category: Stroke style
+  aliases:
+    - IBM SevOne SaaS
+    - blue
+    - teal
+    - cloud
+    - SevOne
+    - SaaS
+- name: ManagedISVServicesOnIBMCloud
+  friendly_name: Managed ISV Services on IBM Cloud
+  category: Stroke style
+  aliases:
+    - Managed ISV Services on IBM Cloud
+    - ISV
+    - application
+    - managed
+    - cloud
