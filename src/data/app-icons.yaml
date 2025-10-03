@@ -13576,10 +13576,10 @@
     - advisor
     - COBOL
 - name: GuardiumEncryption
-  friendly_name: IBM® Guardium® Encryption
+  friendly_name: IBM® Guardium® Cryptography Manager
   category: Stroke style
   aliases:
-    - IBM Guardium Encryption
+    - IBM Guardium Cryptography Manager
     - lock
     - secure
     - shield
@@ -13925,3 +13925,30 @@
     - application
     - managed
     - cloud
+- name: PrivateNetworkConnections
+  friendly_name: IBM® Private network connections
+  category: Stroke style
+  aliases:
+    - Private network connections
+    - AWS
+    - private
+    - network
+    - connection
+    - private link
+    - link
+    - inbound
+    - outbound
+    - connect
+    - secure
+    - lock
+    - Hybrid iPaaS
+- name: Db2DeveloperExtension
+  friendly_name: IBM® Db2® Developer Extension
+  category: Stroke style
+  aliases:
+    - Db2 Developer Extension
+    - db2
+    - database
+    - zOS
+    - VS Code extension
+    - SQL
