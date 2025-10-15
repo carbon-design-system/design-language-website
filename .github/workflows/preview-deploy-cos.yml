@@ -1,0 +1,70 @@
+name: Deploy website to IBM COS
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - master
+      - main
+      - dev
+  push:
+    branches:
+      - dev
+
+jobs:
+  build-and-deploy-to-cos:
+    name: Build and deploy to staging COS
+
+    runs-on: ubuntu-latest
+
+    environment:
+      name: preview_environment
+      url: ${{ steps.aws.outputs.url_output }}
+
+    env:
+      preview_cos_public: ${{ vars.PREVIEW_COS_PUBLIC }}
+
+    steps:
+      - name: Skip duplicate actions
+        uses: fkirc/skip-duplicate-actions@v1.4.0
+        with:
+          github_token: ${{ github.token }}
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Inject slug/short variables
+        uses: rlespinasse/github-slug-action@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: 20.x
+
+      - name: Get Project Properties
+        id: packageJson
+        uses: gregoranders/nodejs-project-info@v0.0.12
+        
+      - name: Install packages
+        run: yarn install --production --frozen-lockfile --network-timeout 300000
+
+      - name: Build site
+        run: yarn build
+        env:
+          PATH_PREFIX: /${{ env.GITHUB_REF_SLUG }}${{ fromJson(steps.packageJson.outputs.context).designPages.sitePath }}
+
+      - name: Upload to COS
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks
+        env:
+          AWS_S3_BUCKET: ${{ secrets.PREVIEW_COS_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.PREVIEW_COS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.PREVIEW_COS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.PREVIEW_COS_REGION }}
+          AWS_S3_ENDPOINT: https://${{ secrets.PREVIEW_COS_ENDPOINT }}
+          SOURCE_DIR: 'public${{ fromJson(steps.packageJson.outputs.context).designPages.sitePath }}'
+          DEST_DIR: ${{ env.GITHUB_REF_SLUG }}${{ fromJson(steps.packageJson.outputs.context).designPages.sitePath }}
+      
+      - name: Print final URL
+        id: aws
+        run: echo "url_output=https://wwwstage.ibm.com/brand/preview/${{ env.GITHUB_REF_SLUG }}${{ fromJson(steps.packageJson.outputs.context).designPages.sitePath }}" >> "$GITHUB_OUTPUT"
