@@ -3,39 +3,80 @@ title: UI icons
 description: Icons are visual symbols that represent ideas, objects, or actions. They draw from details in the Plex typeface, and communicate information at a glance.
 tabs: [Library, Design, Usage, Contribute]
 ---
-
-import { PageDescription, AnchorLinks, AnchorLink } from 'gatsby-theme-carbon';
+import {customList, cardMargin} from './Icons.module.scss'
+import { PageDescription, AnchorLinks, AnchorLink, MiniCard } from 'gatsby-theme-carbon';
 
 <PageDescription>
 
-As visual symbols, IBM user interface icons represent ideas, objects or actions. They can communicate messages at a glance, afford interactivity, and draw attention to important information. Based on details from the IBM Plex® typeface, they work well at small sizes.
+When a new UI icon is needed, refer to the design and production guidelines outlined here to create it. Learn about the contribution and approval process required to add it to the official UI icon library.
+
 </PageDescription>
 
 <AnchorLinks>
-  <AnchorLink>Design and production guidelines</AnchorLink>
-  <AnchorLink>Making an icon</AnchorLink>
-  <AnchorLink>Exporting SVGs</AnchorLink>
-  <AnchorLink>Contribution process</AnchorLink>
+  <AnchorLink>Resources</AnchorLink>
+  <AnchorLink>Design and production</AnchorLink>
+  <AnchorLink>Making a UI icon</AnchorLink>
+  <AnchorLink>CApproval process</AnchorLink>
 </AnchorLinks>
 
-## Design and production guidelines
+## Resources
 
-Don’t see the icon you need in the library? Make your own! Follow these guidelines to ensure visual consistency and proper formatting.
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="UI icon: Starter file"
+      href="#"
+      >
 
-- All icons should be unique and not redundant with any existing icons in the system. Search the [library](https://www.carbondesignsystem.com/elements/icons/library) for the keyword(s) associated with your proposed new icon to ensure that it is not already represented.
-- All icons should adhere to the [IBM Design Language](/iconography/ui-icons/design) visual style.
-- All icons should comply with IBM [accessibility standards](https://www.carbondesignsystem.com/guidelines/accessibility/overview).
-- All icons should be usable across all supported platforms and devices.
-- All icons should be understandable by a global audience of users, regardless of nationality or language.
+![Illustrator Icon](../../../images/resource-cards/illustrator.png)
 
-## Making an icon
+</ResourceCard>
+</Column>
 
-- Create a 32px x 32px artboard for each icon.
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+subTitle="UI icon: Figma library"
+href="#"
+>
+
+![Figma Icon](../../../images/resource-cards/figma.png)
+
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+subTitle="UI icon: Carbon library"
+href="https://carbondesignsystem.com/elements/icons/library/"
+>
+
+![Carbon Icon](../../../images/resource-cards/carbon.png)
+
+</ResourceCard>
+</Column>
+</Row>
+
+## Design and production
+
+Don’t see the icon you need in the library? Then make your own. Follow these guidelines to ensure visual consistency and proper formatting. 
+
+All design submissions require review and approval before they can be published. Try your best to adhere to these guidelines, but note that your submitted design may change during the review and approval process. 
+
+Non-designers may submit requests using a visual reference or sketch of their desired icon, and the brand team will assist with the design. Include context about where and how the icon will be used to help ensure that the final design meets your needs.
+
+- All UI icons should be unique and not redundant with any existing icons in the system. Search the [library](https://www.carbondesignsystem.com/elements/icons/library) for the keyword(s) associated with your proposed new icon to ensure that it is not already represented.
+- All UI icons should adhere to the [IBM Design Language](/iconography/ui-icons/design) visual style.
+- All UI icons should comply with IBM [accessibility standards](https://www.carbondesignsystem.com/guidelines/accessibility/overview).
+- All UI icons should be usable across all supported platforms and devices.
+- All UI icons should be understandable by a global audience of users, regardless of nationality or language.
+
+## Making a UI icon
+
+- Use the starter file and create the desired icon within the blank workspace artboards. Refer to the [Design tab](/iconography/ui-icons/design/) for detailed guidance.
 - 32px icons should have 2px padding.
 - Set your workspace up from the start to snap to pixels and round values to whole pixels to avoid correcting shapes later.
 - Never use center borders. Centering can cause half pixels.
 - Avoid using the line tool; use the rectangle tool instead. The line tool will place the vector on half pixels.
-- Be aware of automatic alignments which can place vectors on uneven or half pixels.
+- Be aware of automatic alignments, which can place vectors on uneven or half pixels.
 - Ungroup icon layers completely. The icon should be on the top-most layer in your artboard.
 - Make sure to properly name layers and artboards. These names will also be exported into the code.
 
@@ -43,49 +84,48 @@ Don’t see the icon you need in the library? Make your own! Follow these guidel
 
 To be considered production-ready, all icon submissions must be delivered in SVG format at 32px x 32px for integration with Carbon components.
 
-- Icons should be at whole pixels. No decimals are allowed in x and y coordinates or width and height fields
-- Each artboard and the artwork within it must be aligned to the pixel grid
-- All strokes must be expanded and at full pixel values
-- All possible shapes and paths should be combined
-
-## Exporting SVGs
-
-### Export SVGs from Adobe Illustrator
-
-1. Draw a 32px x 32px artboard. 32px icons should have 2px padding.
-1. Place the icon squarely on the artboard, making sure it’s aligned to the pixel grid.
-1. Expand all strokes `Object > Expand`.
-1. Select all overlapping shapes and click the `Unite` icon in the `Pathfinder` panel to merge all of the shapes together.
-1. Make sure the icon is at `#000000` and has no additional styling.
-1. Select `File > Save a Copy…` from the top navigation.
-1. On the `Format` dropdown select `SVG`.
-1. Below `Format` select `Use Artboard`, then select either all or a range of artboards, depending on your need.
-1. Click `Save`.
-1. The `SVG Options` dialog will then open.
-1. Make sure the preferences are the same as in the image shown here.
+- Icons should be at whole pixels. No decimals are allowed in x and y coordinates or in width and height fields.
+- Each artboard and the artwork within it must be aligned to the pixel grid.
+- All strokes must be expanded and at full pixel values.
+- All possible shapes and paths should be combined.
 
 <Row>
-<Column colMd={6} colLg={6}>
+<Column colMd={5} colLg={8}>
 
-![Ai settings for svg export screenshot](../images/iconography-contribution-exportsvgfromai.png)
+## Approval process
 
+After following this guidance, you may submit your icon design draft for approval. The Brand and Design Systems team will review these icons and facilitate their publication in the IBM Design Language and Carbon libraries. These libraries are updated in sprints, not when the icon is approved, so you should account for that additional time in your project planning. 
+
+<ol className={customList}>
+<li>Submit your first design draft using one of the GitHub issue types linked below: single, batch or update. Follow the instructions in the issue to avoid possible delays in the review process.<br/><em>Note: Non-designers can submit visual references or sketches with context about how the icon will appear, in lieu of a design file.</em></li>
+<li>The Brand and Design Systems team will review your submitted design and provide recommendations and design feedback within the GitHub issue.<br/>This review process can take up to 30 days from issue creation, depending on the number of icons submitted.</li>
+<li>When your submission is approved, your finalized icon will be provided for immediate use in SVG format then moved into a production sprint, after which it appear in the Carbon, IBM Design Language and Figma libraries.</li>
+</ol>
+
+</Column>
+<Column colMd={2} colLg={3} offsetMd={1} offsetLg={1}>
+<Aside style="margin-top: 6.4rem;">
+
+Note: Third-party UI icons require permission from that third party before the icon can be used. Requestors are responsible for securing permission.
+
+</Aside>
 </Column>
 </Row>
 
-## Contribution process
-
-Does your icon have potential for other products at IBM? If so, please consider contributing to the design system. IBM welcomes icon contributions to our iconography library. You’re welcome to submit a single icon or a batch of icons for approval.
-
-### Getting started
-
-Before submitting artwork, first review our [icons library](https://www.carbondesignsystem.com/elements/icons/library) or download the [Carbon icon master .ai file](https://github.com/carbon-design-system/carbon/tree/master/packages/icons/master) to check your design for duplication against existing icons.
-
-### Approval process 
-
-Icons for use within IBM must go through a design review process to ensure consistency and proper representation of the IBM brand across all environments. The process begins when you create a GitHub issue. Design review and approval typically take 14–21 days from issue creation, depending on the number of icons contributed.
-
-If your submission is accepted, the team will assign someone to your issue. If changes are needed, the team will note them in the issue and may return your submission with recommendations or suggest reworking the icon based on feedback from the Design System and Brand teams.
-
-Once the submission is approved it will then go through our process to be included into the Adobe Illustrator IBM Icon master file and be made available in the IBM Design Language and Carbon libraries.
-
-Submit icons for approval by creating a [single](https://github.ibm.com/brand/ui-icons/issues/new?assignees=&labels=&template=single-ui-icon-approval.md&title=%5Bui-icon%5D) or [batch](https://github.ibm.com/brand/ui-icons/issues/new?assignees=&labels=&template=batch-ui-icon-approval-request.md&title=%5Bui-icon-batch%5D) GitHub issue for your contribution.
+<CardGroup className={cardMargin}>
+  <MiniCard
+    title="UI icon request: Single"
+    href="https://github.ibm.com/brand/ui-icons/issues/new?assignees=&labels=ui-icon%2Crequest%2Csingle&projects=&template=01-ui-icon-request-single.yml&title=%5BUI+icon%5D+single%3A+UI+icon+name"
+    actionIcon="github"
+  />
+  <MiniCard
+    title="UI icon request: Batch"
+    href="https://github.ibm.com/brand/ui-icons/issues/new?assignees=&labels=ui-icon%2Crequest&projects=&tyaremplate=02-ui-icon-request-batch.yml&title=%5BUI+icon%5D+batch%3A+UI+icon+batch+name"
+    actionIcon="github"
+  />
+  <MiniCard
+    title="UI icon request: Update"
+    href="https://github.ibm.com/brand/ui-icons/issues/new?assignees=&labels=ui-icon%2Crequest%2Cupdate&projects=&template=03-ui-icon-request-update.yml&title=%5BUI+icon%5D+update%3A+UI+icon+name"
+    actionIcon="github"
+  />
+</CardGroup>
