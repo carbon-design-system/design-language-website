@@ -3,6 +3,12 @@ title: Overview
 description: Iconography overview page
 ---
 
+import { exampleSection } from '../../styles/Grid.module.scss';
+
+import v281513611 from '../../videos/vimeo/281513611.mp4';
+import p281513611 from '../../videos/vimeo/281513611.jpg';
+
+
 <PageDescription>
 
 Iconography consists of visual symbols that represent ideas, objects or narratives. Icons can convey messages at a glance, enable interactivity and simplify complex concepts. IBM has three iconography types for various use cases: pictograms, UI icons and app icons.
@@ -10,22 +16,103 @@ Iconography consists of visual symbols that represent ideas, objects or narrativ
 </PageDescription>
 
 <AnchorLinks>
-<AnchorLink>The icon system</AnchorLink>
-<AnchorLink>Principles</AnchorLink>
-<AnchorLink>Icon types</AnchorLink>
+    <AnchorLink>The icon system</AnchorLink>
+    <AnchorLink>Principles</AnchorLink>
+    <AnchorLink>Icon types</AnchorLink>
 </AnchorLinks>
+
+<video src={v281513611} controls preload="metadata" style={{width: "100%"}} poster={p281513611} />
 
 ## The icon system
 
-Lorem ipsum
+We use a versatile icon system that meets a broad range of needs, from functional UI elements to expressive visuals for editorial use. Each icon is crafted for visual consistency across digital and print, balancing clarity with character. This flexibility ensures the system supports both interface usability and storytelling, adapting in tone and detail to suit the medium.
+
+![](./images/02-idl-iconography-overview.png)
 
 
 ## Principles
 
-Lorem ipsum
+IBM has a distinct perspective on iconography, supported by a carefully crafted set of principles and best practices. Our icons are designed to be precise, clear, adaptable, inclusive and visually engaging, contributing to the best possible user experience. These principles reflect the core ideas that define the IBM approach to icon design and ensure effectiveness across sizes, contexts and platforms.
 
+<Row className={exampleSection}>
+<Column colMd={3} colLg={3}>
+
+### Engineered
+
+</Column>
+<Column colMd={8} colLg={8}>
+
+IBM icons should feel precise and balanced. Careful use of the grid, along with consistent shapes, angles and corner radius, creates a distinct aesthetic that reflects our thoughtful, systematic design approach.
+
+</Column>
+</Row>
+<Row className={exampleSection}>
+<Column colMd={3} colLg={3}>
+
+### Clear
+
+</Column>
+<Column colMd={8} colLg={8}>
+
+IBM icons should never feel overworked or overloaded with ideas. Only essential, non-decorative elements should be used to clearly communicate the core concept. Keeping icons simple and focused enhances clarity and ensures they effectively guide users through complex actions or information.
+
+</Column>
+</Row>
+<Row className={exampleSection}>
+<Column colMd={3} colLg={3}>
+
+### Nimble
+
+</Column>
+<Column colMd={8} colLg={8}>
+
+IBM icons should convey a sense of ease, lightness and nimbleness. This approach to composition, spacing, weight and balance helps users quickly grasp complex information, making the icons more engaging and dynamic.
+
+</Column>
+</Row>
+<br />
 
 ## Icon types
 
-Lorem ipsum
+Given our scale and scope, no single icon style can capture the full range of concepts and functions that we need to represent. Specific use cases and contexts can require different styles of icons. Use pictograms to represent broad concepts or categories, UI icons for functional actions within interfaces, and app icons for product or tool identification; each serves a distinct purpose to ensure clarity and consistency across experiences. We’ve developed a clear perspective on the iconographic approaches that best reflect IBM’s identity, both in style and in substance.
 
+### UI icons
+
+[IBM user interface icons](./ui-icons/library) represent ideas, objects or actions and appear throughout digital interfaces to guide users, enhance usability and save space. They’re commonly used in navigation menus, action buttons, forms, toolbars and media controls, helping users identify actions quickly. There may be instances when a small bold element is useful in other materials to represent the product.
+
+<Column colMd={8} colLg={8} noGutterSm>
+
+![](./images/03-idl-iconography-overview.png)
+
+</Column>
+
+### App icons
+
+[IBM app icons](./app-icons/library) are primarily used to identify a product in catalogs and within desktop or mobile environments. They follow the same usage conventions as IBM UI icons when used across product and web platforms, ensuring visual consistency. However, differences arise when they are used in native OS applications and app store environments. They may be used for large-scale, expressive moments—such as when highlighting a specific product at an event or during a keynote presentation.
+
+<Column colMd={8} colLg={8} noGutterSm>
+
+![](./images/04-idl-iconography-overview.png)
+
+</Column>
+
+### Pictograms
+
+[IBM pictograms](./pictograms/library) represent simplified, symbolic images used by IBMers in most use cases, from presentations and marketing materials when speaking about a feature or function of a specific product, to web pages, merchandise, posters and signage. They also work well as large elements in graphic moments or subtle backgrounds. 
+
+Pictograms are offered in two types: productive and expressive. The standard productive pictograms feature simple linework and are the go-to pictogram type for most contexts, while the more dynamic expressive pictograms work best for select use cases where more visual impact is needed.
+
+<Column colMd={8} colLg={8}>
+<Tabs>
+<Tab label='Productive'>
+
+![](./images/05-idl-iconography-overview.png)
+
+</Tab>
+<Tab label='Expressive'>
+
+![](./images/06-idl-iconography-overview.png)
+
+</Tab>
+</Tabs>
+</Column>
