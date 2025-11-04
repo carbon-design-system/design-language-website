@@ -10,10 +10,9 @@ import { Zip } from '@carbon/icons-react';
 
 <PageDescription>
 
-IBM app icons are visual symbols that represent products or services. They
-identify apps at a glance for users while serving as a unique expression of our
-brand. Every IBM app icon is rights restricted and should not be altered. An app
-icon should never be used in reference to any topic other than its name.
+IBM app icons are visual symbols that represent products or services. They identify apps at a glance for users while serving as a unique expression of our brand. 
+Every IBM app icon is rights restricted and should not be altered. 
+An app icon should never be used in reference to any topic other than its name.
 
 </PageDescription>
 
@@ -22,7 +21,6 @@ icon should never be used in reference to any topic other than its name.
   <AnchorLink>Stroke app icons</AnchorLink>
   <AnchorLink>Fill app icons</AnchorLink>
   <AnchorLink>IBM Plex® app icons</AnchorLink>
-  <AnchorLink>Hero brands and third parties</AnchorLink>
 </AnchorLinks>
 
 ## Resources
@@ -30,9 +28,9 @@ icon should never be used in reference to any topic other than its name.
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="IBM app icons master"
+      subTitle="App icon: Starter file"
       actionIcon="download"
-      href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Master.ai"
+      href="#"
       >
 
 ![Adobe Illustrator](../../../images/resource-cards/illustrator.png)
@@ -41,7 +39,19 @@ icon should never be used in reference to any topic other than its name.
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
   <ResourceCard
-    subTitle="App icon builder"
+    subTitle="App icon: Figma library"
+    aspectRatio="2:1"
+    href="https://www.figma.com/design/o4FfbuyUsx948IgGJL42r4/IBM%C2%AE-App-Icon-Library?m=auto&node-id=2511-2877&t=NuBil8zpLpsIM2eX-1"
+    actionIcon="launch"
+    >
+
+![Figma icon](../../../images/resource-cards/figma.png)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+  <ResourceCard
+    subTitle="App icon: Builder"
     aspectRatio="2:1"
     href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Builder.ai"
     actionIcon="download"
@@ -55,53 +65,39 @@ icon should never be used in reference to any topic other than its name.
 
 ## Overview
 
-App icons visually communicate the core idea of a product or service through
-either objective or abstract form. Expressive and distinct, each icon serves to
-identify apps at a glance, while collectively appearing to be part of a whole.
-All app icons are constructed on the same 32px grid and share many stylistic
-properties of UI Icons. Several different forms of app icons exist to serve the
-needs of different products, services, and the contexts in which they appear.
+App icons visually communicate the core idea of a product or service through either objective or abstract form. 
+Expressive and distinct, each icon serves to identify apps at a glance, while collectively appearing to be part of a whole. 
+All app icons are constructed on the same 32px grid and share many stylistic properties of UI icons. 
+Several different forms of app icons exist to serve the needs of different products, services and the contexts in which they appear.
 
 <Row className="mock-gallery">
-<Column colMd={4} colLg={6}>
+<Column colMd={4} colLg={4}>
 
-![Stroke app icons](images/1_1-1_Overview_StrokeIcons.svg)
+![Stroke app icons](images/v2/01-idl-iconography-app-icons-design.png)
 
 <Caption>Stroke app icons</Caption>
 
 </Column>
-<Column colMd={4} colLg={6}>
+<Column colMd={4} colLg={4}>
 
-![Fill app icons](images/1_1-2_Overview_FillIcons.svg)
+![Fill app icons](images/v2/02-idl-iconography-app-icons-design.png)
 
 <Caption>Fill app icons</Caption>
 
 </Column>
-</Row>
+<Column colMd={4} colLg={4}>
 
-<Row className="mock-gallery">
-<Column colMd={4} colLg={6}>
-
-![IBM Plex app icons](images/1_1-3_Overview_PlexIcons.svg)
+![Fill app icons](images/v2/03-idl-iconography-app-icons-design.png)
 
 <Caption>IBM Plex app icons</Caption>
-
-</Column>
-<Column colMd={4} colLg={6}>
-
-![Hero brands and third party logos](images/1_1-4_Overview_HeroLogos.png)
-
-<Caption>Hero brands and third-party logos</Caption>
 
 </Column>
 </Row>
 
 ## Stroke app icons
 
-Drawing from the visual expression of Watson, stroke app icons bring in light
-strokes and color gradients to stand out from product UI icons. Stroke app icons
-work best in product situations where app icons, UI Icons, and typography appear
-in the same context.
+Stroke app icons use light strokes and color gradients to distinguish themselves from product UI icons. 
+They are most effective in contexts where app icons, UI icons and typography appear together, providing clarity without visual conflict.
 
 <ArtDirection>
 
@@ -165,7 +161,7 @@ the icon, and separate elements do not touch each other.
 </Row>
 
 <DoDontRow>
-<DoDont type="dont" caption="Gradient strokes and solid strokes do not touch.">
+<DoDont type="dont" caption="Gradient strokes and solid strokes should not touch.">
 
 ![App icon with touching gradient and solid strokes](images/1_2-7_StrokeIcons_Elements_Dont1.svg)
 
@@ -283,7 +279,8 @@ color gradient.
 The solid stroke features no gradients of any kind, and it is used as an accent
 or to emphasize a part of the icon. Be purposeful with which part of the icon is
 comprised of the solid stroke; don’t add emphasis to insignificant parts of the
-icon.
+icon. The color of the solid stroke can be either Gray 10 for dark backgrounds or Blue 90 for light backgrounds. 
+These colors work great for either context and with any approved color gradient.
 
 <ArtDirection>
 
@@ -293,6 +290,19 @@ icon.
 </ArtDirection>
 
 <DoDontRow>
+<DoDont caption="Use Gray 10 solid stroke on dark backgrounds.">
+
+![Dark theme stroke app icon](images/1_2-23_StrokeIcons_Elements_SolidStroke_Darktheme.svg)
+
+</DoDont>
+<DoDont caption="Use Blue 90 solid stroke on light backgrounds.">
+
+![Light theme stroke app icon](images/1_2-24_StrokeIcons_Elements_SolidStroke_Lighttheme.svg)
+
+</DoDont>
+</DoDontRow>
+
+<DoDontRow>
 <DoDont type="dont" caption="Don’t add emphasis on insignificant parts of the icon.">
 
 ![App icon with incorrect emphasis](images/1_2-21_StrokeIcons_Elements_SolidStroke_Dont1.svg)
@@ -300,31 +310,10 @@ icon.
 </DoDont>
 <DoDont type="dont" caption="Don’t use alpha gradient on the solid stroke layer.">
 
-![App icon with an alpha gradient on the solid stroke](images/1_2-22_StrokeIcons_Elements_SolidStroke_Dont2.svg)
+![App icon with an alpha gradient on the solid stroke](images/v2/27-idl-iconography-app-icons-design.png)
 
 </DoDont>
 </DoDontRow>
-
-The color of the solid stroke can be either Gray 10 for dark backgrounds or Blue
-90 for light backgrounds. These colors work great for either context and with
-any approved color gradient.
-
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-
-![Dark theme stroke app icon](images/1_2-23_StrokeIcons_Elements_SolidStroke_Darktheme.svg)
-
-<Caption>Gray 10 solid stroke on dark background</Caption>
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![Light theme stroke app icon](images/1_2-24_StrokeIcons_Elements_SolidStroke_Lighttheme.svg)
-
-<Caption>Blue 90 solid stroke on light background</Caption>
-
-</Column>
-</Row>
 
 <DoDontRow>
 <DoDont type="dont" caption="Don’t use dark theme colors on light theme and vice versa.">
@@ -339,12 +328,31 @@ any approved color gradient.
 </DoDont>
 </DoDontRow>
 
+#### Gradient stroke
+Stroke app icons feature both color and alpha channel gradients. 
+This technique can be achieved in Adobe Illustrator using masking. Follow these guidelines to create proper gradient masks.
+
+1. Draw a 32px x 32px square and apply a color gradient. Set the angle to 45° and place the gradient slider locations at 10% and 90%.
+2. Place the artwork that is to be in color above the color square. Make sure the color is set to `#FFFFFF` white.
+3. Place black gradients on the parts of the icon to be masked. Set both gradient sliders to `#000000` black, and set one slider to 0% opacity. Any part of the artwork in black will be transparent after masking.
+4. Open the transparency panel `Window` → `#000000`.
+5. Group all gradients with the white icon `Window` → `Group`.
+6. Select both the new group and the color square, then click `Make Mask` in the transparency panel.
+
+<GifPlayer className="video-player" color="light">
+
+<Video autoPlay autoStart playsInline loop="on" muted src="/images/v2/30-idl-iconography-app-icons-design.mp4" />
+
+![](./images/v2/30-idl-iconography-app-icons-design-static.png)
+
+</GifPlayer>
+
 ## Fill app icons
 
 As an alternative to stroke app icons, fill app icons communicate the core idea
 of the app with more simplicity and abstraction. These icons should focus on the
 bigger concepts of the product or service, such as scale, transaction,
-integration and so on.  Functionally, fill app icons work best in situations
+integration and so on. Functionally, fill app icons work best in situations
 where you need to call attention to the app with more visual weight or a larger
 color field, as opposed to the light, linear form of stroke app icons.
 
@@ -357,9 +365,8 @@ color field, as opposed to the light, linear form of stroke app icons.
 
 ### Style
 
-Fill icons are created by combining, intersecting, and subdividing two core
-shapes: the square and the circle. These shapes can be scaled to fit within the
-grid to allow for endless possibilities.
+Fill icons are created by combining, intersecting and subdividing two core shapes: the square and the circle. 
+These shapes can be scaled to fit within the grid to allow for endless possibilities.
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
@@ -402,7 +409,7 @@ grid to allow for endless possibilities.
 ![House app icon](images/1_3-7_FillIcons_Style_Dont2.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t use organic shapes. ">
+<DoDont type="dont" caption="Don’t use organic shapes.">
 
 ![App icon with organic shapes](images/1_3-8_FillIcons_Style_Dont3.svg)
 
@@ -411,11 +418,10 @@ grid to allow for endless possibilities.
 
 ### Elements
 
-Fill icons consist of up to three elements: A primary gradient, a secondary
-color, and a tertiary gradient. All fill app icons must have at least one
+Fill icons consist of up to three elements: a primary gradient, a secondary
+color and a tertiary gradient. All fill app icons must have at least one
 primary gradient, and at least one secondary color and/or tertiary gradient. Any
-element can exist in more than one shape, that is, two separate shapes with
-primary gradient.
+element can exist in more than one shape (that is, two separate shapes with primary gradient).
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
@@ -457,11 +463,9 @@ primary gradient.
 ### Primary gradient
 
 The primary gradient is the primary element of the icon consisting of a blend
-between any acceptable 2-Color Family from the color palette. Due to the larger
-color fields possible in fill icons compared to stroke icons, it is possible for
-a wider range of color gradients to work well on both light and dark
-backgrounds. Please reference the [color guidelines](/color/#gradients) when
-choosing the right color gradient for your app icon.
+between any acceptable 2-Color Family from the color palette. Color fields can be larger 
+in fill icons than stroke icons, so a wider range of color gradients can work well on both light and dark backgrounds. 
+Refer to the [color guidelines](/color/#gradients) when choosing the right color gradient for your app icon.
 
 <ArtDirection>
 
@@ -526,7 +530,7 @@ icon. Use either Gray 10 for dark backgrounds or Blue 90 for light backgrounds.
 </Row>
 
 <DoDontRow>
-<DoDont type="dont" caption="Don’t use dark theme color on light theme and vice versa.">
+<DoDont type="dont" caption="Don’t use dark theme colors on light theme and vice versa.">
 
 ![Dark theme app icon on light background](images/1_3-25_FillIcons_Elements_SecondaryColor_Dont1.svg)
 
@@ -551,13 +555,13 @@ Gray 10 for dark backgrounds or Gray 100 for light backgrounds.
 
 </ArtDirection>
 
-![Tertiary gradient for dark backgrounds](/images/1_3-28_FillIcons_Elements_TertiaryGradient_PaletteDark.svg)
-
-<Caption>Tertiary gradient for dark backgrounds</Caption>
-
 ![Tertiary gradient for light backgrounds](/images/1_3-29_FillIcons_Elements_TertiaryGradient_PaletteLight.svg)
 
 <Caption>Tertiary gradient for light backgrounds</Caption>
+
+![Tertiary gradient for dark backgrounds](/images/1_3-28_FillIcons_Elements_TertiaryGradient_PaletteDark.svg)
+
+<Caption>Tertiary gradient for dark backgrounds</Caption>
 
 ## IBM Plex® app icons
 
@@ -734,97 +738,3 @@ the palette and follow the [color guidelines](/color/#gradients) for gradients.
 
 </DoDont>
 </DoDontRow>
-
-## Hero brands and third parties
-
-Products and services often need to be represented with logos in environments
-such as marketplaces, especially when it is delivered by a third party or IBM
-partner company. Placement within the icon grid can help to ensure logos look
-great alongside other iconography.
-
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-
-![IBM Cloud logo](images/1_5-1_HeroBrandsThirdParties_Hero_Cloud.png)
-
-<Caption>IBM Cloud logo</Caption>
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![Third party logo](images/1_5-2_HeroBrandsThirdParties_Hero_3rd.svg)
-
-<Caption>Third party logo</Caption>
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![Third party logo within container](images/1_5-3_HeroBrandsThirdParties_Hero_3rdContainer.svg)
-
-<Caption>Third party logo within container</Caption>
-
-</Column>
-</Row>
-
-### Alignment
-
-While most logos don’t align perfectly to the icon grid, it is important to
-align any icon artwork to the grid as best as possible. Center logos and align
-edges to grid divisions while respecting icon padding guidelines.
-
-<DoDontRow>
-<DoDont caption="Optically center logos and align to the icon grid as best as possible.">
-
-![Third party logo centered within icon padding](images/1_5-4_HeroBrandsThirdParties_Alignment_Do1.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t left, right, top or bottom align logos.">
-
-![Third party logo top-left aligned to the icon grid](images/1_5-5_HeroBrandsThirdParties_Alignment_Dont1.svg)
-
-</DoDont>
-</DoDontRow>
-
-<DoDontRow>
-<DoDont caption="Use the padding occasionally for optical centering.">
-
-![Third party logo extending appropriately into icon padding](images/1_5-6_HeroBrandsThirdParties_Alignment_Do2.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t place logos in the padding unless absolutely necessary.">
-
-![Third party logo extending inappropriately into icon padding](images/1_5-7_HeroBrandsThirdParties_Alignment_Dont2.svg)
-
-</DoDont>
-</DoDontRow>
-
-### Keyshapes
-
-When logos have a background container, use
-[keyshapes](/iconography/ui-icons/design/#keyshapes) to guide your design. This
-makes it easier to create a visually stable foundation and helps to keep visual
-weight consistent between icons.
-
-<ArtDirection>
-
-![Keyshapes grid example](/images/1_5-8_HeroBrandsThirdParties_Containers_KeyshapesGrid_Mobile.svg)
-![Keyshapes grid example](/images/1_5-8_HeroBrandsThirdParties_Containers_KeyshapesGrid.svg)
-
-</ArtDirection>
-
-<Row className="mock-gallery">
-<Column colMd={4} colLg={4}>
-
-![Third party logo within square keyshape](images/1_5-10_HeroBrandsThirdParties_Keyshapes_example2.svg)
-
-<Caption>Third-party logo set in circle keyshape</Caption>
-
-</Column>
-<Column colMd={4} colLg={4}>
-
-![Third party logo within circle keyshape](images/1_5-9_HeroBrandsThirdParties_Keyshapes_example1.svg)
-
-<Caption>Third-party logo set in square keyshape</Caption>
-
-</Column>
-</Row>
