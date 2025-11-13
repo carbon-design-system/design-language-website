@@ -49,7 +49,7 @@ const IconCategory = ({ category, icons, isDarkTheme }) => {
                 <span className={requestIcon}>
                   <a
                     target="_blank"
-                    href="https://github.ibm.com/brand/App-icons/issues/new?template=existing-app-icon-request.md" rel="noreferrer">
+                    href="https://github.ibm.com/brand/App-icons/issues/new?assignees=&labels=app-icon%2Cassignment&projects=&template=04-app-icon-request-assignment.yml&title=%5BApp+icon%5D+assignment%3A+App+name" rel="noreferrer">
                     <TooltipIcon
                       tooltipText="Request icon"
                       renderIcon={Launch}
