@@ -7818,7 +7818,7 @@
     - chain
     - cloud
     - software
-- name: DevOpsUnassigned1
+- name: ZDigitalIntegrationHub
   friendly_name: Z Digital Integration Hub
   category: Stroke style
   aliases:
@@ -9057,24 +9057,13 @@
     - network
     - secure
     - service
-- name: watsonxCodeAssistantforZRefactoringAssistant
-  friendly_name: IBM® watsonx Code Assistant™ for Z Refactoring Assistant
+- name: unassigned55
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
-    - IBM watsonx Code Assistant for Z Refactoring Assistant
-    - Cloud
-    - AI
+    - unassigned
     - developer
     - code
-    - code generation
-    - generative AI
-    - mainframe
-    - application modernization
-    - automation
-    - productivity
-    - Z
-    - COBOL
-    - Java
 - name: CarbonforIBMProducts
   friendly_name: Carbon for IBM Products
   category: Stroke style
@@ -12457,7 +12446,7 @@
   aliases:
     - lighthouse
     - news
-- name: unassigned01
+- name: ZSecurityAndComplianceCenter
   friendly_name: IBM Z® Security and Compliance Center
   category: Stroke style
   aliases:
@@ -12694,7 +12683,7 @@
     - see
     - observe
     - eye
-- name: unassigned55
+- name: Db2AnalyticsAccelerator
   friendly_name: IBM® Db2® Analytics Accelerator
   category: Stroke style
   aliases:
@@ -13952,3 +13941,37 @@
     - zOS
     - VS Code extension
     - SQL
+- name: DigitalAssetHaven
+  friendly_name: IBM® Digital Asset Haven
+  category: Stroke style
+  aliases:
+    - Digital Asset Haven
+    - Z
+    - finance
+    - security
+    - crypto
+    - secure
+    - shield
+- name: ZAutomationWebConsole
+  friendly_name: IBM Z® Automation Web Console
+  category: Stroke style
+  aliases:
+    - Z Automation Web Console
+    - SMU
+    - ZAC
+    - automation
+    - console
+    - Z
+    - mainframe
+    - dashboard
+- name: EndToEndMonitoring
+  friendly_name: End-to-end monitoring
+  category: Stroke style
+  aliases:
+    - End to end monitoring
+    - webMethods
+    - cloud
+    - iPaaS
+    - end to end
+    - monitoring
+    - integration
