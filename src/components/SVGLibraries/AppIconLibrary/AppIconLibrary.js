@@ -6,6 +6,7 @@ import { groupBy } from 'lodash-es';
 import AppIconCategory from './AppIconCategory';
 import FilterRow from './FilterRow';
 import { svgPage } from '../shared/SvgLibrary.module.scss';
+import NoResult from '../shared/NoResult';
 
 // import AppIconCategory from './AppIconCategory';
 // import NoResult from '../shared/NoResult';
@@ -57,6 +58,16 @@ const IconLibrary = () => {
     };
   }
 
+  const isObjectEmpty = (objectName) => {
+    return (
+      objectName &&
+      Object.keys(objectName).length === 0 &&
+      objectName.constructor === Object
+    );
+  };
+
+  const shouldShowNoResult = isObjectEmpty(categories);
+
   return (
     <div className={svgPage}>
       <FilterRow
@@ -70,7 +81,19 @@ const IconLibrary = () => {
           setSelectedCategory(selectedItem)
         }
       />
-      {Object.keys(categories).map((category, i) => {
+      {shouldShowNoResult ? (
+        <NoResult
+          type="appIcon"
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
+          allIconResults={0}
+          pageName="App icon"
+          single="https://github.ibm.com/brand/App-icons/issues/new?assignees=&labels=app-icon%2Crequest%2Csingle&projects=&template=01-app-icon-request-single.yml&title=%5BApp+icon%5D+single%3A+App+name"
+          batch="https://github.ibm.com/brand/App-icons/issues/new?assignees=&labels=app-icon%2Crequest%2Cbatch&projects=&template=02-app-icon-request-batch.yml&title=%5BApp+icon%5D+batch%3A+App+name"
+          update="https://github.ibm.com/brand/App-icons/issues/new?assignees=&labels=app-icon%2Crequest%2Cupdate&projects=&template=03-app-icon-request-update.yml&title=%5BApp+icon%5D+update%3A+App+name"
+          assign="https://github.ibm.com/brand/App-icons/issues/new?assignees=&labels=app-icon%2Cassignment&projects=&template=04-app-icon-request-assignment.yml&title=%5BApp+icon%5D+assignment%3A+App+name"
+        />
+      ): ( Object.keys(categories).map((category, i) => {
         return (
           <AppIconCategory
             topCategory={i === 0}
@@ -80,7 +103,7 @@ const IconLibrary = () => {
             isDarkTheme={isDarkTheme}
           />
         );
-      })}
+      }))}
     </div>
   );
 };

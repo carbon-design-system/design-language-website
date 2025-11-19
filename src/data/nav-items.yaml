@@ -30,6 +30,8 @@
       path: /ibm-logos/rebus
 - title: Iconography
   pages:
+    - title: Overview
+      path: /iconography/overview
     - title: UI icons
       path: /iconography/ui-icons/library
     - title: App icons

@@ -1,0 +1,42 @@
+.carousel-wrapper {
+  margin-bottom: $spacing-09;
+  position: relative;
+  margin-top: 0;
+
+  .slides-wrapper {
+    overflow: hidden;
+
+    > div {
+      display: flex;
+      transition: transform;
+      transform: translateX(0);
+      transition-timing-function: carbon--motion(standard, productive);
+      transition-duration: $duration--slow-01;
+
+      > div {
+        flex-grow: 1;
+        flex-shrink: 0;
+
+        > div > div:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .slides-navigation {
+    display: flex;
+    align-items: center;
+    margin-top: $spacing-05;
+
+    .slides-counter {
+      margin: 0 $spacing-05;
+      @include carbon--type-style('body-long-01');
+    }
+  }
+
+  .scroll-anchor {
+    position: absolute;
+    top: -$layout-05;
+  }
+}

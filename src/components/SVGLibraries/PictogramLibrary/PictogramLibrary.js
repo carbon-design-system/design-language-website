@@ -107,9 +107,10 @@ const IconLibrary = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           allIconResults={filteredPictograms.length}
-          pageName="pictogram"
-          repoUrl="https://github.ibm.com/brand/pictograms/issues/new"
-          pageUrl="https://github.com/carbon-design-system/carbon/raw/main/packages/pictograms/master/productive-pictogram-master.ai"
+          pageName="Pictogram"
+          single="https://github.ibm.com/brand/Pictograms/issues/new?assignees=&labels=picto%2Crequest%2Csingle&projects=&template=01-pictogram-request-single.yml&title=%5BPicto%5D+single%3A+Pictogram+name"
+          batch="https://github.ibm.com/brand/Pictograms/issues/new?assignees=&labels=picto%2Crequest%2Cbatch&projects=&template=02-pictogram-request-batch.yml&title=%5BPicto%5D+batch%3A+Pictogram+batch+name"
+          update="https://github.ibm.com/brand/Pictograms/issues/new?assignees=&labels=picto%2Crequest%2Cupdate&projects=&template=03-pictogram-request-update.yml&title=%5BPicto%5D+update%3A+Pictogram+name"
         />
       ) : (
         <div className={svgLibrary}>

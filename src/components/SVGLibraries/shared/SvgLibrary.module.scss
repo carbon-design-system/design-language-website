@@ -276,8 +276,6 @@ $svg-card-border: 1px solid $decorative-01;
 .no-result p {
   margin: 0;
   margin-top: $spacing-06;
-  margin-left: $spacing-05;
-  max-width: 400px;
 }
 
 .no-result :global(.resource-card-group) {
@@ -297,6 +295,10 @@ $svg-card-border: 1px solid $decorative-01;
   display: inline-block;
   user-select: none;
   vertical-align: text-bottom;
+}
+
+.card-margin {
+  margin-top: 3.5rem;
 }
 
 .icon-inverse {
