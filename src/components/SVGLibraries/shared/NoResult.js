@@ -50,7 +50,7 @@ const NoResult = ({
           <Column colMd={6} colLg={8}>
             <h2 className={h2}>No result found</h2>
             { type === 'appIcon' && <p className={paragraph}>
-                It appears we don’t have an icon that matches your search. Try different search terms or search for “Unassigned” to see if any existing icons may suit your needs. If you would like to proceed with one of the “unassigned” icons select the “Assign” ticket. Otherwise, you can submit a request for a new icon. Select from the ticket options here or check out the <a href="https://www.ibm.com/design/language/iconography/app-icons/contribute">Contribute</a> page for more details and best practices.
+                It appears we don’t have an icon that matches your search. Try different search terms or search for “Unassigned” to see if any existing icons may suit your needs. If you would like to proceed with one of the unassigned icons select the “Assign” ticket. Otherwise, you can submit a request for a new icon. Select from the ticket options here or check the <a href="https://www.ibm.com/design/language/iconography/app-icons/contribute">Contribute</a> page for more details and best practices.
                 </p>
             }
             { type === 'icon' && <p className={paragraph}>
@@ -58,7 +58,7 @@ const NoResult = ({
                 </p>
             }
             { type === 'pictograms' && <p className={paragraph}>
-                It appears we don’t have an icon that matches your search. Try different search terms or submit an issue for a new icon. Select from the ticket options here or check out the <a href="https://www.ibm.com/design/language/iconography/pictograms/contribute">Contribute</a> page for more details and best practices.
+                It appears we don’t have an icon that matches your search. Try different search terms or submit an issue for a new icon. Select from the ticket options here or check the <a href="https://www.ibm.com/design/language/iconography/pictograms/contribute">Contribute</a> page for more details and best practices.
                 </p>
             }
           </Column>

@@ -13,7 +13,7 @@ const FilterRow = ({
   categoryList,
 }) => {
   const [filterRowRef, isSticky] = useSticky();
-  const placeHolderText = 'Search by business unit, name, or descriptors';
+  const placeHolderText = 'Search by business unit, name or descriptors';
   return (
     <div
       data-stuck={isSticky || undefined}
