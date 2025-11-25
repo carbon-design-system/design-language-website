@@ -12,9 +12,7 @@ import * as styles from './custom-table.module.scss'
 
 <PageDescription>
 
-While app icons follow the same usage conventions as IBM UI icons when used in product and web platforms, 
-there are differences when they are used in native OS applications and app store environments. 
-Check the gallery of existing app icons before designing a new one to avoid confusion with similar icons already in use.
+While app icons follow the same usage conventions as IBM UI icons when used in product and web platforms, there are differences when they’re used in native OS applications and app store environments. Check the gallery of existing app icons before designing a new one to avoid confusion with similar icons already in use.
 
 </PageDescription>
 
@@ -134,19 +132,19 @@ App icons can be represented in a circular or rectangular container calculated b
 </ArtDirection>
 
 <DoDontRow>
-<DoDont caption="Gradient strokes and solid strokes do not touch.">
+<DoDont caption="Keep icons at scale and centered within the container.">
 
 ![Correct padding for containers](images/2_3-3_Containers_Do.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Keep icons at scale and centered within the container.">
+<DoDont type="dont" caption="Don’t resize icons outside of accepted proportions.">
 
 ![Incorrect padding for containers](images/2_3-4_Containers_Dont.svg)
 
 </DoDont>
 </DoDontRow>
 <DoDontRow>
-<DoDont caption="Use accepted shapes—circle or square—for containers.">
+<DoDont caption="Only use circle or square shapes for containers.">
 
 ![Icon in circle container](images/2_3-5_Containers_Do2.svg)
 
@@ -158,21 +156,21 @@ App icons can be represented in a circular or rectangular container calculated b
 </DoDont>
 </DoDontRow>
 <DoDontRow>
-<DoDont caption="Always center-align icons in their containers.">
+<DoDont caption="Always center align icons in their containers.">
 
 ![Correctly sized and positioned icon in circle container](images/2_3-7_Containers_Do3.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t crop icons with containers.">
+<DoDont type="dont" caption="Don’t crop icons inside containers.">
 
 ![Cropped and enlarged icon in circle container](images/2_3-8_Containers_Dont3.svg)
 
 </DoDont>
 </DoDontRow>
 
-### Containers for native OS
+### Containers for native operating systems
 
-Icons for native applications appear in a variety of contexts, such as task bars, user-customized wallpapers, notifications, system preferences, favicons and more. In most systems, a background container shape is needed to provide proper contrast against the large variety of backgrounds. Check the requirements of the operating system on which your product will be published to determine whether your icon should have a container shape. Design recommendations for favicons can be found [here](https://pages.github.ibm.com/carbon/ibm-products/guidelines/content/browser-tabs/#favicons).
+Icons for native operating systems appear in a variety of contexts, such as task bars, user-customized wallpapers, notifications, system preferences, favicons and more. In most systems, a background container shape is needed to provide proper contrast against the large variety of backgrounds. Check the requirements of the operating system your product will be published on to determine whether your icon should have a container shape. Design recommendations for favicons can be found within the guidance for [Carbon for IBM Products](https://pages.github.ibm.com/carbon/ibm-products/guidelines/content/browser-tabs/#favicons).
 
 <DoDontRow>
 <DoDont caption="In most cases, containers are needed for icons that appear in native operating systems." colLg="6">
@@ -187,9 +185,9 @@ Icons for native applications appear in a variety of contexts, such as task bars
 </DoDont>
 </DoDontRow>
 
-#### Solid stroke
+#### Android adaptive icons
 
-The solid stroke features no gradients of any kind, and it is used as an accent or to emphasize a part of the icon. Be purposeful with which part of the icon is comprised of the solid stroke; don’t add emphasis to insignificant parts of the icon.
+Android app icons have user-customizable masks as container shapes and  make use of foreground and background layers to achieve parallax  effects. You can separate your icon’s elements into the two layers to  make use of this feature
 
 <GifPlayer color='dark'>
 
@@ -223,7 +221,7 @@ When designing with app icons, all artwork should include minimum padding based 
 
 ## Color
 
-App icons are created in four themes: dark theme, light theme, monochromatic dark theme, and monochromatic light theme. To ensure accessibility, use the color theme that corresponds with the icon’s background color.
+App icons are created in four themes: dark theme, light theme, monochromatic dark theme and monochromatic light theme. To ensure accessibility, use the color theme that corresponds with the icon’s background color.
 
 <ArtDirection>
 
@@ -235,9 +233,9 @@ App icons are created in four themes: dark theme, light theme, monochromatic dar
 | Background color value | Icon theme                        |
 | ---------------------- | --------------------------------- |
 | White, 10–20           | Light theme                       |
-| 30–50                  | Monochromatic light theme (black) |
-| 50–80                  | Monochromatic dark theme (white)  |
-| 90–100, black          | Dark theme                        |
+| 30–50                  | Monochromatic light theme (Black) |
+| 50–80                  | Monochromatic dark theme (White)  |
+| Black, 90–100          | Dark theme                        |
 
 <DoDontRow>
 <DoDont caption="Use the correct icon theme for the background color.">
@@ -327,7 +325,7 @@ App icons are not logos. It should be clear that any communication featuring an 
 ![Large app icon in a social tile](images/v2/29-idl-iconography-app-icons-usage-v2.png)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t use app icons as a replacement for logos or as a sign-off for communications." colLg="6">
+<DoDont type="dont" caption="Don’t use app icons as a replacement for logos or as a sign-off in communications." colLg="6">
 
 ![Small app icon in the corner of a social tile](images/v2/30-idl-iconography-app-icons-usage.png)
 
@@ -339,7 +337,7 @@ App icons are not logos. It should be clear that any communication featuring an 
 ![Large app icon on a T-shirt](images/v2/31-idl-iconography-app-icons-usage.png)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t use app icons as a replacement for logos or as a sign-off for merchandise." colLg="6">
+<DoDont type="dont" caption="Don’t use app icons as a replacement for logos or as a sign-off on merchandise." colLg="6">
 
 ![Small app icon in the corner of a hand bag](images/v2/32-idl-iconography-app-icons-usage.png)
 
