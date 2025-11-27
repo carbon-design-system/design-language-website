@@ -96,8 +96,7 @@ Several different forms of app icons exist to serve the needs of different produ
 
 ## Stroke app icons
 
-Stroke app icons use light strokes and color gradients to distinguish themselves from product UI icons. 
-They are most effective in contexts where app icons, UI icons and typography appear together, providing clarity without visual conflict.
+Stroke app icons use light strokes and color gradients to distinguish themselves from product UI icons. They’re most effective in contexts where app icons, UI icons and typography appear together, providing clarity without visual conflict.
 
 <ArtDirection>
 
@@ -108,10 +107,7 @@ They are most effective in contexts where app icons, UI icons and typography app
 
 ### Style
 
-Stroke app icons are largely based on the styling of UI Icons, following all of
-the same production guidelines other than color. When creating a stroke app
-icon, reference the [UI icon guidance](/iconography/ui-icons/design) as a
-starting point.
+Stroke app icons are largely based on the styling of UI icons, following all the same production guidelines other than color. When creating a stroke app icon, refer to the [UI icon guidance](/iconography/ui-icons/design) as a starting point.
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
@@ -132,9 +128,7 @@ starting point.
 
 ### Elements
 
-All stroke app icons consist of three elements: A color gradient, a gradient
-stroke, and a solid stroke. Each of these elements must appear at least once in
-the icon, and separate elements do not touch each other.
+All stroke app icons consist of three elements: a color gradient, a gradient stroke and a solid stroke. Each of these elements must appear at least once in the icon, and separate elements don’t touch each other.
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
@@ -161,7 +155,7 @@ the icon, and separate elements do not touch each other.
 </Row>
 
 <DoDontRow>
-<DoDont type="dont" caption="Gradient strokes and solid strokes should not touch.">
+<DoDont type="dont" caption="Gradient strokes and solid strokes shouldn’t touch.">
 
 ![App icon with touching gradient and solid strokes](images/1_2-7_StrokeIcons_Elements_Dont1.svg)
 
@@ -237,9 +231,7 @@ below when creating new color gradients.
 
 #### Gradient stroke
 
-The gradient stroke portion of the icon features an alpha gradient (a gradient
-that blends between 100% and 0% opacity). This element serves as a mask for the
-color gradient.
+The gradient stroke portion of the icon features an alpha gradient, which is a gradient that blends between 100% and 0% opacity. This element serves as a mask for the color gradient.
 
 <ArtDirection>
 
@@ -249,7 +241,7 @@ color gradient.
 </ArtDirection>
 
 <DoDontRow>
-<DoDont type="dont" caption="The gradient stroke must include an alpha gradient.">
+<DoDont type="dont" caption="Don’t create a gradient stroke that doesn’t include an alpha gradient.">
 
 ![App icon without an alpha gradient](images/1_2-16_StrokeIcons_Elements_GradientStroke_Dont1.svg)
 
@@ -267,7 +259,7 @@ color gradient.
 ![App icon with a radial gradient](images/1_2-18_StrokeIcons_Elements_GradientStroke_Dont3.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t use gradient horizontally along the stroke to create faded edges.">
+<DoDont type="dont" caption="Don’t use a gradient horizontally along the stroke to create faded edges.">
 
 ![App icon with a horizontal gradient along stroke](images/1_2-19_StrokeIcons_Elements_GradientStroke_Dont4.svg)
 
@@ -276,11 +268,7 @@ color gradient.
 
 #### Solid stroke
 
-The solid stroke features no gradients of any kind, and it is used as an accent
-or to emphasize a part of the icon. Be purposeful with which part of the icon is
-comprised of the solid stroke; don’t add emphasis to insignificant parts of the
-icon. The color of the solid stroke can be either Gray 10 for dark backgrounds or Blue 90 for light backgrounds. 
-These colors work great for either context and with any approved color gradient.
+The solid stroke features no gradients of any kind, and it’s used as an accent or to emphasize a part of the icon. Be purposeful about where you use the solid stroke in your icon; don’t add emphasis to insignificant parts of the icon. The color of the solid stroke can be either Gray 10 for dark backgrounds or Blue 90 for light backgrounds. These colors work great for either context and with any approved color gradient.
 
 <ArtDirection>
 
@@ -290,12 +278,12 @@ These colors work great for either context and with any approved color gradient.
 </ArtDirection>
 
 <DoDontRow>
-<DoDont caption="Use Gray 10 solid stroke on dark backgrounds.">
+<DoDont caption="Use a Gray 10 solid stroke on dark backgrounds.">
 
 ![Dark theme stroke app icon](images/1_2-23_StrokeIcons_Elements_SolidStroke_Darktheme.svg)
 
 </DoDont>
-<DoDont caption="Use Blue 90 solid stroke on light backgrounds.">
+<DoDont caption="Use a Blue 90 solid stroke on light backgrounds.">
 
 ![Light theme stroke app icon](images/1_2-24_StrokeIcons_Elements_SolidStroke_Lighttheme.svg)
 
@@ -308,7 +296,7 @@ These colors work great for either context and with any approved color gradient.
 ![App icon with incorrect emphasis](images/1_2-21_StrokeIcons_Elements_SolidStroke_Dont1.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t use alpha gradient on the solid stroke layer.">
+<DoDont type="dont" caption="Don’t use an alpha gradient on the solid stroke layer.">
 
 ![App icon with an alpha gradient on the solid stroke](images/v2/27-idl-iconography-app-icons-design.png)
 
@@ -334,8 +322,8 @@ Stroke app icons feature both color and alpha channel gradients.
 This technique can be achieved in Adobe Illustrator using masking. Follow these guidelines to create proper gradient masks.
 
 1. Draw a 32px x 32px square and apply a color gradient. Set the angle to 45° and place the gradient slider locations at 10% and 90%.
-2. Place the artwork that is to be in color above the color square. Make sure the color is set to `#FFFFFF` white.
-3. Place black gradients on the parts of the icon to be masked. Set both gradient sliders to `#000000` black, and set one slider to 0% opacity. Any part of the artwork in black will be transparent after masking.
+2. Place the artwork that’s to be in color above the color square. Make sure the color is set to `#FFFFFF` White.
+3. Place black gradients on the parts of the icon to be masked. Set both gradient sliders to `#000000` Black, and set one slider to 0% opacity. Any part of the artwork in black will be transparent after masking.
 4. Open the transparency panel `Window` → `#000000`.
 5. Group all gradients with the white icon `Window` → `Group`.
 6. Select both the new group and the color square, then click `Make Mask` in the transparency panel.
@@ -413,10 +401,7 @@ These shapes can be scaled to fit within the grid to allow for endless possibili
 
 ### Elements
 
-Fill icons consist of up to three elements: a primary gradient, a secondary
-color and a tertiary gradient. All fill app icons must have at least one
-primary gradient, and at least one secondary color and/or tertiary gradient. Any
-element can exist in more than one shape (that is, two separate shapes with primary gradient).
+Fill icons consist of up to 3 elements: a primary gradient, a secondary color and a tertiary gradient. All fill app icons must have at least one primary gradient, and at least one secondary color or tertiary gradient or both. Any element can exist in more than one shape, that is, 3 separate shapes with a primary gradient.
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
@@ -443,12 +428,12 @@ element can exist in more than one shape (that is, two separate shapes with prim
 </Row>
 
 <DoDontRow>
-<DoDont type="dont" caption="Fill icons must include at least one shape with primary gradient.">
+<DoDont type="dont" caption="Fill icons must include at least 1 shape with primary gradient.">
 
 ![App icon without a primary gradient](images/1_3-12_FillIcons_Elements_Dont1.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Fill icons must include at least one secondary color and/or tertiary gradient.">
+<DoDont type="dont" caption="Fill icons must include at least 1 secondary color or tertiary gradient or both.">
 
 ![App icon with primary gradients only](images/1_3-13_FillIcons_Elements_Dont2.svg)
 
@@ -457,10 +442,7 @@ element can exist in more than one shape (that is, two separate shapes with prim
 
 ### Primary gradient
 
-The primary gradient is the primary element of the icon consisting of a blend
-between any acceptable 2-color family from the color palette. Color fields can be larger 
-in fill icons than stroke icons, so a wider range of color gradients can work well on both light and dark backgrounds. 
-Refer to the [color guidelines](/color/#gradients) when choosing the right color gradient for your app icon.
+The primary gradient is the primary element of the icon consisting of a blend between any acceptable 2-color family from the color palette. Color fields can be larger in fill icons than stroke icons, so a wider range of color gradients can work well on both light and dark backgrounds. Refer to the [color guidelines](/color/#gradients) when choosing the right color gradient for your app icon.
 
 <ArtDirection>
 
@@ -470,7 +452,7 @@ Refer to the [color guidelines](/color/#gradients) when choosing the right color
 </ArtDirection>
 
 <DoDontRow>
-<DoDont type="dont" caption="Don’t use more than one 2-color family for the primary gradient.">
+<DoDont type="dont" caption="Don’t use more than a single 2-color family for the primary gradient.">
 
 ![App icon with three primary gradients of different color families](images/1_3-16_FillIcons_Elements_PrimaryGradient_Dont1.svg)
 
@@ -483,7 +465,7 @@ Refer to the [color guidelines](/color/#gradients) when choosing the right color
 </DoDontRow>
 
 <DoDontRow>
-<DoDont type="dont" caption="Don’t create gradients with more than two colors.">
+<DoDont type="dont" caption="Don’t create gradients with more than 2 colors.">
 
 ![App icon with one primary gradient of 3 colors](images/1_3-20_FillIcons_Elements_PrimaryGradient_Dont5.svg)
 
@@ -525,12 +507,12 @@ icon. Use either Gray 10 for dark backgrounds or Blue 90 for light backgrounds.
 </Row>
 
 <DoDontRow>
-<DoDont type="dont" caption="Don’t use dark theme colors on light theme and vice versa.">
+<DoDont type="dont" caption="Don’t use dark-theme colors on a light-theme color and vice versa.">
 
 ![Dark theme app icon on light background](images/1_3-25_FillIcons_Elements_SecondaryColor_Dont1.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t use other colors for secondary color.">
+<DoDont type="dont" caption="Don’t use other colors for the secondary color.">
 
 ![App icon with magenta as secondary color](images/1_3-26_FillIcons_Elements_SecondaryColor_Dont2.svg)
 
@@ -560,9 +542,7 @@ Gray 10 for dark backgrounds or Gray 100 for light backgrounds.
 
 ## IBM Plex® app icons
 
-IBM Plex can also be sized for use as product or service identifiers. Use the
-icon grid as a guide to ensure type appears clear and proportional alongside
-other iconography.
+IBM Plex® can also be sized for use as product or service identifiers. Use the icon grid as a guide to ensure that type appears clear and proportional alongside other iconography.
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={4}>
@@ -584,11 +564,10 @@ other iconography.
 
 ### Style
 
-For app icons, bold weights of IBM Plex Sans work best. You may choose to use
-Plex Mono or italics Plex fonts when it makes sense for your product or service.
+For app icons, bold weights of IBM Plex® Sans work best. You may choose to use IBM Plex® Mono or italics IBM Plex fonts when it makes sense for your product or service.
 
 <DoDontRow>
-<DoDont caption="Use bold weights of IBM Plex and default to Plex Sans.">
+<DoDont caption="Use bold weights of IBM Plex and default to IBM Plex Sans.">
 
 ![IBM Plex Bold](images/1_4-4_IBMPlexIcons_Style_Do1.svg)
 
@@ -601,12 +580,12 @@ Plex Mono or italics Plex fonts when it makes sense for your product or service.
 </DoDontRow>
 
 <DoDontRow>
-<DoDont caption="You can use Plex mono and italics Plex fonts when it makes sense to do so.">
+<DoDont caption="You can use Plex Mono and italics Plex fonts when it makes sense to do so.">
 
 ![IBM Plex Bold Italics used to reference a function](images/1_4-6_IBMPlexIcons_Style_Do2.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Avoid use of Plex Serif.">
+<DoDont type="dont" caption="Avoid use of IBM Plex® Serif.">
 
 ![IBM Plex Bold Serif](images/1_4-7_IBMPlexIcons_Style_Dont2.svg)
 
@@ -616,7 +595,7 @@ Plex Mono or italics Plex fonts when it makes sense for your product or service.
 <DoDontRow>
 <DoDont caption="Use solid type.">
 
-![IBM Plex Bold without styling](images/1_4-8_IBMPlexIcons_Style_Do3.svg)
+![IBM Plex Bold without styling](images/62-idl-iconography-app-icons-design.png)
 
 </DoDont>
 <DoDont type="dont" caption="Don’t outline type.">
@@ -628,9 +607,7 @@ Plex Mono or italics Plex fonts when it makes sense for your product or service.
 
 ### Typesetting
 
-When setting type on the icon grid, use smaller type sizes as character count
-increases in order to fit the type comfortably. Please do not alter other type
-specs, such as tracking, kerning and vertical or horizontal scale.
+When setting type on the icon grid, use smaller type sizes as character count increases to fit the type comfortably. Don't alter other type specs, such as tracking, kerning, and vertical or horizontal scaling.
 
 <DoDontRow>
 <DoDont type="dont" caption="Don’t use more than 3 to 4 characters.">
@@ -638,7 +615,7 @@ specs, such as tracking, kerning and vertical or horizontal scale.
 ![IBM Plex app icon with 6 characters](images/1_4-10_IBMPlexIcons_Typesetting_Dont1.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t use more than one line of text.">
+<DoDont type="dont" caption="Don’t use more than 1 line of text.">
 
 ![IBM Plex app icon with two lines of type](images/1_4-11_IBMPlexIcons_Typesetting_Dont2.svg)
 
@@ -660,9 +637,7 @@ specs, such as tracking, kerning and vertical or horizontal scale.
 
 ### Alignment
 
-Always keep type center aligned within the icon grid, and adjust for optical
-alignment when needed. Keep baselines aligned to a grid division and respect
-icon padding guidelines.
+Always keep type center aligned within the icon grid, and adjust for optical alignment when needed. Keep baselines aligned to a grid division and respect icon padding guidelines.
 
 <DoDontRow>
 <DoDont caption="Center typography while aligning the baseline to the icon grid.">
@@ -683,7 +658,7 @@ icon padding guidelines.
 ![IBM Plex placed 1px to the left for optical center alignment](images/1_4-16_IBMPlexIcons_Alignment_Do2.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t left-, right-, top- or bottom-align the type.">
+<DoDont type="dont" caption="Don’t left align, right align, top align or bottom align the type.">
 
 ![IBM Plex bottom-left aligned to the icon grid](images/1_4-17_IBMPlexIcons_Alignment_Dont2.svg)
 
@@ -709,7 +684,7 @@ You can use color and gradients with typography. Always choose a color within
 the palette and follow the [color guidelines](/color/#gradients) for gradients.
 
 <DoDontRow>
-<DoDont caption="You can use one color value within the color palette.">
+<DoDont caption="You can use 1 color value from the color palette.">
 
 ![IBM Plex in blue](images/1_4-22_IBMPlexIcons_Color_Do1.svg)
 
