@@ -54,7 +54,7 @@ const NoResult = ({
                 </p>
             }
             { type === 'icon' && <p className={paragraph}>
-                It appears we don’t have an icon that matches your search. Try different search terms or submit an issue for a new icon. Select from the ticket options here or check out the <a href="https://www.ibm.com/design/language/iconography/ui-icons/contribute">Contribute</a> page for more details and best practices.
+                It appears we don’t have an icon that matches your search. Try different search terms or submit an issue for a new icon. Select from the ticket options here or check the <a href="https://www.ibm.com/design/language/iconography/ui-icons/contribute">Contribute</a> page for more details and best practices.
                 </p>
             }
             { type === 'pictograms' && <p className={paragraph}>
