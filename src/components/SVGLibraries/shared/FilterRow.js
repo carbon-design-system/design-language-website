@@ -14,7 +14,7 @@ const FilterRow = ({
   const [filterRowRef, isSticky] = useSticky();
   const placeHolderText =
     type === 'icon'
-      ? 'Search by descriptors, such as "add" or "check"'
+      ? 'Search by descriptors, such as ”add” or ”check”'
       : 'Search by descriptors, such as “electronics” or “weather”';
   return (
     <div
