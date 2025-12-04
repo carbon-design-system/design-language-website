@@ -1,5 +1,8 @@
 import React from 'react';
-import ResourceCard from 'gatsby-theme-carbon/src/components/ResourceCard';
+import {
+  MiniCard,
+  CardGroup,
+} from '../../../gatsby-theme-carbon/components/MiniCard';
 import { Column, Row } from 'gatsby-theme-carbon';
 import cx from 'classnames';
 import {
@@ -7,17 +10,23 @@ import {
   paragraph,
 } from 'gatsby-theme-carbon/src/components/markdown/Markdown.module.scss';
 
-import { Github } from './Icons';
-import { noResult, allSvgs, searchLabel } from './SvgLibrary.module.scss';
+import {
+  noResult,
+  allSvgs,
+  searchLabel,
+  cardMargin,
+} from './SvgLibrary.module.scss';
 
 const NoResult = ({
   allIconResults,
   setSelectedCategory,
   selectedCategory,
-  repoUrl,
+  single,
+  batch,
+  update,
+  assign = '',
   type = 'icons',
   pageName,
-  pageUrl,
 }) => (
   <div className={noResult}>
     {allIconResults ? (
@@ -37,31 +46,47 @@ const NoResult = ({
       </>
     ) : (
       <>
-        <h2 className={h2}>No result found</h2>
-        <p className={paragraph}>
-          It appears we don’t have an icon that matches your search. Try
-          different search terms or give us a hand—submit your own design to the
-          library!
-        </p>
-        <Row className="resource-card-group">
-          <Column colMd={4} colLg={4} noGutterSm>
-            <ResourceCard
-              subTitle={`Submit ${
-                pageName === 'icon' ? 'an icon' : 'a pictogram'
-              } design`}
-              href={repoUrl}>
-              <Github />
-            </ResourceCard>
-          </Column>
-          <Column colMd={4} colLg={4} noGutterSm>
-            <ResourceCard
-              actionIcon="download"
-              href={pageUrl}
-              subTitle={`Download the ${pageName} master`}>
-              <img src='/images/illustrator.png' alt="Adobe Illustrator"/>
-            </ResourceCard>
+        <Row>
+          <Column colMd={6} colLg={8}>
+            <h2 className={h2}>No result found</h2>
+            { type === 'appIcon' && <p className={paragraph}>
+                It appears we don’t have an icon that matches your search. Try different search terms or search for “Unassigned” to see if any existing icons may suit your needs. If you would like to proceed with one of the unassigned icons select the “Assign” ticket. Otherwise, you can submit a request for a new icon. Select from the ticket options here or check the <a href="https://www.ibm.com/design/language/iconography/app-icons/contribute">Contribute</a> page for more details and best practices.
+                </p>
+            }
+            { type === 'icon' && <p className={paragraph}>
+                It appears we don’t have an icon that matches your search. Try different search terms or submit an issue for a new icon. Select from the ticket options here or check the <a href="https://www.ibm.com/design/language/iconography/ui-icons/contribute">Contribute</a> page for more details and best practices.
+                </p>
+            }
+            { type === 'pictograms' && <p className={paragraph}>
+                It appears we don’t have an icon that matches your search. Try different search terms or submit an issue for a new icon. Select from the ticket options here or check the <a href="https://www.ibm.com/design/language/iconography/pictograms/contribute">Contribute</a> page for more details and best practices.
+                </p>
+            }
           </Column>
         </Row>
+        <CardGroup className={cardMargin}>
+          <MiniCard
+            title={`${pageName} request: Single`}
+            href={single}
+            actionIcon="github"
+          />
+          <MiniCard
+            title={`${pageName} request: Batch`}
+            href={batch}
+            actionIcon="github"
+          />
+          <MiniCard
+            title={`${pageName} request: Update`}
+            href={update}
+            actionIcon="github"
+          />
+          {type === 'appIcon' && (
+            <MiniCard
+              title={`${pageName} request: Assign`}
+              href={assign}
+              actionIcon="github"
+            />
+          )}
+        </CardGroup>
       </>
     )}
   </div>

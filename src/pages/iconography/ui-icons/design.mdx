@@ -7,35 +7,48 @@ description:
 tabs: [Library, Design, Usage, Contribute]
 ---
 
-import v281513611 from '../../../videos/vimeo/281513611.mp4';
-import p281513611 from '../../../videos/vimeo/281513611.jpg';
-
 <PageDescription>
 
-As visual symbols, IBM user interface icons represent ideas, objects or actions.
-They can communicate messages at a glance, afford interactivity, and draw
-attention to important information. Based on details from the IBM Plex®
-typeface, they work well at small sizes.
+As visual symbols, IBM user interface (UI) icons represent ideas, objects or actions. They can communicate messages at a glance, afford interactivity and draw attention to important information. Based on details from the IBM Plex® typeface, they work well at small sizes.
 
 </PageDescription>
 
+<Row style="{margin-left: 0}">
+<Column colMd={4} colLg={4}>
 <AnchorLinks>
   <AnchorLink>Foundation</AnchorLink>
   <AnchorLink>Style</AnchorLink>
   <AnchorLink>Strokes</AnchorLink>
   <AnchorLink>Perspective</AnchorLink>
+</AnchorLinks>
+</Column>
+
+<Column colMd={5} colLg={5}>
+<AnchorLinks>
   <AnchorLink>Corners</AnchorLink>
   <AnchorLink>Angles</AnchorLink>
 </AnchorLinks>
+</Column>
+</Row>
 
-<video src={v281513611} controls preload="metadata" style={{width: "100%"}} poster={p281513611} />
 
 ## Resources
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
 <ResourceCard
-  subTitle="IBM icons library"
+  subTitle="UI icon: Starter file"
+  actionIcon="download"
+  href="https://github.ibm.com/brand/ui-icons/raw/master/ui-icon-starter-file.ai"
+>
+
+![Adobe Illustrator](../../../images/resource-cards/illustrator.png)
+
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+  subTitle="UI icon: Figma library"
   href="https://www.figma.com/file/J5c0d85dSJn9JnBhSYYLmD/Icons---IBM-Design-Language?type=design&node-id=129%3A2&mode=design&t=IgykKAObMrV05Sic-1"
   actionIcon="launch"
 >
@@ -45,23 +58,12 @@ typeface, they work well at small sizes.
 </ResourceCard>
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="IBM UI icons master"
-      actionIcon="download"
-      href="https://github.com/carbon-design-system/carbon/raw/main/packages/icons/master/ui-icon-master.ai"
-      >
+<ResourceCard
+  subTitle="UI icon: Carbon library"
+  href="https://github.com/carbon-design-system/carbon/tree/master/packages/icons/src/svg"
+>
 
-![Adobe Illustrator](../../../images/resource-cards/illustrator.png)
-
-</ResourceCard>
-</Column>
-<Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="IBM UI icons (.svg)"
-      href="https://github.com/carbon-design-system/carbon/tree/master/packages/icons/src/svg"
-      >
-
-![Github Icon](../../../images/resource-cards/github.png)
+![Carbon Icon](../../../images/resource-cards/carbon.png)
 
 </ResourceCard>
 </Column>
@@ -69,322 +71,241 @@ typeface, they work well at small sizes.
 
 ## Foundation
 
-The square grid is the underlying fabric of all IBM icons and is used as the
-foundation to determine line thickness, proportion, shape and positioning across
-the entire set of icons. The grid helps guide design decisions, which helps
-ensure a unified approach. More importantly, it allows flexibility in creating
-the appropriate shape needed to communicate the right idea.
+The square grid is the underlying fabric of all IBM icons and used as the foundation to determine line thickness, proportion, shape and positioning across the entire set of icons. To ensure a unified approach, the grid helps guide design decisions and allows flexibility in creating the appropriate shape needed to communicate the right idea.
 
-<Video src="/videos/icon-grid.mp4" poster="/images/icon-grid-poster.svg" />
+<Video src="./assets/design/01-idl-iconography-ui-icons-design.mp4" />
 
 ### Base grid
 
-IBM icons are drawn on a pixel-based grid of 32px x 32px and scaled down
-linearly to different sizes. Use the grid as your basic guideline to snap the
-artwork in place. We recommend fine-tuning adjustments for the shape you are
-trying to achieve during creation.
+IBM icons are drawn on a pixel-based grid of 32px x 32px and scaled down linearly to different sizes. Use the grid as your basic guideline to snap the artwork in place. We recommend fine-tuning adjustments for the shape you’re trying to achieve during creation.
 
-<ArtDirection>
-
-![32 x 32 base grid](../images/base-grid-comp-mobile.svg)
-![32 x 32 base grid](../images/base-grid-comp.svg)
-
-</ArtDirection>
+![](./assets/design/02-idl-iconography-ui-icons-design.png)
 
 <DoDontRow>
-<DoDont>
+<DoDont colMd={6} colLg={6} caption="Align design elements to the pixel grid.">
 
-![Grid do example](../images/base-grid-do.svg)
+![](./assets/design/03-idl-iconography-ui-icons-design.png)
 
 </DoDont>
-<DoDont type="dont">
+<Column colMd={6} colLg={6}>
+<DoDont type="dont" colMd={12} colLg={12} noGutterSm>
 
-![Grid don't example](../images/base-grid-dont.svg)
+![](./assets/design/04-idl-iconography-ui-icons-design.png)
+
+</DoDont>
+<Caption>Avoid random decimal points in the <em>x</em> and <em>y</em> coordinates.</Caption>
+</Column>
+</DoDontRow>
+<DoDontRow>
+<DoDont colMd={6} colLg={6} caption="Place arrow points on the grid.">
+
+![](./assets/design/05-idl-iconography-ui-icons-design.png)
+
+</DoDont>
+<DoDont colMd={6} colLg={6} type="dont" caption="Avoid placing arrow points off the grid.">
+
+![](./assets/design/06-idl-iconography-ui-icons-design.png)
 
 </DoDont>
 </DoDontRow>
-
 <DoDontRow>
-<DoDont caption="Align design elements to the pixel grid.">
+<DoDont colMd={6} colLg={6} caption="Place at least one point of the angled stroke caps on the grid, if possible.">
 
-![Example on pixel grid](../images/align-element-do.svg)
+![](./assets/design/07-idl-iconography-ui-icons-design.png)
 
 </DoDont>
-<DoDont type="dont" caption="Avoid random decimal points in the x- and y- coordinates.">
+<DoDont colMd={6} colLg={6} type="dont" caption="Avoid placing all angled stroke caps off the grid.">
 
-![Example off pixel grid](../images/align-element-dont.svg)
+![](./assets/design/08-idl-iconography-ui-icons-design-v2.png)
 
 </DoDont>
 </DoDontRow>
 
 ### Padding
 
-The grid contains 2px padding. This ensures icons will retain their desired
-scale and surrounding white space when exported. Only extend artwork into
-the padding for additional visual weight or for specific details required to
-define the shape's content, meaning or character.
+The grid contains 2px padding. This ensures icons will retain their desired scale and surrounding white space when exported. Only extend artwork into the padding for additional visual weight or for specific details required to define the shape’s content, meaning or character.
 
-<ArtDirection>
-
-![grid padding example](../images/base-grid-padding-mobile.svg)
-![grid padding example](../images/base-grid-padding.svg)
-
-</ArtDirection>
+![](./assets/design/09-idl-iconography-ui-icons-design.png)
 
 <DoDontRow>
-<DoDont caption="Icon should remain inside the padding.">
+<DoDont caption="The icon should remain inside the padding.">
 
-![icon with correct padding](../images/padding-do.svg)
+![](./assets/design/10-idl-iconography-ui-icons-design-v2.png)
 
 </DoDont>
 <DoDont type="dont" caption="Avoid placing part of the icon in the padding area.">
 
-![icon with incorrect padding](../images/padding-dont.svg)
+![](./assets/design/11-idl-iconography-ui-icons-design.png)
+
+</DoDont>
+</DoDontRow>
+<DoDontRow>
+<DoDont caption="Place the icon against the padding if additional space is needed.">
+
+![](./assets/design/12-idl-iconography-ui-icons-design-v2.png)
+
+</DoDont>
+<DoDont type="dont" caption="Don’t crowd the design elements—make sure there’s enough space between them.">
+
+![](./assets/design/13-idl-iconography-ui-icons-design.png)
 
 </DoDont>
 </DoDontRow>
 
-<DoDontRow>
-<DoDont caption="Do extend icons into padding if additional space is needed.">
+### Key shapes
 
-![example showing how to correctly extend icons in to padding](../images/padding-extend.svg)
+Key shapes give you consistent sizes for basic shapes or proportions across the icon set. These key lines makes it easier to create a visually stable foundation and helps to establish relationships between the similarly proportioned icons and the objects or ideas they represent.
+
+![](./assets/design/14-idl-iconography-ui-icons-design.png)
+
+<DoDontRow>
+<DoDont caption="Use the key shapes that best demonstrate the proportion of the metaphor.">
+
+![](./assets/design/15-idl-iconography-ui-icons-design.png)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t crowd the design elements—make sure there is enough space between them.">
+<DoDont type="dont" caption="Don’t use key shapes that don’t reflect the real form of the metaphor.">
 
-![example showing incorrect icon padding](../images/padding-crowd.svg)
+![](./assets/design/16-idl-iconography-ui-icons-design.png)
 
 </DoDont>
 </DoDontRow>
-
-### Keyshapes
-
-Key lines give you consistent sizes for basic shapes or proportions across the
-icon set. This makes it easier to create a visually stable foundation and helps
-to establish relationships between the similarly proportioned icons and the
-objects or ideas they represent.
-
-<ArtDirection>
-
-![keyshape comp](../images/keyshape-comp-mobile.svg)
-![keyshape comp](../images/keyshape-comp.svg)
-
-</ArtDirection>
-
-<ArtDirection>
-
-![keyshape example](../images/keyshape-examples-02-mobile.svg)
-![keyshape example](../images/keyshape-examples.svg)
-
-</ArtDirection>
-
 <DoDontRow>
-<DoDont caption="Do use the keyshape that best demonstrates the proportion of the metaphor.">
+<DoDont caption="Extend content beyond the key shapes for proper form if needed.">
 
-![correct keyshape proportions](../images/keyshape-proportions-do.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t use keyshapes that don’t reflect the real form of the metaphor.">
-
-![incorrect keyshape proportions](../images/keyshape-proportions-dont.svg)
+![](./assets/design/17-idl-iconography-ui-icons-design.png)
 
 </DoDont>
-</DoDontRow>
+<DoDont type="dont" caption="Don’t force the content to fit inside the key shapes.">
 
-<DoDontRow>
-<DoDont caption="Do extend content beyond the keyshapes for proper form if needed.">
-
-![proper keyshape form example](../images/keyshape-proper-form-do.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t force the content to fit inside the keyshape.">
-
-![incorrect keyshape form example](../images/keyshape-proper-form-dont.svg)
+![](./assets/design/18-idl-iconography-ui-icons-design.png)
 
 </DoDont>
 </DoDontRow>
 
 ## Style
 
-The stylistic conventions of IBM icons deliver a meaningful bond with our
-typeface IBM Plex®. Each icon is intentionally designed to harmoniously pair by
-sharing distinct details and characteristics found in the letterforms. The video
-below demonstrates some of these relationships between icons and letters which
-allows them to family well together visually.
+The stylistic conventions of IBM icons create a meaningful bond with our typeface, [IBM Plex®](../../typography/typeface). Each icon shares distinct details and characteristics with the letterforms. The following video demonstrates some of these relationships.
 
-<Video src="/videos/icon-style.mp4" poster="/images/icon-style-poster.jpg" />
+<Video src="./assets/design/19-idl-iconography-ui-icons-design.mp4" />
 
 <Row className="mock-gallery">
-<Column colMd={4} colLg={6}>
-<ArtDirection>
+<Column colMd={6} colLg={6}>
 
-![rounded exterior icon example](../images/style-rounded-exteriors-mobile.svg)
-![rounded exterior icon example](../images/style-rounded-exteriors.svg)
+![](./assets/design/20-idl-iconography-ui-icons-design.png)
 
-</ArtDirection>
 <Caption>Rounded exteriors with 90° interiors</Caption>
 
 </Column>
-<Column colMd={4} colLg={6}>
-<ArtDirection>
+<Column colMd={6} colLg={6}>
 
-![square terminals example](../images/style-square-terminals-mobile.svg)
-![square terminals example](../images/style-square-terminals.svg)
+![](./assets/design/21-idl-iconography-ui-icons-design.png)
 
-</ArtDirection>
-<Caption>Square terminals</Caption>
+<Caption>Distinctive point on tips</Caption>
 
 </Column>
 </Row>
-
 <Row className="mock-gallery">
-<Column colMd={4} colLg={6}>
+<Column colMd={6} colLg={6}>
 
-![slab characteristics](../images/style-slab-characteristics.svg)
+![](./assets/design/22-idl-iconography-ui-icons-design.png)
 
 <Caption>Slab characteristics</Caption>
 
 </Column>
-<Column colMd={4} colLg={6}>
+<Column colMd={6} colLg={6}>
 
-![distinctive point on tips](../images/style-distinctive-tips.svg)
+![](./assets/design/23-idl-iconography-ui-icons-design.png)
 
-<Caption>Distinctive point on tips</Caption>
+<Caption>Square caps</Caption>
 
 </Column>
 </Row>
 
 ## Strokes
 
-One icon should not look heavier or lighter than other icons of the same size.
-Nor should there be different weights within one icon. Maintain the same visual
-weight by using a 2px stroke for all icons. There are a few exceptions to this
-rule which occurs when the icon is complex or has a certain density of line. See
-examples shown here.
+All icons of the same size should have a consistent visual weight; no icon should appear heavier or lighter than another. A single icon shouldn't contain a mix of different stroke weights. Use a 2px stroke for all icons to maintain uniformity. Exceptions may be made only for more complex icons or those with unusually dense line work.
 
-<ArtDirection>
-
-![uniform visual stroke weight](../images/strokes-visual-weight-mobile.svg)
-![uniform visual stroke weight](../images/strokes-visual-weight.svg)
-
-</ArtDirection>
+![](./assets/design/24-idl-iconography-ui-icons-design.png)
 
 <DoDontRow>
-<DoDont caption="Do be consistent with 2px stroke weights.">
+<DoDont caption="Be consistent and use 2px stoke weights.">
 
-![consistent stroke weights](../images/strokes-consistent-weights-do.svg)
+![](./assets/design/25-idl-iconography-ui-icons-design.png)
 
 </DoDont>
 <DoDont type="dont" caption="Don’t use inconsistent stroke weights. They’ll feel unbalanced and look like a mistake.">
 
-![inconsistent stroke weights](../images/strokes-consistent-weights-dont.svg)
-
-</DoDont>
-</DoDontRow>
-
-<DoDontRow>
-<DoDont caption="Do use a 1.5px stroke in instances where complex details are unavoidable.">
-
-![complex details with stroke example](../images/strokes-complex-details-do.svg)
-
-</DoDont>
-<DoDont type="dont" caption="Don’t make icons feel visually heavier than the rest of the set.">
-
-![incorrect stroke examples](../images/strokes-complex-details-dont.svg)
+![](./assets/design/26-idl-iconography-ui-icons-design.png)
 
 </DoDont>
 </DoDontRow>
 
 ## Perspective
 
-The IBM icons are designed and ready to use. However, if creating a new icon to
-contribute to the library, please be sure to avoid dimensional representations.
-Use more objective vantage points that are straight-on, or profile views.
+When creating a new icon for the library, avoid dimensional or perspective-based representations. Use objective angles, such as straight-on or profile views to ensure consistency.
 
 <DoDontRow>
-<DoDont caption="Use icon as it is.">
+<DoDont caption="Use a straight-on angle for the icon.">
 
-![correct icon perspective](../images/perspective-do.svg)
+![](./assets/design/27-idl-iconography-ui-icons-design.png)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t create icon dimensional.">
+<DoDont type="dont" caption="Don’t create a dimensional icon.">
 
-![incorrect icon in dimensional](../images/perspective-dont.svg)
+![](./assets/design/28-idl-iconography-ui-icons-design.png)
 
 </DoDont>
 </DoDontRow>
 
 ## Corners
 
-Use a consistent corner radius of 2px for rounded shapes. The 2px radius can be
-increased by a multiple of two when necessary to make the icon’s metaphor
-understandable or object shape clearly defined. Use an additional radius to make the metaphor reflect the real form of the
-object.
+Use a consistent corner radius of 2px for rounded shapes. The 2px radius can be increased by a multiple of two when necessary to make the icon’s metaphor understandable or object shape clearly defined. Use an additional radius to make the metaphor reflect the real form of the object.
 
-<!-- TODO: join mobiles images and add ArtDirection -->
-
-<ArtDirection>
-
-![match corner radius to icon shape](../images/corner-radius-comp-02-mobile.svg)
-![match corner radius to icon shape](../images/corner-radius-comp1.svg)
-
-</ArtDirection>
+![](./assets/design/29-idl-iconography-ui-icons-design.png)
 
 <DoDontRow>
-<DoDont caption="Do use squared corners when needed to reflect the real form of the metaphor.">
+<DoDont caption="Use squared corners when needed to reflect the real form of the metaphor.">
 
-![corner radius example](../images/corner-radius-do.svg)
+![](./assets/design/30-idl-iconography-ui-icons-design-v2.png)
 
 </DoDont>
 <DoDont type="dont" caption="Don’t force rounded corners if they don’t work for your metaphor.">
 
-![incorrect rounded corners](../images/corner-radius-dont.svg)
+![](./assets/design/31-idl-iconography-ui-icons-design-v2.png)
 
 </DoDont>
 </DoDontRow>
-
 <DoDontRow>
-<DoDont caption="Do square the tips of arrows.">
+<DoDont caption="Use square arrow tips.">
 
-![square tip arrows](../images/arrows-do.svg)
+![](./assets/design/32-idl-iconography-ui-icons-design-v2.png)
 
 </DoDont>
 <DoDont type="dont" caption="Don’t use rounded arrow tips.">
 
-![rounded tip arrows](../images/arrows-dont.svg)
+![](./assets/design/33-idl-iconography-ui-icons-design.png)
 
 </DoDont>
 </DoDontRow>
 
 ## Angles
 
-Use 45° angles for even anti-aliasing. Use increments of 15° whenever possible
-for other angles needed to best depict the shape you’re creating for your
-metaphor. You can create harmony across the icon set by consistently making
-angles sit on the same increments.
+Use 45° angles for even anti-aliasing. Use increments of 15° whenever possible for other needed angles to best depict the shape you’re creating for your metaphor. You can create harmony across the icon set by consistently making angles sit on the same increments.
 
-<ArtDirection>
+![](./assets/design/34-idl-iconography-ui-icons-design.png)
 
-![angles](../images/angles-rotate-comp-mobile.svg)
-![angles](../images/angles-rotate-comp.svg)
-
-</ArtDirection>
-<ArtDirection>
-
-![angles example](../images/angles-example-comp-02-mobile.svg)
-![angles example](../images/angles-example-comp.svg)
-
-</ArtDirection>
+![](./assets/design/35-idl-iconography-ui-icons-design.png)
 
 <DoDontRow>
-<DoDont caption="Do use multiples of 15° or an angle that best represents the metaphor when necessary.">
+<DoDont caption="Use multiples of 15° or an angle that best represents the metaphor when necessary.">
 
-![angles](../images/angles-do.svg)
+![](./assets/design/36-idl-iconography-ui-icons-design-v2.png)
 
 </DoDont>
 <DoDont type="dont" caption="Don’t use 45° angles exclusively for all icons. It won’t work.">
 
-![incorrect angles](../images/angles-dont.svg)
+![](./assets/design/37-idl-iconography-ui-icons-design.png)
 
 </DoDont>
 </DoDontRow>

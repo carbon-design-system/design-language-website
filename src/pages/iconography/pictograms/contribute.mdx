@@ -4,87 +4,140 @@ description: Pictograms are visual symbols used to represent ideas, objects, or 
 tabs: [Library, Design, Usage, Contribute]
 ---
 
+import {cardMargin} from './Icons.module.scss'
+
 <PageDescription>
 
-As IBM continues to innovate with products and services, you may find the need for a new pictogram. Use the design and production guidelines found here to design a new image, and discover the contribution and Design Language approval process you’ll need to follow to have your new image added to the Pictogram library.
+As IBM continues to innovate with products and services, you may find the need for a new pictogram. Use the design and production guidelines linked here to create one, and review the contribution and approval process required to add it to the official Pictogram library.
 
 </PageDescription>
 
 <AnchorLinks>
-  <AnchorLink>Producing a pictogram</AnchorLink>
-  <AnchorLink>Producing an icon</AnchorLink>
-  <AnchorLink>Exporting SVGs</AnchorLink>
-  <AnchorLink>Contribution process</AnchorLink>
+  <AnchorLink>Resources</AnchorLink>
+  <AnchorLink>Design and production</AnchorLink>
+  <AnchorLink>Creating a pictogram</AnchorLink>
+  <AnchorLink>Approval process</AnchorLink>
 </AnchorLinks>
 
-## Producing a pictogram
+## Resources
 
-Don’t see the pictogram you need in the library? Make your own! Follow these guidelines to ensure visual consistency and proper formatting.
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+    subTitle="Productive pictogram: Master file"
+    href="https://github.com/carbon-design-system/carbon/raw/main/packages/pictograms/master/productive-pictogram-master.ai"
+    actionIcon="download"
+    >
 
-- All pictograms should be unique and not redundant with any existing pictograms in the system. Look through the pictograms in the [IBM Design Figma kit](https://www.figma.com/files/902667414815738345/project/35070940/%E2%9C%85-IBM-Design-Language?fuid=834811722516621897) to ensure that your proposed new pictogram is not already represented.
-- All pictograms should adhere to the [IBM Design Language visual style](/iconography/pictograms/design).
-- All pictograms should comply with IBM [accessibility standards](https://www.carbondesignsystem.com/guidelines/accessibility/overview).
-- All pictograms should be usable across all supported platforms and devices.
-- All pictograms should be understandable by a global audience of users, regardless of nationality or language.
+![Illustrator Icon](../../../images/resource-cards/illustrator.png)
 
-## Producing an icon
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+    subTitle="Pictogram: Figma library"
+    href="https://www.figma.com/design/PkUl9UBuvA41GPpyl84NBc/IBM%C2%AE-Pictogram-Library?m=auto"
+    actionIcon="launch"
+    >
 
-- Create a 32 x 32 px artboard for each pictogram.
-- 32 px pictograms should have 1 px padding.
-- Set your workspace up from the start to snap to grid.
-- Be aware of automatic alignments which can place vectors on uneven or half pixels.
-- The pictogram should be on the top-most layer in your artboard. Strokes should be grouped appropriately.
-- Make sure to properly name layers and artboards (these names will also be exported into the code).
+![Figma Icon](../../../images/resource-cards/figma.png)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+    subTitle="Productive pictogram: Starter file"
+    href="https://github.ibm.com/brand/Pictograms/raw/master/productive-pictogram-starter-file.ai"
+    actionIcon="download"
+    >
+
+![Illustrator Icon](../../../images/resource-cards/illustrator.png)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+    subTitle="Pictogram: Carbon library"
+    href="https://carbondesignsystem.com/elements/pictograms/library/"
+    actionIcon="launch"
+    >
+
+![Carbon Icon](../../../images/resource-cards/carbon.png)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+    subTitle="Expressive pictogram: Master file"
+    href="https://github.com/carbon-design-system/carbon/raw/main/packages/pictograms/master/expressive-pictogram-master.ai"
+    actionIcon="download"
+    >
+
+![Illustrator Icon](../../../images/resource-cards/illustrator.png)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+## Design and production
+
+Don’t see the pictogram you need in the library? Then make your own. Follow these guidelines to ensure visual consistency and proper formatting.
+
+All design submissions require review and approval before they can be published. Try your best to adhere to these guidelines, but note that your submitted design may change during the review and approval process.
+
+Non-designers may also submit requests using a visual reference or sketch of their desired icon and the brand team will assist with the design. Include context on where and how the icon will be used to help ensure the final design meets your needs.
+
+All pictograms should follow the guidelines outlined here:
+
+- Be unique and not redundant with any existing pictograms in the system. Look through the pictograms in the [library](https://carbondesignsystem.com/elements/pictograms/library/) to ensure that your proposed new pictogram isn’t already represented.
+- Adhere to the [IBM Design Language visual style](/iconography/pictograms/design).
+- Comply with IBM [accessibility standards](https://www.carbondesignsystem.com/guidelines/accessibility/overview).
+- Be usable across all supported platforms and devices.
+- Be understandable by a global audience of users, regardless of nationality or language.
+
+## Creating a pictogram
+
+Keep the following in mind when creating a pictogram:
+
+- Use the starter file and create the desired pictogram within the blank workspace artboard. Refer to the [Design tab](/iconography/pictograms/design) for detailed guidance.
+- Make sure 32px pictograms have 1px of padding.
+- Set your workspace up to snap to grid.
+- Be aware of automatic alignments, which can place vectors on uneven or half pixels.
+- Be sure the pictogram is on the top-most layer in your artboard. Strokes should be grouped appropriately.
+- Make sure to properly name layers and artboards. These names will also be exported into the code.
 
 ### Production-ready
 
-- To be considered production-ready, all pictogram submissions must be delivered in Adobe Illustrator format at 32 x 32 px with strokes kept intact.
+To be considered production-ready, all pictogram submissions must be delivered in Adobe Illustrator format at 32px x 32px with strokes kept intact.
+
 - Each artboard and the artwork within it must be aligned to the pixel grid wherever possible.
 - All strokes should be kept as is and not converted to shapes.
 - Group strokes logically whenever possible.
 
-## Exporting SVGs
+## Approval process
 
-### Export SVGs from Sketch.
+After following this guidance, you may submit your productive or expressive pictogram design draft for approval. The Brand and Design Systems team will review these pictograms and facilitate their publication in the IBM Design Language, Figma and Carbon libraries. These libraries are updated in sprints, not when the icon is approved, so you should account for that additional time in your project planning.
 
-1. Draw a 32 x 32 px artboard. 32 px pictograms should have 1 px padding.
-1. Place the pictogram squarely on the artboard, making sure it’s aligned to the pixel grid.
-1. Convert all strokes to outlines `Shift + ⌘ + O`.
-1. Select any overlapping shapes and click the `Union` icon from the top navigation to merge all of the shapes together.
-1. Make sure the icon is at `#000000` and has no additional styling.
-1. Select the entire artboard (not just the icon).
-1. Click `Make Exportable` at the bottom of the right toolbar in Sketch.
-1. In the `Export` widget select `SVG` in the format dropdown.
-1. Click `Export 'Artboard-Name'`.
-1. Name icon with the `#name--modifier` convention. (ex. copy.svg, copy—glyph.svg, add.svg, add—glyph.svg).
+<ol>
+<li>Submit your first design draft using one of the GitHub issue types, single, batch or update, linked at the bottom of this page. Follow the instructions in the issue to avoid possible delays in the review process.<br/><em>Note: Non-designers can submit visual references or sketches with context about how the icon will appear in lieu of a design file.</em></li>
+<li>The Brand and Design Systems team will review your submitted design and provide recommendations and design feedback within the GitHub issue.<br/>This review process can take up to 30 days from issue creation, depending on the number of icons submitted.</li>
+<li>When your submission is approved, your finalized pictogram will be moved into a production sprint, after which it will appear in the Carbon, IBM Design Language and Figma libraries.<br/><em>Note: Approved pictograms can be introduced into materials before they’re added to the libraries listed.</em></li>
+</ol>
 
-### Export SVGs from Adobe Illustrator.
-
-1. Draw a 32 x 32 px artboard. 32 px pictograms should have 1 px padding.
-1. Place the icon squarely on the artboard, making sure it’s aligned to the pixel grid.
-1. Expand all strokes `Object > Expand`.
-1. Select all overlapping shapes and click the `Unite` icon in the `Pathfinder` panel to merge all of the shapes together.
-1. Make sure the icon is at `#000000` and has no additional styling.
-1. Select `File > Save a Copy…` from the top navigation.
-1. On the `Format` dropdown select `SVG`.
-1. Below `Format` select `Use Artboard`, then select either all or a range of artboards, depending on your need.
-1. Click `Save`.
-1. The `SVG Options` dialog will then open.
-1. Make sure the preferences are the same as in the image below.
-1. SVG export options image
-
-<Row>
-<Column colMd={6} colLg={6}>
-
-![Adobe Illustrator export for svg](images/iconography-contribution-exportsvgfromai.png)
-
-</Column>
-</Row>
-
-## Contribution process
-
-Does your pictogram have potential for other materials at IBM? If so, please consider contributing to the design system. IBM welcomes pictogram contributions in the form of a pull request to our pictogram repository. For now, to make a pull request, **[please submit an issue in the repo](https://github.ibm.com/brand/Pictograms/issues/new/choose)** with the pictogram attached.
-
-Please note that Carbon contribution is **not required** in order to introduce a new pictogram into your materials. If your pictogram is determined to be broadly useful in Carbon and passes IBM Brand design reviews, then it may also be integrated into the design system.
-
-If your submission is accepted, the team will notify you. If changes are needed, you’ll need to create a new contribution issue after reworking it based on feedback from the Design System and Brand teams.
+<CardGroup className={cardMargin}>
+  <MiniCard
+    title="Pictogram request: Single"
+    href="https://github.ibm.com/brand/Pictograms/issues/new?assignees=&labels=picto%2Crequest%2Csingle&projects=&template=01-pictogram-request-single.yml&title=%5BPicto%5D+single%3A+Pictogram+name"
+    actionIcon="github"
+  />
+  <MiniCard
+    title="Pictogram request: Batch"
+    href="https://github.ibm.com/brand/Pictograms/issues/new?assignees=&labels=picto%2Crequest%2Cbatch&projects=&template=02-pictogram-request-batch.yml&title=%5BPicto%5D+batch%3A+Pictogram+batch+name"
+    actionIcon="github"
+  />
+  <MiniCard
+    title="Pictogram request: Update"
+    href="https://github.ibm.com/brand/Pictograms/issues/new?assignees=&labels=picto%2Crequest%2Cupdate&projects=&template=03-pictogram-request-update.yml&title=%5BPicto%5D+update%3A+Pictogram+name"
+    actionIcon="github"
+  />
+</CardGroup>

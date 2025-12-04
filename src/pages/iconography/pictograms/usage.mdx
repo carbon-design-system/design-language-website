@@ -7,55 +7,76 @@ tabs: [Library, Design, Usage, Contribute]
 ---
 
 import { Bee } from '@carbon/icons-react';
+import * as styles from './custom-table.module.scss'
 
 <PageDescription>
 
-Use pictograms to communicate in a glance, offer interactivity, or simplify
-complex ideas. Shown here are examples for many use cases such as websites,
-product UI’s, signage, events, and merchandise. When used appropriately, they
-become an elegant addition to the IBM experience.
+Use pictograms to communicate at a glance, offer interactivity or simplify complex ideas. This page shows examples for many use cases, such as websites, product UIs, signage, events and merchandise. When used appropriately, they become an elegant addition to the IBM experience.
 
 </PageDescription>
 
 <AnchorLinks>
-  <AnchorLink>Productive vs. expressive</AnchorLink>
+  <AnchorLink>Productive versus expressive</AnchorLink>
   <AnchorLink>Sizing</AnchorLink>
   <AnchorLink>Alignment</AnchorLink>
   <AnchorLink>Containers</AnchorLink>
   <AnchorLink>Clearance</AnchorLink>
   <AnchorLink>Color</AnchorLink>
+  <AnchorLink>Pictograms as illustrations</AnchorLink>
   <AnchorLink>Pictograms in action</AnchorLink>
 </AnchorLinks>
 
-## Productive vs. expressive
+## Productive versus expressive
 
-Productive and expressive pictograms are two distinct types of artwork that work
-best in different contexts. Productive pictograms are the go-to pictogram type
-for most contexts; they work across a variety of scales and environments whether
-physical or digital. They're illustrative and simple, allowing for one or many
-to be used to convey complex ideas.
+Productive and expressive pictograms are two distinct types of artwork that work best in different contexts. Productive pictograms are the go-to pictogram type for most contexts; they work across a variety of scales and environments, whether physical or digital. They’re illustrative and simple, enabling one or many to be used to convey complex ideas.
 
-Expressive pictograms represent a more dynamic option to the standard pictogram,
-using gradients, layering and transparency to build a sense of depth and
-movement in the artwork. Due to their visual complexity, expressive pictograms
-should be used selectively and only in scenarios that call for a graphic with
-strong presence.
+Expressive pictograms represent a more dynamic option to the standard pictogram, using gradients, layering and transparency to build a sense of depth and movement in the artwork. Due to their visual complexity, expressive pictograms should be used selectively and only in scenarios that call for a graphic with a strong presence.
+
+<Tabs>
+<Tab label="Productive">
 
 <ArtDirection>
 
-![Productive pictogram usage example](images/pictograms_usage_example_mobile.png)
-![Productive pictogram usage example](images/pictograms_usage_example.png)
+![Expressive pictogam example](images/usage_v2/01-idl-iconography-pictograms-usage.png)
+![Expressive pictogam example](images/usage_v2/01-idl-iconography-pictograms-usage.png)
 
 </ArtDirection>
-<Caption>Productive pictograms in context</Caption>
+
+<Row>
+<Column colMd={8} colLg={12} noGutterSm>
+  
+<div className={styles.tableContainer}>
+    <table className="page-table">
+      <thead>
+        <tr>
+          <th className={styles.tableHeader}>Productive pictograms in context</th>
+          <th className={styles.tableHeader}></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Use productive pictograms to deliver clear, consistent visual messaging across interfaces and environments. Their simplicity and adaptability make them ideal for most applications.</td>
+          <td/>
+        </tr>
+      </tbody>
+    </table>
+</div>
+
+</Column>
+</Row>
+
+</Tab>
+<Tab label="Expressive">
 
 <ArtDirection>
 
-![Expressive pictogram usage example](images/expressivePictograms_usage_example1_mobile.png)
-![Expressive pictogram usage example](images/expressivePictograms_usage_example1.png)
+![Expressive pictogam example](images/usage_v2/02-idl-iconography-pictograms-usage.png)
+![Expressive pictogam example](images/usage_v2/02-idl-iconography-pictograms-usage.png)
 
 </ArtDirection>
-<Caption>Expressive pictogram in context</Caption>
+
+</Tab>
+</Tabs>
 
 <DoDontRow>
 <DoDont caption="Treat pictograms as illustations with sufficient sizing.">
@@ -63,7 +84,7 @@ strong presence.
 ![Pictogram with sufficient sizing](images/13_Usage_do.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t use pictograms as a replacement for UI icons, that is not their purpose.">
+<DoDont type="dont" caption="Don’t use pictograms as a replacement for UI icons. It’s not their purpose.">
 
 ![Pictograms at UI icon scale](images/13_Usage_dont.svg)
 
@@ -73,12 +94,12 @@ strong presence.
 <DoDontRow>
 <DoDont caption="Use expressive pictograms as large, bold graphics.">
 
-![Expressive pictogram as hero graphic](images/expressivePictograms_usage_example3.svg)
+![Expressive pictogram as hero graphic](images/usage_v2/05-idl-iconography-pictograms-usage.png)
 
 </DoDont>
 <DoDont type="dont" caption="Don’t overuse expressive pictograms. They should be used sparingly.">
 
-![Don’t overuse expressive pictograms](images/13_Usage_5_dont.png)
+![Don’t overuse expressive pictograms](images/usage_v2/06-idl-iconography-pictograms-usage.png)
 
 </DoDont>
 </DoDontRow>
@@ -86,40 +107,47 @@ strong presence.
 <DoDontRow>
 <DoDont type="dont" caption="Don’t use productive pictograms as logos or in a lockup for product headers, merchandise or events.">
 
-![Don’t use pictograms as logos](images/13_Usage_3_dont.svg)
+![Don’t use pictograms as logos](images/usage_v2/07-idl-iconography-pictograms-usage.png)
 
 </DoDont>
 <DoDont type="dont" caption="Don’t use expressive pictograms as logos or in a lockup for product headers, merchandise or events.">
 
-![Don’t use pictograms as logos](images/13_Usage_3_dont2_v2.svg)
+![Don’t use pictograms as logos](images/usage_v2/08-idl-iconography-pictograms-usage.png)
 
 </DoDont>
 </DoDontRow>
 
 ## Sizing
 
-Pictograms are used in a range of sizes, the minimum being 48px while the
-maximum size may vary based on application. Use pictograms at their original
-sizes or scale at accepted increments.
+Pictograms are used in a range of sizes, the minimum being 48px. The maximum size may vary based on the application. Use pictograms at their original sizes or scale at accepted increments.
+
+<Tabs>
+<Tab label="Productive">
 
 <ArtDirection>
 
-![Differently sized productive pictograms](images/14_Sizing_2-mobile.svg)
-![Differently sized productive pictograms](images/14_Sizing_2.svg)
+![Expressive pictogam example](images/14_Sizing_2-mobile.svg)
+![Expressive pictogam example](images/usage_v2/09-idl-iconography-pictograms-usage.png)
 
 </ArtDirection>
+
+</Tab>
+<Tab label="Expressive">
+
 <ArtDirection>
 
-![Differently sized expressive pictograms](images/14_Sizing_3-mobile.svg)
-![Differently sized expressive pictograms](images/14_Sizing_3.svg)
+![Expressive pictogam example](images/usage_v2/10-idl-iconography-pictograms-usage.png)
+![Expressive pictogam example](images/usage_v2/10-idl-iconography-pictograms-usage.png)
 
 </ArtDirection>
+
+</Tab>
+</Tabs>
 
 ## Alignment
 
-Pictograms are optically aligned to the center of the icon grid within the
-boundary box. Centering ensures all pictograms will be aligned correctly when
-exported and used side by side.
+Pictograms are optically aligned to the center of the icon grid within the boundary box. 
+Centering ensures that all pictograms will be aligned correctly when exported and used side by side.
 
 <ArtDirection>
 
@@ -130,8 +158,7 @@ exported and used side by side.
 
 ## Containers
 
-Pictograms can be represented in a circular or rectangular container calculated
-based on the padding size.
+Pictograms can be represented in a circular or rectangular container calculated based on the padding size.
 
 <ArtDirection>
 
@@ -140,15 +167,8 @@ based on the padding size.
 
 </ArtDirection>
 
-<ArtDirection>
-
-![Padding Example](images/16_Containers_2-mobile.svg)
-![Padding Example](images/16_Containers_2.svg)
-
-</ArtDirection>
-
 <DoDontRow>
-<DoDont caption="Keep pictograms at scale and optically center in container when necessary.">
+<DoDont caption="Keep pictograms at scale and optically centered in the container whenever possible.">
 
 ![keep scale and optically center pictograms](images/16_Containers_3_do.svg)
 
@@ -161,7 +181,7 @@ based on the padding size.
 </DoDontRow>
 
 <DoDontRow>
-<DoDont caption="Do use accepted shapes: circle or square for containers.">
+<DoDont caption="Do use accepted shapes—circle or square—for containers.">
 
 ![use accepted container shapes](images/16_Containers_5_do.svg)
 
@@ -179,7 +199,7 @@ based on the padding size.
 ![optically center align pictograms in containers](images/16_Containers_7_do.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t crop pictograms in container.">
+<DoDont type="dont" caption="Don’t crop pictograms in the container.">
 
 ![never crop pictograms in container](images/16_Containers_8_dont.svg)
 
@@ -188,63 +208,33 @@ based on the padding size.
 
 ## Clearance
 
-When designing with pictograms, all artwork should include minimum padding based
-on 1/4 of the scaled grid size. The padding can be increased by increments of
-1/4 grid units.
+When designing with pictograms, all artwork should include minimum padding based on 1/4 of the scaled grid size. 
+The padding can be increased by increments of 1/4 grid units.
 
 <ArtDirection>
 
-![padding applies regardless of container shape](images/17_Clearance_3-mobile.svg)
+![padding applies regardless of container shape](images/usage_v2/19-idl-iconography-pictograms-usage.png)
 
-![padding applies regardless of container shape](images/17_Clearance_3.svg)
-
-</ArtDirection>
-
-<Caption>
-  Padding and spacing rules apply whether using pictograms with or without
-  containers.
-</Caption>
-
-<ArtDirection>
-
-![padding starts at container edge](images/17_Clearance_1-mobile.svg)
-
-![padding starts at container edge](images/17_Clearance_1.svg)
+![padding applies regardless of container shape](images/usage_v2/19-idl-iconography-pictograms-usage.png)
 
 </ArtDirection>
-
-<Caption>Padding starts at the edge of the container shape.</Caption>
-
-<ArtDirection>
-
-![use one fourth grid padding on circle or square containers](images/17_Clearance_2-mobile.svg)
-
-![use one fourth grid padding on circle or square containers](images/17_Clearance_2.svg)
-
-</ArtDirection>
-
-<Caption>Padding is the same for both circle and square containers.</Caption>
 
 <DoDontRow>
 <DoDont caption="Follow the clearance rule to allow for legibility and touch.">
 
-![allow clearance for legibility and touch](images/17_Clearance_4_do.svg)
+![allow clearance for legibility and touch](images/usage_v2/20-idl-iconography-pictograms-usage.png)
 
 </DoDont>
 <DoDont type="dont" caption="Don’t collapse the pictogram clearance area.">
 
-![keep pictogram clearance area](images/17_Clearance_5_dont.svg)
+![keep pictogram clearance area](images/usage_v2/21-idl-iconography-pictograms-usage.png)
 
 </DoDont>
 </DoDontRow>
 
 ## Color
 
-Pictograms on backgrounds must always pass color contrast requirements. When
-pairing pictograms with backgrounds, follow color family rules to ensure that
-the pictogram does not clash with or blend into the background. Dark background
-colors should range between values 70–100 while light backgrounds should not
-exceed values 10–20.
+Pictograms on backgrounds must always pass color contrast requirements. When pairing pictograms with backgrounds, follow color-family rules to ensure that the pictogram doesn’t clash with or blend into the background. Dark background colors should range between values 70–100 while light backgrounds should not exceed values 10–20.
 
 <ArtDirection>
 
@@ -280,12 +270,12 @@ exceed values 10–20.
 </DoDontRow>
 
 <DoDontRow>
-<DoDont type="dont" caption="Don’t place gradient picto’s on backgrounds that are not 80 and above or 20 and below.">
+<DoDont type="dont" caption="Don’t place gradient pictograms on backgrounds that are not 80 and above or 20 and below.">
 
 ![pictogram background example](/images/10_Backgrounds_6_dont.svg)
 
 </DoDont>
-<DoDont type="dont" caption="Don’t place gradient picto’s on gradient backgrounds.">
+<DoDont type="dont" caption="Don’t place gradient pictograms on gradient backgrounds.">
 
 ![pictogram background example](/images/10_Backgrounds_7_dont.svg)
 
@@ -294,14 +284,12 @@ exceed values 10–20.
 
 ### Expressive pictogram color
 
-Expressive pictograms have four color themes: dark, light, monochromatic dark,
-and monochromatic light. To ensure accessibility, use the color theme that
-corresponds with the pictogram’s background color.
+Expressive pictograms have four color themes: dark, light, monochromatic dark  and monochromatic light. To ensure accessibility, use the color theme that corresponds with the pictogram’s background color.
 
 <ArtDirection>
 
-![Expressive pictogram in 4 color themes](images/expressivePictograms_usage-color_mobile.svg)
-![Expressive pictogram icon in 4 color themes](images/expressivePictograms_usage-color.svg)
+![Expressive pictogram in 4 color themes](images/usage_v2/29-idl-iconography-pictograms-usage.png)
+![Expressive pictogram icon in 4 color themes](images/usage_v2/29-idl-iconography-pictograms-usage.png)
 
 </ArtDirection>
 
@@ -325,7 +313,7 @@ corresponds with the pictogram’s background color.
 </DoDont>
 </DoDontRow>
 <DoDontRow>
-<DoDont type="dont" caption="Don’t place expressive pictograms on backgrounds that aren't 80 and above or 20 and below.">
+<DoDont type="dont" caption="Don’t place expressive pictograms on backgrounds between 30 and 70. Use the monochromatic version for this case.">
 
 ![Expressive pictogram on Blue 60](images/expressivePictograms_usage-colorDont_3.svg)
 
@@ -337,43 +325,75 @@ corresponds with the pictogram’s background color.
 </DoDont>
 </DoDontRow>
 
-## Pictograms in action
+## Pictograms as illustrations
+
+Pictograms can serve as a base for more complex illustrations, helping speed up design and ensure consistency. They can also be scaled for workspace environments, such as wall art, bringing the brand into the environment in a bold, cohesive way.
 
 <ImageGallery>
 
 <ImageGalleryImage alt="pictogram on sign" title="Pictogram on sign" col={8}>
 
-![Pictogram on Sign](images/18_In-Context_1.jpg)
+![](images/usage_v2/34-idl-iconography-pictograms-usage-v2.png)
 
 </ImageGalleryImage>
 
-<ImageGalleryImage alt="expressive pictogram on web" title="Expressive pictogram on web" col={4}>
+<ImageGalleryImage alt="pictogram on sign" title="Pictogram on sign" col={4}>
 
-![Expressive pictogram on web](images/expressivePictograms_usage_example2.png)
-
-</ImageGalleryImage>
-
-<ImageGalleryImage alt="pictogram on hat" title="Pictogram on hat" col={4}>
-
-![Pictogram on hat](images/18_In-Context_3.jpg)
+![](images/usage_v2/35-idl-iconography-pictograms-usage.png)
 
 </ImageGalleryImage>
 
-<ImageGalleryImage alt="expressive pictogram on poster" title="Expressive pictogram on poster" col={8}>
+</ImageGallery>
 
-![Expressive pictogram on poster](images/18_In-Context_4.jpg)
+## Pictograms in action
+
+<ImageGallery>
+
+<ImageGalleryImage alt="" title="Pictogram on sign" col={12}>
+
+![](images/usage_v2/36-idl-iconography-pictograms-usage.png)
 
 </ImageGalleryImage>
 
-<ImageGalleryImage alt="pictogram on card" title="Pictogram on card" col={8}>
+<ImageGalleryImage alt="" title="Expressive pictogram on web" col={4}>
 
-![Pictogram on card](images/18_In-Context_7.svg)
+![](images/usage_v2/37-idl-iconography-pictograms-usage.png)
 
 </ImageGalleryImage>
 
-<ImageGalleryImage alt="pictogram on wallpaper" title="Pictogram on wallpaper" col={4}>
+<ImageGalleryImage alt="" title="Pictogram on hat" col={8}>
 
-![Pictogram on wallpaper](images/18_In-Context_8.jpg)
+![](images/usage_v2/38-idl-iconography-pictograms-usage.png)
+
+</ImageGalleryImage>
+
+<ImageGalleryImage alt="" title="Expressive pictogram on poster" col={8}>
+
+![](images/usage_v2/39-idl-iconography-pictograms-usage.png)
+
+</ImageGalleryImage>
+
+<ImageGalleryImage alt="" title="Pictogram on card" col={4}>
+
+![](images/usage_v2/40-idl-iconography-pictograms-usage.png)
+
+</ImageGalleryImage>
+
+<ImageGalleryImage alt="" title="Pictogram on wallpaper" col={12}>
+
+![](images/usage_v2/41-idl-iconography-pictograms-usage.png)
+
+</ImageGalleryImage>
+
+<ImageGalleryImage alt="" title="Pictogram on wallpaper" col={4}>
+
+![](images/usage_v2/42-idl-iconography-pictograms-usage.png)
+
+</ImageGalleryImage>
+
+<ImageGalleryImage alt="" title="Pictogram on wallpaper" col={8}>
+
+![](images/usage_v2/43-idl-iconography-pictograms-usage.png)
 
 </ImageGalleryImage>
 

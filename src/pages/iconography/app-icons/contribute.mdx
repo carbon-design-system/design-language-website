@@ -1,0 +1,133 @@
+---
+title: App icons
+description:
+  App icons are visual symbols that represent products or services. They allow
+  users to identify apps at a glance while expressing our brand.
+tabs: [Library, Design, Usage, Contribute]
+---
+
+import {customList, cardMargin} from './Icons.module.scss'
+
+<PageDescription>
+
+When a new app icon is needed, refer to the design and production guidelines outlined here to create it. 
+Learn about the contribution and approval process required to add it to the official app icon library.
+
+</PageDescription>
+
+<AnchorLinks>
+  <AnchorLink>Resources</AnchorLink>
+  <AnchorLink>Design and production</AnchorLink>
+  <AnchorLink>Creating an app icon</AnchorLink>
+  <AnchorLink>Approval process</AnchorLink>
+</AnchorLinks>
+
+## Resources
+
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="App icon: Starter file"
+      aspectRatio="2:1"
+      href="https://github.ibm.com/brand/App-icons/raw/master/app-icon-starter-file.ai"
+      actionIcon="download"
+      >
+
+![Adobe Illustrator icon](../../../images/resource-cards/illustrator.png)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+  <ResourceCard
+    subTitle="App icon: Figma library"
+    aspectRatio="2:1"
+    href="https://www.figma.com/design/o4FfbuyUsx948IgGJL42r4/IBM%C2%AE-App-Icon-Library?m=auto"
+    actionIcon="launch"
+    >
+
+![Figma icon](../../../images/resource-cards/figma.png)
+
+  </ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+  <ResourceCard
+    subTitle="App icon: Builder"
+    aspectRatio="2:1"
+    href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Builder.ai"
+    actionIcon="download"
+    >
+
+![Adobe Illustrator icon](../../../images/resource-cards/illustrator.png)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+## Design and production
+
+Don’t see a useful, available app icon in the master? Then make your own. Follow these guidelines to ensure visual consistency and proper formatting.
+
+All design submissions require review and approval before they can be published. Try your best to adhere to these guidelines, but note that your submitted design may change during the review and approval process.
+
+Non-designers may submit requests using a visual reference or sketch of their desired icon, and the brand team will assist with the design. Include context about where and how the icon will be used to help ensure that the final design meets your needs.
+
+All app icons should follow the guidelines outlined here:
+
+- Be unique and not redundant with any existing app icon in the system. Look through the icons in the [library](/iconography/app-icons/library) to ensure that your proposed new icon won’t be confused with other app icons.
+- Adhere to the [IBM Design Language visual style](/).
+- Comply with IBM [accessibility standards](https://www.carbondesignsystem.com/guidelines/accessibility/overview).
+- Be usable across all supported platforms and devices.
+- Be understandable by a global audience of users, regardless of nationality or language.
+
+## Creating an app icon
+
+Keep the following in mind when creating an app icon:
+
+- Use the starter file and create the desired icon within the blank workspace artboards. Refer to the [Design tab](/iconography/app-icons/design/) for detailed guidance.
+- Note that 32px app icons should have 2px padding.
+- Set your workspace up to snap to grid.
+- Be aware of automatic alignments that can place vectors on uneven or half pixels.
+- Group app icon layers completely. The icon should be placed in the _Build icon_ layer in the Builder file when submitted for review.
+
+### Production-ready
+
+To be considered Production-ready, all app icon submissions must be delivered in the Adobe Illustrator Starter file provided in the [Resources](#resources) section.
+
+- Icons should be at whole pixels. No decimals are allowed in _x_ and _y_ coordinates or width and height fields.
+- Each artboard and the artwork within it must be aligned to the pixel grid.
+- All strokes must be expanded and at full pixel values.
+- All possible shapes and paths should be combined.
+
+## Approval process
+
+After following this guidance, you may submit your app icon design draft for approval. The Brand and Design Systems team will review these app icons and facilitate their publication in the IBM Design Language and Figma libraries. The libraries are updated in sprints, not when the icon is approved, so you should account for that additional time in your project planning.
+
+<ol>
+<li>Submit your first design draft using one of the GitHub issue types, single, batch, update or assignment, linked at the bottom of the page. Follow the instructions in the issue to avoid possible delays in the review process. <br/>
+<em>Note: Non-designers can submit visual references or sketches with context about how the icon will appear in lieu of a design file.</em></li>
+<li>The Brand and Design Systems team will review your submitted design and provide recommendations and design feedback within the GitHub issue.<br/>This review process can take up to 30 days from issue creation, depending on the number of icons submitted. </li>
+<li>When your submission is approved, you will receive a Box link with the exported files for the app icon. The Brand team will move the icon into a production sprint, after which it will appear in the IBM Design Language and Figma libraries.<br/><em>Note: Approved app icons can be introduced into materials before they’re added to the libraries listed.</em></li>
+</ol>
+
+<CardGroup className={cardMargin}>
+  <MiniCard
+    title="App icon request: Single"
+    href="https://github.ibm.com/brand/App-icons/issues/new?assignees=&labels=app-icon%2Crequest%2Csingle&projects=&template=01-app-icon-request-single.yml&title=%5BApp+icon%5D+single%3A+App+name"
+    actionIcon="github"
+  />
+  <MiniCard
+    title="App icon request: Batch"
+    href="https://github.ibm.com/brand/App-icons/issues/new?assignees=&labels=app-icon%2Crequest%2Cbatch&projects=&template=02-app-icon-request-batch.yml&title=%5BApp+icon%5D+batch%3A+App+name"
+    actionIcon="github"
+  />
+  <MiniCard
+    title="App icon request: Update"
+    href="https://github.ibm.com/brand/App-icons/issues/new?assignees=&labels=app-icon%2Crequest%2Cupdate&projects=&template=03-app-icon-request-update.yml&title=%5BApp+icon%5D+update%3A+App+name"
+    actionIcon="github"
+  />
+  <MiniCard
+    title="App icon request: Assign"
+    href="https://github.ibm.com/brand/App-icons/issues/new?assignees=&labels=app-icon%2Cassignment&projects=&template=04-app-icon-request-assignment.yml&title=%5BApp+icon%5D+assignment%3A+App+name"
+    actionIcon="github"
+  />
+</CardGroup>

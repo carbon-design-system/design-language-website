@@ -1,0 +1,32 @@
+.table-container {
+  table thead {
+    border-bottom: 1px solid $ui-03;
+  }
+
+  table tbody tr {
+    border-bottom: none;
+  }
+
+  table tbody tr td {
+    border-bottom: none;
+    line-height: 1.1rem;
+    min-width: 1rem;
+  }
+}
+
+.table-header {
+  border-top: 1px solid $ui-03;
+  width: 90%;
+  background-color: #ffffff !important;
+}
+
+.upper-table {
+  table thead tr th {
+    background-color: #ffffff !important;
+  }
+}
+
+.second-header {
+  width: 90%;
+  background-color: #ffffff !important;
+}
