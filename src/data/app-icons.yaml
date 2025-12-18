@@ -13975,3 +13975,48 @@
     - end to end
     - monitoring
     - integration
+- name: ZeroTrustConnect
+  friendly_name: IBM® Zero Trust Connect
+  category: Stroke style
+  aliases:
+    - Zero Trust Connect
+    - secure connectivity
+    - zero trust
+    - private connection pathways
+    - protective DNS
+    - firewall
+    - lock
+    - sieve
+    - filter
+    - gateway
+- name: AIOptimizerForZ
+  friendly_name: IBM® AI Optimizer for Z
+  category: Stroke style
+  aliases:
+    - AI Optimizer for Z
+    - inference
+    - serving AI models
+    - performance optimization
+    - hybrid inferencing
+    - monitoring
+- name: ZCodeScan
+  friendly_name: IBM® ZCodeScan
+  category: Stroke style
+  aliases:
+    - ZCodeScan
+    - mainframe static application security testing
+    - mainframe code quality
+    - code review
+    - code security audit
+    - code analysis
+    - maintainability metrics
+- name: CloudDatabasesForValkey
+  friendly_name: IBM Cloud® Databases for Valkey
+  category: Stroke style
+  aliases:
+    - Cloud Databases for Valkey
+    - Database
+    - Data
+    - Cloud
+    - Key
+    - Val
