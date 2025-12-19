@@ -14012,7 +14012,7 @@
     - maintainability metrics
 - name: CloudDatabasesForValkey
   friendly_name: IBM Cloud® Databases for Valkey
-  category: Stroke style
+  category: IBM Plex® style
   aliases:
     - Cloud Databases for Valkey
     - Database
