@@ -178,6 +178,56 @@
     U+04EE-04F5, U+04F8-04F9;
 }
 
+//Traditional chinese
+@font-face {
+  font-family: 'IBM Plex Sans TC';
+  font-weight: 100;
+  src: url('@ibm/plex-sans-tc/fonts/complete/woff2/hinted/IBMPlexSansTC-Thin.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans TC';
+  font-weight: 200;
+  src: url('@ibm/plex-sans-tc/fonts/complete/woff2/hinted/IBMPlexSansTC-ExtraLight.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans TC';
+  font-weight: 300;
+  src: url('@ibm/plex-sans-tc/fonts/complete/woff2/hinted/IBMPlexSansTC-Light.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans TC';
+  font-weight: 400;
+  src: url('@ibm/plex-sans-tc/fonts/complete/woff2/hinted/IBMPlexSansTC-Regular.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans TC';
+  font-weight: 500;
+  src: url('@ibm/plex-sans-tc/fonts/complete/woff2/hinted/IBMPlexSansTC-Medium.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans TC';
+  font-weight: 600;
+  src: url('@ibm/plex-sans-tc/fonts/complete/woff2/hinted/IBMPlexSansTC-SemiBold.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans TC';
+  font-weight: 700;
+  src: url('@ibm/plex-sans-tc/fonts/complete/woff2/hinted/IBMPlexSansTC-Bold.woff2')
+    format('woff2');
+}
+
 // Fallback
 @font-face {
   font-family: 'IBM Plex Sans';
