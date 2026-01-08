@@ -1,12 +1,12 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import React, { useRef, useContext, useState } from 'react';
 import { pascalCase } from 'change-case';
-import { Code, Download } from '@carbon/icons-react';
+import { Code, Download, Launch } from '@carbon/icons-react';
 import { Button } from 'carbon-components-react';
 import copy from 'copy-to-clipboard';
 import cx from 'classnames';
 import { LibraryContext } from './LibraryProvider';
-import {container, trigger, hidden, tooltip} from './ActionBar.module.scss';
+import { container, trigger, hidden, tooltip } from './ActionBar.module.scss';
 
 const ActionBar = ({
   name,
@@ -49,6 +49,14 @@ const ActionBar = ({
     copy(component, { format: 'text/plain' });
   };
 
+  /* 
+    AILabel icon is customized to display a launch icon 
+    and it links to the React Storybook component
+  */
+  const renderLaunchIcon = name === 'ai-label';
+  const aiLabelComponentURL =
+    'https://react.carbondesignsystem.com/?path=/docs/components-ailabel--overview';
+
   const tooltipAlignment = isLastCard ? 'end' : 'center';
 
   return (
@@ -59,20 +67,22 @@ const ActionBar = ({
       className={cx(container, {
         [hidden]: !isActionBarVisible,
       })}>
-      <Button
-        kind="ghost"
-        size="small"
-        hasIconOnly
-        tooltipAlignment={tooltipAlignment}
-        tooltipPosition="top"
-        iconDescription="Download SVG"
-        data-attribute1={`Download ${name}.svg file`}
-        renderIcon={Download}
-        onFocus={() => setIsActionBarVisible(true)}
-        onClick={handleDownload}
-        className={tooltip}
-        triggerClassName={trigger}
-      />
+      {!renderLaunchIcon && (
+        <Button
+          kind="ghost"
+          size="small"
+          hasIconOnly
+          tooltipAlignment={tooltipAlignment}
+          tooltipPosition="top"
+          iconDescription="Download SVG"
+          data-attribute1={`Download ${name}.svg file`}
+          renderIcon={Download}
+          onFocus={() => setIsActionBarVisible(true)}
+          onClick={handleDownload}
+          className={tooltip}
+          triggerClassName={trigger}
+        />
+      )}
       {shouldShowCopyButton && (
         <Button
           kind="ghost"
@@ -84,6 +94,22 @@ const ActionBar = ({
           renderIcon={Code}
           onClick={handleCopy}
           onFocus={() => setIsActionBarVisible(true)}
+          className={tooltip}
+          triggerClassName={trigger}
+        />
+      )}
+      {renderLaunchIcon && (
+        <Button
+          kind="ghost"
+          size="sm"
+          hasIconOnly
+          tooltipAlignment={tooltipAlignment}
+          tooltipPosition="top"
+          iconDescription="View component"
+          renderIcon={Launch}
+          onFocus={() => setIsActionBarVisible(true)}
+          href={aiLabelComponentURL}
+          target="_blank"
           className={tooltip}
           triggerClassName={trigger}
         />
