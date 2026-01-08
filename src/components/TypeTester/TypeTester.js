@@ -64,6 +64,10 @@ const languageSample = [
     language: 'chinese',
     content: '建立關係',
   },
+  {
+    language: 'japanese',
+    content: '重い箱が素早いワルツやジグを踊ります。',
+  },
 ];
 
 const commonFontWeights = [
