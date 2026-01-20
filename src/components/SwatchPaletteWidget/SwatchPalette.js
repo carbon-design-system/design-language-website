@@ -25,7 +25,7 @@ const PALETTES = {
     100: {
       hex: black,
       pms: 'Black 6',
-      cmyk: 'c60 m40 y40 k100',
+      cmyk: 'c75 m68 y67 k90',
     },
   },
   blue: {
@@ -84,52 +84,52 @@ const PALETTES = {
     10: {
       hex: coolGray[10],
       pms: '656',
-      cmyk: 'c3 m2 y2 k0',
+      cmyk: 'c4 m2 y1 k0',
     },
     20: {
       hex: coolGray[20],
       pms: '650',
-      cmyk: 'c13 m9 y10 k0',
+      cmyk: 'c15 m10 y7 k0',
     },
     30: {
       hex: coolGray[30],
       pms: '537',
-      cmyk: 'c25 m20 y21 k0',
+      cmyk: 'c27 m18 y15 k0',
     },
     40: {
       hex: coolGray[40],
       pms: '2162',
-      cmyk: 'c38 m30 y31 k0',
+      cmyk: 'c40 m30 y26 k0',
     },
     50: {
       hex: coolGray[50],
       pms: '2163',
-      cmyk: 'c47 m39 y39 k4',
+      cmyk: 'c50 m38 y34 k2',
     },
     60: {
       hex: coolGray[60],
       pms: '2164',
-      cmyk: 'c57 m48 y48 k15',
+      cmyk: 'c61 m48 y43 k13',
     },
     70: {
       hex: coolGray[70],
       pms: '2165',
-      cmyk: 'c63 m55 y55 k30',
+      cmyk: 'c68 m56 y51 k29',
     },
     80: {
       hex: coolGray[80],
       pms: '2166',
-      cmyk: 'c68 m61 y60 k49',
+      cmyk: 'c73 m63 y56 k47',
     },
     90: {
       hex: coolGray[90],
       pms: '7545',
-      cmyk: 'c71 m64 y64 k68',
+      cmyk: 'c76 m66 y60 k64',
     },
     100: {
       hex: coolGray[100],
       pms: '7546',
-      cmyk: 'c73 m67 y65 k79',
+      cmyk: 'c76 m68 y63 k78',
     },
   },
   cyan: {
@@ -188,52 +188,52 @@ const PALETTES = {
     10: {
       hex: gray[10],
       pms: 'Cool Gray 1',
-      cmyk: 'c4 m2 y1 k0',
+      cmyk: 'c3 m2 y2 k0',
     },
     20: {
       hex: gray[20],
       pms: 'Cool Gray 2',
-      cmyk: 'c15 m10 y7 k0',
+      cmyk: 'c13 m9 y10 k0',
     },
     30: {
       hex: gray[30],
       pms: 'Cool Gray 3',
-      cmyk: 'c27 m18 y15 k0',
+      cmyk: 'c25 m20 y21 k0',
     },
     40: {
       hex: gray[40],
       pms: 'Cool Gray 4',
-      cmyk: 'c40 m30 y26 k0',
+      cmyk: 'c38 m30 y31 k0',
     },
     50: {
       hex: gray[50],
       pms: 'Cool Gray 6',
-      cmyk: 'c50 m38 y34 k2',
+      cmyk: 'c47 m39 y39 k4 ',
     },
     60: {
       hex: gray[60],
       pms: 'Cool Gray 7',
-      cmyk: 'c61 m48 y43 k13',
+      cmyk: 'c57 m48 y48 k15',
     },
     70: {
       hex: gray[70],
       pms: 'Cool Gray 8',
-      cmyk: 'c68 m56 y51 k29',
+      cmyk: 'c63 m55 y55 k30',
     },
     80: {
       hex: gray[80],
       pms: 'Cool Gray 9',
-      cmyk: 'c73 m63 y56 k47',
+      cmyk: 'c68 m61 y60 k49',
     },
     90: {
       hex: gray[90],
       pms: 'Cool Gray 10',
-      cmyk: 'c76 m66 y60 k64',
+      cmyk: 'c71 m64 y64 k68',
     },
     100: {
       hex: gray[100],
       pms: 'Cool Gray 11',
-      cmyk: 'c76 m68 y63 k78',
+      cmyk: 'c73 m67 y65 k79',
     },
   },
   green: {
@@ -307,7 +307,7 @@ const PALETTES = {
     40: {
       hex: magenta[40],
       pms: '190',
-      cmyk: 'c0 m69 y15 k0',
+      cmyk: 'c0 m69 y5 k0',
     },
     50: {
       hex: magenta[50],
@@ -344,7 +344,7 @@ const PALETTES = {
     40: {
       hex: orange,
       pms: '1575',
-      cmyk: 'c42 m54 y0 k0',
+      cmyk: 'c0 m60 y91 k0',
     },
   },
   purple: {
@@ -428,7 +428,7 @@ const PALETTES = {
     60: {
       hex: red[60],
       pms: '185',
-      cmyk: 'c8 m100 y100 k0',
+      cmyk: 'c8 m100 y97 k0',
     },
     70: {
       hex: red[70],
@@ -448,7 +448,7 @@ const PALETTES = {
     100: {
       hex: red[100],
       pms: '504',
-      cmyk: 'c54 m77 y68 k69',
+      cmyk: 'c56 m76 y68 k79',
     },
   },
   teal: {
@@ -460,7 +460,7 @@ const PALETTES = {
     20: {
       hex: teal[20],
       pms: '317',
-      cmyk: 'c11 m0 y5 k0',
+      cmyk: 'c27 m0 y5 k0',
     },
     30: {
       hex: teal[30],
@@ -566,7 +566,7 @@ const PALETTES = {
     30: {
       hex: yellow,
       pms: '116',
-      cmyk: 'c34 m44 y0 k0',
+      cmyk: 'c6 m22 y99 k0',
     },
   },
 };
