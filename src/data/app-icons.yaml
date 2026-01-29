@@ -9441,14 +9441,19 @@
   category: Stroke style
   aliases:
     - TruataCalibrate
-- name: WatsonStudio
-  friendly_name: Unassigned
+- name: AutoAI
+  friendly_name: IBM® AutoAI
   category: Stroke style
   aliases:
-    - WatsonStudio
+    - AutoAI
     - brain
     - connection
     - network
+    - AI
+    - RAG
+    - Machine Learning
+    - Generative AI
+    - prompt engineering
 - name: QuantumSafeAdvisor
   friendly_name: IBM Quantum Safe™ Advisor
   category: Stroke style
@@ -14020,3 +14025,33 @@
     - Cloud
     - Key
     - Val
+- name: zSystemsPackagingTool
+  friendly_name: IBM® zSystems® Packaging Tool
+  category: Stroke style
+  aliases:
+    - zSystems Packaging Tool
+    - zSPT
+    - colony
+    - build
+    - packaging service
+    - CBT
+    - zPackage
+    - zService
+    - z/OS
+    - z/VMname
+- name: PromptLab
+  friendly_name: IBM® Prompt Lab
+  category: Stroke style
+  aliases:
+    - Prompt Lab
+    - AI 
+    - foundation models
+    - chat
+- name: ModelGateway
+  friendly_name: IBM® Model Gateway
+  category: Stroke style
+  aliases:
+    - Model Gateway
+    - Foundation models
+    - models
+    - gateway
