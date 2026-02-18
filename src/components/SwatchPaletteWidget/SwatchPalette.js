@@ -448,7 +448,7 @@ const PALETTES = {
     100: {
       hex: red[100],
       pms: '504',
-      cmyk: 'c56 m76 y68 k79',
+      cmyk: 'c54 m77 y68 k79',
     },
   },
   teal: {
