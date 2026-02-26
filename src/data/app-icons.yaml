@@ -2622,7 +2622,7 @@
     - Bar
     - Analytics
 - name: SPSSStatistics
-  friendly_name: IBM SPSS® Statistics
+  friendly_name: IBM® SPSS® Statistics
   category: Fill style
   aliases:
     - Data
@@ -14055,3 +14055,69 @@
     - Foundation models
     - models
     - gateway
+- name: Bob
+  friendly_name: IBM® Bob
+  category: Stroke style
+  aliases:
+    - Bob
+    - AI
+    - developer
+    - coding buddy
+    - code
+    - AI assistance
+- name: zTransactionProcessingFacilityDebugger
+  friendly_name: IBM® z/Transaction Processing Facility Debugger
+  category: Stroke style
+  aliases:
+    - z Transaction Processing Facility Debugger
+    - Z
+    - debug
+    - bug
+    - stack
+    - debugger
+    - GDB
+- name: zTransactionProcessingFacilityDevelopment
+  friendly_name: IBM® z/Transaction Processing Facility Development
+  category: Stroke style
+  aliases:
+    - z Transaction Processing Facility Development
+    - Z
+    - code
+    - build
+    - develop
+    - maketpf
+    - bldtpf
+    - loadtpf
+- name: AskIBM
+  friendly_name: AskIBM
+  category: Stroke style
+  aliases:
+    - AskIBM
+    - AI
+    - Bee
+    - enterprise
+    - IT
+- name: SPSSStatisticsCleanUtility
+  friendly_name: IBM® SPSS® Statistics Clean Utility
+  category: Stroke style
+  aliases:
+    - SPSS Statistics Clean Utility
+    - cleanup
+    - reset
+    - uninstall
+    - clear preferences
+    - settings cleanup
+    - support tool
+    - arrow
+    - sigma
+- name: WatsonxWorkshop
+  friendly_name: IBM watsonx® Workshop
+  category: Stroke style
+  aliases:
+    - watsonx Workshop
+    - tutor
+    - practice
+    - interactive
+    - AI
+    - tool
+    - workshop
