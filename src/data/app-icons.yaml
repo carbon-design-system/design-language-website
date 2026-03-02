@@ -13542,11 +13542,11 @@
     - fid
     - pchid
     - iocp
-- name: Db2IntelligenceCenter
-  friendly_name: IBM® Db2® Intelligence Center
+- name: Db2GeniusHub
+  friendly_name: IBM® Db2® Genius Hub
   category: Stroke style
   aliases:
-    - IBM Db2 Intelligence Center
+    - IBM Db2 Genius Hub
     - Db2
     - analytics
     - insights
