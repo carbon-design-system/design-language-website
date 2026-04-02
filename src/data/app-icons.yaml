@@ -13625,7 +13625,7 @@
     - cost
     - AIOps
 - name: RedHatAIInferenceOnIBMCloud
-  friendly_name: Red Hat AI Inference on IBM Cloud®
+  friendly_name: Red Hat® AI Inference on IBM Cloud®
   category: Stroke style
   aliases:
     - Red Hat AI Inference on IBM Cloud
