@@ -11230,14 +11230,14 @@
     - Statistics 
     - Performance Analysis 
     - Capacity Planning
-- name: CloudSandboxForIntel
-  friendly_name: IBM Cloud® Sandbox for Intel
+- name: CloudSandbox
+  friendly_name: IBM Cloud® Sandbox
   category: Stroke style
   aliases: 
     - data
     - cogwheel
     - settings
-    - IBM Cloud Sandbox for Intel
+    - IBM Cloud Sandbox
     - sandbox
     - performance
     - benchmark
@@ -13624,14 +13624,20 @@
     - capacity
     - cost
     - AIOps
-- name: RedHatAIInstructLabOnIBMCloud
-  friendly_name: Red Hat AI InstructLab® on IBM Cloud®
+- name: RedHatAIInferenceOnIBMCloud
+  friendly_name: Red Hat® AI Inference on IBM Cloud®
   category: Stroke style
   aliases:
-    - Red Hat AI InstructLab on IBM Cloud
+    - Red Hat AI Inference on IBM Cloud
     - LLM
-    - machine learning
-    - gen AI application
+    - foundation models
+    - inference
+    - model as a service
+    - openai api
+    - synthetic data generation
+    - model hosting
+    - model serving
+    - model service
 - name: watsonxCodeAssistantforZUnderstand
   friendly_name: IBM watsonx® Code Assistant™ for Z Understand
   category: Stroke style
@@ -14121,3 +14127,25 @@
     - AI
     - tool
     - workshop
+- name: CriticalTrust
+  friendly_name: IBM® CriticalTrust
+  category: Stroke style
+  aliases:
+    - CriticalTrust
+    - trust
+    - critical
+    - trusted AI
+    - trustworthy
+    - explainability
+    - AI
+    - Artificial Intelligence
+    - checkmark
+- name: VSCodeWindowResizer
+  friendly_name: VS Code Window Resizer
+  category: Stroke style
+  aliases:
+    - VS Code Window Resizer
+    - VS Code
+    - window
+    - resizer
+    - IDE
