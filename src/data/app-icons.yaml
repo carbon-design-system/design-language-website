@@ -14149,3 +14149,22 @@
     - window
     - resizer
     - IDE
+- name: SovereignCore
+  friendly_name: IBM® Sovereign Core
+  category: Stroke style
+  aliases:
+    - Sovereign Core
+    - shield
+    - turnkey
+    - easy to deploy
+    - AI-ready
+- name: TechCheck
+  friendly_name: IBM® TechCheck
+  category: Stroke style
+  aliases:
+    - TechCheck
+    - wrench
+    - checkmark
+    - workflow
+    - data services
+    - quality inspection
