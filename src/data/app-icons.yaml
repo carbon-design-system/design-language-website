@@ -14261,3 +14261,17 @@
     - Human Resources
     - chat
     - message
+- name: ContentCortex
+  friendly_name: IBM® Content Cortex
+  category: Stroke style
+  aliases:
+    - Content Cortex
+    - Content Manager
+    - Content Services
+    - AI
+    - agents
+    - content access
+    - security
+    - governance
+    - content lifecycle
+    - documents
