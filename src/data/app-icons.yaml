@@ -12745,11 +12745,11 @@
     - call
     - contact
     - chat
-- name: TKEMobile
-  friendly_name: IBM® TKE Mobile
+- name: HSMManager
+  friendly_name: IBM® HSM Manager
   category: Stroke style
   aliases:
-    - IBM TKE Mobile
+    - HSM Manager
     - Trusted Key Entry
     - TKE
     - Hardware Security Module
@@ -13655,12 +13655,12 @@
     - code
     - angle bracket
     - slash
-- name: CloudDatabasesCache
-  friendly_name: IBM Cloud® Databases Cache
+- name: CloudDatabasesForRedis
+  friendly_name: IBM Cloud® Databases for Redis
   category: IBM Plex® style
   aliases:
-    - Ch
-    - IBM Cloud Databases Cache
+    - Rd
+    - Cloud Databases for Redis
     - cache
     - Redis
     - database
@@ -14149,3 +14149,129 @@
     - window
     - resizer
     - IDE
+- name: SovereignCore
+  friendly_name: IBM® Sovereign Core
+  category: Stroke style
+  aliases:
+    - Sovereign Core
+    - shield
+    - turnkey
+    - easy to deploy
+    - AI-ready
+- name: TechCheck
+  friendly_name: IBM® TechCheck
+  category: Stroke style
+  aliases:
+    - TechCheck
+    - wrench
+    - checkmark
+    - workflow
+    - data services
+    - quality inspection
+- name: ClientAlerts
+  friendly_name: IBM® Client Alerts
+  category: Stroke style
+  aliases:
+    - Client Alerts
+    - hand
+    - monitor in real time
+    - wave
+    - pulse
+- name: TechCheckCamera
+  friendly_name: IBM® TechCheck Camera
+  category: Stroke style
+  aliases:
+    - TechCheck Camera
+    - wrench
+    - camera
+    - workflow
+    - data services
+    - quality inspection
+- name: ControllerDisclosureManagement
+  friendly_name: IBM® Controller Disclosure Management
+  category: Stroke style
+  aliases:
+    - Controller Disclosure Management
+    - annual report
+    - projects
+    - hexagon
+- name: SpotHub
+  friendly_name: IBM® SpotHub
+  category: Stroke style
+  aliases:
+    - SpotHub
+    - check in
+    - parking availability
+    - parking spot
+    - pin
+- name: FeedbackHub
+  friendly_name: Feedback Hub
+  category: Stroke style
+  aliases:
+    - Feedback Hub
+    - analytics
+    - insights
+    - response collection
+    - message
+    - AI COE
+    - AI
+    - AI Center of Excellence
+    - infrastructure
+- name: Zi390DevelopmentKit
+  friendly_name: IBM Z® i390 Development Kit
+  category: Stroke style
+  aliases:
+    - IBM Z i390 Development Kit
+    - i390
+    - mainframe
+    - IBM Z
+    - wrench
+- name: DatabaseBackups
+  friendly_name: IBM® Database Backups
+  category: Stroke style
+  aliases:
+    - Database Backups
+    - independent backup
+    - automatic backup
+    - backup hub
+    - cloud
+- name: ConcertSecureCoder
+  friendly_name: IBM® Concert® Secure Coder
+  category: Stroke style
+  aliases:
+    - Concert Secure Coder
+    - application security
+    - AppSec
+    - code security
+    - secure software development
+    - SAST
+    - static analysis
+    - vulnerability remediation
+    - DevSecOps
+    - shift-left security
+    - AI code assistant
+    - secure code review
+- name: AskHR
+  friendly_name: AskHR
+  category: Stroke style
+  aliases:
+    - AskHR
+    - AI Assistant
+    - HR
+    - Human Resources
+    - chat
+    - message
+- name: ContentCortex
+  friendly_name: IBM® Content Cortex
+  category: Stroke style
+  aliases:
+    - Content Cortex
+    - Content Manager
+    - Content Services
+    - AI
+    - agents
+    - content access
+    - security
+    - governance
+    - content lifecycle
+    - documents
