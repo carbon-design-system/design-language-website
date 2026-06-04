@@ -3672,16 +3672,22 @@
     - Status
     - Checked
     - Approved
-- name: '041'
-  friendly_name: Unassigned
+- name: 'CloudMigrationHub'
+  friendly_name: IBM Cloud® Migration Hub
   category: Stroke style
   aliases:
-    - Blue
-    - Teal
-    - Connect
-    - Blockchain
-    - Transition
-    - Process
+    - migration
+    - virtualization
+    - replatforming
+    - replatform
+    - assess
+    - virtualize
+    - classic
+    - vpc
+    - vmware
+    - virtual private cloud
+    - modernize
+    - modernization
 - name: '042'
   friendly_name: Unassigned
   category: Stroke style
@@ -7728,15 +7734,18 @@
     - identification
     - service
     - SaaS
-- name: ContentServices
-  friendly_name: IBM® Content Services
+- name: ContentCortexRepository
+  friendly_name: IBM® Content Cortex Repository
   category: Stroke style
   aliases:
     - Teal
     - Blue
-    - IBM Content Services
+    - Content Cortex Repository
     - business automation
     - content management
+    - content services
+    - storage
+    - document storage
     - SaaS
     - integration
     - governance
@@ -14275,3 +14284,22 @@
     - governance
     - content lifecycle
     - documents
+- name: ContentNavigatorSync
+  friendly_name: IBM® Content Navigator Sync
+  category: Stroke style
+  aliases:
+    - Content Navigator Sync
+    - sync service
+    - ECM
+    - ICN sync
+    - file sync client
+    - arrows
+- name: ContentNavigatorEditService
+  friendly_name: IBM® Content Navigator Edit Service
+  category: Stroke style
+  aliases:
+    - Content Navigator Edit Service
+    - ICN
+    - edit
+    - navigator
+    - pencil
