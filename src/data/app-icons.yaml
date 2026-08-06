@@ -12981,18 +12981,17 @@
     - intelligence
     - climate resilience
     - business efficiency
-- name: EnviziESGSuite
-  friendly_name: IBM® Envizi™ ESG Suite
+- name: unassigned73
+  friendly_name: Unassigned
   category: Stroke style
   aliases:
-    - IBM Envizi ESG Suite
-    - Environmental Social and Governance data
-    - ESG data
+    - Unassigned
     - data management
-    - ESG data management
     - sustainability
-    - decarbonization
+    - leaf
     - sustainability reporting
+    - report
+    - document
 - name: Apptio
   friendly_name: IBM® Apptio®
   category: Stroke style
@@ -14412,3 +14411,15 @@
     - elevate
     - COBOL
     - modernization
+- name: EnviziESGSuite
+  friendly_name: IBM® Envizi™ ESG Suite
+  category: Stroke style
+  aliases:
+    - IBM Envizi ESG Suite
+    - Environmental Social and Governance data
+    - ESG data
+    - data management
+    - ESG data management
+    - sustainability
+    - decarbonization
+    - sustainability reporting
