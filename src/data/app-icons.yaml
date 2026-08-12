@@ -7451,7 +7451,7 @@
     - agility
     - cloud
 - name: watsonxOrchestrate
-  friendly_name: IBM® watsonx Orchestrate™ 
+  friendly_name: IBM® watsonx Orchestrate®
   category: Stroke style
   aliases:
     - IBM watsonx Orchestrate
@@ -8759,7 +8759,7 @@
     - generative AI
     - enterprise
 - name: watsonxCodeAssistant
-  friendly_name: IBM® watsonx Code Assistant™
+  friendly_name: IBM® watsonx Code Assistant®
   category: Stroke style
   aliases:
     - IBM watsonx Code Assistant
@@ -8852,7 +8852,7 @@
     - transform
     - load
 - name: watsonxCodeAssistantforZ
-  friendly_name: IBM® watsonx Code Assistant™ for Z
+  friendly_name: IBM® watsonx Code Assistant® for Z
   category: Stroke style
   aliases:
     - IBM watsonx Code Assistant for Z
@@ -10664,7 +10664,7 @@
     - finance and operations
     - app
 - name: watsonxCodeAssistantforZValidationAssistant
-  friendly_name: IBM® watsonx Code Assistant™ for Z Validation Assistant
+  friendly_name: IBM® watsonx Code Assistant® for Z Validation Assistant
   category: Stroke style
   aliases:
     - watsonx
@@ -11449,7 +11449,7 @@
     - Masking
     - Redact
 - name: watsonxBIAssistant
-  friendly_name: IBM® watsonx BI Assistant™
+  friendly_name: IBM® watsonx BI Assistant®
   category: Stroke style
   aliases:
     - IBM watsonx BI Assistant
@@ -12830,7 +12830,7 @@
     - LSPR
     - CPS Tools
 - name: watsonxCodeAssistantforEnterpriseJavaApplications
-  friendly_name: IBM® watsonx Code Assistant™ for Enterprise Java Applications
+  friendly_name: IBM® watsonx Code Assistant® for Enterprise Java Applications
   category: Stroke style
   aliases:
     - IBM watsonx Code Assistant for Enterprise Java Applications
@@ -13452,7 +13452,7 @@
     - AI
     - toolkit
 - name: WatsonxCodeAssistantForI
-  friendly_name: IBM® watsonx Code Assistant™ for i
+  friendly_name: IBM® watsonx Code Assistant® for i
   category: Stroke style
   aliases:
     - IBM watsonx Code Assistant for i
@@ -13652,7 +13652,7 @@
     - model serving
     - model service
 - name: watsonxCodeAssistantforZUnderstand
-  friendly_name: IBM watsonx® Code Assistant™ for Z Understand
+  friendly_name: IBM watsonx® Code Assistant® for Z Understand
   category: Stroke style
   aliases:
     - watsonx Code Assistant for Z Understand
@@ -14075,7 +14075,7 @@
     - models
     - gateway
 - name: Bob
-  friendly_name: IBM® Bob
+  friendly_name: IBM Bob™
   category: Stroke style
   aliases:
     - Bob
