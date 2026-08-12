@@ -7843,14 +7843,16 @@
     - Purple
     - Blue
     - DevOps
-- name: DevOpsUnassigned3
-  friendly_name: Unassigned
+- name: ReleaseOrchestratorForZ
+  friendly_name: IBM® Release Orchestrator for Z
   category: Stroke style
   aliases:
-    - unassigned 
-    - Purple
-    - Blue
+    - Release Orchestrator for Z
+    - deployment
+    - Z
     - DevOps
+    - clock
+    - hexagon
 - name: DevOpsUnassigned4
   friendly_name: Unassigned
   category: Stroke style
@@ -14424,3 +14426,30 @@
     - decarbonization
     - sustainability reporting
     - leaf
+- name: EngineeringAIHub
+  friendly_name: IBM® Engineering AI Hub
+  category: Stroke style
+  aliases:
+    - Engineering AI Hub
+    - Artificial Intelligence
+    - AI Hub
+    - Engineering AI
+    - AI Assistant
+    - Engineering Generative AI
+    - Agentic AI
+    - AI Engineering Workspace
+    - AI Platform
+    - Engineering Intelligence
+    - Engineering Lifecycle Management
+    - ELM
+    - AI
+- name: OperationsControlCenter
+  friendly_name: IBM® Operations Control Center
+  category: Stroke style
+  aliases:
+    - Operations Control Center
+    - IOCC
+    - control
+    - operations
+    - alert
+    - dashboard
