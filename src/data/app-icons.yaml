@@ -14371,11 +14371,11 @@
     - M
     - gear
     - cog
-- name: S4FMobile
-  friendly_name: IBM® S4F Mobile
+- name: SystemForField
+  friendly_name: IBM® System For Field
   category: Stroke style
   aliases:
-    - S4F Mobile
+    - System For Field
     - field operations
     - service tracking
     - visit logging
@@ -14453,3 +14453,53 @@
     - operations
     - alert
     - dashboard
+- name: CAMLoader
+  friendly_name: IBM® CAM Loader
+  category: Stroke style
+  aliases:
+    - CAM Loader
+    - person
+    - arrow
+    - server
+    - user
+    - database
+    - tm1
+    - planning analytics
+    - load
+    - loader
+    - provisioning
+    - admin
+    - credentials
+    - access
+    - identity
+- name: SPSSStatisticsLite
+  friendly_name: IBM® SPSS® Statistics Lite
+  category: Fill style
+  aliases:
+    - data
+    - SPSSStatisticsLite
+    - Sigma
+    - math
+    - healthcare
+    - SPSS
+    - statistics
+    - stat
+- name: ZCICSTransactionServerConnector
+  friendly_name: IBM Z® CICS® Transaction Server Connector
+  category: Stroke style
+  aliases:
+    - Z CICS Transaction Server Connector
+    - Confluent
+    - Confluent for Z
+    - z/OS connectors
+    - CICS connector
+- name: ZDb2Connector
+  friendly_name: IBM Z® Db2® Connector
+  category: Stroke style
+  aliases:
+    - Z Db2 Connector
+    - Confluent
+    - Confluent for Z
+    - z/OS connectors
+    - Db2 connector
+    - server
