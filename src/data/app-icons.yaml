@@ -10644,7 +10644,7 @@
     - application
     - risk
 - name: w3
-  friendly_name: w3 Experience
+  friendly_name: IBM w3
   category: IBM Plex® style
   aliases:
     - w3
@@ -10660,7 +10660,7 @@
     - intranet
     - IBMer
     - internal
-    - experience
+    - IBM
     - finance and operations
     - app
 - name: watsonxCodeAssistantforZValidationAssistant
@@ -14502,4 +14502,40 @@
     - Confluent for Z
     - z/OS connectors
     - Db2 connector
+    - server
+- name: EmbeddedStreaming
+  friendly_name: IBM® Embedded Streaming
+  category: Stroke style
+  aliases:
+    - embedded
+    - streaming
+    - topics
+    - manage topics
+    - events
+    - publish
+    - schemas
+    - configure schemas
+- name: VSCodeExtensionsMiddlewareExtensionPack
+  friendly_name: VS Code Extensions Middleware Extension Pack
+  category: Stroke style
+  aliases:
+    - VS Code Extensions Middleware Extension Pack
+    - Middleware
+    - extension
+    - Z
+    - Z software
+    - developer experiences
+    - circle
+    - square
+- name: ZSoftwareMigrationToolkit
+  friendly_name: IBM Z® Software Migration Toolkit
+  category: Stroke style
+  aliases:
+    - IBM
+    - Z
+    - AI
+    - software
+    - migration
+    - toolkit
+    - Z Software Migration Toolkit
     - server
