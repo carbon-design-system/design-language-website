@@ -5414,11 +5414,11 @@
     - Blue
     - Purple
     - shield
-- name: SecurityQRadarAnalystWorkflow
-  friendly_name: IBM® Guardium® Quantum Safe
+- name: QuantumSafe
+  friendly_name: IBM Quantum Safe®
   category: Stroke style
   aliases:
-    - IBM Guardium Quantum Safe
+    - IBM Quantum Safe
     - analyst
     - workflow
     - security
@@ -9465,11 +9465,11 @@
     - Machine Learning
     - Generative AI
     - prompt engineering
-- name: QuantumSafeAdvisor
-  friendly_name: IBM Quantum Safe™ Advisor
+- name: QuantumSafeCryptographyManager
+  friendly_name: IBM Quantum Safe® Cryptography Manager
   category: Stroke style
   aliases:
-    - IBM Quantum Safe Advisor
+    - IBM Quantum Safe Cryptography Manager
     - Purple
     - Blue
     - macOS
@@ -9500,11 +9500,12 @@
     - risk
     - prioritization
     - posture
-- name: QuantumSafeRemediator
-  friendly_name: IBM Quantum Safe™ Remediator
+    - manager
+- name: QuantumSafeProxy
+  friendly_name: IBM Quantum Safe® Proxy
   category: Stroke style
   aliases:
-    - IBM Quantum Safe Remediator
+    - IBM Quantum Safe Proxy
     - Purple
     - Blue
     - macOS
@@ -9532,7 +9533,7 @@
     - compliance
     - remediation
 - name: QuantumSafeExplorer
-  friendly_name: IBM Quantum Safe™ Explorer
+  friendly_name: IBM Quantum Safe® Explorer
   category: Stroke style
   aliases:
     - IBM Quantum Safe Explorer
@@ -12358,7 +12359,7 @@
     - model development lifecycle
     - validation 
     - regulation
-- name: GuardiumQuantumSafe
+- name: GuardiumKeyLifecycleManager
   friendly_name: IBM® Guardium® Key Lifecycle Manager
   category: Stroke style
   aliases:
@@ -14539,3 +14540,17 @@
     - toolkit
     - Z Software Migration Toolkit
     - server
+- name: SterlingB2BIntegrationSaaS
+  friendly_name: IBM Sterling® B2B Integration SaaS
+  category: Stroke style
+  aliases:
+    - Sterling B2B Integration SaaS
+    - B2B digital network
+    - B2B transaction platform
+    - AI-powered automation
+    - digital business network
+    - cloud-based digital business network
+    - AI intelligent automation
+    - real-time visibility
+    - insights
+    - data driven decisions
