@@ -14554,3 +14554,57 @@
     - real-time visibility
     - insights
     - data driven decisions
+- name: RemoteCustomerSystemInventory
+  friendly_name: IBM® Remote Customer System Inventory
+  category: Stroke style
+  aliases:
+    - Remote Customer System Inventory
+    - iRCSi
+    - IBM Z
+    - Storage
+    - server
+    - shipping label
+    - barcode
+- name: CloudPublicGatewayForVPC
+  friendly_name: IBM Cloud® Public Gateway for VPC
+  category: Stroke style
+  aliases:
+    - Cloud Public Gateway for VPC
+    - public gateway
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - public network access
+    - outbound connectivity
+    - egress traffic
+    - network gateway
+    - arrow
+- name: CloudFloatingIPForVPC
+  friendly_name: IBM Cloud® Floating IP for VPC
+  category: Stroke style
+  aliases:
+    - Cloud Floating IP for VPC
+    - floating IP
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - public IP address
+    - public network access
+    - internet connectivity
+- name: CloudPublicAddressRangesForVPC
+  friendly_name: IBM Cloud® Public Address Ranges for VPC
+  category: Stroke style
+  aliases:
+    - Cloud Public Address Ranges for VPC
+    - public address ranges
+    - cloud
+    - infrastructure
+    - network
+    - VPC
+    - public IP addresses
+    - BYOIP
+    - authorized CIDR
+    - IP address management
+    - public networking
