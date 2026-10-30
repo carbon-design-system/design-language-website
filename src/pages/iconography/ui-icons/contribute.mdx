@@ -3,7 +3,7 @@ title: UI icons
 description: Icons are visual symbols that represent ideas, objects, or actions. They draw from details in the Plex typeface, and communicate information at a glance.
 tabs: [Library, Design, Usage, Contribute]
 ---
-import {customList, cardMargin} from './Icons.module.scss'
+import { customList, cardMargin, notificationWidth, notificationLabel } from './Icons.module.scss';
 import { PageDescription, AnchorLinks, AnchorLink, MiniCard } from 'gatsby-theme-carbon';
 
 <PageDescription>
@@ -25,7 +25,7 @@ When a new UI icon is needed, refer to the design and production guidelines outl
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
       subTitle="UI icon: Starter file"
-      href="https://github.ibm.com/brand/ui-icons/raw/master/ui-icon-starter-file.ai"
+      href="https://ibm.box.com/s/2huf1s4nai5f0bz6vupzo5muytu339il"
       >
 
 ![Illustrator Icon](../../../images/resource-cards/illustrator.png)
@@ -96,7 +96,13 @@ To be considered production-ready, all icon submissions must be delivered in SVG
 
 ## Approval process
 
-After following this guidance, you may submit your icon design draft for approval. The Brand and Design Systems team will review these icons and facilitate their publication in the IBM Design Language, Figma and Carbon libraries. These libraries are updated in sprints, not when the icon is approved, so you should account for that additional time in your project planning. 
+After following this guidance, you may submit your icon design draft for approval. The Brand and Design Systems team will review these icons and facilitate their publication in the IBM Design Language, Figma and Carbon libraries. These libraries are updated in sprints, not when the icon is approved, so you should account for that additional time in your project planning.
+
+<InlineNotification kind="warning" className={notificationWidth}>
+<span className={notificationLabel}>Warning:</span>
+<span>Some users may experience errors creating GitHub enterprise tickets. If access is unavailable, please <a href="https://w3.ibm.com/#/support/article/github_ent_ibm/git_started">request new access</a>, clear cache and cookies and try again.</span>
+</InlineNotification>
+
 
 <ol className={customList}>
 <li>Submit your first design draft using one of the GitHub issue types, single, batch or update, linked at the bottom of this page. Follow the instructions in the issue to avoid possible delays in the review process.<br/><em>Note: Non-designers can submit visual references or sketches with context about how the icon will appear, in lieu of a design file.</em></li>

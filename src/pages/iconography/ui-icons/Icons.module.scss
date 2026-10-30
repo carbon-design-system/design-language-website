@@ -5,3 +5,24 @@
 .cardMargin {
   margin-top: 3.5rem;
 }
+
+.notificationWidth {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  padding-left: 0 !important;
+}
+
+.notificationWidth :global(.bx--inline-notification__subtitle) {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.notificationLabel {
+  flex-shrink: 0;
+  font-weight: 600;
+}
+
+:global(.bx--row):has(> .notificationWidth) {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
