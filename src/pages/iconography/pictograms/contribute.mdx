@@ -4,7 +4,7 @@ description: Pictograms are visual symbols used to represent ideas, objects, or 
 tabs: [Library, Design, Usage, Contribute]
 ---
 
-import {cardMargin} from './Icons.module.scss'
+import {cardMargin, customList, notificationWidth, notificationLabel} from './Icons.module.scss'
 
 <PageDescription>
 
@@ -25,7 +25,7 @@ As IBM continues to innovate with products and services, you may find the need f
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
     subTitle="Productive pictogram: Master file"
-    href="https://github.com/carbon-design-system/carbon/raw/main/packages/pictograms/master/productive-pictogram-master.ai"
+    href="https://ibm.box.com/shared/static/4pjw86jh9e6kb9gl8lcx70dvgxxspa0q.ai"
     actionIcon="download"
     >
 
@@ -47,7 +47,7 @@ As IBM continues to innovate with products and services, you may find the need f
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
     subTitle="Productive pictogram: Starter file"
-    href="https://github.ibm.com/brand/Pictograms/raw/master/productive-pictogram-starter-file.ai"
+    href="https://ibm.box.com/shared/static/9yhducnlkgwd68psoxjwcjguivhl55tk.ai"
     actionIcon="download"
     >
 
@@ -69,7 +69,7 @@ As IBM continues to innovate with products and services, you may find the need f
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
     subTitle="Expressive pictogram: Master file"
-    href="https://github.com/carbon-design-system/carbon/raw/main/packages/pictograms/master/expressive-pictogram-master.ai"
+    href="https://ibm.box.com/shared/static/9yhducnlkgwd68psoxjwcjguivhl55tk.ai"
     actionIcon="download"
     >
 
@@ -114,15 +114,26 @@ To be considered production-ready, all pictogram submissions must be delivered i
 - All strokes should be kept as is and not converted to shapes.
 - Group strokes logically whenever possible.
 
+<Row>
+<Column colMd={5} colLg={8}>
+
 ## Approval process
 
 After following this guidance, you may submit your productive or expressive pictogram design draft for approval. The Brand and Design Systems team will review these pictograms and facilitate their publication in the IBM Design Language, Figma and Carbon libraries. These libraries are updated in sprints, not when the icon is approved, so you should account for that additional time in your project planning.
 
-<ol>
+<InlineNotification kind="warning" className={notificationWidth}>
+<span className={notificationLabel}>Warning:</span>
+<span>Some users may experience errors creating GitHub enterprise tickets. If access is unavailable, please <a href="https://w3.ibm.com/#/support/article/github_ent_ibm/git_started">request new access</a>, clear cache and cookies and try again.</span>
+</InlineNotification>
+
+<ol className={customList}>
 <li>Submit your first design draft using one of the GitHub issue types, single, batch or update, linked at the bottom of this page. Follow the instructions in the issue to avoid possible delays in the review process.<br/><em>Note: Non-designers can submit visual references or sketches with context about how the icon will appear in lieu of a design file.</em></li>
 <li>The Brand and Design Systems team will review your submitted design and provide recommendations and design feedback within the GitHub issue.<br/>This review process can take up to 30 days from issue creation, depending on the number of icons submitted.</li>
-<li>When your submission is approved, your finalized pictogram will be moved into a production sprint, after which it will appear in the Carbon, IBM Design Language and Figma libraries.<br/><em>Note: Approved pictograms can be introduced into materials before they’re added to the libraries listed.</em></li>
+<li>When your submission is approved, your finalized pictogram will be moved into a production sprint, after which it will appear in the Carbon, IBM Design Language and Figma libraries.<br/><em>Note: Approved pictograms can be introduced into materials before they're added to the libraries listed.</em></li>
 </ol>
+
+</Column>
+</Row>
 
 <CardGroup className={cardMargin}>
   <MiniCard
