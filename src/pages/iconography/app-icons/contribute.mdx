@@ -6,7 +6,7 @@ description:
 tabs: [Library, Design, Usage, Contribute]
 ---
 
-import {customList, cardMargin} from './Icons.module.scss'
+import {customList, cardMargin, notification, notificationLabel} from './Icons.module.scss'
 
 <PageDescription>
 
@@ -29,7 +29,7 @@ Learn about the contribution and approval process required to add it to the offi
     <ResourceCard
       subTitle="App icon: Starter file"
       aspectRatio="2:1"
-      href="https://github.ibm.com/brand/App-icons/raw/master/app-icon-starter-file.ai"
+      href="https://ibm.box.com/shared/static/y9n5yo1suv2spw3pmnxopskm0ohz9s4p.ai"
       actionIcon="download"
       >
 
@@ -53,7 +53,7 @@ Learn about the contribution and approval process required to add it to the offi
   <ResourceCard
     subTitle="App icon: Builder"
     aspectRatio="2:1"
-    href="https://github.ibm.com/carbon/app-icons/raw/master/App_Icon_Builder.ai"
+    href="https://ibm.box.com/shared/static/cs0kfrn9f55pnuhfz9xy9ai8osb72ozm.ai"
     actionIcon="download"
     >
 
@@ -84,14 +84,14 @@ All app icons should follow the guidelines outlined here:
 Keep the following in mind when creating an app icon:
 
 - Use the starter file and create the desired icon within the blank workspace artboards. Refer to the [Design tab](/iconography/app-icons/design/) for detailed guidance.
-- Note that 32px app icons should have 2px padding.
+- Make sure 32px app icons have 2px of padding.
 - Set your workspace up to snap to grid.
 - Be aware of automatic alignments that can place vectors on uneven or half pixels.
 - Group app icon layers completely. The icon should be placed in the _Build icon_ layer in the Builder file when submitted for review.
 
 ### Production-ready
 
-To be considered Production-ready, all app icon submissions must be delivered in the Adobe Illustrator Starter file provided in the [Resources](#resources) section.
+To be considered production-ready, all app icon submissions must be delivered in the Adobe Illustrator Starter file provided in the [Resources](#resources) section.
 
 - Icons should be at whole pixels. No decimals are allowed in _x_ and _y_ coordinates or width and height fields.
 - Each artboard and the artwork within it must be aligned to the pixel grid.
@@ -102,11 +102,16 @@ To be considered Production-ready, all app icon submissions must be delivered in
 
 After following this guidance, you may submit your app icon design draft for approval. The Brand and Design Systems team will review these app icons and facilitate their publication in the IBM Design Language and Figma libraries. The libraries are updated in sprints, not when the icon is approved, so you should account for that additional time in your project planning.
 
+<InlineNotification kind="warning" className={notification}>
+<span className={notificationLabel}>Warning:</span>
+<span>Some users may experience errors creating GitHub enterprise tickets. If access is unavailable, please <a href="https://w3.ibm.com/#/support/article/github_ent_ibm/git_started">request new access</a>, clear cache and cookies and try again.</span>
+</InlineNotification>
+
 <ol>
 <li>Submit your first design draft using one of the GitHub issue types, single, batch, update or assignment, linked at the bottom of the page. Follow the instructions in the issue to avoid possible delays in the review process. <br/>
 <em>Note: Non-designers can submit visual references or sketches with context about how the icon will appear in lieu of a design file.</em></li>
 <li>The Brand and Design Systems team will review your submitted design and provide recommendations and design feedback within the GitHub issue.<br/>This review process can take up to 30 days from issue creation, depending on the number of icons submitted. </li>
-<li>When your submission is approved, you will receive a Box link with the exported files for the app icon. The Brand team will move the icon into a production sprint, after which it will appear in the IBM Design Language and Figma libraries.<br/><em>Note: Approved app icons can be introduced into materials before they’re added to the libraries listed.</em></li>
+<li>When your submission is approved, you’ll receive a Box link with the exported files for the app icon. The Brand team will move the icon into a production sprint, after which it will appear in the IBM Design Language and Figma libraries.<br/><em>Note: Approved app icons can be introduced into materials before they’re added to the libraries listed.</em></li>
 </ol>
 
 <CardGroup className={cardMargin}>
