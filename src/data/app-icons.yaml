@@ -14608,3 +14608,48 @@
     - authorized CIDR
     - IP address management
     - public networking
+- name: Db2GeniusCode
+  friendly_name: IBM® Db2® Genius Code
+  category: Stroke style
+  aliases:
+    - Db2 Genius Code
+    - VS Code
+    - database
+    - SQL
+    - AI assistant
+    - query optimization
+    - IBM Db2 Developer Extension
+    - square
+    - triangle
+    - circle
+    - code
+- name: Rivet
+  friendly_name: IBM® Rivet
+  category: Fill style
+  aliases:
+    - Rivet
+    - square
+    - chat
+    - AI assistant
+    - agent
+    - agentic AI
+    - digital worker
+    - conversation
+    - speech bubble
+    - assistant
+    - automation
+    - orchestration
+    - watsonx Orchestrate
+    - connect
+- name: CloudCyberVault
+  friendly_name: IBM Cloud® Cyber Vault
+  category: Fill style
+  aliases:
+    - Cloud Cyber Vault
+    - shield
+    - security
+    - object storage
+    - S3
+    - cyber
+    - cybersecurity
+    - vault
