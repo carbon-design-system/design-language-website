@@ -14608,3 +14608,86 @@
     - authorized CIDR
     - IP address management
     - public networking
+- name: Db2GeniusCode
+  friendly_name: IBM® Db2® Genius Code
+  category: Stroke style
+  aliases:
+    - Db2 Genius Code
+    - VS Code
+    - database
+    - SQL
+    - AI assistant
+    - query optimization
+    - IBM Db2 Developer Extension
+    - square
+    - triangle
+    - circle
+    - code
+- name: Rivet
+  friendly_name: IBM® Rivet
+  category: Fill style
+  aliases:
+    - Rivet
+    - square
+    - chat
+    - AI assistant
+    - agent
+    - agentic AI
+    - digital worker
+    - conversation
+    - speech bubble
+    - assistant
+    - automation
+    - orchestration
+    - watsonx Orchestrate
+    - connect
+- name: CloudCyberVault
+  friendly_name: IBM Cloud® Cyber Vault
+  category: Fill style
+  aliases:
+    - Cloud Cyber Vault
+    - shield
+    - security
+    - object storage
+    - S3
+    - cyber
+    - cybersecurity
+    - vault
+- name: UnifiedKeyOrchestratorforSecureRoomOperation
+  friendly_name: IBM® Unified Key Orchestrator for Secure Room Operation
+  category: Fill style
+  aliases:
+    - Unified Key Orchestrator for Secure Room Operation
+    - UKO for SRO
+    - secure room operation
+    - cryptographic key management
+    - dual control
+    - key
+    - monitor
+- name: EngineeringKnowledgeWorkspace
+  friendly_name: IBM® Engineering Knowledge Workspace
+  category: Stroke style
+  aliases:
+    - Engineering Knowledge Workspace
+    - knowledge management
+    - engineering lifecycle
+    - ELM
+    - enterprise engineering
+    - AI-assisted engineering
+    - engineering methods
+    - arrow
+    - pencil
+    - text
+- name: AppServices
+  friendly_name: IBM® App Services
+  category: Fill style
+  aliases:
+    - IBM App Services
+    - ASP
+    - App Services Portal
+    - code signing
+    - notarization
+    - square
+    - apps
+    - circle
+    - dot
